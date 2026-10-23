@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "kind": "multiview_3d",
+  "ns": 1,
+  "engine": "Blender",
+  "config": {
+    "nr": 6,
+    "ne": 6,
+    "near": 1.5,
+    "far": 3.0,
+    "zero": 2.0952888516923345,
+    "focal_mm": 50.0,
+    "sensor_width_mm": 36.0,
+    "camera_span": 0.08778008944230967,
+    "positions": [
+      -0.04389004472115483,
+      -0.026331562306976673,
+      -0.008776776750561505,
+      0.008776776750561505,
+      0.026331562306976673,
+      0.04389004472115483
+    ],
+    "grid_size": 640,
+    "edge_threshold": 0.1,
+    "depth_convention": "white-near",
+    "sweep_seconds": 2.0,
+    "camera_axis": "x",
+    "edge_mode": "split"
+  },
+  "legacy_job": {
+    "schema_version": 1,
+    "config": {
+      "nr": 6,
+      "ne": 6,
+      "near": 1.5,
+      "far": 3.0,
+      "zero": 2.0952888516923345,
+      "focal_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "camera_span": 0.08778008944230967,
+      "positions": [
+        -0.04389004472115483,
+        -0.026331562306976673,
+        -0.008776776750561505,
+        0.008776776750561505,
+        0.026331562306976673,
+        0.04389004472115483
+      ],
+      "grid_size": 640,
+      "edge_threshold": 0.1,
+      "depth_convention": "white-near",
+      "sweep_seconds": 2.0,
+      "camera_axis": "x",
+      "edge_mode": "split"
+    },
+    "size": [
+      1872,
+      3098
+    ],
+    "surfaces": [
+      {
+        "name": "Depth layer 1",
+        "mesh": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-75-100-20261009-35bdac\\shared\\layer_00.npz",
+        "texture": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-75-100-20261009-35bdac\\shared\\layer_00.png",
+        "extend": true
+      },
+      {
+        "name": "Depth layer 2",
+        "mesh": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-75-100-20261009-35bdac\\shared\\layer_01.npz",
+        "texture": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-75-100-20261009-35bdac\\shared\\layer_01.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 3",
+        "mesh": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-75-100-20261009-35bdac\\shared\\layer_02.npz",
+        "texture": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-75-100-20261009-35bdac\\shared\\layer_02.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 4",
+        "mesh": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-75-100-20261009-35bdac\\shared\\layer_03.npz",
+        "texture": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-75-100-20261009-35bdac\\shared\\layer_03.png",
+        "extend": false
+      }
+    ],
+    "mesh": {
+      "vertices": 2717840,
+      "triangles": 5422080,
+      "cut_triangles": 0,
+      "split_triangles": 0,
+      "focal_px": 2600.0,
+      "layer_count": 4
+    },
+    "quality": {
+      "samples": 32,
+      "denoising": false
+    },
+    "source_inputs": {
+      "photo_sha256": "5b33c735c5001fb320920b33279f2ab20fb9543a6cdb01dae21344b83e931f40",
+      "depth_sha256": "08f8d9a5a8ce091c05b17ab7c99abbe3429161ebc0feeac4d9fa11e683c18690"
+    }
+  },
+  "frames": [
+    {
+      "path": "views/view_0000.png",
+      "view_coordinate": -0.020943951023931952,
+      "generated": true
+    },
+    {
+      "path": "views/view_0001.png",
+      "view_coordinate": -0.012566370614359171,
+      "generated": true
+    },
+    {
+      "path": "views/view_0002.png",
+      "view_coordinate": -0.0041887902047863905,
+      "generated": true
+    },
+    {
+      "path": "views/view_0003.png",
+      "view_coordinate": 0.0041887902047863905,
+      "generated": true
+    },
+    {
+      "path": "views/view_0004.png",
+      "view_coordinate": 0.012566370614359171,
+      "generated": true
+    },
+    {
+      "path": "views/view_0005.png",
+      "view_coordinate": 0.020943951023931952,
+      "generated": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alışkanlık Sayacı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app" aria-labelledby="title">
+    <h1 id="title">Alışkanlık Sayacı</h1>
+    <p class="intro">Bugün yapmak istediğin alışkanlıkları sade biçimde takip et.</p>
+    <form id="habit-form" autocomplete="off">
+      <label for="habit-input">Yeni alışkanlık</label>
+      <div class="entry">
+        <input id="habit-input" name="habit" maxlength="80" required placeholder="Örn. 20 dakika yürüyüş">
+        <button type="submit">Ekle</button>
+      </div>
+    </form>
+    <p id="summary" class="summary" role="status" aria-live="polite">0 alışkanlık</p>
+    <ul id="habit-list" class="habit-list" aria-label="Alışkanlıklar"></ul>
+    <p id="empty" class="empty">Henüz alışkanlık eklenmedi.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

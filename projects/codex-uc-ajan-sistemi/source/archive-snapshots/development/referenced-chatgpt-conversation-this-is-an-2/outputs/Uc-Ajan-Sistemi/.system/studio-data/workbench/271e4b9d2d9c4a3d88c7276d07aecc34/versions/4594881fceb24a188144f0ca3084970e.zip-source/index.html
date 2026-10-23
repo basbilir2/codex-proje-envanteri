@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Uzay Oyunu</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0b0f19;
+    color: #e2e8f0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  #oyun-alani {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 1px solid #2c334b;
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(#111423, #0b0f19);
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  }
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  #ui {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(0,0,0,0.7);
+    user-select: none;
+  }
+  #ui .skor { color: #22d3ee; }
+  #ui .can { color: #f87171; }
+  #ekran-overlay {
+    position: absolute;
+    inset: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(11, 15, 25, 0.85);
+    backdrop-filter: blur(4px);
+  }
+  #ekran-overlay h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+    color: #f87171;
+    text-shadow: 0 0 12px rgba(248, 113, 113, 0.5);
+  }
+  #skor-goster {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #22d3ee;
+  }
+  button {
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0b0f19;
+    background: #22d3ee;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 16px rgba(34, 211, 238, 0.5);
+  }
+  button:hover { background: #67e8f9; }
+  button:active { transform: translateY(1px); }
+  #kontrol-ipucu {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #94a3b8;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div id="oyun-alani">
+  <div id="ui">
+    <div>Skor: <span class="skor" id="skor">0</span></div>
+    <div>Can: <span class="can" id="can">3</span></div>
+  </div>
+  <canvas id="cvs"></canvas>
+
+  <div id="ekran-overlay">
+    <h1 id="baslik">Oyun Bitti</h1>
+    <div id="skor-goster">Skor: 0</div>
+    <button id="yeniden-baslat">Yeniden Başlat</button>
+    <div id="kontrol-ipucu">Ok tuşlarıyla hareket et, meteorlerden kaçın</div>
+  </div>
+</div>
+
+<script>
+  const cvs = document.getElementById('cvs');
+  const ctx = cvs.getContext('2d');
+  const skorEl = document.getElementById('skor');
+  const canEl = document.getElementById('can');
+  const overlay = document.getElementById('ekran-overlay');
+  const baslik = document.getElementById('baslik');
+  const skorGoster = document.getElementById('skor-goster');
+  const btn = document.getElementById('yeniden-baslat');
+
+  cvs.width = 800;
+  cvs.height = 600;
+
+  const W = cvs.width;
+  const H = cvs.height;
+
+  let skor = 0;
+  let can = 3;
+  let oyunAktif = true;
+  let sure = 0;
+
+  const tuslar = {};
+  window.addEventListener('keydown', e => { tuslar[e.code] = true; });
+  window.addEventListener('keyup', e => { tuslar[e.code] = false; });
+
+  const gemi = {
+    x: W / 2,
+    y: H - 60,
+    w: 36,
+    h: 36,
+    hiz: 6,
+    can: 3,
+    canli: true
+  };
+
+  const meteorlar = [];
+  const yildizlar = [];
+
+  for (let i = 0; i < 80; i++) {
+    yildizlar.push({
+      x: Math.random() * W,
+      y: Math.random() * H,
+      boyut: Math.random() * 1.5,
+      parlaklik: Math.random()
+    });
+  }
+
+  function resetle() {
+    skor = 0;
+    can = 3;
+    sure = 0;
+    meteorlar.length = 0;
+    gemi.x = W / 2;
+    gemi.y = H - 60;
+    gemi.canli = true;
+    skorEl.textContent = skor;
+    canEl.textContent = can;
+    overlay.style.display = 'none';
+    oyunAktif = true;
+    dongu();
+  }
+
+  function meteorEkle() {
+    const w = 24 + Math.random() * 30;
+    meteorlar.push({
+      x: Math.random() * (W - w),
+      y: -w,
+      w,
+      h: w,
+      hiz: 2 + Math.random() * 3 + sure * 0.02,
+      aci: Math.random() * Math.PI * 2,
+      donus: (Math.random() - 0.5) * 0.05
+    });
+  }
+
+  function carpisma(a, b) {
+    return a.x < b.x + b.w &&
+           a.x + a.w > b.x &&
+           a.y < b.y + b.h &&
+           a.y + a.h > b.y;
+  }
+
+  function gemiCiz() {
+    ctx.save();
+    ctx.translate(gemi.x + gemi.w / 2, gemi.y + gemi.h / 2);
+    ctx.fillStyle = '#22d3ee';
+    ctx.shadowColor = '#22d3ee';
+    ctx.shadowBlur = 15;
+    ctx.beginPath();
+    ctx.moveTo(0, -18);
+    ctx.lineTo(-14, 14);
+    ctx.lineTo(0, 4);
+    ctx.lineTo(14, 14);
+    ctx.closePath();
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function meteorCiz(m) {
+    ctx.save();
+    ctx.translate(m.x + m.w / 2, m.y + m.h / 2);
+    ctx.rotate(m.aci);
+    ctx.fillStyle = '#f87171';
+    ctx.shadowColor = '#f87171';
+    ctx.shadowBlur = 12;
+    ctx.beginPath();
+    for (let i = 0; i < 5; i++) {
+      const aci = (i * 4 * Math.PI) / 5;
+      const r1 = i % 2 === 0 ? m.w / 2 : m.w / 4;
+      const px = Math.cos(aci) * r1;
+      const py = Math.sin(aci) * r1;
+      if (i === 0) ctx.moveTo(px, py);
+      else ctx.lineTo(px, py);
+    }
+    ctx.closePath();
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function yildizCiz() {
+    for (const y of yildizlar) {
+      ctx.globalAlpha = y.parlaklik;
+      ctx.fillStyle = '#ffffff';
+      ctx.beginPath();
+      ctx.arc(y.x, y.y, y.boyut, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  function hizla() {
+    if (!oyunAktif || !gemi.canli) return;
+    if (tuslar['ArrowLeft'] || tuslar['KeyA']) gemi.x -= gemi.hiz;
+    if (tuslar['ArrowRight'] || tuslar['KeyD']) gemi.x += gemi.hiz;
+    if (tuslar['ArrowUp'] || tuslar['KeyW']) gemi.y -= gemi.hiz;
+    if (tuslar['ArrowDown'] || tuslar['KeyS']) gemi.y += gemi.hiz;
+
+    gemi.x = Math.max(0, Math.min(W - gemi.w, gemi.x));
+    gemi.y = Math.max(0, Math.min(H - gemi.h, gemi.y));
+  }
+
+  function guncelle() {
+    if (!oyunAktif) return;
+
+    sure++;
+    hizla();
+
+    if (sure % Math.max(20, 60 - Math.floor(sure / 600)) === 0) {
+      meteorEkle();
+    }
+
+    for (let i = meteorlar.length - 1; i >= 0; i--) {
+      const m = meteorlar[i];
+      m.y += m.hiz;
+      m.aci += m.donus;
+
+      if (carpisma(gemi, m)) {
+        can--;
+        canEl.textContent = can;
+        meteorlar.splice(i, 1);
+        if (can <= 0) {
+          oyunAktif = false;
+          gemi.canli = false;
+          baslik.textContent = 'Oyun Bitti';
+          skorGoster.textContent = 'Skor: ' + skor;
+          overlay.style.display = 'flex';
+          return;
+        }
+      } else if (m.y > H) {
+        meteorlar.splice(i, 1);
+        skor++;
+        skorEl.textContent = skor;
+      }
+    }
+  }
+
+  function ciz() {
+    ctx.clearRect(0, 0, W, H);
+    yildizCiz();
+    if (gemi.canli) gemiCiz();
+    for (const m of meteorlar) meteorCiz(m);
+  }
+
+  function dongu() {
+    guncelle();
+    ciz();
+    if (oyunAktif) requestAnimationFrame(dongu);
+  }
+
+  btn.addEventListener('click', resetle);
+
+  resetle();
+</script>
+
+</body>
+</html>

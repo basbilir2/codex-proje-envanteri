@@ -1,0 +1,22 @@
+'use strict';
+const assert = require('node:assert/strict');
+const app = require('./app.js');
+
+assert.equal(app.normalizeText('  Su   iç  '), 'Su iç', 'metin temizlenir');
+assert.throws(() => app.addHabit([], '   ', 'x'), /boş olamaz/, 'boş alışkanlık reddedilir');
+const original = [];
+const one = app.addHabit(original, 'Kitap oku', '1');
+assert.equal(original.length, 0, 'ekleme girdiyi değiştirmez');
+assert.deepEqual(one[0], { id: '1', name: 'Kitap oku', done: false }, 'alışkanlık eklenir');
+const done = app.toggleHabit(one, '1');
+assert.equal(done[0].done, true, 'tamamlandı durumu değişir');
+assert.equal(one[0].done, false, 'değiştirme kopya üzerinde yapılır');
+const two = app.addHabit(done, 'Yürü', '2');
+assert.deepEqual(app.counts(two), { total: 2, completed: 1, remaining: 1 }, 'sayaç doğrudur');
+assert.deepEqual(app.deleteHabit(two, '1').map((item) => item.id), ['2'], 'silme doğrudur');
+assert.deepEqual(app.parseHabits(app.serializeHabits(two)), two, 'JSON turu kayıpsızdır');
+assert.deepEqual(app.parseHabits('{bozuk'), [], 'bozuk kayıt güvenle boş liste olur');
+const memory = { value: null, setItem(_key, value) { this.value = value; }, getItem() { return this.value; } };
+app.saveHabits(memory, two);
+assert.deepEqual(app.loadHabits(memory), two, 'localStorage turu çalışır');
+console.log('11/11 doğrulama geçti');

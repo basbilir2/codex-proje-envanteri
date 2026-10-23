@@ -1,0 +1,28 @@
+ATATÜRK RÖLYEFİ — UV LENTICULAR BASKI
+
+Ölçü: 20 × 23,34 cm. Raster: 9449 × 11028 piksel; 1200 PPI.
+Yazıcı: 1200 DPI. Lens: 60 LPI, dikey çizgiler, sağ/sol 3D.
+Renk: gömülü sRGB ICC profilli RGB. UV RIP'te uygun üretim profilini kullanın.
+Aynalama kapalı. Arkadan baskıda yönü üretim yöntemiyle doğrulayın.
+
+24Fotograf dosyası 24 ayrı Blender görünüşünü 24 kanala kodlar.
+12Fotograf dosyası aynı görünüş setinden eşit açısal dağılımla seçilmiş
+12 ayrı görünüşü 12 kanala kodlar. İki dosyanın kamera aralığı aynıdır.
+1200 / 60 = lens başına 20 raster piksel/yazıcı noktası.
+24 kanalda dilimler ayrı piksellere sığmaz; alan kapsama örneklemesi bazı
+piksellerde komşu kanalları karıştırır. 24 bağımsız optik kanal çözüleceği
+garanti değildir. İlk fiziksel karşılaştırmayı 12 sürümüyle yapın.
+Kaynak ayrıntısı bu ölçüde yaklaşık 295 PPI'dır. 1200 PPI raster,
+fazladan fotoğraf ayrıntısı oluşturmaz; lens dilimlerini örnekler.
+
+Referans 0,20; güç 1,15; ön 1,05; arka 0,75; gri dengesi 1,10;
+siyah 0; beyaz 1. İstenen açı 1,80°; uygulanan açı yaklaşık 0,93°.
+Paralaks koruması: en büyük uç hareket farkı %1,5.
+
+Beyaz maskesi iki renk dosyası için ortaktır. RIP'te ayrı White kanalı
+olarak ata; RGB TIFF içinde spot beyaz yoktur. Maskenin tamamı opaktır.
+%100 fiziksel boyutta bas. Sayfaya sığdırma veya interlace dosyasını
+sonradan yeniden ölçekleme kullanma.
+60 LPI etiket değeri kullanıldı; fiziksel pitch doğrulaması yapılmadı.
+Pitch testini aynı lens, malzeme ve RIP koşullarında kontrol et.
+Ölçülen etkin LPI farklıysa interlace yeniden hazırlanmalıdır.

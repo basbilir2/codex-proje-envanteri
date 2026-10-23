@@ -1,0 +1,15 @@
+[
+  "source/workspace/work/check-corel-status.ps1",
+  "source/workspace/work/continue-Operator.ps1",
+  "source/workspace/work/inspect-corel.ps1",
+  "source/workspace/work/inspect-number.ps1",
+  "source/workspace/work/inspect-outlines.ps1",
+  "source/workspace/work/layout-corel.ps1",
+  "source/workspace/work/layout-Operator.ps1",
+  "source/workspace/work/preflight-corel.ps1",
+  "source/workspace/work/remove-outlines.ps1",
+  "source/workspace/work/reopen-Operator.ps1",
+  "source/workspace/work/save-method.ps1",
+  "source/workspace/work/save-reopen-corel.ps1",
+  "source/workspace/work/verify-save-corel.ps1"
+]

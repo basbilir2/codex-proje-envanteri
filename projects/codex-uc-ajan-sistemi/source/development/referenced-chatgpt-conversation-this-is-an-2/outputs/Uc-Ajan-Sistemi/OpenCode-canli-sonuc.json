@@ -1,0 +1,20 @@
+{
+  "actual_opencode": true,
+  "actual_nvidia": true,
+  "models_substituted": false,
+  "attempts": 1,
+  "status": "failed",
+  "reason": "nvidia_request_failed",
+  "request_failure": {
+    "start": 1792321637.6911476,
+    "model": "deepseek-ai/deepseek-v4.1-flash",
+    "reasoning_effort": 1,
+    "chat_template_kwargs": {},
+    "error": "TimeoutError",
+    "end": 1792321867.881951
+  },
+  "exit_code": 1,
+  "children": {},
+  "final": "",
+  "seconds": 234.44
+}

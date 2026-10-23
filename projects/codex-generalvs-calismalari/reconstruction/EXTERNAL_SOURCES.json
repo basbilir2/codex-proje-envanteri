@@ -1,0 +1,11 @@
+[
+  "https://github.com/DepthAnything/Depth-Anything-V2",
+  "https://github.com/ggml-org/llama.cpp/blob/master/grammars/README.md",
+  "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md",
+  "https://github.com/huggingface/trl",
+  "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+  "https://huggingface.co/Qwen/Qwen3-Coder-Next",
+  "https://huggingface.co/Qwen/Qwen3-Embedding-4B",
+  "https://huggingface.co/docs/peft/package_reference/lora",
+  "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+]

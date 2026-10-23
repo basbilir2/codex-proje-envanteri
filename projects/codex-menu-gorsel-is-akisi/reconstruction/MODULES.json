@@ -1,0 +1,10 @@
+[
+  "source/development/outputs/gosterilen-urunler-v9-kontrol.ps1",
+  "source/development/outputs/gosterilen-urunleri-yerlestir-v9.ps1",
+  "source/development/outputs/hamburger-v10-uygula.ps1",
+  "source/development/outputs/kola-v11-uygula.ps1",
+  "source/development/outputs/urun-v8-hazirla.ps1",
+  "source/development/outputs/urun-v8-kontrol.ps1",
+  "source/development/outputs/urun-v8-son.ps1",
+  "source/development/outputs/urun-v8-yerlestir.ps1"
+]

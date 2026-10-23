@@ -1,0 +1,515 @@
+{
+  "scene_source": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\scene",
+  "delivery": "C:\\Users\\USER\\Downloads\\Lenticular-Portre-50-75-100LPI-20261009-35bdac\\YENI-HARITA-50.20-1200-20261011",
+  "variants": [
+    {
+      "id": "A",
+      "name": "HAFIF-DERINLIK",
+      "label": "Hafif derinlik",
+      "front_gain": 0.6,
+      "back_gain": 0.6,
+      "folder": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\trials\\A",
+      "settings": {
+        "width_mm": 130,
+        "height_mm": 215.139,
+        "bleed_mm": 0,
+        "ppi": 1200,
+        "printer_dpi": 1200,
+        "nominal_lpi": 50,
+        "effective_lpi": 50.2,
+        "ne": 10,
+        "axis": "vertical",
+        "phase": 0.0,
+        "tilt_deg": 0,
+        "reverse_views": false,
+        "mirror": false,
+        "fit": "contain",
+        "stripe_sampling": "area",
+        "crosstalk": 0,
+        "compensation": 0,
+        "regularization": 0.02,
+        "crosstalk_matrix": null,
+        "icc_path": null,
+        "color_mode": "RGB",
+        "white_underbase": false,
+        "pitch_verified": false,
+        "viewing_distance_mm": 500,
+        "lens_view_angle_deg": 30,
+        "allow_unfilled": false,
+        "pitch_step": 0.01,
+        "pitch_candidates": 3,
+        "gamut_guard": true,
+        "lens_angle_verified": false,
+        "raster_ppi_verified": false
+      },
+      "panel_origin_px": 0,
+      "filename": "A-YENI-HAFIF-DERINLIK-50.20LPI-1200PPI.tif",
+      "endpoint_parallax_percent": {
+        "front": 1.44,
+        "back": 1.44
+      }
+    },
+    {
+      "id": "B",
+      "name": "DENGELI-GUCLU",
+      "label": "Dengeli / güçlü",
+      "front_gain": 1.0,
+      "back_gain": 1.0,
+      "folder": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\trials\\B",
+      "settings": {
+        "width_mm": 130,
+        "height_mm": 215.139,
+        "bleed_mm": 0,
+        "ppi": 1200,
+        "printer_dpi": 1200,
+        "nominal_lpi": 50,
+        "effective_lpi": 50.2,
+        "ne": 10,
+        "axis": "vertical",
+        "phase": 0.813,
+        "tilt_deg": 0,
+        "reverse_views": false,
+        "mirror": false,
+        "fit": "contain",
+        "stripe_sampling": "area",
+        "crosstalk": 0,
+        "compensation": 0,
+        "regularization": 0.02,
+        "crosstalk_matrix": null,
+        "icc_path": null,
+        "color_mode": "RGB",
+        "white_underbase": false,
+        "pitch_verified": false,
+        "viewing_distance_mm": 500,
+        "lens_view_angle_deg": 30,
+        "allow_unfilled": false,
+        "pitch_step": 0.01,
+        "pitch_candidates": 3,
+        "gamut_guard": true,
+        "lens_angle_verified": false,
+        "raster_ppi_verified": false
+      },
+      "panel_origin_px": 6378,
+      "filename": "B-YENI-DENGELI-GUCLU-50.20LPI-1200PPI.tif",
+      "endpoint_parallax_percent": {
+        "front": 2.4,
+        "back": 2.4
+      }
+    },
+    {
+      "id": "C",
+      "name": "ARKA-PLAN-AGIRLIKLI",
+      "label": "Arka plan ağırlıklı",
+      "front_gain": 0.7,
+      "back_gain": 1.0,
+      "folder": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\trials\\C",
+      "settings": {
+        "width_mm": 130,
+        "height_mm": 215.139,
+        "bleed_mm": 0,
+        "ppi": 1200,
+        "printer_dpi": 1200,
+        "nominal_lpi": 50,
+        "effective_lpi": 50.2,
+        "ne": 10,
+        "axis": "vertical",
+        "phase": 0.626,
+        "tilt_deg": 0,
+        "reverse_views": false,
+        "mirror": false,
+        "fit": "contain",
+        "stripe_sampling": "area",
+        "crosstalk": 0,
+        "compensation": 0,
+        "regularization": 0.02,
+        "crosstalk_matrix": null,
+        "icc_path": null,
+        "color_mode": "RGB",
+        "white_underbase": false,
+        "pitch_verified": false,
+        "viewing_distance_mm": 500,
+        "lens_view_angle_deg": 30,
+        "allow_unfilled": false,
+        "pitch_step": 0.01,
+        "pitch_candidates": 3,
+        "gamut_guard": true,
+        "lens_angle_verified": false,
+        "raster_ppi_verified": false
+      },
+      "panel_origin_px": 12756,
+      "filename": "C-YENI-ARKA-PLAN-AGIRLIKLI-50.20LPI-1200PPI.tif",
+      "endpoint_parallax_percent": {
+        "front": 1.68,
+        "back": 2.4
+      }
+    }
+  ],
+  "common_settings": {
+    "width_mm": 130,
+    "height_mm": 215.139,
+    "bleed_mm": 0,
+    "ppi": 1200,
+    "printer_dpi": 1200,
+    "nominal_lpi": 50,
+    "effective_lpi": 50.2,
+    "ne": 10,
+    "axis": "vertical",
+    "phase": 0,
+    "tilt_deg": 0,
+    "reverse_views": false,
+    "mirror": false,
+    "fit": "contain",
+    "stripe_sampling": "area",
+    "crosstalk": 0,
+    "compensation": 0,
+    "regularization": 0.02,
+    "crosstalk_matrix": null,
+    "icc_path": null,
+    "color_mode": "RGB",
+    "white_underbase": false,
+    "pitch_verified": false,
+    "viewing_distance_mm": 500,
+    "lens_view_angle_deg": 30,
+    "allow_unfilled": false,
+    "pitch_step": 0.01,
+    "pitch_candidates": 3,
+    "gamut_guard": true,
+    "lens_angle_verified": false,
+    "raster_ppi_verified": false
+  },
+  "panel_origins_px": [
+    0,
+    6378,
+    12756
+  ],
+  "protected_hashes": {
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\scene\\source.png": "e8b5b0a514a42e60767c24333a79c483188a6fc258dd682df20a1dae2e5b459c",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\scene\\depth_proximity.npy": "e656f607b92f55010d0813e343c9941ad7f23d6e23ea0d08b76763537713c571",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\scene\\job.json": "f1aa3f37d0438bfb74c34c4bf9a5651dd405aa928684a5c07622663cf180dac5",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\scene\\scene.blend": "88f4afe3d4a1656867120f4f1f4b9c6ad6f88dc27132d01e855b2cc3472d6f61",
+    "C:\\Users\\USER\\Downloads\\vd-gigapixel-recover v2-2x-faceai v2.jpg": "d7d3c1c669483c99540c1f82ad71e34d3aa9b027facf6ce1c5785e400f694ec5"
+  },
+  "source_size": [
+    1872,
+    3098
+  ],
+  "status": "complete",
+  "fresh_depth": true,
+  "old_depth_used": false,
+  "old_textures_used": false,
+  "old_meshes_used": false,
+  "depth_partitioning": false,
+  "source_segmentation": {
+    "model": "facebook/sam2.1-hiera-small",
+    "revision": "ee5bba1d82bb8749febdf90f45e84b687142ba03",
+    "quality_scores": [
+      [
+        [
+          0.7306321859359741,
+          0.9202570915222168,
+          0.8622046709060669
+        ],
+        [
+          0.9189448356628418,
+          0.981715202331543,
+          0.40859928727149963
+        ],
+        [
+          0.9753361940383911,
+          0.9761794805526733,
+          0.3775937259197235
+        ]
+      ]
+    ],
+    "points": [
+      [
+        [
+          936.0,
+          371.76
+        ],
+        [
+          936.0,
+          1084.3
+        ],
+        [
+          280.8,
+          1645.038
+        ],
+        [
+          468.0,
+          1982.72
+        ],
+        [
+          355.68,
+          2416.44
+        ],
+        [
+          374.40000000000003,
+          2819.1800000000003
+        ],
+        [
+          1497.6000000000001,
+          2354.48
+        ],
+        [
+          1366.56,
+          2695.2599999999998
+        ],
+        [
+          374.40000000000003,
+          1363.1200000000001
+        ],
+        [
+          524.1600000000001,
+          1208.22
+        ],
+        [
+          561.6,
+          1487.04
+        ],
+        [
+          1441.44,
+          1703.9
+        ],
+        [
+          748.8000000000001,
+          21.686
+        ],
+        [
+          1067.04,
+          2323.5
+        ],
+        [
+          411.84,
+          3051.5299999999997
+        ],
+        [
+          1572.48,
+          2664.2799999999997
+        ],
+        [
+          243.36,
+          960.38
+        ],
+        [
+          1684.8,
+          1518.02
+        ]
+      ],
+      [
+        [
+          327.59999999999997,
+          1338.336
+        ],
+        [
+          524.1600000000001,
+          1239.2
+        ],
+        [
+          561.6,
+          1487.04
+        ],
+        [
+          468.0,
+          1171.044
+        ],
+        [
+          711.36,
+          1425.0800000000002
+        ],
+        [
+          524.1600000000001,
+          1725.5860000000002
+        ],
+        [
+          237.744,
+          1363.1200000000001
+        ]
+      ],
+      [
+        [
+          1460.16,
+          1610.96
+        ],
+        [
+          1394.64,
+          1827.82
+        ],
+        [
+          1342.224,
+          1985.818
+        ],
+        [
+          1310.3999999999999,
+          1518.02
+        ],
+        [
+          1544.3999999999999,
+          1911.466
+        ],
+        [
+          1329.12,
+          2106.6400000000003
+        ],
+        [
+          1647.36,
+          1629.548
+        ]
+      ]
+    ],
+    "labels": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "photo_uploaded": false,
+    "depth_used": false
+  },
+  "depth_model": {
+    "schema_version": 1,
+    "model_id": "depth-anything/DA3MONO-LARGE",
+    "model_revision": "f465978e618db8cc79c83b8bbf24964857db1875",
+    "upstream_commit": "3d835ec1a5802d64a8b8b15f817a1ab54809bfe4",
+    "license": "Apache-2.0",
+    "device": "cpu",
+    "torch_version": "2.14.1+cpu",
+    "model_sha256": "7a799a7f95eb8d4c404c2ca8be3dc3276b350a417ddc4420db72ba850cc0e960",
+    "upstream_version": "0.0.0",
+    "source_photo": "C:\\Users\\USER\\Downloads\\vd-gigapixel-recover v2-2x-faceai v2.jpg",
+    "source_sha256": "d7d3c1c669483c99540c1f82ad71e34d3aa9b027facf6ce1c5785e400f694ec5",
+    "size": [
+      1872,
+      3098
+    ],
+    "model_size": [
+      616,
+      1008
+    ],
+    "process_res": 1008,
+    "process_res_method": "upper_bound_resize",
+    "alignment": "full-frame bilinear resize, no crop, align_corners=False",
+    "model_semantics": "direct relative depth Z, not disparity and not metres",
+    "output_convention": "white-near inverse relative depth normalized to [0,1]",
+    "normalization": {
+      "inverse_depth_percentiles": [
+        1,
+        99
+      ],
+      "inverse_depth_bounds": [
+        0.6674390822649002,
+        5.1129495382308985
+      ],
+      "clipped_fraction": 0.020000151738369942
+    },
+    "inference_seconds": 13.947056600009091,
+    "elapsed_seconds": 18.657071999972686,
+    "limitations": [
+      "Single-image estimated depth, not measured geometry",
+      "Veil, hair, petals and occluded boundaries can be wrong",
+      "No segmentation, inpainting or hidden surface generation"
+    ]
+  },
+  "center_check": {
+    "mean_rgb_error": 2.011819901728714,
+    "fraction_error_over_32": 0.0003126155280771162
+  },
+  "physical_validation_pending": true,
+  "validation": {
+    "files": {
+      "A-YENI-HAFIF-DERINLIK-50.20LPI-1200PPI.tif": {
+        "sha256": "7e61e868d1d560f0687f0d97ea5f49e91c9d088635badd49cbb3acacafc3c19f",
+        "shape": [
+          10164,
+          6142,
+          3
+        ],
+        "size_bytes": 187286376
+      },
+      "B-YENI-DENGELI-GUCLU-50.20LPI-1200PPI.tif": {
+        "sha256": "5d30d76ca70463ad2f22f1818098d559f1f71356160666f5dcad6b3051f7b890",
+        "shape": [
+          10164,
+          6142,
+          3
+        ],
+        "size_bytes": 187286376
+      },
+      "C-YENI-ARKA-PLAN-AGIRLIKLI-50.20LPI-1200PPI.tif": {
+        "sha256": "a6cee2637c8b0ce9b1296aa5580e58b19a9531bf7d69b44b9c77da643ec75421",
+        "shape": [
+          10164,
+          6142,
+          3
+        ],
+        "size_bytes": 187286376
+      },
+      "TEK-BASKI-A-HAFIF-B-DENGELI-C-ARKA-DERINLIK.tif": {
+        "sha256": "d46deb24712a801c5499af648d08c5c5cef95a2b236d15e9aa1f35f168ce4480",
+        "shape": [
+          10864,
+          18898,
+          3
+        ],
+        "size_bytes": 615925120
+      },
+      "ISTEGE-BAGLI-BEYAZ-MASKE.tif": {
+        "sha256": "aa251df7f31627c6f1b0135141585e56192aa15384d44fb4f0d82d85b823d7c4",
+        "shape": [
+          10864,
+          18898
+        ],
+        "size_bytes": 205308752
+      }
+    },
+    "combined": "C:\\Users\\USER\\Downloads\\Lenticular-Portre-50-75-100LPI-20261009-35bdac\\YENI-HARITA-50.20-1200-20261011\\TEK-BASKI-A-HAFIF-B-DENGELI-C-ARKA-DERINLIK.tif",
+    "combined_size_mm": [
+      400.00766666666664,
+      229.95466666666664
+    ],
+    "individual_size_mm": [
+      130.00566666666666,
+      215.13799999999998
+    ],
+    "panels_pixel_identical": true,
+    "global_lens_phase_continuous": true,
+    "all_tiff_metadata_verified": true,
+    "source_files_unchanged": true,
+    "distinct_variants": true,
+    "physical_3d_verified": false
+  }
+}

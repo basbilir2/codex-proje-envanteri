@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "kind": "multiview_3d",
+  "ns": 1,
+  "engine": "Blender",
+  "config": {
+    "nr": 10,
+    "ne": 10,
+    "near": 1.5,
+    "far": 3.0,
+    "zero": 2.0952888516923345,
+    "focal_mm": 50.0,
+    "sensor_width_mm": 36.0,
+    "camera_span": 0.15593707522461508,
+    "positions": [
+      -0.07796853761230754,
+      -0.060631143576701185,
+      -0.043302041064667826,
+      -0.025978857832598456,
+      -0.008659224874509788,
+      0.008659224874509788,
+      0.025978857832598463,
+      0.04330204106466784,
+      0.06063114357670119,
+      0.07796853761230754
+    ],
+    "grid_size": 512,
+    "edge_threshold": 0.1,
+    "depth_convention": "white-near",
+    "sweep_seconds": 2.0,
+    "camera_axis": "x",
+    "edge_mode": "split"
+  },
+  "legacy_job": {
+    "schema_version": 1,
+    "stage": "cached_corrected_scene_print_trial",
+    "config": {
+      "nr": 10,
+      "ne": 10,
+      "near": 1.5,
+      "far": 3.0,
+      "zero": 2.0952888516923345,
+      "focal_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "camera_span": 0.15593707522461508,
+      "positions": [
+        -0.07796853761230754,
+        -0.060631143576701185,
+        -0.043302041064667826,
+        -0.025978857832598456,
+        -0.008659224874509788,
+        0.008659224874509788,
+        0.025978857832598463,
+        0.04330204106466784,
+        0.06063114357670119,
+        0.07796853761230754
+      ],
+      "grid_size": 512,
+      "edge_threshold": 0.1,
+      "depth_convention": "white-near",
+      "sweep_seconds": 2.0,
+      "camera_axis": "x",
+      "edge_mode": "split"
+    },
+    "size": [
+      1872,
+      3098
+    ],
+    "blender_version": "Blender 5.1.2",
+    "mesh": {
+      "vertices": 3045168,
+      "triangles": 6071296,
+      "cut_triangles": 0,
+      "split_triangles": 0,
+      "focal_px": 2600.0,
+      "layer_count": 7
+    },
+    "source_inputs": {
+      "photo": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\contour-correction-20261010\\rejected-global-slices\\source.png",
+      "depth": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\contour-correction-20261010\\rejected-global-slices\\depth_proximity.npy",
+      "photo_sha256": "5b33c735c5001fb320920b33279f2ab20fb9543a6cdb01dae21344b83e931f40",
+      "depth_sha256": "1a54a0763965cdf7a9f15db7608718c1136ee72312a300379bece94ed3b2e9b6"
+    },
+    "coordinate_convention": "X right, Y up, camera looks -Z; positive endpoint disparity is behind",
+    "limitations": [
+      "Single-photo hidden surfaces are inferred.",
+      "Comparison test; narrow shorts-fold deformation remains possible.",
+      "Physical print sharpness and depth are not verified."
+    ],
+    "cached_scene": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\contour-correction-20261010\\coupled\\scene.blend",
+    "surface_transform": {
+      "front_gain": 0.7,
+      "back_gain": 1.0,
+      "reference": 0.4317834973335269
+    },
+    "trial_only": true,
+    "known_visual_limitation": "Narrow shorts fold may retain side-view deformation."
+  },
+  "frames": [
+    {
+      "path": "views/view_0000.png",
+      "view_coordinate": -0.037194194075687095,
+      "generated": true
+    },
+    {
+      "path": "views/view_0001.png",
+      "view_coordinate": -0.028928817614423296,
+      "generated": true
+    },
+    {
+      "path": "views/view_0002.png",
+      "view_coordinate": -0.020663441153159497,
+      "generated": true
+    },
+    {
+      "path": "views/view_0003.png",
+      "view_coordinate": -0.012398064691895697,
+      "generated": true
+    },
+    {
+      "path": "views/view_0004.png",
+      "view_coordinate": -0.004132688230631898,
+      "generated": true
+    },
+    {
+      "path": "views/view_0005.png",
+      "view_coordinate": 0.004132688230631898,
+      "generated": true
+    },
+    {
+      "path": "views/view_0006.png",
+      "view_coordinate": 0.0123980646918957,
+      "generated": true
+    },
+    {
+      "path": "views/view_0007.png",
+      "view_coordinate": 0.020663441153159504,
+      "generated": true
+    },
+    {
+      "path": "views/view_0008.png",
+      "view_coordinate": 0.0289288176144233,
+      "generated": true
+    },
+    {
+      "path": "views/view_0009.png",
+      "view_coordinate": 0.037194194075687095,
+      "generated": true
+    }
+  ]
+}

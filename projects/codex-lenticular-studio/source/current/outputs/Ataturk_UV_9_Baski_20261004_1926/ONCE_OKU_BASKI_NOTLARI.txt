@@ -1,0 +1,26 @@
+UV BASKI PAKETI - 10 DOSYA (9 KARSILASTIRMA + 1 ALTERNATIF)
+Boyut: 200 x 233.419 mm (20 x 23.34 cm). Piksel yuvarlamasi nedeniyle cok kucuk farklar raporda bulunur.
+TIFF: ICC etiketli sRGB, aynasiz, dikey lens, tasmasiz. Dosya adindaki DPI hedef baski modu ve TIFF PPI degeridir.
+Lens pitch degerleri nominaldir, fiziksel kalibrasyon YAPILMADI. Kalibrasyon klasorundeki pitch seritlerini ayni cihaz/lens/malzeme/mod ile kullanin.
+RIP: %100 olcek; sayfaya sigdirma ve yeniden ornekleme kapali. Aynalama/baski yuzu ve beyaz katman sirasi uretim duzenine gore dogrulanmali.
+2400 PPI dosya icin gercek adreslenebilir baski modu ve RIP uyumu gerekir. Yazici DPI etiketi renkli kanal ayirma gucunu tek basina kanitlamaz.
+Kaynak: 2322x2710 piksel (~295 PPI / 20 cm). 2400 PPI yeni fotograf detayi uretmez; ince interlace dilimlerini adresler.
+Yerel AI gucu 1.0, tahmini yuzey kabartisi 0.35. Yuzey kabartisi isik/golgeden sanatsal tahmindir, olculmus geometri degildir.
+Tam gorunusler Blender ile kaynak fotograf boyutunda uretildi. Her dosyada Nr=Ne; ayni gorunusu kopyalayarak kanal sayisi artirilmadi.
+Beyaz alt baski maskeleri DPI basina ortaktir. Renkli resim olarak degil RIP beyaz kanali olarak tanimlayin.
+Hareketli PNG onizlemeleri Onizlemeler klasorunde, tekrar yuklenebilir ayarlar Ayarlar klasorunde.
+Dosya basina:
+Ataturk_60LPI_1200DPI_12Gorsel_20x23.34cm_UV.tif | [9449, 11028] px | gercek kamera acisi 0.8354 derece | en fazla kayma %1.350
+Ataturk_60LPI_1200DPI_20Gorsel_20x23.34cm_UV.tif | [9449, 11028] px | gercek kamera acisi 0.8354 derece | en fazla kayma %1.350
+Ataturk_50LPI_1200DPI_24Gorsel_20x23.34cm_UV.tif | [9449, 11028] px | gercek kamera acisi 0.9282 derece | en fazla kayma %1.500
+Ataturk_75LPI_1200DPI_16Gorsel_20x23.34cm_UV.tif | [9449, 11028] px | gercek kamera acisi 0.7425 derece | en fazla kayma %1.200
+Ataturk_100LPI_1200DPI_12Gorsel_20x23.34cm_UV.tif | [9449, 11028] px | gercek kamera acisi 0.6188 derece | en fazla kayma %1.000
+Ataturk_60LPI_2400DPI_40Gorsel_20x23.34cm_UV.tif | [18898, 22055] px | gercek kamera acisi 0.8354 derece | en fazla kayma %1.350
+Ataturk_50LPI_2400DPI_48Gorsel_20x23.34cm_UV.tif | [18898, 22055] px | gercek kamera acisi 0.9282 derece | en fazla kayma %1.500
+Ataturk_75LPI_2400DPI_32Gorsel_20x23.34cm_UV.tif | [18898, 22055] px | gercek kamera acisi 0.7425 derece | en fazla kayma %1.200
+Ataturk_100LPI_2400DPI_24Gorsel_20x23.34cm_UV.tif | [18898, 22055] px | gercek kamera acisi 0.6188 derece | en fazla kayma %1.000
+
+EK ALTERNATIF - 5 Ekim 2026
+100 lpi alternatif 1200 dpi.tif: 12 gorunus, 20x23.34 cm.
+Gercek kamera acisi 1.1138 derece; kayma %1.800. Standart 100 LPI surumunden daha guclu, fiziksel test gerektirir.
+Toplam 10 renkli TIFF: ilk 9 karsilastirma + bu alternatif.

@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {startDesktopServer} from './server.mjs';
+const dir=fs.mkdtempSync(path.join(os.tmpdir(),'elmas-desktop-'));
+const first=await startDesktopServer({dataDir:dir});
+const rpc=async(fn,...args)=>{const r=await fetch(first.url+'/rpc',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({fn,args})});return r.json();};
+const before=await rpc('api','desktop-admin','bootstrap',{});if(!before.result?.user||before.result.user.Rol!=='YONETICI')throw Error('Masaüstü yönetici oturumu açılamadı.');
+await rpc('api','desktop-admin','saveAnnouncement',{Baslik:'Kalıcı kayıt testi',Metin:'Yerel veri testi',Onemli:false});await first.close();
+const second=await startDesktopServer({dataDir:dir});const r=await fetch(second.url+'/rpc',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({fn:'api',args:['desktop-admin','bootstrap',{}]})});const after=await r.json();
+if(!after.result.announcements.some(x=>x.Baslik==='Kalıcı kayıt testi'))throw Error('Yerel veri yeniden açılışta korunmadı.');await second.close();fs.rmSync(dir,{recursive:true,force:true});console.log('DESKTOP_SMOKE_OK');

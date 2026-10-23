@@ -1,0 +1,1256 @@
+{
+  "document": {
+    "schema_id": "btakip-digital-twin-context",
+    "schema_version": "1.0.0",
+    "title": "BTakip 1.5.12 — tek dosyalık ayrıntılı yazılım bağlamı ve kaynak kopyası",
+    "language": "tr-TR",
+    "snapshot_date": "2026-09-06",
+    "purpose": "Bu JSON, başka bir sohbetin BTakip yazılımını tek okumada anlaması ve gömülü kaynak dosyalarını çıkararak işlevsel olarak yeniden oluşturabilmesi için hazırlanmıştır.",
+    "fidelity_statement": "İnsan/AI tarafından hızlı anlaşılacak açıklayıcı bağlam ile birinci taraf metin kaynaklarının eksiksiz içerikleri aynı dosyada tutulur. Kaynak dosya içerikleri davranış konusunda nihai otoritedir.",
+    "read_first": [
+      "Önce document, identity, executive_context, system_architecture ve business_rules_and_formulas bölümlerini oku.",
+      "Uygulamayı yeniden üretirken recreation_contract adımlarını uygula.",
+      "Özet ile uygulama ayrıntısı çelişirse embedded_files içindeki exact_content alanlarını esas al.",
+      "Gerçek müşteri verileri bu bağlam dosyasına kopyalanmamıştır; veri şeması, örnek başlangıç değerleri ve bütün davranışlar belgelenmiştir."
+    ],
+    "canonical_source_root_at_snapshot": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6a90780738548191ae5faed84f00ea9f",
+    "generated_by": "Codex kaynak incelemesi, sürüm 1.5.12 kaynak envanteri ve otomatik dosya kimliklendirmesi"
+  },
+  "identity": {
+    "product_name": "BTakip",
+    "window_title_and_product_brand": "İzmirde Reklam",
+    "subtitle": "İzmirde Reklam Müşteri Takip",
+    "current_version": "1.5.12",
+    "assembly_file_version": "1.5.12.0",
+    "root_namespace": "BTakip",
+    "application_assembly": "BTakip_Portable",
+    "installer_assembly": "BTakip_Setup",
+    "application_type": "Windows masaüstü WinForms müşteri/cari/fiyatlandırma uygulaması",
+    "target_framework": "net10.0-windows",
+    "runtime_identifier": "win-x64",
+    "deployment": "self-contained, single-file, native libraries included for self-extraction",
+    "default_culture": "tr-TR",
+    "privilege_level": "asInvoker; yönetici yetkisi istemez",
+    "external_nuget_packages": [],
+    "framework_features": [
+      "System.Windows.Forms",
+      "System.Text.Json",
+      "System.IO.Compression",
+      "System.Net.Http",
+      "System.Xml.Linq",
+      "Microsoft.Win32 Registry"
+    ]
+  },
+  "executive_context": {
+    "one_sentence": "BTakip; reklam üretimi yapan İzmirde Reklam işletmesi için müşteri kartı, malzeme/hizmet maliyeti, ölçüye dayalı fiyat hesabı, sipariş, cari borç/tahsilat, Excel aktarımı, yerel yedek ve Google Sheets eşitlemesini tek Windows uygulamasında birleştirir.",
+    "primary_users": [
+      "İzmirde Reklam işletme sahibi ve çalışanları",
+      "Reklamcı/fason, sürekli müşteri, çevre esnafı ve perakende müşteri kategorileriyle çalışan fiyatlandırma personeli"
+    ],
+    "core_outcomes": [
+      "Alış maliyetlerinden müşteri kategorisine göre satış fiyatı üretmek",
+      "Siparişi müşteri carisine borç, tahsilatı alacak olarak işlemek",
+      "Müşteri bazlı güncel bakiyeyi ve hareketleri göstermek",
+      "Her kayıtta atomik JSON, tarihli JSON yedeği ve Excel yedeği üretmek",
+      "İsteğe bağlı Google Sheets çift yönlü senkronizasyonu yapmak",
+      "Tek dosyalık .btakip tam yedeğiyle başka bilgisayarda devam etmek",
+      "Eski veya farklı düzenli Excel carilerini önizleyerek ve tekrarları engelleyerek dönüştürmek"
+    ],
+    "domain_terms": {
+      "alış_maliyeti": "Malzeme veya hizmetin işletmeye birim maliyeti.",
+      "satış_fiyatı": "Toplam maliyetin müşteri grubu çarpanı veya alternatif yüzde ile artırılmış hali.",
+      "cari_borç": "Siparişin SaleTotalTl değeri.",
+      "cari_tahsilat": "Payment.AmountTl değeri.",
+      "bakiye": "Toplam satış borcu eksi toplam tahsilat.",
+      "yumuşak_silme": "Kayıt fiziksel silinmez; Deleted=true olur ve eşitlemeyle yayılır.",
+      "dokunma_touch": "UpdatedAtUtc=şimdi, Revision en az 1 olacak şekilde +1, DeviceId=yerel cihaz kimliği."
+    },
+    "explicit_non_goals": [
+      "Mevcut Sipariş Takip, AnonPerson_0005, AnonPerson_0006 veya başka Google çalışma kitaplarını değiştirmek",
+      "Bulut veritabanı kullanmak",
+      "Kaynak Excel dosyasını yerinde değiştirmek"
+    ]
+  },
+  "system_architecture": {
+    "style": "Tek süreçli katmanlı WinForms uygulaması; ayrı veritabanı yok, JSON dosyası ana kayıt.",
+    "components": [
+      {
+        "name": "Program",
+        "responsibility": "Türkçe kültürü ayarlar, komut satırı modlarını çalıştırır, yedek geri yükleyebilir ve MainForm'u başlatır.",
+        "source": "BTakip/Program.cs"
+      },
+      {
+        "name": "MainForm",
+        "responsibility": "Tüm kullanıcı arayüzü, CRUD akışları, cari düzenleme, Excel ve yedek diyalogları, tray ve periyodik senkron.",
+        "source": "BTakip/MainForm.cs"
+      },
+      {
+        "name": "Models",
+        "responsibility": "Senkronize varlıklar, uygulama durumu, ayarlar ve hesaplama DTO'ları.",
+        "source": "BTakip/Models.cs"
+      },
+      {
+        "name": "PricingEngine",
+        "responsibility": "Seçili fiyat kalemlerinin ölçü/formül bazlı maliyet ve satış hesabı.",
+        "source": "BTakip/PricingEngine.cs"
+      },
+      {
+        "name": "ImportedOrderPricing",
+        "responsibility": "AnonPerson_0005 için içe aktarılmış açıklamalardan özel ölçü/hizmet/fiyat çıkarımı ve raporlama.",
+        "source": "BTakip/ImportedOrderPricing.cs"
+      },
+      {
+        "name": "DataStore",
+        "responsibility": "Ana JSON durumu, atomik kayıt, SHA-256, tarihli yedek, kurtarma, geri alma, tam yedek ve cari hesaplama.",
+        "source": "BTakip/DataStore.cs"
+      },
+      {
+        "name": "SimpleXlsx",
+        "responsibility": "Harici paket kullanmadan OpenXML ZIP okuyup yazar; BTakip Excel içe/dışa aktarımı, müşteri hesap özeti Excel'i ve eski cari dönüşümünü yapar. Dönüşümde dosya adından müşteri adı üretir, kaynak açıklama/malzeme/ölçü alanlarını ayırır ve eşleşen fiyat tanımı için mevcut PricingEngine ile maliyet-satış hesabını önizlemeye ve onaylı içe aktarıma taşır.",
+        "source": "BTakip/SimpleXlsx.cs"
+      },
+      {
+        "name": "SyncService",
+        "responsibility": "Google Apps Script HTTP API'siyle pull/push, revizyon takibi, çakışma çözümü ve TCMB USD satış kuru.",
+        "source": "BTakip/SyncService.cs"
+      },
+      {
+        "name": "BTakipSync Apps Script",
+        "responsibility": "Ayrı Google çalışma kitabında beş senkron tablosu, token doğrulama, upsert, pull, onEdit ve değişiklik jetonu.",
+        "source": "Google/BTakipSync.gs"
+      },
+      {
+        "name": "Setup",
+        "responsibility": "Kullanıcı bazlı kurulum/kaldırma, kısayollar, kayıt defteri, önceki sürüm/veri yedeği ve tam yedek aktarımı.",
+        "source": "BTakip.Setup/Program.cs"
+      }
+    ],
+    "main_data_flow": [
+      "Kullanıcı MainForm üzerinden kayıt ekler veya değiştirir.",
+      "Mutasyondan hemen önce DataStore.CaptureUndo çağrılır.",
+      "Varlık Touch ile revizyonlanır.",
+      "DataStore.SaveAsync ana JSON'u atomik değiştirir, SHA-256 yazar, tarihli JSON yedeği ve Excel yedeği üretir, log ekler.",
+      "PersistAndSyncAsync arka planda Google eşitlemesini tetikler.",
+      "SyncService önce Google değişikliklerini çeker, sonra Revision > SyncedRevision olan yerel varlıkları gönderir.",
+      "Arayüz güncel AppState üzerinden yeniden çizilir."
+    ],
+    "dependency_direction": [
+      "MainForm -> DataStore, PricingEngine, SimpleXlsx, SyncService",
+      "DataStore -> Models, SeedData, SimpleXlsx",
+      "SyncService -> DataStore, Models, Google Apps Script HTTP uçları",
+      "Setup -> gömülü BTakip_Portable.exe"
+    ]
+  },
+  "runtime_and_paths": {
+    "default_data_root": "%USERPROFILE%\\btakip",
+    "data_root_override": "Önce DataStore constructor overridePath, sonra BTAKIP_DATA_DIR ortam değişkeni, sonra %USERPROFILE%\\btakip.",
+    "installed_application": "%LOCALAPPDATA%\\BTakip\\BTakip.exe",
+    "installed_uninstaller": "%LOCALAPPDATA%\\BTakip\\BTakip_Kaldir.exe",
+    "windows_startup_registry": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\BTakip",
+    "uninstall_registry": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\BTakip",
+    "data_files": {
+      "main_json": "btakip-veri.json",
+      "main_json_checksum": "btakip-veri.json.sha256",
+      "latest_excel": "BTakip_Yedek_Son.xlsx",
+      "latest_excel_checksum": "BTakip_Yedek_Son.xlsx.sha256",
+      "log": "btakip.log",
+      "software_manifest": "yazilim-butunluk.json",
+      "daily_backups": "Yedekler/yyyy-MM-dd/btakip-HHmmssfff.json ve .sha256",
+      "undo": "GeriAl/son-islem.json, son-islem.json.sha256 ve son-islem.txt",
+      "undo_history": "GeriAl/Gecmis/geri-al-yyyyMMdd-HHmmssfff-Guid.*; art arda geri alma için önceki işlem snapshot'ları",
+      "used_undo_archive": "GeriAl/Kullanildi/geri-al-yyyyMMdd-HHmmssfff.*",
+      "corrupt_archive": "Kurtarma/btakip-bozuk-yyyyMMdd-HHmmss.json",
+      "customer_pdf": "Kullanıcı SaveFileDialog ile hedefi seçer; varsayılan ad <güvenli-ad>_Hesap_Ozeti_yyyyMMdd_yyyyMMdd.pdf, başlangıç klasörü Masaüstüdür.",
+      "special_AnonPerson_0002_report": "AnonPerson_0002_Hanim_Fiyatlama_Raporu.json"
+    },
+    "full_backup_extension": ".btakip",
+    "full_backup_format": "ZIP; btakip-veri.json, yedek-bilgisi.json ve varsa BTakip_Yedek_Son.xlsx içerir. Manifest FormatVersion=1 ve JSON SHA-256 değerini taşır."
+  },
+  "data_model": {
+    "serialization": "System.Text.Json; girintili, özellik adları okunurken büyük/küçük harfe duyarsız; JsonIgnore alanları kalıcı değildir.",
+    "root": {
+      "type": "AppState",
+      "fields": [
+        "SchemaVersion:int=1",
+        "DeviceId:string=<MachineName>-<8 hex>",
+        "Settings:AppSettings",
+        "Customers:List<Customer>",
+        "PriceGroups:List<PriceGroup>",
+        "PriceItems:List<PriceItem>",
+        "Orders:List<Order>",
+        "Payments:List<Payment>",
+        "Conflicts:List<ConflictRecord>"
+      ]
+    },
+    "sync_entity_base": [
+      "Id:string=32 karakter Guid N biçimi",
+      "UpdatedAtUtc:DateTime=UTC şimdi",
+      "Revision:long=1",
+      "SyncedRevision:long=0; yalnız yerel eşitleme takibi",
+      "DeviceId:string",
+      "Deleted:bool=false"
+    ],
+    "entities": {
+      "Customer": {
+        "inherits": "SyncEntity",
+        "fields": [
+          "Name",
+          "Company",
+          "Phone",
+          "Email",
+          "PriceGroupId=retail",
+          "Notes"
+        ],
+        "derived_not_serialized": "PriceGroupName"
+      },
+      "PriceGroup": {
+        "inherits": "SyncEntity",
+        "fields": [
+          "Code",
+          "Name",
+          "CostMultiplier:decimal"
+        ],
+        "derived_not_serialized": "CalculatorLabel = Name + yüzde kâr; yüzde=(CostMultiplier-1)*100"
+      },
+      "PriceItem": {
+        "inherits": "SyncEntity",
+        "fields": [
+          "Category=Malzeme|Baskı|Hizmet",
+          "Name",
+          "Variant",
+          "Unit=m²",
+          "Currency=TL",
+          "UnitCost",
+          "SecondaryCost",
+          "SheetWidthCm",
+          "SheetHeightCm",
+          "ThicknessMm",
+          "BaseMaterialPriceItemId; yalnız Baskı kaydının kullandığı malzeme PriceItem Id'si",
+          "IsPrintProduct=false; Baskı kayıtları için true",
+          "ServiceEnabled/ServiceName/ServiceFormula/ServiceUnitCost; eski birleşik kayıt uyumluluğu, yeni hizmet ayrı PriceItem kaydıdır",
+          "Formula=M2",
+          "Active=true",
+          "PriceGroupId=retail; eski kayıt uyumluluğu, yeni ürün düzenleyicisinde müşteri grubu atanmaz",
+          "GroupProfitPercentOverrides: müşteri grubu Id -> ürüne özel kâr yüzdesi sözlüğü",
+          "SpecialProfitPercent: yalnız eski tek-oranlı kayıtları seçili gruba taşımak için geriye uyum alanı"
+        ],
+        "derived_not_serialized": "DisplayName = Variant boşsa Name, değilse Name — Variant"
+      },
+      "Order": {
+        "inherits": "SyncEntity",
+        "fields": [
+          "Date=Today",
+          "CustomerId",
+          "Description",
+          "Material",
+          "WidthCm",
+          "HeightCm",
+          "AreaM2; cari ölçü hücresine doğrudan girilen alan",
+          "LengthMeter",
+          "DurationMinutes",
+          "Quantity=1",
+          "ExchangeRate",
+          "CostTotalTl",
+          "SaleTotalTl",
+          "PriceGroupId; müşteri kartındaki grubu yansıtan uyumluluk alanı, sipariş düzenleyicisinde seçilmez",
+          "AlternativePercent:nullable decimal",
+          "Lines:List<OrderLine>"
+        ]
+      },
+      "OrderLine": {
+        "fields": [
+          "PriceItemId",
+          "Name",
+          "QuantityUsed",
+          "UnitCost",
+          "Currency=TL",
+          "CostTl"
+        ],
+        "sync_note": "Bağımsız senkron varlığı değildir; Order içinde gömülüdür."
+      },
+      "Payment": {
+        "inherits": "SyncEntity",
+        "fields": [
+          "Date=Today",
+          "CustomerId",
+          "AmountTl",
+          "Description=Tahsilat",
+          "PaymentType=Nakit"
+        ]
+      },
+      "ConflictRecord": {
+        "fields": [
+          "EntityType",
+          "EntityId",
+          "LocalJson",
+          "RemoteJson",
+          "DetectedAtUtc"
+        ],
+        "decisions": [
+          "UseGoogle",
+          "UsePc",
+          "KeepBoth",
+          "Skip"
+        ]
+      },
+      "AppSettings": {
+        "fields": [
+          "UsdTryRate:decimal=40",
+          "AutoExchangeRate:bool=true",
+          "GoogleWebAppUrl:string",
+          "GoogleSyncToken:string",
+          "SyncIntervalSeconds:int=30",
+          "StartWithWindows:bool=false",
+          "LastGoogleChangeToken:string=0",
+          "LastSyncUtc:nullable DateTime"
+        ]
+      }
+    },
+    "relationships": [
+      "Customer.PriceGroupId -> PriceGroup.Id",
+      "Order.CustomerId -> Customer.Id",
+      "Order.PriceGroupId -> PriceGroup.Id; değer müşteri kartındaki Customer.PriceGroupId ile Normalize ve kayıt sırasında eşitlenir",
+      "OrderLine.PriceItemId -> PriceItem.Id",
+      "PriceItem.BaseMaterialPriceItemId -> aktif, baskı ürünü olmayan malzeme PriceItem.Id",
+      "Payment.CustomerId -> Customer.Id"
+    ],
+    "soft_delete_scope": [
+      "Customer",
+      "PriceGroup",
+      "PriceItem",
+      "Order",
+      "Payment"
+    ]
+  },
+  "business_rules_and_formulas": {
+    "universal": {
+      "effective_quantity": "qty = input.Quantity <= 0 ? 1 : input.Quantity",
+      "area_m2": "Normal hesapta max(0, WidthCm) * max(0, HeightCm) / 10000. Cari ölçü hücresinde AreaM2>0 ise hesap motoruna WidthCm=100 ve HeightCm=AreaM2*100 verilerek aynı formül tam AreaM2 sonucunu üretir.",
+      "usd_to_tl": "USD nativeCost * ExchangeRate; diğer para birimlerinde nativeCost doğrudan TL kabul edilir",
+      "line_rounding": "QuantityUsed 4 ondalık; CostTl 2 ondalık",
+      "total_cost": "Satır CostTl toplamı, sonunda 2 ondalığa yuvarlanır",
+      "normal_sale": "Her sipariş satırında önce PriceItem.GroupProfitPercentOverrides içinden aktif müşteri grubu Id'sine ait yüzde aranır. Bulunursa CostTl * (1 + özel yüzde/100), bulunmazsa seçilen veya müşteriye bağlı PriceGroup.CostMultiplier kullanılır. Satırlar toplanıp 2 ondalığa yuvarlanır.",
+      "alternative_sale": "AlternativePercent varsa round(CostTl * (1 + AlternativePercent/100), 2)",
+      "balance": "müşterinin silinmemiş sipariş SaleTotalTl toplamı - silinmemiş tahsilat AmountTl toplamı",
+      "ledger_order": "Tarih ve Type'a göre sıralanan Satış borçları ile Tahsilat alacaklarının birleşimi"
+    },
+    "per_material_profit_overrides": {
+      "purpose": "Standart hesapta seçilen/müşteriye bağlı müşteri kategorisinin kârını kullanmak; yalnız seçilen ürün + müşteri grubu birleşimi için özel yüzdeyle bunu geçersiz kılmak.",
+      "assignment": "Yeni ürün kaydında müşteri kategorisi seçilmez; ürün otomatik olarak bütün müşteri kategorilerinde kullanılabilir. Hesap sırasında müşteri veya tablo önizlemesinde seçilen grup belirleyicidir. PriceGroupId yalnız eski kayıt uyumluluğu için korunur ve boş eski kayıtlar retail'e tamamlanır.",
+      "enablement": "Özel oran yalnız Kâr Ayarları sayfasından, ürün ve müşteri grubu seçilerek verilir. İşaretli değer GroupProfitPercentOverrides[groupId] olarak kaydedilir; işaretlenmeyen grup standart kârını kullanır. Standarttan düşük özel kâr yüzdesi yalnız o gruba indirimli satış üretir.",
+      "fallback": "Aktif müşteri grubu için sözlükte özel yüzde yoksa o grubun güncel CostMultiplier değeri kullanılır. Başka müşteri gruplarına kaydedilmiş özel oranlar bu hesabı etkilemez. Fiyat Tanımları tablosundaki bağımsız fiyat grubu seçicisi yalnız önizlemeyi değiştirir; ürüne grup atamaz.",
+      "precedence": "Alternatif yüzde seçilmişse alternatif yüzde tüm toplam için önceliklidir ve malzemeye özel oranlar o hesapta uygulanmaz.",
+      "mixed_selection": "Birden fazla fiyat kalemi seçildiğinde her satırda yalnız aktif müşteri grubuna ait ürün özel oranı aranır; bulunmayan satırlar aynı grubun standart oranıyla çarpılır, sonra satış toplamı alınır.",
+      "persistence": "GroupProfitPercentOverrides ana JSON/tam yedekte sözlük olarak; Excel Fiyatlar sayfasında Gruba Özel Kârlar adlı JSON metni olarak; Google Fiyatlar sayfasında GroupProfitPercentOverrides JSON sütunu olarak saklanır. Eski SpecialProfitPercent değeri açılışta ürünün PriceGroupId grubuna taşınır.",
+      "example": "PRIVATE_AMOUNT maliyetli Branda için Reklamcı / Fason'a %80 ve Perakende'ye %300 özel oran verilebilir: Fason satışı PRIVATE_AMOUNT, Perakende satışı PRIVATE_AMOUNT olur; diğer müşteri grupları kendi standart oranlarını ve UnitCost yine PRIVATE_AMOUNT'yi kullanır."
+    },
+    "price_definition_engine": {
+      "record_model": "Tek kayıt tek türdür: Malzeme, Baskı veya Hizmet. Baskı kaydı kullandığı malzemeyi BaseMaterialPriceItemId ile seçer; Hizmet kendi başına ayrı kayıt olarak eklenir. Yeni kayıtta birleşik Malzeme + Baskı veya Malzeme + Hizmet türü yoktur.",
+      "migration": "Eski Dijital Baskı -> Baskı, İşlem -> Hizmet, Hazır Ürün -> Malzeme eşlemeleri okunur. Folyo, Branda, OWV ve Kumlama eski Malzeme kayıtları SheetWidthCm yoksa Baskı kabul edilir ve IsPrintProduct=true yapılır. Varyant içindeki '<sayı> mm' eski kayıtların ThicknessMm alanına alınır. Önceden aynı kayda eklenmiş hizmet bileşeni mevcut kayıt düzenlenirken veri kaybı olmadan korunur; yeni hizmetler ayrı Hizmet kaydıdır.",
+      "material_entry": "Folyo, branda ve poster gibi m² malzemelerde yalnız ad ve maliyet yeterlidir; en-boy ürün tanımında istenmez, gerçek iş ölçüsü Fiyat Hesaplama veya cari ölçü hücresinde girilir. İsteğe bağlı müşteri grubuna özel kâr Kâr Ayarlarından atanır. En, boy ve kalınlık yalnız LEVHA_ALAN seçilen Dekota/Pleksi gibi levha malzemelerinde gösterilir ve en-boy zorunlu olur. Alan = en*boy/10000; UnitCost tüm levha maliyetidir ve ekran alanı, toplam maliyeti ve m² maliyetini canlı gösterir.",
+      "print_entry": "Tür=Baskı seçilince kullanılan malzeme seçimi açılır ve BaseMaterialPriceItemId zorunlu hale gelir. Baskı, malzemeden ayrı bir katalog kaydıdır.",
+      "service_entry": "Tür=Hizmet seçilince hizmet adı, m²/dakika/saat/adet/sabit veya malzeme yüzdesi hesabı ve ilgili birim maliyet girilir. Hizmet, malzeme ya da baskıyla birleşik bir ürün tipi değildir; fiyat hesabında ayrıca seçilir.",
+      "customer_scope": "Kaydedilen yeni ürün bütün müşteri gruplarında otomatik görünür. Standart fiyat seçilen grubun kâr oranıyla; özel fiyat yalnız Kâr Ayarları içinde seçilen ürün + müşteri grubu birleşimiyle hesaplanır.",
+      "buttons": "Bütün yapı için tablonun üstünde Ürünü Güncelle, Ürün Ekle ve Sil düğmeleri vardır."
+    },
+    "formula_catalog": [
+      {
+        "code": "M2",
+        "label": "m² üzerinden",
+        "used": "area_m2 * qty"
+      },
+      {
+        "code": "METRE",
+        "label": "metre üzerinden",
+        "used": "max(0, LengthMeter) * qty"
+      },
+      {
+        "code": "ADET",
+        "label": "adet üzerinden",
+        "used": "qty"
+      },
+      {
+        "code": "DAKIKA",
+        "label": "dakika üzerinden",
+        "used": "max(0, DurationMinutes) * qty"
+      },
+      {
+        "code": "SAAT",
+        "label": "saat üzerinden",
+        "used": "max(0, DurationMinutes) / 60 * qty"
+      },
+      {
+        "code": "SABIT",
+        "label": "sabit ücret",
+        "used": "1; qty dikkate alınmaz"
+      },
+      {
+        "code": "LEVHA_ALAN",
+        "label": "levha alanı oranı",
+        "used": "area_m2 / ((SheetWidthCm*SheetHeightCm)/10000) * qty; levha alanı <=0 ise 0"
+      },
+      {
+        "code": "UV_60X90",
+        "label": "UV 60×90 oranı",
+        "used": "area_m2 / ((SheetWidthCm*SheetHeightCm)/10000) * qty; tanımlı tabla alanı yoksa 0.54 m² kullanılır"
+      },
+      {
+        "code": "DTF_KADEME",
+        "label": "DTF 10 m kademesi",
+        "used": "max(0, LengthMeter) * qty",
+        "unit_cost_rule": "LengthMeter > 10 ve SecondaryCost > 0 ise SecondaryCost, aksi halde UnitCost; eşik qty ile çarpılmamış LengthMeter'a bakar"
+      },
+      {
+        "code": "MALZEME_YUZDE",
+        "label": "baskı / malzeme toplamının yüzdesi",
+        "used": "önce hesaplanan Category=Baskı veya Malzeme satırlarının TL toplamı * UnitCost/100",
+        "line_currency": "%"
+      }
+    ],
+    "seed_price_groups": [
+      {
+        "id": "dealer",
+        "name": "Reklamcı / Fason",
+        "cost_multiplier": 2.0,
+        "profit_percent": 100
+      },
+      {
+        "id": "regular",
+        "name": "Sürekli Müşteri",
+        "cost_multiplier": 2.8,
+        "profit_percent": 180
+      },
+      {
+        "id": "trades",
+        "name": "Çevre Esnafı",
+        "cost_multiplier": 3.0,
+        "profit_percent": 200
+      },
+      {
+        "id": "retail",
+        "name": "Perakende",
+        "cost_multiplier": 4.0,
+        "profit_percent": 300
+      }
+    ],
+    "seed_price_items": [
+      {
+        "category": "Baskı",
+        "name": "Folyo",
+        "variant": "Eko",
+        "unit": "m²",
+        "currency": "TL",
+        "unit_cost": 50,
+        "formula": "M2"
+      },
+      {
+        "category": "Baskı",
+        "name": "Folyo",
+        "variant": "Orafol",
+        "unit": "m²",
+        "currency": "TL",
+        "unit_cost": 67.5,
+        "formula": "M2"
+      },
+      {
+        "category": "Baskı",
+        "name": "Branda",
+        "variant": "Eko",
+        "unit": "m²",
+        "currency": "TL",
+        "unit_cost": 50,
+        "formula": "M2"
+      },
+      {
+        "category": "Baskı",
+        "name": "Branda",
+        "variant": "Normal",
+        "unit": "m²",
+        "currency": "TL",
+        "unit_cost": 67.5,
+        "formula": "M2"
+      },
+      {
+        "category": "Baskı",
+        "name": "Branda",
+        "variant": "Arkası Siyah",
+        "unit": "m²",
+        "currency": "TL",
+        "unit_cost": 75,
+        "formula": "M2"
+      },
+      {
+        "category": "Baskı",
+        "name": "OWV",
+        "variant": "",
+        "unit": "m²",
+        "currency": "TL",
+        "unit_cost": 75,
+        "formula": "M2"
+      },
+      {
+        "category": "Baskı",
+        "name": "Kumlama",
+        "variant": "",
+        "unit": "m²",
+        "currency": "TL",
+        "unit_cost": 75,
+        "formula": "M2"
+      },
+      {
+        "category": "Malzeme",
+        "name": "Dekota",
+        "variant": "3 mm 156×305",
+        "unit": "levha",
+        "currency": "USD",
+        "unit_cost": 19,
+        "sheet_cm": [
+          156,
+          305
+        ],
+        "formula": "LEVHA_ALAN"
+      },
+      {
+        "category": "Malzeme",
+        "name": "Dekota",
+        "variant": "5 mm 156×305",
+        "unit": "levha",
+        "currency": "USD",
+        "unit_cost": 33,
+        "sheet_cm": [
+          156,
+          305
+        ],
+        "formula": "LEVHA_ALAN"
+      },
+      {
+        "category": "Malzeme",
+        "name": "Pleksi",
+        "variant": "3 mm Yeşil 135×200",
+        "unit": "levha",
+        "currency": "USD",
+        "unit_cost": 80,
+        "sheet_cm": [
+          135,
+          200
+        ],
+        "formula": "LEVHA_ALAN"
+      },
+      {
+        "category": "Malzeme",
+        "name": "Pleksi",
+        "variant": "3 mm Bordo 135×200",
+        "unit": "levha",
+        "currency": "USD",
+        "unit_cost": 82,
+        "sheet_cm": [
+          135,
+          200
+        ],
+        "formula": "LEVHA_ALAN"
+      },
+      {
+        "category": "Malzeme",
+        "name": "Pleksi",
+        "variant": "3 mm Siyah 135×200",
+        "unit": "levha",
+        "currency": "USD",
+        "unit_cost": 58,
+        "sheet_cm": [
+          135,
+          200
+        ],
+        "formula": "LEVHA_ALAN"
+      },
+      {
+        "category": "Malzeme",
+        "name": "Pleksi",
+        "variant": "3 mm Şeffaf 135×200",
+        "unit": "levha",
+        "currency": "USD",
+        "unit_cost": 52,
+        "sheet_cm": [
+          135,
+          200
+        ],
+        "formula": "LEVHA_ALAN"
+      },
+      {
+        "category": "Baskı",
+        "name": "UV Baskı",
+        "variant": "Malzeme hariç 60×90",
+        "unit": "tabla",
+        "currency": "TL",
+        "unit_cost": 450,
+        "formula": "UV_60X90"
+      },
+      {
+        "category": "Baskı",
+        "name": "DTF Baskı",
+        "variant": "58 cm en — 10 m üstü indirimli",
+        "unit": "metre",
+        "currency": "USD",
+        "unit_cost": 5,
+        "secondary_cost": 2.5,
+        "formula": "DTF_KADEME"
+      },
+      {
+        "category": "Hizmet",
+        "name": "Sıvama",
+        "variant": "",
+        "unit": "m²",
+        "currency": "TL",
+        "unit_cost": 100,
+        "formula": "M2"
+      },
+      {
+        "category": "Hizmet",
+        "name": "Lazer Kesim",
+        "variant": "PRIVATE_AMOUNT/saat",
+        "unit": "dakika",
+        "currency": "TL",
+        "unit_cost": 3.3333333333333335,
+        "formula": "DAKIKA"
+      },
+      {
+        "category": "Hizmet",
+        "name": "Plotter Kesim",
+        "variant": "Folyo maliyetine %50",
+        "unit": "%",
+        "currency": "%",
+        "unit_cost": 50,
+        "formula": "MALZEME_YUZDE"
+      }
+    ],
+    "verified_examples": [
+      "UV 60×90 cm, adet 1: alan 0.54 m²; maliyet PRIVATE_AMOUNT.",
+      "1 m² Eko Folyo + Plotter %50: 50 + 25 = PRIVATE_AMOUNT maliyet.",
+      "DTF 12 m, kur 40, ikincil fiyat PRIVATE_AMOUNT: 12*2.5*40 = PRIVATE_AMOUNT maliyet.",
+      "PRIVATE_AMOUNT cari bakiye örneği: PRIVATE_AMOUNT satış - PRIVATE_AMOUNT tahsilat."
+    ]
+  },
+  "specialized_imported_order_pricing": {
+    "scope": "Yalnız adı Türkçe harf duyarsızlaştırmasıyla 'AnonPerson_0005' olan müşterinin Id değeri AnonPerson_0002_siparis_ ile başlayan silinmemiş siparişleri.",
+    "forced_group": "dealer / Reklamcı-Fason / çarpan 2.0",
+    "exchange_rate": "Settings.UsdTryRate > 0 ise o değer, değilse 40",
+    "dimension_regex": "genişlik x yükseklik cm; virgül veya noktalı ondalık destekli",
+    "single_length_regex": "Ölçü: <sayı> cm",
+    "agreed_sale_precedence": [
+      "Açıklamada '<fiyat> Whatsapp fiyat' varsa doğrudan SaleTotalTl bu fiyattır, CostTotalTl=0.",
+      "Açıklamada '<adet> adet ... Tanesi <fiyat> TL' varsa satış adet*fiyattır, CostTotalTl=0."
+    ],
+    "area_rules": [
+      "Açıklamada ölçü yoksa Order WidthCm*HeightCm/10000*qty.",
+      "Tek ölçü varsa o alan*qty.",
+      "Birden çok ölçü ve qty>1 ise ilk ölçü alanı + son ölçü alanı*qty.",
+      "Birden çok ölçü ve qty<=1 ise tüm ölçü alanları toplamı."
+    ],
+    "dtf_length_rules": [
+      "Tek cm ölçüsü varsa cm/100*qty.",
+      "Yoksa Order.LengthMeter>0 ise LengthMeter*qty.",
+      "Boyutun uzun kenarı <=58 cm ise kısa kenar/100.",
+      "Kısa kenar <=58 cm ise uzun kenar/100.",
+      "İki kenar da >58 cm ise alan/0.58; sonra qty ile çarpılır."
+    ],
+    "recognized_material_rules": [
+      "DTF: metre * PRIVATE_AMOUNT; etkin uzunluk 10 m üstüyse PRIVATE_AMOUNT; kurla TL.",
+      "Dekota: metin 5 mm içerirse 5 mm, değilse 3 mm; kullanılan levha oranı * levha USD fiyatı * kur.",
+      "Pleksi: 5 mm otomatik fiyatlanmaz. 3 mm için Bordo/Siyah/Şeffaf/Yeşil renk eşleşir; alan/levha alanı*USD*kur.",
+      "Eko folyo: alan*PRIVATE_AMOUNT. Gold/altın folyo fiyat bekler.",
+      "Plotter: folyo maliyetinin %50'si. Aynı tarih ve başlık grubunda ayrı folyo satırı yoksa folyo maliyetini de ekler.",
+      "UV: alan/0.54*PRIVATE_AMOUNT.",
+      "Sıvama: alan*PRIVATE_AMOUNT."
+    ],
+    "known_missing_markers": [
+      "Lazer kesim süresi",
+      "Kazıma fiyatı",
+      "Taşıyıcı fiyatı",
+      "Karton ayak/destek fiyatı",
+      "Keçe kesim fiyatı",
+      "Gold folyo fiyatı veya plotter maliyeti",
+      "Ürün/hizmet fiyat eşleştirmesi"
+    ],
+    "audit_behavior": "Eksik varsa açıklama sonuna ' | HESAP KONTROL: ...' eklenir; yeniden çalıştırmada önce eski audit kısmı soyulur.",
+    "status": "Eksik yoksa Tam hesaplandı; eksik var ama SaleTotalTl>0 ise Kısmi hesaplandı; aksi halde Fiyat bekliyor.",
+    "report": "Müşteri, kur, çarpan, sipariş sayıları, satış/tahsilat/bakiye ve her sipariş için hesap metni/missing alanları JSON'a yazılır."
+  },
+  "ui_specification": {
+    "main_window": {
+      "title": "İzmirde Reklam",
+      "initial_size": "1380×860",
+      "minimum_size": "1120×700",
+      "font": "Segoe UI 9.5",
+      "header": "Lacivert üst çubuk; BTakip başlığı, İzmirde Reklam Müşteri Takip alt başlığı, Geri Al ve senkron rozeti.",
+      "close_behavior": "Normal kapatmada süreç kapanmaz; pencere görev çubuğuna küçülür ve aynı görev çubuğu simgesine tıklanınca geri gelir. Aktif düzenleyicide kaydedilmemiş değişiklik varsa önce Evet=Kaydet, Hayır=Vazgeç, İptal=Sayfada kal sorusu gösterilir. Tray Çıkış da aynı güvenli sorudan sonra süreçten çıkar; Windows kapanışı engellenmez.",
+      "single_instance": "Adlandırılmış Local mutex aynı Windows oturumunda yalnız bir BTakip arayüzü çalıştırır. Uygulama/kısayol yeniden tıklanırsa ikinci süreç pencere açmaz; adlandırılmış AutoResetEvent ile mevcut pencereyi normal duruma getirip öne alır. Komut satırı bakım işlemleri bu UI kilidinden önce tamamlanır."
+    },
+    "theme": {
+      "navy": [
+        20,
+        48,
+        65
+      ],
+      "teal": [
+        29,
+        122,
+        126
+      ],
+      "mint": [
+        228,
+        245,
+        241
+      ],
+      "sand": [
+        248,
+        244,
+        235
+      ],
+      "orange": [
+        231,
+        137,
+        55
+      ],
+      "ink": [
+        38,
+        48,
+        56
+      ],
+      "muted": [
+        102,
+        117,
+        126
+      ],
+      "line": [
+        218,
+        226,
+        230
+      ]
+    },
+    "tabs": [
+      {
+        "index": 0,
+        "name": "Genel Bakış",
+        "content": "Müşteri sayısı, açık bakiye, sipariş sayısı, son Excel yedek saati; Yeni Fiyat Hesabı, Yeni Müşteri, Tahsilat Gir, Şimdi Eşitle kısayolları."
+      },
+      {
+        "index": 1,
+        "name": "Müşteriler",
+        "editor_fields": [
+          "Ad zorunlu",
+          "Firma",
+          "Telefon",
+          "E-posta",
+          "Fiyat Grubu",
+          "Not"
+        ],
+        "actions": [
+          "Kaydet",
+          "Müşteri Ekle",
+          "Excel ile Yükle",
+          "Excel'i Dönüştür",
+          "Dışa Aktar (PDF veya Excel seçimi)",
+          "Sil",
+          "Tabloyu PDF Al"
+        ],
+        "grid": [
+          "Müşteri bağlantısı",
+          "Firma",
+          "Fiyat Grubu",
+          "Telefon",
+          "Bakiye"
+        ],
+        "sorting": [
+          "A'dan Z'ye",
+          "Z'den A'ya",
+          "Yüksekten düşüğe bakiye",
+          "Düşükten yükseğe bakiye",
+          "Son değişenler"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Fiyat Tanımları",
+        "fields": [
+          "Tür zorunlu: Malzeme, Baskı veya Hizmet",
+          "Ürün/malzeme ya da hizmet adı zorunlu",
+          "Baskıda kullanılan malzeme; yalnız Baskı türünde görünür ve zorunludur",
+          "Türüne uygun hesap formülü",
+          "Ana alış maliyeti",
+          "yalnız Malzeme + levha alanında malzeme eni/boyu cm ve kalınlık mm",
+          "yalnız levhada canlı m² ve maliyet özeti",
+          "Aktif"
+        ],
+        "hidden_compatibility_fields": [
+          "Varyant/kalite/renk/açıklama",
+          "Birim",
+          "Para Birimi",
+          "Bu üründe baskı var",
+          "Bu ürüne hizmet ekle",
+          "müşteri gruplarına özel kâr kutuları; özel oranlar Kâr Ayarları sayfasından yönetilir"
+        ],
+        "currencies": [
+          "TL",
+          "USD"
+        ],
+        "structure_selector": [
+          "Malzeme",
+          "Baskı",
+          "Hizmet"
+        ],
+        "actions": [
+          "sol üst mod sekmesi: Ürün Ekle",
+          "sol üst mod sekmesi: Ürünü Güncelle",
+          "form altı bağlamsal kayıt düğmesi: Ürünü Ekle veya Ürünü Güncelle",
+          "sağ üst: Sil"
+        ],
+        "action_layout": "Ürün Ekle ve Ürünü Güncelle solda formun üstündeki mod sekmeleridir; aktif çalışma modu turkuaz görünür. Yeni ürün modunda form altı düğmesi Ürünü Ekle diyerek yeni kayıt oluşturur. Tablodan mevcut satır seçilince güncelleme modu aktif olur ve aynı düğme Ürünü Güncelle olur. Sil sağdaki tablo araç çubuğunda kalır.",
+        "unified_product_editor": "Tek ürün kaydı seçilen tek türe göre düzenlenir. Baskı türünde kullanılan malzeme seçilir; Hizmet türü kendi adı, formülü ve maliyetiyle ayrı kaydedilir. Varsayılan m² malzemede gerçek iş ölçüsü fiyat hesabında girilir; yalnız levha alanında cm en-boy ve mm kalınlık açılır. Varyant, birim, para birimi, eski birleşik baskı/hizmet kutuları ve gruba özel kâr kontrolleri gösterilmez; özel kâr yalnız Kâr Ayarları sayfasından yönetilir.",
+        "grid_variant_header": "PriceItem.Variant verisi korunur; kullanıcıya görünen kolon başlığı Varyant değil Açıklama'dır.",
+        "table_editing": "Müşteriler, Fiyat Tanımları, Cari & Tahsilat ve Kâr Ayarları tablolarında hesaplanmış/kimlik sütunları dışındaki ilgili hücreler doğrudan yazılarak güncellenir. Hücre düzenlemesi kaydetme onayı ister, geri alma görüntüsü oluşturur ve düzenlenmiş satırı seçili bırakır. Müşteriler tablosundaki Müşteri adı hücresi düzenleme için değil bağlantıdır; tıklanınca seçili müşterinin Cari & Tahsilat hesabı açılır. Fiyat Tanımlarında Tür, Ad, Açıklama, Birim, Para, Alış Fiyatı, Hesap ve seçili tablo grubu için özel kâr; Müşterilerde firma/fiyat grubu/telefon; Kâr Ayarlarında kategori adı/kâr yüzdesi düzenlenebilir. Cari satırında malzeme değişirse yazılan yeni malzeme eski sipariş satırındaki kalemden önceliklidir ve müşterinin kartındaki fiyat grubuyla yeniden hesaplanır.",
+        "automatic_pricing": "Ürün düzenleyicisinde müşteri kategorisi yoktur. Sağ tablonun üstündeki Tablo fiyat grubu seçimi yalnız satış önizlemesini anında değiştirir. Ürünün seçilen gruba özel oranı varsa o, yoksa grubun standart oranı kullanılır.",
+        "grid_extra_column": "Başlık Satış Kârı — <seçilen grup> biçimindedir; hücre seçilen grup için özel veya standart yüzdeyi açıkça yazar."
+      },
+      {
+        "index": 3,
+        "name": "Fiyat Hesaplama",
+        "fields": [
+          "Fiyat kategorisi/kâr oranı",
+          "Açıklama",
+          "En cm",
+          "Boy cm",
+          "Uzunluk m",
+          "Süre dk",
+          "Adet",
+          "USD/TL",
+          "Alternatif yüzde"
+        ],
+        "behavior": "Aktif fiyat kalemleri çoklu seçilir; bir ürün kutusuna tıklanınca ve Fiyat kategorisi/kâr oranı değişince önizleme otomatik yenilenir. Seçilen müşteri grubu için ürün özel oranı yoksa grubun standart çarpanı, varsa yalnız o gruba kaydedilmiş ürün oranı kullanılır. Siparişe Dönüştür müşteriyi sorar ve aynı satır bazlı özel/genel oran hesabıyla cariye borç işler."
+      },
+      {
+        "index": 4,
+        "name": "Cari & Tahsilat",
+        "top_filters": [
+          "Müşteri",
+          "İsteğe bağlı tarih aralığı",
+          "Sıralama",
+          "Açıklamayı göster",
+          "Bakiye"
+        ],
+        "ledger_columns": [
+          "Tarih",
+          "Hareket",
+          "Açıklama",
+          "Malzeme",
+          "Ölçü",
+          "Borç",
+          "Tahsilat",
+          "Bakiye"
+        ],
+        "editable_cells": "Sipariş: tarih/açıklama/malzeme/ölçü/borç/bakiye; tahsilat: tarih/açıklama/tahsilat/bakiye. Malzeme hücresine yazmaya başlanınca aktif fiyat/malzeme kayıtlarının adları ilk harflere göre öneri listesinde gösterilir. Siparişin malzemesi veya ölçüsü değişince fiyat, caride görünmeyen fakat müşteri kartında kayıtlı müşteri grubuyla otomatik yeniden hesaplanır: o ürün için bu gruba özel kâr varsa önce o, yoksa grubun standart oranı kullanılır. Cari ekranında grup ya da kâr oranı seçimi yoktur. Ölçü hücresi '120 x 250 cm', '5 m²', '5 m2', '5 metrekare', yalnız '5' veya '3,8 m' biçimlerini kabul eder; doğrudan alan Order.AreaM2'ye yazılır ve ürünün m² formülüyle maliyet/satış yeniden hesaplanır. Hücre değeri gerçekte değişmediyse hiçbir kaydetme sorusu açılmaz. Değer değiştiğinde yeni değer gösterilerek Kaydedilsin mi onayı alınır; Hayır seçilirse veri değiştirilmeden tablo eski haline döner. Kayıt, ret veya hata sonrası tablo aynı hareket kimliği ve kolon seçili kalacak, gerekirse aynı satıra kayacak şekilde yenilenir. CellEndEdit içinden kayıt ve tablo yenileme BeginInvoke ile olay tamamlandıktan sonraya ertelenir; böylece Borç düzenlerken DataGridView SetCurrentCellAddressCore yeniden giriş hatası oluşmaz. Borç değişikliği Order.SaleTotalTl ve maliyete göre AlternativePercent değerini günceller. Bakiye değişikliği, kronolojik önceki bakiye üzerinden satış satırında borcu veya tahsilat satırında tahsilatı hesaplar; sonraki tüm satır bakiyeleri, müşteri toplamı ve genel bakış yeniden hesaplanır.",
+        "right_subtabs": {
+          "Tahsilat": [
+            "Tutar TL",
+            "Nakit/Havale-EFT/Kredi Kartı/Çek/Diğer",
+            "Açıklama",
+            "Tahsilatı Kaydet; ikinci onay olmadan yazılmaz",
+            "Müşteriye Not Yolla",
+            "Dışa Aktar (PDF veya Excel seçimi)"
+          ],
+          "Sipariş Ekle": [
+            "Tarih",
+            "Tek fiyat kalemi",
+            "açıklama",
+            "en/boy/uzunluk/adet",
+            "alış-satış önizlemesi",
+            "müşteri kartındaki fiyat grubu arka planda kullanılır",
+            "borç tutarı ve müşteri adıyla ikinci kayıt onayı"
+          ],
+          "Excel Ekle": "Yalnız yeni kayıtları, tekrar oluşturmadan cariye ekler."
+        }
+      },
+      {
+        "index": 5,
+        "name": "Kâr Ayarları",
+        "content": "Dört müşteri kategorisinin standart adı ve alış maliyeti üstüne kâr yüzdesi düzenlenir; PRIVATE_AMOUNT örneği canlı gösterilir. Ürüne özel bölümde malzeme/ürün ile müşteri kategorisi ayrı seçilir. Bu ürün ve müşteri kategorisinde özel kâr kullan kutusu açık kaydedilirse yüzde yalnız seçilen ürün + grup birleşimine yazılır; kapalı kaydedilirse yalnız o birleşimin özel oranı silinir. Diğer müşteri gruplarının ürün oranları değişmez."
+      },
+      {
+        "index": 6,
+        "name": "Senkron & Yedek",
+        "fields": [
+          "Google Web uygulaması adresi",
+          "gizli senkron anahtarı",
+          "15-3600 saniye aralığı",
+          "USD/TL",
+          "TCMB otomatik kur",
+          "Windows başlangıcı"
+        ],
+        "actions": [
+          "Ayarları Kaydet",
+          "Şimdi Eşitle",
+          "Kuru Güncelle",
+          "Tam Yedek Oluştur",
+          "Tam Yedek Yükle",
+          "Tüm Hesapları PDF Al",
+          "Tüm Hesapları Excel Al",
+          "Excel'den İçe Aktar",
+          "Yedek Klasörünü Aç"
+        ],
+        "account_exports": "Tüm Hesapları PDF Al, her aktif müşteri için borç, tahsilat, bakiye özeti ve hareketleri içeren A4 hesap dökümü üretir. Tüm Hesapları Excel Al mevcut tam Excel dışa aktarımını kullanarak tüm hesap, müşteri, sipariş ve tahsilat verilerini çalışma kitabına yazar. Her ikisinde de hedef dosya kullanıcı tarafından seçilir."
+      }
+    ],
+    "tray_menu": [
+      "İzmirde Reklam'ı Aç",
+      "Şimdi Eşitle",
+      "Yedek Klasörünü Aç",
+      "Çıkış"
+    ],
+    "customer_note": "Müşteriye Not Yolla yalnız Cari & Tahsilat ekranında bulunur ve seçili müşteri için markalı A4 yatay PDF hesap özeti üretir. Cari ekranında isteğe bağlı tarih aralığı uygulanır. Kaydetme yeri kullanıcıya sorulur, PDF otomatik açılır, WhatsApp/e-postaya eklenecek dosyanın tam yolu açıkça gösterilir ve nazik ödeme mesajı panoya kopyalanır. Bu işlem dış servise otomatik mesaj göndermez; kullanıcı PDF'yi seçtiği kanaldan iletir. Dışa Aktar düğmesi PDF veya Excel seçtirir. Müşteriye giden belgenin ekran ve baskı puntoları önceki tasarıma göre iki punto büyütülmüştür.",
+    "customer_table_pdf": "Müşteriler sayfasındaki mevcut sıralama ve görünür satırları Müşteri, Firma, Fiyat Grubu, Telefon ve Bakiye kolonlarıyla A4 yatay PDF'e aktarır; kaydetme yeri sorulur ve oluşturulan dosya açılır.",
+    "customer_ledger_excel": "Cari ve Tahsilat sayfasındaki seçili müşteri için seçili tarih aralığı da uygulanarak iki sayfalı Excel hesap dökümü üretilir: Hesap Özeti müşteri/firma/dönem/bakiye/borç/tahsilatı, Hareketler tarih/hareket/açıklama/malzeme/ölçü/borç/tahsilatı içerir. Kaydetme yeri kullanıcıya sorulur.",
+    "pdf_export_runtime": "Başsız Edge ile PDF yazılır; çıktı dosyasının oluşması beklenir, çıktı oluştuğunda arka planda kalan Edge işlemi sonlandırılır. Böylece PDF hazır olduğu halde bekleme zaman aşımı hatası verilmez."
+  },
+  "persistence_backup_integrity_undo": {
+    "save_transaction": [
+      "Semaphore ile aynı anda tek kayıt.",
+      "AppState girintili JSON olarak btakip-veri.json.tmp dosyasına yazılır.",
+      "Temp ana dosyanın üzerine atomik File.Move(..., overwrite=true) ile alınır.",
+      "Ana JSON SHA-256 sidecar yazılır.",
+      "Yedekler/yyyy-MM-dd içine milisaniyeli JSON kopyası ve sidecar yazılır.",
+      "createWorkbook true ise SimpleXlsx ile BTakip_Yedek_Son.xlsx ve sidecar üretilir; Excel hatası loglanır ama ana kayıt korunur.",
+      "btakip.log dosyasına KAYIT | neden | snapshot adı eklenir.",
+      "Saved olayı tetiklenir."
+    ],
+    "startup_recovery": [
+      "Ana JSON varsa ve sidecar mevcutsa hash doğrulanır; JSON deserialize ve normalize edilir.",
+      "Bozuklukta ana dosya Kurtarma klasörüne kopyalanır.",
+      "Yedekler altındaki en yeni, hash'i doğrulanan ve deserialize olabilen JSON aranır.",
+      "Bulunursa otomatik kurtarılır ve yeni kayıt/yedek üretilir.",
+      "Hiç kayıt yoksa SeedData oluşturulur ve İlk kurulum olarak kaydedilir."
+    ],
+    "normalization": "Eksik koleksiyon ve Settings nesnelerini oluşturur; boş DeviceId üretir; eski siparişlerde Material boşsa Lines, fiyat adı veya açıklamadan tahmin eder.",
+    "undo": [
+      "Her kullanıcı mutasyonundan önce tüm AppState UndoSnapshot olarak son-islem dosyasına alınır; önceki son-islem Gecmis klasörüne taşınır.",
+      "Geri alırken snapshot sonrasındaki başka cihaz kaynaklı yeni değişiklikler korunur.",
+      "Google change token, LastSyncUtc ve mevcut Conflicts korunur.",
+      "Değişen/geri gelen varlıkların revizyonları yükseltilir; snapshot'ta olmayan güncel varlıklar Deleted=true tombstone olarak eklenir.",
+      "Geri alma sonrası kullanılan snapshot Kullanildi arşivine taşınır ve Gecmis içindeki bir önceki sağlam snapshot yeniden son-islem yapılır; Geri Al düğmesine art arda basılarak kullanıcı işlemleri geriye doğru alınabilir."
+    ],
+    "full_backup": [
+      "Export: AppState JSON baytları ve hash manifesti ZIP'e yazılır; varsa son Excel eklenir; temp->hedef atomik taşınır.",
+      "Import: iki zorunlu ZIP girdisi ve FormatVersion=1 doğrulanır; veri hash'i eşleşmezse reddedilir.",
+      "Geri yüklenen State yerel DeviceId'yi alır; tüm varlıkların Revision değeri en az bir artırılır, SyncedRevision=0, UpdatedAtUtc=şimdi yapılır; böylece Google'a yeniden gönderilebilir."
+    ],
+    "software_integrity": "Çalışan EXE SHA-256 değeri sidecar ve veri klasöründeki yazilim-butunluk.json ile kontrol edilir. Aynı sürümde hash değişirse uyarı/log oluşur; yeni sürümde manifest yenilenir.",
+    "checksum_sidecar_format": "64 hex SHA-256 + iki boşluk + dosya adı"
+  },
+  "sync_contract": {
+    "transport": "HTTPS GET/POST JSON üzerinden Google Apps Script Web App",
+    "auth": "ScriptProperties içindeki BTAKIP_TOKEN ile tam dize eşitliği; kurulum tokenı en az 16 karakter veya otomatik iki UUID.",
+    "client_timeout_seconds": 20,
+    "interval_seconds": {
+      "default": 30,
+      "minimum": 15,
+      "maximum": 3600
+    },
+    "pull": {
+      "request": "GET <webapp>?action=pull&token=<urlencoded>&since=<LastGoogleChangeToken>",
+      "unchanged": "since güncel change tokena eşitse records=[]",
+      "changed": "Beş tablodaki tüm kayıtlar döner; delta değil tam tablo."
+    },
+    "push": {
+      "request_body": {
+        "token": "<secret>",
+        "action": "push",
+        "deviceId": "<AppState.DeviceId>",
+        "records": "[{type,data}]"
+      },
+      "selection": "Revision > SyncedRevision olan tüm Customer, PriceGroup, PriceItem, Order, Payment.",
+      "server_upsert": "Id ile satır bulur; sunucudaki Revision daha büyükse geleni atlar; Lines dizi JSON metnidir. PriceItem için ThicknessMm ve ServiceUnitCost sayısal; BaseMaterialPriceItemId, ServiceName ve ServiceFormula metin; IsPrintProduct ve ServiceEnabled mantıksal; GroupProfitPercentOverrides grup Id -> yüzde sözlüğü JSON metni; PriceGroupId ve SpecialProfitPercent yalnız eski kayıt uyumluluğu için saklanır.",
+      "success": "İstemci gönderilen varlıklarda SyncedRevision=Revision yapar."
+    },
+    "entity_type_names": [
+      "customers",
+      "price_groups",
+      "price_items",
+      "orders",
+      "payments"
+    ],
+    "change_token": "Milisaniye Date.now dizesi; push ve Google onEdit sonrası yenilenir.",
+    "conflict_detection": "Remote Revision > local.SyncedRevision veya remote UpdatedAtUtc > local UpdatedAtUtc iken local Revision > local.SyncedRevision ve içerik eşdeğer değilse çakışma.",
+    "conflict_choices": {
+      "Evet": "Google sürümünü kullan",
+      "Hayır": "PC sürümünü kullan; Revision=max(local,remote)+1",
+      "İptal": "İki sürümü koru; Google kaydı yeni Id ve yerel revizyonla eklenir"
+    },
+    "google_spreadsheet": {
+      "configured_id": "1-oT2r_qDlug83XMbGzqUJlOX7hxgCS_Ej--OBMHDv6A",
+      "book_name_expected": "BTakip Veri",
+      "folder_name_expected": "BTakip",
+      "sheets": [
+        "Müşteriler",
+        "Fiyat Grupları",
+        "Fiyatlar",
+        "Siparişler",
+        "Tahsilatlar",
+        "Ayarlar"
+      ],
+      "manual_delete_rule": "Satır silme yerine Silindi sütununa TRUE/EVET/1.",
+      "price_override_column": "Fiyatlar sayfası PriceItem şemasında ThicknessMm, BaseMaterialPriceItemId, IsPrintProduct, ServiceEnabled, ServiceName, ServiceFormula, ServiceUnitCost, GroupProfitPercentOverrides, PriceGroupId ve SpecialProfitPercent alanlarını saklar. Güncellenmiş Apps Script dağıtılıp setupBTakip bir kez çalıştırıldığında başlıklar tamamlanır."
+    },
+    "tcmb": "https://www.tcmb.gov.tr/kurlar/today.xml içindeki USD Currency/ForexSelling değeri alınır; hata olursa mevcut kur korunur ve loglanır."
+  },
+  "excel_io": {
+    "implementation": "NuGet paketi olmadan ZIP/XML OpenXML yazma ve okuma; sharedStrings ve inlineStr okur; ilk satır dondurulur, filtre ve otomatik sütun genişliği eklenir. ExportCustomerLedger seçili müşterinin hesap özeti ve hareketlerini ayrı Excel sayfalarına yazar.",
+    "export_sheets": {
+      "Müşteriler": [
+        "Kimlik",
+        "Ad",
+        "Firma",
+        "Telefon",
+        "E-posta",
+        "Fiyat Grubu",
+        "Not",
+        "Bakiye TL",
+        "Son Değişiklik",
+        "Sürüm",
+        "Cihaz",
+        "Silindi"
+      ],
+      "Fiyat Grupları": [
+        "Kimlik",
+        "Kod",
+        "Ad",
+        "Maliyet Çarpanı",
+        "Son Değişiklik",
+        "Sürüm",
+        "Cihaz",
+        "Silindi"
+      ],
+      "Fiyatlar": [
+        "Kimlik",
+        "Kategori",
+        "Ad",
+        "Varyant",
+        "Birim",
+        "Para Birimi",
+        "Birim Maliyet",
+        "İkincil Fiyat",
+        "Levha En cm",
+        "Levha Boy cm",
+        "Kalınlık mm",
+        "Kullanılan Malzeme Kimlik",
+        "Üründe Baskı",
+        "Hizmet Var",
+        "Hizmet Adı",
+        "Hizmet Hesabı",
+        "Hizmet Birim Maliyeti",
+        "Formül",
+        "Aktif",
+        "Müşteri Fiyat Grubu",
+        "Gruba Özel Kârlar",
+        "Özel Kâr %",
+        "Son Değişiklik",
+        "Sürüm",
+        "Cihaz",
+        "Silindi"
+      ],
+      "Siparişler": [
+        "Kimlik",
+        "Tarih",
+        "Müşteri Kimlik",
+        "Müşteri",
+        "Açıklama",
+        "Malzeme",
+        "En cm",
+        "Boy cm",
+        "Alan m²",
+        "Uzunluk m",
+        "Süre dk",
+        "Adet",
+        "Kur",
+        "Maliyet TL",
+        "Satış TL",
+        "Fiyat Grubu",
+        "Alternatif %",
+        "Kalemler",
+        "Son Değişiklik",
+        "Sürüm",
+        "Cihaz",
+        "Silindi"
+      ],
+      "Tahsilatlar": [
+        "Kimlik",
+        "Tarih",
+        "Müşteri Kimlik",
+        "Müşteri",
+        "Tutar TL",
+        "Ödeme Tipi",
+        "Açıklama",
+        "Son Değişiklik",
+        "Sürüm",
+        "Cihaz",
+        "Silindi"
+      ],
+      "Ayarlar": [
+        "Ayar",
+        "Değer",
+        "Açıklama"
+      ]
+    },
+    "native_import": "Sayfa adları Türkçe karakter duyarsız eşleşir. Müşteri, fiyat, sipariş ve tahsilat sayfaları ayrı ayrı içe alınır; Id veya doğal alan eşleşmesi kullanılır. Fiyatlarda Müşteri Fiyat Grubu ad veya Id ile çözülür, bulunamazsa retail; Özel Kâr % boşsa null, doluysa decimal alınır.",
+    "append_only_duplicate_rules": {
+      "customer": "Id veya normalize ad",
+      "price_item": "Id veya normalize kategori+ad+varyant",
+      "order": "Id veya müşteri+tarih+açıklama+malzeme+ölçüler+süre+adet+kur+maliyet+satış+grup+alternatif yüzde",
+      "payment": "Id veya müşteri+tarih+tutar+ödeme tipi+açıklama",
+      "conversion_order": "müşteri+tarih+açıklama+malzeme+en+boy+uzunluk+adet+satış",
+      "conversion_payment": "müşteri+tarih+tutar+açıklama"
+    },
+    "legacy_conversion": {
+      "header_search": "İlk 50 satırda en az iki tanınan başlık ve hareket verisi aranır; en yüksek skorlu veya adı hareket/sipariş/satış/tahsilat/cari içeren sayfalar seçilir.",
+      "ignored_sheet_keywords": [
+        "özet",
+        "kontrol",
+        "fiyat",
+        "kural",
+        "kaynak",
+        "görsel",
+        "ayar",
+        "rapor"
+      ],
+      "recognized_header_aliases": "Tarih, hareket, grup, açıklama, malzeme-hizmet, ölçü/alan, adet, birim fiyat, toplam fiyat, borç, alacak/tahsilat, bakiye, not, ödeme tipi, kur, müşteri ve İngilizce yakınları. Açıklama; Açıklama/İş Açıklaması/İş Adı/İş-Hizmet/Proje başlıklarından, malzeme ise İsim/Ürün ve malzeme yakınlarından ayrı alınır; m² Fiyatı ve Satır Tutarı da fiyat başlığı olarak tanınır.",
+      "movement_detection": "Tahsilat/ödeme/ödendi/nakit/havale/eft/çek veya satış/borç/fatura/sipariş/işlem sözcükleri; ayrıca borç/alacak sütunları.",
+      "calculated_total": "Kaynak satış tutarı ilk okumada alan×birim fiyat veya satır tutarından çıkarılabilir. Ancak aktif BTakip fiyat kalemi ve yeterli ölçü varsa onay öncesi ve içe aktarmada PricingEngine çalışır; maliyet, satış borcu ve sipariş satırları bu motor sonucundan gelir. Eşleşme veya formül için yeterli ölçü yoksa kaynak tutar/bilgi korunur ve hesap durumu kullanıcıya gösterilir; fiyat uydurulmaz.",
+      "measurement": "mm/cm/m boyutları, doğrudan m² veya alan sütunundaki çıplak sayı; boyutlar Order WidthCm/HeightCm'ye çevrilir, tek metre LengthMeter olur. DTF satırı alan/boyuttan geliyorsa tanımdaki rulo eni (örnek 58 cm) kullanılarak lineer metreye dönüştürülür.",
+      "preservation": "Tanınan ve bilinmeyen dolu sütunlar etiketli parçalar halinde Description içine korunur.",
+      "customer_name": "Çalışma sayfası adı CAR, CAR0 vb. genel adsa müşteri adı dosya adından üretilir; _tum-fotograflar_eklenmis gibi teknik ekler kaldırılır. Geçerli müşteri zaten varsa onun fiyat grubu kullanılır, yoksa perakende varsayılanıyla önizleme yapılır.",
+      "catalog_match": "Tam görünen ad/benzersiz ad önce denenir. Arka siyah/asb, oneway/owv, kumlama, DTF, folyo-Orafol, branda normal/eko ve citylight/poster yakınları mevcut tanımlara eşlenir. Kaynak malzeme adı, başarılı eşleşmede katalogdaki kesin görünen adla standartlaştırılır.",
+      "preview": "Kaynak sayfa/satır, tarih, hareket, açıklama, malzeme, ölçü, kaynak borç/tahsilat ile motor maliyeti, motor satış borcu ve hesap durumu kullanıcı onayından önce gösterilir. Gerçek cariye yalnız kullanıcı onayından sonra yazılır."
+    }
+  },
+  "installer_and_lifecycle": {
+    "install_flow": [
+      "Varsayılan hedef %LOCALAPPDATA%\\BTakip.",
+      "Mevcut kullanıcı verisini Yedekler/Yazilim-Guncelleme-Oncesi-... klasörüne kopyalar.",
+      "Güncelleme sırasında hedef BTakip.exe çalışıyorsa dosya yoluyla bulur, normal kapatmayı dener ve gerekirse süreci sonlandırarak kilitli EXE sorununu önler.",
+      "Mevcut BTakip.exe'yi OncekiSurum klasörüne kopyalar.",
+      "Kurucuya EmbeddedResource olarak gömülü BTakip_Portable.exe'yi BTakip.exe.new üzerinden hedefe atomik taşır.",
+      "EXE SHA-256 sidecar üretir ve kurucuyu BTakip_Kaldir.exe olarak kopyalar.",
+      "Masaüstü ve Başlat menüsüne .url kısayolları oluşturur.",
+      "HKCU uninstall kaydı ve setup-result.log oluşturur.",
+      "Veri yoksa masaüstü/belgeler/indirilenler/veri kökünde en yeni .btakip yedeğini bulup yükleme teklif eder."
+    ],
+    "uninstall_flow": [
+      "Program Ekle/Kaldır girdisi HKCU Uninstall altında NoRemove=0, SystemComponent=0 ve WindowsInstaller=0 ile görünür ve BTakip_Kaldir.exe --uninstall komutunu çalıştırır.",
+      "Kaldırıcı kendini benzersiz geçici EXE'ye kopyalar, kaynak kaldırıcı sürecinin çıkmasını en fazla 10 saniye bekler ve UI'yi kilitsiz geçici kopyadan açar.",
+      "Kaldırmadan önce isteğe bağlı ve bütünlüğü doğrulanan .btakip tam yedeği oluşturur.",
+      "Kurulum klasörünü güvenli hedef denetimi ve OK ile başlayan setup-result.log ile doğrular; özel kurulum klasörü adı da desteklenir.",
+      "Çalışan uygulamayı süreç adı yerine tam EXE yoluyla bulup kapatır/sonlandırır, kısayolları temizler, kurulum klasörünü kilit gecikmelerine karşı beş güvenli denemeyle siler ve ancak klasör silindikten sonra HKCU kaldırma kaydını kaldırır.",
+      "Varsayılan olarak %USERPROFILE%\\btakip verisini korur; kullanıcı açıkça kaldırırsa klasör adı doğrulandıktan sonra siler.",
+      "Google tablolarına dokunmaz."
+    ],
+    "application_cli": {
+      "--smoke-test --data-dir <path>": "Kritik işlev testini çalıştırır.",
+      "--create-backup <path>": "Tam .btakip yedeği üretir; dönüş 0/6/7.",
+      "--import-excel <path>": "Excel içe aktarır ve kaydeder; dönüş 0/1/2/3.",
+      "--price-AnonPerson_0002-orders": "AnonPerson_0002 özel fiyatlandırmasını çalıştırır ve rapor yazar.",
+      "--restore-backup <path> [--restore-only]": "Tam yedeği geri yükler; dönüş 0/4/5.",
+      "--data-dir <path>": "Geçici/test veri kökü.",
+      "--tray": "Windows başlangıç kaydında kullanılır; mevcut kaynakta ayrıca başlangıçta gizleme mantığı yoktur."
+    },
+    "setup_cli": {
+      "--install-dir <path>": "Kurulum hedefi.",
+      "--silent [--no-launch]": "Sessiz kurulum.",
+      "--smoke-test": "Kurulum + kurulan uygulama smoke testi.",
+      "--uninstall": "Geçici kaldırıcı akışını başlatır.",
+      "--uninstall-ui": "Kaldırma arayüzü."
+    }
+  },
+  "recreation_contract": {
+    "goal": "Bu JSON dışında BTakip'e özel hiçbir kaynağa ihtiyaç duymadan kaynak ağacını ve işlevsel 1.5.7 uygulamasını yeniden oluşturmak.",
+    "authority_order": [
+      "embedded_files[].exact_content",
+      "embedded_files[].sha256",
+      "Bu JSON'daki yapılandırılmış davranış açıklamaları",
+      "Derleme ve smoke testi sonuçları"
+    ],
+    "extract_steps": [
+      "JSON'u UTF-8 olarak ayrıştır.",
+      "Her embedded_files girdisinde relative_path için klasörü oluştur.",
+      "exact_content değerini encoding=utf-8-no-bom ve newline=LF ile yaz.",
+      "Her dosyada SHA-256 hesaplayıp girdideki sha256 ile karşılaştır; tek uyuşmazlıkta devam etme.",
+      "BTakip ve BTakip.Setup kaynaklarını, Google klasörünü ve NuGet.Config'i aynı göreli yapıda tut."
+    ],
+    "build_steps": [
+      "Windows x64 üzerinde .NET 10 SDK kullan.",
+      "dotnet publish BTakip/BTakip.csproj -c Release -r win-x64 --self-contained true -o publish/portable",
+      "publish/portable/BTakip_Portable.exe dosyasını BTakip.Setup/Payload/BTakip_Portable.exe konumuna kopyala.",
+      "dotnet publish BTakip.Setup/BTakip.Setup.csproj -c Release -r win-x64 --self-contained true -o publish/setup",
+      "Portable EXE'yi dist/BTakip_Portable.exe, setup EXE'yi dist/BTakip_Setup.exe olarak adlandır.",
+      "Her dağıtım dosyası için büyük harf SHA-256 ve iki boşluk + dosya adı içeren .sha256 sidecar üret."
+    ],
+    "test_steps": [
+      "dist/BTakip_Portable.exe --smoke-test --data-dir <boş-test-klasörü>",
+      "dist/BTakip_Setup.exe --smoke-test --install-dir <boş-test-kökü>",
+      "Çıkış kodlarının 0, üretilen JSON/XLSX sidecar hash'lerinin doğru olduğunu doğrula."
+    ],
+    "determinism_note": "Kaynak ve davranış birebir yeniden üretilebilir. Single-file self-contained EXE baytları SDK patch sürümü, PE zaman damgası veya yayınlayıcı ortam nedeniyle eski release hash'iyle birebir aynı olmayabilir; eski binary hash'i kimlik/doğrulama referansıdır.",
+    "data_migration": "Gerçek kullanıcı verisi için JSON dijital kopyası değil, uygulamanın Tam Yedek Oluştur işleviyle üretilen .btakip dosyası kullanılmalıdır."
+  },
+  "implementation_fidelity_notes": [
+    "Google Apps Script Siparişler alan listesinde Order.Material bulunmaz; istemci data nesnesi gönderse de script bu alanı yazmaz ve Google'dan gelen sipariş Material boş dönebilir. Bu mevcut 1.5.7 davranışıdır.",
+    "SyncedRevision yerel modelde vardır fakat Google sayfa alanlarına yazılmaz; uzaktan gelen varlıkta varsayılan 0 olur, istemci kabul ettikten sonra gelen Revision'a ayarlar.",
+    "DataStore.VerifyChecksum sidecar yoksa true döndürür; ilk açılışta mevcut ana veriye yeni sidecar yazılır. Tam yedek doğrulaması ise manifest hash'ini zorunlu tutar.",
+    "Excel export sipariş Lines alanını yalnız görünen kalem adlarını ' + ' ile birleştirerek yazar; normal Excel import Order.Lines ayrıntısını geri kurmaz. Kayıpsız aktarım için .btakip tam yedeği gerekir.",
+    "Excel import, export'taki Deleted/Revision/DeviceId gibi alanların tamamını geri yüklemez; Excel kullanıcı taşımaya ve rapora, .btakip tam yedek ise birebir veri devamlılığına yöneliktir.",
+    "--tray argümanı kayıt defterine yazılır ancak MainForm başlangıçta bu argümana göre kendini gizlemez; uygulama normal pencereyle açılır ve kapatılınca tray'e iner.",
+    "DTF kademe seçimi input.LengthMeter > 10 koşuluna bakar; Quantity ile çarpılmış toplam metreye bakmaz.",
+    "SABIT formülü qty ne olursa olsun bir kez ücretlendirir.",
+    "MALZEME_YUZDE Category Baskı ve Malzeme olan önceki satırların toplamını baz alır.",
+    "Google pull değişiklik olduğunda tüm tabloları döndürür; kayıt başına delta mekanizması yoktur.",
+    "Aynı sürüm numarasıyla EXE hash'i değişirse yazılım bütünlük uyarısı oluşur; sürüm numarası değişirse yeni hash manifesti kabul edilir.",
+    "Açıklamadaki özel AnonPerson_0002 fiyatlandırma algoritması genel PricingEngine'den ayrıdır ve yalnız özel komutla çalışır.",
+    "1.5.12: Fiyat tanımı kaydı, aynı PriceItemId veya DisplayName ile bağlı aktif siparişleri müşterinin kart fiyat grubuna göre yeniden hesaplar; önceden kaydedilmiş satır için ilgili ürün bir kez güncellenerek bu akış tetiklenir.",
+    "1.5.11: Cari ölçü metnindeki \"2,5 x 3 m\" iki boyutlu metre ifadesi 7,5 m² olarak saklanır; eski cm yorumlama hatası giderildi.",
+    "1.5.10: Ürüne müşteri grubu özel kâr seçeneğinin görünür form paneli geri getirildi; seçici kutu metni kaldırıldı, işlevi korunur."
+  ],
+  "security_privacy_and_scope": {
+    "secrets": "Senkron tokenı kaynakta sabit değildir; AppSettings içinde kullanıcı verisine yazılır. Bu bağlam dosyası gerçek token içermez.",
+    "public_identifier_note": "Google çalışma kitabı kimliği Apps Script kaynağında sabittir ve dijital kopyaya dahil edilmiştir.",
+    "excluded_sensitive_data": [
+      "outputs altındaki gerçek müşteri Excel çalışma kitaplarının hücre verileri",
+      "inspect.ndjson ve render görselleri",
+      "TestRuns içindeki çoğaltılmış çalışma verileri"
+    ],
+    "excluded_generated_data": [
+      "bin/obj altında .NET derleme ara ürünleri ve framework DLL'leri",
+      "çok büyük release EXE baytları",
+      "tekrarlı smoke test klasörleri"
+    ],
+    "included_instead": "Şema, tüm formüller, başlangıç fiyatları, algoritmalar, ekranlar, build/installer kaynakları, dosya hash'leri ve birinci taraf kaynakların exact_content değerleri."
+  },
+  "current_release_additions": {
+    "version": "1.5.12",
+    "date": "2026-09-06",
+    "scope": "Fiyat tanımı güncellemesi ile cari sipariş yeniden hesaplama, metre ölçüsü kaydetme ve ürüne müşteri grubu bazlı özel kâr ayarı görünürlüğü.",
+    "product_profit_override": {
+      "storage": "PriceItem.GroupProfitPercentOverrides: Dictionary<PriceGroupId, decimal>",
+      "precedence": "Seçili ürün için müşteri grubu özel oranı varsa bu oran kullanılır; yoksa müşterinin kartındaki PriceGroup.CostMultiplier kullanılır.",
+      "editor": "Fiyat Tanımları ürün ekle/güncelle formunda her müşteri grubu için adsız aç/kapat kutusu ve yüzde girişi bulunur. Kutunun kapalı olması standart grup oranı demektir.",
+      "example": "Branda / Arkası Siyah için Reklamcı / Fason özel %80 tanımlanabilir; diğer gruplar kendi standart oranlarıyla devam eder."
+    },
+    "ledger_measure_updates": {
+      "accepted_text": "120 x 250 cm, 5 m², 3,8 m ve 2,5 x 3 m",
+      "meter_dimension_rule": "Genişlik x yükseklik sonunda m veya metre yazılırsa cm alanları sıfırlanır, AreaM2=genişlik*yükseklik olarak saklanır; tablo m² gösterir ve maliyet/satış bu alandan hesaplanır.",
+      "persistence": "Cari tablosunda ölçü güncellenince sipariş alanları, fiyat satırları, maliyet, satış ve borç kalıcı olarak güncellenir."
+    },
+    "price_definition_propagation": {
+      "trigger": "Fiyat Tanımları içinde Ürünü Güncelle veya Ürünü Ekle kaydı tamamlandığında.",
+      "matching": "Aktif siparişin Lines içindeki PriceItemId güncellenen ürünün Id değeriyle eşleşirse veya sipariş malzeme adı ürün DisplayName değerine eşitse.",
+      "effect": "Eşleşen siparişler müşterinin güncel kart fiyat grubuyla RecalculateEditedOrder üzerinden yeniden hesaplanır, Touch ile revizyonlanır ve normal JSON kayıt akışıyla saklanır.",
+      "exclusions": "Silinen siparişler güncellenmez; manuel alternatif yüzde varsa mevcut alternatif oran korunarak hesaplanır."
+    },
+    "data_boundary": "Bu bağlam dosyası canlı müşteri hareketlerini gömmez. Canlı verinin tek otoritesi %USERPROFILE%\\\\btakip\\\\btakip-veri.json dosyasıdır."
+  },
+  "privacy_note": "Historical standalone source snapshots are retained under source/embedded-snapshots. Live account and verification data are excluded."
+}

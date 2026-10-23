@@ -1,0 +1,7 @@
+{
+  "manifests": [
+    "source/current/desktop/LocalAIOS/LocalAIOS.csproj",
+    "source/current/package.json"
+  ],
+  "policy": "Use preserved manifest and lock files; no personal account values are included."
+}

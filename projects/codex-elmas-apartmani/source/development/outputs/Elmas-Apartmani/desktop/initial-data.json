@@ -1,0 +1,20 @@
+{
+  "version": 0,
+  "created": "",
+  "tables": {
+    "Kullanicilar": [],
+    "Daireler": [],
+    "Aidatlar": [],
+    "Odemeler": [],
+    "Dekontlar": [],
+    "Makbuzlar": [],
+    "GelirGider": [],
+    "KasaHareketleri": [],
+    "Duyurular": [],
+    "Belgeler": [],
+    "Ayarlar": [],
+    "Loglar": [],
+    "Islemler": []
+  },
+  "files": []
+}

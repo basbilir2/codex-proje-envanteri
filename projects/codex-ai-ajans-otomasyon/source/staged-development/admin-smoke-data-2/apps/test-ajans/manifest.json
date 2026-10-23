@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "app_id": "app-1785684337089-a3bd293233f7",
+  "slug": "test-ajans",
+  "name": "Test Ajans",
+  "brand_name": "Test Marka",
+  "description": "",
+  "theme": {
+    "accent": "#8b5cf6"
+  },
+  "features": [
+    "brand",
+    "content",
+    "approvals"
+  ],
+  "resources": [
+    {
+      "category": "agent",
+      "key": "analizci",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "9a4438ae9c4de61032aeee6c6325e8104f0b20d3848588252265533bfea69412"
+    },
+    {
+      "category": "agent",
+      "key": "sosyal-medya-icerik-stratejisti",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "83097a670b3d9bdd4b4fcad74db42cd5d03066a2e1974d94c757c98e7fc64ce6"
+    },
+    {
+      "category": "agent",
+      "key": "gorsel-stratejist",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "2d6e48a717ce9037e87bff273030dff15c9b1ed3c33cc70d2d1afdc4e17f76f8"
+    },
+    {
+      "category": "agent",
+      "key": "kontrol-muhalefet-kurulu",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "3d0cd541911095bf5b5f5a6ad4c148e9cce0930224a690e1fc8ba603892ec4e7"
+    },
+    {
+      "category": "agent",
+      "key": "ana-ordinaryus",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "8a2997fea0fa93e03dacbe91a045d5c64a834964f70d1390943ec49b14ea64c5"
+    },
+    {
+      "category": "agent",
+      "key": "operasyon-orkestratoru",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "b2eca4916af008dc6b8e913678734f2f9a2a1cc41ffc19f83b73437cc731a867"
+    },
+    {
+      "category": "agent",
+      "key": "guncellik-gozcusu",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "ba037b479b48ad0be7bc7badc55e17cdfbaed12cef8971aad350548d5bfa1593"
+    },
+    {
+      "category": "agent",
+      "key": "hafiza-ogrenme-yoneticisi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "b5ec96df8f9a2d828f98f5aac6d7d0150dabd6ad9ef7680a3429e7e9b3bf16c4"
+    },
+    {
+      "category": "agent",
+      "key": "yayin-arayuz-ajani",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "80b8509caa64ae1345f03b4ab780760fa0d2f2e9ac446a7695bff940c1dde545"
+    },
+    {
+      "category": "agent",
+      "key": "bagimsiz-denetci",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "c9e62135ed40bfa10565bd28420885032743bb9a9cb5fb3d4d069fdfc3301592"
+    },
+    {
+      "category": "agent",
+      "key": "baslatma-saglik-kontrol-ajani",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "31f3bf7d057dcc0e919d7b4ad956c7b275e2978dfe376ebcf7a101d97d786a5f"
+    },
+    {
+      "category": "model",
+      "key": "model-kutuphanesi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "148a062cb1aed8f1f00c864c116682b65d558525b9685e548c6723367818d29a"
+    },
+    {
+      "category": "model",
+      "key": "model-secimi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "aaf663ed978625c37acd62199e621e6a628643156c3287d3d5eb183813d418d6"
+    },
+    {
+      "category": "model",
+      "key": "model-yonlendirme",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "e77d3d501c35e89a09ede45693c62373dea8dba752fbfa91402a0f92423f18d9"
+    },
+    {
+      "category": "flow",
+      "key": "durum-makinesi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "6222fa50c15a29cc0df0361d1a24471f2cc5f6aa844512e7f7acd53203e65585"
+    },
+    {
+      "category": "flow",
+      "key": "tartisma-politikasi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "091ec5373dc9825f566920865af9760223d946aad1e1e0043af9015afb401f6b"
+    },
+    {
+      "category": "flow",
+      "key": "yetki-matrisi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "53858975cbca6bb5d1fafe51392a0790e0e2ea844c12e96641655b344ece8397"
+    },
+    {
+      "category": "policy",
+      "key": "baglam-derleme-politikasi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "a4355a05a581941565f0ae6c27b2c011e501b98bbdea9e0bdeceaaebb5761e25"
+    },
+    {
+      "category": "policy",
+      "key": "guvenlik-politikasi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "de099a196f82d759f08f450caec15e60f4b5b2f2d41ec3ce37d5efdfacb32ac9"
+    },
+    {
+      "category": "policy",
+      "key": "hafiza-politikasi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "bb087caaa7504c37d3a49ff328a9055925e4a05ce207597ea9858e1e9f6e2ee1"
+    },
+    {
+      "category": "policy",
+      "key": "kalite-politikasi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "fb6104f3d2b4452a647a957a03f19bd5ce4b8a72c094a2043ff0dad0e7434125"
+    },
+    {
+      "category": "policy",
+      "key": "gizlilik-ve-veri-saklama",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "3a0fb95e3de1c09407d4cb05d43f705be29f187dd4ef099b2d9e4b95fa610094"
+    },
+    {
+      "category": "policy",
+      "key": "degisiklik-yonetimi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "c6026c28bb3b5feaaa8c18d2299bf30f60c255797c159cc34bb325e654cff08a"
+    },
+    {
+      "category": "policy",
+      "key": "musteri-baslangic-motoru",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "211fe9b37ea255f8439174cd89bf336a8beafc4e251a9d8b73bc433df3677484"
+    },
+    {
+      "category": "policy",
+      "key": "zaman-yonetimi",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "e883026dbffb4eada42be973a02067a259bb02d0ff4c487d5048d65990285b16"
+    },
+    {
+      "category": "policy",
+      "key": "test-kabul-kriterleri",
+      "version_id": null,
+      "version_no": 0,
+      "integrity": "a0cfc261a2c00e2f6acc34b161550fc4c2b5b82a0c9d6df6bd2110a7d23a7840"
+    }
+  ],
+  "connection_requirements": [],
+  "generation_no": 1,
+  "generated_at": "2026-08-02T15:25:37.089Z",
+  "proprietary_logic_visible_to_client": false,
+  "publish_requires_explicit_approval": true
+}

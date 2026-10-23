@@ -1,0 +1,16 @@
+[
+  {
+    "discard": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\Ataturk_UV_9_Baski_20261004_1926\\100 lpi alternatif 1200 dpi.tif",
+    "keep": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\Ataturk_UV_9_Baski_20261004_1926\\Ataturk_100LPI_1200DPI_12Gorsel_20x23.34cm_UV.tif",
+    "identical": false,
+    "discard_sha256": "d7d9546ce468691b770b6fa87139f638018ef104377c7fb3541f44ed362db0f1",
+    "keep_sha256": "34fbeb8b713088d3c625ecbdc7f7e320cc5288afcf1b81b708212af7861b1f9a"
+  },
+  {
+    "discard": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\Ataturk_UV_60LPI_20cm_20261004_1707\\Ataturk_12Fotograf_60LPI_20x23.34cm_UV_1200PPI.tif",
+    "keep": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\Ataturk_UV_9_Baski_20261004_1926\\Ataturk_60LPI_1200DPI_12Gorsel_20x23.34cm_UV.tif",
+    "identical": false,
+    "discard_sha256": "164b764204a00e6d9c4f95cd76c487a711901268a69f13fe4c3d6e81001c478e",
+    "keep_sha256": "4e7cae84921973e0d017f0d87b97b911ac234f8c3986edcb25da0ae8e108a1e6"
+  }
+]

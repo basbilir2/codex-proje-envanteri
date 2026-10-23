@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    {
+      "operation": "project_bundle",
+      "target": "generalvs-empty-bundle-should-not-exist",
+      "inputs": {}
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 1023,
+    "sha256": "71637f2daf95cac935d743669f1cbb29541925b740e53f80508b808e59599995"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 2431,
+    "sha256": "1befe6e58a407dfab312a6cea37d9fd1888c148ad2ec8f846acf838daecb3f66"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 2103,
+    "sha256": "8032202d0b5b3a9754aa2b45657745e32db47ec857b5cbb6b740a6593f3111ae"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 20834,
+    "sha256": "5c8966b710a635bc4a78080765a62f21783b04664ce0831345247bbea25b717c"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1073,
+    "sha256": "6f63de1a9d36d0c4952429809a9dd39290046ba4ae9180d488307837175fa7a4"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 634,
+    "sha256": "739fb59eec203a79c189c2e9e565a18b15bc2093b40d911c7f54c709e2217f1c"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 1298,
+    "sha256": "6b57d264e7f55a74206fd5b7d361b90229e845400404411fc094a579a6dc9fa2"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 15898,
+    "sha256": "929b2bb1917f5b2b37d67f69e0dc653cb5da048e194ba8b2ac5df3cbe018013e"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "da1a549b5be9880776c361258b421fe5751ded2ee50869114d0382eb3186dd2e"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Kurulum-Durumu.md",
+    "bytes": 42420,
+    "sha256": "a85b0940cb4dab09b86a71e2cc5e56bc5e7eed28d1b398df2ee3d1485ab0d58f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio.html",
+    "bytes": 574508,
+    "sha256": "a0e3e536f60af510cfecdca5a230220b42d4116172b0fcd7b2afcab68a476b4f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/ai-qa-build.mjs",
+    "bytes": 2195,
+    "sha256": "c232889ce7a201ed9244f5c40adbd28974b64e36d0e5e2bc9789aebd8267a202"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/ai-qa-result.json",
+    "bytes": 172,
+    "sha256": "0c0c033bd1e0cd8c68662fdbd28bf32b71a164da88706b78c187533aa97e6827"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/ai-qa.cjs",
+    "bytes": 4453235,
+    "sha256": "b0ed86409621d2c1cdf804fda970704a467cc5fb69cb73a06e099ba07bb6f6e5"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/birefnet-license.txt",
+    "bytes": 1106,
+    "sha256": "b5cd5faac84a0acb8a6bdb8aeef0919e528891be27216df84eab398d7c8bd2aa"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/final-product-check.json",
+    "bytes": 251,
+    "sha256": "3ce8a432baef270701722136e496e61d1c265148141f0909dcb97b14e24817c4"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/photo-2-test.json",
+    "bytes": 729,
+    "sha256": "c882b97061c59aa7522f2edb7b7abad50064b805a1c0449fabd5409a4887ee28"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/photo-2-test.mjs",
+    "bytes": 1455,
+    "sha256": "49302928f10404309acddbf62f43828cfd4c05bb6e93827cfc435f585046897f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/photo-qa.mjs",
+    "bytes": 1386,
+    "sha256": "359a57b0ae6dc6632da3e941ecd43f883d91e360dc923a85ef1f0d711574350a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/engine-upgrade/background.mjs",
+    "bytes": 1819,
+    "sha256": "d271ccba45887c1b57c7bdaf7506111a6c4b058b04c531e7747672b14e4462ea"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/engine-upgrade/dtf-studio.js",
+    "bytes": 530943,
+    "sha256": "611ab370b83e498a5d79ec658ddb284f4ca5f9acc22e8ce390a1db3d99369616"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/engine-upgrade/enhance.mjs",
+    "bytes": 3324,
+    "sha256": "7e6d3cb07c1f6b15c6fa5f21afe4c7696ca0182803da254257ea6e45af70da92"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/engine-upgrade/index.html",
+    "bytes": 531,
+    "sha256": "9d614912c1e8db9ada9f6c5e2f0a9893a59b05edae65c94b54802da429856f3c"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/engine-upgrade/matte.mjs",
+    "bytes": 3030,
+    "sha256": "cf02ba4ddf50411b2b7808a23379d6f9274eb6da3cb0a73609c8635beba051e2"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/engine-upgrade/photo-extract.mjs",
+    "bytes": 9239,
+    "sha256": "950386abdc9c9a99f8f2f0255baf084da600a6a2da5e6cbe207d84ea6dfc092c"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/engine-upgrade/probe.mjs",
+    "bytes": 3005,
+    "sha256": "ef68e643a4dd6f268928c90a702f3ec357ccd0199937cf50dc5b0560e92e97ac"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/fine-text-qa/dtf-studio.js",
+    "bytes": 533587,
+    "sha256": "1c7674807e71e94ab870fd953aa857b41bd771122438856414c324a4c3b907cb"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/fine-text-qa/index.html",
+    "bytes": 2260,
+    "sha256": "21bb434827ab5b7e12ff2bbcf35b7a2acf2e134d90328655f3a053dcc807eb05"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/latest-photo/photo-probe.mjs",
+    "bytes": 1541,
+    "sha256": "bccc9ccc42d47e0af4c4b473f3ac50a18ec1eed9fa63c07098f9c3d692af9a84"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/latest-photo/quality-result.mjs",
+    "bytes": 1147,
+    "sha256": "aae621498b45dee3778d36fbc481581e82ddb1e83fdeb5cfdedfcf7487c23ddd"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/latest-photo/quality-upscale-build.mjs",
+    "bytes": 1890,
+    "sha256": "7b9bf1e9becf8ef216d2c13255b86c4ae8ba945f3863438c515c0cdacb249d27"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/latest-photo/upscale.cjs",
+    "bytes": 4451220,
+    "sha256": "d73d2328b3c1582c9f14fa7f2e71114327fd20a1bedd34f4fbe5b0c0a0be2b92"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/local-redraw/download.py",
+    "bytes": 1535,
+    "sha256": "5a445021d4bf3047ba3c90a63d2f7e34e8a7106eecd1b9c23132ccc10cd2376d"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/local-redraw/models-manifest.json",
+    "bytes": 1122,
+    "sha256": "23417a56619f086128cf9afb709697058e3866bbb2d5519bfa849cf3a011ce2e"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/local-redraw/run-mavi.py",
+    "bytes": 2940,
+    "sha256": "f98746965e849811ae4e6266f451e1cdc317db1d2b8156f3101b03680a3f80d5"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/manual-preparation/dtf-studio.js",
+    "bytes": 533247,
+    "sha256": "afeb7b587831d31e7d23f447eb0521c6fdfd5b46da56f4d43ec402ee1b4ab7e5"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/manual-preparation/index.html",
+    "bytes": 1232,
+    "sha256": "b17238b6e18cf5e496632eb94250c9c6acd85d0fe5c563f7804241fab3e28425"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/manual-preparation/photo-editor-before.mjs",
+    "bytes": 22271,
+    "sha256": "db6421db17f4f57cc0e06eca2953c215e236811e5adad6a83b63d5216bcfb4f7"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/modal-qa/dtf-studio.js",
+    "bytes": 524477,
+    "sha256": "23023e89862a49246bdf239188b35727643aa42e5148ad6ba05d27e042249e0d"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/modal-qa/index.html",
+    "bytes": 551,
+    "sha256": "24ba1630893873dc42ef64c27ba03d235189e3bc5ea5d4ab3ac489fbcb1e4717"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/netlik-qa/detail-qa-build.mjs",
+    "bytes": 3705,
+    "sha256": "23290e4cac8ebec12bb8435aa170139a50f0cf4cfb409aef90ba7a5b5c31ee77"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/netlik-qa/dtf-studio.js",
+    "bytes": 526576,
+    "sha256": "1cf692b52193f88b4fec0cb508ded85ef87693c9637ef62392f35ef5d176b816"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/netlik-qa/index.html",
+    "bytes": 672,
+    "sha256": "5dabc6244f1b82097f1b6b585cf6adbb583b313c54214150374aecbd98d3251c"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/netlik-qa/qa.cjs",
+    "bytes": 54018,
+    "sha256": "7f0da0e2c6ae8299a7da16e5936032ddbcdd596fdd3267bc750450c24bb09bde"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/reference-quality/decision.md",
+    "bytes": 3046,
+    "sha256": "45f9f96dd5cb9af3bd66b16d20a56b75ad0b554688dc8158436252e5724e48a8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/local-redraw/runtime/ggml.txt",
+    "bytes": 1099,
+    "sha256": "bcd8ec749126d45cb06737d0690295d73df4b6e7e194205bcf91190368f27285"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/local-redraw/runtime/stable-diffusion.cpp.txt",
+    "bytes": 1082,
+    "sha256": "4e76049398df734a97db46f3bd4b5cbc460cb5f6bfaf737cdc3d6fbb8ab3de27"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/local-redraw/runtime-cpu/ggml.txt",
+    "bytes": 1099,
+    "sha256": "bcd8ec749126d45cb06737d0690295d73df4b6e7e194205bcf91190368f27285"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/work/local-redraw/runtime-cpu/stable-diffusion.cpp.txt",
+    "bytes": 1082,
+    "sha256": "4e76049398df734a97db46f3bd4b5cbc460cb5f6bfaf737cdc3d6fbb8ab3de27"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/BiRefNet-LICENSE.txt",
+    "bytes": 1106,
+    "sha256": "b5cd5faac84a0acb8a6bdb8aeef0919e528891be27216df84eab398d7c8bd2aa"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/build.mjs",
+    "bytes": 1199,
+    "sha256": "836e41bff495a57b74e4503a0b643a24bf66b4c39b10a60a11356eeb51871e78"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/index.html",
+    "bytes": 493,
+    "sha256": "515ec393785c2407012384a851c19ada6f69a42f264841f6a2cd4c2d7d4e71e2"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/package-lock.json",
+    "bytes": 96719,
+    "sha256": "1b04a095b813ab3bef8c31818aa3d1d6c2555a2e6940f3c9ce7d200d6c038710"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/package.json",
+    "bytes": 430,
+    "sha256": "3bb96d5ca732069970745ab386e1dd10617614cda9f5ab085fe951dde641302f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/README.md",
+    "bytes": 18075,
+    "sha256": "bdbdf49ac57a22034e7a8c4b630112a0b219d80fe07060d926790558a7ee642e"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/THIRD_PARTY_NOTICES.txt",
+    "bytes": 29429,
+    "sha256": "33c674f473bebcec2f94e8d2f262bb8686f21cb1c39fcd1d50a9684f215b0d81"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/dist/DTF-Studio.html",
+    "bytes": 574508,
+    "sha256": "a0e3e536f60af510cfecdca5a230220b42d4116172b0fcd7b2afcab68a476b4f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/dist/dtf-studio.js",
+    "bytes": 544747,
+    "sha256": "83cce1821189690b7ec853a5e4b61bcf9ab38de7c7a0cfcb2bc6516c87ca1313"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/dist/index.html",
+    "bytes": 493,
+    "sha256": "515ec393785c2407012384a851c19ada6f69a42f264841f6a2cd4c2d7d4e71e2"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/service/install-redraw-models.py",
+    "bytes": 1708,
+    "sha256": "099237c9971dbe1e76a1870127f8191ea521020fdd3544995117985a4467029f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/service/local-redraw.mjs",
+    "bytes": 5864,
+    "sha256": "98d967fa73d643543b7cf7fa1cba18aa16cf6cb85024f45ade90cceaa5d173f9"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/service/redraw-models.json",
+    "bytes": 1122,
+    "sha256": "23417a56619f086128cf9afb709697058e3866bbb2d5519bfa849cf3a011ce2e"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/service/redraw-worker.mjs",
+    "bytes": 3024,
+    "sha256": "b1be0b12bcd02b188e03985d9891dcfabc8a4b1294a3600eb4744da99c4da7f0"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/service/render.mjs",
+    "bytes": 2478,
+    "sha256": "c97bd2daa25074097bd537d225c06d8b9f129d3c30fbf37e116731fe3e9e21fc"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/service/security.mjs",
+    "bytes": 1036,
+    "sha256": "75c0ee64e1a51c9592914797c2f42d4c335ccc00091d37047dcfcca54b9ea8b2"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/service/server.mjs",
+    "bytes": 8246,
+    "sha256": "e38b66f7bd6c67575ed1d303dc128fbc88a989c1c61ee6e2396c5d5f85508843"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/background.mjs",
+    "bytes": 2239,
+    "sha256": "740d3196523357447e34fb6d8908a154bbef522adafd23ff4cb5204f9059daaf"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/detail.mjs",
+    "bytes": 1566,
+    "sha256": "7d5d0bfa4ce187147fdf2e93c07d421306debf9d057145f28ff945b5c93decc9"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/engine.mjs",
+    "bytes": 5858,
+    "sha256": "c47f454d5120250a89ea74f6ca0b4999ce4f0e95a1507105bc34b9b9e3e44904"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/enhance-fidelity.mjs",
+    "bytes": 1312,
+    "sha256": "0972877ebe9326bed934ed38510d5f83f3518a718e66518e7910c6920158dc9a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/enhance.mjs",
+    "bytes": 3319,
+    "sha256": "cbc842dba1c9c6fe0176672280c441daa69763e79fd9942c003859b4a934902b"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/exact-lettering.mjs",
+    "bytes": 3482,
+    "sha256": "e5479be85625a28779b78caaaec5b100cbd1a5aefe056c6ff91a4067e69e09d8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/export.mjs",
+    "bytes": 7714,
+    "sha256": "aee22b60785f2148867d00b03449036a8758440f3dafff3b0c6179c2e31d4f37"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/fabric.mjs",
+    "bytes": 2783,
+    "sha256": "609cac93d74dcd1f25fd03df7f1af328451b2253c91249275c7ad272bda66aa1"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/fine-text.mjs",
+    "bytes": 2426,
+    "sha256": "c9b1d8d7f82248b0ff4e158c231d489ebd001c5b82e888529d3b88f804f4e53b"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/layout-client.mjs",
+    "bytes": 1101,
+    "sha256": "00454ea1e9dda95043b2b1e5b327822b754ac615c8726eea94500e23b7d53f94"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/layout-worker-code.mjs",
+    "bytes": 4545,
+    "sha256": "c837f09c1dfe830114194801985fcd9082cdb24cba7ac465d578717e60dda803"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/layout-worker.mjs",
+    "bytes": 184,
+    "sha256": "26403678b5a37c3196f558c81489fca5c20ae05cdad58cfe3c8b82818ae999d7"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/matte.mjs",
+    "bytes": 6615,
+    "sha256": "3bf0c33aa62827a3e0278ae1d078333225276f6791222387000ccca57e0ed804"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/photo-editor.mjs",
+    "bytes": 27461,
+    "sha256": "b375d7df16b34196357ae99169768546ecb928b0fe75e6dc2ac3965679697a41"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/photo-extract.mjs",
+    "bytes": 8570,
+    "sha256": "2b0aded5ce43307fa809a124c5aa51a3862377a57a15b2f68a2de9caf1750a5a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/prepare-print.mjs",
+    "bytes": 1319,
+    "sha256": "eb6243ce4b729c1fba1c83c37799b6b1d82817e7d66fb7b185d6959554daa3c1"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/reconstruction.mjs",
+    "bytes": 2728,
+    "sha256": "64c1fab51fdb5600f1ffd4084f1211b8fff62f6d8cb4c9e8b79754cbf3df15fd"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/redraw-matte.mjs",
+    "bytes": 3313,
+    "sha256": "c63588dbfe1c1b7912cb8e46fa27297942ca50b0fbadcce84c303a9c2b355873"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/src/studio.mjs",
+    "bytes": 32431,
+    "sha256": "b13aabaa090b5197dcaa6b5951f02c785b1269d9cd9b4629e95c195afef0f775"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/detail.test.mjs",
+    "bytes": 1547,
+    "sha256": "7c971781958546f6eca2183d18a5a99af0dab01a02f256d80b3050cd489a1aa1"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/engine-upgrade.test.mjs",
+    "bytes": 4759,
+    "sha256": "d4fecf0c2859a11be7a2ca31364ac21698bde19fec40178a4cc78e44bc9a9a61"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/engine.test.mjs",
+    "bytes": 2423,
+    "sha256": "87d9b9f887d544404b87219039e04eb6fb3ea61de28188b2dc7b9d5913b84fa0"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/exact-lettering.test.mjs",
+    "bytes": 1176,
+    "sha256": "8c6b39679c5a3beac57a20ea68a18a0cdeede1ae77857ca9f1446e552f25c34b"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/fine-text.test.mjs",
+    "bytes": 1450,
+    "sha256": "b211bd41d122e40e7f1ab06912ab7f468a3f094ea82aa50c7955d9fea06694d8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/image-quality.test.mjs",
+    "bytes": 1415,
+    "sha256": "d72ca41a6553ea6ff02530ae58cf6e38c4cec0380595eeab0ec737642e61780d"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/improvements.test.mjs",
+    "bytes": 4075,
+    "sha256": "f4441f25107d1de6864d1075e2462308a33ed6b96363afa231178d92b35b1c11"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/local-redraw.test.mjs",
+    "bytes": 1175,
+    "sha256": "a76133e2950a18c751b9b7349332f358ae7af747be360d6d04e021a268a8993d"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/mask-contract.test.mjs",
+    "bytes": 1229,
+    "sha256": "16b2ebeffcc6d39756db3638081576f377120778c25000bca36a7ff111e52368"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/png-dpi.test.mjs",
+    "bytes": 966,
+    "sha256": "fc97cd272fa495b20788f0cda2735b4e90684f9e71f899a68a8fd230507ce924"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/preparation-flow.test.mjs",
+    "bytes": 2300,
+    "sha256": "16d93b0fc4b4e4414a694967c639401eeb4f6cfdf35583090eae8291f94c0485"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/prepare-print.test.mjs",
+    "bytes": 3834,
+    "sha256": "db6a72d7d7c1e6cecdd1325c69b996e06c6e64fbf8e5c8b3b8c55b124a868468"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/qa.html",
+    "bytes": 703,
+    "sha256": "c1c631aa2190f1396f091729f40b45e194be256c862097c431b33f0dcf2a96e8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/quota.test.mjs",
+    "bytes": 2344,
+    "sha256": "c1b00d4472b7c15e827e7a4ea5d28877d74f1d5928b3017c7e54b8bcac9eb6a8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/redraw-matte.test.mjs",
+    "bytes": 1118,
+    "sha256": "b152d35208adb98139fde3f5bd74dc51d804d1dbd4ae7b2562ee2ee10ca8b87a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/redraw-queue.test.mjs",
+    "bytes": 3088,
+    "sha256": "5e3eb53aef1f7fc0727c13c1545f592037471e2f7be9d15c8fda3bf54ae4cda5"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/tests/render.test.mjs",
+    "bytes": 1533,
+    "sha256": "110c6e236f742c58a2fca16f125755f0f4d7caea5006d53ef2683bf24399cb51"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/wix/cms-schema.json",
+    "bytes": 685,
+    "sha256": "58432a165e2b80d77d746ad9fd148d1670cc9a6832db33e5cc6f60f6f57083f1"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/wix/backend/dtf.web.js",
+    "bytes": 5158,
+    "sha256": "a9e08ca82387db3b289a6b1bbec5c481acc6974baaa861033cab824db7d353b7"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/wix/backend/quota-core.js",
+    "bytes": 1597,
+    "sha256": "14e9382282b55c07499f32894190ed935cb171036deedb10be70cdd1740fd662"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/wix/backend/redraw-http.js",
+    "bytes": 2461,
+    "sha256": "30d4714187adc424891307b46989dd7721696d3fe3cbe2948894639a03514378"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/wix/backend/redraw-queue.js",
+    "bytes": 5172,
+    "sha256": "ab32f8cc6bfe8db688395d34cae9621447e09b57acd95fc8a2b0610b26a5ca93"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/wix/backend/redraw-setup.web.js",
+    "bytes": 1044,
+    "sha256": "fc339b7ece621593b16f5c457feda37f6bdaa4414c173ace1183ded2bfe52a1a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/wix/backend/setup.web.js",
+    "bytes": 1443,
+    "sha256": "da9a4f5dd828569eee61a9533798aa6837165e6e7a8b90f1fa00218df2658a35"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/wix/pages/Home-free.js",
+    "bytes": 500,
+    "sha256": "def4415f76ce2063fb7ef7c8f2a7d84e2a03796ca74ea4ee2bd5e2d4e459bc58"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/wix/pages/Studio.js",
+    "bytes": 976,
+    "sha256": "ca864ef80246c2e5013ebff9289da9e35cab5cb9a4a63326088b08ad535ca043"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/work/export-test.zip-source/OKU.txt",
+    "bytes": 16,
+    "sha256": "47c1356bb9085da018a623113d4522fdbebe8420ce0a5d8a37304011463feb9b"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/work/local-redraw/sd-win-cpu.zip-source/ggml.txt",
+    "bytes": 1099,
+    "sha256": "bcd8ec749126d45cb06737d0690295d73df4b6e7e194205bcf91190368f27285"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/work/local-redraw/sd-win-cpu.zip-source/stable-diffusion.cpp.txt",
+    "bytes": 1082,
+    "sha256": "4e76049398df734a97db46f3bd4b5cbc460cb5f6bfaf737cdc3d6fbb8ab3de27"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/BiRefNet-LICENSE.txt",
+    "bytes": 1106,
+    "sha256": "b5cd5faac84a0acb8a6bdb8aeef0919e528891be27216df84eab398d7c8bd2aa"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/build.mjs",
+    "bytes": 1199,
+    "sha256": "836e41bff495a57b74e4503a0b643a24bf66b4c39b10a60a11356eeb51871e78"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/index.html",
+    "bytes": 493,
+    "sha256": "515ec393785c2407012384a851c19ada6f69a42f264841f6a2cd4c2d7d4e71e2"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/package-lock.json",
+    "bytes": 96719,
+    "sha256": "1b04a095b813ab3bef8c31818aa3d1d6c2555a2e6940f3c9ce7d200d6c038710"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/package.json",
+    "bytes": 430,
+    "sha256": "3bb96d5ca732069970745ab386e1dd10617614cda9f5ab085fe951dde641302f"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/README.md",
+    "bytes": 18075,
+    "sha256": "bdbdf49ac57a22034e7a8c4b630112a0b219d80fe07060d926790558a7ee642e"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/THIRD_PARTY_NOTICES.txt",
+    "bytes": 29429,
+    "sha256": "33c674f473bebcec2f94e8d2f262bb8686f21cb1c39fcd1d50a9684f215b0d81"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/dist/DTF-Studio.html",
+    "bytes": 574508,
+    "sha256": "a0e3e536f60af510cfecdca5a230220b42d4116172b0fcd7b2afcab68a476b4f"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/dist/dtf-studio.js",
+    "bytes": 544747,
+    "sha256": "83cce1821189690b7ec853a5e4b61bcf9ab38de7c7a0cfcb2bc6516c87ca1313"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/dist/index.html",
+    "bytes": 493,
+    "sha256": "515ec393785c2407012384a851c19ada6f69a42f264841f6a2cd4c2d7d4e71e2"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/service/install-redraw-models.py",
+    "bytes": 1708,
+    "sha256": "099237c9971dbe1e76a1870127f8191ea521020fdd3544995117985a4467029f"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/service/local-redraw.mjs",
+    "bytes": 5864,
+    "sha256": "98d967fa73d643543b7cf7fa1cba18aa16cf6cb85024f45ade90cceaa5d173f9"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/service/redraw-worker.mjs",
+    "bytes": 3024,
+    "sha256": "b1be0b12bcd02b188e03985d9891dcfabc8a4b1294a3600eb4744da99c4da7f0"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/service/render.mjs",
+    "bytes": 2478,
+    "sha256": "c97bd2daa25074097bd537d225c06d8b9f129d3c30fbf37e116731fe3e9e21fc"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/service/security.mjs",
+    "bytes": 1036,
+    "sha256": "75c0ee64e1a51c9592914797c2f42d4c335ccc00091d37047dcfcca54b9ea8b2"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/service/server.mjs",
+    "bytes": 8246,
+    "sha256": "e38b66f7bd6c67575ed1d303dc128fbc88a989c1c61ee6e2396c5d5f85508843"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/background.mjs",
+    "bytes": 2239,
+    "sha256": "740d3196523357447e34fb6d8908a154bbef522adafd23ff4cb5204f9059daaf"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/detail.mjs",
+    "bytes": 1566,
+    "sha256": "7d5d0bfa4ce187147fdf2e93c07d421306debf9d057145f28ff945b5c93decc9"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/engine.mjs",
+    "bytes": 5858,
+    "sha256": "c47f454d5120250a89ea74f6ca0b4999ce4f0e95a1507105bc34b9b9e3e44904"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/enhance-fidelity.mjs",
+    "bytes": 1312,
+    "sha256": "0972877ebe9326bed934ed38510d5f83f3518a718e66518e7910c6920158dc9a"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/enhance.mjs",
+    "bytes": 3319,
+    "sha256": "cbc842dba1c9c6fe0176672280c441daa69763e79fd9942c003859b4a934902b"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/exact-lettering.mjs",
+    "bytes": 3482,
+    "sha256": "e5479be85625a28779b78caaaec5b100cbd1a5aefe056c6ff91a4067e69e09d8"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/export.mjs",
+    "bytes": 7714,
+    "sha256": "aee22b60785f2148867d00b03449036a8758440f3dafff3b0c6179c2e31d4f37"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/fabric.mjs",
+    "bytes": 2783,
+    "sha256": "609cac93d74dcd1f25fd03df7f1af328451b2253c91249275c7ad272bda66aa1"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/fine-text.mjs",
+    "bytes": 2426,
+    "sha256": "c9b1d8d7f82248b0ff4e158c231d489ebd001c5b82e888529d3b88f804f4e53b"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/layout-client.mjs",
+    "bytes": 1101,
+    "sha256": "00454ea1e9dda95043b2b1e5b327822b754ac615c8726eea94500e23b7d53f94"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/layout-worker-code.mjs",
+    "bytes": 4545,
+    "sha256": "c837f09c1dfe830114194801985fcd9082cdb24cba7ac465d578717e60dda803"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/layout-worker.mjs",
+    "bytes": 184,
+    "sha256": "26403678b5a37c3196f558c81489fca5c20ae05cdad58cfe3c8b82818ae999d7"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/matte.mjs",
+    "bytes": 6615,
+    "sha256": "3bf0c33aa62827a3e0278ae1d078333225276f6791222387000ccca57e0ed804"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/photo-editor.mjs",
+    "bytes": 27461,
+    "sha256": "b375d7df16b34196357ae99169768546ecb928b0fe75e6dc2ac3965679697a41"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/photo-extract.mjs",
+    "bytes": 8570,
+    "sha256": "2b0aded5ce43307fa809a124c5aa51a3862377a57a15b2f68a2de9caf1750a5a"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/prepare-print.mjs",
+    "bytes": 1319,
+    "sha256": "eb6243ce4b729c1fba1c83c37799b6b1d82817e7d66fb7b185d6959554daa3c1"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/reconstruction.mjs",
+    "bytes": 2728,
+    "sha256": "64c1fab51fdb5600f1ffd4084f1211b8fff62f6d8cb4c9e8b79754cbf3df15fd"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/redraw-matte.mjs",
+    "bytes": 3313,
+    "sha256": "c63588dbfe1c1b7912cb8e46fa27297942ca50b0fbadcce84c303a9c2b355873"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/src/studio.mjs",
+    "bytes": 32431,
+    "sha256": "b13aabaa090b5197dcaa6b5951f02c785b1269d9cd9b4629e95c195afef0f775"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/detail.test.mjs",
+    "bytes": 1547,
+    "sha256": "7c971781958546f6eca2183d18a5a99af0dab01a02f256d80b3050cd489a1aa1"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/engine-upgrade.test.mjs",
+    "bytes": 4759,
+    "sha256": "d4fecf0c2859a11be7a2ca31364ac21698bde19fec40178a4cc78e44bc9a9a61"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/engine.test.mjs",
+    "bytes": 2423,
+    "sha256": "87d9b9f887d544404b87219039e04eb6fb3ea61de28188b2dc7b9d5913b84fa0"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/exact-lettering.test.mjs",
+    "bytes": 1176,
+    "sha256": "8c6b39679c5a3beac57a20ea68a18a0cdeede1ae77857ca9f1446e552f25c34b"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/fine-text.test.mjs",
+    "bytes": 1450,
+    "sha256": "b211bd41d122e40e7f1ab06912ab7f468a3f094ea82aa50c7955d9fea06694d8"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/image-quality.test.mjs",
+    "bytes": 1415,
+    "sha256": "d72ca41a6553ea6ff02530ae58cf6e38c4cec0380595eeab0ec737642e61780d"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/improvements.test.mjs",
+    "bytes": 4075,
+    "sha256": "f4441f25107d1de6864d1075e2462308a33ed6b96363afa231178d92b35b1c11"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/local-redraw.test.mjs",
+    "bytes": 1175,
+    "sha256": "a76133e2950a18c751b9b7349332f358ae7af747be360d6d04e021a268a8993d"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/mask-contract.test.mjs",
+    "bytes": 1229,
+    "sha256": "16b2ebeffcc6d39756db3638081576f377120778c25000bca36a7ff111e52368"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/png-dpi.test.mjs",
+    "bytes": 966,
+    "sha256": "fc97cd272fa495b20788f0cda2735b4e90684f9e71f899a68a8fd230507ce924"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/preparation-flow.test.mjs",
+    "bytes": 2300,
+    "sha256": "16d93b0fc4b4e4414a694967c639401eeb4f6cfdf35583090eae8291f94c0485"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/prepare-print.test.mjs",
+    "bytes": 3834,
+    "sha256": "db6a72d7d7c1e6cecdd1325c69b996e06c6e64fbf8e5c8b3b8c55b124a868468"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/qa.html",
+    "bytes": 703,
+    "sha256": "c1c631aa2190f1396f091729f40b45e194be256c862097c431b33f0dcf2a96e8"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/quota.test.mjs",
+    "bytes": 2344,
+    "sha256": "c1b00d4472b7c15e827e7a4ea5d28877d74f1d5928b3017c7e54b8bcac9eb6a8"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/redraw-matte.test.mjs",
+    "bytes": 1118,
+    "sha256": "b152d35208adb98139fde3f5bd74dc51d804d1dbd4ae7b2562ee2ee10ca8b87a"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/redraw-queue.test.mjs",
+    "bytes": 3088,
+    "sha256": "5e3eb53aef1f7fc0727c13c1545f592037471e2f7be9d15c8fda3bf54ae4cda5"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/tests/render.test.mjs",
+    "bytes": 1533,
+    "sha256": "110c6e236f742c58a2fca16f125755f0f4d7caea5006d53ef2683bf24399cb51"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/wix/backend/dtf.web.js",
+    "bytes": 5158,
+    "sha256": "a9e08ca82387db3b289a6b1bbec5c481acc6974baaa861033cab824db7d353b7"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/wix/backend/quota-core.js",
+    "bytes": 1597,
+    "sha256": "14e9382282b55c07499f32894190ed935cb171036deedb10be70cdd1740fd662"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/wix/backend/redraw-http.js",
+    "bytes": 2461,
+    "sha256": "30d4714187adc424891307b46989dd7721696d3fe3cbe2948894639a03514378"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/wix/backend/redraw-queue.js",
+    "bytes": 5172,
+    "sha256": "ab32f8cc6bfe8db688395d34cae9621447e09b57acd95fc8a2b0610b26a5ca93"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/wix/backend/redraw-setup.web.js",
+    "bytes": 1044,
+    "sha256": "fc339b7ece621593b16f5c457feda37f6bdaa4414c173ace1183ded2bfe52a1a"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/wix/backend/setup.web.js",
+    "bytes": 1443,
+    "sha256": "da9a4f5dd828569eee61a9533798aa6837165e6e7a8b90f1fa00218df2658a35"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/wix/pages/Home-free.js",
+    "bytes": 500,
+    "sha256": "def4415f76ce2063fb7ef7c8f2a7d84e2a03796ca74ea4ee2bd5e2d4e459bc58"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/wix/pages/Studio.js",
+    "bytes": 976,
+    "sha256": "ca864ef80246c2e5013ebff9289da9e35cab5cb9a4a63326088b08ad535ca043"
+  }
+]

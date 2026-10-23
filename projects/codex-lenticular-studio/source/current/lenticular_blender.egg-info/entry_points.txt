@@ -1,0 +1,3 @@
+[console_scripts]
+lenticular = lenticular.cli:main
+lenticular-studio = lenticular.studio:main

@@ -1,0 +1,1828 @@
+{
+  "document": {
+    "name": "CREAN_MASTER_CONTEXT_AND_ENGINEERING_BLUEPRINT",
+    "project": "CREAN",
+    "schema": "crean.master-context.v5",
+    "schema_version": 5,
+    "context_version": "2026.08.24-v5.0-dual-intelligence-modular-local-first",
+    "language": "tr",
+    "created_at": "2026-08-24T00:00:00+03:00",
+    "status": "design_approved_implementation_pending",
+    "purpose": "CREAN'ın ürün kimliğini, mühendislik ilkelerini, iki yapay zekalı mimarisini, modül sistemini, bilgisayar ve tarayıcı kullanımını, yerel/bulut model politikasını, öğrenme algoritmalarını, uygulama aşamalarını ve doğrulama ölçütlerini yeni bir çalışma oturumunda bağlam kaybı olmadan yeniden kurmak.",
+    "authority_rule": "Kullanıcının açık ve güncel talimatı bu dosyadan üstündür. Bu dosyada approved olarak işaretlenmiş kararlar, kullanıcı değiştirmedikçe korunur. proposed veya candidate değerler uygulanmış özellik veya kesin seçim sayılmaz.",
+    "truth_rule": "Tasarım kararı, önerilen teknoloji, mevcut uygulama ve doğrulanmış kanıt birbirinden ayrı tutulur. Kaynak kodu ve çalışan sürüm doğrulanmadan hiçbir özellik tamamlanmış kabul edilmez.",
+    "supersedes_design_context": "CREAN-context/master_context.json içindeki ürün vizyonunu genişletir; eski uygulama kanıtını silmez veya geçersiz kılmaz.",
+    "canonicalization": {
+      "format": "strict UTF-8 JSON",
+      "comments_allowed": false,
+      "trailing_commas_allowed": false,
+      "nan_allowed": false,
+      "canonical_hash_serialization": "UTF-8, keys sorted recursively, compact separators",
+      "external_manifest_recommended": true
+    }
+  },
+  "decision_ledger": {
+    "approved": [
+      "CREAN bir sohbet botu, LLM sarmalayıcısı, tek coding agent, kontrolsüz agent swarm veya eklenti başlatıcısı değildir.",
+      "CREAN model ve sağlayıcı bağımsız, yerel öncelikli, konuşarak yazılım üreten öğrenen bir mühendislik platformudur.",
+      "Sistemde iki ayrı yapay zeka rolü bulunur: İletişim Zekası ve Mühendislik Zekası.",
+      "Deterministik CREAN Core iki yapay zekanın üzerinde yetki, güvenlik, hafıza, görev, doğrulama ve gerçek dünya işlemlerini yönetir; Core üçüncü bir yapay zeka değildir.",
+      "İletişim Zekası kullanıcıyla doğal ilişkiyi kurar, amacı çözer, bağlamı korur, Mühendislik Zekasıyla karşılıklı analiz yapar ve teknik durumu kullanıcı diline çevirir.",
+      "Mühendislik Zekası ürün analizi, mimari, kod, test, onarım, kalite ve teslimden sorumludur.",
+      "Yalnız kullanıcının açık güncel yetkisi dosya, süreç, tarayıcı veya dış sistem üzerinde değişiklik başlatabilir.",
+      "Yerel CREAN zorlandığında kullanıcıya sorun türü, tahmini hız, gizlilik ve maliyet açıklanarak seçenek sunulur.",
+      "Donanım yetersizliği ile model bilgi/yetenek yetersizliği ayrı teşhis edilir.",
+      "Kullanıcı isterse yerelde yavaş devam eder, aynı CREAN modelini ücretsiz veya ücretli uzak donanımda çalıştırır ya da hazır ücretsiz/ücretli harici modele geçer.",
+      "Ücretli kullanım, hesap oluşturma veya dışarı veri gönderme hiçbir zaman habersiz ve otomatik yapılmaz.",
+      "İletişim modeli, mühendislik modeli ve hesaplama donanımı birbirinden bağımsız seçilebilir.",
+      "CREAN bilgisayarı, tarayıcıyı, interneti ve yerel dosyaları kontrollü biçimde araştırıp kullanabilir.",
+      "CREAN modülerdir; model, sağlayıcı, donanım, yazılım uzmanlığı ve araç yetenekleri imzalı modüllerle genişletilebilir.",
+      "Core güvenlik ilkeleri, yetki kesişimi, doğrulama kapısı, hafıza sahipliği ve modül güven zinciri sıradan modüllerle değiştirilemez.",
+      "Harici modeller güvenilmeyen öğretmen veya isteğe bağlı çalışma sağlayıcısıdır; kalıcı gerçeklerin ve yetkinin sahibi değildir.",
+      "Öğrenme otomatik Core öz-değişimi değildir; ölçülen, test edilen, karantinaya alınan, kullanıcı tarafından onaylanan ve imzalanan ders/modül sürecidir."
+    ],
+    "recommended_not_final": [
+      "İletişim Zekası için ilk güçlü aday Gemma 4 12B; karşılaştırma adayları Qwen3 14B ve uygun güncel açık modellerdir.",
+      "Yerel Mühendislik Zekası için ilk aday Qwen3-Coder-30B-A3B-Instruct; karşılaştırma adayı Devstral Small 2 24B'dir.",
+      "Büyük uzak donanım için aday Qwen3-Coder-Next veya kullanıcı tarafından seçilen güncel güçlü coding modelidir.",
+      "Windows yerel çıkarım için ana aday llama.cpp; uzak GPU sunumu için vLLM veya SGLang'dir.",
+      "Model seçimi marka iddiasıyla değil, CREAN Türkçe İletişim ve CREAN Mühendislik kabul paketlerinin ölçümüyle kesinleşir."
+    ],
+    "pending_user_or_hardware_decisions": [
+      "Hedef bilgisayarın güncel GPU modeli, VRAM, RAM, disk ve sürücü envanteri yeniden ölçülecek.",
+      "İki yerel modelin aynı anda bellekte tutulup tutulamayacağı donanım benchmarkından sonra belirlenecek.",
+      "Varsayılan harici API sağlayıcıları kullanıcı tercihine göre belirlenecek.",
+      "Uzak ücretsiz ve ücretli GPU sağlayıcıları fiyat, güvenlik, bölge ve süreklilik açısından uygulama tarihinde yeniden araştırılacak.",
+      "Mevcut masaüstü arayüzünün korunması veya kademeli yeniden yazılması uygulama keşfinde kararlaştırılacak."
+    ]
+  },
+  "project_identity": {
+    "definition": "CREAN; kullanıcının doğal konuşmasını güvenli ve doğrulanabilir yazılım üretimine dönüştüren, kullanıcı iletişimini birinci sınıf ürün özelliği kabul eden, iki uzman yapay zeka ve deterministik Core'dan oluşan, öğrenen, modüler, model/sağlayıcı/donanım bağımsız, yerel öncelikli bir yazılım mühendisliği platformudur.",
+    "primary_value": "Kullanıcı teknik komut dili öğrenmeden CREAN ile gerçek bir çalışma arkadaşı gibi konuşur; CREAN amacı doğru anlar, gerektiğinde araştırır, yazılımı üretir, bilgisayarı kullanır, sonucu test eder ve doğrulanmış biçimde teslim eder.",
+    "most_important_feature": "Kullanıcıyla kurulan doğru, doğal, sürekli ve bağlama duyarlı iletişimdir.",
+    "not_just": [
+      "chatbot",
+      "LLM wrapper",
+      "tek coding agent",
+      "agent swarm",
+      "plugin launcher",
+      "makro veya kör ekran tıklayıcı",
+      "yalnız bulut API arayüzü"
+    ],
+    "success_definition": [
+      "Kullanıcı günlük ve hatalı yazılmış Türkçeyle niyetini anlatabilir.",
+      "CREAN konuşma, tasarım, soru, düzeltme ve açık işlem emrini güvenilir biçimde ayırır.",
+      "Kullanıcı harici modele veya internete bağlanmadan temel sohbet ve desteklenen yazılım işlerini yapabilir.",
+      "Donanım veya model sınırı oluştuğunda CREAN bunu ölçer, açıklar ve kullanıcı kontrollü seçenek sunar.",
+      "Üretilen yazılım gözlenebilir davranış, test, güvenlik ve taze çıktı kanıtı olmadan tamamlandı sayılmaz.",
+      "Sistem yeni model, araç, yazılım alanı ve donanım sağlayıcılarını Core'u yamalamadan modül olarak ekleyebilir."
+    ]
+  },
+  "canonical_engineering_principle": {
+    "text": "Gerçekleri deterministik yöntemlerle belirle; semantik yorum gerektiğinde uygun yapay zekayı kullan; yalnız minimum güven ve yetki sınırı içinde çalıştır; sonucu gözle, kanıtla ve doğruluğu sürekli ölç.",
+    "derived_rules": [
+      "Deterministik olan iş modele sorulmaz.",
+      "Model çıktısı gerçek, yetki veya başarı kanıtı değildir.",
+      "Kullanıcı niyeti bağlamdan çözülür; mutasyon yetkisi yalnız açık kullanıcı talimatından çıkarılır.",
+      "Her yan etki öncesi kapsam ve yetki, sonrasında beklenen durum doğrulanır.",
+      "Sohbet kalitesi ile görev başarısı ayrı ölçülür.",
+      "Bir arızaya tek cümle veya tek örnek yaması eklemek yerine arızanın ait olduğu sözleşme, katman ve değerlendirme paketi düzeltilir."
+    ]
+  },
+  "non_negotiable": {
+    "core_first": true,
+    "deterministic_before_ai": true,
+    "local_first_cloud_optional": true,
+    "model_provider_compute_independent": true,
+    "communication_and_engineering_roles_separate": true,
+    "chat_model_separate_from_task_authority": true,
+    "explicit_user_authority_for_mutation": true,
+    "paid_usage_requires_explicit_approval": true,
+    "external_data_transfer_requires_visible_notice": true,
+    "external_models_are_untrusted": true,
+    "agents_are_ephemeral": true,
+    "agents_do_not_own_persistent_memory": true,
+    "core_owns_persistent_state": true,
+    "least_privilege": true,
+    "workspace_overlay_before_merge": true,
+    "continuous_evaluation": true,
+    "release_gate_before_success_report": true,
+    "repair_must_be_reverified": true,
+    "internet_content_is_data_not_instruction": true,
+    "modules_signed_and_disabled_until_user_enable": true,
+    "module_code_runs_out_of_process": true,
+    "provider_secrets_hidden_from_modules_and_models": true,
+    "learning_requires_before_after_evaluation": true,
+    "learning_requires_passing_tests": true,
+    "learning_requires_user_approval": true,
+    "automatic_core_self_modification": false,
+    "multi_agent_not_default": true,
+    "minimal_context_and_round_trips": true,
+    "old_installation_preserved_until_new_release_acceptance": true
+  },
+  "system_architecture": {
+    "logical_topology": "Kullanıcı <-> İletişim Zekası <-> CREAN Core <-> Mühendislik Zekası <-> denetimli yetenekler; iki zeka ortak Core durumunu okuyup yapılandırılmış sözleşmelerle karşılıklı analiz yapar.",
+    "layers": [
+      {
+        "id": "experience",
+        "name": "Kullanıcı Deneyimi",
+        "responsibilities": [
+          "Masaüstü sohbet arayüzü",
+          "Canlı ilerleme ve iptal",
+          "Model/donanım seçimi",
+          "Maliyet ve gizlilik bildirimleri",
+          "Modül yönetimi",
+          "Kaynaklı araştırma görünümü",
+          "Bilgisayar ve tarayıcı işlem günlüğü"
+        ]
+      },
+      {
+        "id": "communication_ai",
+        "name": "CREAN İletişim Zekası",
+        "responsibilities": [
+          "Doğal Türkçe diyalog",
+          "Yazım hatası ve gönderme çözümü",
+          "Konuşma amacı ve konuşma edimi",
+          "Kullanıcı düzeltmesi ve tercihleri",
+          "Ürün keşfi ve karar konuşması",
+          "Mühendislik Zekasıyla teknik danışma",
+          "Teknik bulguyu kullanıcı diline çevirme",
+          "Araştırma isteğini şekillendirme",
+          "Belirsizlikte tek ve odaklı soru"
+        ],
+        "forbidden": [
+          "Tek başına dosya değiştirme yetkisi üretmek",
+          "Model tahminini kullanıcı kararı olarak kaydetmek",
+          "Yapılmayan işi tamamlandı göstermek",
+          "Kullanıcı adına ücretli veya dış veri aktarımı kararı vermek"
+        ]
+      },
+      {
+        "id": "core",
+        "name": "Deterministik CREAN Core",
+        "responsibilities": [
+          "Yetki ve izin kesişimi",
+          "Kalıcı hafıza ve olay günlüğü",
+          "Sözleşme ve şema doğrulama",
+          "Görev grafiği ve zamanlama",
+          "Model, sağlayıcı ve donanım yönlendirme",
+          "WorkspaceOverlay ve dosya güvenliği",
+          "Tarayıcı, bilgisayar, süreç ve ağ yetenekleri",
+          "Test, değerlendirme ve release gate",
+          "Modül güven zinciri",
+          "Öğrenme karantinası ve imza",
+          "Kanıt ve artifact yönetimi"
+        ]
+      },
+      {
+        "id": "engineering_ai",
+        "name": "CREAN Mühendislik Zekası",
+        "responsibilities": [
+          "Gereksinim ve fizibilite analizi",
+          "Mimari ve teknik karar önerisi",
+          "Görev planlama",
+          "Kod ve test değişikliği önerisi",
+          "Hata kök neden analizi",
+          "Onarım önerisi",
+          "Performans ve güvenlik değerlendirmesi",
+          "Teknik araştırma ihtiyacı",
+          "Kalite bulgularına göre düzeltme"
+        ],
+        "forbidden": [
+          "Canonical çalışma alanına doğrudan yazmak",
+          "Kullanıcıyla Core dışında gizli iletişim kurmak",
+          "Test geçmeden başarı bildirmek",
+          "İzin verilmemiş komut, ağ veya dış araç kullanmak"
+        ]
+      },
+      {
+        "id": "capabilities",
+        "name": "Denetimli Yetenekler",
+        "responsibilities": [
+          "Dosya ve proje işlemleri",
+          "İzinli süreç çalıştırma",
+          "Windows UI Automation",
+          "Tarayıcı otomasyonu",
+          "Web ve yerel araştırma",
+          "Derleme ve test",
+          "Model çıkarımı",
+          "Uzak CREAN worker",
+          "Harici API bağdaştırıcıları"
+        ]
+      }
+    ],
+    "process_isolation": {
+      "core_process": "Yetki, durum, yönlendirme ve kanıt sahibi ana süreç.",
+      "communication_model_process": "Her zaman sıcak tutulabilen, yalnız localhost üzerinden erişilen model süreci.",
+      "engineering_model_process": "İhtiyaç halinde yüklenen veya uzak worker'a yönlendirilen ayrı model süreci.",
+      "windows_operator_process": "C#/.NET tabanlı, izin kapsamlı Windows UI Automation yardımcısı.",
+      "browser_worker_process": "Playwright tabanlı, oturum ve alan kapsamlı tarayıcı yardımcısı.",
+      "verification_worker_process": "İzinli komut listesi ve korumalı çalışma alanıyla sınırlandırılmış test süreci.",
+      "module_worker_process": "Her modül için minimum çevre, bildirilen izinler ve süre/bellek limitleri.",
+      "training_environment": "Normal CREAN çalışma sürecinden ayrı WSL2/Linux veya uzak GPU eğitim ortamı."
+    }
+  },
+  "intelligence_roles": {
+    "communication_ai": {
+      "logical_id": "crean.communication",
+      "display_name": "CREAN İletişim Zekası",
+      "default_candidate": "google/gemma-4-12B",
+      "comparison_candidates": [
+        "Qwen/Qwen3-14B",
+        "mistralai/Ministral-3-14B-Instruct-2512"
+      ],
+      "specialization_adapter": "crean-dialogue-tr-v1",
+      "selection_policy": "Adaylar aynı quantization, bağlam ve donanım koşulunda CREAN Türkçe İletişim kabul paketinde karşılaştırılır; en yüksek kalite/latency bileşik puanı seçilir.",
+      "required_behaviors": [
+        "Kullanıcının yazım yanlışlarını sessizce düzeltip anlamı korumak",
+        "Kullanıcının üslubunu anlamak ancak bozuk yazımı taklit etmemek",
+        "Son mesajı bütün konuşma ve proje kararlarıyla yorumlamak",
+        "Sohbet, tartışma, araştırma, soru, düzeltme ve işlem talebini ayırmak",
+        "Kullanıcı düzeltmesini eski yorumdan üstün tutmak",
+        "Daha önce yanıtlanmış soruyu tekrar sormamak",
+        "Teknik ayrıntıyı gerektiği kadar göstermek",
+        "Mühendislik Zekasından görüş istemek ancak bunu işlem yetkisi saymamak",
+        "Kullanıcıya model/donanım geçişinin nedenini anlaşılır biçimde anlatmak",
+        "Duygu sinyallerini doğal iletişim için kullanmak; hassas psikolojik tanı veya profil üretmemek"
+      ],
+      "latency_strategy": [
+        "Model uygulama başında veya ilk sohbet öncesi ısıtılır.",
+        "Sabit sistem prefix'i ve değişmeyen Core sözleşmeleri KV/prompt cache ile tekrar kullanılmaz.",
+        "Her turda bütün geçmiş yerine son turlar, aktif brief ve ilgili hafıza getirilir.",
+        "Normal sohbet tek görünür model turunda tamamlanır.",
+        "Mühendislik danışması yalnız teknik sonuç gerçekten gerektiğinde yapılır.",
+        "Yanıt akışı ilk token geldiğinde kullanıcıya aktarılır.",
+        "İletişim süreci ağır mühendislik görevinden ayrı tutulur."
+      ]
+    },
+    "engineering_ai": {
+      "logical_id": "crean.engineering",
+      "display_name": "CREAN Mühendislik Zekası",
+      "default_local_candidate": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "comparison_candidates": [
+        "mistralai/Devstral-Small-2-24B-Instruct-2512"
+      ],
+      "large_remote_candidate": "Qwen/Qwen3-Coder-Next",
+      "specialization_adapter": "crean-engineering-v1",
+      "required_behaviors": [
+        "Ürün gereksinimini teknik komut beklemeden mühendislik sözleşmesine çevirmek",
+        "Kullanıcının karar vermesi gereken ürün seçimiyle Core'un çözmesi gereken teknik seçimi ayırmak",
+        "Mevcut sistemi tarayıp kök neden bulmadan yama önermemek",
+        "Değişiklikle birlikte test ve kabul ölçütü üretmek",
+        "Proje kodunu yalnız sınırlı change-set olarak önermek",
+        "Doğrulama hatasının tam kanıtını sonraki onarım turunda kullanmak",
+        "Bilmediği güncel teknik konuda araştırma talep etmek",
+        "Başarı iddiasını artifact ve test kanıtına bağlamak"
+      ],
+      "execution_posture": "Mühendislik Zekası plan ve change-set önerir; gerçek dosya, süreç, ağ, bilgisayar ve tarayıcı işlemlerini Core yetenekleri yürütür."
+    },
+    "shared_analysis": {
+      "state_owner": "CREAN Core",
+      "communication_protocol": [
+        "İletişim Zekası kullanıcı mesajından amaç, karar, kısıt, soru, düzeltme ve yetki sinyali çıkarır.",
+        "Core çıkarımı şemaya göre doğrular ve açık kullanıcı yetkisini deterministik olarak hesaplar.",
+        "Teknik fizibilite gerekiyorsa Core, Mühendislik Zekasına minimum gerekli bağlamla EngineeringQuery gönderir.",
+        "Mühendislik Zekası seçenek, risk, eksik bilgi, öneri ve kanıt ihtiyacını EngineeringFinding olarak döndürür.",
+        "Core bulguyu doğrular ve ortak durum dosyasına kaynak türüyle kaydeder.",
+        "İletişim Zekası doğrulanmış bulguyu doğal kullanıcı dilinde sunar.",
+        "Kullanıcı yürütme yetkisi verirse Core ExecutionContract oluşturur ve Mühendislik akışını başlatır.",
+        "Görev sırasında ProgressEvent ve DecisionRequest olayları İletişim Zekasına aktarılır.",
+        "İletişim Zekası kullanıcı cevabını yeni otorite olarak Core'a döndürür."
+      ],
+      "anti_loop_rules": [
+        "Her sosyal mesaj iki modeli çalıştırmaz.",
+        "İki zeka en fazla tanımlı tur bütçesi kadar karşılıklı danışır.",
+        "Aynı soru veya bulgu hash'i değişmedikçe yeniden analiz edilmez.",
+        "Belirsizlik ürün sonucunu değiştirmiyorsa Core teknik varsayılanı seçer.",
+        "Belirsizlik ürün sonucunu değiştiriyorsa kullanıcıya tek odaklı soru yöneltilir."
+      ]
+    }
+  },
+  "core_control_plane": {
+    "required_components": [
+      "Kernel",
+      "ServiceRegistry",
+      "TypedEventBus",
+      "CapabilityRegistry",
+      "PermissionManager",
+      "AuthorityResolver",
+      "TaskGraph",
+      "Scheduler",
+      "AgentCoordinator",
+      "DialogueOrchestrator",
+      "EngineeringOrchestrator",
+      "ModelRegistry",
+      "ModelRouter",
+      "ModelHealthEngine",
+      "BottleneckAnalyzer",
+      "ComputeRouter",
+      "ResourceAdvisor",
+      "ContextEngine",
+      "MemoryManager",
+      "ProjectManager",
+      "ConversationStore",
+      "WorkspaceManager",
+      "ArtifactStore",
+      "ResearchEngine",
+      "ComputerUseBroker",
+      "BrowserBroker",
+      "EvaluationEngine",
+      "PreReleaseQualityGate",
+      "LearningPatchManager",
+      "ModuleManager",
+      "ModuleExecutionBroker",
+      "SecretVault",
+      "AuditLog"
+    ],
+    "effective_authority_formula": "UserGrantedAuthority ∩ ProjectPolicy ∩ TaskAuthority ∩ AgentProfileMaximumAuthority ∩ CurrentTrustBoundary ∩ CapabilityPolicy",
+    "authority_classes": [
+      "memory.read",
+      "memory.write",
+      "project.read",
+      "project.write.overlay",
+      "project.merge",
+      "process.execute.allowlisted",
+      "network.research",
+      "browser.read",
+      "browser.interact",
+      "computer.observe",
+      "computer.interact",
+      "external.send",
+      "account.modify",
+      "paid.compute",
+      "module.install",
+      "module.enable",
+      "learning.approve"
+    ],
+    "confirmation_classes": {
+      "normally_read_only": [
+        "Proje ve izinli klasör okuma",
+        "Yerel indeks araması",
+        "Kullanıcının istediği web araştırması",
+        "Uygulama durumunu gözlemleme",
+        "Model sağlık ve donanım ölçümü"
+      ],
+      "explicit_scope_required": [
+        "Dosya değiştirme",
+        "Süreç çalıştırma",
+        "Tarayıcı formuna veri yazma",
+        "Bilgisayar arayüzünde değişiklik yapma"
+      ],
+      "final_confirmation_required": [
+        "Silme veya geri dönüşü zor veri değişikliği",
+        "Mesaj, e-posta veya form gönderme",
+        "Satın alma veya ücretli kaynak başlatma",
+        "Hesap, abonelik veya güvenlik ayarı değiştirme",
+        "Hassas bilgi paylaşma",
+        "Yazılım kurma",
+        "Proje kapsamı dışında geniş yazma"
+      ]
+    }
+  },
+  "contracts": {
+    "dialogue_turn": {
+      "schema": "crean.dialogue.turn.v1",
+      "required_fields": [
+        "message_id",
+        "conversation_id",
+        "speech_act",
+        "dialogue_mode",
+        "user_goal",
+        "references",
+        "decisions",
+        "constraints",
+        "corrections",
+        "open_questions",
+        "execution_authority",
+        "confidence"
+      ],
+      "speech_act_values": [
+        "social",
+        "question",
+        "project_discovery",
+        "design",
+        "decision",
+        "research_request",
+        "execution_request",
+        "correction",
+        "cancellation",
+        "review"
+      ],
+      "execution_authority_values": [
+        "none",
+        "discuss_only",
+        "research_only",
+        "execute_scoped",
+        "cancel_active"
+      ],
+      "core_rule": "Modelin execution_authority alanı yalnız öneridir; Core açık kullanıcı fiili, kapsam ve güncel konuşmayla yetkiyi yeniden hesaplar."
+    },
+    "engineering_query": {
+      "schema": "crean.engineering.query.v1",
+      "required_fields": [
+        "query_id",
+        "purpose",
+        "product_goal",
+        "known_decisions",
+        "constraints",
+        "project_snapshot",
+        "requested_output",
+        "mutation_allowed"
+      ],
+      "mutation_allowed_default": false
+    },
+    "engineering_finding": {
+      "schema": "crean.engineering.finding.v1",
+      "required_fields": [
+        "query_id",
+        "summary",
+        "options",
+        "recommended_option",
+        "risks",
+        "missing_product_decisions",
+        "technical_defaults",
+        "research_needed",
+        "confidence",
+        "evidence_refs"
+      ]
+    },
+    "engineering_contract": {
+      "schema": "crean.engineering.contract.v2",
+      "required_fields": [
+        "goal",
+        "platform",
+        "requirements",
+        "capabilities",
+        "constraints",
+        "acceptance_tests",
+        "security_requirements",
+        "artifact_requirements",
+        "missing_critical_information"
+      ],
+      "core_owned_fields": [
+        "acceptance_policy",
+        "permission_limits",
+        "release_gate",
+        "artifact_freshness",
+        "network_policy"
+      ]
+    },
+    "execution_contract": {
+      "schema": "crean.execution.contract.v1",
+      "required_fields": [
+        "task_id",
+        "user_authority_evidence",
+        "project_root",
+        "goal",
+        "allowed_capabilities",
+        "allowed_paths",
+        "network_policy",
+        "cost_policy",
+        "acceptance_tests",
+        "stop_conditions"
+      ]
+    },
+    "project_change_set": {
+      "schema": "crean.project.change-set.v2",
+      "required_fields": [
+        "summary",
+        "assumptions",
+        "changes",
+        "tests_to_run",
+        "expected_postconditions"
+      ],
+      "limits": {
+        "relative_paths_only": true,
+        "path_traversal_rejected": true,
+        "symlink_targets_rejected": true,
+        "binary_write_requires_capability": true,
+        "canonical_workspace_direct_write": false
+      }
+    },
+    "progress_event": {
+      "schema": "crean.progress.event.v1",
+      "fields": [
+        "task_id",
+        "stage",
+        "human_summary",
+        "started_at",
+        "elapsed_ms",
+        "status",
+        "evidence_refs",
+        "user_decision_required"
+      ]
+    },
+    "research_evidence": {
+      "schema": "crean.research.evidence.v1",
+      "fields": [
+        "claim",
+        "source_url_or_local_path",
+        "source_title",
+        "publisher",
+        "published_at",
+        "retrieved_at",
+        "content_hash",
+        "trust_class",
+        "freshness",
+        "supports_or_contradicts",
+        "quoted_words",
+        "notes"
+      ]
+    },
+    "route_decision": {
+      "schema": "crean.route.decision.v1",
+      "fields": [
+        "role",
+        "task_id",
+        "bottleneck_kind",
+        "measured_signals",
+        "current_model",
+        "current_compute",
+        "options",
+        "recommended_option",
+        "privacy_effect",
+        "cost_effect",
+        "approval_required"
+      ]
+    }
+  },
+  "algorithms": {
+    "conversation_turn": {
+      "goal": "Tek bir kullanıcı mesajını hızlı, bağlama duyarlı ve güvenli biçimde işlemek.",
+      "steps": [
+        "Mesajı kaybetmeden olay günlüğüne append-only olarak yaz.",
+        "Aktif konuşma, proje brief'i, kullanıcı tercihleri, son düzeltmeler ve ilgili hafızayı getir.",
+        "Core deterministik olarak açık iptal, açık araştırma ve açık mutasyon fiillerini tespit et; tek başına yetki vermeyen kelimeleri işaretle.",
+        "Sosyal veya sıradan sohbetse İletişim Zekasına tek tur doğal yanıt isteği gönder; Mühendislik Zekasını çağırma.",
+        "Ürün keşfi veya teknik fizibilite sorusuysa İletişim Zekasının DialogueTurn sözleşmesini doğrula.",
+        "Teknik değerlendirme gerekiyorsa minimum bağlamlı EngineeringQuery oluştur.",
+        "EngineeringFinding sonucunu Core şemasından geçir, gerçek ve önerileri ayır.",
+        "İletişim Zekasına doğrulanmış bulguyla kullanıcı cevabı ürettir.",
+        "Açık yürütme isteği varsa Core ExecutionContract üret; eksik ürün kararı varsa yalnız bir netleştirme sorusu sor.",
+        "Yanıtı akış halinde göster, tamamlandığında kalite denetiminden geçir ve konuşmaya kaydet.",
+        "Yanıt tekrarı, eski cevap, kullanıcı cümlesini yankılama veya bağlam çelişkisi varsa görünür olmadan bir onarım turu uygula; sonsuz tekrar yapma."
+      ],
+      "fast_path_rule": "Hızlı yol deterministik hazır cevap üretmek zorunda değildir; asıl amaç gereksiz karar ve mühendislik modeli çağrılarını atlayarak gerçek İletişim Zekasına doğrudan ulaşmaktır."
+    },
+    "joint_analysis": {
+      "goal": "İki zekanın kullanıcıyı bekletmeden ortak durum üzerinde anlaşması.",
+      "steps": [
+        "İletişim Zekası ürün diliyle amaç ve belirsizliği çıkarır.",
+        "Core zaten bilinen kararları ve kaynak türlerini ekler.",
+        "Mühendislik Zekası teknik uygulanabilirlik, seçenek ve riskleri üretir.",
+        "Core iki çıktıda çelişki arar; kullanıcı kararı teknik öneriden daima üstündür.",
+        "Çelişki teknikse kanıt veya araştırma ister; ürün tercihiyse kullanıcıya sorar.",
+        "Ortak sonuç ProjectBrief ve EngineeringFinding olarak ayrı kaydedilir.",
+        "İletişim Zekası kullanıcıya yalnız karar için gerekli sonucu anlatır."
+      ],
+      "round_budget": 2,
+      "timeout_behavior": "Mühendislik danışması zaman aşımına uğrarsa İletişim Zekası yapılan işi tamamlandı göstermez; mevcut bilgiyle konuşur ve teknik analiz sürüyorsa bunu belirtir."
+    },
+    "engineering_execution": {
+      "goal": "Yetkilendirilmiş yazılım görevini güvenli ara alanda üretip doğrulamak.",
+      "steps": [
+        "ExecutionContract ve etkili yetki kesişimini doğrula.",
+        "Proje dosyalarını kod çalıştırmadan tara; sembol, bağımlılık ve platform haritası üret.",
+        "EngineeringContract kabul ölçütlerini görev grafiğine derle.",
+        "Hedef proje için WorkspaceOverlay oluştur.",
+        "Mühendislik Zekasından sınırlı ProjectChangeSet al.",
+        "Göreli yolları, içerik boyutunu, izinleri, sır sızıntısını ve yasaklı davranışları doğrula.",
+        "Değişiklikleri yalnız overlay'e uygula.",
+        "İzinli derleme, birim test, davranış testi, güvenlik denetimi ve smoke testlerini çalıştır.",
+        "Bulgu varsa tam hata kanıtıyla onarım change-set'i iste; aynı hatada sınırlı tekrar uygula.",
+        "Bütün zorunlu kapılar geçerse overlay'i canonical projeye atomik olarak birleştir.",
+        "Taze artifact üret, hash ve evidence kaydı oluştur.",
+        "İletişim Zekasına doğrulanmış sonuç ve varsa kalan sınırları gönder."
+      ],
+      "repair_attempt_limit_default": 3,
+      "success_condition": "Zorunlu testler geçmiş, beklenen postcondition gözlenmiş, taze artifact ve kanıt kaydı oluşmuş olmalıdır."
+    },
+    "bottleneck_and_routing": {
+      "goal": "Donanım sorunu ile zeka/bilgi sorununu ayırıp kullanıcı kontrollü yükseltme sunmak.",
+      "measured_signals": [
+        "model_load_ms",
+        "prompt_tokens",
+        "context_capacity",
+        "time_to_first_token_ms",
+        "tokens_per_second",
+        "estimated_completion_seconds",
+        "RAM_used_and_available",
+        "VRAM_used_and_available",
+        "GPU_backend",
+        "provider_health",
+        "timeout_count",
+        "out_of_memory",
+        "test_failure_repetition",
+        "solution_confidence",
+        "missing_capability",
+        "knowledge_freshness_need"
+      ],
+      "classification": {
+        "compute": "Model çözüm üretebiliyor ancak süre, bellek veya bağlam kapasitesi yerel donanım sınırına takılıyor.",
+        "knowledge": "Daha fazla donanım aynı modelin bilgi, uzmanlık veya çözüm kalitesi açığını gidermeyecek.",
+        "mixed": "Hem donanım hem model/uzmanlık sınırı var.",
+        "provider": "Seçili servis erişilemiyor, kota veya sağlık sorunu var.",
+        "none": "Yerel çalışma kabul edilebilir sınırda."
+      },
+      "strict_option_order": [
+        "local.same-model.continue",
+        "remote.free.same-crean-model",
+        "remote.paid.same-crean-model.with-approval",
+        "external.free.model.with-notice",
+        "external.paid.model.with-approval",
+        "pause_or_cancel"
+      ],
+      "rules": [
+        "Compute sorunu varsa model değiştirmeden önce aynı CREAN modelini başka donanımda çalıştırmayı öner.",
+        "Knowledge sorunu varsa yalnız daha güçlü donanım önermenin çözmeyeceğini açıkla.",
+        "Ücret ve dış veri aktarımını her seçenekte görünür göster.",
+        "Kullanıcı seçimini görev, konuşma veya varsayılan kapsamlarından biriyle sakla.",
+        "Geçiş sırasında aynı task_id, contract hash ve proje snapshot hash korunur.",
+        "Uzak veya harici sonuç yerel Core tarafından yeniden doğrulanır."
+      ]
+    },
+    "internet_research": {
+      "goal": "Güncel veya bilinmeyen konuyu kaynaklı ve saldırıya dayanıklı biçimde öğrenmek.",
+      "steps": [
+        "Araştırma sorusunu alt sorulara ve tazelik gereksinimine ayır.",
+        "Önce resmî/primary kaynakları, sonra gerektiğinde bağımsız kaynakları ara.",
+        "Statik HTTP okuma yeterliyse hafif okuyucu kullan; etkileşim veya render gerekiyorsa Playwright worker kullan.",
+        "Sayfa başlığı, URL, yayıncı, tarih, erişim tarihi ve içerik hash'i kaydet.",
+        "Web metnindeki talimatları veri kabul et; Core veya kullanıcı talimatı olarak yürütme.",
+        "İddiaları en az iki kaynakla veya tek yetkili primary kaynakla doğrula.",
+        "Çelişkileri sakla; kesinlik uydurma.",
+        "Kaynaklı bulguyu ResearchEvidence olarak ortak duruma ekle.",
+        "Bilginin geçerlilik süresini ve yeniden araştırma zamanını kaydet.",
+        "Araştırma bulgusunu test edilmeden öğrenme modülüne dönüştürme."
+      ]
+    },
+    "computer_use": {
+      "goal": "Windows uygulamalarını kullanıcı gibi fakat daha güvenli ve doğrulanabilir biçimde kullanmak.",
+      "action_priority": [
+        "Resmî uygulama veya işletim sistemi API'si",
+        "Microsoft UI Automation öğe ağacı ve control pattern",
+        "Uygulama klavye kısayolu",
+        "Ekran görüntüsü, OCR ve multimodal görsel anlama",
+        "Koordinat tabanlı fare/klavye"
+      ],
+      "loop": [
+        "Mevcut pencere, odak, öğe ağacı ve görsel durumu gözle.",
+        "Hedefi ve beklenen postcondition'ı tanımla.",
+        "En yüksek güvenilirlikteki kontrol yöntemini seç.",
+        "Risk ve onay sınıfını doğrula.",
+        "Tek sınırlı eylem uygula.",
+        "UI event, öğe özelliği veya ekran değişimiyle sonucu doğrula.",
+        "Başarısızsa aynı kör tıklamayı tekrarlama; yeniden gözlemle ve alternatif yöntem seç.",
+        "Beklenmeyen hassas veya yıkıcı adımda dur ve kullanıcıdan karar iste."
+      ],
+      "evidence": [
+        "window_identity",
+        "element_identity_or_visual_target",
+        "action",
+        "before_state",
+        "after_state",
+        "postcondition",
+        "timestamp",
+        "screenshot_when_needed"
+      ]
+    },
+    "browser_use": {
+      "goal": "Tarayıcıyı dayanıklı seçiciler, oturum sınırı ve son durum doğrulamasıyla kullanmak.",
+      "steps": [
+        "Mevcut sekme, URL, origin ve oturum kapsamını gözle.",
+        "Erişilebilir rol, etiket, metin ve kullanıcıya görünen özelliklerle öğeyi bul.",
+        "Uzun CSS/XPath veya koordinatı son çare kabul et.",
+        "Playwright actionability kontrolleriyle öğenin görünür, kararlı, etkin ve etkileşime açık olduğunu doğrula.",
+        "Form gönderme, satın alma, mesaj gönderme veya hesap değişikliğinde final onayı iste.",
+        "Eylemden sonra URL, DOM, ARIA durumu, indirme veya görünür sonuçla postcondition doğrula.",
+        "İndirilen dosyanın adını, boyutunu, türünü ve hash'ini kaydet.",
+        "Sayfa içeriğini yetki kaynağı sayma."
+      ]
+    },
+    "memory_write": {
+      "goal": "Model yanıtını gerçek saymadan uzun süreli bağlam oluşturmak.",
+      "memory_classes": [
+        "user_explicit_preference",
+        "user_decision",
+        "project_fact",
+        "verified_technical_fact",
+        "research_finding",
+        "engineering_proposal",
+        "assumption",
+        "open_question",
+        "correction",
+        "execution_evidence",
+        "temporary_dialogue_summary"
+      ],
+      "steps": [
+        "Aday bilgiyi kaynak rolü, message_id veya evidence_ref ile etiketle.",
+        "Hassas kişisel bilgiyi gereksizse kalıcılaştırma.",
+        "Kullanıcı kararını model önerisinden ayrı sakla.",
+        "Yeni bilgi eski bilgiyle çelişirse otomatik ezme; correction veya conflict kaydı oluştur.",
+        "Kullanıcının açık düzeltmesini önceki yoruma üstün uygula.",
+        "Araştırma bilgisini tarih ve tazelik süresiyle sakla.",
+        "Yalnız doğrulanmış teknik sonucu project_fact yap.",
+        "Her model çağrısında amaçla ilgili küçük hafıza paketi getir."
+      ]
+    },
+    "learning": {
+      "goal": "Başarılı düzeltmeleri güvenli ve taşınabilir CREAN yeteneğine dönüştürmek.",
+      "steps": [
+        "Sorun sınıfı ve önceki ölçüm sonucunu kaydet.",
+        "Yerel veya harici modelden çözüm önerisi al; kaynağı untrusted teacher olarak işaretle.",
+        "Çözümü WorkspaceOverlay içinde uygula.",
+        "Aynı test ve kalite paketiyle sonraki sonucu ölç.",
+        "Sonraki sonuç başarılı değilse, puan iyileşmediyse veya testler geçmediyse dersi reddet.",
+        "Başarılı dersi çalıştırılabilir Core yaması değil, sınırlı bilgi/yetenek katkısı olarak karantinaya al.",
+        "Kullanıcıya problem, ders, kaynak, önce/sonra ölçümü ve izinleri göster.",
+        "Kullanıcı onaylarsa RSA imzalı .creanmod üret.",
+        "Kurulumda paket hash'i, yayıncı parmak izi, bildirim ve izinleri yeniden doğrula.",
+        "Modülü kapalı kur; kullanıcı ayrıca etkinleştirsin.",
+        "Yeni modülle aynı kabul paketini yeniden çalıştır; gerilemede otomatik devre dışı bırak."
+      ]
+    },
+    "module_installation": {
+      "goal": "Yeni yeteneği Core bütünlüğünü bozmadan eklemek.",
+      "steps": [
+        "Paket biçimi, boyut ve zip bomb sınırlarını kontrol et.",
+        "Path traversal, symlink, undeclared file ve duplicate path reddet.",
+        "Manifest şeması ve bütün payload hash'lerini doğrula.",
+        "Yayıncı imzası ve kullanıcı onaylı parmak izini doğrula.",
+        "İzin, ağ, model, gizli anahtar ve işletim sistemi gereksinimlerini göster.",
+        "Paket kodunu kurulum sırasında ana sürece import etme.",
+        "Ayrı geçici süreçte statik denetim ve modül testleri çalıştır.",
+        "Başarılıysa disabled olarak kur.",
+        "Kullanıcı enable ve sohbet/proje seçimi yaparsa minimum ortamda başlat.",
+        "Her çağrıyı Core capability broker üzerinden denetle ve kanıtla."
+      ]
+    }
+  },
+  "memory_and_context": {
+    "storage": {
+      "primary_database": "SQLite",
+      "lexical_search": "SQLite FTS5 with BM25",
+      "semantic_embedding_candidate": "Qwen/Qwen3-Embedding-0.6B",
+      "reranker_candidate": "Qwen/Qwen3-Reranker-0.6B",
+      "vector_storage_initial": "SQLite BLOB plus bounded exact similarity; sqlite-vec only after Windows portability and corruption tests",
+      "event_log": "append-only task, conversation, permission, route and evidence events",
+      "artifact_store": "content-addressed files with SHA-256",
+      "secret_store": "Windows DPAPI current-user or OS-backed equivalent; never exported into prompts or modules"
+    },
+    "active_state": {
+      "user_profile": [
+        "preferred_name",
+        "language",
+        "response_length",
+        "technical_level",
+        "conversation_style",
+        "model_and_privacy_preferences"
+      ],
+      "project_brief": [
+        "goal",
+        "target_users",
+        "platform",
+        "decisions",
+        "constraints",
+        "open_questions",
+        "non_goals",
+        "acceptance_expectations"
+      ],
+      "engineering_state": [
+        "active_contract",
+        "task_graph",
+        "current_stage",
+        "findings",
+        "assumptions",
+        "tests",
+        "artifacts",
+        "remaining_boundaries"
+      ],
+      "research_state": [
+        "question",
+        "sources",
+        "claims",
+        "contradictions",
+        "freshness",
+        "citations"
+      ]
+    },
+    "retrieval_policy": [
+      "Son kullanıcı mesajı ve son düzeltmeler her zaman dahil edilir.",
+      "Aktif kesin kararlar özetlenmeden korunur.",
+      "FTS5 kelime eşleşmesi ve embedding anlam eşleşmesi birlikte kullanılır.",
+      "En iyi adaylar reranker ile yeniden sıralanır.",
+      "Her hafıza parçası kaynak türü, tarih ve güven sınıfıyla modele verilir.",
+      "Eski assistant cevapları gerçek kaynağı olarak kullanılmaz.",
+      "Token bütçesi aşılırsa önce düşük güvenli geçici özetler çıkarılır; kullanıcı kararları korunur."
+    ],
+    "context_budget_default": {
+      "normal_dialogue_tokens": 8192,
+      "project_dialogue_tokens": 16384,
+      "engineering_working_tokens": 32768,
+      "repository_expansion": "Yalnız retrieval ve görev gerektirirse yükseltilir.",
+      "full_context_is_not_default": true
+    }
+  },
+  "model_and_compute_architecture": {
+    "separation": {
+      "communication_model": "Kullanıcı tarafından seçilebilir; varsayılan yerel ve hızlıdır.",
+      "engineering_model": "Kullanıcı tarafından seçilebilir; yerel veya uzak çalışabilir.",
+      "compute_backend": "Model kimliğinden bağımsız yerel CPU/GPU veya uzak GPU'dur.",
+      "core": "Model ve donanım değişse de yerelde otorite, hafıza ve doğrulama sahibi kalır."
+    },
+    "local_runtime": {
+      "preferred": "llama.cpp",
+      "binding": "127.0.0.1 only",
+      "model_format": "GGUF",
+      "default_quantization_candidate": "Q4_K_M; gerçek seçim kalite/bellek benchmarkına göre",
+      "gpu_backends": [
+        "CUDA for NVIDIA",
+        "Vulkan fallback where validated",
+        "CPU with optimized BLAS when no supported GPU"
+      ],
+      "required_features": [
+        "OpenAI-compatible local API",
+        "health endpoint",
+        "prompt/KV cache",
+        "streaming",
+        "structured output or grammar",
+        "token and latency metrics",
+        "cancellation",
+        "model load/unload control",
+        "multimodal input for communication model when supported"
+      ]
+    },
+    "remote_runtime": {
+      "preferred": [
+        "vLLM",
+        "SGLang"
+      ],
+      "protocol": "crean.remote-worker.job.v2 over user-configured HTTPS",
+      "requirements": [
+        "OpenAI-compatible inference endpoint behind hardened reverse proxy",
+        "Per-job authentication and replay protection",
+        "Engine/model/adapter/version pinning",
+        "Prompt and contract hash binding",
+        "No provider secret inside model prompt",
+        "Timeout, cancellation and cost limit",
+        "Local re-verification",
+        "No automatic paid resource creation"
+      ]
+    },
+    "external_api_adapters": {
+      "strategy": "Common internal ProviderAdapter interface; OpenAI-compatible adapter plus provider-specific adapters where protocol or tool semantics differ.",
+      "features": [
+        "User-supplied API base URL and credential",
+        "Model catalog refresh",
+        "Health, quota and rate-limit classification",
+        "Context and modality discovery",
+        "Tool/structured-output capability discovery",
+        "Input/output price metadata when available",
+        "Per-task estimated maximum cost",
+        "Redacted logs",
+        "Provider fallback only under user policy"
+      ],
+      "secret_policy": "Credentials are stored in OS secret vault and injected only into provider transport; models, modules, logs and exported context never receive raw credentials."
+    },
+    "hardware_profiles": [
+      {
+        "id": "cpu_only",
+        "dialogue": "Small quantized local communication model; advanced quality may be slow.",
+        "engineering": "Light tasks local; serious coding recommends remote same-engine or API option.",
+        "notification": "Privacy remains local but response time may exceed acceptance target."
+      },
+      {
+        "id": "gpu_12_to_16_gb",
+        "dialogue": "Gemma 4 12B quantized candidate, subject to benchmark.",
+        "engineering": "Smaller/on-demand model or remote engineering; two large models resident not assumed.",
+        "notification": "Communication remains responsive while heavy engineering may request remote compute."
+      },
+      {
+        "id": "gpu_24_gb",
+        "dialogue": "12B class communication model local.",
+        "engineering": "Qwen3-Coder 30B-A3B or Devstral Small 2 quantized candidate, normally loaded on demand.",
+        "notification": "Simultaneous residency depends on quantization, context and KV cache measurement."
+      },
+      {
+        "id": "gpu_48_gb_plus",
+        "dialogue": "High-quality communication model local and warm.",
+        "engineering": "Larger quantized coding model or simultaneous model pool possible after benchmark.",
+        "notification": "Very large 80B total-weight models still require real memory/context verification."
+      },
+      {
+        "id": "remote_large_gpu",
+        "dialogue": "Normally remains local unless user selects remote.",
+        "engineering": "Qwen3-Coder-Next, Mistral Small 4 class or user-selected model via vLLM/SGLang.",
+        "notification": "Data scope, region, cost and provider status shown before use."
+      }
+    ],
+    "model_pool_policy": [
+      "İletişim modeli öncelikli ve mümkünse sürekli sıcak tutulur.",
+      "Mühendislik modeli yalnız gerektiğinde yüklenir veya uzak donanıma yönlendirilir.",
+      "Yetersiz VRAM durumunda kullanıcı sohbeti donmamalı; ağır görev ayrı kuyruğa veya uzak worker'a geçmelidir.",
+      "Model unload/load kararları devam eden yanıtı kesmez.",
+      "Her model için gerçek tokens_per_second ve time_to_first_token geçmişi tutulur."
+    ]
+  },
+  "training_and_specialization": {
+    "principle": "CREAN için sıfırdan temel model eğitmek ilk yol değildir. Güçlü açık ağırlıklı temel model, CREAN'a özgü kaliteli veriyle ölçümlü biçimde uzmanlaştırılır.",
+    "environment": [
+      "WSL2 or Linux",
+      "CUDA-compatible PyTorch when NVIDIA GPU is available",
+      "Hugging Face Transformers",
+      "PEFT",
+      "TRL",
+      "Accelerate",
+      "Optional Unsloth or validated optimized kernels",
+      "Dataset versioning and immutable evaluation splits"
+    ],
+    "dialogue_dataset_domains": [
+      "Doğal Türkçe ve yazım hataları",
+      "Gönderme ve uzun bağlam",
+      "Kullanıcı düzeltmesi",
+      "Sohbet ile yürütme ayrımı",
+      "Ürün keşfi ve karar verme",
+      "Tek odaklı netleştirme",
+      "Mühendislik bulgusunu doğal dile çevirme",
+      "Model/donanım/maliyet bildirimi",
+      "Araştırma sonucu ve kaynak anlatımı",
+      "Bilgisayar/tarayıcı durum anlatımı",
+      "Gereksiz tekrar ve sahte başarı karşı örnekleri"
+    ],
+    "engineering_dataset_domains": [
+      "Gereksinimden engineering contract üretme",
+      "Kök neden analizi",
+      "Sınırlı change-set üretme",
+      "Test ve kabul ölçütü üretme",
+      "Derleyici/test hatasından onarım",
+      "Çok dosyalı proje geliştirme",
+      "Araç çağrısı ve postcondition",
+      "Güvenlik ve izin sınırı",
+      "Release artifact kanıtı",
+      "Bilgi eksikliğinde araştırma talebi"
+    ],
+    "pipeline": [
+      "Temel model adaylarını eğitim öncesi frozen benchmark ile ölç.",
+      "Lisansı, model kartını, hash'i ve veri kullanım koşullarını kaydet.",
+      "Kullanıcı verisini yalnız açık izin ve redaction sonrası eğitim havuzuna al.",
+      "Küratörlü yüksek kaliteli SFT verisi hazırla.",
+      "QLoRA/LoRA ile rol adaptörü eğit.",
+      "Chosen/rejected çiftleriyle DPO uygula.",
+      "Sabit holdout ve adversarial testleri çalıştır.",
+      "Önceki adaptörle before/after karşılaştır.",
+      "Kalite artışı ve gerileme sınırları geçerse imzalı model adaptörü adayı üret.",
+      "Kullanıcı onayı veya release policy sonrası yeni adaptörü etkinleştir.",
+      "Canary kullanımda kalite/latency gerilerse önceki adaptöre dön."
+    ],
+    "data_rules": [
+      "Sentetik öğretmen verisi doğrudan doğru kabul edilmez; örnekler şema, çeşitlilik, güvenlik ve insan/otomatik kalite denetiminden geçer.",
+      "Test verisi eğitim verisine karışmaz.",
+      "Aynı kullanıcı cümlesinin ezberlenmesi yerine niyet sınıfları ve farklı ifadeler öğretilir.",
+      "Kişisel sır, API anahtarı, özel yol ve gereksiz kişisel veri eğitim setine girmez.",
+      "Her dataset sürümü kaynak, lisans, hash ve dönüşüm geçmişiyle kaydedilir."
+    ]
+  },
+  "computer_browser_and_research": {
+    "windows_stack": {
+      "language": "C#",
+      "runtime": ".NET Windows Desktop",
+      "primary_api": "Microsoft UI Automation",
+      "capture": "Windows Graphics Capture or validated screenshot API",
+      "ocr": "OS OCR or local OCR fallback",
+      "visual_model": "Selected multimodal communication model",
+      "transport": "Authenticated local named pipe or localhost IPC with task-scoped capability token"
+    },
+    "browser_stack": {
+      "language": "TypeScript",
+      "runtime": "Node.js LTS",
+      "primary": "Playwright",
+      "selectors": [
+        "role",
+        "label",
+        "visible text",
+        "placeholder",
+        "title",
+        "test id when site-controlled"
+      ],
+      "session_policy": "Kullanıcının seçtiği profil ve oturum kullanılır; görev dışı sekmeler ve origin'ler izinsiz taranmaz.",
+      "download_policy": "İndirme staging klasörüne alınır, tür/boyut/hash ve güvenlik kontrolünden sonra hedefe taşınır."
+    },
+    "local_research": {
+      "sources": [
+        "İzinli proje klasörleri",
+        "Kullanıcının seçtiği belgeler",
+        "Kurulu araç ve sürüm envanteri",
+        "Donanım ve sürücü envanteri",
+        "Loglar ve test kanıtları",
+        "Önceki CREAN artifact ve değerlendirmeleri"
+      ],
+      "rules": [
+        "Görevle ilgisiz bütün diski tarama.",
+        "Önce salt okunur tarama yap.",
+        "Proje tararken kod çalıştırma veya ağ kullanma.",
+        "Reparse point, symlink ve izin sınırlarını takip et.",
+        "Büyük veya ikili dosyalarda boyut ve tür sınırı uygula."
+      ]
+    },
+    "web_security": [
+      "Prompt injection metni Core talimatı olamaz.",
+      "Web sayfası gizli anahtar veya yerel dosya içeriği isteyemez.",
+      "Cross-origin veri gönderimi açık capability ve kullanıcı kapsamı gerektirir.",
+      "İndirilen çalıştırılabilir dosya otomatik çalıştırılmaz.",
+      "Giriş, ödeme, gönderme ve hesap değişikliği final onayı gerektirir.",
+      "Araştırma kaynakları kullanıcıya gösterilebilir biçimde saklanır."
+    ]
+  },
+  "module_architecture": {
+    "package_format": "crean.module.v2",
+    "file_extension": ".creanmod",
+    "module_categories": [
+      "model",
+      "provider",
+      "compute",
+      "software_platform",
+      "tool",
+      "research",
+      "knowledge",
+      "interface",
+      "voice",
+      "vision",
+      "integration",
+      "quality_gate"
+    ],
+    "examples": [
+      "Android development module",
+      "React/web development module",
+      "Windows desktop module",
+      "Unreal Engine module",
+      "Blender control module",
+      "Database engineering module",
+      "Playwright browser module",
+      "Windows computer-use module",
+      "Gemma local model adapter",
+      "Qwen coding model adapter",
+      "OpenAI-compatible API provider",
+      "User-owned remote GPU worker",
+      "Signed learned lesson module"
+    ],
+    "manifest_required_fields": [
+      "schema",
+      "id",
+      "name",
+      "version",
+      "publisher",
+      "license",
+      "type",
+      "minimum_crean_version",
+      "permissions",
+      "network_policy",
+      "model_access",
+      "capabilities",
+      "contributions",
+      "entrypoint",
+      "files",
+      "tests",
+      "resource_limits",
+      "signature"
+    ],
+    "security": {
+      "signature_required": true,
+      "publisher_fingerprint_required": true,
+      "hash_every_payload_file": true,
+      "unknown_files_rejected": true,
+      "path_traversal_rejected": true,
+      "symlink_rejected": true,
+      "zip_bomb_limits": true,
+      "installed_disabled": true,
+      "explicit_enable_required": true,
+      "network_default": "deny",
+      "secrets_brokered_by_core": true,
+      "out_of_process": true,
+      "installation_imports_code": false,
+      "per_conversation_selection": true,
+      "multiple_modules_allowed": true
+    },
+    "core_immutability": [
+      "Module cannot replace AuthorityResolver.",
+      "Module cannot write persistent memory directly.",
+      "Module cannot bypass WorkspaceOverlay.",
+      "Module cannot mark release success.",
+      "Module cannot read provider secrets.",
+      "Module cannot grant itself capabilities.",
+      "Module cannot alter canonical event evidence."
+    ],
+    "module_studio": {
+      "name": "CREAN Module Studio",
+      "separate_application": true,
+      "pipeline": [
+        "Doğal istekten module contract çıkarma",
+        "Kod ve manifest üretme",
+        "İzole çalışma alanı",
+        "Statik güvenlik taraması",
+        "Ayrı süreç testleri",
+        "İzin ve kaynak özeti",
+        "Yerel yayıncı imzası",
+        ".creanmod export",
+        "CREAN Core yeniden doğrulaması",
+        "Kullanıcı kurulum ve enable onayı"
+      ]
+    }
+  },
+  "software_stack": {
+    "core_and_existing_application": {
+      "language": "Python",
+      "decision": "Mevcut doğrulanmış Core bileşenleri korunup sözleşme ve süreç sınırlarıyla yeniden düzenlenir; sırf dil değiştirmek için toplu yeniden yazım yapılmaz.",
+      "schema_validation": "Strict typed models and JSON Schema",
+      "database": "SQLite",
+      "packaging": "Windows signed desktop release; exact packager implementation phaseında benchmark edilir",
+      "migration_option": "Güvenlik-kritik veya performans-kritik küçük servisler gerekirse Rust/C# olarak ayrı süreçte geliştirilebilir."
+    },
+    "local_inference": [
+      "llama.cpp",
+      "GGUF",
+      "CUDA backend when compatible",
+      "localhost-only server",
+      "streaming and cancellation",
+      "prompt/KV cache",
+      "structured output"
+    ],
+    "remote_inference": [
+      "Linux container",
+      "vLLM or SGLang",
+      "HTTPS reverse proxy",
+      "OpenAI-compatible internal transport",
+      "per-job auth and cost limit"
+    ],
+    "model_training": [
+      "WSL2/Linux",
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "PEFT",
+      "TRL",
+      "Accelerate",
+      "QLoRA",
+      "SFT",
+      "DPO"
+    ],
+    "windows_operator": [
+      "C#",
+      ".NET Windows Desktop",
+      "Microsoft UI Automation",
+      "Windows Graphics Capture",
+      "Named-pipe or authenticated localhost IPC"
+    ],
+    "browser_worker": [
+      "Node.js LTS",
+      "TypeScript",
+      "Playwright",
+      "Accessibility-role locators",
+      "Persistent user-selected browser profile"
+    ],
+    "memory_and_retrieval": [
+      "SQLite",
+      "FTS5",
+      "Qwen3-Embedding-0.6B candidate",
+      "Qwen3-Reranker-0.6B candidate",
+      "Content-addressed artifact storage"
+    ],
+    "not_core_dependencies": [
+      "Ollama may be supported as optional provider but is not required.",
+      "LM Studio may be supported as optional provider but is not required.",
+      "LangChain, CrewAI or another generic agent framework does not own CREAN Core authority, memory or task lifecycle."
+    ]
+  },
+  "user_experience": {
+    "main_surfaces": [
+      "Natural conversation",
+      "Project and decision memory",
+      "Live engineering progress",
+      "Model and hardware status",
+      "Research sources",
+      "Computer/browser activity",
+      "Permission and confirmation dialog",
+      "Module Studio and module manager",
+      "Learning candidates",
+      "Artifacts and verification evidence"
+    ],
+    "independent_selectors": [
+      "Communication AI",
+      "Engineering AI",
+      "Communication compute backend",
+      "Engineering compute backend",
+      "External teacher/fallback model",
+      "Conversation modules",
+      "Project modules"
+    ],
+    "route_notification": {
+      "must_show": [
+        "Hangi rol zorlandı",
+        "Sorunun compute, knowledge, mixed veya provider türü",
+        "Ölçülen temel neden",
+        "Yerelde tahmini süre",
+        "Her seçeneğin gizlilik etkisi",
+        "Her seçeneğin ücret durumu ve mümkünse üst maliyet",
+        "Verinin dışarı çıkıp çıkmayacağı",
+        "Seçimin görev, sohbet veya varsayılan kapsamı"
+      ],
+      "example": "Yerel mühendislik modeli bu görevde bellek sınırına yaklaştı ve yaklaşık 18 dakika sürebilir. Yerelde ücretsiz ve özel devam edebilir, aynı CREAN modelini uzak GPU'da çalıştırabilir veya seçtiğin harici modele geçebilirsin."
+    },
+    "responsiveness": [
+      "Uzun mühendislik işi sırasında sohbet alanı kullanılabilir kalır.",
+      "Kullanıcı aktif yanıtı durdurabilir.",
+      "Yeni kullanıcı mesajı eski yanıt ve görevle çelişiyorsa güncel talimat öncelik alır.",
+      "İlerleme bildirimi gerçek olaydan üretilir; sahte sabit metin kullanılmaz.",
+      "Kullanıcı teknik ayrıntı istemedikçe sonuç doğal dille sunulur."
+    ]
+  },
+  "quality_and_evaluation": {
+    "dialogue_suite": {
+      "name": "CREAN Turkish Dialogue Acceptance",
+      "categories": [
+        "Yazım hatası",
+        "Günlük Türkçe",
+        "Uzun bağlam",
+        "Gönderme çözümü",
+        "Kullanıcı düzeltmesi",
+        "Sosyal sohbet",
+        "Ürün keşfi",
+        "Sohbet/eylem ayrımı",
+        "Araştırma isteği",
+        "Model/donanım bildirimi",
+        "Teknik sonucu doğal anlatma",
+        "Tekrarlanan cevap ve yankılama",
+        "İptal ve yeni mesaj önceliği"
+      ],
+      "metrics": [
+        "Human preference win rate",
+        "Intent and speech-act accuracy",
+        "Reference resolution accuracy",
+        "Correction recovery rate",
+        "Context fact recall",
+        "False execution authorization count",
+        "Repeated/stale response rate",
+        "Time to first token",
+        "Full response latency",
+        "Tokens per second"
+      ],
+      "hard_gates": {
+        "false_execution_authorization": 0,
+        "fabricated_completion": 0,
+        "secret_exposure": 0,
+        "repeated_response_regression": 0
+      }
+    },
+    "engineering_suite": {
+      "categories": [
+        "Contract generation",
+        "Repository understanding",
+        "Root-cause diagnosis",
+        "Bounded multi-file change",
+        "Unit and behavior tests",
+        "Repair from evidence",
+        "Security constraints",
+        "Tool use",
+        "Artifact freshness",
+        "Failure honesty"
+      ],
+      "hard_gates": [
+        "No direct canonical write",
+        "All required tests pass",
+        "Fresh artifact hash exists",
+        "No undeclared network or dependency",
+        "No success report on failed gate"
+      ]
+    },
+    "computer_use_suite": {
+      "categories": [
+        "Window and element discovery",
+        "Text entry",
+        "Menu and dialog handling",
+        "Dynamic UI recovery",
+        "Postcondition verification",
+        "Sensitive-action confirmation",
+        "Cancellation",
+        "Visual fallback",
+        "No blind repeated click"
+      ]
+    },
+    "browser_suite": {
+      "categories": [
+        "Search and multi-source research",
+        "Role-based interaction",
+        "Dynamic page waiting",
+        "Form drafting versus final submit",
+        "Download verification",
+        "Prompt injection resistance",
+        "Citation correctness",
+        "Session and origin boundary"
+      ]
+    },
+    "module_suite": {
+      "categories": [
+        "Signature",
+        "Hash integrity",
+        "Path traversal",
+        "Symlink",
+        "Zip bomb",
+        "Unknown file",
+        "Permission denial",
+        "Network default deny",
+        "Secret isolation",
+        "Disabled-by-default",
+        "Out-of-process crash isolation"
+      ]
+    },
+    "performance_targets": {
+      "status": "targets_to_validate_on_reference_hardware",
+      "dialogue_first_token_p50_ms": 1500,
+      "dialogue_first_token_p95_ms": 3000,
+      "simple_dialogue_full_response_p95_ms": 5000,
+      "ui_remains_interactive_during_engineering": true,
+      "model_switch_notice_before_external_transfer": true,
+      "task_cancel_acknowledgement_target_ms": 500,
+      "note": "Bu değerler garanti değildir; seçilen referans donanım ve quantization ile ölçülerek güncellenir."
+    },
+    "model_bakeoff": {
+      "same_conditions_required": [
+        "Aynı donanım",
+        "Aynı quantization kalite sınıfı",
+        "Aynı bağlam paketi",
+        "Aynı sampling politikası",
+        "Isıtılmış ve soğuk başlangıç ayrı ölçümü",
+        "Sabit test split'i"
+      ],
+      "selection_score": "Quality weighted highest; then false-authority hard gate; then latency, memory, power and license.",
+      "brand_preference_forbidden": true
+    }
+  },
+  "security_and_privacy": {
+    "workspace": [
+      "Canonical project direct AI write is forbidden.",
+      "All proposed mutations enter WorkspaceOverlay.",
+      "Resolved path must remain under allowed root.",
+      "Reparse points and symlinks are rejected unless an explicit safe capability exists.",
+      "Destructive operations require exact target resolution and recovery plan where possible."
+    ],
+    "models": [
+      "Model prompt receives minimum necessary context.",
+      "Secrets are redacted before any prompt.",
+      "External model response is untrusted data.",
+      "Structured outputs are schema constrained and Core validated.",
+      "Model cannot mint permissions or declare verification success."
+    ],
+    "network": [
+      "Default deny for modules and verification workers.",
+      "Research network access is separate from arbitrary application network access.",
+      "External transmission shows destination, data class and reason.",
+      "Paid endpoint requires explicit cost policy.",
+      "Remote worker returns job hash and cannot merge files directly."
+    ],
+    "audit": [
+      "Every permission decision is logged.",
+      "Every model and compute route transition is logged.",
+      "Every external source and download is logged with hash.",
+      "Every overlay merge references passing evaluation IDs.",
+      "Logs redact secret values and avoid unnecessary personal content."
+    ],
+    "recovery": [
+      "Before material migration create recoverable backup.",
+      "Keep old installed release until new release passes acceptance.",
+      "Learning adapter and module activation support rollback.",
+      "Model/provider failure does not corrupt conversation or project state.",
+      "Interrupted tasks can resume from validated checkpoint, not from untrusted model hidden state."
+    ]
+  },
+  "implementation_phases": [
+    {
+      "phase": 0,
+      "name": "Bağlam ve Kabul Sözleşmesini Dondurma",
+      "objective": "Yama geliştirmeden önce ürün kimliğini ve ölçülebilir kabul kriterlerini sabitlemek.",
+      "work": [
+        "Bu V5 bağlamını kullanıcıyla doğrula.",
+        "Approved, proposed ve current implementation alanlarını ayır.",
+        "Türkçe diyalog, mühendislik, computer-use, browser ve modül test planlarını veri şemasına dönüştür.",
+        "Mevcut kaynak ve kurulu sürümün salt-okunur envanterini çıkar.",
+        "Mevcut kullanıcı verisi ve kurulum için geri dönüş planı hazırla."
+      ],
+      "deliverables": [
+        "Onaylanmış master context",
+        "Acceptance test catalog",
+        "Migration inventory",
+        "Risk register"
+      ],
+      "exit_criteria": [
+        "Kullanıcı ürün tanımını doğru bulduğunu onaylar.",
+        "Hiçbir candidate teknoloji uygulanmış özellik gibi işaretlenmez.",
+        "Kök hedefleri karşılamayan tek cümle yamaları plan dışında kalır."
+      ]
+    },
+    {
+      "phase": 1,
+      "name": "Core Sınırlarını ve Sözleşmeleri Kurma",
+      "objective": "İletişim, mühendislik ve yan etkileri birbirinden ayıran sağlam kontrol düzlemi.",
+      "work": [
+        "DialogueTurn, EngineeringQuery, EngineeringFinding, EngineeringContract, ExecutionContract ve RouteDecision şemalarını uygula.",
+        "Deterministik yetki çözümleyicisini model kararından ayır.",
+        "Event log ve task state machine'i append-only olaylarla güçlendir.",
+        "Model süreçlerini Core'dan ayrı yaşam döngüsüne taşı.",
+        "İptal, timeout, restart ve resume davranışlarını doğrula."
+      ],
+      "deliverables": [
+        "Versioned contract library",
+        "Authority resolver",
+        "Dialogue/engineering orchestrator skeleton",
+        "Deterministic state machine tests"
+      ],
+      "exit_criteria": [
+        "Model yokken Core hiçbir konuşmayı mutasyon yetkisine çeviremez.",
+        "Sohbet modeli arızası kullanıcı mesajını veya konuşma kaydını kaybettirmez.",
+        "Aktif görev iptal ve yeni mesaj önceliğini doğru uygular."
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "Donanım Envanteri ve Model Bake-off",
+      "objective": "Gerçek bilgisayarda hız, bellek ve Türkçe kalite ölçerek model seçmek.",
+      "work": [
+        "CPU, GPU, VRAM, RAM, disk, sürücü ve desteklenen backend envanteri.",
+        "llama.cpp CUDA/Vulkan/CPU benchmarkları.",
+        "Gemma 4 12B, Qwen3 14B ve uygun iletişim adaylarıyla frozen diyalog testi.",
+        "Qwen3-Coder 30B-A3B ve Devstral Small 2 ile mühendislik testi.",
+        "Q4/Q5 ve gerekirse diğer quantization kalite/bellek karşılaştırması.",
+        "Soğuk başlangıç, sıcak başlangıç, ilk token, token/s, context ve enerji ölçümü."
+      ],
+      "deliverables": [
+        "Hardware profile",
+        "Model benchmark report",
+        "Selected local dialogue model",
+        "Selected local engineering model",
+        "Fallback and remote recommendation matrix"
+      ],
+      "exit_criteria": [
+        "Model seçimi ölçümle belgelenir.",
+        "İletişim modelinin kabul edilebilir latency ve minimum kalite sınırı vardır.",
+        "İki modelin aynı anda mı, sırayla mı çalışacağı kanıtlanır."
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "İletişim Zekası ve Kalıcı Bağlam",
+      "objective": "CREAN'ın kullanıcıyı gerçekten anlayan hızlı yerel sohbet katmanını oluşturmak.",
+      "work": [
+        "İletişim model host'u ve streaming.",
+        "ProjectBrief, kullanıcı tercihi, düzeltme ve karar hafızası.",
+        "FTS5, embedding ve reranking retrieval.",
+        "Tek model turu normal sohbet yolu.",
+        "Türkçe SFT/QLoRA diyalog adaptörü.",
+        "DPO tercih eğitimi.",
+        "Tekrar, yankı, eski cevap ve sahte başarı kalite kapısı."
+      ],
+      "deliverables": [
+        "CREAN Dialogue model adapter",
+        "Memory retrieval service",
+        "Conversation quality evaluator",
+        "Streaming responsive UI integration"
+      ],
+      "exit_criteria": [
+        "Türkçe diyalog hard gate'leri geçer.",
+        "Normal sohbet mühendislik modelini gereksiz çalıştırmaz.",
+        "Kullanıcı düzeltmesi sonraki turlarda doğru uygulanır.",
+        "Uzun mühendislik işi sırasında sohbet kullanılabilir kalır."
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "Mühendislik Zekası ve Ortak Analiz",
+      "objective": "İletişim Zekasıyla karşılıklı analiz yapan, kanıtla çalışan yazılım üretim sistemi.",
+      "work": [
+        "EngineeringQuery/Finding danışma protokolü.",
+        "EngineeringContract compiler.",
+        "Repository retrieval ve görev grafiği.",
+        "Bounded change-set ve overlay uygulama.",
+        "Platform verifier registry.",
+        "Inspector/repair çevrimi ve taze artifact.",
+        "Mühendislik model adaptörü ve evaluation."
+      ],
+      "deliverables": [
+        "CREAN Engineering model adapter",
+        "Joint analysis orchestrator",
+        "Contract-to-task-graph compiler",
+        "Generalized quality gate"
+      ],
+      "exit_criteria": [
+        "Konuşma ürünü teknik sözleşmeye doğru çevirir.",
+        "Model canonical projeye doğrudan yazamaz.",
+        "Test başarısızken başarı raporu üretilemez.",
+        "En az iki desteklenen yazılım platformu uçtan uca kabul testini geçer."
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "Bilgisayar, Tarayıcı ve Araştırma",
+      "objective": "CREAN'a güvenilir Windows ve internet kullanımı kazandırmak.",
+      "work": [
+        "C# Windows UI Automation worker.",
+        "Ekran capture, OCR ve multimodal fallback.",
+        "Playwright browser worker.",
+        "Research evidence ve citation pipeline.",
+        "Prompt injection ve hassas eylem güvenlik testleri.",
+        "Observe-plan-act-verify kayıtları."
+      ],
+      "deliverables": [
+        "ComputerUseBroker",
+        "BrowserBroker",
+        "ResearchEngine",
+        "Computer/browser acceptance suite"
+      ],
+      "exit_criteria": [
+        "UI öğeleri yapılandırılmış arayüzle kullanılabildiğinde koordinata başvurulmaz.",
+        "Her eylem postcondition ile doğrulanır.",
+        "Gönderme, ödeme ve hesap değişikliği onaysız tamamlanamaz.",
+        "Araştırma cevabı kaynak ve tarihle üretilir."
+      ]
+    },
+    {
+      "phase": 6,
+      "name": "Model, API ve Donanım Yönlendirme",
+      "objective": "Yerel, uzak aynı-model ve harici-model seçeneklerini kullanıcı kontrolünde birleştirmek.",
+      "work": [
+        "BottleneckAnalyzer ölçümleri.",
+        "ModelRegistry ve ProviderAdapter v2.",
+        "Remote worker v2 protocol.",
+        "vLLM/SGLang reference worker.",
+        "Cost, privacy and latency estimator.",
+        "Görev/sohbet/varsayılan kapsamlı kullanıcı seçimi.",
+        "Kesintisiz checkpoint ve route transition."
+      ],
+      "deliverables": [
+        "Route decision engine",
+        "User-facing route notification",
+        "Reference remote worker",
+        "External API adapter SDK"
+      ],
+      "exit_criteria": [
+        "Compute ve knowledge darboğazı testlerde ayrılır.",
+        "Ücretli endpoint onaysız çalışmaz.",
+        "Uzak iş aynı contract ve prompt hash ile bağlanır.",
+        "Harici sonuç yerel testten geçmeden merge edilmez."
+      ]
+    },
+    {
+      "phase": 7,
+      "name": "Modül Ekosistemi",
+      "objective": "Yeni özellikleri Core yaması yerine güvenli paket olarak eklemek.",
+      "work": [
+        "crean.module.v2 manifest ve SDK.",
+        "İmza, hash, fingerprint ve trust store.",
+        "Out-of-process ModuleExecutionBroker.",
+        "Permission, network and resource limit enforcement.",
+        "Module Studio v2.",
+        "Model, provider, compute, platform ve tool referans modülleri."
+      ],
+      "deliverables": [
+        "Module SDK",
+        "Signed reference modules",
+        "Module Studio",
+        "Module security acceptance report"
+      ],
+      "exit_criteria": [
+        "İmzasız veya bozuk paket reddedilir.",
+        "Yeni modül disabled kurulur.",
+        "Modül secret veya Core memory'ye doğrudan erişemez.",
+        "Modül çökmesi Core'u ve konuşmayı çökertmez."
+      ]
+    },
+    {
+      "phase": 8,
+      "name": "Öğrenme ve Sürekli İyileştirme",
+      "objective": "Kullanıcı düzeltmesi ve başarılı mühendislik onarımını ölçülmüş yeteneğe dönüştürmek.",
+      "work": [
+        "Dialogue correction candidate store.",
+        "Before/after evaluation pipeline.",
+        "Dataset redaction and versioning.",
+        "Scheduled adapter training outside runtime.",
+        "Learning patch quarantine and approval UI.",
+        "Signed adapter/module promotion and rollback."
+      ],
+      "deliverables": [
+        "Learning dashboard",
+        "Versioned dialogue and engineering adapters",
+        "Signed learning modules",
+        "Rollback evidence"
+      ],
+      "exit_criteria": [
+        "Kullanıcı verisi izinsiz eğitime girmez.",
+        "Before/after iyileşme olmadan öğrenim kabul edilmez.",
+        "Gerileme tespitinde otomatik rollback yapılır.",
+        "Core kendi kendini otomatik değiştirmez."
+      ]
+    },
+    {
+      "phase": 9,
+      "name": "Bütünleşik Release ve Geçiş",
+      "objective": "Yeni mimariyi kullanıcı verisini ve eski çalışan sürümü koruyarak yayınlamak.",
+      "work": [
+        "Eski DB ve ayar migrasyonu.",
+        "Model ve modüllerin indirilebilir ayrı bileşenleri.",
+        "İmzalı Windows installer ve portable seçenek.",
+        "Soğuk başlangıç ve temiz bilgisayar testi.",
+        "Gerçek kullanıcı diyalog kabulü.",
+        "Rollback ve önceki sürüme dönüş testi.",
+        "Dokümantasyon ve kaynaklı model lisansları."
+      ],
+      "deliverables": [
+        "CREAN next release",
+        "Installer",
+        "Model manager",
+        "Migration report",
+        "Acceptance evidence bundle"
+      ],
+      "exit_criteria": [
+        "Tüm hard gate'ler geçer.",
+        "Eski kullanıcı konuşmaları ve projeleri korunur.",
+        "Rollback çalışır.",
+        "Kurulu EXE hash'i release artifact ile eşleşir.",
+        "Kullanıcı yeni iletişim davranışını gerçek sohbetle kabul eder."
+      ]
+    }
+  ],
+  "legacy_implementation_snapshot": {
+    "snapshot_date": "2026-08-24",
+    "previous_master_context": "C:\\Users\\USER\\Documents\\ChatGPT\\general\\CREAN-context\\master_context.json",
+    "source_root": "C:\\Users\\USER\\Documents\\Codex\\2026-08-21\\referenced-chatgpt-conversation-this-is-an\\work\\crean-source",
+    "installed_root": "C:\\Users\\USER\\AppData\\Local\\Programs\\CREAN",
+    "source_reported_version": "0.14.1",
+    "previous_context_software_version": "0.13.1",
+    "status": "Existing implementation is a prototype/baseline, not completion of V5 architecture.",
+    "implemented_foundations_to_preserve_after_verification": [
+      "Service kernel",
+      "Event bus",
+      "Capabilities and permissions",
+      "Task graph and scheduler",
+      "WorkspaceOverlay",
+      "Project and conversation storage",
+      "Artifact and evaluation storage",
+      "Local and external model adapters",
+      "Basic local-first routing",
+      "Learning patch quarantine",
+      "Signed module foundation",
+      "Python/web and limited Android verification paths",
+      "Windows desktop and CLI"
+    ],
+    "observed_product_failure": [
+      "Yerel Qwen3 8B/4B sohbeti yavaş kaldı.",
+      "Yerel sohbet kullanıcının dil ve bağlamını yeterince anlamadı.",
+      "Karar modeli, sohbet modeli ve fallback zinciri gereksiz gecikme oluşturdu.",
+      "Sonraki düzeltmeler semptom yaması ağırlıklı kaldı; özel İletişim Zekası ve iki-zeka protokolü tamamlanmadı.",
+      "Mevcut sürümde model/compute/provider bağımsızlığı iskeleti, kullanıcı iletişimi kalitesi kadar olgun değildir."
+    ],
+    "known_boundaries": [
+      "Gelişmiş yerel CREAN Dialogue modeli henüz eğitilmedi.",
+      "İki yapay zeka arasında V5 ortak analiz protokolü henüz uygulanmadı.",
+      "Windows UI Automation ve Playwright V5 broker'ları henüz bu mimariyle bütünleşmedi.",
+      "Gerçek uzak same-engine worker kullanıcı tarafından yapılandırılmadan çevrimiçi çalışmaz.",
+      "Modül v2 ve geniş referans modül ekosistemi henüz uygulanmadı.",
+      "Mevcut Android gelişmiş depth/NPU yolu tam cihaz kabulünden geçmedi.",
+      "Hedef bilgisayarın güncel GPU/VRAM envanteri bu dosyada doğrulanmış değildir."
+    ],
+    "migration_rule": "Mevcut kod otomatik olarak çöpe atılmaz ve mevcut kurulum ezilmez. Her bileşen V5 sözleşmeleri ve kabul testlerine göre preserve, refactor, replace veya remove kararı alır."
+  },
+  "risk_register": [
+    {
+      "risk": "12B yerel iletişim modeli hedef donanımda yavaş olabilir.",
+      "mitigation": "Donanım benchmarkı, quantization karşılaştırması, warm model, prefix cache, küçük ilgili bağlam ve kullanıcı kontrollü uzak compute."
+    },
+    {
+      "risk": "İki büyük model aynı GPU belleğine sığmayabilir.",
+      "mitigation": "İletişim modelini sıcak tutup mühendislik modelini on-demand/remote çalıştırma; model pool ve görev kuyruğu."
+    },
+    {
+      "risk": "Fine-tune modeli ezberletip genel sohbeti bozabilir.",
+      "mitigation": "Küçük kontrollü LoRA, sabit holdout, DPO, regression suite, versioned adapter ve rollback."
+    },
+    {
+      "risk": "Uzun bağlam kullanımı hız ve bellek tüketimini artırır.",
+      "mitigation": "Structured memory, hybrid retrieval, reranking, context budget ve prefix cache."
+    },
+    {
+      "risk": "Web araştırması prompt injection taşıyabilir.",
+      "mitigation": "Web content as untrusted data, capability firewall, origin boundary, citation/evidence pipeline."
+    },
+    {
+      "risk": "Computer-use yanlış öğeyi çalıştırabilir.",
+      "mitigation": "API/UIA first, postcondition, single-action loop, visual fallback, sensitive-action confirmation."
+    },
+    {
+      "risk": "Harici model veya uzak compute kullanıcı verisini dışarı çıkarır.",
+      "mitigation": "Visible notice, minimum context, redaction, explicit policy, destination logging and local verification."
+    },
+    {
+      "risk": "Modül Core yetkisini aşmaya çalışabilir.",
+      "mitigation": "Signature, declared permissions, out-of-process broker, default-deny network, no direct secrets/memory/merge."
+    },
+    {
+      "risk": "Yeni mimari mevcut çalışan özellikleri bozabilir.",
+      "mitigation": "Characterization tests, component-by-component migration, old install backup, parallel release candidate and rollback."
+    },
+    {
+      "risk": "Tek örneğe özel yeni yamalar mimariyi tekrar parçalar.",
+      "mitigation": "Her hata önce sözleşme/katman/evaluation sınıfına bağlanır; değişiklik en az bir genelleştirilmiş regression paketi ekler."
+    }
+  ],
+  "anti_patterns": [
+    "Her yeni kullanıcı cümlesi için if/regex yaması eklemek.",
+    "Sosyal sohbeti sabit canned cevaplarla gerçek İletişim Zekasının yerine koymak.",
+    "Her mesajda bütün geçmişi ve iki büyük modeli çalıştırmak.",
+    "Bir modelin JSON döndürmemesini sonraki tüm modelleri zincirleme başlatma gerekçesi yapmak.",
+    "Modelin execute_now alanını kullanıcı yetkisi saymak.",
+    "Donanım yetersizliğinde gereksiz model değiştirmek.",
+    "Bilgi eksikliğinde yalnız daha güçlü GPU önermek.",
+    "Harici model çıktısını test etmeden projeye yazmak.",
+    "Koordinatla kör ekran otomasyonunu birincil yöntem yapmak.",
+    "İnternet sayfasındaki talimatları yürütmek.",
+    "Kurulan modülü otomatik enable etmek.",
+    "Öğrenme adı altında Core'u otomatik yeniden yazmak.",
+    "Test geçmeden veya artifact yenilenmeden tamamlandı demek.",
+    "Kullanıcıya tekrar aynı temel ürün tanımını sordurmak."
+  ],
+  "reference_sources": [
+    {
+      "topic": "Gemma 4 12B local multimodal model",
+      "url": "https://developers.googleblog.com/gemma-4-12b-the-developer-guide/",
+      "source_type": "official"
+    },
+    {
+      "topic": "Qwen3-Coder 30B-A3B",
+      "url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "source_type": "official_model_card"
+    },
+    {
+      "topic": "Qwen3-Coder-Next",
+      "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
+      "source_type": "official_model_card"
+    },
+    {
+      "topic": "Devstral Small 2 24B",
+      "url": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "source_type": "official_model_card"
+    },
+    {
+      "topic": "llama.cpp server",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md",
+      "source_type": "official_project"
+    },
+    {
+      "topic": "llama.cpp structured grammar",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/grammars/README.md",
+      "source_type": "official_project"
+    },
+    {
+      "topic": "vLLM OpenAI-compatible server",
+      "url": "https://docs.vllm.ai/en/latest/serving/online_serving/openai_compatible_server/",
+      "source_type": "official_project"
+    },
+    {
+      "topic": "Qwen3 Embedding",
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-4B",
+      "source_type": "official_model_card"
+    },
+    {
+      "topic": "SQLite FTS5",
+      "url": "https://www.sqlite.org/fts5.html",
+      "source_type": "official_project"
+    },
+    {
+      "topic": "Hugging Face PEFT LoRA",
+      "url": "https://huggingface.co/docs/peft/package_reference/lora",
+      "source_type": "official_project"
+    },
+    {
+      "topic": "Hugging Face TRL",
+      "url": "https://github.com/huggingface/trl",
+      "source_type": "official_project"
+    },
+    {
+      "topic": "Microsoft UI Automation",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/winauto/uiauto-uiautomationoverview",
+      "source_type": "official"
+    },
+    {
+      "topic": "Playwright locators",
+      "url": "https://playwright.dev/docs/locators",
+      "source_type": "official_project"
+    }
+  ],
+  "continuation_instruction": [
+    "Bu dosyayı strict JSON olarak parse et; parse edilemezse uygulama yapma.",
+    "document, decision_ledger, non_negotiable ve legacy_implementation_snapshot bölümlerini önce oku.",
+    "approved kararları kullanıcı değiştirmedikçe koru.",
+    "recommended_not_final ve candidate model/yazılımları doğrulanmış seçim sayma.",
+    "Mevcut implementasyonu kaynak, test ve çalışan sürümle doğrulamadan V5 özelliği tamamlanmış varsayma.",
+    "Kullanıcı yalnız konuşmak istiyorsa dosya, program veya araç çalıştırma.",
+    "Kullanıcı uygulama yetkisi verdiğinde implementation_phases sırasını ve her fazın exit_criteria alanını kullan.",
+    "Her hata için önce ait olduğu katman, sözleşme, kök neden ve eksik evaluation sınıfını belirle; tek örnek yamasıyla yetinme.",
+    "Kullanıcının güncel talimatını, önceki model önerilerinden ve bu dosyadaki aday seçimlerden üstün tut.",
+    "Yeni karar alındığında decision_ledger ve ilgili bölüm güncellenmeden bağlamı dağınık sohbet metnine bırakma."
+  ]
+}

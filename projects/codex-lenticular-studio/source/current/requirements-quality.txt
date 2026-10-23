@@ -1,0 +1,4 @@
+# Additional local surface-quality dependencies. Existing NumPy/Torch are retained.
+pymatting==1.1.16
+numba==0.68.0
+llvmlite==0.50.0

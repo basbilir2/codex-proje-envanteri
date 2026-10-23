@@ -1,0 +1,6 @@
+[
+  "source/workspace/work/cleanup-approved-caches.ps1",
+  "source/workspace/work/delete-approved-chrome-model.ps1",
+  "source/workspace/work/delete-approved-docker-data.ps1",
+  "source/workspace/work/disk-audit.ps1"
+]

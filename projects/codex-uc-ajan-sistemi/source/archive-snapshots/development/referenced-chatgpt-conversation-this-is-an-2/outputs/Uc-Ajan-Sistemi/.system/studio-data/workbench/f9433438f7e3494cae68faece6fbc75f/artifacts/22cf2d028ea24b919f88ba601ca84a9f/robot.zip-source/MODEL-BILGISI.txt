@@ -1,0 +1,3 @@
+Görsel rehberli yaklaşık Blender modeli. Görünmeyen yüzler varsayımdır.
+model.glb: oyun motoruna aktarılabilir mesh/malzeme/UV. model.blend: düzenlenebilir kaynak.
+Modelin oyuna entegrasyonu, çarpışma ve istenen animasyonlar ayrıca tamamlanmalıdır.

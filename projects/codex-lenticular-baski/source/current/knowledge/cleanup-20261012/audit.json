@@ -1,0 +1,2033 @@
+{
+  "started_utc": "2026-10-12T16:19:17.645189+00:00",
+  "cutoff_utc": "2026-10-11T16:19:17.645189+00:00",
+  "drives": [
+    "C:\\"
+  ],
+  "scanned_directories": 211144,
+  "scanned_filenames": 951176,
+  "roots": {
+    "C:\\Users\\USER\\Documents\\lenticular": {
+      "files": 0,
+      "bytes": 0,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 0
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı": {
+      "files": 1670,
+      "bytes": 32196629174,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 1670,
+      "recent_bytes": 32196629174,
+      "newest_timestamp": 1791821957.6467006
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2": {
+      "files": 55,
+      "bytes": 6198310054,
+      "old_files": 55,
+      "old_bytes": 6198310054,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791670763.7732544
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1": {
+      "files": 37122,
+      "bytes": 19609015754,
+      "old_files": 37104,
+      "old_bytes": 19481627069,
+      "recent_files": 18,
+      "recent_bytes": 127388685,
+      "newest_timestamp": 1791736678.5659604
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f": {
+      "files": 790,
+      "bytes": 6607847263,
+      "old_files": 788,
+      "old_bytes": 6607829383,
+      "recent_files": 2,
+      "recent_bytes": 17880,
+      "newest_timestamp": 1791735769.4146376
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\lenticular2": {
+      "files": 48,
+      "bytes": 141420114,
+      "old_files": 48,
+      "old_bytes": 141420114,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791729408.2362273
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular": {
+      "files": 45,
+      "bytes": 676905,
+      "old_files": 45,
+      "old_bytes": 676905,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791706693.303486
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular_blender.egg-info": {
+      "files": 6,
+      "bytes": 1143,
+      "old_files": 6,
+      "old_bytes": 1143,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703401.239236
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\surface-upgrade-20261009-220345\\backup\\lenticular": {
+      "files": 8,
+      "bytes": 146442,
+      "old_files": 8,
+      "old_bytes": 146442,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703413.3823137
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\quality-upgrade-20261009-205235\\lenticular": {
+      "files": 5,
+      "bytes": 151731,
+      "old_files": 5,
+      "old_bytes": 151731,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703412.5809963
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.venv\\Lib\\site-packages\\lenticular_blender-0.1.0.dist-info": {
+      "files": 8,
+      "bytes": 1863,
+      "old_files": 8,
+      "old_bytes": 1863,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703266.9965549
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.studio\\code-backups\\stereo-correction-20261009\\lenticular": {
+      "files": 7,
+      "bytes": 153920,
+      "old_files": 7,
+      "old_bytes": 153920,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703259.913065
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.studio\\code-backups\\animation-e68e4e3296fe4ce085eeb4b2343ca944\\lenticular": {
+      "files": 29,
+      "bytes": 393871,
+      "old_files": 29,
+      "old_bytes": 393871,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703259.8603137
+    }
+  },
+  "branches": {
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\[root files]": {
+      "files": 23,
+      "bytes": 2331425564,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 23,
+      "recent_bytes": 2331425564,
+      "newest_timestamp": 1791821383.4294512
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_dogal_hacim_20261012": {
+      "files": 190,
+      "bytes": 3083147979,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 190,
+      "recent_bytes": 3083147979,
+      "newest_timestamp": 1791791830.7544377
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_belirgin_derinlik_20261012": {
+      "files": 192,
+      "bytes": 3146652032,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 192,
+      "recent_bytes": 3146652032,
+      "newest_timestamp": 1791783886.1234505
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_75_50_20_codex_20261012": {
+      "files": 34,
+      "bytes": 393742819,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 34,
+      "recent_bytes": 393742819,
+      "newest_timestamp": 1791821383.4197447
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_75lpi": {
+      "files": 349,
+      "bytes": 8100386484,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 349,
+      "recent_bytes": 8100386484,
+      "newest_timestamp": 1791779252.442404
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_100lpi_codex_20261012": {
+      "files": 154,
+      "bytes": 1422269128,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 154,
+      "recent_bytes": 1422269128,
+      "newest_timestamp": 1791796150.576517
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_100lpi": {
+      "files": 329,
+      "bytes": 7979222876,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 329,
+      "recent_bytes": 7979222876,
+      "newest_timestamp": 1791779252.5012069
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\tools": {
+      "files": 9,
+      "bytes": 177902,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 9,
+      "recent_bytes": 177902,
+      "newest_timestamp": 1791821956.2246988
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\render_C": {
+      "files": 51,
+      "bytes": 1436493867,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 51,
+      "recent_bytes": 1436493867,
+      "newest_timestamp": 1791739004.44668
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\render_B": {
+      "files": 51,
+      "bytes": 1432400165,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 51,
+      "recent_bytes": 1432400165,
+      "newest_timestamp": 1791738350.9365296
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\render_A": {
+      "files": 51,
+      "bytes": 1435241396,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 51,
+      "recent_bytes": 1435241396,
+      "newest_timestamp": 1791737695.9300213
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\print_C_sheet": {
+      "files": 23,
+      "bytes": 206827744,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 23,
+      "recent_bytes": 206827744,
+      "newest_timestamp": 1791739058.6509194
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\print_C_indep": {
+      "files": 23,
+      "bytes": 206827725,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 23,
+      "recent_bytes": 206827725,
+      "newest_timestamp": 1791739071.7916963
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\print_B_sheet": {
+      "files": 23,
+      "bytes": 206755335,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 23,
+      "recent_bytes": 206755335,
+      "newest_timestamp": 1791739032.4920547
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\print_B_indep": {
+      "files": 23,
+      "bytes": 206755315,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 23,
+      "recent_bytes": 206755315,
+      "newest_timestamp": 1791739045.5703814
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\print_A_sheet": {
+      "files": 23,
+      "bytes": 206677439,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 23,
+      "recent_bytes": 206677439,
+      "newest_timestamp": 1791739019.211791
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\preview_C": {
+      "files": 49,
+      "bytes": 330218092,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 49,
+      "recent_bytes": 330218092,
+      "newest_timestamp": 1791736993.413654
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\prepared_depth": {
+      "files": 5,
+      "bytes": 49583866,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 5,
+      "recent_bytes": 49583866,
+      "newest_timestamp": 1791789082.1554005
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\plans": {
+      "files": 32,
+      "bytes": 12101820,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 32,
+      "recent_bytes": 12101820,
+      "newest_timestamp": 1791791468.165053
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\multiview_comparison_html": {
+      "files": 10,
+      "bytes": 5597880,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 10,
+      "recent_bytes": 5597880,
+      "newest_timestamp": 1791739985.4535315
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\knowledge": {
+      "files": 17,
+      "bytes": 71218,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 17,
+      "recent_bytes": 71218,
+      "newest_timestamp": 1791821957.6467006
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\analysis_C": {
+      "files": 3,
+      "bytes": 1356270,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 3,
+      "recent_bytes": 1356270,
+      "newest_timestamp": 1791736811.2776244
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\analysis_B": {
+      "files": 3,
+      "bytes": 1355804,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 3,
+      "recent_bytes": 1355804,
+      "newest_timestamp": 1791736809.2318902
+    },
+    "C:\\Users\\USER\\Documents\\lenticular baskı\\analysis_A": {
+      "files": 3,
+      "bytes": 1340454,
+      "old_files": 0,
+      "old_bytes": 0,
+      "recent_files": 3,
+      "recent_bytes": 1340454,
+      "newest_timestamp": 1791736807.1774397
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\[root files]": {
+      "files": 3,
+      "bytes": 22937,
+      "old_files": 3,
+      "old_bytes": 22937,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663481.9280608
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\uzmanlik_programi": {
+      "files": 9,
+      "bytes": 47574,
+      "old_files": 9,
+      "old_bytes": 47574,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663327.732946
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\training": {
+      "files": 1,
+      "bytes": 3307,
+      "old_files": 1,
+      "old_bytes": 3307,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663481.9355874
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\tools": {
+      "files": 4,
+      "bytes": 17953,
+      "old_files": 4,
+      "old_bytes": 17953,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663481.9735506
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\sources": {
+      "files": 2,
+      "bytes": 40335,
+      "old_files": 2,
+      "old_bytes": 40335,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663327.6803703
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\sft": {
+      "files": 2,
+      "bytes": 53680,
+      "old_files": 2,
+      "old_bytes": 53680,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791643616.9011
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\schemas": {
+      "files": 3,
+      "bytes": 3254,
+      "old_files": 3,
+      "old_bytes": 3254,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663481.9194045
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\runtime": {
+      "files": 6,
+      "bytes": 2505,
+      "old_files": 6,
+      "old_bytes": 2505,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663490.1466627
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\rag": {
+      "files": 2,
+      "bytes": 2079455,
+      "old_files": 2,
+      "old_bytes": 2079455,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663327.7265115
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\prompts": {
+      "files": 2,
+      "bytes": 1746,
+      "old_files": 2,
+      "old_bytes": 1746,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663481.9183798
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\orchestration": {
+      "files": 2,
+      "bytes": 2496,
+      "old_files": 2,
+      "old_bytes": 2496,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663481.9199085
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\model": {
+      "files": 1,
+      "bytes": 6194892065,
+      "old_files": 1,
+      "old_bytes": 6194892065,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791664467.9245374
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\inventory": {
+      "files": 3,
+      "bytes": 1029698,
+      "old_files": 3,
+      "old_bytes": 1029698,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791643304.3858554
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\eval": {
+      "files": 4,
+      "bytes": 28355,
+      "old_files": 4,
+      "old_bytes": 28355,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791663327.732946
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\egitim_icerigi": {
+      "files": 6,
+      "bytes": 71486,
+      "old_files": 6,
+      "old_bytes": 71486,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791649838.4388306
+    },
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\checks": {
+      "files": 5,
+      "bytes": 13208,
+      "old_files": 5,
+      "old_bytes": 13208,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791670763.7732544
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\[root files]": {
+      "files": 15,
+      "bytes": 330440,
+      "old_files": 15,
+      "old_bytes": 330440,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791716391.495018
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\__pycache__": {
+      "files": 2,
+      "bytes": 54297,
+      "old_files": 2,
+      "old_bytes": 54297,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791546673.9293787
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work": {
+      "files": 46,
+      "bytes": 82728105,
+      "old_files": 44,
+      "old_bytes": 82710225,
+      "recent_files": 2,
+      "recent_bytes": 17880,
+      "newest_timestamp": 1791735769.4146376
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\video-review-20261009-155216": {
+      "files": 18,
+      "bytes": 4859508,
+      "old_files": 18,
+      "old_bytes": 4859508,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791550487.0417633
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-sampling-audit": {
+      "files": 4,
+      "bytes": 2937289,
+      "old_files": 4,
+      "old_bytes": 2937289,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791540075.222408
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\portrait-75-100-20261009-35bdac": {
+      "files": 169,
+      "bytes": 1654346516,
+      "old_files": 169,
+      "old_bytes": 1654346516,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791554953.4430099
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\pitch5020-depth-20261010": {
+      "files": 147,
+      "bytes": 1289525609,
+      "old_files": 147,
+      "old_bytes": 1289525609,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791701439.3338592
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-141927": {
+      "files": 177,
+      "bytes": 1754251759,
+      "old_files": 177,
+      "old_bytes": 1754251759,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791546614.5346057
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-140642": {
+      "files": 27,
+      "bytes": 180580547,
+      "old_files": 27,
+      "old_bytes": 180580547,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791544683.2116523
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-140253": {
+      "files": 4,
+      "bytes": 35828017,
+      "old_files": 4,
+      "old_bytes": 35828017,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791543787.6008966
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-140029": {
+      "files": 3,
+      "bytes": 33567852,
+      "old_files": 3,
+      "old_bytes": 33567852,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791543654.6820576
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-135756": {
+      "files": 3,
+      "bytes": 33567852,
+      "old_files": 3,
+      "old_bytes": 33567852,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791543502.844554
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011": {
+      "files": 175,
+      "bytes": 1535269472,
+      "old_files": 175,
+      "old_bytes": 1535269472,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791702096.36079
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\[root files]": {
+      "files": 15,
+      "bytes": 47316,
+      "old_files": 15,
+      "old_bytes": 47316,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791602751.0261543
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\tools": {
+      "files": 5,
+      "bytes": 71541,
+      "old_files": 5,
+      "old_bytes": 71541,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791568368.785548
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\tests": {
+      "files": 15,
+      "bytes": 136498,
+      "old_files": 15,
+      "old_bytes": 136498,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791717345.4148724
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs": {
+      "files": 875,
+      "bytes": 14061469508,
+      "old_files": 875,
+      "old_bytes": 14061469508,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791622751.86312
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular_blender.egg-info": {
+      "files": 6,
+      "bytes": 1143,
+      "old_files": 6,
+      "old_bytes": 1143,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791066826.5496302
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular": {
+      "files": 45,
+      "bytes": 663104,
+      "old_files": 41,
+      "old_bytes": 506515,
+      "recent_files": 4,
+      "recent_bytes": 156589,
+      "newest_timestamp": 1791736678.5659604
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\examples": {
+      "files": 2,
+      "bytes": 450,
+      "old_files": 2,
+      "old_bytes": 450,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791064309.4488044
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\docs": {
+      "files": 29,
+      "bytes": 35851971,
+      "old_files": 29,
+      "old_bytes": 35851971,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791622747.3958313
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.venv": {
+      "files": 35687,
+      "bytes": 1306771627,
+      "old_files": 35687,
+      "old_bytes": 1306771627,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791572941.9883692
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.studio": {
+      "files": 197,
+      "bytes": 1039839558,
+      "old_files": 183,
+      "old_bytes": 912607462,
+      "recent_files": 14,
+      "recent_bytes": 127232096,
+      "newest_timestamp": 1791736678.0390315
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.models": {
+      "files": 21,
+      "bytes": 2214050142,
+      "old_files": 21,
+      "old_bytes": 2214050142,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791701105.810711
+    },
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.deps": {
+      "files": 225,
+      "bytes": 950112896,
+      "old_files": 225,
+      "old_bytes": 950112896,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791490280.0530083
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\lenticular2\\[root files]": {
+      "files": 5,
+      "bytes": 135266,
+      "old_files": 5,
+      "old_bytes": 135266,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791729372.3927562
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\lenticular2\\tests": {
+      "files": 3,
+      "bytes": 22797,
+      "old_files": 3,
+      "old_bytes": 22797,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791708709.2428255
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\lenticular2\\outputs": {
+      "files": 8,
+      "bytes": 141033509,
+      "old_files": 8,
+      "old_bytes": 141033509,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791729408.2362273
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\lenticular2\\lenticular2": {
+      "files": 30,
+      "bytes": 224855,
+      "old_files": 30,
+      "old_bytes": 224855,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791729305.4323478
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\lenticular2\\config": {
+      "files": 2,
+      "bytes": 3687,
+      "old_files": 2,
+      "old_bytes": 3687,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791708401.8328369
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\surface-upgrade-20261009-220345\\backup\\lenticular\\[root files]": {
+      "files": 5,
+      "bytes": 72435,
+      "old_files": 5,
+      "old_bytes": 72435,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703413.3257866
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\surface-upgrade-20261009-220345\\backup\\lenticular\\web": {
+      "files": 3,
+      "bytes": 74007,
+      "old_files": 3,
+      "old_bytes": 74007,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703413.3823137
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\quality-upgrade-20261009-205235\\lenticular\\[root files]": {
+      "files": 3,
+      "bytes": 88334,
+      "old_files": 3,
+      "old_bytes": 88334,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703412.5458367
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\quality-upgrade-20261009-205235\\lenticular\\web": {
+      "files": 2,
+      "bytes": 63397,
+      "old_files": 2,
+      "old_bytes": 63397,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703412.5809963
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular_blender.egg-info\\[root files]": {
+      "files": 6,
+      "bytes": 1143,
+      "old_files": 6,
+      "old_bytes": 1143,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703401.239236
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular\\[root files]": {
+      "files": 20,
+      "bytes": 225001,
+      "old_files": 20,
+      "old_bytes": 225001,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791706653.1933956
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular\\__pycache__": {
+      "files": 22,
+      "bytes": 368301,
+      "old_files": 22,
+      "old_bytes": 368301,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791706693.303486
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular\\web": {
+      "files": 3,
+      "bytes": 83603,
+      "old_files": 3,
+      "old_bytes": 83603,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791706688.3942678
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.venv\\Lib\\site-packages\\lenticular_blender-0.1.0.dist-info\\[root files]": {
+      "files": 8,
+      "bytes": 1863,
+      "old_files": 8,
+      "old_bytes": 1863,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703266.9965549
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.studio\\code-backups\\stereo-correction-20261009\\lenticular\\[root files]": {
+      "files": 5,
+      "bytes": 92262,
+      "old_files": 5,
+      "old_bytes": 92262,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703259.8810005
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.studio\\code-backups\\stereo-correction-20261009\\lenticular\\web": {
+      "files": 2,
+      "bytes": 61658,
+      "old_files": 2,
+      "old_bytes": 61658,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703259.913065
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.studio\\code-backups\\animation-e68e4e3296fe4ce085eeb4b2343ca944\\lenticular\\[root files]": {
+      "files": 13,
+      "bytes": 129560,
+      "old_files": 13,
+      "old_bytes": 129560,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703259.7764094
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.studio\\code-backups\\animation-e68e4e3296fe4ce085eeb4b2343ca944\\lenticular\\__pycache__": {
+      "files": 13,
+      "bytes": 208393,
+      "old_files": 13,
+      "old_bytes": 208393,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703259.8603137
+    },
+    "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.studio\\code-backups\\animation-e68e4e3296fe4ce085eeb4b2343ca944\\lenticular\\web": {
+      "files": 3,
+      "bytes": 55918,
+      "old_files": 3,
+      "old_bytes": 55918,
+      "recent_files": 0,
+      "recent_bytes": 0,
+      "newest_timestamp": 1791703259.8210912
+    }
+  },
+  "named_files": [
+    {
+      "path": "C:\\Users\\USER\\Downloads\\Lenticular-Baski-100LPI-1200PPI-12Gorsel.tif",
+      "bytes": 187283320,
+      "created_utc": "2026-10-09T05:35:40.449159+00:00",
+      "modified_utc": "2026-10-08T20:01:51.798865+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\Downloads\\Lenticular-Baski-13cm-100LPI-1200PPI.tif",
+      "bytes": 187283320,
+      "created_utc": "2026-10-09T05:35:57.272626+00:00",
+      "modified_utc": "2026-10-08T19:55:11.238968+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\Downloads\\Lenticular-Baski-13cm-50LPI-1200PPI.tif",
+      "bytes": 187283320,
+      "created_utc": "2026-10-09T05:36:13.758413+00:00",
+      "modified_utc": "2026-10-08T19:47:25.565343+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\Lenticular Studio.lnk",
+      "bytes": 1535,
+      "created_utc": "2026-10-06T16:18:13.092095+00:00",
+      "modified_utc": "2026-10-06T16:18:13.099255+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\lenticular 2.lnk",
+      "bytes": 565,
+      "created_utc": "2026-10-07T05:15:58.359129+00:00",
+      "modified_utc": "2026-10-07T05:15:58.359129+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\lenticular baskı.lnk",
+      "bytes": 585,
+      "created_utc": "2026-10-11T16:27:43.372362+00:00",
+      "modified_utc": "2026-10-11T17:50:32.198982+00:00",
+      "recent": true,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Lenticular-50LPI-TamSahne-6-10-12-20261009-141927.lnk",
+      "bytes": 1069,
+      "created_utc": "2026-10-09T12:10:53.118705+00:00",
+      "modified_utc": "2026-10-09T12:10:53.119698+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Lenticular-50LPI-Tasarim-Netlik-Testi-20261009-130433.lnk",
+      "bytes": 1089,
+      "created_utc": "2026-10-09T10:27:49.141157+00:00",
+      "modified_utc": "2026-10-09T10:27:49.142157+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Lenticular-Baski-100LPI-1200PPI-12Gorsel.tif.lnk",
+      "bytes": 741,
+      "created_utc": "2026-10-09T05:37:34.584695+00:00",
+      "modified_utc": "2026-10-09T05:37:34.584695+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\lenticular.lnk",
+      "bytes": 555,
+      "created_utc": "2026-10-03T20:28:48.118931+00:00",
+      "modified_utc": "2026-10-11T16:24:49.741282+00:00",
+      "recent": true,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\lenticular2.lnk",
+      "bytes": 560,
+      "created_utc": "2026-10-11T07:20:46.744328+00:00",
+      "modified_utc": "2026-10-11T07:21:58.400198+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\lenticular2_dual_50_2lpi_master_print.png.lnk",
+      "bytes": 1782,
+      "created_utc": "2026-10-11T14:37:34.163944+00:00",
+      "modified_utc": "2026-10-11T14:37:34.163944+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\.codex\\memories\\rollout_summaries\\2026-10-03T20-25-56-6eWx-lenticular_output_diagnosis_and_desktop_shortcut.md",
+      "bytes": 3099,
+      "created_utc": "2026-10-09T06:51:37.079388+00:00",
+      "modified_utc": "2026-10-12T14:08:49.792219+00:00",
+      "recent": true,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\.codex\\memories\\rollout_summaries\\2026-10-08T19-25-51-ICpU-lenticular_multi_lpi_portrait_output_validation.md",
+      "bytes": 4481,
+      "created_utc": "2026-10-11T16:01:40.981424+00:00",
+      "modified_utc": "2026-10-12T14:08:49.797970+00:00",
+      "recent": true,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\.codex\\memories\\rollout_summaries\\2026-10-08T19-45-38-P5Jb-lenticular_studio_two_photo_rife_animation_integration.md",
+      "bytes": 5698,
+      "created_utc": "2026-10-09T17:49:34.970086+00:00",
+      "modified_utc": "2026-10-12T14:08:49.800184+00:00",
+      "recent": true,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\.codex\\memories\\rollout_summaries\\2026-10-09T17-46-34-R8lG-full_scene_lenticular_portrait_correction.md",
+      "bytes": 2277,
+      "created_utc": "2026-10-11T16:01:40.983425+00:00",
+      "modified_utc": "2026-10-12T14:08:49.800184+00:00",
+      "recent": true,
+      "scope": null
+    },
+    {
+      "path": "C:\\Users\\USER\\.codex\\memories\\rollout_summaries\\2026-10-10T10-33-49-4snL-lenticular_local_worker_api_free_astra_supervision.md",
+      "bytes": 4177,
+      "created_utc": "2026-10-11T06:00:04.263440+00:00",
+      "modified_utc": "2026-10-12T14:08:49.802648+00:00",
+      "recent": true,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$RRANALX\\Lenticular-Baski-100LPI-1200PPI-12Gorsel.tif",
+      "bytes": 187283320,
+      "created_utc": "2026-10-08T20:03:01.889273+00:00",
+      "modified_utc": "2026-10-08T20:01:51.798865+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$RN2T23K\\Lenticular-Baski-13cm-100LPI-1200PPI.tif",
+      "bytes": 187283320,
+      "created_utc": "2026-10-08T19:56:48.907956+00:00",
+      "modified_utc": "2026-10-08T19:55:11.238968+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\genel bilgi\\01_TEMEL_OPTIK_VE_LENTICULAR_TEORISI.md",
+      "bytes": 13701,
+      "created_utc": "2026-10-11T07:30:02.448310+00:00",
+      "modified_utc": "2026-10-11T07:30:02.448310+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\genel bilgi\\06_BIZIM_YAZILIM_LENTICULAR_STUDIO_ORDINARYUS_REHBERI.md",
+      "bytes": 12302,
+      "created_utc": "2026-10-11T07:32:27.752115+00:00",
+      "modified_utc": "2026-10-11T07:32:27.752115+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\genel bilgi\\09_LENTICULAR_2_GELISTIRME_VE_DUZELTILMIS_SURUM_REHBERI.md",
+      "bytes": 10842,
+      "created_utc": "2026-10-11T08:54:53.554709+00:00",
+      "modified_utc": "2026-10-11T08:54:53.554709+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac173361d8c8191a1449be5154f589f\\LENTICULAR_ANA_MIMARI.md",
+      "bytes": 26276,
+      "created_utc": "2026-10-11T07:20:49.551428+00:00",
+      "modified_utc": "2026-10-08T20:01:08.501726+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac173361d8c8191a1449be5154f589f\\LENTICULAR_GOREV_PLANI.md",
+      "bytes": 15784,
+      "created_utc": "2026-10-11T07:20:49.553633+00:00",
+      "modified_utc": "2026-10-08T20:04:39.098778+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\extract_general_lenticular_content.py",
+      "bytes": 14362,
+      "created_utc": "2026-10-11T07:20:56.313113+00:00",
+      "modified_utc": "2026-10-10T16:28:32.308239+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\prepare_lenticular_training.py",
+      "bytes": 8515,
+      "created_utc": "2026-10-11T07:20:56.318207+00:00",
+      "modified_utc": "2026-10-10T14:45:54.120887+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\__pycache__\\prepare_lenticular_training.cpython-314.pyc",
+      "bytes": 14700,
+      "created_utc": "2026-10-11T07:20:56.328927+00:00",
+      "modified_utc": "2026-10-10T14:46:56.888203+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\Lenticular Studio.cmd",
+      "bytes": 83,
+      "created_utc": "2026-10-11T07:20:56.354586+00:00",
+      "modified_utc": "2026-10-03T22:26:19.485881+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\docs\\research\\2026-10-09\\content-adaptive-lenticular-page-3.png",
+      "bytes": 355137,
+      "created_utc": "2026-10-11T07:23:20.133907+00:00",
+      "modified_utc": "2026-10-09T18:05:32.516609+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\docs\\research\\2026-10-09\\content-adaptive-lenticular.pdf",
+      "bytes": 24064645,
+      "created_utc": "2026-10-11T07:23:20.138171+00:00",
+      "modified_utc": "2026-10-09T18:03:58.280806+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\docs\\research\\2026-10-09\\content-adaptive-lenticular.txt",
+      "bytes": 58593,
+      "created_utc": "2026-10-11T07:23:20.154600+00:00",
+      "modified_utc": "2026-10-09T18:05:05.251584+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.venv\\Scripts\\lenticular-studio.exe",
+      "bytes": 108453,
+      "created_utc": "2026-10-11T07:23:19.999086+00:00",
+      "modified_utc": "2026-10-03T22:33:47.830296+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.venv\\Scripts\\lenticular.exe",
+      "bytes": 108450,
+      "created_utc": "2026-10-11T07:23:20.002202+00:00",
+      "modified_utc": "2026-10-03T22:33:47.830296+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.venv\\Lib\\site-packages\\__editable__.lenticular_blender-0.1.0.pth",
+      "bytes": 107,
+      "created_utc": "2026-10-11T07:21:00.805377+00:00",
+      "modified_utc": "2026-10-03T22:33:47.816301+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.venv\\Lib\\site-packages\\__editable___lenticular_blender_0_1_0_finder.py",
+      "bytes": 3578,
+      "created_utc": "2026-10-11T07:21:00.807624+00:00",
+      "modified_utc": "2026-10-03T22:33:47.815289+00:00",
+      "recent": false,
+      "scope": null
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1003\\$R3JKIVY\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.venv\\Lib\\site-packages\\__pycache__\\__editable___lenticular_blender_0_1_0_finder.cpython-312.pyc",
+      "bytes": 5069,
+      "created_utc": "2026-10-11T07:23:19.941424+00:00",
+      "modified_utc": "2026-10-03T22:33:47.828281+00:00",
+      "recent": false,
+      "scope": null
+    }
+  ],
+  "access_errors": [
+    {
+      "path": "C:\\Windows\\WUModels",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\WUModels'"
+    },
+    {
+      "path": "C:\\Windows\\Temp",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\Temp'"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\Tasks",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\SysWOW64\\\\Tasks'"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\sru",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\SysWOW64\\\\sru'"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\Recovery\\Settings",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\SysWOW64\\\\Recovery\\\\Settings'"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\NetworkList",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\SysWOW64\\\\NetworkList'"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\Msdtc",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\SysWOW64\\\\Msdtc'"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\Configuration",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\SysWOW64\\\\Configuration'"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\config",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\SysWOW64\\\\config'"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\Com\\dmp",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\SysWOW64\\\\Com\\\\dmp'"
+    },
+    {
+      "path": "C:\\Windows\\SystemTemp",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\SystemTemp'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WebThreatDefSvc",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\WebThreatDefSvc'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WDI",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\WDI'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wbem\\MOF",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\wbem\\\\MOF'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Tasks_Migrated",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\Tasks_Migrated'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Tasks",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\Tasks'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sru",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\sru'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\spool\\SERVERS",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\spool\\\\SERVERS'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\spool\\PRINTERS",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\spool\\\\PRINTERS'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SleepStudy",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\SleepStudy'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Recovery\\Settings",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\Recovery\\\\Settings'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\networklist",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\networklist'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MsDtc",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\MsDtc'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\LogFiles\\WMI",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\LogFiles\\\\WMI'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\LogFiles\\Firewall",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\LogFiles\\\\Firewall'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ias",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\ias'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverState",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\DriverState'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\drivers\\DriverData",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\drivers\\\\DriverData'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Configuration",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\Configuration'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\config",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\config'"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Com\\dmp",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\System32\\\\Com\\\\dmp'"
+    },
+    {
+      "path": "C:\\Windows\\ServiceState",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\ServiceState'"
+    },
+    {
+      "path": "C:\\Windows\\ServiceProfiles\\NetworkService",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\ServiceProfiles\\\\NetworkService'"
+    },
+    {
+      "path": "C:\\Windows\\ServiceProfiles\\LocalService",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\ServiceProfiles\\\\LocalService'"
+    },
+    {
+      "path": "C:\\Windows\\security\\cap",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\security\\\\cap'"
+    },
+    {
+      "path": "C:\\Windows\\security\\audit",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\security\\\\audit'"
+    },
+    {
+      "path": "C:\\Windows\\Resources\\Themes\\aero\\VSCache",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\Resources\\\\Themes\\\\aero\\\\VSCache'"
+    },
+    {
+      "path": "C:\\Windows\\Provisioning\\Autopilot",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\Provisioning\\\\Autopilot'"
+    },
+    {
+      "path": "C:\\Windows\\Prefetch",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\Prefetch'"
+    },
+    {
+      "path": "C:\\Windows\\PLA\\Templates",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\PLA\\\\Templates'"
+    },
+    {
+      "path": "C:\\Windows\\PLA\\Rules",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\PLA\\\\Rules'"
+    },
+    {
+      "path": "C:\\Windows\\PLA\\Reports",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\PLA\\\\Reports'"
+    },
+    {
+      "path": "C:\\Windows\\ModemLogs",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\ModemLogs'"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft\\Windows\\Models\\StartMenuProviderRanking",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\Microsoft\\\\Windows\\\\Models\\\\StartMenuProviderRanking'"
+    },
+    {
+      "path": "C:\\Windows\\Logs\\Telephony",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\Logs\\\\Telephony'"
+    },
+    {
+      "path": "C:\\Windows\\Logs\\SystemRestore",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\Logs\\\\SystemRestore'"
+    },
+    {
+      "path": "C:\\Windows\\LiveKernelReports",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\LiveKernelReports'"
+    },
+    {
+      "path": "C:\\Windows\\CSC",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\CSC'"
+    },
+    {
+      "path": "C:\\Windows\\appcompat\\UA",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\appcompat\\\\UA'"
+    },
+    {
+      "path": "C:\\Windows\\appcompat\\Programs",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\appcompat\\\\Programs'"
+    },
+    {
+      "path": "C:\\Windows\\appcompat\\Backup",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\appcompat\\\\Backup'"
+    },
+    {
+      "path": "C:\\Windows\\appcompat\\appraiser",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\appcompat\\\\appraiser'"
+    },
+    {
+      "path": "C:\\Windows\\appcompat\\AIDD",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Windows\\\\appcompat\\\\AIDD'"
+    },
+    {
+      "path": "C:\\Users\\USER",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Users\\\\USER'"
+    },
+    {
+      "path": "C:\\Users\\USER",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Users\\\\USER'"
+    },
+    {
+      "path": "C:\\System Volume Information",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\System Volume Information'"
+    },
+    {
+      "path": "C:\\Recovery",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Recovery'"
+    },
+    {
+      "path": "C:\\ProgramData\\WindowsHolographicDevices",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\WindowsHolographicDevices'"
+    },
+    {
+      "path": "C:\\ProgramData\\Packages",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Packages'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\Temp\\PSScriptOutputs",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\Temp\\\\PSScriptOutputs'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\Task",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\Task'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\SenseNDR",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\SenseNDR'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\SenseCM",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\SenseCM'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\Platform",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\Platform'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\ImageCache",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\ImageCache'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\Downloads",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\Downloads'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\DLP",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\DLP'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\DataScan\\Classification",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\DataScan\\\\Classification'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\DataCollection",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\DataCollection'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\Cyber",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\Cyber'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender Advanced Threat Protection\\Cache",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender Advanced Threat Protection\\\\Cache'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Support",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Support'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Scans",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Scans'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Quarantine",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Quarantine'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Network Inspection System",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Network Inspection System'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Models",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Models'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\LocalCopy",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\LocalCopy'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Features",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Features'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Definition Updates\\Default",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Definition Updates\\\\Default'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Definition Updates\\Backup",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Definition Updates\\\\Backup'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Clean Store",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Clean Store'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Certificates",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows Defender\\\\Certificates'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WSAIFabric",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WSAIFabric'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WindowsApps",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WindowsApps'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\wfp",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\wfp'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;_76a35ebfa1f3b9e23dacfcf8cbfe9c9ed188b76_00000000_065831eb-ccc6-4e4f-81ae-05589417eab9",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;_76a35ebfa1f3b9e23dacfcf8cbfe9c9ed188b76_00000000_065831eb-ccc6-4e4f-81ae-05589417eab9'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_d8946b91db97b29797ebbadd5d368d5fe1d6848_00000000_c794ae0f-3ec4-4ac8-a968-53a9747226ef",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_d8946b91db97b29797ebbadd5d368d5fe1d6848_00000000_c794ae0f-3ec4-4ac8-a968-53a9747226ef'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_d8946b91db97b29797ebbadd5d368d5fe1d6848_00000000_b826fb8d-743a-44ac-a210-59016cd3d5a3",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_d8946b91db97b29797ebbadd5d368d5fe1d6848_00000000_b826fb8d-743a-44ac-a210-59016cd3d5a3'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_d8946b91db97b29797ebbadd5d368d5fe1d6848_00000000_8051760c-3bee-4a40-96b5-6b7ee4683756",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_d8946b91db97b29797ebbadd5d368d5fe1d6848_00000000_8051760c-3bee-4a40-96b5-6b7ee4683756'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_d8946b91db97b29797ebbadd5d368d5fe1d6848_00000000_38d9259d-c34d-44d0-992f-598825a8876a",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_d8946b91db97b29797ebbadd5d368d5fe1d6848_00000000_38d9259d-c34d-44d0-992f-598825a8876a'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_76eb83b7cc1df9ec73d6678419f77bfade4a2bb7_00000000_ff2d8461-4e3a-4c07-8cb1-671b5e677fc0",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_76eb83b7cc1df9ec73d6678419f77bfade4a2bb7_00000000_ff2d8461-4e3a-4c07-8cb1-671b5e677fc0'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_d33c67a0-bae1-4a82-a1c6-434614200c9b",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_d33c67a0-bae1-4a82-a1c6-434614200c9b'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_99ef3846-8a64-45a9-8548-570a64a0502d",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_99ef3846-8a64-45a9-8548-570a64a0502d'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_8dde1b2a-d3bf-4ff4-9c80-daf1ca83a1c9",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_8dde1b2a-d3bf-4ff4-9c80-daf1ca83a1c9'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_549a5741-6831-467b-8116-417dbb2367c6",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_549a5741-6831-467b-8116-417dbb2367c6'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_396892f1-a0ca-4360-81f3-7af49e4ab078",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_396892f1-a0ca-4360-81f3-7af49e4ab078'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_1469dbdc-5d81-4d5b-8afd-54d4501890bf",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_1469dbdc-5d81-4d5b-8afd-54d4501890bf'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_07cbffdb-f2fd-4267-b9e6-434c0c843fd4",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_479dd36c51f562a1e3e43953cf4585243e45d69f_00000000_07cbffdb-f2fd-4267-b9e6-434c0c843fd4'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_4581514c95b44f1f18f1a8477602fb71944ed54_00000000_bea6eedd-779d-473e-a580-a040607fa75c",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_4581514c95b44f1f18f1a8477602fb71944ed54_00000000_bea6eedd-779d-473e-a580-a040607fa75c'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\NonCritical_Update;MoUpdateO_2075ccc05218e33fc45cbf5fd676b6487e46e2_00000000_1ee0cc3e-38d2-4a73-99fe-74461fc4ddfb",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\NonCritical_Update;MoUpdateO_2075ccc05218e33fc45cbf5fd676b6487e46e2_00000000_1ee0cc3e-38d2-4a73-99fe-74461fc4ddfb'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\Critical_10.0.26100.9441__4cef78223a86a092268a66a16fa28766499a496c_00000000_93679e3d-17df-4cb9-a9e2-6efc022ec269",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\Critical_10.0.26100.9441__4cef78223a86a092268a66a16fa28766499a496c_00000000_93679e3d-17df-4cb9-a9e2-6efc022ec269'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\Critical_10.0.26100.9441__4cef78223a86a092268a66a16fa28766499a496c_00000000_87e516a0-9a05-4167-bfe8-38865e9e4cac",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\Critical_10.0.26100.9441__4cef78223a86a092268a66a16fa28766499a496c_00000000_87e516a0-9a05-4167-bfe8-38865e9e4cac'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\Critical_10.0.26100.1_90acc61d5a5c376f6a328e6b2ac944d99fe70d7_00000000_a79adbb2-b0f4-44a0-a98f-70442ec8566d",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\Critical_10.0.26100.1_90acc61d5a5c376f6a328e6b2ac944d99fe70d7_00000000_a79adbb2-b0f4-44a0-a98f-70442ec8566d'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\Critical_10.0.26100.1_1479e6faf740c2456cf7ceb2eb82b5d6b3684a3e_00000000_044ccaec-f17c-44aa-adaa-e419df864d30",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\Critical_10.0.26100.1_1479e6faf740c2456cf7ceb2eb82b5d6b3684a3e_00000000_044ccaec-f17c-44aa-adaa-e419df864d30'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_UDClientService._83961def8bb5ab3a7a83d19a1fad2115fc6dd7_79b18a91_266b6df7-919e-427b-8f5a-f390a45cab0f",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_UDClientService._83961def8bb5ab3a7a83d19a1fad2115fc6dd7_79b18a91_266b6df7-919e-427b-8f5a-f390a45cab0f'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_UDClientService._08d9d5f722750bcc8ad42a11af59c25c69b633_79b18a91_d6916d62-9e21-4ed0-b1ee-939f4f3c1b22",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_UDClientService._08d9d5f722750bcc8ad42a11af59c25c69b633_79b18a91_d6916d62-9e21-4ed0-b1ee-939f4f3c1b22'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_UDClientService._08d9d5f722750bcc8ad42a11af59c25c69b633_79b18a91_8f56ad96-939f-4479-a67e-596e5eb89477",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_UDClientService._08d9d5f722750bcc8ad42a11af59c25c69b633_79b18a91_8f56ad96-939f-4479-a67e-596e5eb89477'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_Topaz Gigapixel _1147c74e9f363aad89fbb883789a381b14837b7a_17e4c50a_a5b49149-0986-4dcb-8eeb-01a1475cac81",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_Topaz Gigapixel _1147c74e9f363aad89fbb883789a381b14837b7a_17e4c50a_a5b49149-0986-4dcb-8eeb-01a1475cac81'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_THesap.exe_ddaf7aa676182434c2d9bc3a427c7b7a258d5be_f321fdc0_4a12da72-64ad-4331-9a9c-c4e721110d4d",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_THesap.exe_ddaf7aa676182434c2d9bc3a427c7b7a258d5be_f321fdc0_4a12da72-64ad-4331-9a9c-c4e721110d4d'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_THesap.exe_a8f9715722b6fe978a132ad376625f9920c133c5_291bbf15_ee51fed0-e0aa-4838-8fb1-1d39829e7f8e",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_THesap.exe_a8f9715722b6fe978a132ad376625f9920c133c5_291bbf15_ee51fed0-e0aa-4838-8fb1-1d39829e7f8e'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_THesap.exe_a8f9715722b6fe978a132ad376625f9920c133c5_291bbf15_e231772e-02c0-4104-b868-ebbbd22d49de",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_THesap.exe_a8f9715722b6fe978a132ad376625f9920c133c5_291bbf15_e231772e-02c0-4104-b868-ebbbd22d49de'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_THesap.exe_a8f9715722b6fe978a132ad376625f9920c133c5_291bbf15_9f77396e-35ef-48fe-9875-0ee7eb026b43",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_THesap.exe_a8f9715722b6fe978a132ad376625f9920c133c5_291bbf15_9f77396e-35ef-48fe-9875-0ee7eb026b43'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_CorelDrw.exe_70ebf9623afa5bb1dd402bd2937a9ab227cf1575_306ee3bb_f2d0ab97-6863-4a42-90e9-3baad68a6e54",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_CorelDrw.exe_70ebf9623afa5bb1dd402bd2937a9ab227cf1575_306ee3bb_f2d0ab97-6863-4a42-90e9-3baad68a6e54'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_Check.exe_36b9b8874f1542116988806da61fbfaf8b29d05f_a66a0a8d_d37b23c7-3b46-43d1-9297-de2ff4b0191e",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportArchive\\\\AppCrash_Check.exe_36b9b8874f1542116988806da61fbfaf8b29d05f_a66a0a8d_d37b23c7-3b46-43d1-9297-de2ff4b0191e'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Virtual Hard Disks",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Virtual Hard Disks'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\SystemData",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\SystemData'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Power Efficiency Diagnostics",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Power Efficiency Diagnostics'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\PackagedEventProviders",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\PackagedEventProviders'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Models",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Models'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\LfSvc",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\LfSvc'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Hyper-V'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\CapabilityAccessManager",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\CapabilityAccessManager'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\AppRepository",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\AppRepository'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\SmsRouter",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\SmsRouter'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Search\\Data",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Search\\\\Data'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Provisioning\\AssetCache",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Provisioning\\\\AssetCache'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Network\\Downloader",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Network\\\\Downloader'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Diagnosis",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Diagnosis'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Crypto\\PCPKSP\\WindowsEK",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Crypto\\\\PCPKSP\\\\WindowsEK'"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Crypto\\PCPKSP\\WindowsAIK",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Microsoft\\\\Crypto\\\\PCPKSP\\\\WindowsAIK'"
+    },
+    {
+      "path": "C:\\ProgramData\\Lenovo\\Udc\\cert",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\ProgramData\\\\Lenovo\\\\Udc\\\\cert'"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Program Files\\\\WindowsApps'"
+    },
+    {
+      "path": "C:\\Program Files\\Windows Defender Advanced Threat Protection\\Classification\\Configuration",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Program Files\\\\Windows Defender Advanced Threat Protection\\\\Classification\\\\Configuration'"
+    },
+    {
+      "path": "C:\\PerfLogs",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\PerfLogs'"
+    },
+    {
+      "path": "C:\\Config.Msi",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\Config.Msi'"
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-21-2459026706-1803296916-2000505509-1001",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\$Recycle.Bin\\\\S-1-5-21-2459026706-1803296916-2000505509-1001'"
+    },
+    {
+      "path": "C:\\$Recycle.Bin\\S-1-5-18",
+      "error": "[WinError 5] Erişim engellendi: 'C:\\\\$Recycle.Bin\\\\S-1-5-18'"
+    }
+  ],
+  "skipped_reparse_points": [
+    "C:\\Documents and Settings",
+    "C:\\Users\\USER User",
+    "C:\\Users\\USER\\Documents\\Müziğim",
+    "C:\\Users\\USER\\Documents\\Resimlerim",
+    "C:\\Users\\USER\\Documents\\Videolarım",
+    "C:\\Users\\USER\\Application Data",
+    "C:\\Users\\USER\\Belgelerim",
+    "C:\\Users\\USER\\Cookies",
+    "C:\\Users\\USER\\Local Settings",
+    "C:\\Users\\USER\\NetHood",
+    "C:\\Users\\USER\\PrintHood",
+    "C:\\Users\\USER\\Recent",
+    "C:\\Users\\USER\\SendTo",
+    "C:\\Users\\USER\\Start Menu",
+    "C:\\Users\\USER\\Templates",
+    "C:\\Users\\USER\\Documents\\Müziğim",
+    "C:\\Users\\USER\\Documents\\Resimlerim",
+    "C:\\Users\\USER\\Documents\\Videolarım",
+    "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programlar",
+    "C:\\Users\\USER\\AppData\\Local\\Application Data",
+    "C:\\Users\\USER\\AppData\\Local\\History",
+    "C:\\Users\\USER\\AppData\\Local\\Temporary Internet Files",
+    "C:\\Users\\USER\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files",
+    "C:\\Users\\USER\\Application Data",
+    "C:\\Users\\USER\\Belgelerim",
+    "C:\\Users\\USER\\Cookies",
+    "C:\\Users\\USER\\Local Settings",
+    "C:\\Users\\USER\\NetHood",
+    "C:\\Users\\USER\\OneDrive",
+    "C:\\Users\\USER\\PrintHood",
+    "C:\\Users\\USER\\Recent",
+    "C:\\Users\\USER\\SendTo",
+    "C:\\Users\\USER\\Start Menu",
+    "C:\\Users\\USER\\Templates",
+    "C:\\Users\\USER\\scoop\\apps\\python\\current",
+    "C:\\Users\\USER\\scoop\\apps\\python\\3.14.7\\Scripts",
+    "C:\\Users\\USER\\scoop\\apps\\python\\3.14.7\\Lib\\site-packages",
+    "C:\\Users\\USER\\scoop\\apps\\git\\current",
+    "C:\\Users\\USER\\scoop\\apps\\dark\\current",
+    "C:\\Users\\USER\\scoop\\apps\\7zip\\current",
+    "C:\\Users\\USER\\scoop\\apps\\7zip\\26.02\\Codecs",
+    "C:\\Users\\USER\\scoop\\apps\\7zip\\26.02\\Formats",
+    "C:\\Users\\USER\\Documents\\Müziğim",
+    "C:\\Users\\USER\\Documents\\Resimlerim",
+    "C:\\Users\\USER\\Documents\\Videolarım",
+    "C:\\Users\\USER\\Documents\\Codex\\outputs\\btakip_excel_20260906\\node_modules",
+    "C:\\Users\\USER\\Documents\\Codex\\2026-09-02\\imdi-btakipbin-son-olu-turulan-veriyonuna\\outputs\\01a0abba-9277-78e3-8274-5348d847bf45\\node_modules",
+    "C:\\Users\\USER\\Documents\\Codex\\2026-09-01\\excel-conversion-workspace\\work\\node_modules",
+    "C:\\Users\\USER\\Documents\\Codex\\2026-08-14\\referenced-chatgpt-conversation-this-is-an\\work\\spreadsheet\\node_modules",
+    "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programlar",
+    "C:\\Users\\USER\\AppData\\Local\\Application Data",
+    "C:\\Users\\USER\\AppData\\Local\\History",
+    "C:\\Users\\USER\\AppData\\Local\\Temporary Internet Files",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\pkg",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\@wix\\cli",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\abbrev",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\agent-base",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\agentkeepalive",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\aggregate-error",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\ansi-regex",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\aproba",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\are-we-there-yet",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\balanced-match",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\brace-expansion",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\cacache",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\chownr",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\clean-stack",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\color-support",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\concat-map",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\console-control-strings",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\debug",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\delegates",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\emoji-regex",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\encoding",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\env-paths",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\err-code",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\fs-minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\fs.realpath",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\gauge",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\glob",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\graceful-fs",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\has-unicode",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\http-cache-semantics",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\http-proxy-agent",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\https-proxy-agent",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\humanize-ms",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\iconv-lite",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\imurmurhash",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\indent-string",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\infer-owner",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\inflight",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\inherits",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\ip-address",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\is-fullwidth-code-point",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\is-lambda",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\isexe",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\lru-cache",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\make-fetch-happen",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\minimatch",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\minipass-collect",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\minipass-fetch",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\minipass-flush",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\minipass-pipeline",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\minipass-sized",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\minizlib",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\mkdirp",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\ms",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\negotiator",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\node-gyp",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\nopt",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\npmlog",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\once",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\p-map",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\path-is-absolute",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\promise-inflight",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\promise-retry",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\readable-stream",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\retry",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\rimraf",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\safe-buffer",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\safer-buffer",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\semver",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\set-blocking",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\signal-exit",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\smart-buffer",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\socks",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\socks-proxy-agent",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\ssri",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\string-width",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\string_decoder",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\strip-ansi",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\tar",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\unique-filename",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\unique-slug",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\util-deprecate",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\which",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\wide-align",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\wrappy",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\yallist",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\@wix\\agent-skills",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\@tootallnate\\once",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\@npmcli\\fs",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\@npmcli\\move-file",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\9b61437ca1ec319b25be4f227d22bfdf\\ms2f7za9-34k\\node_modules\\.pnpm\\node_modules\\@gar\\promisify",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\906c76a260ed28f779b8829f796857d0\\pkg",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\906c76a260ed28f779b8829f796857d0\\ms2fjt2k-9u0\\node_modules\\@wix\\create-new",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\13693914639c13c5c4059336acbbe4d9\\pkg",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm-cache\\dlx\\13693914639c13c5c4059336acbbe4d9\\ms2fknhh-8l0\\node_modules\\npm",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\projects\\121aa4ab2d7dea378a9585ec751e85f7",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\projects\\2d144494bee044f0f28a895abbada0bf",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\projects\\60e74cc3eed5c7c978c14e16cf50d825",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\projects\\982cf01139901fa21f711160ede8fae6",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\projects\\fc32284d0789b8e4cf248a2573389746",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@wix\\cli\\1.1.230\\eb0bda923793b6f5de544af091275f593b5edce32ca8004e1e0b54db8967320e\\node_modules\\node-gyp",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@wix\\cli\\1.1.230\\eb0bda923793b6f5de544af091275f593b5edce32ca8004e1e0b54db8967320e\\node_modules\\@wix\\agent-skills",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@npmcli\\move-file\\1.1.2\\9944c295d69d7ee8ec627e463ce2c807b8f9a8d2c5ce03a91bb2b0ca95e4168d\\node_modules\\mkdirp",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@npmcli\\move-file\\1.1.2\\9944c295d69d7ee8ec627e463ce2c807b8f9a8d2c5ce03a91bb2b0ca95e4168d\\node_modules\\rimraf",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@npmcli\\fs\\1.1.1\\351243ebbe497ff731e5d850ab89856caed8e9d5b1599bcc45e328ad2e0c78cc\\node_modules\\semver",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@npmcli\\fs\\1.1.1\\351243ebbe497ff731e5d850ab89856caed8e9d5b1599bcc45e328ad2e0c78cc\\node_modules\\@gar\\promisify",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\wide-align\\1.1.5\\3b6c4464a82aa6f0c1faebac797897a45653479e8c5b32e290781de4dec12834\\node_modules\\string-width",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\which\\2.0.2\\552539f3776c3e1eb0a529e767aae6852f3518bf73e532a9552c4d0550928726\\node_modules\\isexe",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\unique-slug\\2.0.2\\b315a7aa8aeb37ef46b1a72827ec4f5095d97b9e3302dd0cd6a0cfdc814c1cd9\\node_modules\\imurmurhash",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\unique-filename\\1.1.1\\82aacac4d458003dfbe15e10fff09d7698dacf26297bc4ecfad0376584298cc8\\node_modules\\unique-slug",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\tar\\6.2.1\\da2c8ef1ec24593e47f103557636888386e0ca7cdbce6cfb643cc41ac71d0974\\node_modules\\chownr",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\tar\\6.2.1\\da2c8ef1ec24593e47f103557636888386e0ca7cdbce6cfb643cc41ac71d0974\\node_modules\\fs-minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\tar\\6.2.1\\da2c8ef1ec24593e47f103557636888386e0ca7cdbce6cfb643cc41ac71d0974\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\tar\\6.2.1\\da2c8ef1ec24593e47f103557636888386e0ca7cdbce6cfb643cc41ac71d0974\\node_modules\\minizlib",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\tar\\6.2.1\\da2c8ef1ec24593e47f103557636888386e0ca7cdbce6cfb643cc41ac71d0974\\node_modules\\mkdirp",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\tar\\6.2.1\\da2c8ef1ec24593e47f103557636888386e0ca7cdbce6cfb643cc41ac71d0974\\node_modules\\yallist",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\strip-ansi\\6.0.1\\b780933dd84d36bca6262271187fcc44f9d907bd6963c018f00a50a19cff84b3\\node_modules\\ansi-regex",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\string_decoder\\1.3.0\\4a20ba418b86bd978d9bf2a8a3a208039b22c98850764eb5f46976c851d36b23\\node_modules\\safe-buffer",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\string-width\\4.2.3\\8a83f39756ea40270d3928824234b7d89d0dab6c62b7d51c8698d0396183bc30\\node_modules\\emoji-regex",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\string-width\\4.2.3\\8a83f39756ea40270d3928824234b7d89d0dab6c62b7d51c8698d0396183bc30\\node_modules\\is-fullwidth-code-point",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\string-width\\4.2.3\\8a83f39756ea40270d3928824234b7d89d0dab6c62b7d51c8698d0396183bc30\\node_modules\\strip-ansi",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\ssri\\8.0.1\\4cd9b1dab620d4af2c67e5f312d10e33a774d26f86ce641803fa272526848e6c\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\socks-proxy-agent\\6.2.1\\c3e11df7898df34f0f5eccb5cfe9ffb2962f9ed3f439bee411bfaafb741756b9\\node_modules\\agent-base",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\socks-proxy-agent\\6.2.1\\c3e11df7898df34f0f5eccb5cfe9ffb2962f9ed3f439bee411bfaafb741756b9\\node_modules\\debug",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\socks-proxy-agent\\6.2.1\\c3e11df7898df34f0f5eccb5cfe9ffb2962f9ed3f439bee411bfaafb741756b9\\node_modules\\socks",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\socks\\2.8.9\\88335a74e0813db821792f9ed076a29934eb79e82dca678ffc550fd7637a37bf\\node_modules\\ip-address",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\socks\\2.8.9\\88335a74e0813db821792f9ed076a29934eb79e82dca678ffc550fd7637a37bf\\node_modules\\smart-buffer",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\rimraf\\3.0.2\\ea2b5bb60d00dad398cdd3bfe1b2308f3c40ed787be4aeb8af55892b39d40229\\node_modules\\glob",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\readable-stream\\3.6.2\\542e048e5d654c2de00252626e941a0322a483c371faa8cba837b8ac9fcec396\\node_modules\\inherits",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\readable-stream\\3.6.2\\542e048e5d654c2de00252626e941a0322a483c371faa8cba837b8ac9fcec396\\node_modules\\string_decoder",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\readable-stream\\3.6.2\\542e048e5d654c2de00252626e941a0322a483c371faa8cba837b8ac9fcec396\\node_modules\\util-deprecate",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\promise-retry\\2.0.1\\7bf4699c8d4d3ae8ee1b7e27c9466b62993439435b7fac6a608534b8a26e2092\\node_modules\\err-code",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\promise-retry\\2.0.1\\7bf4699c8d4d3ae8ee1b7e27c9466b62993439435b7fac6a608534b8a26e2092\\node_modules\\retry",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\p-map\\4.0.0\\4f44ba2b9e8268789edae7c69ea380f8a1450e51f7ad2a829159a93d622e02b2\\node_modules\\aggregate-error",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\once\\1.4.0\\3792ad515e21ce2d8be8db42812147c17b7d9b2518804510312d0f3711a00da0\\node_modules\\wrappy",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\npmlog\\6.0.2\\73d9c9466847b447a9a35960f12b74df9b5071eaca56bb30a451a4c731984a8e\\node_modules\\are-we-there-yet",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\npmlog\\6.0.2\\73d9c9466847b447a9a35960f12b74df9b5071eaca56bb30a451a4c731984a8e\\node_modules\\console-control-strings",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\npmlog\\6.0.2\\73d9c9466847b447a9a35960f12b74df9b5071eaca56bb30a451a4c731984a8e\\node_modules\\gauge",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\npmlog\\6.0.2\\73d9c9466847b447a9a35960f12b74df9b5071eaca56bb30a451a4c731984a8e\\node_modules\\set-blocking",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\nopt\\5.0.0\\640568a8a43c6e6e2da5dcd77273133207fb897db237df88cf27bce41e0e70a4\\node_modules\\abbrev",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\env-paths",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\glob",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\graceful-fs",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\make-fetch-happen",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\nopt",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\npmlog",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\rimraf",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\semver",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\tar",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\node-gyp\\8.4.1\\6b71304d9060ae4e314c7434c31d96606c3430d0bded52ae62b199c611d6d2ad\\node_modules\\which",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minizlib\\2.1.2\\8dafab2af8f2400475c49adcf5e6397d75e7e114df50df8b202fb242382c0482\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minizlib\\2.1.2\\8dafab2af8f2400475c49adcf5e6397d75e7e114df50df8b202fb242382c0482\\node_modules\\yallist",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minipass-sized\\1.0.3\\931429796ee87f11e1b4d31fefea58bb1aa7717b5a98a68de759306602771525\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minipass-pipeline\\1.2.4\\f8e966786ed1c760697f4c7bc9f904148cfb1ab34d6a2d533a0a17563e3e3fcc\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minipass-flush\\1.0.7\\692da9c20e9453e1b774919876d4780c0eb2e16bfb4c80ab59ea77560c4837c2\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minipass-fetch\\1.4.1\\a8da542fc711b4fcfd145bc1e1df4fffa250dc7bc2442875a10b341fdb598207\\node_modules\\encoding",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minipass-fetch\\1.4.1\\a8da542fc711b4fcfd145bc1e1df4fffa250dc7bc2442875a10b341fdb598207\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minipass-fetch\\1.4.1\\a8da542fc711b4fcfd145bc1e1df4fffa250dc7bc2442875a10b341fdb598207\\node_modules\\minipass-sized",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minipass-fetch\\1.4.1\\a8da542fc711b4fcfd145bc1e1df4fffa250dc7bc2442875a10b341fdb598207\\node_modules\\minizlib",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minipass-collect\\1.0.2\\ca8149f87e466fadc8240379abf340f6a9544bd038a01f5c64a6a9f904c0c7d4\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minipass\\3.3.6\\b0ecfa20f1a9f03b76f728a076257742bd0337c03708e018d6cb5f2779177023\\node_modules\\yallist",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\minimatch\\3.1.5\\a67187557dbec6f1c893c0d2210bf3127d76e8dfdde0cd1a3b68e0ec39d881c6\\node_modules\\brace-expansion",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\agentkeepalive",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\cacache",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\http-cache-semantics",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\http-proxy-agent",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\https-proxy-agent",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\is-lambda",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\lru-cache",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\minipass-collect",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\minipass-fetch",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\minipass-flush",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\minipass-pipeline",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\negotiator",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\promise-retry",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\socks-proxy-agent",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\make-fetch-happen\\9.1.0\\5a17ab294509c86329c964bd590ac1bd2e660dd8e4952e57bf2ddce6c6e820c4\\node_modules\\ssri",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\lru-cache\\6.0.0\\7f013971a30022832f3b45094d44d1b3fc42f43ca4df0af4baba7b9f18378928\\node_modules\\yallist",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\inflight\\1.0.6\\84c6b0e33ead4c07bc22f5f4d15f11db6b062f78b194dd8c4d676e0b39b14296\\node_modules\\once",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\inflight\\1.0.6\\84c6b0e33ead4c07bc22f5f4d15f11db6b062f78b194dd8c4d676e0b39b14296\\node_modules\\wrappy",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\iconv-lite\\0.6.3\\a9b629161267ab4e535d643ac635bc457da160b6f1865f4e99ce4f8fa00d7578\\node_modules\\safer-buffer",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\humanize-ms\\1.2.1\\f7f3eda813d6376a797cdc831d70c1ab4418cae4ddc399b624e21cade0d1408c\\node_modules\\ms",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\https-proxy-agent\\5.0.1\\73b581f29bd03c9f5c1005c8c5d8efac6b126fc8bceca9941703ec9e6eb7c3b0\\node_modules\\agent-base",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\https-proxy-agent\\5.0.1\\73b581f29bd03c9f5c1005c8c5d8efac6b126fc8bceca9941703ec9e6eb7c3b0\\node_modules\\debug",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\http-proxy-agent\\4.0.1\\a2454429e7f81ee72c683f5e8d12b39bc360ad0039f9b7f7fb14cd0da24a6a86\\node_modules\\agent-base",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\http-proxy-agent\\4.0.1\\a2454429e7f81ee72c683f5e8d12b39bc360ad0039f9b7f7fb14cd0da24a6a86\\node_modules\\debug",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\http-proxy-agent\\4.0.1\\a2454429e7f81ee72c683f5e8d12b39bc360ad0039f9b7f7fb14cd0da24a6a86\\node_modules\\@tootallnate\\once",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\glob\\7.2.3\\67896fdf7ea048dfd49b6332b73b7cbf507fd6bd172b03d70ec1d004eebb6ae1\\node_modules\\fs.realpath",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\glob\\7.2.3\\67896fdf7ea048dfd49b6332b73b7cbf507fd6bd172b03d70ec1d004eebb6ae1\\node_modules\\inflight",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\glob\\7.2.3\\67896fdf7ea048dfd49b6332b73b7cbf507fd6bd172b03d70ec1d004eebb6ae1\\node_modules\\inherits",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\glob\\7.2.3\\67896fdf7ea048dfd49b6332b73b7cbf507fd6bd172b03d70ec1d004eebb6ae1\\node_modules\\minimatch",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\glob\\7.2.3\\67896fdf7ea048dfd49b6332b73b7cbf507fd6bd172b03d70ec1d004eebb6ae1\\node_modules\\once",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\glob\\7.2.3\\67896fdf7ea048dfd49b6332b73b7cbf507fd6bd172b03d70ec1d004eebb6ae1\\node_modules\\path-is-absolute",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\gauge\\4.0.4\\afd977602eddda88de868faf62e9a0ad97b4e8c424d3d2dd5386384b6fbec24f\\node_modules\\aproba",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\gauge\\4.0.4\\afd977602eddda88de868faf62e9a0ad97b4e8c424d3d2dd5386384b6fbec24f\\node_modules\\color-support",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\gauge\\4.0.4\\afd977602eddda88de868faf62e9a0ad97b4e8c424d3d2dd5386384b6fbec24f\\node_modules\\console-control-strings",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\gauge\\4.0.4\\afd977602eddda88de868faf62e9a0ad97b4e8c424d3d2dd5386384b6fbec24f\\node_modules\\has-unicode",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\gauge\\4.0.4\\afd977602eddda88de868faf62e9a0ad97b4e8c424d3d2dd5386384b6fbec24f\\node_modules\\signal-exit",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\gauge\\4.0.4\\afd977602eddda88de868faf62e9a0ad97b4e8c424d3d2dd5386384b6fbec24f\\node_modules\\string-width",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\gauge\\4.0.4\\afd977602eddda88de868faf62e9a0ad97b4e8c424d3d2dd5386384b6fbec24f\\node_modules\\strip-ansi",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\gauge\\4.0.4\\afd977602eddda88de868faf62e9a0ad97b4e8c424d3d2dd5386384b6fbec24f\\node_modules\\wide-align",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\fs-minipass\\2.1.0\\c5580b44d10d9569b07e0c65b352eb31177e1ca09bef137db6dbb67819fab222\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\encoding\\0.1.13\\c84e1ad4e08a588e3d55d9f182bbc5857403112f0ec71da48df11bcf273a161b\\node_modules\\iconv-lite",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\debug\\4.4.3\\41cb78134838751fb9b527872630ff31e379649df2077af49e49be74255b86ef\\node_modules\\ms",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\chownr",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\fs-minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\glob",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\infer-owner",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\lru-cache",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\minipass",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\minipass-collect",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\minipass-flush",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\minipass-pipeline",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\mkdirp",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\p-map",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\promise-inflight",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\rimraf",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\ssri",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\tar",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\unique-filename",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\@npmcli\\fs",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\cacache\\15.3.0\\19ad73f6342f4305cea14668942d74ba23f1e971dcf02aaf972729c7851a195a\\node_modules\\@npmcli\\move-file",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\brace-expansion\\1.1.16\\22fe6a94b2fcc55bd02b3fd087d0cc6806cc054f1ae803197bf019d6b7866758\\node_modules\\balanced-match",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\brace-expansion\\1.1.16\\22fe6a94b2fcc55bd02b3fd087d0cc6806cc054f1ae803197bf019d6b7866758\\node_modules\\concat-map",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\are-we-there-yet\\3.0.1\\1149b4e48da4f8bc2c4b5a3466247331e9e94141ee5aeb2e036adcaa55a0a290\\node_modules\\delegates",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\are-we-there-yet\\3.0.1\\1149b4e48da4f8bc2c4b5a3466247331e9e94141ee5aeb2e036adcaa55a0a290\\node_modules\\readable-stream",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\aggregate-error\\3.1.0\\1fdc6e837830637c17c4b8037f890a1c78d516e0c5485295597db1f3027b84c8\\node_modules\\clean-stack",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\aggregate-error\\3.1.0\\1fdc6e837830637c17c4b8037f890a1c78d516e0c5485295597db1f3027b84c8\\node_modules\\indent-string",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\agentkeepalive\\4.6.0\\55e4d75d8f0808d5b596200c213ffe2fe5dd3d5373b33ef1c313c5881d864940\\node_modules\\humanize-ms",
+    "C:\\Users\\USER\\AppData\\Local\\pnpm\\store\\v11\\links\\@\\agent-base\\6.0.2\\8cc155914a01b55899587b40cf1a298130de5e80db88bbc90929207a1c6c644b\\node_modules\\debug",
+    "C:\\Users\\USER\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files",
+    "C:\\Users\\USER\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.IE5",
+    "C:\\Users\\USER\\.codex\\plugins\\cache\\openai-bundled\\plugin-backup-u0U1QZ\\chrome\\latest",
+    "C:\\Users\\USER\\.codex\\plugins\\cache\\openai-bundled\\chrome\\latest",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6a9465391f5481918301e2b7174d134b\\working\\AnonPerson_0001-btakip\\node_modules",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6a9465391f5481918301e2b7174d134b\\working\\excel-converter-inspect\\node_modules",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6a90780738548191ae5faed84f00ea9f\\outputs\\AnonPerson_0002_btakip\\node_modules",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6a90780738548191ae5faed84f00ea9f\\outputs\\asi_reklam\\node_modules",
+    "C:\\siparis-takip\\.tmp\\asi-cari-karsilastirma\\node_modules",
+    "C:\\siparis-takip\\.codex_work\\asi_reklam_merge\\node_modules",
+    "C:\\ProgramData\\Application Data",
+    "C:\\ProgramData\\Belgeler",
+    "C:\\ProgramData\\Desktop",
+    "C:\\ProgramData\\Start Menu",
+    "C:\\ProgramData\\Templates",
+    "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programlar",
+    "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path",
+    "C:\\Program Files\\Windows NT\\Donatılar",
+    "C:\\Program Files\\Java\\latest\\jre-1.8"
+  ],
+  "policy": "Read only. Recent means created OR modified within the previous 24 hours. No link traversal. No deletion."
+}

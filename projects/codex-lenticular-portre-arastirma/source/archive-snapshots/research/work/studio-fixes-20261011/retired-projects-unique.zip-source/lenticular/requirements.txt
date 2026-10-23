@@ -1,0 +1,11 @@
+numpy>=1.24
+opencv-python>=4.8
+opencv-contrib-python>=4.8
+Pillow>=10.0
+torch>=2.0
+torchvision>=0.15
+scipy>=1.11
+scikit-image>=0.21
+gradio>=4.0
+tifffile>=2023.7
+colorspacious>=1.1

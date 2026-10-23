@@ -1,0 +1,14 @@
+Use case: precise-object-edit / typography layout.
+Edit ONLY the address and promotional lettering in this close-up of the bottom-right of an existing Turkish cafe menu. This crop is 714 x 294. Keep identical aspect ratio and composition.
+1) MOVE the existing three-line white address from the lower right to ONE SINGLE HORIZONTAL LINE across the very bottom black strip of this crop, just above the wooden bottom frame. Exact address, unchanged wording:
+Gürsel Aksel Bulvarı No:22-1  Muammer Akar Mah.  Karabağlar / İzmir
+Place this line approximately x=12..616, y=271..287 of this crop, using small readable condensed white type (similar original font), fitting all text on one line without wrapping and without entering bottle at far right. Clear the old three-line address completely and restore matching black chalkboard background behind it.
+2) ENLARGE the existing promotion lettering/brush banners into the empty space freed by the address. Same original words and visual style:
+"Ne yersen ye,"
+"yanında"
+"200ml."
+"İÇECEK BEDAVA!"
+Keep this group in the right-hand area to the LEFT of the bottle, approximately x=390..630, y=20..258, with visibly larger and taller lettering especially "Ne yersen ye," and "İÇECEK BEDAVA!" and the large 200ml. offer. Reflow the existing four lines naturally to fill this taller area. Red/yellow brush swashes, white/yellow outlined lettering and same original style. Retain all wording/punctuation. Do not add any text.
+STRICT INVARIANTS: preserve the phone icon, yellow "Sipariş İçin" banner, telephone "PRIVATE_PHONE_0002" and its red/yellow background absolutely unchanged, including exact position/size. Preserve the entire Coca-Cola bottle, cap, label, decorative tomatoes/herbs, wooden frame, top chicken caption and price, all other surrounding pixels. No global color/lighting changes. Only move address and enlarge its promotion above. No changes to anything else. Make the address line fit at bottom without covering phone or bottle.
+
+Local composition: address placed on one bottom line; promotion enlarged within address/promotion area. Unrelated protected regions compared at raw pixel level.

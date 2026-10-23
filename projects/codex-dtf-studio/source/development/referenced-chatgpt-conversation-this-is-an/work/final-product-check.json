@@ -1,0 +1,20 @@
+{
+  "copies": 20,
+  "designCm": [
+    8,
+    8
+  ],
+  "filmCm": [
+    57,
+    33.900000000000006
+  ],
+  "pdfPages": 1,
+  "png": {
+    "width": 6732,
+    "height": 4004,
+    "dpi": 300,
+    "hasAlpha": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  }
+}

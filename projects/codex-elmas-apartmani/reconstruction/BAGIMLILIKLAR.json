@@ -1,0 +1,9 @@
+{
+  "manifests": [
+    "source/development/outputs/Elmas-Apartmani/package-lock.json",
+    "source/development/outputs/Elmas-Apartmani/package.json",
+    "source/development/work/google-deploy/package-lock.json",
+    "source/development/work/google-deploy/package.json"
+  ],
+  "policy": "Use preserved manifest and lock files; no personal account values are included."
+}

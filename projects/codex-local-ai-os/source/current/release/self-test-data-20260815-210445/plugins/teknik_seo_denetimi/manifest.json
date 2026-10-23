@@ -1,0 +1,74 @@
+{
+  "Id": "teknik_seo_denetimi",
+  "Name": "Teknik SEO Denetimi",
+  "Version": "1.0.0",
+  "Description": "Kullan\u0131c\u0131n\u0131n teknik SEO denetimi yapabilmesi i\u00E7in gerekli bilgi ve kaynaklar\u0131 toplar, do\u011Frular ve uygulamaya d\u00F6ker.",
+  "Triggers": [
+    "teknik SEO denetimi yap",
+    "web sitesi teknik analizi",
+    "SEO optimizasyonu kontrol\u00FC"
+  ],
+  "Capabilities": [
+    "seo.technical_analysis",
+    "seo.source_verification",
+    "seo.application"
+  ],
+  "Instructions": "Kullan\u0131c\u0131, bir web sitesinin teknik SEO durumunu denetlemek istiyorsa, gerekli kaynaklar\u0131 bulur, do\u011Frular ve uygulamaya d\u00F6ker. Bu s\u00FCre\u00E7, SEO uyumlu yap\u0131, meta etiketler, URL yap\u0131s\u0131, site h\u0131z\u0131, mobil uyumluluk ve indeksleme gibi konular\u0131 kapsar.",
+  "Sources": [
+    {
+      "Topic": "Teknik SEO Denetimi ve Uygulama",
+      "Url": "https://www.teknikcuttingtools.com/?dil=eng",
+      "LearningMethod": "Kaynakta teknik SEO ile ilgili terminoloji ve uygulamalar hakk\u0131nda bilgi edinilir."
+    },
+    {
+      "Topic": "Teknik Kelimesi ve \u0130lgili Terimler",
+      "Url": "https://tureng.com/tr/turkce-ingilizce/teknik",
+      "LearningMethod": "Kelime ve terim \u00E7evirileri ile teknik SEO terimlerini \u00F6\u011Frenmek i\u00E7in kullan\u0131l\u0131r."
+    },
+    {
+      "Topic": "teknik SEO denetimi",
+      "Url": "https://www.itu.edu.tr/",
+      "LearningMethod": "Gerekti\u011Finde g\u00FCncel i\u00E7eri\u011Fi al, ilgili k\u0131sm\u0131 \u00E7\u0131kar ve ba\u015Fka kaynakla do\u011Frula."
+    },
+    {
+      "Topic": "teknik SEO denetimi",
+      "Url": "https://tr.wiktionary.org/wiki/teknik",
+      "LearningMethod": "Gerekti\u011Finde g\u00FCncel i\u00E7eri\u011Fi al, ilgili k\u0131sm\u0131 \u00E7\u0131kar ve ba\u015Fka kaynakla do\u011Frula."
+    }
+  ],
+  "Workflow": [
+    {
+      "Action": "detect_need",
+      "Instruction": "Kullan\u0131c\u0131n\u0131n teknik SEO denetimi yapma ihtiyac\u0131 tespit edilir."
+    },
+    {
+      "Action": "retrieve",
+      "Instruction": "\u0130lgili kaynaklardan teknik SEO ile ilgili bilgiler toplan\u0131r."
+    },
+    {
+      "Action": "verify",
+      "Instruction": "Toplanan bilgilerin do\u011Frulu\u011Fu ve g\u00FCncelli\u011Fi kontrol edilir."
+    },
+    {
+      "Action": "apply",
+      "Instruction": "Do\u011Frulanm\u0131\u015F bilgiler, kullan\u0131c\u0131ya teknik SEO denetimi yapma konusunda rehberlik eder."
+    }
+  ],
+  "Quality": {
+    "MinimumSources": 2,
+    "MinimumAnswerLength": 200,
+    "RequireSourceUrls": true,
+    "Checks": [
+      "freshness",
+      "authority",
+      "contradictions",
+      "application result"
+    ]
+  },
+  "Tools": [],
+  "Permissions": [
+    "internet_read"
+  ],
+  "CreatedFrom": "chat_acquisition",
+  "LastValidatedAt": "2026-08-15T18:12:00.9011728\u002B00:00"
+}

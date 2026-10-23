@@ -1,0 +1,61 @@
+[
+  {
+    "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\A3-PITCH-22CM\\A3-1-50-60LPI-22CM-1200PPI.tif",
+    "lens_lpi": [
+      50,
+      60
+    ],
+    "pixels": [
+      14031,
+      19843
+    ],
+    "size_mm": [
+      296.9895,
+      420.01016666666663
+    ],
+    "ppi": 1200,
+    "pattern_width_mm": 220.00633333333334,
+    "all_source_pixels_equal": true,
+    "all_native_band_hashes_equal": true,
+    "sha256": "07a44c3d760f5542fc9433ebbe90ed91ee6e639e1c5ed4d53407e13246ebfe17"
+  },
+  {
+    "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\A3-PITCH-22CM\\A3-2-75-85LPI-22CM-1200PPI.tif",
+    "lens_lpi": [
+      75,
+      85
+    ],
+    "pixels": [
+      14031,
+      19843
+    ],
+    "size_mm": [
+      296.9895,
+      420.01016666666663
+    ],
+    "ppi": 1200,
+    "pattern_width_mm": 220.00633333333334,
+    "all_source_pixels_equal": true,
+    "all_native_band_hashes_equal": true,
+    "sha256": "edd103ea60bd1351f6db36192cd795b5bfda39d60d08803d4a8a8652a6ac22ff"
+  },
+  {
+    "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\A3-PITCH-22CM\\A3-3-100LPI-22CM-1200PPI.tif",
+    "lens_lpi": [
+      100
+    ],
+    "pixels": [
+      14031,
+      19843
+    ],
+    "size_mm": [
+      296.9895,
+      420.01016666666663
+    ],
+    "ppi": 1200,
+    "pattern_width_mm": 220.00633333333334,
+    "all_source_pixels_equal": true,
+    "all_native_band_hashes_equal": true,
+    "sha256": "b74e01ca8e1dbb35e0a662548d7d999b71d9cc09b881419fe853515a9e2fd6c9"
+  }
+]

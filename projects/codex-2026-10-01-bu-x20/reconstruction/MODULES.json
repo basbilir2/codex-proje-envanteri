@@ -1,0 +1,14 @@
+[
+  "source/workspace/work/analyze_kasa.py",
+  "source/workspace/work/inspect_kasa.py",
+  "source/workspace/work/pydeps/xlrd/__init__.py",
+  "source/workspace/work/pydeps/xlrd/biffh.py",
+  "source/workspace/work/pydeps/xlrd/book.py",
+  "source/workspace/work/pydeps/xlrd/compdoc.py",
+  "source/workspace/work/pydeps/xlrd/formatting.py",
+  "source/workspace/work/pydeps/xlrd/formula.py",
+  "source/workspace/work/pydeps/xlrd/info.py",
+  "source/workspace/work/pydeps/xlrd/sheet.py",
+  "source/workspace/work/pydeps/xlrd/timemachine.py",
+  "source/workspace/work/pydeps/xlrd/xldate.py"
+]

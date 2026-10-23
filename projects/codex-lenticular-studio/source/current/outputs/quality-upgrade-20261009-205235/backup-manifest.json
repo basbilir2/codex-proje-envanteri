@@ -1,0 +1,26 @@
+[
+  {
+    "file": "lenticular\\printing.py",
+    "sha256": "6086FA0482E21A3FC560278D59AD09E97F958FA1C05652922DD7653C687D728C"
+  },
+  {
+    "file": "lenticular\\pipeline.py",
+    "sha256": "D300C132693A912BDB3B13AF89AEA392E5F45F2C0C894DD9FCCD80250EDBE2AC"
+  },
+  {
+    "file": "lenticular\\repair.py",
+    "sha256": "A55263ED18EFD21521A27CBA64EA754671D36147D1EE475379926D92DF7E1DDA"
+  },
+  {
+    "file": "lenticular\\web\\app.js",
+    "sha256": "FBC6DC5C51C83919E1617B722AAB6DF615011C3ED3D2493BB0061682C8A4A515"
+  },
+  {
+    "file": "lenticular\\web\\index.html",
+    "sha256": "A94DACB0102182A0537D098CA3EF2E72F054FFEEC5E387571C7F4B129E81EFDD"
+  },
+  {
+    "file": ".studio\\state.json",
+    "sha256": "91BC310BE45003E96902B2031F399BF7E9F680AF238DF0095215D00EE7B87219"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "cross_split_near_duplicate_candidates": [],
+  "near_duplicate_method": "Lexical SequenceMatcher threshold .86; not a semantic leakage proof.",
+  "source_text_hashes_unchanged": 33,
+  "selected_job_report_hashes_checked": 4,
+  "record_structure_checked": true,
+  "source_provenance_checked": true,
+  "split_groups_disjoint": true,
+  "exact_prompts_disjoint": true,
+  "synthetic_code_fixture_passed": true,
+  "retrieval_checks": [
+    {
+      "query": "pixels_per_channel",
+      "expected_source": "local:app/lenticular/optics.py",
+      "found": true
+    },
+    {
+      "query": "trimap alfa",
+      "expected_source": "web:pymatting-alpha",
+      "found": true
+    },
+    {
+      "query": "pitch lens",
+      "expected_source": "web:triaxes-pitch",
+      "found": true
+    }
+  ],
+  "model_inference_run": false,
+  "model_training_run": false,
+  "physical_print_test_run": false,
+  "counts": {
+    "train_candidates": 36,
+    "validation_candidates": 6,
+    "heldout": 15,
+    "retired_from_holdout": 1,
+    "rag_chunks": 225
+  },
+  "status": "PASS",
+  "errors": []
+}

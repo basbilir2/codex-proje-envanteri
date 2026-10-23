@@ -1,0 +1,12 @@
+[
+  "source/current/work/THesap/CatalogStore.cs",
+  "source/current/work/THesap/MainForm.cs",
+  "source/current/work/THesap/Models.cs",
+  "source/current/work/THesap/PriceManagementForm.cs",
+  "source/current/work/THesap/PricingEngine.cs",
+  "source/current/work/THesap/Program.cs",
+  "source/current/work/THesap/SeedData.cs",
+  "source/current/work/THesap/SmokeTests.cs",
+  "source/current/work/THesap/THesap.Setup/Program.cs",
+  "source/current/work/THesap/UiTheme.cs"
+]

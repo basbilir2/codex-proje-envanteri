@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "kind": "multiview_3d",
+  "ns": 1,
+  "engine": "Blender",
+  "config": {
+    "nr": 6,
+    "ne": 6,
+    "near": 1.5,
+    "far": 3.0,
+    "zero": 2.0,
+    "focal_mm": 50.0,
+    "sensor_width_mm": 36.0,
+    "camera_span": 0.13968307796699092,
+    "positions": [
+      -0.06984153898349546,
+      -0.04190492339009728,
+      -0.013968307796699095,
+      0.013968307796699081,
+      0.04190492339009727,
+      0.06984153898349546
+    ],
+    "grid_size": 1024,
+    "edge_threshold": 0.1,
+    "depth_convention": "white-near",
+    "sweep_seconds": 2.0,
+    "camera_axis": "x",
+    "edge_mode": "split"
+  },
+  "legacy_job": {
+    "schema_version": 1,
+    "config": {
+      "nr": 6,
+      "ne": 6,
+      "near": 1.5,
+      "far": 3.0,
+      "zero": 2.0,
+      "focal_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "camera_span": 0.13968307796699092,
+      "positions": [
+        -0.06984153898349546,
+        -0.04190492339009728,
+        -0.013968307796699095,
+        0.013968307796699081,
+        0.04190492339009727,
+        0.06984153898349546
+      ],
+      "grid_size": 1024,
+      "edge_threshold": 0.1,
+      "depth_convention": "white-near",
+      "sweep_seconds": 2.0,
+      "camera_axis": "x",
+      "edge_mode": "split"
+    },
+    "size": [
+      1872,
+      3098
+    ],
+    "surfaces": [
+      {
+        "name": "wall",
+        "mesh": "wall.npz",
+        "texture": "wall.png",
+        "extend": false
+      },
+      {
+        "name": "body",
+        "mesh": "body.npz",
+        "texture": "body.png",
+        "extend": false
+      },
+      {
+        "name": "hand",
+        "mesh": "hand.npz",
+        "texture": "hand.png",
+        "extend": false
+      }
+    ],
+    "mesh": {
+      "wall": {
+        "vertices": 1738400,
+        "triangles": 3471360,
+        "split_triangles": 0,
+        "cut_triangles": 0,
+        "focal_px": 2600.0
+      },
+      "body": {
+        "vertices": 1738400,
+        "triangles": 3471360,
+        "split_triangles": 0,
+        "cut_triangles": 0,
+        "focal_px": 2600.0
+      },
+      "hand": {
+        "vertices": 1738400,
+        "triangles": 3471360,
+        "split_triangles": 0,
+        "cut_triangles": 0,
+        "focal_px": 2600.0
+      },
+      "focal_px": 2600.0
+    },
+    "source_inputs": {
+      "photo": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_100lpi_codex_20261012\\prepared\\photo.png",
+      "depth": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_100lpi_codex_20261012\\prepared\\depth.npy",
+      "photo_sha256": "e8b5b0a514a42e60767c24333a79c483188a6fc258dd682df20a1dae2e5b459c",
+      "depth_sha256": "a7b2a5452cc8487c3e099444c5b2f580ecd119ca02e56d128c096c77a265f03c"
+    },
+    "limitations": [
+      "Single photograph; inferred anatomical geometry and hidden surfaces.",
+      "No physical lens/RIP calibration."
+    ]
+  },
+  "frames": [
+    {
+      "path": "views/view_0000.png",
+      "view_coordinate": -0.03490658503988659,
+      "generated": true
+    },
+    {
+      "path": "views/view_0001.png",
+      "view_coordinate": -0.02094939641938274,
+      "generated": true
+    },
+    {
+      "path": "views/view_0002.png",
+      "view_coordinate": -0.006984040343042238,
+      "generated": true
+    },
+    {
+      "path": "views/view_0003.png",
+      "view_coordinate": 0.006984040343042231,
+      "generated": true
+    },
+    {
+      "path": "views/view_0004.png",
+      "view_coordinate": 0.020949396419382735,
+      "generated": true
+    },
+    {
+      "path": "views/view_0005.png",
+      "view_coordinate": 0.03490658503988659,
+      "generated": true
+    }
+  ]
+}

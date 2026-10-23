@@ -1,0 +1,19 @@
+{
+  "already_absent": [
+    "C:\\Users\\USER\\Documents\\lenticular2\\lenticular2",
+    "C:\\Users\\USER\\Documents\\lenticular2\\g-p-6ac08f7c2fe88191a25ea989c11950e1",
+    "C:\\Users\\USER\\Documents\\lenticular2\\g-p-6ac173361d8c8191a1449be5154f589f"
+  ],
+  "verified": true,
+  "roots": [
+    "C:\\Users\\USER\\Documents\\lenticular"
+  ],
+  "files": 22,
+  "bytes": 157673,
+  "unique_files": 90,
+  "late_preserved": 0,
+  "archive": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\studio-fixes-20261011\\retired-projects-unique.zip",
+  "recycled": [
+    "C:\\Users\\USER\\Documents\\lenticular"
+  ]
+}

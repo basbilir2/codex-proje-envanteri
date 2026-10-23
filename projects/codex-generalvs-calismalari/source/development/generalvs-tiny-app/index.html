@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Günlük Görev Sayacı</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="app" aria-labelledby="title">
+    <header>
+      <p class="eyebrow">Bugünün küçük adımları</p>
+      <h1 id="title">Günlük Görev Sayacı</h1>
+      <p class="intro">Aklındakini ekle, tamamladıkça işaretle.</p>
+    </header>
+    <form id="task-form">
+      <label for="task-input">Yeni görev</label>
+      <div class="input-row">
+        <input id="task-input" name="task" maxlength="120" autocomplete="off" placeholder="Örn. 10 dakika yürüyüş" required>
+        <button type="submit">Ekle</button>
+      </div>
+    </form>
+    <section aria-labelledby="list-title">
+      <div class="summary">
+        <h2 id="list-title">Bugün</h2>
+        <p id="counter" aria-live="polite">0 / 0 tamamlandı</p>
+      </div>
+      <p id="empty" class="empty">Henüz görev yok. İlk küçük adımı ekle.</p>
+      <ul id="task-list" aria-label="Günlük görevler"></ul>
+    </section>
+  </main>
+</body>
+</html>

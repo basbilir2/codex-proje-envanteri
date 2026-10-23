@@ -1,0 +1,14 @@
+[
+  {
+    "asset_name": "single-input-v1-checkpoints-step-48.safetensors",
+    "restore_path": "source/current/training/pilot-20261022/single-input-v1/checkpoints/step-48.safetensors",
+    "bytes": 236116888,
+    "sha256": "f55c07bad7a5ab5fe29e0d7b4cbd8c6c3affc9509ca09a9477b249af6121e670"
+  },
+  {
+    "asset_name": "validation-20261022-checkpoints-step-48.safetensors",
+    "restore_path": "source/current/training/pilot-20261022/validation-20261022/checkpoints/step-48.safetensors",
+    "bytes": 236116888,
+    "sha256": "3727642c84e169791cea093623e82c3fd1ac5415d2b5875761bd5349e4e85f37"
+  }
+]

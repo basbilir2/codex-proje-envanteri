@@ -1,0 +1,27 @@
+{
+  "candidate_lpi": [
+    99.9,
+    99.91,
+    99.92,
+    99.93,
+    99.94,
+    99.95,
+    99.96,
+    99.97,
+    99.98,
+    99.99,
+    100.0,
+    100.01,
+    100.02,
+    100.03,
+    100.04,
+    100.05,
+    100.06,
+    100.07,
+    100.08,
+    100.09,
+    100.1
+  ],
+  "ppi": 1200,
+  "instruction": "Aynı lens, yazıcı/RIP, malzeme ve bakış mesafesiyle %100 ölçekte basın. En uniform bandın LPI değerini etkin LPI alanına girin; gerekirse daha dar adımlı testi tekrarlayın."
+}

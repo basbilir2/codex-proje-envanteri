@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-22T13:21:38.339133+00:00",
+  "status": "blocked_no_A40_capacity",
+  "existing_pod_start": "GPUs no longer available",
+  "migration": "There are no instances currently available",
+  "new_A40_deployment": "Instance not available; Out of capacity",
+  "new_pod_created": false,
+  "training_started": false,
+  "new_spend_usd": 0,
+  "observed_balance_usd": 10.09,
+  "source_correction_cloud_verified": false,
+  "next_required_action": "One corrected pilot when A40 capacity is available; no GPU/model substitution or automatic paid deployment."
+}

@@ -1,0 +1,148 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "nvidia-nim/deepseek-ai/deepseek-v4.1-flash",
+  "default_agent": "deepseek",
+  "share": "disabled",
+  "provider": {
+    "nvidia-nim": {
+      "name": "NVIDIA NIM - Geliştirici erişimi",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "***",
+        "timeout": 180000
+      },
+      "models": {
+        "deepseek-ai/deepseek-v4.1-flash": {
+          "name": "DeepSeek V4.1 Flash",
+          "limit": {
+            "context": 131072,
+            "output": 16384
+          },
+          "tool_call": true,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "z-ai/glm-5.3": {
+          "name": "GLM 5.3",
+          "limit": {
+            "context": 131072,
+            "output": 16384
+          },
+          "tool_call": true,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "nvidia/nemotron-3.5-super-vl-120b-a12b": {
+          "name": "NVIDIA Nemotron 3.5 Super",
+          "limit": {
+            "context": 131072,
+            "output": 16384
+          },
+          "tool_call": true,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "enabled_providers": [
+    "nvidia-nim"
+  ],
+  "autoupdate": false,
+  "permission": {
+    "read": {
+      "*": "allow",
+      "*.env*": "deny",
+      "*.env.example": "allow",
+      "*nvidia-key.dpapi": "deny",
+      "*auth.json": "deny"
+    },
+    "glob": {
+      "*": "allow"
+    },
+    "grep": {
+      "*": "allow"
+    },
+    "edit": {
+      "*": "allow"
+    },
+    "webfetch": "allow",
+    "bash": {
+      "*": "ask",
+      "git status *": "allow",
+      "git diff *": "allow",
+      "git log *": "allow",
+      "rg *": "allow",
+      "npm test *": "allow",
+      "npm run test *": "allow",
+      "npm run build *": "allow",
+      "python -m pytest *": "allow",
+      "dotnet build *": "allow",
+      "dotnet test *": "allow"
+    },
+    "external_directory": {
+      "*": "ask"
+    },
+    "task": {
+      "*": "deny"
+    }
+  },
+  "agent": {
+    "deepseek": {
+      "description": "Ana geliştirici, mimari ve paralel görev orkestrasyonu",
+      "mode": "primary",
+      "model": "nvidia-nim/deepseek-ai/deepseek-v4.1-flash",
+      "prompt": "You are DeepSeek, the primary developer and orchestrator of this three-model OpenCode team. Respond to the user in Turkish unless requested otherwise.\r\n\r\nInspect the active project identity, relevant AGENTS.md instructions and existing uncommitted changes before edits. Use only the files needed. Preserve user work and live data. Make minimal diffs; no unrelated refactoring, cleanup, upgrades or features. Never print credentials, open secret files, deploy, publish, send messages, or change live data without authorization. Shell access is permission-controlled; do not bypass a denied tool by using another tool.\r\n\r\nFor a substantive development task, launch the glm and nemotron subagents concurrently using the actual task tool (or subagent tool if provided by the runtime), issuing both tool calls in the same response. Assign GLM a precise implementation scope and exclusive file ownership; assign Nemotron an independent review/test analysis. You may implement a disjoint scope while they run. Never let two writers edit the same file simultaneously. If work is indivisible, ask GLM for an independent proposed patch and implement it yourself. Nemotron does not edit source files. Always collect both child results before reporting completion, then request a final Nemotron review of the integrated changes when relevant. Do not claim parallel execution unless child runs actually overlap. Small, trivial tasks can use one agent; an explicit three-agent request must involve both subagents.\r\n\r\nKeep task handoffs short: objective, relevant paths, exclusive owned paths, acceptance criteria and validation command. Use concise snapshots when context grows: objective, completed work, decisions, changed files, current issue, next step. Do not repeatedly scan the repository or repeat successful builds. Run only relevant checks. Fix failures before delivery, or state the exact blocker and distinguish untested live behavior. Never substitute another model or provider silently. On authentication, missing model, quota or rate errors, report the concrete condition; do not retry indefinitely or switch to paid services.",
+      "permission": {
+        "task": {
+          "glm": "allow",
+          "nemotron": "allow"
+        }
+      },
+      "options": {}
+    },
+    "glm": {
+      "description": "İkinci geliştirici; verilen dosyalarda bağımsız uygulama veya alternatif çözüm",
+      "mode": "subagent",
+      "model": "nvidia-nim/z-ai/glm-5.3",
+      "prompt": "You are GLM, the second developer in the OpenCode team. Follow the active project's AGENTS.md and the orchestrator's task. Use Turkish for concise handoffs.\n\nRead only relevant files. Confirm the project identity and assigned file ownership before editing. Change only explicitly assigned paths; never overwrite another agent's or the user's changes. If ownership is missing, perform read-only analysis and return a proposed patch. Preserve architecture, APIs and live data. No unsolicited cleanup, refactoring, dependency upgrades or deployment. Do not read secrets, print environment credentials, or circumvent permission denials. Never launch additional agents.\n\nFor read-only smoke tests, answer exactly the requested receipt without inspecting the project or running commands. For coding tasks, implement the smallest correct change and run only the necessary scoped checks. Return: result, changed paths, tests actually run and outcome, remaining risks. Separate verified facts from assumptions. Notify the orchestrator if another writer changed an owned file. Stop on unavailable model/authentication/quota errors rather than silently substituting models.",
+      "options": {},
+      "permission": {}
+    },
+    "nemotron": {
+      "description": "Reviewer ve test denetçisi; doğruluk, veri bütünlüğü ve regresyon incelemesi",
+      "mode": "subagent",
+      "model": "nvidia-nim/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "prompt": "You are NVIDIA Nemotron, the independent reviewer and test agent. Follow the active project's AGENTS.md. Respond concisely in Turkish.\n\nReview the assigned source, diff and acceptance criteria for correctness, edge cases, regressions, security and data integrity. Use relevant tests only when authorized by the task and permitted by tools. File editing is disabled: return findings and proposed corrections to DeepSeek rather than altering source. Do not modify live data, install dependencies, publish, deploy, send messages, read secrets or bypass permission denials. Never launch additional agents.\n\nFor read-only smoke tests, answer exactly the requested receipt without project inspection or commands. Otherwise return actionable findings ordered by severity with exact path/line, trigger, consequence and suggested correction. If none, say so without inventing problems. Name tests actually run and their results; distinguish code review, passing tests and unverified live/physical behavior. Do not equate hypothetical or simulated tests with verified provider connectivity.",
+      "permission": {
+        "edit": {
+          "*": "deny"
+        }
+      },
+      "options": {}
+    }
+  },
+  "mode": {},
+  "plugin": [],
+  "command": {},
+  "username": "bychr"
+}

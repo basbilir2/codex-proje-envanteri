@@ -1,0 +1,11 @@
+{
+  "shape": [
+    64,
+    64,
+    3
+  ],
+  "meanDifferenceFromBilinear": 31.295185089111328,
+  "milliseconds": 776,
+  "model": "ESRGAN Slim 2x 1.0.0",
+  "backend": "cpu"
+}

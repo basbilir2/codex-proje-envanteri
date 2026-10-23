@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "triangles": 180,
+  "vertices": 120,
+  "meshes": 1,
+  "materials": 6,
+  "rigs": 0,
+  "animations": 0,
+  "dimensions_m": [
+    1.68,
+    0.88,
+    2.78
+  ],
+  "uv_ready": true,
+  "warnings": [],
+  "method": "Vision-guided procedural Blender modeling; approximate reconstruction, not neural image-to-mesh.",
+  "glb_roundtrip": true,
+  "imported_meshes": 1
+}

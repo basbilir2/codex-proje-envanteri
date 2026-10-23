@@ -1,0 +1,16 @@
+[
+  {
+    "image": "images/07-clean.png",
+    "edit_image": [
+      "images/07-surface.png"
+    ],
+    "prompt": "Recover only the complete existing artwork from the photographed surface as clean flat print artwork on a light neutral gray display background. Remove fabric, folds, shadows, glare, perspective and photographic damage. Preserve every visible word, numeral, letter shape, thin line, solid colored fill, internal opening and artwork composition. Retain dark artwork interiors even when the supporting surface has a similar color. Center the complete recovered design with a clear margin. Do not omit small text, invent content or add decorations."
+  },
+  {
+    "image": "images/08-clean.png",
+    "edit_image": [
+      "images/08-surface.png"
+    ],
+    "prompt": "Recover only the complete existing artwork from the photographed surface as clean flat print artwork on a light neutral gray display background. Remove fabric, folds, shadows, glare, perspective and photographic damage. Preserve every visible word, numeral, letter shape, thin line, solid colored fill, internal opening and artwork composition. Retain dark artwork interiors even when the supporting surface has a similar color. Center the complete recovered design with a clear margin. Do not omit small text, invent content or add decorations."
+  }
+]

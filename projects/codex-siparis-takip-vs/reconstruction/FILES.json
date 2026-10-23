@@ -1,0 +1,207 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 1880,
+    "sha256": "cde50fcd6c6d25c980fe78d442457427d139df98de045707b654c28a75abd8cb"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 307,
+    "sha256": "5cfb7fc0531873653b07a24c3c7e14df99ff0a4b1fa159d28b6957ed17b1b77e"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1558,
+    "sha256": "36ea0190efec64b0f4c29aedac21494779b76627294b6f48c5388c93b546d2d7"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 2180,
+    "sha256": "d70124d15b7ac5ad38a37941746d65e8aa33701a5b1aee748c109f9c038bc4c3"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1115,
+    "sha256": "80ed9a2175cf919680056669075cbeb7423f79d915a7cc2a9165b367e7c36215"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 203,
+    "sha256": "c55fa104ec0de3d7d7755fe36d96f1f94faa0db23b9de8939e125d5494188509"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 829,
+    "sha256": "3d6a489a46acfe8951bf106bbb02cc33a3a3950bf993b1eaf59cd88f52bb1c3b"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 903,
+    "sha256": "a223934e6a56012167c3aed7fd10fe012514841ba77d69bd8a57277bffbec701"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "1d584be9937dc319c7dd161e17bc1caaddb22d01aef7a8995404eb620a94bc9a"
+  },
+  {
+    "path": "source/recovered/desktop-oauth.cjs",
+    "bytes": 8279,
+    "sha256": "5641656363dcc193086108abf17f5a315a89e583bc8766ee737b361b73bd5024"
+  },
+  {
+    "path": "source/recovered/main.cjs",
+    "bytes": 36602,
+    "sha256": "6130b86142b9abe4289aca3e707a6f4112b894996d3b1d82af6ba4250be29592"
+  },
+  {
+    "path": "source/recovered/package-lock.json",
+    "bytes": 143719,
+    "sha256": "9ae6f8945d338d2114757fae93ea2ea04141a09460b989426a3342387945905a"
+  },
+  {
+    "path": "source/recovered/package.json",
+    "bytes": 1104,
+    "sha256": "27074a90267ab0c0351474a72048a011112356ae950964e54931ee71e4525865"
+  },
+  {
+    "path": "source/recovered/preload.cjs",
+    "bytes": 942,
+    "sha256": "e13ab4571cf8f68a25e8318bd3bbb5804e244029f33f9029c854542ad0aa5141"
+  },
+  {
+    "path": "source/recovered/SIPARIS_TAKIP_VS_CONTEXT.json",
+    "bytes": 3053,
+    "sha256": "eedc1d47fbec48a829066184412a391eeef26d0baa7150fac68661be0812b301"
+  },
+  {
+    "path": "source/recovered/SIPARIS_TAKIP_VS_CONTEXT.md",
+    "bytes": 3952,
+    "sha256": "f2c23d8caa7ea1edc65b3da99a86edffaec2284acd786370d980aaeeba25ac1d"
+  },
+  {
+    "path": "source/recovered/whatsapp-extractor.cjs",
+    "bytes": 2525,
+    "sha256": "2f8b9296d184e2b2f9debbcdda301ad462e24aa43de9dd02b2d986237ee53f40"
+  },
+  {
+    "path": "source/recovered/whatsapp-preload.cjs",
+    "bytes": 24940,
+    "sha256": "8c9cf842b35311dedfe01229eb036556c1f972a1c71d155d8120ddcd51917981"
+  },
+  {
+    "path": "source/recovered/hosted/favicon.svg",
+    "bytes": 527,
+    "sha256": "4d7373c94da7a4f59b80b1e451a8bdb24876b786758dc1e94bba8111b6d1e31e"
+  },
+  {
+    "path": "source/recovered/hosted/index.html",
+    "bytes": 632,
+    "sha256": "ae5619e10963daa6117d01d1eca2cdb14bbb251cff9352bcfffa3902a489f37b"
+  },
+  {
+    "path": "source/recovered/release-vs/builder-debug.yml",
+    "bytes": 7723,
+    "sha256": "e213e1d1974394b7b4d678d2ff25953583514c62eebbd62bdcb5d7aa0aacd41a"
+  },
+  {
+    "path": "source/recovered/scripts/capture_ui.mjs",
+    "bytes": 1181,
+    "sha256": "afba1c1115f268393999da221d1f059348350c3252b37d0cad8dfcb4662c2837"
+  },
+  {
+    "path": "source/recovered/scripts/diagnose-whatsapp-login-cdp.mjs",
+    "bytes": 4065,
+    "sha256": "d83d15bdc65370de275fa614e070c7e3a7accc383badb1c4719c1ecdf1f6a4c7"
+  },
+  {
+    "path": "source/recovered/scripts/fix-kadir-import.mjs",
+    "bytes": 2369,
+    "sha256": "231c77b09e974369bf0c682fbcd266b06467d666fb94953a9167ee15a74af18e"
+  },
+  {
+    "path": "source/recovered/scripts/inspect-current-chat-cdp.mjs",
+    "bytes": 2070,
+    "sha256": "2d5f829cdd3f20c5fa9af67c582b33a540d8873b4f01ce28f124b2e3bf456224"
+  },
+  {
+    "path": "source/recovered/scripts/inspect-sidebar-cdp.mjs",
+    "bytes": 1317,
+    "sha256": "67a2c6f9266253a3bd8998b709522da025fc1eba232f8bf8e1cfef93ebc349cc"
+  },
+  {
+    "path": "source/recovered/scripts/inspect-whatsapp-cdp.mjs",
+    "bytes": 5259,
+    "sha256": "9d1c83aad3d627720fd82fb5ad6a1421eecc58cddfa739bdf35013ecbc099da3"
+  },
+  {
+    "path": "source/recovered/scripts/inspect-whatsapp-files-cdp.mjs",
+    "bytes": 6092,
+    "sha256": "5d08bf379c9c6b6063b1f91668310cca003c9c20d7f725d28af776e66a169845"
+  },
+  {
+    "path": "source/recovered/scripts/open-polat-cdp.mjs",
+    "bytes": 3386,
+    "sha256": "018bdbbe7887e03f51949d43a63845a6a8296a4e78805991991bd64d96559697"
+  },
+  {
+    "path": "source/recovered/scripts/open_customers.mjs",
+    "bytes": 1298,
+    "sha256": "031d9f50249bd448d0be127f9239082aa02f3f79b13eb73e4d81f7af5bcc7c51"
+  },
+  {
+    "path": "source/recovered/scripts/verify_ui.mjs",
+    "bytes": 1512,
+    "sha256": "5328f830f82c6f5bd20a7f90a2875223f150780476cc1116263e36c7d5f4392a"
+  },
+  {
+    "path": "source/recovered/scripts/whatsapp-qr-probe.cjs",
+    "bytes": 2949,
+    "sha256": "836390c764753faee762be8b610121768ba8644eb0b15943cbfd01411b96fd0c"
+  },
+  {
+    "path": "source/recovered/hosted/assets/index-4BsfGh43.css",
+    "bytes": 75900,
+    "sha256": "e9ca73a0b0753db9efe7f46f701cafc89c0b2751d3edf8316a8a6fa5cfe3d357"
+  },
+  {
+    "path": "source/recovered/hosted/assets/index-DSKCXCck.js",
+    "bytes": 3256432,
+    "sha256": "7c111c5b88362477844bbb32fa1e44d92c01ead37e62caba26017410174e2275"
+  },
+  {
+    "path": "source/recovered/hosted/assets/index-readable.js",
+    "bytes": 5437867,
+    "sha256": "7e94dafb27351434b8943eb672aae3da21e63662a9d63fde5d4b6941c7f53e5b"
+  }
+]

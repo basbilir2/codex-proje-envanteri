@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "stage": "lenticular_print_preparation",
+  "settings": {
+    "width_mm": 25.4,
+    "height_mm": 25.4,
+    "bleed_mm": 0.0,
+    "ppi": 30,
+    "printer_dpi": 1200.0,
+    "nominal_lpi": 10,
+    "effective_lpi": 10,
+    "ne": 3,
+    "axis": "vertical",
+    "phase": 0.0,
+    "tilt_deg": 0.0,
+    "reverse_views": false,
+    "mirror": false,
+    "fit": "cover",
+    "stripe_sampling": "center",
+    "crosstalk": 0.0,
+    "compensation": 0.0,
+    "regularization": 0.02,
+    "crosstalk_matrix": null,
+    "icc_path": null,
+    "color_mode": "RGB",
+    "white_underbase": true,
+    "pitch_verified": false,
+    "viewing_distance_mm": 500.0,
+    "lens_view_angle_deg": 30.0,
+    "allow_unfilled": false
+  },
+  "nr": 3,
+  "ne": 3,
+  "source_indices": [
+    0,
+    1,
+    2
+  ],
+  "raster_size": [
+    30,
+    30
+  ],
+  "physical_size_mm": [
+    25.4,
+    25.4
+  ],
+  "sampling": "nearest rendered angular view; periodic channel raster pattern",
+  "pixels_per_lens": 3.0,
+  "mixing_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "compensation_clipped_fraction": 0.0,
+  "nonopaque_source_fraction": 0.0,
+  "status": "calibration_draft",
+  "warnings": [
+    "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır."
+  ],
+  "source_job_sha256": "355d5467b1addae611ca7af8d2b815f2dc7ef267e0b25a549c7f78028117c929",
+  "interlaced_sha256": "96832d640b4651e9fbf4709a880a59f3bbd51af99ffa1392adffa81f90f4facd",
+  "color_profile_sha256": "4b75e45e2627aad7163e90a9c167e6fdb26592085f4f674626266fef0bffe4e7",
+  "white_ink_instructions": "Import white-underbase.tif as White in your RIP; it is a separate grayscale mask, not an embedded spot ink.",
+  "printing_instructions": [
+    "Print at 100% physical size without fit-to-page or subsequent resampling.",
+    "Use the same RIP, material, lens batch, viewing distance and color settings as the pitch test.",
+    "Assign the separate white mask and registration marks in the UV RIP when required.",
+    "Animated proof is a simulation and does not verify physical ghosting."
+  ]
+}

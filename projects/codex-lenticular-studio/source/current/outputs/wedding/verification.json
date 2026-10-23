@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "source_hash_unchanged": true,
+  "model_sha256": "7a799a7f95eb8d4c404c2ca8be3dc3276b350a417ddc4420db72ba850cc0e960",
+  "dimensions": [
+    540,
+    540
+  ],
+  "nr": 12,
+  "ne": null,
+  "animation_frames": 22,
+  "max_camera_projection_error_px": 2.9097903848196438e-05,
+  "center_opaque_rgb_mean_error": 0.16761967814810297,
+  "center_nonopaque_fraction": 0.01582647462277092,
+  "max_view_nonopaque_fraction": 0.019681069958847736,
+  "depth_inference_seconds": 4.708837299998777,
+  "note": "Numeric controls pass; monocular depth and disocclusions need visual review before later stages."
+}

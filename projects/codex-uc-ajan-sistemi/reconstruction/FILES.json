@@ -1,0 +1,602 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 1023,
+    "sha256": "71637f2daf95cac935d743669f1cbb29541925b740e53f80508b808e59599995"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 3113,
+    "sha256": "6254877c9e96a7b71bf9e24b90eb2e2a9d6afb6e5c35a0e63879038a68fab512"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 2614,
+    "sha256": "74e6f1d44a2d94d5bac8cec50cb36392a8f6f2be82e69ba61560507827a1b7b8"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 8049,
+    "sha256": "c788604c8d442bc22ead170e5308598953c754554571bfd2eb2668016b6266f7"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1106,
+    "sha256": "b7c4aecbdf4fbe65bb6ab187380d4d03a8d7f9d553136d977883159476828371"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 1535,
+    "sha256": "94a6bba603b40c2d17cf70c0837519a06e85745c84d80bf1fdc0b48557d829ff"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 407,
+    "sha256": "235c7e41ea0887cb5f03d5b87c7ce7855fe327716bc8260926d8215c28a875f5"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 3953,
+    "sha256": "a83581aee83cb5f243f6e3a351de0873338eae2a973717ca1342766e1e9db541"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "4f8b02520ea72d754bdeea04e55c60fea4884091bdc44c85f0f499ed44a527ba"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/check-terminal-options.py",
+    "bytes": 2988,
+    "sha256": "0db3686ec225f0ccb2a6684ee5cb9577816b061e755d7c480fca99c93701be49"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/diagnose-nim.py",
+    "bytes": 2544,
+    "sha256": "716c383454bfe1012fb6b07c8feef71deaf70a2ca54c12aedbeb807859d608ee"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/finalize-terminal.py",
+    "bytes": 2335,
+    "sha256": "ccc58987cab91643927d567c59df777db0501e203e8e80fb57335f31c4c45278"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/resolved-config.json",
+    "bytes": 7841,
+    "sha256": "8ef860850c74110594272be528b63597bd08254d5f7867280e3d5ab107ac035c"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/review-nim-standard.py",
+    "bytes": 3361,
+    "sha256": "4513d0c6124840be3f9b38fa2cab72ebf67d2cf7dcfff55c57f8297fb3b7814a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/verify-independent.py",
+    "bytes": 6049,
+    "sha256": "ac9633eb44dbd4e4a397ffd61e7c4739c69513552f0bb043a837731da74552d8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/calculator-check/opencode.json",
+    "bytes": 2854,
+    "sha256": "016a69ee2cb763e250602c123e1ff572918eff67321bec4e64ba07cd9b4aa390"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/calculator-check/run-agents.py",
+    "bytes": 4136,
+    "sha256": "54da051329d163e7efa497d8be02c0bdf6d0a501508ce922f7928524dd7c7a77"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/independent-live/opencode.json",
+    "bytes": 2983,
+    "sha256": "1dcf2b549549c0ac9e95cb28b459ae97d26f97ad2f4e9ea6db408bff70cda7d8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/reference/opencode-schema.json",
+    "bytes": 64963,
+    "sha256": "786b5ffc800629bc22145325beaa1dc4c7e6bdbbd5c5e6afd8cd2d59d9fc863c"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/runtime/package-lock.json",
+    "bytes": 6315,
+    "sha256": "32ff631d9f2bd6febd461d0b7aeb008f94550554b56e82b52f45ab77f91399cb"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/runtime/package.json",
+    "bytes": 57,
+    "sha256": "fb29319bf5f3d4cd506d1bc37c47f5fa5253903cd1bdc06fc4bf2ba9fed33f09"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/smoke/task-schema.json",
+    "bytes": 3444,
+    "sha256": "42c6f2c8880d613e5c71896d03661da3c9d5c5a7d1b1da6c2ff84a80404a5011"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/terminal-check/opencode.json",
+    "bytes": 2855,
+    "sha256": "b5e9aae1893e9a8c3ae7c1bad051bab6971a3f5e83abbf364a9874599be94fae"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/workbench-check-8wa5ug7w/project/index.html",
+    "bytes": 177,
+    "sha256": "7a8417a17942bd8710969bd949142664216a2f7714332d60658857afd354550e"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/smoke/config/opencode/package-lock.json",
+    "bytes": 14627,
+    "sha256": "21d0338033d9a0a87e74e1cd08a57dc8b42f5eb1d37f9347b3d6b4052f687cfd"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/smoke/config/opencode/package.json",
+    "bytes": 64,
+    "sha256": "c87a5df27ef88affca44d9cd16ae7c4edd5950505b94c9dd5503d63acc55e83d"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/work/smoke/cache/opencode/models.json",
+    "bytes": 5758492,
+    "sha256": "97b8d0edceaed3bf4faab93762ad67894b1fb988912ec4a1615b9e480ed892c9"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Hesap-Makinesi/ajan-test-sonucu.json",
+    "bytes": 205,
+    "sha256": "8d4618db4e2ec5f6dfef1450db57e28df56c84cc7be677d107377603838e572a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Hesap-Makinesi/calculator.js",
+    "bytes": 2553,
+    "sha256": "c0c947d8cfa63734ddf464e9121225e2217c57c0bb385f8cc19aac74347a1632"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Hesap-Makinesi/Hesap-Makinesini-Ac.cmd",
+    "bytes": 37,
+    "sha256": "c369a077a253e26e89b85071fb50bb426ab159e49027572d5f1f18497386f266"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Hesap-Makinesi/index.html",
+    "bytes": 4226,
+    "sha256": "313e564eda0356e2db278b1c4a427683fbb9d532c14406b768055d31994b1c8a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/Baglanti-Testi.cmd",
+    "bytes": 104,
+    "sha256": "194fc96d3480d45cfaa223183e8162180d29d000e33d97a9838bacb4db76f0b8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/Import-NvidiaEnvironment.ps1",
+    "bytes": 1131,
+    "sha256": "07e22f7f1af718b93bbd08770d51290ff7f29fc3a19139cddd369d718f5fa998"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/KULLANIM.md",
+    "bytes": 5219,
+    "sha256": "42a4032d51b8991a81430fb576b9694f5d4a1305718e7b28409df1153075b15a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/KURULUM-DURUMU.md",
+    "bytes": 2809,
+    "sha256": "ee2517b7e24d457d0035d931737b9f5a77dddc5968dcd4ec84fe14e2c508b446"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/NVIDIA-Anahtarini-Kaydet.cmd",
+    "bytes": 96,
+    "sha256": "519797d9c3c949b1d53c0b6242ad88a925da17feee2d3eb19898ce30b845e3e2"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/OpenCode-Ac.cmd",
+    "bytes": 245,
+    "sha256": "10c4ea6b2d2184c0d39d60ad748574614057218908b56406b48209becd6fd19a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/opencode.json",
+    "bytes": 3872,
+    "sha256": "e1364f5167022a014a45aaf8f02a0179abe9a62762206f40dfaae61f231423a0"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/Set-NvidiaKey.ps1",
+    "bytes": 1880,
+    "sha256": "875425a6efdf9c40e67a131d0eccc69932f91bac3827e1b8ad0a7351935b8b67"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/Start-OpenCode.ps1",
+    "bytes": 1331,
+    "sha256": "6ee1348f48b0b7a604755fb306f8b4c13043c22f6c18a242e607c82cfca1a133"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/verify.py",
+    "bytes": 14961,
+    "sha256": "dd23bcb62eeebc8b83fdd0d28c2b878251be83b9956fcdac4cd34c3c6f089ad8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/arayuz-kontrol.json",
+    "bytes": 382,
+    "sha256": "6959703d1560fa89175eac458e1d23b1218e1e3e4f1a487ef1c6773e913b1808"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/canli-durum.json",
+    "bytes": 1135,
+    "sha256": "55dbc84cd01b1fa1d2f68b532e01aaf3c38a289d6c3c9f3a1c903cfb9ad1174c"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Duzeltme-dongusu-kontrol.json",
+    "bytes": 287,
+    "sha256": "622dd73b7cc30f45250eff5d4f6a644381d951f1f7816aa384001b53d3acb788"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Gelistirme-kontrol.json",
+    "bytes": 379,
+    "sha256": "7df359adc020edbe3ace784a972ccc1426d39c026abb971beda1322f36fcba61"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Gercek-ajan-gelistirme-kontrol.json",
+    "bytes": 2568,
+    "sha256": "0a7984982aea40cf943efab9c72ef6eae312bed43d8dc69589c65edee1855698"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Masaustu-GUI-kontrol.json",
+    "bytes": 178,
+    "sha256": "c260a26130140c6d1f4773c845607980546881acbe501e45b1e2a2fa631a74d7"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/OKU.md",
+    "bytes": 7935,
+    "sha256": "82dc2dbc6bdc88304d14b9542703760b73dd0511508ede87f2d3dfbc7c7fe9c7"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/OpenCode-canli-sonuc.json",
+    "bytes": 478,
+    "sha256": "dc8b7cd0a39e7f4080c41e765acc61274e7bc3519a76789b78073dfdc7ae066c"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Studyo-canli-sonuc.json",
+    "bytes": 1420,
+    "sha256": "8b98b41410bbf1377102aeab756dc56b9ebea3fd9980ce930780c85140c93fe2"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Uc-AI-Studyo.cmd",
+    "bytes": 127,
+    "sha256": "f6929df502fbcc34b49e04fe9bf7680d9e5a0649cb890e2c36db0f69d86e0a5f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Uc-Ajani-Ac.cmd",
+    "bytes": 301,
+    "sha256": "390fa24da62890dd977bafce22cfd82b88378678f4da9078159611b9db063ca0"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Windows-paket-kontrol.json",
+    "bytes": 406,
+    "sha256": "70e304663ff97e64a50a3d3574742f969ddccec4f33781a73a2027c081a402d1"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/nim_adapter.py",
+    "bytes": 5983,
+    "sha256": "09db190543eac40d84d0e924c1fd0bca850af7909946c6347a9161ac6a6ced28"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/OpenCode-LICENSE.txt",
+    "bytes": 1065,
+    "sha256": "625f0f619133f89bbbb2abe37369613dfa1885eba1e50d02170deb62bb42cb6b"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/opencode.json",
+    "bytes": 5049,
+    "sha256": "b192e41084d8bb9800be8698c9459e7606c3f30f106f638ae8647ca190276cfc"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/projects.json",
+    "bytes": 130,
+    "sha256": "574e8214563659294ddc3cc775224a927b52cd4c19a0a9831220068ecd9ac246"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/Start-Studio.ps1",
+    "bytes": 1158,
+    "sha256": "e34bd3f8e6ac09bf342e660a63c848e7bee8092855421fe3500309831f4f790e"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/Start.ps1",
+    "bytes": 1470,
+    "sha256": "5285ef792320b9970d952312315c1eed28e8c760cc5d22cda1ed57ac3aa0f83f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-startup-error.txt",
+    "bytes": 222,
+    "sha256": "c90a2d8f7254fed2e628e814dc73a5b18071d2dbeaf06a7b75f68eefa2f94fe8"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio.py",
+    "bytes": 61629,
+    "sha256": "b3c546a1e6e1bb15befe54055523fcb55178b5d0062272302f574b1f56aaf099"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/terminal.py",
+    "bytes": 6015,
+    "sha256": "65ba693338d5b85d2cff700ee8bb865f0e7f99325766b5505f94c6541e8e2b47"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/workbench.py",
+    "bytes": 36453,
+    "sha256": "9de2f7b70c47bde91d004bb7772f031247a7e9afc49e1f2712aeab222dcde9b3"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/workbench_mcp.py",
+    "bytes": 7639,
+    "sha256": "87b11c4655e26b36fd84230c3f11cf0ceef61a4c1cd7206429002594ecd9eb8b"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Projeler/Gorselden 3D Robot-f94334/build_robot.py",
+    "bytes": 3717,
+    "sha256": "5e316286956ff44731d905ad72d2326c949b6ae2207ea9d43aa0cc56ddad1c7c"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Projeler/Mini Uzay Oyunu-271e4b/index.html",
+    "bytes": 7633,
+    "sha256": "356c2ba343734a537b7817e41913b9779fbd839657c08e497099b95721723323"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Projeler/Mini Uzay Oyunu-271e4b/studio-checks.json",
+    "bytes": 1605,
+    "sha256": "ef160a53b6fdea487489c33ecfae6bfb2353e7eb518dd68e7f04e3f3fc90250f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Projeler/Proje-Hesap Makinesi/calculator.js",
+    "bytes": 2553,
+    "sha256": "c0c947d8cfa63734ddf464e9121225e2217c57c0bb385f8cc19aac74347a1632"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Projeler/Proje-Hesap Makinesi/index.html",
+    "bytes": 4226,
+    "sha256": "313e564eda0356e2db278b1c4a427683fbb9d532c14406b768055d31994b1c8a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Projeler/Gorselden 3D Robot-f94334/assets3d/robot-22cf2d/model-report.json",
+    "bytes": 395,
+    "sha256": "7348929d72f2e7c80562f879cd748f6a2d51e612438ace6bf01b314aafa322d9"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/automation/blender_asset.py",
+    "bytes": 5552,
+    "sha256": "9536074143403d91d3b7508422e65b366173bc0996f5a34edfdcf5758066c537"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/automation/browser.cjs",
+    "bytes": 4588,
+    "sha256": "3766a09f61513c7e02b88842a0cae0bb857a6919a6664159de12d40541e2db91"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/automation/desktop.ps1",
+    "bytes": 5851,
+    "sha256": "7fd50d066ffe843d36ad71bb1a8d0c2dbcaffee04a4e907a54b1c21e2694809f"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/automation/package-lock.json",
+    "bytes": 600,
+    "sha256": "bdd328c58d534d41dea502c0ce1382addfd1996ddd05be05366eeddeb51345b2"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/automation/package.json",
+    "bytes": 60,
+    "sha256": "e62905207b92a4620b2c67f68ed042e1b0864d5df79aa79c79e05cfb2edc9f2c"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/automation/requirements.txt",
+    "bytes": 21,
+    "sha256": "e4844211dcb381b52e184ae64c83008bf4e283eb580898333a22d41902e43ecd"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/prompts/deepseek.md",
+    "bytes": 2573,
+    "sha256": "37845ba3078ca9aa06e93528dafb0c5d3d9c9857147141ad73a6d9c8043ec9a7"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/prompts/glm.md",
+    "bytes": 1168,
+    "sha256": "fdb7d197cb94d2f0d62549966066ef28668cf1f76ad924ffca0d331758d9e754"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/prompts/nemotron.md",
+    "bytes": 1086,
+    "sha256": "ea133908e464f2fada1365d70d04e10db77d9348a36b82024941fa959c1e440a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/model-health.json",
+    "bytes": 391,
+    "sha256": "4737c1150ab44969194f662766c82f47f43e0d575d83028e710ccf9dd8f1c9cc"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/runtime-config.json",
+    "bytes": 17284,
+    "sha256": "9ed05b44049138eef5e4ad6b64625ec837f21f3cd556040096f9bc111b1faef4"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/ui/app.js",
+    "bytes": 25558,
+    "sha256": "da71cd2950662feab589d531d9b7bf5cf406317d183f21da61e3e6a1ae2583e5"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/ui/index.html",
+    "bytes": 9119,
+    "sha256": "eb88e993f26d93af830aaa7fcb060f5fe3be60dbf88c93ef666a16804aab7afb"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/ui/style.css",
+    "bytes": 18366,
+    "sha256": "b91ae4430fc2101f47c02ad859d455c07ae9380aa2ffc2b6b2f324c1f96a0d74"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/user/state/opencode/model.json",
+    "bytes": 111,
+    "sha256": "142ada916bc6d9e8ae75e42314714091eb7d13829ab1def7a3072da80ab9328b"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/user/config/opencode/package-lock.json",
+    "bytes": 14627,
+    "sha256": "21d0338033d9a0a87e74e1cd08a57dc8b42f5eb1d37f9347b3d6b4052f687cfd"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/user/config/opencode/package.json",
+    "bytes": 64,
+    "sha256": "c87a5df27ef88affca44d9cd16ae7c4edd5950505b94c9dd5503d63acc55e83d"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/user/cache/opencode/models.json",
+    "bytes": 5802966,
+    "sha256": "e5c84716dc4f3dc3f71541a5ee3ec09f1993319840ca84031bae3eb8d3dbb300"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/f9433438f7e3494cae68faece6fbc75f/artifacts/22cf2d028ea24b919f88ba601ca84a9f/model/model-report.json",
+    "bytes": 395,
+    "sha256": "7348929d72f2e7c80562f879cd748f6a2d51e612438ace6bf01b314aafa322d9"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/engine/config/opencode/package-lock.json",
+    "bytes": 14627,
+    "sha256": "21d0338033d9a0a87e74e1cd08a57dc8b42f5eb1d37f9347b3d6b4052f687cfd"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/engine/config/opencode/package.json",
+    "bytes": 64,
+    "sha256": "c87a5df27ef88affca44d9cd16ae7c4edd5950505b94c9dd5503d63acc55e83d"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/engine/cache/opencode/models.json",
+    "bytes": 5916519,
+    "sha256": "1854f1b033e55703546b6dd32b1f6e6126ec05f6b4b7abd26a4c9fda515ae306"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/prompts/deepseek.md",
+    "bytes": 2129,
+    "sha256": "76576585be3b0dd9a9896a13b64ac79f716c5d4e7132d743b9ef7473f068a210"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/prompts/glm.md",
+    "bytes": 1168,
+    "sha256": "fdb7d197cb94d2f0d62549966066ef28668cf1f76ad924ffca0d331758d9e754"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/prompts/nemotron.md",
+    "bytes": 1086,
+    "sha256": "ea133908e464f2fada1365d70d04e10db77d9348a36b82024941fa959c1e440a"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/reports/auth-status.json",
+    "bytes": 578,
+    "sha256": "f9d74a96488fd97f6f45f80d1e65929b3a666f8d0e8fcdc00424f7708254da14"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/reports/live-verification.json",
+    "bytes": 1139,
+    "sha256": "4b030f34e05caed7784f4ff0887d781bec7deb32b8299f3348cc8db9ec3eb8dd"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/reports/local-verification.json",
+    "bytes": 612,
+    "sha256": "f8bfc02dd4c50ae70730a7396fc3e4af20b172350b8c6052138c0e7d58197de6"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/OpenCode-3-Ajan/reports/model-catalog.json",
+    "bytes": 298,
+    "sha256": "84461bd2c36f1df3e65348db85051b84dce02afed959f5af5e975610c9087c4b"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/f9433438f7e3494cae68faece6fbc75f/versions/383b2ebe435b4e2aafc9b94184ffb2af.zip-source/build_robot.py",
+    "bytes": 3345,
+    "sha256": "da13c50b5482b70a3d0b3c5221b26defedb7b549c8c2fbfc2514456f6ddb0a67"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/f9433438f7e3494cae68faece6fbc75f/versions/4a18a8300626442d8640e98152dc326b.zip-source/build_robot.py",
+    "bytes": 3717,
+    "sha256": "5e316286956ff44731d905ad72d2326c949b6ae2207ea9d43aa0cc56ddad1c7c"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/f9433438f7e3494cae68faece6fbc75f/versions/eabce1ba9e3640e99183fa35bfa5a1e3.zip-source/build_robot.py",
+    "bytes": 3717,
+    "sha256": "5e316286956ff44731d905ad72d2326c949b6ae2207ea9d43aa0cc56ddad1c7c"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/f9433438f7e3494cae68faece6fbc75f/artifacts/20261018-212328-94b452.zip-source/build_robot.py",
+    "bytes": 3717,
+    "sha256": "5e316286956ff44731d905ad72d2326c949b6ae2207ea9d43aa0cc56ddad1c7c"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/f9433438f7e3494cae68faece6fbc75f/artifacts/20261018-212328-94b452.zip-source/STUDYO-PAKET-BILGISI.txt",
+    "bytes": 92,
+    "sha256": "7e8ebd1bceba74dcfa8aa17ce28594eb1d5136335a624da4615bfcc3f1ad4e1e"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/f9433438f7e3494cae68faece6fbc75f/artifacts/22cf2d028ea24b919f88ba601ca84a9f/robot.zip-source/MODEL-BILGISI.txt",
+    "bytes": 264,
+    "sha256": "cb96b510b78b207d959c625f08731be33621ce84fbc00422af9d7f15706a1657"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/f9433438f7e3494cae68faece6fbc75f/artifacts/22cf2d028ea24b919f88ba601ca84a9f/robot.zip-source/source/build_robot.py",
+    "bytes": 3717,
+    "sha256": "5e316286956ff44731d905ad72d2326c949b6ae2207ea9d43aa0cc56ddad1c7c"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/3118cd4340894533a76908746e9397b1/versions/a30fc7f75ed440fba383a87ee313db86.zip-source/AGENTS.md",
+    "bytes": 1585,
+    "sha256": "368c57730861aee18b26222cfaa3555047727c30c26e5e6007358f16c8346e10"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/271e4b9d2d9c4a3d88c7276d07aecc34/versions/1b4fee44005a4228b192c387484445a7.zip-source/index.html",
+    "bytes": 7633,
+    "sha256": "356c2ba343734a537b7817e41913b9779fbd839657c08e497099b95721723323"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/271e4b9d2d9c4a3d88c7276d07aecc34/versions/4594881fceb24a188144f0ca3084970e.zip-source/index.html",
+    "bytes": 7033,
+    "sha256": "f29d19331f644276b61dc01cfcec265ee6db134e899ca5aca9d193dd3624b07e"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/271e4b9d2d9c4a3d88c7276d07aecc34/versions/5dcb5276e0be4a4eaf7d0b465dd97ce9.zip-source/index.html",
+    "bytes": 7633,
+    "sha256": "356c2ba343734a537b7817e41913b9779fbd839657c08e497099b95721723323"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/271e4b9d2d9c4a3d88c7276d07aecc34/artifacts/20261018-210535-9a2fb4.zip-source/index.html",
+    "bytes": 7633,
+    "sha256": "356c2ba343734a537b7817e41913b9779fbd839657c08e497099b95721723323"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/271e4b9d2d9c4a3d88c7276d07aecc34/artifacts/20261018-210535-9a2fb4.zip-source/STUDYO-PAKET-BILGISI.txt",
+    "bytes": 51,
+    "sha256": "f307ea37d52938d31f6ba22c836384339880a903dfa2cb5291924946818318ab"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/271e4b9d2d9c4a3d88c7276d07aecc34/artifacts/20261018-210742-048e03.zip-source/index.html",
+    "bytes": 7633,
+    "sha256": "356c2ba343734a537b7817e41913b9779fbd839657c08e497099b95721723323"
+  },
+  {
+    "path": "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/workbench/271e4b9d2d9c4a3d88c7276d07aecc34/artifacts/20261018-210742-048e03.zip-source/STUDYO-PAKET-BILGISI.txt",
+    "bytes": 51,
+    "sha256": "7852a275ddac7cdd26398a643ada9c3b161608d8e1cebd0fc89852df1f43cbbb"
+  }
+]

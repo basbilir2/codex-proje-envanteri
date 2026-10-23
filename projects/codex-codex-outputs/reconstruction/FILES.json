@@ -1,0 +1,87 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 230,
+    "sha256": "108b6828c24bda0b76cfd5787d05daa5a2d5e6a67cdf2a31fa8b784077aa64dd"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 849,
+    "sha256": "45cdce91d44565fbb1b75a921968f891a7d605eb83983f79e8619637f51ddc4d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1090,
+    "sha256": "7db58807ee181c271308a4e828ab86d7e1acea6769d19d4dd5962487ebc22bee"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 136,
+    "sha256": "54be27e29ae1bab0ff613e3a74c005d586aab1831bfb2b628cfb49643fb2615d"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "cf2b6e2e7a1a93b3a5847a05e89dce1c4354d791787978e36c45c40f79f4fce6"
+  },
+  {
+    "path": "source/workspace/btakip_excel_20260906/build_btakip_import.mjs",
+    "bytes": 10049,
+    "sha256": "45240cd69fd71b885f79967e65399856e6f9efc354f1b49c7208ea466aa8b8b3"
+  },
+  {
+    "path": "source/workspace/btakip_excel_20260906/inspect_source.mjs",
+    "bytes": 435,
+    "sha256": "e3c40b5a72f619e52f30156801dcb3b7026fe0dcf3a110ef5cad205337e2be36"
+  }
+]

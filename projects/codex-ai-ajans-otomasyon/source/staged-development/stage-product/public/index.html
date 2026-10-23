@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TrendyBrander Ajans Merkezi</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">TB</div>
+        <div>
+          <strong>TrendyBrander</strong>
+          <span>Ajans Merkezi</span>
+        </div>
+      </div>
+      <nav id="nav">
+        <button class="nav-item active" data-view="overview"><span>⌂</span> Genel Bakış</button>
+        <button class="nav-item" data-view="conversations"><span>◌</span> Ajan Konuşmaları</button>
+        <button class="nav-item" data-view="outputs"><span>▤</span> Çıktılar</button>
+        <button class="nav-item" data-view="visuals"><span>▧</span> Görseller</button>
+        <button class="nav-item" data-view="tokens"><span>◒</span> Token & Maliyet</button>
+        <button class="nav-item" data-view="approvals"><span>✓</span> Onay ve Yayın Planı</button>
+        <button class="nav-item" data-view="system"><span>⚙</span> Sistem</button>
+      </nav>
+      <div class="sidebar-foot">
+        <span class="status-dot" id="sideStatusDot"></span>
+        <div><strong id="sideStatus">Kontrol ediliyor</strong><small>Yayın kapalı</small></div>
+      </div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">YAŞAYAN AJANS BEYNİ</p>
+          <h1 id="pageTitle">Genel Bakış</h1>
+        </div>
+        <div class="top-actions">
+          <span class="pill safe">Yayın yapmaz</span>
+          <button id="refreshButton" class="ghost">Yenile</button>
+        </div>
+      </header>
+
+      <div id="loading" class="loading">Ajans kayıtları hazırlanıyor…</div>
+      <div id="errorBox" class="error hidden"></div>
+
+      <section id="view-overview" class="view active">
+        <div class="hero-card">
+          <div>
+            <p class="eyebrow">ŞU ANKİ AŞAMA</p>
+            <h2 id="currentTaskTitle">Yükleniyor…</h2>
+            <p id="currentTaskText" class="muted"></p>
+          </div>
+          <div class="hero-orbit">
+            <span class="orbit-core">AI</span>
+            <span class="orbit-node n1">A</span>
+            <span class="orbit-node n2">İ</span>
+            <span class="orbit-node n3">G</span>
+          </div>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric"><span>Toplam model çağrısı</span><strong id="metricCalls">—</strong><small>kayıtlı</small></article>
+          <article class="metric"><span>Toplam token</span><strong id="metricTokens">—</strong><small>giriş + çıkış</small></article>
+          <article class="metric"><span>Üretilen fikir</span><strong id="metricIdeas">—</strong><small>taslak</small></article>
+          <article class="metric"><span>Gerçek görsel</span><strong id="metricImages">—</strong><small>üretilmiş</small></article>
+        </div>
+
+        <div class="two-col">
+          <article class="panel">
+            <div class="panel-head"><div><p class="eyebrow">SON AKIŞ</p><h3>Ajan hareketleri</h3></div><button class="text-button" data-jump="conversations">Tümünü gör</button></div>
+            <div id="recentConversation" class="timeline"></div>
+          </article>
+          <article class="panel">
+            <div class="panel-head"><div><p class="eyebrow">TOKEN KONTROLÜ</p><h3>Kompakt bağlam</h3></div><span class="pill" id="contextStatus">—</span></div>
+            <div class="budget-ring-wrap">
+              <div class="budget-ring" id="budgetRing"><strong id="contextTokens">—</strong><span>tahmini giriş</span></div>
+              <div class="budget-copy">
+                <p>Tam ajan dosyası gönderilmedi.</p>
+                <dl>
+                  <div><dt>Sınır</dt><dd id="contextLimit">—</dd></div>
+                  <div><dt>Kalan</dt><dd id="contextRemaining">—</dd></div>
+                </dl>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="view-conversations" class="view">
+        <div class="section-intro"><div><p class="eyebrow">KAYITLI AJAN AKIŞI</p><h2>Konuşmalar ve tartışmalar</h2></div><span class="pill" id="conversationCount">0 kayıt</span></div>
+        <div id="conversationList" class="conversation-list"></div>
+        <div class="section-intro compact"><div><p class="eyebrow">MUHALEFET TURLARI</p><h2>Tartışmalar</h2></div></div>
+        <div id="debateList" class="card-grid"></div>
+      </section>
+
+      <section id="view-outputs" class="view">
+        <div class="section-intro"><div><p class="eyebrow">ÜRETİM KAYITLARI</p><h2>Çıktılar</h2></div></div>
+        <div id="outputList" class="output-list"></div>
+      </section>
+
+      <section id="view-visuals" class="view">
+        <div class="section-intro"><div><p class="eyebrow">GÖRSEL MERKEZİ</p><h2>Briefler, referanslar ve üretilenler</h2></div><span class="pill warning" id="visualStatus">Hazırlanıyor</span></div>
+        <div class="subtabs">
+          <button class="subtab active" data-visual-tab="briefs">Görsel briefler</button>
+          <button class="subtab" data-visual-tab="generated">Üretilen görseller</button>
+          <button class="subtab" data-visual-tab="references">Marka referansları</button>
+        </div>
+        <div id="visualBriefs" class="visual-grid visual-tab active"></div>
+        <div id="generatedVisuals" class="visual-grid visual-tab"></div>
+        <div id="referenceVisuals" class="visual-grid visual-tab"></div>
+      </section>
+
+      <section id="view-tokens" class="view">
+        <div class="section-intro"><div><p class="eyebrow">MALİYET KONTROLÜ</p><h2>Token kullanımı</h2></div></div>
+        <div class="metric-grid token-metrics">
+          <article class="metric"><span>Giriş</span><strong id="tokenInput">—</strong></article>
+          <article class="metric"><span>Çıkış</span><strong id="tokenOutput">—</strong></article>
+          <article class="metric"><span>Toplam</span><strong id="tokenTotal">—</strong></article>
+          <article class="metric"><span>Kayıtlı çağrı</span><strong id="tokenCalls">—</strong></article>
+        </div>
+        <div id="tokenList" class="token-list"></div>
+      </section>
+
+      <section id="view-approvals" class="view">
+        <div class="section-intro"><div><p class="eyebrow">Operator KAPISI</p><h2>Post, metin ve yayın planı</h2><p class="muted">Görseli, son paylaşım yazısını ve önerilen zamanı burada birlikte kontrol edeceksin.</p></div><span class="pill safe">Onaysız yayın yok</span></div>
+        <div class="approval-info"><strong>Şu an yerel test modundasın.</strong><span>Onaylanan paket bilgisayarına kaydedilir; Meta veya Instagram'a gönderilmez.</span></div>
+        <div id="approvalLogin" class="approval-login">
+          <label for="approvalPassword">Onay parolası</label>
+          <div class="approval-login-row"><input id="approvalPassword" type="password" autocomplete="current-password" placeholder="Operator onay parolası"><button id="approvalLoginButton" class="ghost">Giriş yap</button></div>
+          <p id="approvalLoginStatus" class="muted">Kararlar yalnız kimliği doğrulanmış yerel oturumdan imzalanır.</p>
+        </div>
+        <div id="approvalList" class="approval-list"></div>
+      </section>
+
+      <section id="view-system" class="view">
+        <div class="section-intro"><div><p class="eyebrow">SİSTEM SAĞLIĞI</p><h2>Durum ve güvenlik</h2></div></div>
+        <div id="systemCards" class="card-grid"></div>
+      </section>
+    </main>
+  </div>
+  <script src="/app.js" defer></script>
+</body>
+</html>

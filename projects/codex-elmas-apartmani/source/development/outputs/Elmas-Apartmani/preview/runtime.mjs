@@ -1,0 +1,48 @@
+/** Local, in-memory Apps Script emulator. NEVER uploaded to Apps Script. */
+import vm from 'node:vm';
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+export function createRuntime(seed=true,restored=null){
+ const tables={},files=new Map(),folders=new Map(),props=new Map(),cache=new Map();
+ const toBuffer=b=>Buffer.isBuffer(b)?b:Buffer.from(b.map?b.map(n=>n&255):String(b));
+ function blob(data,type='text/plain',name='file'){const buf=toBuffer(data);return {getBytes:()=>Array.from(buf,b=>b>127?b-256:b),getDataAsString:()=>buf.toString('utf8'),getContentType:()=>type,getName:()=>name,setName:n=>blob(buf,type,n)};}
+ function pdf(lines){const translit=s=>String(s).replace(/[ıİşŞğĞçÇöÖüÜ]/g,c=>({'ı':'i','İ':'I','ş':'s','Ş':'S','ğ':'g','Ğ':'G','ç':'c','Ç':'C','ö':'o','Ö':'O','ü':'u','Ü':'U'}[c])).replace(/[^\x20-\x7e]/g,' ').replace(/[\\()]/g,'\\$&');const stream='BT /F1 14 Tf 48 780 Td '+lines.map((x,i)=>(i?'0 -28 Td ':'')+'('+translit(x)+') Tj').join('\n')+' ET',objs=['<< /Type /Catalog /Pages 2 0 R >>','<< /Type /Pages /Kids [3 0 R] /Count 1 >>','<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>','<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>','<< /Length '+Buffer.byteLength(stream)+' >>\nstream\n'+stream+'\nendstream'];let out='%PDF-1.4\n',offsets=[0];objs.forEach((o,i)=>{offsets.push(Buffer.byteLength(out));out+=(i+1)+' 0 obj\n'+o+'\nendobj\n';});const pos=Buffer.byteLength(out);out+='xref\n0 6\n0000000000 65535 f \n'+offsets.slice(1).map(n=>String(n).padStart(10,'0')+' 00000 n \n').join('')+'trailer\n<< /Size 6 /Root 1 0 R >>\nstartxref\n'+pos+'\n%%EOF';return blob(Buffer.from(out),'application/pdf','ornek.pdf');}
+ function makeFile(b,forcedId=''){const id=forcedId||crypto.randomUUID(),f={getId:()=>id,getUrl:()=>'#demo-file',getName:()=>b.getName(),getBlob:()=>b,getAs:()=>b,setTrashed:()=>{files.delete(id);}};files.set(id,f);return f;}
+ const iter=arr=>({hasNext:()=>arr.length>0,next:()=>arr.shift()});
+ function folder(name){const id=crypto.randomUUID(),children=new Map(),f={getId:()=>id,getUrl:()=>'#demo-drive',getFoldersByName:n=>iter(children.has(n)?[children.get(n)]:[]),createFolder:n=>{const child=folder(n);children.set(n,child);return child;},createFile:(b,content,type)=>makeFile(typeof b==='string'?blob(content,type,b):b)};folders.set(id,f);return f;}
+ function sheet(name){if(!tables[name])tables[name]=[];return {getDataRange:()=>({getValues:()=>structuredClone(tables[name])}),getLastRow:()=>tables[name].length,appendRow:r=>tables[name].push(r),deleteRow:row=>tables[name].splice(row-1,1),setFrozenRows:()=>{},getRange:(row,col,n,width)=>({setValues:values=>{values.forEach((v,i)=>{tables[name][row-1+i]??=[];v.forEach((x,j)=>tables[name][row-1+i][col-1+j]=x);});},clearContent:()=>{for(let i=0;i<n;i++)for(let j=0;j<width;j++)if(tables[name][row-1+i])tables[name][row-1+i][col-1+j]='';},setBackground:()=>({setFontColor:()=>({setFontWeight:()=>{}})})})};}
+ const db={getId:()=>'demo-sheet',getUrl:()=>'#demo-sheet',setSpreadsheetTimeZone:()=>{},getSheetByName:n=>tables[n]?sheet(n):null,insertSheet:sheet};
+ const store={get:k=>cache.get(k)||null,put:(k,v)=>cache.set(k,v),remove:k=>cache.delete(k)};
+ const context={console,Date,Math,JSON,Object,String,Number,Array,Boolean,RegExp,Error,Map,Set,isNaN,parseInt,encodeURIComponent,
+  PropertiesService:{getScriptProperties:()=>({getProperty:k=>props.get(k)||null,setProperty:(k,v)=>{props.set(k,v);}})},
+  CacheService:{getScriptCache:()=>store},LockService:{getScriptLock:()=>({waitLock:()=>{},releaseLock:()=>{}})},
+  SpreadsheetApp:{openById:()=>db,create:()=>db,flush:()=>{}},DriveApp:{createFolder:folder,getFolderById:id=>{if(!folders.has(id))folders.set(id,folder('Elmas Apartmani'));return folders.get(id);},getFileById:id=>{if(!files.has(id))throw Error('Önizlemede bu dosya yok.');return files.get(id);}},
+  Utilities:{getUuid:()=>crypto.randomUUID(),DigestAlgorithm:{SHA_256:'sha256'},computeDigest:(algorithm,bytes)=>Array.from(crypto.createHash('sha256').update(toBuffer(bytes)).digest(),b=>b>127?b-256:b),newBlob:blob,base64Decode:s=>Array.from(Buffer.from(s,'base64')),base64DecodeWebSafe:s=>Array.from(Buffer.from(s,'base64url')),base64Encode:b=>toBuffer(b).toString('base64'),formatDate:(d,tz,fmt)=>{const parts=new Intl.DateTimeFormat('sv-SE',{timeZone:tz,dateStyle:'short',timeStyle:'medium'}).format(d).replace(' ','T');return fmt==='yyyy-MM-dd'?parts.slice(0,10):parts;}},
+  Session:{getActiveUser:()=>({getEmail:()=>'yonetici@example.com'}),getEffectiveUser:()=>({getEmail:()=>'yonetici@example.com'})},
+  ScriptApp:{getProjectTriggers:()=>[],newTrigger:()=>{const t={timeBased:()=>t,everyDays:()=>t,atHour:()=>t,inTimezone:()=>t,everyHours:()=>t,create:()=>{}};return t;}},
+  MimeType:{PDF:'application/pdf',PLAIN_TEXT:'text/plain'},MailApp:{sendEmail:()=>{}},Drive:{Files:{create:()=>{throw Error('Önizlemede OCR kullanılmaz.');}}},
+  DocumentApp:{ParagraphHeading:{HEADING1:1,HEADING2:2},create:name=>{const lines=[];const f=makeFile(blob('','application/pdf',name+'.pdf'));f.getAs=()=>pdf(lines).setName(name+'.pdf');return {getId:f.getId,getBody:()=>({appendParagraph:s=>{lines.push(s);return {setHeading:()=>{}};},appendTable:rows=>lines.push(...rows.map(r=>r.join(': ')))}),saveAndClose:()=>{}};}}
+ };
+ vm.createContext(context);for(const file of ['Config.gs','Code.gs','Auth.gs','Finance.gs','Files.gs','Notifications.gs','Import.gs'])vm.runInContext(fs.readFileSync(path.join(root,'apps-script',file),'utf8'),context,{filename:file});
+ context.setup();
+ if(restored&&restored.tables){for(const [name,rows] of Object.entries(restored.tables))tables[name]=structuredClone(rows||[]);}
+ if(restored&&restored.props){for(const [key,value] of Object.entries(restored.props))props.set(key,String(value));}
+ if(restored&&Array.isArray(restored.files))for(const f of restored.files){try{makeFile(blob(Buffer.from(f.data,'base64'),f.type,f.name),f.id);}catch(ignore){}}
+ const invoke=(name,...args)=>context[name](...args);
+ if(seed){
+  const current=invoke('today_'),period=current.slice(0,7);invoke('put_','Ayarlar',{Anahtar:'BaslangicTarihi',Deger:period+'-01'});invoke('put_','Ayarlar',{Anahtar:'IBAN',Deger:'PRIVATE_IBAN'});invoke('put_','Ayarlar',{Anahtar:'AliciAdi',Deger:'Örnek Apartman Yönetimi'});
+  for(let i=1;i<=8;i++){invoke('put_','Daireler',{DaireID:'D'+i,DaireNo:i,Malik:'Örnek Sakin '+i,Kiraci:'',Telefon:'',Email:'',Aktif:true,SakinLinkToken:''});invoke('put_','Aidatlar',{AidatID:'A-D'+i+'-'+period,DaireID:'D'+i,Donem:period,Tutar:1500,SonOdemeTarihi:period+'-10',Odenen:0,Kalan:1500,Durum:'BORCLU',OlusturmaTarihi:current,Tur:'Aidat',AciklamaDiger:''});}
+  invoke('put_','Kullanicilar',{UserID:'resident',Email:'sakin@example.com',Rol:'SAKIN',DaireID:'D5',AdSoyad:'Örnek Sakin',Aktif:true});
+  const admin=invoke('rows_','Kullanicilar')[0];admin.GoogleSub='CODE:demo-preview-credential';invoke('put_','Kullanicilar',admin);
+  for(const i of [1,2,3,4,6,7,8]){const f=makeFile(pdf(['ELMAS APARTMANI - ORNEK DEKONT','Daire: '+i,'Tutar: 1.500,00 TL','Tarih: '+current,'Islem No: ORNEK-'+i,'Bu belge yalnizca onizleme icindir.']));const d={DekontID:'demo-'+i,DaireID:'D'+i,DosyaID:f.getId(),DosyaURL:'#',DosyaHash:'hash-'+i,DosyaTipi:'application/pdf',DosyaAdi:'dekont-daire-'+i+'.pdf',BeyanTutar:1500,OkunanTutar:1500,OkunanTarih:current,OkunanIBAN:'PRIVATE_IBAN',OkunanIslemNo:'ORNEK-'+i,OkunanAciklama:'Aidat ödemesi',Durum:'BEKLIYOR',YuklemeTarihi:current,OkumaYontemi:'PDF_METIN',BildirimDurumu:'EMAIL_GONDERILDI'};invoke('put_','Dekontlar',d);if([1,2,3,6,7].includes(i))invoke('approve_',admin,{id:d.DekontID,Tutar:1500,Tarih:current,IslemNo:'ORNEK-'+i,Aciklama:period+' aidatı'});}
+  invoke('saveMovement_',admin,{requestId:crypto.randomUUID(),Tarih:current,Tur:'GELIR',Kategori:'Diğer',Tutar:19250,Aciklama:'Örnek açılış bakiyesi'});invoke('saveMovement_',admin,{requestId:crypto.randomUUID(),Tarih:current,Tur:'GIDER',Kategori:'Temizlik',Tutar:1800,Aciklama:'Eylül ayı ortak alan temizliği'});invoke('saveMovement_',admin,{requestId:crypto.randomUUID(),Tarih:current,Tur:'GIDER',Kategori:'Elektrik',Tutar:640,Aciklama:'Ortak alan elektrik faturası'});
+  invoke('saveAnnouncement_',admin,{Baslik:'Aidat ödemeleri hakkında',Metin:'Aidat ödemelerinizi ayın 10’una kadar tamamlayabilir, banka dekontunuzu panelden yükleyebilirsiniz.',Onemli:true});invoke('saveAnnouncement_',admin,{Baslik:'Birlikte daha temiz bir apartman',Metin:'Ortak alan temizliğimiz her hafta düzenli olarak yapılmaktadır. Desteğiniz için teşekkür ederiz.',Onemli:false});
+  for(const [label,publicFile] of [['Apartman ortak alan kuralları',true],['Yönetim iç belgesi',false]]){const b=pdf([label,'Bu belge ornek veridir.']);invoke('saveDocument_',admin,{Baslik:label,Kategori:'Genel',SakinlereAcik:publicFile,file:{name:label+'.pdf',type:'application/pdf',data:Buffer.from(b.getBytes().map(x=>x&255)).toString('base64')}});}
+  for(const [token,id] of [['demo-admin',admin.UserID],['demo-resident','resident']]){const key='session:'+crypto.createHash('sha256').update(token).digest('hex');cache.set(key,JSON.stringify({userId:id,expires:Date.now()+21600000}));}
+ }
+ const serialize=()=>({version:2,savedAt:new Date().toISOString(),tables:structuredClone(tables),props:Object.fromEntries(props),files:Array.from(files.entries()).map(([id,f])=>{const b=f.getBlob();return {id,name:f.getName(),type:b.getContentType(),data:Buffer.from(b.getBytes().map(x=>x&255)).toString('base64')};})});
+ return {context,invoke,tables,files,cache,props,blob,pdf,serialize};
+}

@@ -1,0 +1,367 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 507,
+    "sha256": "e2b055c2fe718a201fd668c88d5cd1a416c0a1a517979977f21d1db8d74da65c"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1816,
+    "sha256": "3a776fbde94b8111dac67622c209bc8e975bb2d40ddf435e9f14c39432db3368"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 3862,
+    "sha256": "717782070f53a8a80f350b2c98f363a094e96b483d2d18c509e441a7434090dd"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1076,
+    "sha256": "523e833c80c626624c44a7e190c202801d737f6bbe2be301bcae274d9aad740f"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 216,
+    "sha256": "f5be17b56d551fcf384be366691fae46407b38334d77cc3391da5b8d0381e15a"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 2225,
+    "sha256": "46bf9adeab44ae93c50b082eda11aa475268a236c69b93769f43afaa6d53439e"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "cf2b6e2e7a1a93b3a5847a05e89dce1c4354d791787978e36c45c40f79f4fce6"
+  },
+  {
+    "path": "source/current/AGENTS.md",
+    "bytes": 405,
+    "sha256": "d45a7084d3abfc08365d9e3983904b86534077487db08865aadb797afb1204ef"
+  },
+  {
+    "path": "source/current/package.json",
+    "bytes": 312,
+    "sha256": "6c93eb53b653af02ff3a14f9742ccd4d6a884217731c0d654ea17ab6676e55d1"
+  },
+  {
+    "path": "source/current/README.md",
+    "bytes": 2940,
+    "sha256": "f178bef8fbe282d3d643811073efe61d59b7668d77ac672f4c028a795e493614"
+  },
+  {
+    "path": "source/current/docs/PROJECT_CONTEXT.md",
+    "bytes": 9440,
+    "sha256": "21fa078b63a59898520d72822c655b813724261bf144170cd4c9e95244881392"
+  },
+  {
+    "path": "source/current/release/image-test-report.json",
+    "bytes": 311,
+    "sha256": "769af6082d3b1b06bb89ad2c5a71f6071b7ac51e56dc2a0f23833054f90b91af"
+  },
+  {
+    "path": "source/current/release/performance-test-report.json",
+    "bytes": 410,
+    "sha256": "2f5a17a3c98a6e86eeede920b0b34b008fe0536862b124430eafe1e378296f39"
+  },
+  {
+    "path": "source/current/release/project-safety-test-report.json",
+    "bytes": 238,
+    "sha256": "766f20a8574800ad0337f97c449276b728eb03505fbb4878fae36d7dd9340849"
+  },
+  {
+    "path": "source/current/release/self-test-report.json",
+    "bytes": 1754,
+    "sha256": "fd17c98b8352e1e8271eb67243da29edbd6e38ce453814af06a0d0ec88b1d739"
+  },
+  {
+    "path": "source/current/release/VERIFICATION.md",
+    "bytes": 1110,
+    "sha256": "2b14e686659dc3e8e72b3d4af6c83dda70dd32872f228dee797a4b5a49075c93"
+  },
+  {
+    "path": "source/current/src/cli.js",
+    "bytes": 1597,
+    "sha256": "37af3e836bf8425e288fd8cb60d88f4abf0655580d9a81778cf56600b7290f42"
+  },
+  {
+    "path": "source/current/src/config.js",
+    "bytes": 741,
+    "sha256": "aac7691df4ec70a2bf17342ec7c83ccba41cc6669d86a2bceb9a8844c793f906"
+  },
+  {
+    "path": "source/current/src/memory-store.js",
+    "bytes": 801,
+    "sha256": "710aef1982a6d7726faee750f80b2886571b4916ac2e6a08ac820a05d8baf020"
+  },
+  {
+    "path": "source/current/src/model-client.js",
+    "bytes": 1547,
+    "sha256": "9692d316cfecf10d9fc063d36c37106ddbe179f8f5e427f863e56ac4c1208f1c"
+  },
+  {
+    "path": "source/current/src/orchestrator.js",
+    "bytes": 3766,
+    "sha256": "db163140d1f01216b554fa1c3d8fdd2cb933c19ec448348994d41a3e8ac1c21c"
+  },
+  {
+    "path": "source/current/src/skill-registry.js",
+    "bytes": 1371,
+    "sha256": "8d2a8a5085218340cd45bbff25ccdc14230ba177a7c1e25d731e6031009989b5"
+  },
+  {
+    "path": "source/current/src/task-contract.js",
+    "bytes": 475,
+    "sha256": "921971eba9682cf85272b3bedf90acb1fbe33d25e78930d92dd19cfd2dbd2bcd"
+  },
+  {
+    "path": "source/current/src/toolkit.js",
+    "bytes": 7455,
+    "sha256": "71491c253b65daa673340aa20622234ca59a6b15e476540107d5a10909091320"
+  },
+  {
+    "path": "source/current/skills/software_ai/instructions.md",
+    "bytes": 451,
+    "sha256": "89ec1fe6265fdbca6ceed99ca352b0cc8c76d702b847460f1b103797e6ffdb72"
+  },
+  {
+    "path": "source/current/skills/software_ai/manifest.json",
+    "bytes": 524,
+    "sha256": "058ee50f74ff2bb054ca7b83138e8747f6add72f66e11c61b01367f9f5bea8e6"
+  },
+  {
+    "path": "source/current/release/self-test-data-20260815-211743/plugins/teknik_seo_denetimi/manifest.json",
+    "bytes": 3007,
+    "sha256": "bd46a849335f253adaad41345ff7e4f85a8c876572955ca6d966fec6601128b0"
+  },
+  {
+    "path": "source/current/release/self-test-data-20260815-211743/artifacts/MiniApp-20260815-212827/index.html",
+    "bytes": 1692,
+    "sha256": "9d390ad28037da45af247049d0feb147506f4f5f8d3b3119eff866d3ab6a685c"
+  },
+  {
+    "path": "source/current/release/self-test-data-20260815-210445/plugins/teknik_seo_denetimi/manifest.json",
+    "bytes": 2920,
+    "sha256": "f459fc5d15eb7aff946287af5a927aacb20d3ba860394409c34fc8287975d1e9"
+  },
+  {
+    "path": "source/current/release/self-test-data-20260815-210445/artifacts/MiniApp-20260815-211548/index.html",
+    "bytes": 1666,
+    "sha256": "b2f01f6e44a57d285933ff6f0106ab00178b7d86309accfcfbbf6ac06f154cb8"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/app.manifest",
+    "bytes": 607,
+    "sha256": "54c66e74b9b25189d9bd76c4c64236db3e7cb4bf46e8e5919be0a70f221eb2d9"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/AppPaths.cs",
+    "bytes": 1280,
+    "sha256": "26df8197ff031a8fc1a14d4cfbcd34ab1634ae190672c54584655be4e92b0b75"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/AppSettings.cs",
+    "bytes": 1234,
+    "sha256": "25256b566770bf31a3614e795850d402f4c8f3d3f9ff5c09b2ae7e255db20567"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ArtifactService.cs",
+    "bytes": 1595,
+    "sha256": "6dfee606c7074845bb4654f807d3241f8ccdb4e937b29bd061e56ab0f3fdbd9b"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/CapabilityDevelopmentEngine.cs",
+    "bytes": 6531,
+    "sha256": "fd4a0b75813607edf31921d4504e03033e666a5f54c6062908269965b09f77c8"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/CapabilityGapDetector.cs",
+    "bytes": 2981,
+    "sha256": "74b5f5859c661ecf71b7be7c14980e1c9fdc8f0d0350dbd3c2af59397db544a9"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/CloudCompute.cs",
+    "bytes": 3426,
+    "sha256": "8f5c93d602bfb5b8ed08e8be863de58f5592b7ed4ad4a1200e93231816ffb311"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/CloudSetupDialog.cs",
+    "bytes": 3035,
+    "sha256": "55725bf654147b35854ae20f8e4ba1120308f2c3ff05fad0dc91720c866c155e"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ConversationShortcut.cs",
+    "bytes": 536,
+    "sha256": "bba61044b4f157a3bdda9f95506efe2914fd118e5a5a2046348a52b46ea251f2"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/HardwareProfiler.cs",
+    "bytes": 2532,
+    "sha256": "719f58f7cf675237074444f0225439a609403349e2b2144a0e63064f70c6ad18"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ImageService.cs",
+    "bytes": 2202,
+    "sha256": "27d4ff37983c7d9a367a6ad8f5224cf92b53e06be45e0a7db081a29a122e626e"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/InternetBrain.cs",
+    "bytes": 7311,
+    "sha256": "b89849724e2d2b42a52d233589a52fb9f1e77b07e44e60da4173ed4c1224c7b7"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/KnowledgeStore.cs",
+    "bytes": 8518,
+    "sha256": "321d0580ad5cd96ac5de1906d9e8ee9b688142e629883c11a762e15d46a6499e"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/LessonMemory.cs",
+    "bytes": 4447,
+    "sha256": "510aebb20a8b8b304a8ed6d54aac27999704dc162114ccfe9e97dea061d722de"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/LocalAIOS.csproj",
+    "bytes": 767,
+    "sha256": "e8f92eefe7d3d3f115f990a59f1c38961479d70a4a9ff6007f08fd66f8e337fa"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/LocalModelClient.cs",
+    "bytes": 4332,
+    "sha256": "6cbecd8e80970aad42a6237c482f7a40f4713c4968185b4a075c87f69c46c5a6"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/MainForm.cs",
+    "bytes": 28503,
+    "sha256": "1dcfa899f4da0669711b8aa0aa4bdeb5332139f79d1ba10998f86a59652db978"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/PluginDialog.cs",
+    "bytes": 1919,
+    "sha256": "ed137e4ea69a6def2773b4c493fcfa2815ec2702142356be997f8c14ee8dd3a8"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/PluginManager.cs",
+    "bytes": 9685,
+    "sha256": "0a2210a8e2160ca8f905a880221a9f47ecb736ab31daf6e5bd05a105bdc681de"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/PluginToolRunner.cs",
+    "bytes": 2886,
+    "sha256": "74571fc1d468bb4a3a6196e56eaf8051199b57464b10edb9ec28ad61dfe08ff5"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ProfileDialog.cs",
+    "bytes": 3137,
+    "sha256": "55845cd58ef12b7c962334f4e93b407812747d30c7aae70cae745be58f7706c1"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ProfileTransferService.cs",
+    "bytes": 4484,
+    "sha256": "499c6f0b2fdf390b780b4e000ea9c0954dc461a7a7344433a69172007e1844a0"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/Program.cs",
+    "bytes": 2070,
+    "sha256": "931e1c1657b423f4984f777668ea3f56cf3b1158daeb02d5eba5f8f36512503e"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ProjectAgentService.cs",
+    "bytes": 4380,
+    "sha256": "4b8b648b3795ec4c4c89d637b8ff07295cb980e69c5059893f98693750189432"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ProjectDialog.cs",
+    "bytes": 1502,
+    "sha256": "d55df77d81941b558b089994464832124b2ecb9fafc6cc8c2da96a8f3ef1a639"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ProjectRequestRouter.cs",
+    "bytes": 1356,
+    "sha256": "66afd30038bd9499bd874f697b97d8647ff6dc3d3289fb783b6513f6829ef9e2"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ProjectWorkspaceService.cs",
+    "bytes": 9217,
+    "sha256": "cc1fb8ffe485cd6bc3d6e96d1570e747fc4169961f0a219944a2d0d5bd3313ff"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/PromptDialog.cs",
+    "bytes": 1096,
+    "sha256": "ff48f71b0fee52859993eb623c0f104e208a715680572b88b93c18d248e34b9f"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ReasoningModeDialog.cs",
+    "bytes": 1841,
+    "sha256": "f2a94bd8f93cad1f5cc35f537f4c92f677f19859d950c13b2901692647fd8809"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/ReasoningRouter.cs",
+    "bytes": 860,
+    "sha256": "76c112f628886a43f70c768accaebe099309005fbb2f04a69bbb3b3d8030dca1"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/RuntimeManager.cs",
+    "bytes": 7136,
+    "sha256": "953ca4665a271ef8728108acd401d07933bc866a4598839aa03ecfc1f8dc66f1"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/SecretStore.cs",
+    "bytes": 2880,
+    "sha256": "d03e8d4d4579ee5dced669421e2fa93aa3f8883c60e3bf816357f8fe89343467"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/SelfTestRunner.cs",
+    "bytes": 13748,
+    "sha256": "9cb219251eb02f7bde6314ebc622ad6d92196a98f25e707d6da027ce2c02e3e2"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/UpdateBootstrap.cs",
+    "bytes": 698,
+    "sha256": "ef24abd081d9cf5529fbf99d46c8dd5a8d49d2f3717e5a4f4236107108d9dc89"
+  },
+  {
+    "path": "source/current/desktop/LocalAIOS/UpdateService.cs",
+    "bytes": 4659,
+    "sha256": "b5fb63d22665d9b7b85875adcba1d5bbe5e1b5b349652d977a341f5df8f79392"
+  }
+]

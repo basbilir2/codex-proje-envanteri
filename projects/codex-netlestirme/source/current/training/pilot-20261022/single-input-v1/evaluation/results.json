@@ -1,0 +1,42 @@
+[
+  {
+    "case": "mavi",
+    "adapted": false,
+    "file": "mavi-base.png",
+    "seconds": 213.06,
+    "seed": 42,
+    "steps": 40,
+    "width": 1024,
+    "height": 640
+  },
+  {
+    "case": "heldout07",
+    "adapted": false,
+    "file": "heldout07-base.png",
+    "seconds": 184.23,
+    "seed": 42,
+    "steps": 40,
+    "width": 768,
+    "height": 512
+  },
+  {
+    "case": "mavi",
+    "adapted": true,
+    "file": "mavi-lora.png",
+    "seconds": 221.98,
+    "seed": 42,
+    "steps": 40,
+    "width": 1024,
+    "height": 640
+  },
+  {
+    "case": "heldout07",
+    "adapted": true,
+    "file": "heldout07-lora.png",
+    "seconds": 191.25,
+    "seed": 42,
+    "steps": 40,
+    "width": 768,
+    "height": 512
+  }
+]

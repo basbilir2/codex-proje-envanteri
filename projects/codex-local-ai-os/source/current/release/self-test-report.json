@@ -1,0 +1,59 @@
+{
+  "completedAt": "2026-08-15T21:28:29.9296667+03:00",
+  "passed": false,
+  "hardware": {
+    "RamGb": 38,
+    "LogicalProcessors": 16
+  },
+  "model": "Qwen3 14B \u00B7 En g\u00FC\u00E7l\u00FC yerel",
+  "tests": [
+    {
+      "Name": "Local engine and model setup",
+      "Passed": true,
+      "Detail": "Qwen3 14B \u00B7 En g\u00FC\u00E7l\u00FC yerel",
+      "DurationMs": 10593
+    },
+    {
+      "Name": "Real local chat",
+      "Passed": true,
+      "Detail": "Ankara",
+      "DurationMs": 3407
+    },
+    {
+      "Name": "Live internet research",
+      "Passed": true,
+      "Detail": "4 sources",
+      "DurationMs": 2828
+    },
+    {
+      "Name": "Learn and recall sourced lesson",
+      "Passed": true,
+      "Detail": "Lesson stored with sources and method",
+      "DurationMs": 31
+    },
+    {
+      "Name": "Capability acquisition, storage and routing",
+      "Passed": true,
+      "Detail": "Teknik SEO Denetimi: 4 source paths, 4 steps, semantic route passed",
+      "DurationMs": 422437
+    },
+    {
+      "Name": "Portable cross-PC profile",
+      "Passed": true,
+      "Detail": "Capability source routes and workflows included",
+      "DurationMs": 47
+    },
+    {
+      "Name": "Mini application generation",
+      "Passed": true,
+      "Detail": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6a80859d84388191ab9e7f959f892997\\release\\self-test-data-20260815-211743\\artifacts\\MiniApp-20260815-212827\\index.html",
+      "DurationMs": 205047
+    },
+    {
+      "Name": "Image generation",
+      "Passed": false,
+      "Detail": "An object could not be created, possibly due to a lack of memory, but most likely due to invalid input.",
+      "DurationMs": 2203
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "kind": "multiview_3d",
+  "ns": 1,
+  "engine": "Blender",
+  "config": {
+    "nr": 24,
+    "ne": 12,
+    "near": 1.5,
+    "far": 3.0,
+    "zero": 2.0952888516923345,
+    "focal_mm": 50.0,
+    "sensor_width_mm": 36.0,
+    "camera_span": 0.13901577996636916,
+    "positions": [
+      -0.06950788998318458,
+      -0.05686319799972805,
+      -0.05405386074981614,
+      -0.04422264342205316,
+      -0.04169494795794357,
+      -0.03860570638698903,
+      -0.03158530557871415,
+      -0.023161746537168234,
+      -0.018950264734606013,
+      -0.01389668566939977,
+      -0.0077203026663231105,
+      -0.006316601822774646,
+      0.006316601822774646,
+      0.0077203026663231105,
+      0.01389668566939977,
+      0.018950264734606013,
+      0.023161746537168234,
+      0.03158530557871415,
+      0.03860570638698903,
+      0.04169494795794357,
+      0.04422264342205316,
+      0.05405386074981614,
+      0.05686319799972805,
+      0.06950788998318458
+    ],
+    "grid_size": 640,
+    "edge_threshold": 0.1,
+    "depth_convention": "white-near",
+    "sweep_seconds": 2.0,
+    "camera_axis": "x",
+    "edge_mode": "split"
+  },
+  "legacy_job": {
+    "schema_version": 1,
+    "config": {
+      "nr": 24,
+      "ne": 12,
+      "near": 1.5,
+      "far": 3.0,
+      "zero": 2.0952888516923345,
+      "focal_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "camera_span": 0.13901577996636916,
+      "positions": [
+        -0.06950788998318458,
+        -0.05686319799972805,
+        -0.05405386074981614,
+        -0.04422264342205316,
+        -0.04169494795794357,
+        -0.03860570638698903,
+        -0.03158530557871415,
+        -0.023161746537168234,
+        -0.018950264734606013,
+        -0.01389668566939977,
+        -0.0077203026663231105,
+        -0.006316601822774646,
+        0.006316601822774646,
+        0.0077203026663231105,
+        0.01389668566939977,
+        0.018950264734606013,
+        0.023161746537168234,
+        0.03158530557871415,
+        0.03860570638698903,
+        0.04169494795794357,
+        0.04422264342205316,
+        0.05405386074981614,
+        0.05686319799972805,
+        0.06950788998318458
+      ],
+      "grid_size": 640,
+      "edge_threshold": 0.1,
+      "depth_convention": "white-near",
+      "sweep_seconds": 2.0,
+      "camera_axis": "x",
+      "edge_mode": "split"
+    },
+    "size": [
+      1872,
+      3098
+    ],
+    "surfaces": [
+      {
+        "name": "Depth layer 1",
+        "mesh": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-141927\\shared\\layer_00.npz",
+        "texture": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-141927\\shared\\layer_00.png",
+        "extend": true
+      },
+      {
+        "name": "Depth layer 2",
+        "mesh": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-141927\\shared\\layer_01.npz",
+        "texture": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-141927\\shared\\layer_01.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 3",
+        "mesh": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-141927\\shared\\layer_02.npz",
+        "texture": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-141927\\shared\\layer_02.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 4",
+        "mesh": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-141927\\shared\\layer_03.npz",
+        "texture": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fullscene-20261009-141927\\shared\\layer_03.png",
+        "extend": false
+      }
+    ],
+    "mesh": {
+      "vertices": 2717840,
+      "triangles": 5422080,
+      "cut_triangles": 0,
+      "split_triangles": 0,
+      "focal_px": 2600.0,
+      "layer_count": 4
+    },
+    "quality": {
+      "samples": 32,
+      "denoising": false
+    },
+    "source_inputs": {
+      "photo_sha256": "5b33c735c5001fb320920b33279f2ab20fb9543a6cdb01dae21344b83e931f40",
+      "depth_sha256": "d07e01c6bbf65d0bdf2363a7f7dec1268c978c01e9ed00bf5519cbb73c0bc5c6"
+    }
+  },
+  "frames": [
+    {
+      "path": "views/view_0000.png",
+      "view_coordinate": -0.03316125578789226,
+      "generated": true
+    },
+    {
+      "path": "views/view_0001.png",
+      "view_coordinate": -0.0271319365537221,
+      "generated": true
+    },
+    {
+      "path": "views/view_0002.png",
+      "view_coordinate": -0.025792087835031192,
+      "generated": true
+    },
+    {
+      "path": "views/view_0003.png",
+      "view_coordinate": -0.02110261731956939,
+      "generated": true
+    },
+    {
+      "path": "views/view_0004.png",
+      "view_coordinate": -0.019896753472735354,
+      "generated": true
+    },
+    {
+      "path": "views/view_0005.png",
+      "view_coordinate": -0.01842291988217012,
+      "generated": true
+    },
+    {
+      "path": "views/view_0006.png",
+      "view_coordinate": -0.01507329808539923,
+      "generated": true
+    },
+    {
+      "path": "views/view_0007.png",
+      "view_coordinate": -0.011053751929291603,
+      "generated": true
+    },
+    {
+      "path": "views/view_0008.png",
+      "view_coordinate": -0.009043978851246519,
+      "generated": true
+    },
+    {
+      "path": "views/view_0009.png",
+      "view_coordinate": -0.0066322511575784525,
+      "generated": true
+    },
+    {
+      "path": "views/view_0010.png",
+      "view_coordinate": -0.0036845839764305345,
+      "generated": true
+    },
+    {
+      "path": "views/view_0011.png",
+      "view_coordinate": -0.0030146596170763547,
+      "generated": true
+    },
+    {
+      "path": "views/view_0012.png",
+      "view_coordinate": 0.0030146596170763547,
+      "generated": true
+    },
+    {
+      "path": "views/view_0013.png",
+      "view_coordinate": 0.0036845839764305345,
+      "generated": true
+    },
+    {
+      "path": "views/view_0014.png",
+      "view_coordinate": 0.0066322511575784525,
+      "generated": true
+    },
+    {
+      "path": "views/view_0015.png",
+      "view_coordinate": 0.009043978851246519,
+      "generated": true
+    },
+    {
+      "path": "views/view_0016.png",
+      "view_coordinate": 0.011053751929291603,
+      "generated": true
+    },
+    {
+      "path": "views/view_0017.png",
+      "view_coordinate": 0.01507329808539923,
+      "generated": true
+    },
+    {
+      "path": "views/view_0018.png",
+      "view_coordinate": 0.01842291988217012,
+      "generated": true
+    },
+    {
+      "path": "views/view_0019.png",
+      "view_coordinate": 0.019896753472735354,
+      "generated": true
+    },
+    {
+      "path": "views/view_0020.png",
+      "view_coordinate": 0.02110261731956939,
+      "generated": true
+    },
+    {
+      "path": "views/view_0021.png",
+      "view_coordinate": 0.025792087835031192,
+      "generated": true
+    },
+    {
+      "path": "views/view_0022.png",
+      "view_coordinate": 0.0271319365537221,
+      "generated": true
+    },
+    {
+      "path": "views/view_0023.png",
+      "view_coordinate": 0.03316125578789226,
+      "generated": true
+    }
+  ]
+}

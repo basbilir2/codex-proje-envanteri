@@ -1,0 +1,92 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 230,
+    "sha256": "108b6828c24bda0b76cfd5787d05daa5a2d5e6a67cdf2a31fa8b784077aa64dd"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 874,
+    "sha256": "553bcd1e6a4e8497d17f366331767271e03649b0d74ce3644e500cceb84a2f17"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1099,
+    "sha256": "eec87a3144285db51bb680ae17cee24f26f26c295795f734579cfa635beb8526"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 141,
+    "sha256": "97fffdcbba7ce92b44b82b0b4947a9d6ce84566867bbc7a2265c2de7daaca900"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "db78ff66141b46bbd09d356c715c333fecdb8a0255b29fec449c2c093ec58844"
+  },
+  {
+    "path": "source/workspace/work/build_btakip.mjs",
+    "bytes": 9467,
+    "sha256": "4f44e9bfd326f18c21c43dc6b3efdf23982b6b1af0cef53a090d35832c2c08df"
+  },
+  {
+    "path": "source/workspace/work/inspect_workbooks.mjs",
+    "bytes": 3879,
+    "sha256": "5a7ae01efcc79ee90dcf96ef49cff05bc9d5f58ad4596787156d974edfe25e82"
+  },
+  {
+    "path": "source/workspace/work/query_help.mjs",
+    "bytes": 1157,
+    "sha256": "b8b40d63e2d81b02d16365a25539ce0ba4a24d77f3434753a9fae28c508931b6"
+  }
+]

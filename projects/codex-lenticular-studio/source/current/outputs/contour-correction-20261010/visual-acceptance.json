@@ -1,0 +1,10 @@
+{
+  "status": "needs_mask_and_depth_correction",
+  "accepted_for_print": false,
+  "candidate": "coupled",
+  "verified_views": ["left endpoint", "source camera", "right endpoint"],
+  "passed_changes": ["hand cliff separated", "source-camera color preservation improved", "strict layer depth order", "outer-border repetition removed"],
+  "remaining_defect": {"region_xyxy": [240, 1550, 490, 1810], "description": "Side-view distortion at the narrow shorts fold; source silhouette and depth-derived layers still disagree"},
+  "new_print_tiff_created": false,
+  "physical_print_verified": false
+}

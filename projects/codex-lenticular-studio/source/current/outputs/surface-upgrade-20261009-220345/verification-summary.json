@@ -1,0 +1,11 @@
+{
+  "full_suite_tests": 46,
+  "full_suite_passed": true,
+  "javascript_syntax_passed": true,
+  "isolated_ui_object_create_adjust_save_reload_passed": true,
+  "ui_javascript_errors": [],
+  "full_resolution_validation": "native-portrait-final/validation.json",
+  "source_state_preserved": true,
+  "physical_print_verified": false,
+  "geometry_backup_note": "geometry.py pre-sampler text was reconstructed from the known optional-sampling diff; other listed original files were copied and hash-verified before editing."
+}

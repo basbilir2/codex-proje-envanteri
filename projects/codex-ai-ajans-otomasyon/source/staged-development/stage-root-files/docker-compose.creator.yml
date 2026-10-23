@@ -1,0 +1,30 @@
+services:
+  ajans-kurucu:
+    image: n8nio/n8n:2.31.6@sha256:3c07c723326dd72e46a6969181c66a75260b7a204b9b77ba1ece6d594489c684
+    container_name: ai-ajans-kurucu
+    restart: unless-stopped
+    entrypoint: ["node"]
+    command: ["/app/server.mjs"]
+    environment:
+      HOST: 0.0.0.0
+      PORT: 5684
+      APP_ROOT: /app
+      WORKSPACE_ROOT: /workspace
+      ADMIN_DATA_ROOT: /workspace/data/admin
+      OPERATOR_PASSWORD_HASH: ${AJANS_CREATOR_PASSWORD_HASH:?Install-AjansKurucu.ps1 kullanilmali}
+      ADMIN_ENCRYPTION_KEY: ${AJANS_CREATOR_ENCRYPTION_KEY:?Install-AjansKurucu.ps1 kullanilmali}
+      TZ: Europe/Istanbul
+    ports:
+      - "127.0.0.1:5684:5684"
+    volumes:
+      - ./ui/ajans-yonetim:/app:ro
+      - ./projects:/workspace/projects:ro
+      - ./data/memory:/workspace/data/memory:ro
+      - ./workflows:/workspace/workflows:ro
+      - ./data/admin:/workspace/data/admin
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:5684/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

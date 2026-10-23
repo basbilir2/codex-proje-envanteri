@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "task_id": "inspect-git",
+      "goal": "Inspect existing user changes",
+      "operation": "run_command",
+      "target": ".",
+      "inputs": {
+        "argv": ["git", "status", "--short"]
+      }
+    },
+    {
+      "task_id": "inspect-instructions",
+      "goal": "Locate repository instruction files",
+      "operation": "run_command",
+      "target": ".",
+      "inputs": {
+        "argv": ["rg", "--files", "-g", "AGENTS.md", "-g", "!node_modules", "-g", "!dist", "-g", "!build"]
+      }
+    },
+    {
+      "task_id": "inspect-files",
+      "goal": "Inventory project source files",
+      "operation": "run_command",
+      "target": ".",
+      "inputs": {
+        "argv": ["rg", "--files", "-g", "!node_modules", "-g", "!dist", "-g", "!build", "-g", "!.git"]
+      }
+    }
+  ]
+}

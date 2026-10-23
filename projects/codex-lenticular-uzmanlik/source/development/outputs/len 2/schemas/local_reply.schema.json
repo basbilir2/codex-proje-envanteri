@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "route": {
+      "type": "string",
+      "enum": [
+        "LOCAL_CONTINUE",
+        "ASTRA_REQUIRED",
+        "ASTRA_REVIEW"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missing": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "route",
+    "summary",
+    "source_ids",
+    "missing"
+  ],
+  "additionalProperties": false
+}

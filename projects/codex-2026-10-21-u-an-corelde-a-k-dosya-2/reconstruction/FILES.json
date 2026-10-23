@@ -1,0 +1,92 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 230,
+    "sha256": "108b6828c24bda0b76cfd5787d05daa5a2d5e6a67cdf2a31fa8b784077aa64dd"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 793,
+    "sha256": "cb227ef4804f10cc5f13ba547d5f9f04bb99f352663d0e71d4a405da4d6d4132"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1112,
+    "sha256": "3bac7481448db50bdd8c528e6999b249fa27b5e83c28688a75d6f9ad680e3638"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 80,
+    "sha256": "f87abce1de8e0a7247d50a7363c6c9d9839dede34ec93ea1c193754815395ae2"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "cf2b6e2e7a1a93b3a5847a05e89dce1c4354d791787978e36c45c40f79f4fce6"
+  },
+  {
+    "path": "source/workspace/work/import.ps1",
+    "bytes": 690,
+    "sha256": "35a2b5df0aeec57b5caf69610b3c9997fd38e8c7957c23dbcba5b8d294c1eea0"
+  },
+  {
+    "path": "source/workspace/work/layout-check.json",
+    "bytes": 2447,
+    "sha256": "4ef6f5b4848e0fc7b77f5a79937bed77636885bcb6182c9e7b6a0f4311a3dda6"
+  },
+  {
+    "path": "source/workspace/work/layout.py",
+    "bytes": 1349,
+    "sha256": "9f05cabcfda840a6c0bcdb2fc41e8eaa1e79ce05d838d269338e638bcdf46882"
+  }
+]

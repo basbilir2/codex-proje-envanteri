@@ -1,0 +1,16 @@
+{
+  "id": "software_ai",
+  "name": "Software AI",
+  "version": "0.1.0",
+  "capabilities": ["inspect_code", "edit_code", "debug", "build", "test"],
+  "routingKeywords": [
+    "kod", "yazılım", "hata", "uygulama", "proje", "test", "build",
+    "code", "software", "bug", "app", "repository", "refactor"
+  ],
+  "permissions": ["workspace_read", "workspace_write", "allowed_commands"],
+  "validators": ["changed_file_syntax", "json_parse"],
+  "optionalComponents": {
+    "loraAdapter": null,
+    "specialistModel": null
+  }
+}

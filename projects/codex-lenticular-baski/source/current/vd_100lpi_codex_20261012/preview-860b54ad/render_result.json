@@ -1,0 +1,188 @@
+[
+  {
+    "index": 0,
+    "camera_x": -0.06984154134988785,
+    "camera_y": 0.0,
+    "shift_x": 0.04850107058882713,
+    "shift_y": 0.0,
+    "file": "views/view_0000.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 319.5074006319046,
+        "v_px": 512.0,
+        "expected_u_px": 319.5073871830518,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 2.0,
+        "u_px": 309.49998155236244,
+        "v_px": 512.0,
+        "expected_u_px": 309.5,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 299.49261781573296,
+        "v_px": 512.0,
+        "expected_u_px": 299.4926128169482,
+        "expected_v_px": 512.0
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "camera_x": -0.04190492257475853,
+    "camera_y": 0.0,
+    "shift_x": 0.02910064160823822,
+    "shift_y": 0.0,
+    "file": "views/view_0001.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 315.5044477581978,
+        "v_px": 512.0,
+        "expected_u_px": 315.5044323098311,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 2.0,
+        "u_px": 309.5,
+        "v_px": 512.0,
+        "expected_u_px": 309.5,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 303.4955706894398,
+        "v_px": 512.0,
+        "expected_u_px": 303.4955676901689,
+        "expected_v_px": 512.0
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "camera_x": -0.01396830752491951,
+    "camera_y": 0.0,
+    "shift_x": 0.009700213558971882,
+    "shift_y": 0.0,
+    "file": "views/view_0002.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 311.50149488449097,
+        "v_px": 512.0,
+        "expected_u_px": 311.50147743661034,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 2.0,
+        "u_px": 309.5,
+        "v_px": 512.0,
+        "expected_u_px": 309.5,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 307.4985235631466,
+        "v_px": 512.0,
+        "expected_u_px": 307.49852256338966,
+        "expected_v_px": 512.0
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "camera_x": 0.01396830752491951,
+    "camera_y": 0.0,
+    "shift_x": -0.009700213558971882,
+    "shift_y": 0.0,
+    "file": "views/view_0003.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 307.4985235631466,
+        "v_px": 512.0,
+        "expected_u_px": 307.49852256338966,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 2.0,
+        "u_px": 309.5,
+        "v_px": 512.0,
+        "expected_u_px": 309.5,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 311.50149488449097,
+        "v_px": 512.0,
+        "expected_u_px": 311.50147743661034,
+        "expected_v_px": 512.0
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "camera_x": 0.04190492257475853,
+    "camera_y": 0.0,
+    "shift_x": -0.02910064160823822,
+    "shift_y": 0.0,
+    "file": "views/view_0004.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 303.4955706894398,
+        "v_px": 512.0,
+        "expected_u_px": 303.4955676901689,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 2.0,
+        "u_px": 309.5,
+        "v_px": 512.0,
+        "expected_u_px": 309.5,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 315.5044477581978,
+        "v_px": 512.0,
+        "expected_u_px": 315.5044323098311,
+        "expected_v_px": 512.0
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "camera_x": 0.06984154134988785,
+    "camera_y": 0.0,
+    "shift_x": -0.04850107058882713,
+    "shift_y": 0.0,
+    "file": "views/view_0005.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 299.49261781573296,
+        "v_px": 512.0,
+        "expected_u_px": 299.4926128169482,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 2.0,
+        "u_px": 309.5,
+        "v_px": 512.0,
+        "expected_u_px": 309.5,
+        "expected_v_px": 512.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 319.5074006319046,
+        "v_px": 512.0,
+        "expected_u_px": 319.5073871830518,
+        "expected_v_px": 512.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "completedAt": "2026-08-16T04:34:47.0156687+03:00",
+  "passed": true,
+  "model": "Qwen3 14B \u00B7 En g\u00FC\u00E7l\u00FC yerel",
+  "greetingAnswer": "Selam! Nas\u0131ls\u0131n? Nas\u0131l yard\u0131mc\u0131 olabilirim sana?",
+  "greetingDurationMs": 12844,
+  "reasoningModeRouting": true,
+  "instantGreetingShortcut": true,
+  "parallelInternetResearchMs": 2687,
+  "parallelInternetSources": 4
+}

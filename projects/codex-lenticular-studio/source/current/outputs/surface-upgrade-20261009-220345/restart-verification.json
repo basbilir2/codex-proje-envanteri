@@ -1,0 +1,19 @@
+{
+  "before_pid": 19096,
+  "before_state_sha256": "91bc310be45003e96902b2031f399bf7e9f680af238df0095215d00ee7b87219",
+  "before_counts": {
+    "assets": 6,
+    "jobs": 99,
+    "profiles": 13
+  },
+  "after_pid": 15220,
+  "after_state_sha256": "91bc310be45003e96902b2031f399bf7e9f680af238df0095215d00ee7b87219",
+  "after_counts": {
+    "assets": 6,
+    "jobs": 99,
+    "profiles": 13
+  },
+  "ready": true,
+  "new_defaults_loaded": true,
+  "state_preserved": true
+}

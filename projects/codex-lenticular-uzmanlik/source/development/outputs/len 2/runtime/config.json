@@ -1,0 +1,14 @@
+{
+  "runtime_executable": "C:\\Users\\USER\\AppData\\Local\\LocalAIOS\\runtime\\llama-cli.exe",
+  "model_relative_path": "model/Qwen3-14B-Q4_K_M.gguf",
+  "model_manifest": "model/model_manifest.json",
+  "threads": 6,
+  "context_size": 8192,
+  "max_new_tokens": 256,
+  "timeout_seconds": 600,
+  "retrieval_top": 3,
+  "retrieval_max_chars": 6500,
+  "external_inference_api": false,
+  "status": "baseline_candidate_pending_local_inference",
+  "weights_finetuned": false
+}

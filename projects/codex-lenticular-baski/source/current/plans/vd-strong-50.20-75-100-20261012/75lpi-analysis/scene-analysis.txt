@@ -1,0 +1,16 @@
+﻿SAHNE ANALİZİ
+Görsel: solda fotoğraf, ortada kullanılan derinlik, sağda kanallar arası hareket riski.
+İstenen / uygulanan açı: 10.000° / 10.000°
+Kanal başına raster piksel: 1.333
+
+KONTROLLER
+Seçilen baskı kanalları arasında görüntü adımı bir lens aralığını aşıyor (p95). Geçiş/netlik riski: yalnız Nr artırmak yetmez; Ne, ön/arka paralaks ve gerçek kanal ayrımını birlikte değerlendirin.
+Kanal başına iki raster pikselden az var; kanal sayısı ve gerçek baskı ayrımı kontrol edilmeli.
+Pitch fiziksel ölçümle doğrulanmış değil.
+Lens açısı fiziksel ölçümle doğrulanmış değil.
+Yazıcı/RIP kanal ayrımı fiziksel ölçümle doğrulanmış değil.
+
+SINIRLAR
+Tek fotoğraf derinliği tahmindir; görünmeyen yüzeyler ölçülmez.
+Öneriler geometrik kontrollerdir; optik kapasite veya kusursuz baskı garantisi değildir.
+Sabit referans korunur; boşluklar ve anatomi otomatik değiştirilmez.

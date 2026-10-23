@@ -1,0 +1,11 @@
+Precision PHOTO COMPOSITING CLEANUP of this small crop from an approved menu. The burger and fries already have good authentic food textures; KEEP THE EXACT SAME burger bun, beef patty, ingredients, potato type and black fry cup. Do NOT redesign or restyle them.
+Repair only the messy pasted edges and overlaps:
+- Remove dark polygonal cutout halo around the upper/left burger bun. Blend this edge into the existing warm blurred background naturally, without changing the bun itself.
+- Remove duplicate old ingredient remnants and bright angular scraps at the left edge near the round KÖFTE badge, especially the pale yellow/white wedge peeking between badge and burger. Make the burger's lettuce, onion, cheese and beef edges continuous and believable, no double contours.
+- Repair the awkward straight vertical seam where the right side of the burger meets the black cup of fries. Separate them cleanly as two real objects with a natural small contact shadow and no rectangular photograph patch visible.
+- Tidy fry boundaries and the cup rim, remove any old stray orange fry fragments and cutout leftovers. A believable black cup containing the SAME real pale-golden French fries, naturally in the same position, with a little clear visual separation from the cola bottle at far right.
+- Clean any hard pasted rectangular edges in the wood under burger/cup; retain original wood perspective and warmth.
+Keep the food's realistic current photographed materials. No plastic or wax, no reshaped meat, no sausage folds. Do not invent new ingredients. Same burger dimensions, positions, cup size, lighting and composition.
+ABSOLUTE LOCK: round black/yellow KÖFTE 100 GR badge, red price tag with 345₺, all typography, the visible Coca-Cola bottle/label, yellow graphic bits, borders and all non-food graphic elements stay EXACTLY unchanged. Same full crop aspect ratio 435:255, no crop or new text. This is surgical cleanup of image joins, not generating a new burger.
+
+The edited close-up was inserted only within the hamburger/fries mask. The badge, price offer, bottle and all other menu areas were preserved from v9. Raw pixel comparison outside the mask must remain zero.

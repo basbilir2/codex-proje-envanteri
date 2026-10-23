@@ -1,0 +1,5 @@
+Google hesabı: user_0008@example.invalid
+Proje: https://script.google.com/home/projects/1IXPQNLjn9VqYmj4riXmByiEXje6Irrtqmv2EqnEowceOC4dEDyCH-GfV/edit
+Durum: Boş proje oluşturuldu; kod aktarımı ve dağıtım henüz yapılmadı.
+Yerel aktarım aracı: work/google-deploy
+Kaynak: outputs/Elmas-Apartmani/apps-script

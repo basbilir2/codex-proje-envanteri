@@ -1,0 +1,60 @@
+{
+  "name": "elmas-apartmani-masaustu",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "main": "desktop/main.cjs",
+  "description": "Elmas Apartmanı çevrimdışı yönetim ve çevrimiçi sakin bilgilendirme sistemi",
+  "author": "Elmas Apartmanı",
+  "scripts": {
+    "start": "node preview/server.mjs",
+    "desktop": "electron .",
+    "desktop:smoke": "node desktop/smoke.mjs",
+    "test": "node tests/critical.mjs && node desktop/smoke.mjs",
+    "build": "electron-builder --win nsis"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "electron": "^38.1.2",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "asar": false,
+    "appId": "tr.elmasapartmani.yonetim",
+    "productName": "Elmas Apartmanı",
+    "artifactName": "Elmas-Apartmani-Kurulum-${version}.${ext}",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "apps-script/**/*",
+      "desktop/**/*",
+      "preview/runtime.mjs",
+      "package.json",
+      "!desktop/.sync-secret"
+    ],
+    "extraResources": [
+      {
+        "from": "desktop/initial-data.json",
+        "to": "initial-data.json"
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Elmas Apartmanı",
+      "uninstallDisplayName": "Elmas Apartmanı",
+      "deleteAppDataOnUninstall": false,
+      "include": "build/installer.nsh"
+    }
+  }
+}

@@ -1,0 +1,211 @@
+services:
+  n8n:
+    image: n8nio/n8n:2.31.6@sha256:3c07c723326dd72e46a6969181c66a75260b7a204b9b77ba1ece6d594489c684
+    container_name: ai-ajans-n8n
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5678:5678"
+    environment:
+      TZ: Europe/Istanbul
+      GENERIC_TIMEZONE: Europe/Istanbul
+      N8N_HOST: localhost
+      N8N_PORT: 5678
+      N8N_PROTOCOL: http
+      N8N_SECURE_COOKIE: "false"
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:?Start-AiAjans.ps1 kullanilmali}
+    volumes:
+      - ./n8n:/home/node/.n8n
+      - ./data:/home/node/.n8n-files/data
+      - ./chatgpt-downloads:/home/node/.n8n-files/chatgpt-downloads
+      - ./projects:/home/node/.n8n-files/projects
+      - ./workflows:/workflows:ro
+
+  ajans-merkezi:
+    image: n8nio/n8n:2.31.6@sha256:3c07c723326dd72e46a6969181c66a75260b7a204b9b77ba1ece6d594489c684
+    container_name: ai-ajans-merkezi
+    restart: unless-stopped
+    entrypoint:
+      - node
+    command:
+      - /app/server.mjs
+    environment:
+      HOST: 0.0.0.0
+      PORT: 5680
+      APP_ROOT: /app
+      DATA_ROOT: /data
+      REFERENCE_ROOT: /references
+      RUNTIME_URL: http://ajans-runtime:5681
+      RUNTIME_API_KEY: ${AJANS_CENTER_API_KEY:?Start-AiAjans.ps1 kullanilmali}
+    ports:
+      - "127.0.0.1:5680:5680"
+    volumes:
+      - ./ui/ajans-merkezi:/app:ro
+      - ./data:/data:ro
+      - ./projects/marka-referanslari:/references:ro
+    depends_on:
+      - n8n
+      - ajans-runtime
+
+  ajans-yonetim:
+    image: n8nio/n8n:2.31.6@sha256:3c07c723326dd72e46a6969181c66a75260b7a204b9b77ba1ece6d594489c684
+    container_name: ai-ajans-yonetim
+    restart: unless-stopped
+    entrypoint:
+      - node
+    command:
+      - /app/server.mjs
+    environment:
+      HOST: 0.0.0.0
+      PORT: 5684
+      APP_ROOT: /app
+      WORKSPACE_ROOT: /workspace
+      ADMIN_DATA_ROOT: /workspace/data/admin
+      OPERATOR_PASSWORD_HASH: ${AJANS_OPERATOR_PASSWORD_HASH:?Set-OperatorApprovalPassword.ps1 kullanilmali}
+      ADMIN_ENCRYPTION_KEY: ${AJANS_ADMIN_ENCRYPTION_KEY:?Start-AiAjans.ps1 kullanilmali}
+      TZ: Europe/Istanbul
+    ports:
+      - "127.0.0.1:5684:5684"
+    volumes:
+      - ./ui/ajans-yonetim:/app:ro
+      - ./projects:/workspace/projects:ro
+      - ./data/memory:/workspace/data/memory:ro
+      - ./data/admin:/workspace/data/admin
+    depends_on:
+      - n8n
+      - ajans-runtime
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:5684/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  ajans-runtime:
+    image: n8nio/n8n:2.31.6@sha256:3c07c723326dd72e46a6969181c66a75260b7a204b9b77ba1ece6d594489c684
+    container_name: ai-ajans-runtime
+    restart: unless-stopped
+    entrypoint:
+      - node
+    command:
+      - /app/server.mjs
+    environment:
+      HOST: 0.0.0.0
+      PORT: 5681
+      DB_PATH: /runtime/ajans-runtime.sqlite
+      WORKSPACE_ROOT: /workspace
+      RUNTIME_API_KEY: ${AJANS_RUNTIME_API_KEY:?Start-AiAjans.ps1 kullanilmali}
+      CENTER_API_KEY: ${AJANS_CENTER_API_KEY:?Start-AiAjans.ps1 kullanilmali}
+      SCHEDULER_API_KEY: ${AJANS_SCHEDULER_API_KEY:?Start-AiAjans.ps1 kullanilmali}
+      WORKER_API_KEY: ${AJANS_WORKER_API_KEY:?Start-AiAjans.ps1 kullanilmali}
+      N8N_SERVICE_API_KEY: ${AJANS_N8N_SERVICE_API_KEY:?Start-AiAjans.ps1 kullanilmali}
+      APPROVAL_HMAC_KEY: ${AJANS_APPROVAL_HMAC_KEY:?Start-AiAjans.ps1 kullanilmali}
+      OPERATOR_PASSWORD_HASH: ${AJANS_OPERATOR_PASSWORD_HASH:-}
+      LOCAL_DELIVERY_ROOT: /workspace/data/outputs/approved
+      GENERATED_IMAGE_ROOT: /workspace/data/outputs/images
+      TZ: Europe/Istanbul
+    volumes:
+      - ./ui/ajans-runtime:/app:ro
+      - ./data/runtime:/runtime
+      - ./data/runtime:/workspace/data/runtime
+      - ./data/outputs:/workspace/data/outputs
+      - ./data/contracts:/workspace/data/contracts:ro
+      - ./data/memory:/workspace/data/memory:ro
+      - ./projects:/workspace/projects:ro
+      - ./tests:/workspace/tests
+      - ./ui:/workspace/ui:ro
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:5681/health/live').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  ajans-scheduler:
+    image: n8nio/n8n:2.31.6@sha256:3c07c723326dd72e46a6969181c66a75260b7a204b9b77ba1ece6d594489c684
+    container_name: ai-ajans-scheduler
+    restart: unless-stopped
+    entrypoint:
+      - node
+    command:
+      - /scheduler/scheduler.mjs
+    environment:
+      HOST: 0.0.0.0
+      PORT: 5682
+      RUNTIME_URL: http://ajans-runtime:5681
+      RUNTIME_API_KEY: ${AJANS_SCHEDULER_API_KEY:?Start-AiAjans.ps1 kullanilmali}
+      AUTONOMOUS_TASKS_ENABLED: ${AJANS_AUTONOMOUS_TASKS_ENABLED:-false}
+      STATUS_PATH: /health/scheduler.json
+      TZ: Europe/Istanbul
+    expose:
+      - "5682"
+    volumes:
+      - ./ui/ajans-scheduler:/scheduler:ro
+      - ./data/health:/health
+    depends_on:
+      - ajans-runtime
+
+  ajans-worker:
+    image: n8nio/n8n:2.31.6@sha256:3c07c723326dd72e46a6969181c66a75260b7a204b9b77ba1ece6d594489c684
+    container_name: ai-ajans-worker
+    restart: unless-stopped
+    entrypoint:
+      - node
+    command:
+      - /worker/worker.mjs
+    environment:
+      HOST: 0.0.0.0
+      PORT: 5683
+      RUNTIME_URL: http://ajans-runtime:5681
+      RUNTIME_API_KEY: ${AJANS_WORKER_API_KEY:?Start-AiAjans.ps1 kullanilmali}
+      MODEL_WORKER_ENABLED: ${AJANS_MODEL_WORKER_ENABLED:-false}
+      MODEL_ACCEPTANCE_PROOF: ${AJANS_MODEL_ACCEPTANCE_PROOF:-unverified}
+      MODEL_PROVIDER: ${AJANS_MODEL_PROVIDER:-google}
+      MODEL_NAME: ${AJANS_MODEL_NAME:-models/gemini-3.1-flash-lite}
+      MODEL_BILLING_MODE: ${AJANS_MODEL_BILLING_MODE:-}
+      MODEL_INPUT_USD_PER_MILLION: ${AJANS_MODEL_INPUT_USD_PER_MILLION:-}
+      MODEL_OUTPUT_USD_PER_MILLION: ${AJANS_MODEL_OUTPUT_USD_PER_MILLION:-}
+      MODEL_PRICING_VERIFIED: ${AJANS_MODEL_PRICING_VERIFIED:-false}
+      MODEL_ADAPTER_URL: ${AJANS_MODEL_ADAPTER_URL:-}
+      MODEL_ADAPTER_TOKEN: ${AJANS_ADAPTER_API_KEY:?Start-AiAjans.ps1 kullanilmali}
+      STATUS_PATH: /health/worker.json
+      OUTPUT_SCHEMAS_PATH: /contracts/output-schemas.json
+      CONTEXT_POLICY_PATH: /policy/baglam-derleme-politikasi.json
+      TZ: Europe/Istanbul
+    expose:
+      - "5683"
+    volumes:
+      - ./ui/ajans-worker:/worker:ro
+      - ./data/health:/health
+      - ./data/contracts:/contracts:ro
+      - ./data/memory/baglam-derleme-politikasi.json:/policy/baglam-derleme-politikasi.json:ro
+    depends_on:
+      - ajans-runtime
+
+  ajans-guardian:
+    image: n8nio/n8n:2.31.6@sha256:3c07c723326dd72e46a6969181c66a75260b7a204b9b77ba1ece6d594489c684
+    container_name: ai-ajans-guardian
+    restart: unless-stopped
+    entrypoint:
+      - node
+    command:
+      - /guardian/health-monitor.mjs
+    environment:
+      CHECK_INTERVAL_MS: 30000
+      N8N_HEALTH_URL: http://n8n:5678/healthz
+      RUNTIME_LIVE_URL: http://ajans-runtime:5681/health/live
+      RUNTIME_READY_URL: http://ajans-runtime:5681/health/ready
+      CENTER_HEALTH_URL: http://ajans-merkezi:5680/api/health
+      SCHEDULER_LIVE_URL: http://ajans-scheduler:5682/health/live
+      SCHEDULER_READY_URL: http://ajans-scheduler:5682/health/ready
+      WORKER_LIVE_URL: http://ajans-worker:5683/health/live
+      WORKER_READY_URL: http://ajans-worker:5683/health/ready
+      STATUS_PATH: /health/current.json
+    volumes:
+      - ./ui/ajans-guardian:/guardian:ro
+      - ./data/health:/health
+    depends_on:
+      - n8n
+      - ajans-runtime
+      - ajans-merkezi
+      - ajans-scheduler
+      - ajans-worker

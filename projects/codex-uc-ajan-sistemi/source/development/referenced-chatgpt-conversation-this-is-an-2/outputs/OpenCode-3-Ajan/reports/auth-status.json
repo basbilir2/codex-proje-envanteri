@@ -1,0 +1,14 @@
+{
+  "nvidia_sign_in": "completed",
+  "cloud_account": "OpenCode Gelistirme",
+  "phone_verification": "completed",
+  "api_key": "created_and_saved_with_Windows_DPAPI",
+  "key_name": "OpenCode-3-Ajan",
+  "key_id": "d63371f7-7b8f-4e2b-8810-41cea0f6a904",
+  "key_expiration": "2027-10-17",
+  "blocker": "DeepSeek V4.1 and GLM 5.3 inference requests timed out in both normal and streaming tests; Nemotron passed",
+  "user_action": null,
+  "live_inference_verified": false,
+  "verified_model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+  "three_agent_live_workflow_verified": false
+}

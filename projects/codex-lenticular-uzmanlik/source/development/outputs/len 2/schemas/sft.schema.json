@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "len 2 execution-only SFT record",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "group_id",
+    "split",
+    "mode",
+    "origin",
+    "review_status",
+    "training_eligible",
+    "source_ids",
+    "messages",
+    "evidence",
+    "language"
+  ],
+  "properties": {
+    "sample_id": {
+      "type": "string"
+    },
+    "group_id": {
+      "type": "string"
+    },
+    "split": {
+      "enum": [
+        "train",
+        "validation"
+      ]
+    },
+    "mode": {
+      "const": "execution_only"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "review_status": {
+      "type": "string"
+    },
+    "training_eligible": {
+      "type": "boolean"
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "language": {
+      "const": "tr"
+    },
+    "messages": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "content"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "system",
+              "user",
+              "assistant",
+              "tool"
+            ]
+          },
+          "content": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

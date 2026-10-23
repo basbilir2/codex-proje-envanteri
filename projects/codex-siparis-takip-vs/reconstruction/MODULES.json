@@ -1,0 +1,20 @@
+[
+  "source/recovered/desktop-oauth.cjs",
+  "source/recovered/hosted/assets/index-DSKCXCck.js",
+  "source/recovered/hosted/assets/index-readable.js",
+  "source/recovered/main.cjs",
+  "source/recovered/preload.cjs",
+  "source/recovered/scripts/capture_ui.mjs",
+  "source/recovered/scripts/diagnose-whatsapp-login-cdp.mjs",
+  "source/recovered/scripts/fix-kadir-import.mjs",
+  "source/recovered/scripts/inspect-current-chat-cdp.mjs",
+  "source/recovered/scripts/inspect-sidebar-cdp.mjs",
+  "source/recovered/scripts/inspect-whatsapp-cdp.mjs",
+  "source/recovered/scripts/inspect-whatsapp-files-cdp.mjs",
+  "source/recovered/scripts/open-polat-cdp.mjs",
+  "source/recovered/scripts/open_customers.mjs",
+  "source/recovered/scripts/verify_ui.mjs",
+  "source/recovered/scripts/whatsapp-qr-probe.cjs",
+  "source/recovered/whatsapp-extractor.cjs",
+  "source/recovered/whatsapp-preload.cjs"
+]

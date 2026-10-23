@@ -1,0 +1,26 @@
+﻿60 LPI - TEK BASKI PITCH TESTİ
+Aralık: 59.00-61.00 LPI. Adım: 0.05. Toplam: 41 etiketli şerit.
+Dosyanın tamamı 170 × 215.139 mm; çizgili alan genişliği 130 mm.
+Bu ölçü, projedeki 130 × 215.139 mm portre baskı kaydına göre seçilmiştir.
+
+BASKI
+PDF vektöreldir. PNG aynı geometriyle 1200 PPI, 1 bit siyah-beyaz olarak üretilmiştir.
+PDF'yi %100 / Gerçek boyut ile bas. Sayfaya sığdırma ve kenarlıksız büyütme kapalı olsun.
+PNG kullanıyorsan 1200 PPI veya 170 × 215.139 mm fiziksel ölçüyü koru; yeniden örnekleme yapma.
+1200 PPI dosya örneklemesidir; yazıcının gerçek çözünürlüğünün doğrulandığı anlamına gelmez.
+Yatay ve dikey kontrol çizgilerinin ikisi de basılı halde tam 100 mm olmalı.
+Üretimdeki aynı makine, malzeme, yön, RIP, pass ve beyaz katman ayarlarını kullan.
+
+OKUMA
+Lensin düz arkasını baskıya temas ettir; oluklu yüzü gözlemciye baksın.
+Lens oluklarını dikey ince çizgilere paralel hizala; üstteki yatay çizgi düz ve kesintisiz görünsün.
+Gerçek ürünü izleyeceğin mesafeden, tek gözle ve sayfanın karşısından bak.
+Başını hafif sağa-sola oynat: tüm 13 cm boyunca birlikte siyah/beyaz değişen en eşit şeridi seç.
+Birden fazla şerit eşitse hepsini kaydet. Kısa alanda 0.05 LPI komşularını ayırmak zor olabilir.
+59.00 veya 61.00 sınır değeri en iyiyse gerçek optimum bu aralığın dışında kalabilir.
+Ekrandaki dalga/moiré karar ölçütü değildir; gerçek basılı hedef ve lens ile seç.
+Pitch testi portre görüntüsü içermez; siyah-beyaz çizgiler pitch eşleşmesini ölçmek içindir.
+
+Yöntem kaynakları:
+https://triaxes.com/docs/Pitch-test-en/Description.html
+https://dplenticular.com/technology/prepress-process/

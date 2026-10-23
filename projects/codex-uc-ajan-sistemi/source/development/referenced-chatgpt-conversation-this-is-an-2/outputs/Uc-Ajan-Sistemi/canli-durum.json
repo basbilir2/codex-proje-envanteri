@@ -1,0 +1,42 @@
+{
+  "real_nvidia_requests": true,
+  "models_substituted": false,
+  "results": [
+    {
+      "agent": "deepseek",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "started_at": 1792321389.0189111,
+      "status": "failed",
+      "error_type": "TimeoutError",
+      "detail": "The read operation timed out",
+      "ended_at": 1792321544.2172148,
+      "seconds": 155.2
+    },
+    {
+      "agent": "glm",
+      "model": "z-ai/glm-5.3",
+      "started_at": 1792321389.0196297,
+      "http_status": 200,
+      "headers_after": 102.64,
+      "status": "no_final_answer",
+      "answer": "",
+      "reasoning_characters": 2032,
+      "ended_at": 1792321518.6839888,
+      "seconds": 129.66
+    },
+    {
+      "agent": "nemotron",
+      "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "started_at": 1792321389.0201874,
+      "http_status": 200,
+      "headers_after": 0.53,
+      "status": "no_final_answer",
+      "answer": "",
+      "reasoning_characters": 1905,
+      "ended_at": 1792321393.8179483,
+      "seconds": 4.8
+    }
+  ],
+  "all_passed": false,
+  "requests_overlap": true
+}

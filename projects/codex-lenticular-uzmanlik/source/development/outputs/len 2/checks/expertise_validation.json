@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "modules": 20,
+  "new_primary_notes": 18,
+  "products": 7,
+  "new_pilot_cases": 28,
+  "rag_chunks": 225,
+  "source_report_hashes_checked": 9,
+  "exam_prompts_not_in_rag": true,
+  "model_expertise_tested": false,
+  "weights_trained": false,
+  "physical_print_test_run": false
+}

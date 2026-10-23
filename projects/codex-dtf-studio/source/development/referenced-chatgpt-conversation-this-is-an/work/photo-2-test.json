@@ -1,0 +1,46 @@
+{
+  "image": {
+    "width": 738,
+    "height": 1600
+  },
+  "detected": {
+    "region": {
+      "x": 190,
+      "y": 345,
+      "width": 76,
+      "height": 41
+    },
+    "confidence": "candidate",
+    "candidates": [
+      {
+        "x": 195,
+        "y": 350,
+        "width": 66,
+        "height": 31,
+        "score": 465.7846153846154,
+        "density": 0.1627565982404692
+      }
+    ]
+  },
+  "automaticRegion": {
+    "x": 380,
+    "y": 690,
+    "width": 152,
+    "height": 82
+  },
+  "manual": {
+    "region": {
+      "x": 373,
+      "y": 679,
+      "width": 164,
+      "height": 110
+    },
+    "coverage": 0.1719512195121951,
+    "bounds": {
+      "x": 24,
+      "y": 29,
+      "width": 116,
+      "height": 57
+    }
+  }
+}

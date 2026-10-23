@@ -1,0 +1,38 @@
+{
+  "model": "Qwen-Image-Edit-2511",
+  "task": "extract-design",
+  "runtime": "845646b034a12ed844966c84bd7585c8fcb37b7f",
+  "weights": [
+    {
+      "role": "diffusion",
+      "sha256": "8677bac90627adbbc11efab87b1870e701c4eb3689ee865a3de8ab81b705a723",
+      "revision": "0d33d9692b4b26212297240d87b0d4719aa4fd06"
+    },
+    {
+      "role": "text",
+      "sha256": "0f00a930ba3108b6861ddadf74d8ebbd82e257c63eba728e62c3e8970f5eed94",
+      "revision": "cfa2baa09946b211c107e6e104948987a64dd2c1"
+    },
+    {
+      "role": "vision",
+      "sha256": "2185ca0adf339f96845318c7b666f5d242f86bbace5657a89cb834785d0cea57",
+      "revision": "cfa2baa09946b211c107e6e104948987a64dd2c1"
+    },
+    {
+      "role": "vae",
+      "sha256": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
+      "revision": "1f12b17be14c89b026c51a91d67c32f84bb047bc"
+    }
+  ],
+  "parameters": {
+    "steps": 40,
+    "cfg": 2.5,
+    "seed": 42,
+    "width": 1024,
+    "height": 640
+  },
+  "prompt": "Extract and faithfully reconstruct the printed or applied artwork visible in this reference as a standalone, flat, front-facing design. Understand the artwork independently of the photographed surface. Remove the garment or supporting object, fabric weave, fibers, seams, folds, wrinkles, perspective distortion, cast shadows, lighting gradients and photographic glare. Rebuild clear, continuous artwork contours and details distorted by that surface. Preserve the actual artwork: its original words and letter shapes, illustrations, colors, solid fills, internal holes, line weights, layout and relative proportions. Do not invent or replace words, symbols, decorations or missing design elements. Do not turn solid artwork fills into holes. Output only the recovered artwork on a uniform light neutral gray display background so that white artwork contours remain visible, without a person, clothing, mockup, fabric texture, lighting gradient, shadow or distressed residue. Center and fit the complete recovered artwork on the output canvas with a small clear margin. Preserve the composition within the artwork, not its position within the original photograph. This is reconstruction of the existing artwork, not a sharpening filter or a new design.",
+  "accelerator": null,
+  "status": "completed",
+  "seconds": 235.19
+}

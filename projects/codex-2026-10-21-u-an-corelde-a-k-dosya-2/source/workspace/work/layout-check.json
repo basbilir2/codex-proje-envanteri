@@ -1,0 +1,144 @@
+{
+  "count": 19,
+  "page_mm": [
+    600,
+    2100
+  ],
+  "columns": 2,
+  "rows": 10,
+  "items": [
+    {
+      "design": 1,
+      "x_mm": 3,
+      "y_mm": 1890,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 2,
+      "x_mm": 300,
+      "y_mm": 1890,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 3,
+      "x_mm": 3,
+      "y_mm": 1680,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 4,
+      "x_mm": 300,
+      "y_mm": 1680,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 5,
+      "x_mm": 3,
+      "y_mm": 1470,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 6,
+      "x_mm": 300,
+      "y_mm": 1470,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 7,
+      "x_mm": 3,
+      "y_mm": 1260,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 8,
+      "x_mm": 300,
+      "y_mm": 1260,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 9,
+      "x_mm": 3,
+      "y_mm": 1050,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 10,
+      "x_mm": 300,
+      "y_mm": 1050,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 11,
+      "x_mm": 3,
+      "y_mm": 840,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 12,
+      "x_mm": 300,
+      "y_mm": 840,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 13,
+      "x_mm": 3,
+      "y_mm": 630,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 14,
+      "x_mm": 300,
+      "y_mm": 630,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 15,
+      "x_mm": 3,
+      "y_mm": 420,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 16,
+      "x_mm": 300,
+      "y_mm": 420,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 17,
+      "x_mm": 3,
+      "y_mm": 210,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 18,
+      "x_mm": 300,
+      "y_mm": 210,
+      "width_mm": 297,
+      "height_mm": 210
+    },
+    {
+      "design": 19,
+      "x_mm": 3,
+      "y_mm": 0,
+      "width_mm": 297,
+      "height_mm": 210
+    }
+  ]
+}

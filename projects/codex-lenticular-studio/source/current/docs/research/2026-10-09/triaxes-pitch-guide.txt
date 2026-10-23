@@ -1,0 +1,58 @@
+PAGE 1
+1. Switch to the Lenticular tab and press Generate Pitch Test button. The 
+following dialog will appear. 
+ 
+ 
+ 
+2. Input lpi value in the field Pitch. 
+3. Input the resolution value. To discover the resolution of your printer, 
+press Change printer button, at the lower part of the dialog and choose 
+the necessary printer. After that, the resolution of the printer will be 
+displayed in the Print Settings field. Then, just input this value in the 
+field Resolution. 
+ 
+4. Press Generate. 
+ 
+All the rest values are set by default, it is not necessary to change them. 
+ 
+
+
+PAGE 2
+5. After that, select Project->Print preview menu command or press 
+Ctrl+P hot key. 
+The print preview window will appear. 
+6. Press Print Setup button and set the highest print quality in the 
+appeared dialog. 
+7. Press Print.  
+Note: For the pitch test use the same paper as for lenticular pictures. 
+ 
+The following should come out:  
+ 
+ 
+You can see a thin line perpendicularly to the pitch bands above them. Apply 
+a lens to the paper, so that, the line does not look broken, but it is still  an 
+entire line. 
+ 
+Then, changing your viewing angle, try to find a band on the pitch test on 
+which all stripes are changing their color simultaneously. That's mean, there 
+is no waves on a band. 
+At the picture below it is the fourth band from the right side . You can see that 
+it is evenly colored in the light -gray, while the other bands do not. They have 
+some waves throughout the length. 
+
+
+PAGE 3
+ 
+Changing your viewing angle, you can see that the band is switching its color 
+very evenly. 
+At the picture below it is whole colored in black without any waves. 
+ 
+
+
+PAGE 4
+That's mean we should take the value, specified above this very band and 
+use them when encoding a picture for these plastic and paper. For example, 
+we got value 75,55. We input this value in the field Pitch (lpi) on  the 
+Lenticular tab before generating. 
+ 
+ 

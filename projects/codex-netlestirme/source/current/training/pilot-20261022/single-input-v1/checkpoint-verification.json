@@ -1,0 +1,8 @@
+{
+  "optimizer_steps": 48,
+  "finite_losses": true,
+  "checkpoint_bytes": 236116888,
+  "sha256": "f55c07bad7a5ab5fe29e0d7b4cbd8c6c3affc9509ca09a9477b249af6121e670",
+  "cloud_local_hash_match": true,
+  "quality_accepted": false
+}

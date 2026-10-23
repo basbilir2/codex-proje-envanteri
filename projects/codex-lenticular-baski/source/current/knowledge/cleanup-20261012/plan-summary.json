@@ -1,0 +1,29 @@
+{
+  "targets": 39003,
+  "bytes": 44097387416,
+  "gb": 44.097387416,
+  "groups": {
+    "Already-recycled obsolete Lenticular backup; original location Documents/lenticular2, all child projects identified as Lenticular.": {
+      "files": 37905,
+      "gb": 26.129587059
+    },
+    "Abandoned incomplete model download from Lenticular expertise prototype; not a loadable completed model. Code and knowledge database preserved.": {
+      "files": 1,
+      "gb": 6.194892065
+    },
+    "Old superseded VD portrait experiment asset; active silhouette dependency preserved.": {
+      "files": 545,
+      "gb": 6.523828042
+    },
+    "Superseded Lenticular test/render/intermediate asset; small plans/reports and other portraits final masters preserved.": {
+      "files": 550,
+      "gb": 4.87451361
+    },
+    "Already-recycled obsolete Lenticular print copy.": {
+      "files": 2,
+      "gb": 0.37456664
+    }
+  },
+  "protected_recent_project_gb": 32.196629174,
+  "audit_access_errors": 137
+}

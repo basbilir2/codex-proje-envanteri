@@ -1,0 +1,13 @@
+{
+  "active": null,
+  "purpose": "artwork-reconstruction",
+  "qualityAccepted": false,
+  "enhancementReady": false,
+  "trialEnabled": true,
+  "tasks": [
+    "extract-design",
+    "repair-artwork",
+    "restore-image"
+  ],
+  "maxModelEdge": 512
+}

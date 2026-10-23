@@ -1,0 +1,21 @@
+{
+  "elapsed_seconds": 245,
+  "activity": "İşlem tamamlanamadı",
+  "agents": {
+    "deepseek": {
+      "state": "error"
+    },
+    "glm": {
+      "state": "error"
+    },
+    "nemotron": {
+      "state": "error"
+    }
+  },
+  "reply": [
+    [
+      "error",
+      "Bağlantı / işlem hatası: NVIDIA yanıt süresi doldu. Model değişmedi; otomatik tekrar ve ücretli geçiş yok."
+    ]
+  ]
+}

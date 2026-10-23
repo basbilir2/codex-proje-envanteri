@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "stage": "lenticular_print_preparation",
+  "settings": {
+    "width_mm": 130,
+    "height_mm": 215.139,
+    "bleed_mm": 0,
+    "ppi": 1200,
+    "printer_dpi": 1200,
+    "nominal_lpi": 50,
+    "effective_lpi": 50,
+    "ne": 10,
+    "axis": "vertical",
+    "phase": 0,
+    "tilt_deg": 0,
+    "reverse_views": false,
+    "mirror": false,
+    "fit": "contain",
+    "stripe_sampling": "center",
+    "crosstalk": 0,
+    "compensation": 0,
+    "regularization": 0.02,
+    "crosstalk_matrix": null,
+    "icc_path": null,
+    "color_mode": "RGB",
+    "white_underbase": true,
+    "pitch_verified": false,
+    "viewing_distance_mm": 500,
+    "lens_view_angle_deg": 30,
+    "allow_unfilled": false,
+    "pitch_step": 0.01,
+    "pitch_candidates": 21,
+    "gamut_guard": true,
+    "lens_angle_verified": false,
+    "raster_ppi_verified": false
+  },
+  "nr": 24,
+  "ns": 1,
+  "nt": null,
+  "frame_kind": "multiview_3d",
+  "ne": 10,
+  "source_indices": [
+    23,
+    21,
+    18,
+    16,
+    13,
+    10,
+    7,
+    5,
+    2,
+    0
+  ],
+  "channel_plan": {
+    "schema_version": 1,
+    "kind": "multiview_3d",
+    "ne": 10,
+    "source_indices": [
+      23,
+      21,
+      18,
+      16,
+      13,
+      10,
+      7,
+      5,
+      2,
+      0
+    ],
+    "ordering_version": 2,
+    "orthoscopic": true,
+    "order_basis": "convex lenticule; X right, Y up; raster columns right, rows down",
+    "samples": [
+      {
+        "channel": 0,
+        "frame_index": 23,
+        "view_coordinate": 0.03316125578789226
+      },
+      {
+        "channel": 1,
+        "frame_index": 21,
+        "view_coordinate": 0.025792087835031192
+      },
+      {
+        "channel": 2,
+        "frame_index": 18,
+        "view_coordinate": 0.01842291988217012
+      },
+      {
+        "channel": 3,
+        "frame_index": 16,
+        "view_coordinate": 0.011053751929291603
+      },
+      {
+        "channel": 4,
+        "frame_index": 13,
+        "view_coordinate": 0.0036845839764305345
+      },
+      {
+        "channel": 5,
+        "frame_index": 10,
+        "view_coordinate": -0.0036845839764305345
+      },
+      {
+        "channel": 6,
+        "frame_index": 7,
+        "view_coordinate": -0.011053751929291603
+      },
+      {
+        "channel": 7,
+        "frame_index": 5,
+        "view_coordinate": -0.01842291988217012
+      },
+      {
+        "channel": 8,
+        "frame_index": 2,
+        "view_coordinate": -0.025792087835031192
+      },
+      {
+        "channel": 9,
+        "frame_index": 0,
+        "view_coordinate": -0.03316125578789226
+      }
+    ],
+    "unused_frames": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      9,
+      11,
+      12,
+      14,
+      15,
+      17,
+      19,
+      20,
+      22
+    ],
+    "repeated_channels": 0
+  },
+  "distinct_source_images": 10,
+  "raster_size": [
+    6142,
+    10164
+  ],
+  "physical_size_mm": [
+    130.00566666666666,
+    215.13799999999998
+  ],
+  "sampling": "nearest rendered angular view; periodic channel raster pattern",
+  "pixels_per_lens": 24.0,
+  "mixing_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "pixels_per_channel": 2.4,
+  "raster_integrity": {
+    "metadata_passed": true,
+    "sampled_pixels_verified": true,
+    "physical_3d_verified": false,
+    "sample_rows": [
+      0,
+      2541,
+      5082,
+      7623,
+      10163
+    ],
+    "checked_pixels": 30710,
+    "basis": "saved TIFF metadata and sampled encoded pixels; not a physical lens test"
+  },
+  "physical_validation": {
+    "physical_3d_verified": false,
+    "pitch_confirmed_by_user": false,
+    "lens_angle_confirmed_by_user": false,
+    "raster_ppi_confirmed_by_user": false,
+    "channel_mixing_measured": false,
+    "basis": "software checks cannot confirm printed channel separation or perceived depth"
+  },
+  "raster_channel_coverage_fraction": [
+    0.08336046890263758,
+    0.12504070335395637,
+    0.08336046890263758,
+    0.12504070335395637,
+    0.08336046890263758,
+    0.08336046890263758,
+    0.12504070335395637,
+    0.08336046890263758,
+    0.12504070335395637,
+    0.08303484207098664
+  ],
+  "source_native_ppi": 365.76,
+  "ideal_print_depth_estimate": null,
+  "compensation_clipped_fraction": 0.0,
+  "nonopaque_source_fraction": 0.0,
+  "compensation_limited_fraction": 0.0,
+  "simulation_error": {
+    "before_mse": 0.0,
+    "after_mse": 0.0,
+    "model_kind": "assumed_channel_mixing",
+    "physical_3d_verified": false,
+    "zero_error_is_not_physical_pass": true,
+    "basis": "linear-light preview using the selected mixing matrix; excludes lens/raster alignment, ICC and physical printer behavior"
+  },
+  "status": "calibration_draft",
+  "warnings": [
+    "Hareketli önizleme fiziksel 3D doğrulaması değildir; iki göze farklı kanal geldiği baskı testiyle kontrol edilmelidir.",
+    "Lens bakış açısı 30° varsayılmıştır; LPI bilgisi bakış açısını belirlemez.",
+    "Dosya PPI değeri RIP/yazıcının yatay ayrıştırma testiyle doğrulanmadı; yazıcının DPI etiketi bu doğrulama değildir.",
+    "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+    "Baskı kanalları eşit raster payı almıyor; PPI/LPI, Ne ve faz birleşimini kontrol edin.",
+    "Kaynak ayrıntısı yaklaşık 366 PPI; 1200 PPI raster çıktı ayrıntıyı yeniden örnekler."
+  ],
+  "source_job_sha256": "12a5a1c8cfbdb724be70641393b9e1af5154183da238bde47d43a7dafb9b9c83",
+  "interlaced_sha256": "eeb14efbeb9477e1873e98d8852d06d21605a984d666a140e1266ec4f2256e6b",
+  "color_profile_sha256": "fffb5b824e3ff3f89a127a86565de582c5a076a86e5549e996d4a6c1878290d5",
+  "white_ink_instructions": "Import white-underbase.tif as White in your RIP; it is a separate grayscale mask, not an embedded spot ink.",
+  "printing_instructions": [
+    "Print at 100% physical size without fit-to-page or subsequent resampling.",
+    "Use the same RIP, material, lens batch, viewing distance and color settings as the pitch test.",
+    "Assign the separate white mask and registration marks in the UV RIP when required.",
+    "Animated proof is a simulation and does not verify physical ghosting."
+  ]
+}

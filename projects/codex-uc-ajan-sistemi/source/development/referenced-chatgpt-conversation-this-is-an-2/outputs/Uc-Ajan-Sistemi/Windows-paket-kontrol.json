@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "type": "dotnet",
+      "real_publish": true,
+      "real_zip": true,
+      "extracted_exe_executed": true,
+      "output": "DOTNET_PACKAGE_OK"
+    },
+    {
+      "type": "python",
+      "real_publish": true,
+      "real_zip": true,
+      "extracted_exe_executed": true,
+      "output": "PYTHON_PACKAGE_OK"
+    }
+  ],
+  "model_requests": 0
+}

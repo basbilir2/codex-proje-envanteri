@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-18",
+  "local_ui": "passed",
+  "actual_engine": "OpenCode 1.19.3",
+  "real_nvidia": true,
+  "models": {
+    "deepseek": {
+      "state": "error",
+      "detail": "NVIDIA yanıt süresi doldu",
+      "time": 1792345060.4023504
+    },
+    "glm": {
+      "state": "error",
+      "detail": "NVIDIA yanıt süresi doldu",
+      "time": 1792345060.4024272
+    },
+    "nemotron": {
+      "state": "connected",
+      "detail": "NVIDIA yanıt verdi",
+      "time": 1792345468.4967823
+    },
+    "glmflash": {
+      "state": "connected",
+      "detail": "NVIDIA yanıt verdi",
+      "time": 1792345055.2572582
+    }
+  },
+  "kimi": {
+    "state": "unavailable",
+    "reason": "NVIDIA free endpoint deprecated",
+    "source": "https://build.nvidia.com/moonshotai/kimi-k3"
+  },
+  "vision": {
+    "model": "nemotron",
+    "input": "64x64 blue PNG",
+    "actual_answer": "Mavi",
+    "passed": true
+  },
+  "development": {
+    "model": "nemotron",
+    "project": "C:\\Users\\USER\\Documents\\Codex\\2026-10-17\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\Uc-Ajan-Sistemi\\Projeler\\Mini Uzay Oyunu-271e4b",
+    "file": "index.html",
+    "bytes": 7033,
+    "actual_model_file_write": true,
+    "browser_preview": "passed",
+    "game_over_and_restart": "passed"
+  },
+  "three_model_live_development": "blocked: DeepSeek and GLM timed out; no paid fallback"
+}

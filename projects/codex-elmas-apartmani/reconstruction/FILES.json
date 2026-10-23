@@ -1,0 +1,277 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 1843,
+    "sha256": "00554510eef278d647c66a2f3fa7bde94af5ba7165d3f709eca37c6b914f4776"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 454,
+    "sha256": "8c06fa6b1472e38e92d15f2224e1ec0a8ecd0bdb8b2434a1ae93e4eeedd90125"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1866,
+    "sha256": "0ea8f5005747847ee9343fca057dcebf60658b26c5ba886215898dbe5cc009f5"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 2955,
+    "sha256": "996501464c21dd5a9ac517b31e6e5984300c5a59397340b6cc6395662d27b597"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1096,
+    "sha256": "9e47c5ecf368aa88c3cf7e906e43713ff9ab80301170b0c43621a8bd16a4bd41"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 378,
+    "sha256": "e96a7417382d3694b4380b2e67cd3dd6724b95fd38e680fbab7f90bd4fb00077"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 797,
+    "sha256": "fdff0b851839c4a61713f7c1c09934b8301bf2bad86bf13d33251195bc2bb4c5"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 1717,
+    "sha256": "028b7c3c3591623c2ad6057da31c2dadc848dc8498ebf0e8257c608ccb53b381"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "bffc613e38a9b6360cf32a8427e50e8fb4c4205be7bb8b2061e4846d4463bffe"
+  },
+  {
+    "path": "source/development/work/google-deploy/create_drive_resources.mjs",
+    "bytes": 2339,
+    "sha256": "55581e4f1af593e6155595c3559fc60fd077fe92e0fc469707ad0325745812d4"
+  },
+  {
+    "path": "source/development/work/google-deploy/package-lock.json",
+    "bytes": 135904,
+    "sha256": "8555078e1d515be7284553bf25d1a6e065d075f6416cc175c141395025812126"
+  },
+  {
+    "path": "source/development/work/google-deploy/package.json",
+    "bytes": 58,
+    "sha256": "6c7806eea9d572f31d533f42438c78923f9025a85f8dd1ba2cf454a1e12ab900"
+  },
+  {
+    "path": "source/development/work/google-deploy/STATUS.txt",
+    "bytes": 320,
+    "sha256": "0f0c7e20f6bf09002b088bfef52e289d80ad5d78f358eb6a0d94186d6cf101c3"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Auth.gs",
+    "bytes": 9103,
+    "sha256": "3ab38fa6c74c17d87fcfc3e6d4b6ec0c7d6c16405786a7d5ab2da2da805a4838"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Client.html",
+    "bytes": 50828,
+    "sha256": "01ea80097dafb977956e8086a51097cc5e8ebbdc7f4a87cc38eca5b6592a3efb"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Code.gs",
+    "bytes": 20173,
+    "sha256": "fdef73c3377c6f4bf0b83d86a9441e88be2249323f73245761a93bcd87a743dc"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Config.gs",
+    "bytes": 410,
+    "sha256": "5dfe62ef60dd69f47049423d063a5c57bc77ae16e69bb37d0aa5c78e7806169f"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Files.gs",
+    "bytes": 13059,
+    "sha256": "06b45b643f4ff45194b37171df1d86292d49bc80d5a8b107be9eba064c5d4807"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Finance.gs",
+    "bytes": 8354,
+    "sha256": "462fde72820d6b466df43fd608138a305d1be4f02af0dcc011aad308e8d6497d"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Import.gs",
+    "bytes": 7144,
+    "sha256": "8cd0b6c5535c72cb269f3d50ced1a5c6e2b1c4173de9bf1afc3284d6c995ef7a"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Index.html",
+    "bytes": 728,
+    "sha256": "0180f52fab7eaebf3c17509b8fd72c2bc9094b8f7d26cfee2c34e86de97fe391"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Notifications.gs",
+    "bytes": 2778,
+    "sha256": "cf67dfda086ba38fc826d1c8d89d185a32ee5badec64cac88b7b74dd495fc8e3"
+  },
+  {
+    "path": "source/development/work/google-deploy/apps-script/Styles.html",
+    "bytes": 14966,
+    "sha256": "9c7c9d26d4a5a06469ce223299f90e9a3fc28c3ed7ed2afb4b866204d0600ea9"
+  },
+  {
+    "path": "source/development/work/google-deploy/work/download-live-xlsx.mjs",
+    "bytes": 1096,
+    "sha256": "282f8de219ba5fa827d71b6999b0f155dab370e7b1a32af645d476098d365298"
+  },
+  {
+    "path": "source/development/work/google-deploy/work/export-live-backup.mjs",
+    "bytes": 3062,
+    "sha256": "253fe0ae1e2f8413111b724f1a59dd3fa048a809276fdfdcb94095b797116aa5"
+  },
+  {
+    "path": "source/development/work/google-deploy/work/inspect-live.mjs",
+    "bytes": 745,
+    "sha256": "84b4b24b3a850267f0c183930571d9a7294e6b697258cd286f2b157d510c9fe1"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/KURULUM.md",
+    "bytes": 10076,
+    "sha256": "1985f505bdf6ef640aeb5ade6af3ae7bdeeef37f28dab2f96cd0d1e1b6e84f63"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/MASAUSTU-KURULUM.md",
+    "bytes": 1542,
+    "sha256": "231d96c93f9d9d2fefec43b25b52883b504640c1c5db2e14cbd914b78677745e"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/ONIZLEME.ps1",
+    "bytes": 242,
+    "sha256": "6de5bf37d158fdf545b6451adafba539ea9c81e59abe604bb3c8a30c65aaebaf"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/package-lock.json",
+    "bytes": 143754,
+    "sha256": "665fae2ef41d568d380c188f3733bae66f3c528b2525a8137e15c4c778db2419"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/package.json",
+    "bytes": 1559,
+    "sha256": "4ea21ef48878aa467f889a85709f1b8bbeb781edf2e8743c6d1eaade289141ee"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Auth.gs",
+    "bytes": 9103,
+    "sha256": "3ab38fa6c74c17d87fcfc3e6d4b6ec0c7d6c16405786a7d5ab2da2da805a4838"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Client.html",
+    "bytes": 50828,
+    "sha256": "01ea80097dafb977956e8086a51097cc5e8ebbdc7f4a87cc38eca5b6592a3efb"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Code.gs",
+    "bytes": 20173,
+    "sha256": "fdef73c3377c6f4bf0b83d86a9441e88be2249323f73245761a93bcd87a743dc"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Config.gs",
+    "bytes": 410,
+    "sha256": "5dfe62ef60dd69f47049423d063a5c57bc77ae16e69bb37d0aa5c78e7806169f"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Files.gs",
+    "bytes": 13059,
+    "sha256": "06b45b643f4ff45194b37171df1d86292d49bc80d5a8b107be9eba064c5d4807"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Finance.gs",
+    "bytes": 8354,
+    "sha256": "462fde72820d6b466df43fd608138a305d1be4f02af0dcc011aad308e8d6497d"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Import.gs",
+    "bytes": 7144,
+    "sha256": "8cd0b6c5535c72cb269f3d50ced1a5c6e2b1c4173de9bf1afc3284d6c995ef7a"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Index.html",
+    "bytes": 728,
+    "sha256": "0180f52fab7eaebf3c17509b8fd72c2bc9094b8f7d26cfee2c34e86de97fe391"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Notifications.gs",
+    "bytes": 2778,
+    "sha256": "cf67dfda086ba38fc826d1c8d89d185a32ee5badec64cac88b7b74dd495fc8e3"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/apps-script/Styles.html",
+    "bytes": 14966,
+    "sha256": "9c7c9d26d4a5a06469ce223299f90e9a3fc28c3ed7ed2afb4b866204d0600ea9"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/build/installer.nsh",
+    "bytes": 1010,
+    "sha256": "8dd407d64c54bba7bd2b026ab6cf1f5945334fef1519916dc29546cc15fca272"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/desktop/initial-data.json",
+    "bytes": 341,
+    "sha256": "72ac5c50db123b3955d78e180736b8734778d3a881ca3696a09f9d3c12d8c46e"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/desktop/main.cjs",
+    "bytes": 2367,
+    "sha256": "cc5c6cb010e54ab8c04267376f5ffb94f5cca6a2c7e91864f0532ca35a93a81b"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/desktop/server.mjs",
+    "bytes": 7072,
+    "sha256": "a6018908159f053ede109cff448ca4bfa000b63ec84c14209062ecc2b6094f3a"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/desktop/smoke.mjs",
+    "bytes": 1235,
+    "sha256": "4954bd2c55ffca477ec8fb4a9bcaa9880bb6cd5bb15c2886db1f224a5aec22ce"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/preview/runtime.mjs",
+    "bytes": 9763,
+    "sha256": "94dc87444a944d805ffdd9cf172ee90d0b9e2b3f734d426f60b85120957b0ab7"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/preview/server.mjs",
+    "bytes": 1646,
+    "sha256": "0f373c473afd2b72b36a6ba09779d9e71fb4ce3bdee81712f6b0889ff964e004"
+  },
+  {
+    "path": "source/development/outputs/Elmas-Apartmani/tests/critical.mjs",
+    "bytes": 12807,
+    "sha256": "d7bfc9e4006ff352b3050de91dc7d376ecdba92df132f7c8cd0f87c76a11be82"
+  }
+]

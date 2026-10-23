@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "kind": "multiview_3d",
+  "ne": 6,
+  "source_indices": [
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+  ],
+  "ordering_version": 2,
+  "orthoscopic": true,
+  "order_basis": "convex lenticule; X right, Y up; raster columns right, rows down",
+  "samples": [
+    {
+      "channel": 0,
+      "frame_index": 5,
+      "view_coordinate": 0.007302832744843718
+    },
+    {
+      "channel": 1,
+      "frame_index": 4,
+      "view_coordinate": 0.004381749499561405
+    },
+    {
+      "channel": 2,
+      "frame_index": 3,
+      "view_coordinate": 0.001460591475551573
+    },
+    {
+      "channel": 3,
+      "frame_index": 2,
+      "view_coordinate": -0.0014605914755515738
+    },
+    {
+      "channel": 4,
+      "frame_index": 1,
+      "view_coordinate": -0.004381749499561405
+    },
+    {
+      "channel": 5,
+      "frame_index": 0,
+      "view_coordinate": -0.007302832744843718
+    }
+  ],
+  "unused_frames": [],
+  "repeated_channels": 0
+}

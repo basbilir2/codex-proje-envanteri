@@ -1,0 +1,75 @@
+{
+  "Id": "teknik_seo_denetimi",
+  "Name": "Teknik SEO Denetimi",
+  "Version": "1.0.0",
+  "Description": "Kullan\u0131c\u0131n\u0131n teknik SEO denetimi ihtiya\u00E7lar\u0131n\u0131 kar\u015F\u0131lamak i\u00E7in g\u00FCvenilir kaynaklardan bilgi edinme, do\u011Frulama ve uygulama s\u00FCre\u00E7lerini tan\u0131mlar.",
+  "Triggers": [
+    "teknik SEO denetimi yap",
+    "SEO teknik analiz",
+    "web sitesi teknik SEO kontrol\u00FC"
+  ],
+  "Capabilities": [
+    "web_analysis.check_seo",
+    "information_retrieval.get_sources",
+    "information_verification.validate_data",
+    "application.apply_seo_best_practices"
+  ],
+  "Instructions": "Kullan\u0131c\u0131n\u0131n teknik SEO denetimi ihtiya\u00E7lar\u0131n\u0131 kar\u015F\u0131lamak i\u00E7in gerekli kaynaklardan bilgi edinilir, do\u011Frulan\u0131r ve uygulan\u0131r. Bu s\u00FCre\u00E7, sitenin SEO uyumunu ve teknik yap\u0131s\u0131n\u0131 analiz etmeyi ama\u00E7lar.",
+  "Sources": [
+    {
+      "Topic": "Teknik SEO ve Web Analizi",
+      "Url": "https://www.teknikcuttingtools.com/?dil=eng",
+      "LearningMethod": "Kaynakta teknik SEO ile ilgili bilgiler do\u011Frudan veya dolayl\u0131 olarak \u00E7\u0131kar\u0131labilir."
+    },
+    {
+      "Topic": "Teknik Terimler ve SEO",
+      "Url": "https://tureng.com/tr/turkce-ingilizce/teknik",
+      "LearningMethod": "Terimlerin do\u011Fru anlamlar\u0131 ve SEO ba\u011Flam\u0131ndaki kullan\u0131m\u0131 i\u00E7in s\u00F6zl\u00FCkten bilgi al\u0131nabilir."
+    },
+    {
+      "Topic": "\u0130stanbul Teknik \u00DCniversitesi - Akademik Kaynaklar",
+      "Url": "https://www.itu.edu.tr/",
+      "LearningMethod": "SEO ve teknik analizle ilgili akademik kaynaklar buradan eri\u015Filebilir."
+    },
+    {
+      "Topic": "teknik SEO denetimi",
+      "Url": "https://tr.wiktionary.org/wiki/teknik",
+      "LearningMethod": "Gerekti\u011Finde g\u00FCncel i\u00E7eri\u011Fi al, ilgili k\u0131sm\u0131 \u00E7\u0131kar ve ba\u015Fka kaynakla do\u011Frula."
+    }
+  ],
+  "Workflow": [
+    {
+      "Action": "detect_need",
+      "Instruction": "Kullan\u0131c\u0131n\u0131n teknik SEO denetimi ihtiyac\u0131n\u0131 tespit edin."
+    },
+    {
+      "Action": "retrieve",
+      "Instruction": "G\u00FCvenilir kaynaklardan teknik SEO ile ilgili bilgileri edinin."
+    },
+    {
+      "Action": "verify",
+      "Instruction": "Edinilen bilgilerin do\u011Frulu\u011Funu ve g\u00FCncelli\u011Fini kontrol edin."
+    },
+    {
+      "Action": "apply",
+      "Instruction": "Bilgileri kullanarak kullan\u0131c\u0131ya teknik SEO denetimi sunun."
+    }
+  ],
+  "Quality": {
+    "MinimumSources": 2,
+    "MinimumAnswerLength": 200,
+    "RequireSourceUrls": true,
+    "Checks": [
+      "freshness",
+      "authority",
+      "contradictions",
+      "application result"
+    ]
+  },
+  "Tools": [],
+  "Permissions": [
+    "internet_read"
+  ],
+  "CreatedFrom": "chat_acquisition",
+  "LastValidatedAt": "2026-08-15T18:24:27.7066162\u002B00:00"
+}

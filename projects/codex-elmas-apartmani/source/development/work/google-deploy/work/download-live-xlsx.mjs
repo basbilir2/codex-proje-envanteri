@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'..'),auth=JSON.parse(fs.readFileSync(path.join(root,'.elmas-auth.json'),'utf8')).tokens.default;
+const tr=await fetch('https://oauth2.googleapis.com/token',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({client_id:auth.client_id,client_secret:auth.client_secret,refresh_token:auth.refresh_token,grant_type:'refresh_token'})});if(!tr.ok)throw Error('Google erişim anahtarı yenilenemedi.');const access=(await tr.json()).access_token;
+const id='10V4oTIMWrR9AOsolDmF2586Uj0-mj8d_SFDj0qIOi8s',url=`https://www.googleapis.com/drive/v3/files/${id}/export?mimeType=${encodeURIComponent('application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')}`;
+const response=await fetch(url,{headers:{Authorization:'Bearer '+access}});if(!response.ok)throw Error('Drive dışa aktarma başarısız: '+response.status+' '+await response.text());fs.writeFileSync(process.argv[2],Buffer.from(await response.arrayBuffer()));console.log('LIVE_XLSX_OK');

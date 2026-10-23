@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "stage": "lenticular_print_preparation",
+  "settings": {
+    "width_mm": 25.4,
+    "height_mm": 25.4,
+    "bleed_mm": 0.0,
+    "ppi": 30,
+    "printer_dpi": 1200.0,
+    "nominal_lpi": 10,
+    "effective_lpi": 10,
+    "ne": 2,
+    "axis": "horizontal",
+    "phase": 0.25,
+    "tilt_deg": 0.0,
+    "reverse_views": false,
+    "mirror": true,
+    "fit": "cover",
+    "stripe_sampling": "center",
+    "crosstalk": 0.0,
+    "compensation": 0.0,
+    "regularization": 0.02,
+    "crosstalk_matrix": null,
+    "icc_path": null,
+    "color_mode": "RGB",
+    "white_underbase": false,
+    "pitch_verified": false,
+    "viewing_distance_mm": 500.0,
+    "lens_view_angle_deg": 30.0,
+    "allow_unfilled": false,
+    "pitch_step": 0.01,
+    "pitch_candidates": 11
+  },
+  "nr": 2,
+  "ne": 2,
+  "source_indices": [
+    0,
+    1
+  ],
+  "raster_size": [
+    30,
+    30
+  ],
+  "physical_size_mm": [
+    25.4,
+    25.4
+  ],
+  "sampling": "nearest rendered angular view; periodic channel raster pattern",
+  "pixels_per_lens": 3.0,
+  "mixing_matrix": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "raster_channel_coverage_fraction": [
+    0.6666666666666666,
+    0.3333333333333333
+  ],
+  "source_native_ppi": 320.0,
+  "ideal_print_depth_estimate": {
+    "plane_offset_mm_range": [
+      -0.6574267745018005,
+      0.6591601371765137
+    ],
+    "convention": "negative in front of print, positive behind",
+    "basis": "ideal endpoint rays and stated lens angle/distance; not a measured optical reconstruction"
+  },
+  "compensation_clipped_fraction": 0.0,
+  "nonopaque_source_fraction": 0.0,
+  "status": "calibration_draft",
+  "warnings": [
+    "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır."
+  ],
+  "source_job_sha256": "dfdceb63fcf5c3eb6477147634fb1476962df0cf0bf1b19d15ed8d9e08585f85",
+  "interlaced_sha256": "8ea7307a16bb9c7491f8b04ae400b9f63cfb64def17f3a6730da0a2fe9f8144f",
+  "color_profile_sha256": "a425e1631076c581fc662477024b5329ccee97d34106f6fb1909fcc1f59ccc21",
+  "white_ink_instructions": "Import white-underbase.tif as White in your RIP; it is a separate grayscale mask, not an embedded spot ink.",
+  "printing_instructions": [
+    "Print at 100% physical size without fit-to-page or subsequent resampling.",
+    "Use the same RIP, material, lens batch, viewing distance and color settings as the pitch test.",
+    "Assign the separate white mask and registration marks in the UV RIP when required.",
+    "Animated proof is a simulation and does not verify physical ghosting."
+  ]
+}

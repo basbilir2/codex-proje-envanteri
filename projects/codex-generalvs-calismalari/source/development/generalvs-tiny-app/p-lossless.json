@@ -1,0 +1,14 @@
+{
+  "summary": "Kayıpsız uyarlamalı kanıt arşivi kabulü",
+  "tasks": [
+    {
+      "task_id": "lossless-read-acceptance",
+      "goal": "Mevcut test dosyasını yalnız oku ve kısa kanıt üret",
+      "operation": "read_file",
+      "target": "generalvs-tiny-app/test.js",
+      "inputs": {
+        "with_line_numbers": true
+      }
+    }
+  ]
+}

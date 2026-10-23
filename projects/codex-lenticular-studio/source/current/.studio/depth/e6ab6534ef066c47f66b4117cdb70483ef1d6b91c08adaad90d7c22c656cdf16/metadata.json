@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "model_id": "depth-anything/DA3MONO-LARGE",
+  "model_revision": "f465978e618db8cc79c83b8bbf24964857db1875",
+  "upstream_commit": "3d835ec1a5802d64a8b8b15f817a1ab54809bfe4",
+  "license": "Apache-2.0",
+  "device": "cpu",
+  "torch_version": "2.14.1+cpu",
+  "model_sha256": "7a799a7f95eb8d4c404c2ca8be3dc3276b350a417ddc4420db72ba850cc0e960",
+  "upstream_version": "0.0.0",
+  "source_photo": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.studio\\assets\\8312de9493d84d48\\photo.png",
+  "source_sha256": "5a8f3e223b7d7daa42d3c28fe034bfa4f7016afa511d2b44470353eab70a28a2",
+  "size": [
+    1872,
+    3098
+  ],
+  "model_size": [
+    308,
+    504
+  ],
+  "process_res": 504,
+  "process_res_method": "upper_bound_resize",
+  "alignment": "full-frame bilinear resize, no crop, align_corners=False",
+  "model_semantics": "direct relative depth Z, not disparity and not metres",
+  "output_convention": "white-near inverse relative depth normalized to [0,1]",
+  "normalization": {
+    "inverse_depth_percentiles": [
+      1,
+      99
+    ],
+    "inverse_depth_bounds": [
+      0.672929584980011,
+      4.184338474273682
+    ],
+    "clipped_fraction": 0.019999806878438255
+  },
+  "inference_seconds": 13.60012060002191,
+  "elapsed_seconds": 25.890837399987504,
+  "limitations": [
+    "Single-image estimated depth, not measured geometry",
+    "Veil, hair, petals and occluded boundaries can be wrong",
+    "No segmentation, inpainting or hidden surface generation"
+  ]
+}

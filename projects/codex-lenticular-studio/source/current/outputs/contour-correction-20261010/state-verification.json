@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "assets": 6,
+    "jobs": 99,
+    "profiles": 13
+  },
+  "state_sha256": "91bc310be45003e96902b2031f399bf7e9f680af238df0095215d00ee7b87219",
+  "state_unchanged": true,
+  "studio_was_not_running": true,
+  "studio_relaunched": false
+}

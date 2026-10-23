@@ -1,0 +1,86 @@
+{
+  "schema_id": "siparis-takip-vs-context",
+  "version": "1.1.12",
+  "product": "İzmirde Reklam Sipariş Takip VS",
+  "independent_from": [
+    "BTakip",
+    "Eski Sipariş Takip"
+  ],
+  "paths": {
+    "workspace": "C:\\Users\\USER\\Documents\\Codex\\2026-09-17\\siparis-takip-vs-recovered",
+    "installer": "C:\\Users\\USER\\Documents\\Codex\\2026-09-17\\siparis-takip-vs-recovered\\release-vs\\IzmirdeReklam-SiparisTakip-VS-Kurulum.exe",
+    "installed_exe": "C:\\Users\\USER\\AppData\\Local\\Programs\\izmirde-reklam-siparis-takip-vs\\İzmirde Reklam Sipariş Takip VS.exe",
+    "local_database": "%APPDATA%\\İzmirde Reklam Sipariş Takip VS\\vs-local-database.json",
+    "local_project_archive": "%USERPROFILE%\\Documents\\İzmirde Reklam Sipariş Takip VS",
+    "quick_order_archive": "%USERPROFILE%\\Documents\\İzmirde Reklam Sipariş Takip VS\\Hızlı Siparişler\\{Gönderen}",
+    "customer_archive": "%USERPROFILE%\\Documents\\İzmirde Reklam Sipariş Takip VS\\Müşteriler\\{Müşteri}"
+  },
+  "startup": {
+    "opens_workspace_directly": true,
+    "automatic_google_popup": false,
+    "offline_available": true,
+    "connect_button_when_local": true
+  },
+  "sync": {
+    "local_first": true,
+    "cloud": "Firebase Firestore workspaceId isolation",
+    "migrate_local_records_after_google_connection": true,
+    "upload_project_files_to_cloud": false
+  },
+  "verification": {
+    "installed_product_version": "1.1.12",
+    "opens_directly": true,
+    "local_database_bridge": true,
+    "whatsapp_page_loaded": true
+  },
+  "changes_1_1_1": {
+    "customer_email_optional": true,
+    "empty_email_creates_access_record": false,
+    "customer_page_actions": [
+      "Excel / CSV yükle",
+      "Müşteri yükle"
+    ],
+    "AnonPerson_0011_import": {
+      "source": "C:\\Users\\USER\\Downloads\\AnonPerson_0012.xlsx",
+      "orders": 78,
+      "source_priced_orders": 76,
+      "unpriced_orders": 2,
+      "source_price_total": 120147.375
+    }
+  },
+  "changes_1_1_2": {
+    "whatsapp_download_deduplicated": true,
+    "move_completed_download_to_customer_folder": true,
+    "retry_from_order_context_menu": true,
+    "live_pdf_download_verified": false
+  },
+  "changes_1_1_10": {
+    "save_before_order_creation": true,
+    "supported_whatsapp_media": [
+      "document",
+      "image",
+      "video",
+      "audio"
+    ],
+    "quick_order_folder_by_sender": true,
+    "customer_folder_by_customer": true,
+    "live_download_verified": {
+      "customer": "Kadir",
+      "file": "Kadir - WhatsApp Image 2026-09-18 at 22.46.13.jpeg",
+      "bytes": 171221,
+      "valid_jpeg": true
+    }
+  },
+  "changes_1_1_11": {
+    "whatsapp_session_user_agent_fixed": true,
+    "installed_qr_and_login_verified": true
+  },
+  "changes_1_1_12": {
+    "right_click_registered_customer_order": true,
+    "right_click_retail_one_off_order": true,
+    "manual_registered_customer_selection": true,
+    "attachment_download_before_order_form": true,
+    "order_form_material_measure_cost_sale": true,
+    "live_new_menu_file_import_verified": false
+  }
+}

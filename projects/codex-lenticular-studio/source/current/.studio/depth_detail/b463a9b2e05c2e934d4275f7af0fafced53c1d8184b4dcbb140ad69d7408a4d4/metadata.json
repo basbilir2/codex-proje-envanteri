@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "model_revision": "f465978e618db8cc79c83b8bbf24964857db1875",
+  "tiles": [
+    {
+      "tile": 0,
+      "accepted": true,
+      "correlation": 0.9359390170593472,
+      "scale": 0.6522444137392556
+    },
+    {
+      "tile": 1,
+      "accepted": true,
+      "correlation": 0.9654635536860364,
+      "scale": 0.9139469524368699
+    },
+    {
+      "tile": 2,
+      "accepted": true,
+      "correlation": 0.9109511442971054,
+      "scale": 0.49737854956720295
+    },
+    {
+      "tile": 3,
+      "accepted": true,
+      "correlation": 0.9392686574544353,
+      "scale": 1.1954341669986197
+    },
+    {
+      "tile": 4,
+      "accepted": true,
+      "correlation": 0.9722472481019752,
+      "scale": 1.1139561088094752
+    },
+    {
+      "tile": 5,
+      "accepted": true,
+      "correlation": 0.9628341661544142,
+      "scale": 0.9585273584362415
+    },
+    {
+      "tile": 6,
+      "accepted": true,
+      "correlation": 0.9462359687901378,
+      "scale": 0.9676542830383955
+    },
+    {
+      "tile": 7,
+      "accepted": true,
+      "correlation": 0.9612899715344763,
+      "scale": 1.162035297214947
+    },
+    {
+      "tile": 8,
+      "accepted": true,
+      "correlation": 0.9862760951893357,
+      "scale": 0.8424147830427271
+    }
+  ],
+  "delta_limit": 0.06,
+  "delta_range": [
+    -0.05999999865889549,
+    0.05999999865889549
+  ],
+  "delta_rms": 0.019798289984464645,
+  "method": "9 overlapping local AI estimates; positive affine scale; bounded high-frequency depth residual; edge suppression",
+  "limitation": "Estimated local relief, not recovered ground-truth geometry. No luminance-to-depth conversion."
+}

@@ -1,0 +1,2 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><style>body{margin:0;font-family:Arial}#fixture{padding:12px}</style><button id="fixture">Verilen Mavi fotoğrafını dene</button><dtf-studio></dtf-studio><script type="module" src="dtf-studio.js"></script><script type="module">document.querySelector('#fixture').onclick=async()=>{const app=document.querySelector('dtf-studio'),blob=await(await fetch('mavi-20261019.jpeg')).blob();await app.run(()=>app.addFiles([new File([blob],'Mavi fotoğraf.jpeg',{type:'image/jpeg'})]));};</script></html>
+

@@ -1,0 +1,97 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 1023,
+    "sha256": "42d668f716bbd200a2585847eec94e6d776d31860db00ce2b657a813829dce5f"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 341,
+    "sha256": "035aceaa81f97977e5f3c127845d1fcb1041f1c5772ec743da6c22a4f47fa29f"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 799,
+    "sha256": "0946cec08407e7a81bf4d740ec7fe8d822bbb6ee419398121d79141d3b94beb2"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1103,
+    "sha256": "b423dfc75b4aa563610d1376632e174610aca919b5aaed8ee6ab4a12ec33501e"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "68f95c56b30dcb91ae3c72dcb173e2d8ef58842ffff1950c6dfb5a720f147162"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-image-engine/AGENTS.md",
+    "bytes": 1585,
+    "sha256": "368c57730861aee18b26222cfaa3555047727c30c26e5e6007358f16c8346e10"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-image-engine/connection-result.json",
+    "bytes": 416,
+    "sha256": "5c4ecec3c7361c377ee69de71ee001d375e9a177c2732344793717d661e0113e"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-image-engine/opencode-job.json",
+    "bytes": 197,
+    "sha256": "adbcddb4bc9bde8c0b408e167d7fa0ea11624c7d94a5862613aedc3ae4e9f1a4"
+  },
+  {
+    "path": "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-image-engine/references/accepted-mavi-recipe.json",
+    "bytes": 1017,
+    "sha256": "4c0620353013376679bc9e35fc250a96b363b71474e663313e14e28f8fdb7b4a"
+  }
+]

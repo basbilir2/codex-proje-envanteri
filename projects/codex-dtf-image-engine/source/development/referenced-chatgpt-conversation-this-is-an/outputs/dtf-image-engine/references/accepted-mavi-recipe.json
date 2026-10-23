@@ -1,0 +1,20 @@
+{
+  "role": "User-selected visual quality reference; not a claim of pixel-faithful recovery",
+  "file": "accepted-mavi.png",
+  "sha256": "7c5482728e21d182e107038fcef282253f03369c0b32356058192f12481eea6d",
+  "actual_source_pipeline": {
+    "reconstruction_model": "FLUX.2-klein-4B-Q4_0",
+    "width": 512,
+    "height": 336,
+    "steps": 4,
+    "seed": 42,
+    "sampler": "euler",
+    "cfg_scale": 1.0,
+    "cpu_threads": 8,
+    "actual_inference_seconds": 247.6,
+    "background": "solid magenta, subsequently removed with the local redraw-matte pipeline",
+    "small_lettering": "EST.1991 typeset in selected rectangle (330,235,98,42), approximate font; not source glyph recovery"
+  },
+  "integration_status": "Generated locally. Native reconstruction worker not yet connected to Wix. Browser preserve-mode ESRGAN result is a different pipeline.",
+  "constraint": "Do not hardcode this PNG or the word Mavi as a general restoration engine. Keep preserve-original and reconstruct modes distinct."
+}

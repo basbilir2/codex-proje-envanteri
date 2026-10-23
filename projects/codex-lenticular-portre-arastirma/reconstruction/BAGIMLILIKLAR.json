@@ -1,0 +1,8 @@
+{
+  "manifests": [
+    "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/requirements.txt",
+    "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/pyproject.toml",
+    "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/requirements.txt"
+  ],
+  "policy": "Use preserved manifest and lock files; no personal account values are included."
+}

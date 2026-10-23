@@ -1,0 +1,9 @@
+{
+  "pid": 8280,
+  "before_state_sha256": "91BC310BE45003E96902B2031F399BF7E9F680AF238DF0095215D00EE7B87219",
+  "ready": true,
+  "state_preserved": true,
+  "assets": 6,
+  "jobs": 99,
+  "profiles": 13
+}

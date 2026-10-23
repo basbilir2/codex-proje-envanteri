@@ -1,0 +1,78 @@
+{
+  "real_model": "NVIDIA Nemotron",
+  "native_mcp_used": true,
+  "automatic_repair_count": 1,
+  "browser_check": {
+    "passed": true,
+    "title": "Mini Uzay Oyunu",
+    "text": "Skor: 1\nCan: 3\nDuraklat",
+    "controls": "- text: \"Skor: 1 Can: 3\"\n- button \"Duraklat\"",
+    "errors": [],
+    "failed_requests": [],
+    "assertions": [
+      {
+        "action": "wait",
+        "target": "",
+        "passed": true
+      },
+      {
+        "action": "expect_text",
+        "target": "Duraklat",
+        "passed": true
+      },
+      {
+        "action": "click",
+        "target": "Duraklat",
+        "passed": true
+      },
+      {
+        "action": "expect_stable",
+        "target": "#cvs",
+        "passed": true
+      },
+      {
+        "action": "expect_text",
+        "target": "Devam Et",
+        "passed": true
+      },
+      {
+        "action": "click",
+        "target": "Devam Et",
+        "passed": true
+      },
+      {
+        "action": "expect_motion",
+        "target": "#cvs",
+        "passed": true
+      },
+      {
+        "action": "expect_text",
+        "target": "Duraklat",
+        "passed": true
+      }
+    ],
+    "screenshot": "C:\\Users\\USER\\Documents\\Codex\\2026-10-17\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\Uc-Ajan-Sistemi\\.system\\studio-data\\workbench\\271e4b9d2d9c4a3d88c7276d07aecc34\\checks\\46e40eb2a7824881af0defaf4ee9f324.png",
+    "external_network": "blocked",
+    "fresh_profile": true,
+    "id": "46e40eb2a7824881af0defaf4ee9f324",
+    "kind": "browser",
+    "created": 1792346862.5164726,
+    "fingerprint": "b5b48939659553f16c53f8a90a062a6c17c2a157d9304d72e1df763800431def",
+    "acceptance": "ae92081096cf30292bfee3561d3a8c743d551c889bb833c3c0eb13b569e6d2ef"
+  },
+  "package": {
+    "kind": "package",
+    "passed": true,
+    "output": "Statik web uygulaması; derleyici gerekmiyor.",
+    "errors": [],
+    "steps": [],
+    "note": "Kaynak kod paketi",
+    "artifact": "C:\\Users\\USER\\Documents\\Codex\\2026-10-17\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\Uc-Ajan-Sistemi\\.system\\studio-data\\workbench\\271e4b9d2d9c4a3d88c7276d07aecc34\\artifacts\\20261018-210742-048e03.zip",
+    "artifact_name": "20261018-210742-048e03.zip",
+    "bytes": 3451,
+    "sha256": "13a3cd82240c2f2a17f379036aa68428d903d86d59ddc9809b2ef20fcc4a25ba",
+    "id": "ba5a4d4d990e452993843b670bac5d8d",
+    "created": 1792346862.54869,
+    "fingerprint": "b5b48939659553f16c53f8a90a062a6c17c2a157d9304d72e1df763800431def"
+  }
+}

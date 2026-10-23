@@ -1,0 +1,43 @@
+{
+  "input_identity": {
+    "photo.png": "e8b5b0a514a42e60767c24333a79c483188a6fc258dd682df20a1dae2e5b459c",
+    "person_mask.png": "d1251a0da2397d784d5edcc0506b262924a44773295e3ca4b7da2d6cb7830777",
+    "hand_mask.png": "0d2abb3ecca7cf65b5d1e98fbcefaf08270206d6ddb0f4bfd1dcacfe2bc6daac"
+  },
+  "wall": {
+    "engine": "LaMa TorchScript v0.1.0 / CPU",
+    "model_size": [
+      631,
+      1024
+    ],
+    "estimated_fraction": 0.49504708396332553,
+    "visible_pixels_unchanged": true,
+    "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+  },
+  "person": {
+    "engine": "PyMatting closed-form alpha + multilevel foreground",
+    "tiles": 30,
+    "uncertain_fraction": 0.028262133551836585,
+    "unresolved_fraction": 0.0,
+    "fractional_alpha_fraction": 0.02040087897899389
+  },
+  "hand": {
+    "engine": "PyMatting closed-form alpha + multilevel foreground",
+    "tiles": 5,
+    "uncertain_fraction": 0.004122972913321525,
+    "unresolved_fraction": 0.0,
+    "fractional_alpha_fraction": 0.0029728650411348927
+  },
+  "hand_hidden_completion": {
+    "engine": "LaMa TorchScript v0.1.0 / CPU",
+    "model_size": [
+      619,
+      1024
+    ],
+    "estimated_fraction": 0.023364950091870687,
+    "visible_pixels_unchanged": true,
+    "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+  },
+  "padding": 48,
+  "visible_source_changed": false
+}

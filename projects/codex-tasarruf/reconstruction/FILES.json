@@ -1,0 +1,87 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 874,
+    "sha256": "8858b4ba71b2f01c49c0982d07f96bafbb6e0831d26c96fbeb8420117b1c8e70"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 277,
+    "sha256": "4827f6c0fac457e7d5ec6d28055dd15ac20c6180012a12e1d86cecda2a2a6458"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 722,
+    "sha256": "0195629c7db1bf9a450d723a95f6f5db9bae9e28ef50b2e17180991f27321238"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1090,
+    "sha256": "922d5cfd68a3393df06c7fc6b21507906cb01557c79881675471e11a1769f699"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "2f94f937e17802cfcae28367f0cc4c41d0bd380763821cf986fae6a8b5b45eda"
+  },
+  {
+    "path": "source/project-records/AGENTS.md",
+    "bytes": 399,
+    "sha256": "efdc2591e5957c9e50085a681e02b73bddf33673774ab9a1bac63ba635e0730f"
+  },
+  {
+    "path": "source/project-records/_general_inspect_plan.json",
+    "bytes": 812,
+    "sha256": "16c7db3dc9b5a20faa2c93d19476b46211a298b247b0e878bd338f50ecc51311"
+  }
+]

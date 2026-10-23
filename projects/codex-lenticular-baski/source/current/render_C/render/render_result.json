@@ -1,0 +1,312 @@
+[
+  {
+    "index": 0,
+    "camera_x": -0.11327973008155823,
+    "camera_y": 0.0,
+    "shift_x": 0.07278857380151749,
+    "shift_y": 0.0,
+    "file": "views/view_0000.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 996.0913524627686,
+        "v_px": 1549.0,
+        "expected_u_px": 996.0913199816096,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 897.9155502319336,
+        "v_px": 1549.0,
+        "expected_u_px": 897.9155559932859,
+        "expected_v_px": 1549.0
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "camera_x": -0.08810645341873169,
+    "camera_y": 0.0,
+    "shift_x": 0.05661333352327347,
+    "shift_y": 0.0,
+    "file": "views/view_0001.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 982.7376937866211,
+        "v_px": 1549.0,
+        "expected_u_px": 982.7376933190296,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 906.37877368927,
+        "v_px": 1549.0,
+        "expected_u_px": 906.3787657725557,
+        "expected_v_px": 1549.0
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "camera_x": -0.06293318420648575,
+    "camera_y": 0.0,
+    "shift_x": 0.04043809697031975,
+    "shift_y": 0.0,
+    "file": "views/view_0002.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 969.3840351104736,
+        "v_px": 1549.0,
+        "expected_u_px": 969.3840666564497,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 914.8419971466064,
+        "v_px": 1549.0,
+        "expected_u_px": 914.8419755518255,
+        "expected_v_px": 1549.0
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "camera_x": -0.03775990754365921,
+    "camera_y": 0.0,
+    "shift_x": 0.02426285669207573,
+    "shift_y": 0.0,
+    "file": "views/view_0003.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 956.0304880142212,
+        "v_px": 1549.0,
+        "expected_u_px": 956.0304399938699,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 923.3052206039429,
+        "v_px": 1549.0,
+        "expected_u_px": 923.3051853310953,
+        "expected_v_px": 1549.0
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "camera_x": -0.01258663646876812,
+    "camera_y": 0.0,
+    "shift_x": 0.008087619207799435,
+    "shift_y": 0.0,
+    "file": "views/view_0004.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 942.6768293380737,
+        "v_px": 1549.0,
+        "expected_u_px": 942.67681333129,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 931.7683882713318,
+        "v_px": 1549.0,
+        "expected_u_px": 931.7683951103651,
+        "expected_v_px": 1549.0
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "camera_x": 0.01258663646876812,
+    "camera_y": 0.0,
+    "shift_x": -0.008087619207799435,
+    "shift_y": 0.0,
+    "file": "views/view_0005.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 929.3232264518738,
+        "v_px": 1549.0,
+        "expected_u_px": 929.32318666871,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 940.2316675186157,
+        "v_px": 1549.0,
+        "expected_u_px": 940.2316048896349,
+        "expected_v_px": 1549.0
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "camera_x": 0.03775990754365921,
+    "camera_y": 0.0,
+    "shift_x": -0.02426285669207573,
+    "shift_y": 0.0,
+    "file": "views/view_0006.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 915.9695119857788,
+        "v_px": 1549.0,
+        "expected_u_px": 915.9695600061302,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 948.6947793960571,
+        "v_px": 1549.0,
+        "expected_u_px": 948.6948146689047,
+        "expected_v_px": 1549.0
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "camera_x": 0.06293318420648575,
+    "camera_y": 0.0,
+    "shift_x": -0.04043809697031975,
+    "shift_y": 0.0,
+    "file": "views/view_0007.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 902.6159090995789,
+        "v_px": 1549.0,
+        "expected_u_px": 902.6159333435503,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 957.1580028533936,
+        "v_px": 1549.0,
+        "expected_u_px": 957.1580244481745,
+        "expected_v_px": 1549.0
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "camera_x": 0.08810645341873169,
+    "camera_y": 0.0,
+    "shift_x": -0.05661333352327347,
+    "shift_y": 0.0,
+    "file": "views/view_0008.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 889.2623062133789,
+        "v_px": 1549.0,
+        "expected_u_px": 889.2623066809704,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 965.62122631073,
+        "v_px": 1549.0,
+        "expected_u_px": 965.6212342274443,
+        "expected_v_px": 1549.0
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "camera_x": 0.11327973008155823,
+    "camera_y": 0.0,
+    "shift_x": -0.07278857380151749,
+    "shift_y": 0.0,
+    "file": "views/view_0009.png",
+    "projection_checks": [
+      {
+        "z": 1.5,
+        "u_px": 875.908703327179,
+        "v_px": 1549.0,
+        "expected_u_px": 875.9086800183904,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 2.16150625555846,
+        "u_px": 936.0,
+        "v_px": 1549.0,
+        "expected_u_px": 936.0,
+        "expected_v_px": 1549.0
+      },
+      {
+        "z": 3.0,
+        "u_px": 974.0844497680664,
+        "v_px": 1549.0,
+        "expected_u_px": 974.0844440067141,
+        "expected_v_px": 1549.0
+      }
+    ]
+  }
+]

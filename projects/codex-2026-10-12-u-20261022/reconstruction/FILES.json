@@ -1,0 +1,147 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 292,
+    "sha256": "ec34a486936a6c0e3907b48c62f9f2cd6de9a398a7dce79d9f77784219828efb"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 1618,
+    "sha256": "8d037155dc2b57df31f2f75884f70322761279b5b87263e4bde687d0d81807e1"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1089,
+    "sha256": "d3421e8b6af67c4c906e361e6365a9ec8cd4491341a512864e2f478153dc5c0c"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 627,
+    "sha256": "24d30c6c0beeb7ed265a09481f09d6a67fbc37585dd05c432c37e6b05a3bae41"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "3a7f06782365d34c233fa6f4c5b89bc35e2d409618d65985c81ce1f3a09e873b"
+  },
+  {
+    "path": "source/workspace/work/check-corel-status.ps1",
+    "bytes": 890,
+    "sha256": "a99eb0b8d3d7eea9ae53a20ecac00ff5c44c7c608acecaa3d1a33b00c310b32d"
+  },
+  {
+    "path": "source/workspace/work/continue-Operator.ps1",
+    "bytes": 4600,
+    "sha256": "44f91f009c7a8aa92c4d5bf94aa30aacb60493cc7df1a46309daf77fe589dd5e"
+  },
+  {
+    "path": "source/workspace/work/inspect-corel.ps1",
+    "bytes": 821,
+    "sha256": "8c299ee6cad19fad5fa10a5f17a9ad5766daf3b14bef53a635610dab5c426678"
+  },
+  {
+    "path": "source/workspace/work/inspect-number.ps1",
+    "bytes": 528,
+    "sha256": "95557d2e7e2069cffb0ef4e34860e422c603a7d61486389a3ed01b11a41581ba"
+  },
+  {
+    "path": "source/workspace/work/inspect-outlines.ps1",
+    "bytes": 587,
+    "sha256": "7508664809fe94306a5d05ee59fac988d97d52924a15283f6c1c0eda3696d799"
+  },
+  {
+    "path": "source/workspace/work/layout-corel.ps1",
+    "bytes": 4144,
+    "sha256": "cb26c56ef4311d85c8bee749428cce7b1957df6fa6686f6de4747b42347c06f3"
+  },
+  {
+    "path": "source/workspace/work/layout-Operator.ps1",
+    "bytes": 4773,
+    "sha256": "05a5de2d7d784b80f9f78fb24d6c46f7c7f72b6f6e95c084e5c974e3f8731665"
+  },
+  {
+    "path": "source/workspace/work/preflight-corel.ps1",
+    "bytes": 1930,
+    "sha256": "5c9a5e580a18bb0294fc67f90a412dd91f5eeb66f9e230d6b00a24051975c73b"
+  },
+  {
+    "path": "source/workspace/work/remove-outlines.ps1",
+    "bytes": 1699,
+    "sha256": "63de29dcce7dda8388f49453a1a248b64c3335db3a58129d94678afede178673"
+  },
+  {
+    "path": "source/workspace/work/reopen-Operator.ps1",
+    "bytes": 1035,
+    "sha256": "816339018d8ff3709e0f270a4949880b2fc4278c45231eafb9ba2308a42cb283"
+  },
+  {
+    "path": "source/workspace/work/save-method.ps1",
+    "bytes": 310,
+    "sha256": "b7d8ffa70cf8e649f22d47784c331f59c1249b4f3ebc454293178177f67ed8c0"
+  },
+  {
+    "path": "source/workspace/work/save-reopen-corel.ps1",
+    "bytes": 2010,
+    "sha256": "28332ac36f624ad2a12da4568bcf8376065ade75bff124e06ebb38bce9cd113b"
+  },
+  {
+    "path": "source/workspace/work/source-sha256.txt",
+    "bytes": 66,
+    "sha256": "601eaa9db4e17bf44373d5bec935be813741f2e3b4fa33ef848e24b8ebe09f9b"
+  },
+  {
+    "path": "source/workspace/work/verify-save-corel.ps1",
+    "bytes": 2975,
+    "sha256": "af05191374b05a9b6ee88c3471ffdc7bdd741c2dfb14c3e735780e549e2fb6e2"
+  }
+]

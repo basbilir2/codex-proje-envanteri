@@ -1,0 +1,182 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 863,
+    "sha256": "7903869f1ee8126c818134aa23902e469317302cb6e6b2203598f6cc4ce914f7"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 1522,
+    "sha256": "c0c197456d510f39b855469367386279ac49d09c99db9f105c3433a1cf333475"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1085,
+    "sha256": "6d49eb991b2e7042ccce03b269984370d6717f380c1dc410e2d2fac7e0f6d122"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 240,
+    "sha256": "b22dedc8abf8753493b75251abbc1e5fd946ec203b5c67ef52e818d3207ec5f7"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 178,
+    "sha256": "5955ae8543902e25dbd98e6eaa1702669c8d572c5741684d4a98b34200b11e55"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "d2d1d991de16daa452a038889b079a43f883494606d131042d17a44cdfdd72c7"
+  },
+  {
+    "path": "source/development/outputs/len 2/CALISMA_DUZENI.md",
+    "bytes": 3188,
+    "sha256": "96b662c72bf858e50f6f104817d7127a656250b7706f1ce3ba76c4d5462c379c"
+  },
+  {
+    "path": "source/development/outputs/len 2/GOREV_TANIMI.md",
+    "bytes": 3703,
+    "sha256": "5b10171cda5f2a0f14fc4f69eac1b61e648b46c517f608079ed17794de60506d"
+  },
+  {
+    "path": "source/development/outputs/len 2/len 2.md",
+    "bytes": 16043,
+    "sha256": "fa1d0c4f7254a1fbdcb81b080e5e48abf5fb984dad605de9f4609046d2b355c1"
+  },
+  {
+    "path": "source/development/outputs/len 2/checks/expertise_validation.json",
+    "bytes": 331,
+    "sha256": "bf043e926db95ba2d37ab2f318e415684cbb7b2eb5694dfdde380e8677c34154"
+  },
+  {
+    "path": "source/development/outputs/len 2/checks/package_manifest.json",
+    "bytes": 8295,
+    "sha256": "3bc1622ac6c2d14f1f9049a0dbe1fb5cf092521107904f4bce7b511a5825ced3"
+  },
+  {
+    "path": "source/development/outputs/len 2/checks/validation.json",
+    "bytes": 1113,
+    "sha256": "e89af6c26c3fabb5d3b659ca8d28d123001c64e047bfc65fbd49b140cf8d0702"
+  },
+  {
+    "path": "source/development/outputs/len 2/egitim_icerigi/OKU.md",
+    "bytes": 7160,
+    "sha256": "4dc84d113406d964dd015d7a62b14cffc2d9df32537f295956789625336bb16d"
+  },
+  {
+    "path": "source/development/outputs/len 2/eval/DEGERLENDIRME_DURUMU.json",
+    "bytes": 782,
+    "sha256": "f46032623f4f451b527ee3baf8abc448e1c822d40cfa35cedeea5730aff9396b"
+  },
+  {
+    "path": "source/development/outputs/len 2/orchestration/policy.json",
+    "bytes": 2194,
+    "sha256": "864890d45eb2163fba75245c6978e635d4c07d8b6f11b3feae74e86add83d9fc"
+  },
+  {
+    "path": "source/development/outputs/len 2/prompts/local_engineer.txt",
+    "bytes": 1163,
+    "sha256": "1fde2f83cd37b83ef7342a3edd45b59fd908771bf4e489d8c9d9edbaf8b7ca44"
+  },
+  {
+    "path": "source/development/outputs/len 2/prompts/worker_system.txt",
+    "bytes": 583,
+    "sha256": "92c0b1c61332a52d6277123a399f80f67c3a2bfcbc587abc083978d6f44a1091"
+  },
+  {
+    "path": "source/development/outputs/len 2/runtime/config.json",
+    "bytes": 483,
+    "sha256": "e06690c6893cb7a9e1e50d0595188d583bf43c00329108f1b4d5b54f08b55d89"
+  },
+  {
+    "path": "source/development/outputs/len 2/schemas/local_reply.schema.json",
+    "bytes": 583,
+    "sha256": "08e190e806c290e6b3703e3d451e23622f8dd2534d17803149b459bc75a9b4bf"
+  },
+  {
+    "path": "source/development/outputs/len 2/schemas/sft.schema.json",
+    "bytes": 1568,
+    "sha256": "9bb33275f44ac909b22b6f659e0f2351d8f83a0b576b5cbbebf396a9f6aa2c57"
+  },
+  {
+    "path": "source/development/outputs/len 2/tools/local_worker.py",
+    "bytes": 5395,
+    "sha256": "3ecab4ffe0b629ad179790bf9549bc3e35f4c22bb1b42315b307b95eb6d9b50f"
+  },
+  {
+    "path": "source/development/outputs/len 2/tools/retrieve.py",
+    "bytes": 1953,
+    "sha256": "3f6193f5f10564443fdef6e88c0f697b8b9009b75dc161381ec07ae1df37c236"
+  },
+  {
+    "path": "source/development/outputs/len 2/tools/validate.py",
+    "bytes": 6491,
+    "sha256": "eaf363ed08a6cb4a6d4502c4da139d8678dad82927c168799b57c0ebaa918bf8"
+  },
+  {
+    "path": "source/development/outputs/len 2/uzmanlik_programi/is_emri.schema.json",
+    "bytes": 1945,
+    "sha256": "dce44a86baee4220ab676167d0e9e920df5f9b1caadee21437cd81c651b522df"
+  },
+  {
+    "path": "source/development/outputs/len 2/uzmanlik_programi/UZMANLIK_PLANI.md",
+    "bytes": 10003,
+    "sha256": "d6f5dd60709a0823e1cf159b02a207dd16de61ca1afd3a1935f2e72432268c6c"
+  },
+  {
+    "path": "source/development/outputs/len 2/uzmanlik_programi/YAZILIMLAR.md",
+    "bytes": 1948,
+    "sha256": "8382cb4e3e8bf5966fa475c14f077ca437181432442c346d5afa164a557725d0"
+  },
+  {
+    "path": "source/development/outputs/len 2/runtime/runs/20261010-231810-146093/result.json",
+    "bytes": 494,
+    "sha256": "8d591fa9f976c0ab326a1eef4f161a7ae66e5cdfa53b6dc68c3a0d2402a6e66a"
+  }
+]

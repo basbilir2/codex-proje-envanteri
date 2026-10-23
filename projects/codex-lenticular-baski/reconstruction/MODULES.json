@@ -1,0 +1,13 @@
+[
+  "source/current/apply_vd_fixes.py",
+  "source/current/execute_vd_plan.py",
+  "source/current/tools/audit_lenticular_cleanup.py",
+  "source/current/tools/cleanup_lenticular_allowlist.ps1",
+  "source/current/tools/codex_portrait_100.py",
+  "source/current/tools/execute_dogal_hacim.py",
+  "source/current/tools/execute_lens_plan.py",
+  "source/current/tools/execute_strong_trial.py",
+  "source/current/tools/lens_plan.py",
+  "source/current/tools/refine_regional_depth.py",
+  "source/current/tools/reinterlace_existing.py"
+]

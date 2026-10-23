@@ -1,0 +1,493 @@
+{
+  "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\60LPI-LENS-23.5x19-A3\\A3-60LPI-59-63-LENS23.5x19-22CM-1200PPI.tif",
+  "ppi": 1200,
+  "page_mm": [
+    296.9895,
+    420.01016666666663
+  ],
+  "lens_width_mm": 235,
+  "lens_height_mm": 190,
+  "orientation_assumed": "235 mm horizontal, 190 mm vertical, vertical grooves",
+  "pattern_width_mm": 220.00633333333334,
+  "band_height_mm": 8.001,
+  "panels": [
+    [
+      "59.00",
+      "61.00"
+    ],
+    [
+      "61.00",
+      "63.00"
+    ]
+  ],
+  "step": "0.10",
+  "unique_lpi_count": 41,
+  "band_count": 42,
+  "all_native_pixels_equal": true,
+  "both_lens_reference_frames_verified": true,
+  "sha256": "15919cb1c34dd7145a01ed8cfcaeea4a99ebb42540ee49ae81eacb8319c3a00d",
+  "rows": [
+    {
+      "panel": 1,
+      "lpi": "59.00",
+      "box_px": [
+        1819,
+        1512,
+        12213,
+        1890
+      ],
+      "native_rgb_sha256": "340d43b190a4a58405c11cd423959d271f3cdf7763b2f51b05a205028da9625c"
+    },
+    {
+      "panel": 1,
+      "lpi": "59.10",
+      "box_px": [
+        1819,
+        1909,
+        12213,
+        2287
+      ],
+      "native_rgb_sha256": "826da10140113f5b16f82d6b3ba0de1b61bd94acef63d58fc962015c45284400"
+    },
+    {
+      "panel": 1,
+      "lpi": "59.20",
+      "box_px": [
+        1819,
+        2306,
+        12213,
+        2684
+      ],
+      "native_rgb_sha256": "d4a1d95f45bb5832c49959132c2946ab446630ec1b34622b3ecaa083ca53aea2"
+    },
+    {
+      "panel": 1,
+      "lpi": "59.30",
+      "box_px": [
+        1819,
+        2702,
+        12213,
+        3080
+      ],
+      "native_rgb_sha256": "7333d96cc0ed906824b8c4c5f3750fa799c7956949322f6fb05b9a63c91b43e3"
+    },
+    {
+      "panel": 1,
+      "lpi": "59.40",
+      "box_px": [
+        1819,
+        3099,
+        12213,
+        3477
+      ],
+      "native_rgb_sha256": "d93b92d357826746beb174ba1c06565915ad4f482d3d8d591070025cb88035ad"
+    },
+    {
+      "panel": 1,
+      "lpi": "59.50",
+      "box_px": [
+        1819,
+        3496,
+        12213,
+        3874
+      ],
+      "native_rgb_sha256": "9f3a1030a53e93fb103e4469929c87202a68aa88e7cde47dff8f9eaddaf8d687"
+    },
+    {
+      "panel": 1,
+      "lpi": "59.60",
+      "box_px": [
+        1819,
+        3893,
+        12213,
+        4271
+      ],
+      "native_rgb_sha256": "c12baaf3f5ae8e9929606547aa46813d9c4db3d009dee21f12906bd053b88bf2"
+    },
+    {
+      "panel": 1,
+      "lpi": "59.70",
+      "box_px": [
+        1819,
+        4290,
+        12213,
+        4668
+      ],
+      "native_rgb_sha256": "cce3cbf89d4dfe865428f3f5eb15bf28ca24807d935e6e42c137721657786cd5"
+    },
+    {
+      "panel": 1,
+      "lpi": "59.80",
+      "box_px": [
+        1819,
+        4687,
+        12213,
+        5065
+      ],
+      "native_rgb_sha256": "aa0517bbb8b8ef715e0f9e394b9a5a9ef75ce5037ca106f2cf3ce6e17cdb3827"
+    },
+    {
+      "panel": 1,
+      "lpi": "59.90",
+      "box_px": [
+        1819,
+        5083,
+        12213,
+        5461
+      ],
+      "native_rgb_sha256": "63a53891f3e909b7e04b9c9343ae3c8b11f302bafb07f6fa246f74dc23387c11"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.00",
+      "box_px": [
+        1819,
+        5480,
+        12213,
+        5858
+      ],
+      "native_rgb_sha256": "b1beb6a3156bd862ecbe59c430d51d5543cb4882dccbc00a38939ff45d0b5b81"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.10",
+      "box_px": [
+        1819,
+        5877,
+        12213,
+        6255
+      ],
+      "native_rgb_sha256": "ceb61b82536bdbe530dc88369ddf44aaabe259051d8a66c0c95ed9e1ff43c9b9"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.20",
+      "box_px": [
+        1819,
+        6274,
+        12213,
+        6652
+      ],
+      "native_rgb_sha256": "226c75f01d4e5231810563e1f6af4ea248df337a2bba29e19422906373625601"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.30",
+      "box_px": [
+        1819,
+        6671,
+        12213,
+        7049
+      ],
+      "native_rgb_sha256": "47872d8074a5ecdf958938d24eb7bf3241842844a33c2f7a41347172172b9fdd"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.40",
+      "box_px": [
+        1819,
+        7068,
+        12213,
+        7446
+      ],
+      "native_rgb_sha256": "3c9c57f4031fb60e2ac0081aa4e550c9c9f39fc70b4cdd0af8032c795a773b49"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.50",
+      "box_px": [
+        1819,
+        7465,
+        12213,
+        7843
+      ],
+      "native_rgb_sha256": "733d453c820a804b525dc1cc1941d35b26ea4a660b45b71805ca7d821c7c617f"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.60",
+      "box_px": [
+        1819,
+        7861,
+        12213,
+        8239
+      ],
+      "native_rgb_sha256": "d25f21691f76e2d1d4a7bac21f8a8f63d9ea2d70e1fc74fec2ce8d84a0823c13"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.70",
+      "box_px": [
+        1819,
+        8258,
+        12213,
+        8636
+      ],
+      "native_rgb_sha256": "9eff6911fad838c504e69aa1515091f379119bd2b8c989925c1a242d3c21275e"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.80",
+      "box_px": [
+        1819,
+        8655,
+        12213,
+        9033
+      ],
+      "native_rgb_sha256": "dc4234da50c0b5b6ab8d3bdc780bc328d39255aa0c385910fb493ae3706f73c4"
+    },
+    {
+      "panel": 1,
+      "lpi": "60.90",
+      "box_px": [
+        1819,
+        9052,
+        12213,
+        9430
+      ],
+      "native_rgb_sha256": "1fd5fa20fdb469779c300df97d25b1b1310eed51c1e008cbb5ebf1c22a25cf37"
+    },
+    {
+      "panel": 1,
+      "lpi": "61.00",
+      "box_px": [
+        1819,
+        9449,
+        12213,
+        9827
+      ],
+      "native_rgb_sha256": "57469846f02ac4a55e0a93f806ef34d4757cd2d15d153c50e7c21674da23c4f0"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.00",
+      "box_px": [
+        1819,
+        10866,
+        12213,
+        11244
+      ],
+      "native_rgb_sha256": "57469846f02ac4a55e0a93f806ef34d4757cd2d15d153c50e7c21674da23c4f0"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.10",
+      "box_px": [
+        1819,
+        11263,
+        12213,
+        11641
+      ],
+      "native_rgb_sha256": "813e2bae05ace892c98c824a4d0af96ced9998852fbc38ba213f55f3fe7d4112"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.20",
+      "box_px": [
+        1819,
+        11660,
+        12213,
+        12038
+      ],
+      "native_rgb_sha256": "e95dedc992249bf9b9ec5e11fd0bcc213d5c5657b59581643859e6fe504b5c02"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.30",
+      "box_px": [
+        1819,
+        12057,
+        12213,
+        12435
+      ],
+      "native_rgb_sha256": "2effb196a4244f0c64b6e6e4ca4f6704dca8480898d49986d450894a88fb6e33"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.40",
+      "box_px": [
+        1819,
+        12454,
+        12213,
+        12832
+      ],
+      "native_rgb_sha256": "9c210ea42f95c329024e283c7d4a84008218aad0f7e90278ce1898209cf18f58"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.50",
+      "box_px": [
+        1819,
+        12850,
+        12213,
+        13228
+      ],
+      "native_rgb_sha256": "fc0e606989bcd9287b86ff0607c240864b7c74270ebb6ebdb204c26c6f0d1341"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.60",
+      "box_px": [
+        1819,
+        13247,
+        12213,
+        13625
+      ],
+      "native_rgb_sha256": "96174ea1de3fa24923cbeda6f2b2d5808091695f9f84d80e69a143aabc41ef1a"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.70",
+      "box_px": [
+        1819,
+        13644,
+        12213,
+        14022
+      ],
+      "native_rgb_sha256": "c644044766a666b4abffa1a04dc8bfb3693df1905de2611af0b6ddbee0723ad7"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.80",
+      "box_px": [
+        1819,
+        14041,
+        12213,
+        14419
+      ],
+      "native_rgb_sha256": "fc1448a77aeda4c9d39a0ec6a462a6e68055d2f49785c0ee268b52a3a692efe9"
+    },
+    {
+      "panel": 2,
+      "lpi": "61.90",
+      "box_px": [
+        1819,
+        14438,
+        12213,
+        14816
+      ],
+      "native_rgb_sha256": "b3252d7f676e774d17ad7a5ab338e01b9461fe7aa4efba805d9cc787ef98485d"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.00",
+      "box_px": [
+        1819,
+        14835,
+        12213,
+        15213
+      ],
+      "native_rgb_sha256": "5bc4a79d069e85c7547cdbaa1b56035f2e89340b89dc646d77c358b018258207"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.10",
+      "box_px": [
+        1819,
+        15231,
+        12213,
+        15609
+      ],
+      "native_rgb_sha256": "d23820d6d58ca8aa6669f7ca36ee3b723ad6e4a017ed7f2ee5f9e26854a3613e"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.20",
+      "box_px": [
+        1819,
+        15628,
+        12213,
+        16006
+      ],
+      "native_rgb_sha256": "d698a04f41de5734b122ca4d02b3f9d550811eb88bd14dfe7ee829d0581a5fca"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.30",
+      "box_px": [
+        1819,
+        16025,
+        12213,
+        16403
+      ],
+      "native_rgb_sha256": "155c15b78f4cdcf422a092c54b78a15eceb907eba743571e30ae16f3202390a9"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.40",
+      "box_px": [
+        1819,
+        16422,
+        12213,
+        16800
+      ],
+      "native_rgb_sha256": "3081f4d3811da38aace8be62fd0488f3a12d39549c369b81294248de1aac49a0"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.50",
+      "box_px": [
+        1819,
+        16819,
+        12213,
+        17197
+      ],
+      "native_rgb_sha256": "1c60b5a2d69937ec7f21181ba434a0b9ea8a088c979b54738d52a3f95a0d82e5"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.60",
+      "box_px": [
+        1819,
+        17216,
+        12213,
+        17594
+      ],
+      "native_rgb_sha256": "c087c9ab145c314f90e8d804d8fe8d7841e17db18edadcbd8939b4a75c5ec2b8"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.70",
+      "box_px": [
+        1819,
+        17613,
+        12213,
+        17991
+      ],
+      "native_rgb_sha256": "2bcbeb479347ddffb710863e9aabd88a0e63c640c274fec6083100b4456e34be"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.80",
+      "box_px": [
+        1819,
+        18009,
+        12213,
+        18387
+      ],
+      "native_rgb_sha256": "4cb7bae4fbf7d3c286cb4d7d0cabf56b3a81d454119ff001425e666e48346d07"
+    },
+    {
+      "panel": 2,
+      "lpi": "62.90",
+      "box_px": [
+        1819,
+        18406,
+        12213,
+        18784
+      ],
+      "native_rgb_sha256": "789c2dcff06295db1b42b4bb9b8a1d67d543f4d878ffb307a655f8c950866731"
+    },
+    {
+      "panel": 2,
+      "lpi": "63.00",
+      "box_px": [
+        1819,
+        18803,
+        12213,
+        19181
+      ],
+      "native_rgb_sha256": "4f07f4bb98a81266da37f9ba899a90bdd3a747a4b2e943aa6b36ba98ea9d3cdf"
+    }
+  ]
+}

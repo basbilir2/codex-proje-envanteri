@@ -1,0 +1,427 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 930,
+    "sha256": "6c101dc43125225007e2e783003ca9fb9ea28e00fd4c9defe2ef0090359655a3"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 1581,
+    "sha256": "9dbd2e82cad9fb36a79822c0fc5c5607dac46f30e13dcbaee8a13c541366237d"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 2064,
+    "sha256": "e069b09ddb1984aa72fd9215db73c53c58e021c9413ef294f7469c4107b85dd7"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 5258,
+    "sha256": "5d4294a34c9705718a4cb70bf25527c2d8a04ebf8f5ac02a187ffb1749b7655b"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1095,
+    "sha256": "ecb9d1126bd3b6aa9e779bb8e58d1a685f3db4e993d94c67a7608c4b5d76bd15"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 2426,
+    "sha256": "78e03fcac9329ac77bc5afa1d0891d88c4e9fbb1a305413b6966387e23471881"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 251,
+    "sha256": "f42490395f6cbb4519c40eb056c9b9389eaf7afe2e89f0c663831369adc67f95"
+  },
+  {
+    "path": "source/staged-development/19-ucretsiz-yerel-uctan-uca-test.json",
+    "bytes": 27362,
+    "sha256": "8bd528ba93d107a5c27987635df543bcc20b46af14c52e6a41814893086c0201"
+  },
+  {
+    "path": "source/staged-development/AGENTS.md",
+    "bytes": 398,
+    "sha256": "fe65fc9dc3f0ed866d2aaea6b7fc2881b9ca7ba15d55a2d4385071769718071b"
+  },
+  {
+    "path": "source/staged-development/app-center-staged.js",
+    "bytes": 17301,
+    "sha256": "1ce41aba7eec974dfdbe6ce2cebad06d80296e4225939932504f7a8b13b17e52"
+  },
+  {
+    "path": "source/staged-development/gemini-image-test-workflow.json",
+    "bytes": 4597,
+    "sha256": "5ed48a315a5b787c1133007fb2362e02343735ecea8b4062c034cb0e980f947f"
+  },
+  {
+    "path": "source/staged-development/PROJECT_STATE.staged.md",
+    "bytes": 48444,
+    "sha256": "f150718ab8cf8e5a0a9938a2f465815f482e683940a179391d93a4e9ebe8640a"
+  },
+  {
+    "path": "source/staged-development/Run-FreeLocalEndToEndTest.ps1",
+    "bytes": 14897,
+    "sha256": "710804059983de972e7251ba257446414ecc30c410fef9ced5cd9f6b2da454b3"
+  },
+  {
+    "path": "source/staged-development/Run-FreeLocalEndToEndTest.staged.ps1",
+    "bytes": 18853,
+    "sha256": "e43ed86e89c4ebdbdb5ae3bba72993c60b8013a5a7f168b61b10c2c7ede4a61f"
+  },
+  {
+    "path": "source/staged-development/local-delivery-stage/docker-compose.yml",
+    "bytes": 6508,
+    "sha256": "e219c9d3f1473fec5db5f4ca6b9d3636e714ce1445373790fb04a0a6325b5011"
+  },
+  {
+    "path": "source/staged-development/local-delivery-stage/README-APPROVED.md",
+    "bytes": 661,
+    "sha256": "674b6f0908b612278ebb842e2ef9da1f2f2a57538a84c6bb31a0cee67e438c3c"
+  },
+  {
+    "path": "source/staged-development/local-delivery-stage/Update-SupplyChainInventory.ps1",
+    "bytes": 3554,
+    "sha256": "c1fb44619d661755aeffa76e82d92ef57441caaf9ea321902a3f549c617a8c52"
+  },
+  {
+    "path": "source/staged-development/stage-admin/KULLANIM_KILAVUZU.md",
+    "bytes": 2548,
+    "sha256": "3b075f8a30ad60cb0964415218bfb760d48542a493b383591b41162d810e450e"
+  },
+  {
+    "path": "source/staged-development/stage-admin/server.mjs",
+    "bytes": 33399,
+    "sha256": "a3c485920ddeedcd18bc21b3c93a0cfb110f637a942ff0c9285320a9f73b1c44"
+  },
+  {
+    "path": "source/staged-development/stage-admin/Update-SupplyChainInventory.ps1",
+    "bytes": 3814,
+    "sha256": "6fbffdb0a7523a78746ede40ceb035b3a0a8c03863c8c223d2351331acadfcb6"
+  },
+  {
+    "path": "source/staged-development/stage-admin-full/KULLANIM_KILAVUZU.md",
+    "bytes": 5229,
+    "sha256": "8d69b55d5c546b416fa3e3b5da4f27effb97f46148a8d279d0d57b6f48e4e022"
+  },
+  {
+    "path": "source/staged-development/stage-admin-full/server.mjs",
+    "bytes": 64839,
+    "sha256": "3bc45d7b814388bbc738c87f929f7de84bd4486487e9051e1bd6cfd63a19e6e8"
+  },
+  {
+    "path": "source/staged-development/stage-product/center-server.mjs",
+    "bytes": 11510,
+    "sha256": "8453181a349e945a72f8021baf4d81268886f1824c1e516dd944f644f69ed872"
+  },
+  {
+    "path": "source/staged-development/stage-product/docker-compose.yml",
+    "bytes": 7645,
+    "sha256": "3feb24642dde8a70a70f13fc9f7523551b6bef87b88993a32a09b7e5b4483247"
+  },
+  {
+    "path": "source/staged-development/stage-product/runtime-server.mjs",
+    "bytes": 140511,
+    "sha256": "972f496e667fa3a20df0c9fca1be75192a7f4dd9e54af43ba97b12afea383476"
+  },
+  {
+    "path": "source/staged-development/stage-product/Start-AiAjans.ps1",
+    "bytes": 10757,
+    "sha256": "ae1e84710e642b8ae8a19cbc7d0eaf4456aec2b0de1f8875385c35ac2ccaf7e9"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/AJANS-KURUCU-KUR.cmd",
+    "bytes": 206,
+    "sha256": "117dd22ded70c84dd8b5fb7e052f087b5aaf6526bfbfe4b22520e64cd0c2d8c0"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/creator-package.test.ps1",
+    "bytes": 5735,
+    "sha256": "56439f0291d962edc90feab71f96164d440c3bcd51fd6ecca767bba8fd64de69"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/docker-compose.creator.yml",
+    "bytes": 1128,
+    "sha256": "545bcf134ca349873cd615fc4a9551dfa686ee8cce75e541b88d582b12bd0a06"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/docker-compose.full.yml",
+    "bytes": 7689,
+    "sha256": "900de5874c0ee03544443cc2573f074d31adf8ae9a06b9623125a76a55f5b27d"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/Install-AjansKurucu.ps1",
+    "bytes": 4645,
+    "sha256": "dee492a57f945aadf513ccbc1d49c43c5dd64f0223af72c24dcf04f63fe90896"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/New-AjansKurucuKurulumPaketi.ps1",
+    "bytes": 1933,
+    "sha256": "dfe0437155b886226fa90389d40fee12517ccc0433c393d699c40d8bc773cf50"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/PROJECT_STATE.md",
+    "bytes": 48444,
+    "sha256": "f150718ab8cf8e5a0a9938a2f465815f482e683940a179391d93a4e9ebe8640a"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/Start-AjansKurucu.ps1",
+    "bytes": 2233,
+    "sha256": "5c53bfcaba250d8550661398174ec35cedacff0365aa07e593fab1f8de0e81fb"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/Update-SupplyChainInventory.ps1",
+    "bytes": 4168,
+    "sha256": "ff3438e2417a619e92cf81ca21937efe1eb7f3391a2be01438e5a9ec0d2246d4"
+  },
+  {
+    "path": "source/staged-development/stage-ui/app.js",
+    "bytes": 21118,
+    "sha256": "6a05b50d211b3e473cf879e04c30b6dbfa254644bead79301efb646795fa6441"
+  },
+  {
+    "path": "source/staged-development/stage-ui/Complete-CloudflareImageTest.ps1",
+    "bytes": 10498,
+    "sha256": "effc7abdcf669d7974f02576cfe44662670c04dae0f58533a4939dc7c3866230"
+  },
+  {
+    "path": "source/staged-development/stage-ui/index.html",
+    "bytes": 7807,
+    "sha256": "203351d7ba88c45f91f5d2c024ca4c36d42e193f7551439cc7af2f9b8ffccfa3"
+  },
+  {
+    "path": "source/staged-development/stage-ui/styles.css",
+    "bytes": 15284,
+    "sha256": "0d1c9bad183498ba73dd47971f0f80f6ad70b62d64a11a25e6835c72608e5e5d"
+  },
+  {
+    "path": "source/staged-development/staging/21-cloudflare-gorsel-uretimi-test.json",
+    "bytes": 6382,
+    "sha256": "292a069ccad2539ab7f4e6e99296a0c17532ce82b454d2f9fa1ff5a2e631c75d"
+  },
+  {
+    "path": "source/staged-development/staging/Complete-CloudflareImageTest.ps1",
+    "bytes": 8526,
+    "sha256": "d4f0855876061b62bab20d214411a7437a1e3d07caa0e6bec4e8729e5885afa0"
+  },
+  {
+    "path": "source/staged-development/test-compat-stage/account-binding.test.mjs",
+    "bytes": 8255,
+    "sha256": "474c180079317f67d5dc5ce19014d257aef698cd72d98c644fb73823c0b462be"
+  },
+  {
+    "path": "source/staged-development/test-compat-stage/disk-pressure-atomicity.test.mjs",
+    "bytes": 5475,
+    "sha256": "aad53b42746aa8152b1380d4be2b9fef29c528733056f9c9978ec8167d7451cd"
+  },
+  {
+    "path": "source/staged-development/test-compat-stage/golden-safety.test.mjs",
+    "bytes": 12554,
+    "sha256": "731675144b3b6bffbca7246151be129bcc5f82a6b663a3078e0cd8bb82c92936"
+  },
+  {
+    "path": "source/staged-development/test-compat-stage/orchestration-pipeline.test.mjs",
+    "bytes": 14061,
+    "sha256": "25fa283e824f76c90cc7da36e3341b99ac56ed6ad6f8a557d3c92d9c8d8ca02f"
+  },
+  {
+    "path": "source/staged-development/test-compat-stage/runtime-hardening.test.mjs",
+    "bytes": 25520,
+    "sha256": "d86c8abb5de9e6f435ac7953cdca84c2c70db6402121eb4b61d613a6c6112b05"
+  },
+  {
+    "path": "source/staged-development/test-compat-stage/scheduler-worker-failclosed.test.mjs",
+    "bytes": 5485,
+    "sha256": "7c85b60229a58f515eff7536804e7ceae6189c97cc38c7306c270a6c148fd818"
+  },
+  {
+    "path": "source/staged-development/test-compat-stage/worker-pipeline.test.mjs",
+    "bytes": 14288,
+    "sha256": "8f752510da07a7e48bf6bbb73f19fbf8e2121373cb0da21701e0bab27ac44c08"
+  },
+  {
+    "path": "source/staged-development/stage-root-files/runtime-test-data/apps/gizli-motor-testi/manifest.json",
+    "bytes": 34361,
+    "sha256": "34816c7fb5741cc15e7161b4dfc7f83b2ab1906908c0c262ee30d688ad589c39"
+  },
+  {
+    "path": "source/staged-development/stage-product/public/app.js",
+    "bytes": 21118,
+    "sha256": "6a05b50d211b3e473cf879e04c30b6dbfa254644bead79301efb646795fa6441"
+  },
+  {
+    "path": "source/staged-development/stage-product/public/index.html",
+    "bytes": 7807,
+    "sha256": "203351d7ba88c45f91f5d2c024ca4c36d42e193f7551439cc7af2f9b8ffccfa3"
+  },
+  {
+    "path": "source/staged-development/stage-product/public/styles.css",
+    "bytes": 15284,
+    "sha256": "0d1c9bad183498ba73dd47971f0f80f6ad70b62d64a11a25e6835c72608e5e5d"
+  },
+  {
+    "path": "source/staged-development/stage-admin-runtime-test2/apps/test-yasayan-ajans/manifest.json",
+    "bytes": 19463,
+    "sha256": "e1eb93492b7bb732edc221e5c5baa8dffc4ca0a5c099d306065235cd4770b16c"
+  },
+  {
+    "path": "source/staged-development/stage-admin-runtime-test/apps/test-yasayan-ajans/manifest.json",
+    "bytes": 19463,
+    "sha256": "1f8a7950a0468dd58bd9dffe313b7ab715086c591fc7f27b1f4f8f92e599a9db"
+  },
+  {
+    "path": "source/staged-development/stage-admin-full/public/app.js",
+    "bytes": 35370,
+    "sha256": "50257192e5c27a9a1beb648e1f64c62b94ed5a26300f33ec979e825cacca5531"
+  },
+  {
+    "path": "source/staged-development/stage-admin-full/public/client.html",
+    "bytes": 382,
+    "sha256": "472a2c81194b7178e7d66b2a7140cde8368552b1a3f22e352633cdc0de4726e2"
+  },
+  {
+    "path": "source/staged-development/stage-admin-full/public/client.js",
+    "bytes": 5180,
+    "sha256": "fcc99a977b607da928019d79b297bdf53c0f314386aaebdf49c2c3a9b63723a5"
+  },
+  {
+    "path": "source/staged-development/stage-admin-full/public/index.html",
+    "bytes": 29499,
+    "sha256": "94aebf7ffc32a0b04c003c774fd95a7b061ee87a02b5c11dc4ebab40677f1bbb"
+  },
+  {
+    "path": "source/staged-development/stage-admin-full/public/styles.css",
+    "bytes": 23681,
+    "sha256": "fff53ca853dcd2402186ce45d23ed8d7c278c5a80cc13c66b8d11f2135797e2b"
+  },
+  {
+    "path": "source/staged-development/stage-admin/public/app.js",
+    "bytes": 17157,
+    "sha256": "a7244bd1372f713af4cd899abba96b0fe5dfeb568d68dd855cb93413985cf933"
+  },
+  {
+    "path": "source/staged-development/stage-admin/public/client.html",
+    "bytes": 382,
+    "sha256": "472a2c81194b7178e7d66b2a7140cde8368552b1a3f22e352633cdc0de4726e2"
+  },
+  {
+    "path": "source/staged-development/stage-admin/public/client.js",
+    "bytes": 2199,
+    "sha256": "650d41fb9d533239d63e49c0f27f75274e9b14d8b7f9ae379d383478725b340a"
+  },
+  {
+    "path": "source/staged-development/stage-admin/public/index.html",
+    "bytes": 15907,
+    "sha256": "68b1734b3439c0618de1513cacc02e9b133944c83c0295d1f48a6ff250f889c2"
+  },
+  {
+    "path": "source/staged-development/stage-admin/public/styles.css",
+    "bytes": 17903,
+    "sha256": "e602231c3e49e9ef59a6d71b0184b24b62576e02a4b6c55c4061d4cb51482f97"
+  },
+  {
+    "path": "source/staged-development/local-delivery-stage/tests/local-delivery.test.mjs",
+    "bytes": 9105,
+    "sha256": "81215b5f98602e754879ced13ebdc85251ddd14fb113f7dc522e93c3abe54ebf"
+  },
+  {
+    "path": "source/staged-development/local-delivery-stage/tests/runtime-hardening.test.mjs",
+    "bytes": 25486,
+    "sha256": "fbfad352e232d2fd962c4cbba46c7e54153f7f151b9a875eb03074ef5cc5a963"
+  },
+  {
+    "path": "source/staged-development/local-delivery-stage/ui/ajans-runtime/server.mjs",
+    "bytes": 119908,
+    "sha256": "9118fabe3a24f76948a4c9c5c0765681ba7e7976b857eb48fbd12a580a895052"
+  },
+  {
+    "path": "source/staged-development/local-delivery-stage/ui/ajans-merkezi/public/app.js",
+    "bytes": 16780,
+    "sha256": "95bc110062843186df2af046abb9c9132e8a28994cc706ac438fb1b4eabbec94"
+  },
+  {
+    "path": "source/staged-development/artifacts/Trendy-Brander-GPT/01_PROJE_HARITASI.md",
+    "bytes": 3725,
+    "sha256": "c39e6e01715031003dc8153336b447c6356a82b01e08156c4822d884638fc9fa"
+  },
+  {
+    "path": "source/staged-development/artifacts/Trendy-Brander-GPT/02_AJANLAR_VE_AKIS.md",
+    "bytes": 4632,
+    "sha256": "ef5a13adfd933c09e6a74dddaab997f0255e37535854cc86f59abf42aba5f6d4"
+  },
+  {
+    "path": "source/staged-development/artifacts/Trendy-Brander-GPT/03_ANA_UYGULAMA_VE_AJANS_UYGULAMASI.md",
+    "bytes": 4635,
+    "sha256": "01631c01bf1036dfb988a0f9c59264f89a4342e6555d57c64573a7fd1e95c662"
+  },
+  {
+    "path": "source/staged-development/artifacts/Trendy-Brander-GPT/04_GUVENLIK_HAFIZA_TOKEN.md",
+    "bytes": 4620,
+    "sha256": "3a74e0074cc339686cc2c812ef7571b3c5d0c2a09eae92ac5d472ef827d98b7c"
+  },
+  {
+    "path": "source/staged-development/artifacts/Trendy-Brander-GPT/05_SORUN_GIDERME.md",
+    "bytes": 3815,
+    "sha256": "f55dbf6779c26fc89acaabcde1d116b11d2f713746621229c44fbc9884f89b49"
+  },
+  {
+    "path": "source/staged-development/artifacts/Trendy-Brander-GPT/06_GELISTIRME_VE_GUNCELLIK.md",
+    "bytes": 2803,
+    "sha256": "ff2f65402cc1deb1d212ca2833821bc5e889fb69ce3a72565f72c022618a0edc"
+  },
+  {
+    "path": "source/staged-development/artifacts/Trendy-Brander-GPT/GPT_INSTRUCTIONS.txt",
+    "bytes": 6431,
+    "sha256": "10820faccb47f878ca6aa77c35947362f7237d2a2bf08598f10337ce6272cbce"
+  },
+  {
+    "path": "source/staged-development/artifacts/Trendy-Brander-GPT/README.md",
+    "bytes": 1222,
+    "sha256": "44fee17b8f7beb1afa0d2aa56768d9d27765ede5988b3140298b6953250df35b"
+  },
+  {
+    "path": "source/staged-development/admin-smoke-data-2/apps/test-ajans/manifest.json",
+    "bytes": 5989,
+    "sha256": "91b81f6af451359ba8f0f4f9ca635dd665d4cb85bf6b7c1ce751919d9011629b"
+  }
+]

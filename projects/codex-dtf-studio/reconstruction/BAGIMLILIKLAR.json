@@ -1,0 +1,9 @@
+{
+  "manifests": [
+    "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/package-lock.json",
+    "source/archive-snapshots/development/referenced-chatgpt-conversation-this-is-an/outputs/DTF-Studio-Kaynak.zip-source/dtf-studio/package.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/package-lock.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an/outputs/dtf-studio/package.json"
+  ],
+  "policy": "Use preserved manifest and lock files; no personal account values are included."
+}

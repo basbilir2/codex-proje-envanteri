@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "nr": 18,
+  "ne": 12,
+  "endpoint_marker_displacement_px": [
+    7.0,
+    0.0,
+    -7.0
+  ],
+  "expected_displacement_px": [
+    6.666666666666666,
+    0.0,
+    -6.666666666666664
+  ],
+  "zero_marker_drift_px": 0.0,
+  "center_mean_absolute_rgb_error": 0.1615433228730823
+}

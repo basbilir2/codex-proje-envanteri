@@ -1,0 +1,26 @@
+{
+  "model": "Qwen-Image-Edit-2511",
+  "runtime": "845646b034a12ed844966c84bd7585c8fcb37b7f",
+  "parameters": {
+    "steps": 4,
+    "cfg": 1.0,
+    "seed": 42,
+    "width": 512,
+    "height": 512
+  },
+  "prompt": "Enhance the quality of this exact image. Restore clarity and natural fine details, reduce blur, noise and compression artifacts. Preserve the entire original scene, subject identity, facial structure, expression, all existing text and letter shapes, objects, illustration style, colors, geometry, composition and background. Keep every existing element in its original position. Do not invent text, objects or decorations. Do not crop, change the viewpoint or replace the background. Produce a clean, sharp and faithful high-quality version of the same image.",
+  "accelerator": {
+    "name": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+    "repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+    "revision": "107d238d68b8387e32843d0b4a2e24ceb0d3ad86",
+    "size": 849608296,
+    "sha256": "22226e8d05d354bb356627d428809f5afd7819399b077238a2b70a82883a904f",
+    "license": "Apache-2.0",
+    "steps": 4,
+    "cfg": 1.0,
+    "source": "https://github.com/ModelTC/Qwen-Image-Lightning/blob/main/generate_with_diffusers.py"
+  },
+  "status": "failed",
+  "error": "Command '['app\\\\runtime-vulkan\\\\sd-cli.exe', '--diffusion-model', 'C:\\\\Users\\\\USER\\\\Documents\\\\ChatGPT\\\\netleştirme\\\\app\\\\models\\\\qwen-image-edit-2511-Q4_K_M.gguf', '--llm', 'C:\\\\Users\\\\USER\\\\Documents\\\\ChatGPT\\\\netleştirme\\\\app\\\\models\\\\Qwen2.5-VL-7B-Instruct.Q4_K_M.gguf', '--llm_vision', 'C:\\\\Users\\\\USER\\\\Documents\\\\ChatGPT\\\\netleştirme\\\\app\\\\models\\\\Qwen2.5-VL-7B-Instruct.mmproj-Q8_0.gguf', '--vae', 'C:\\\\Users\\\\USER\\\\Documents\\\\ChatGPT\\\\netleştirme\\\\app\\\\models\\\\qwen_image_vae.safetensors', '-r', 'app\\\\inputs\\\\portrait-degraded.jpeg', '-p', 'Enhance the quality of this exact image. Restore clarity and natural fine details, reduce blur, noise and compression artifacts. Preserve the entire original scene, subject identity, facial structure, expression, all existing text and letter shapes, objects, illustration style, colors, geometry, composition and background. Keep every existing element in its original position. Do not invent text, objects or decorations. Do not crop, change the viewpoint or replace the background. Produce a clean, sharp and faithful high-quality version of the same image. <lora:Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16:1>', '--model-args', 'qwen_image_zero_cond_t=true', '--cfg-scale', '1.0', '--sampling-method', 'euler', '--flow-shift', '3', '--steps', '4', '--seed', '42', '--width', '512', '--height', '512', '--threads', '8', '--diffusion-fa', '--vae-tiling', '-o', 'app\\\\jobs\\\\local-fast\\\\result.pending.png', '--lora-model-dir', 'C:\\\\Users\\\\USER\\\\Documents\\\\ChatGPT\\\\netleştirme\\\\app\\\\models', '--lora-apply-mode', 'at_runtime']' timed out after 300 seconds",
+  "seconds": 304.25
+}

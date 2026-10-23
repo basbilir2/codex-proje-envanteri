@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-21",
+  "workflowSource": "https://www.runninghub.ai/post/2041179666408546306",
+  "downloadedFile": "C:\\Users\\USER\\Documents\\ChatGPT\\netleştirme\\on-kontrol\\yayinci-qwen2511-v2-is-akisi.json",
+  "sha256": "AD3C094DE6DC73C94DD3B606761A66CD7400BE82F6C418CB11328EB3B07FCC7E",
+  "nodes": [
+    {
+      "id": 13,
+      "type": "CFGNorm",
+      "mode": 0,
+      "values": [
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "type": "SaveImage",
+      "mode": 0,
+      "values": [
+        "Extract-Texture"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "LoraLoader",
+      "mode": 0,
+      "values": [
+        "印花提取-Qwen-Edit-2511-LoRA-V2.safetensors",
+        1.5,
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "type": "CLIPLoader",
+      "mode": 0,
+      "values": [
+        "qwen_2.5_vl_7b.safetensors",
+        "qwen_image",
+        "default"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "LoraLoader",
+      "mode": 0,
+      "values": [
+        "Qwen-Image-Edit-2511-Lightning-8steps_V1.safetensors",
+        1,
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "type": "VAELoader",
+      "mode": 0,
+      "values": [
+        "qwen_image_vae.safetensors"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "ModelSamplingAuraFlow",
+      "mode": 0,
+      "values": [
+        1.8
+      ]
+    },
+    {
+      "id": 14,
+      "type": "EmptySD3LatentImage",
+      "mode": 0,
+      "values": [
+        1536,
+        2048,
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "type": "UNETLoader",
+      "mode": 0,
+      "values": [
+        "qwen_image_edit2511满血版.safetensors",
+        "default"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "KSampler",
+      "mode": 0,
+      "values": [
+        31416,
+        "increment",
+        8,
+        1,
+        "euler",
+        "simple",
+        1
+      ]
+    }
+  ],
+  "workflowDownloaded": true,
+  "printExtractionWeightsDownloaded": false,
+  "printExtractionLicenseVerified": false,
+  "inferencePerformed": false,
+  "paidGpuStarted": false
+}

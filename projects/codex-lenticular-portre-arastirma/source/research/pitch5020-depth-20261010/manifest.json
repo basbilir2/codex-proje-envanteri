@@ -1,0 +1,268 @@
+{
+  "scene_source": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\contour-correction-20261010\\coupled",
+  "delivery": "C:\\Users\\USER\\Downloads\\Lenticular-Portre-50-75-100LPI-20261009-35bdac\\50.20-Uc-Derinlik-20261010",
+  "variants": [
+    {
+      "id": "A",
+      "name": "HAFIF-DERINLIK",
+      "label": "Hafif derinlik",
+      "folder": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\pitch5020-depth-20261010\\A",
+      "front_gain": 0.6,
+      "back_gain": 0.6,
+      "settings": {
+        "width_mm": 130,
+        "height_mm": 215.139,
+        "bleed_mm": 0,
+        "ppi": 1200,
+        "printer_dpi": 1200,
+        "nominal_lpi": 50,
+        "effective_lpi": 50.2,
+        "ne": 10,
+        "axis": "vertical",
+        "phase": 0.0,
+        "tilt_deg": 0,
+        "reverse_views": false,
+        "mirror": false,
+        "fit": "contain",
+        "stripe_sampling": "area",
+        "crosstalk": 0,
+        "compensation": 0,
+        "regularization": 0.02,
+        "crosstalk_matrix": null,
+        "icc_path": null,
+        "color_mode": "RGB",
+        "white_underbase": false,
+        "pitch_verified": false,
+        "viewing_distance_mm": 500,
+        "lens_view_angle_deg": 30,
+        "allow_unfilled": false,
+        "pitch_step": 0.01,
+        "pitch_candidates": 3,
+        "gamut_guard": true,
+        "lens_angle_verified": false,
+        "raster_ppi_verified": false
+      },
+      "panel_origin_px": 0,
+      "zero_reference": 0.4317834973335269,
+      "endpoint_parallax_percent": {
+        "front": 1.7047662001389723,
+        "back": 1.7047662001389723
+      },
+      "filename": "A-HAFIF-DERINLIK-50.20LPI-1200PPI.tif"
+    },
+    {
+      "id": "B",
+      "name": "DENGELI-GUCLU",
+      "label": "Dengeli / güçlü",
+      "folder": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\pitch5020-depth-20261010\\B",
+      "front_gain": 1.0,
+      "back_gain": 1.0,
+      "settings": {
+        "width_mm": 130,
+        "height_mm": 215.139,
+        "bleed_mm": 0,
+        "ppi": 1200,
+        "printer_dpi": 1200,
+        "nominal_lpi": 50,
+        "effective_lpi": 50.2,
+        "ne": 10,
+        "axis": "vertical",
+        "phase": 0.813,
+        "tilt_deg": 0,
+        "reverse_views": false,
+        "mirror": false,
+        "fit": "contain",
+        "stripe_sampling": "area",
+        "crosstalk": 0,
+        "compensation": 0,
+        "regularization": 0.02,
+        "crosstalk_matrix": null,
+        "icc_path": null,
+        "color_mode": "RGB",
+        "white_underbase": false,
+        "pitch_verified": false,
+        "viewing_distance_mm": 500,
+        "lens_view_angle_deg": 30,
+        "allow_unfilled": false,
+        "pitch_step": 0.01,
+        "pitch_candidates": 3,
+        "gamut_guard": true,
+        "lens_angle_verified": false,
+        "raster_ppi_verified": false
+      },
+      "panel_origin_px": 6378,
+      "zero_reference": 0.4317834973335269,
+      "endpoint_parallax_percent": {
+        "front": 2.8412770002316208,
+        "back": 2.841276388901931
+      },
+      "filename": "B-DENGELI-GUCLU-50.20LPI-1200PPI.tif"
+    },
+    {
+      "id": "C",
+      "name": "ARKA-PLAN-AGIRLIKLI",
+      "label": "Arka plan ağırlıklı",
+      "folder": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\pitch5020-depth-20261010\\C",
+      "front_gain": 0.7,
+      "back_gain": 1.0,
+      "settings": {
+        "width_mm": 130,
+        "height_mm": 215.139,
+        "bleed_mm": 0,
+        "ppi": 1200,
+        "printer_dpi": 1200,
+        "nominal_lpi": 50,
+        "effective_lpi": 50.2,
+        "ne": 10,
+        "axis": "vertical",
+        "phase": 0.626,
+        "tilt_deg": 0,
+        "reverse_views": false,
+        "mirror": false,
+        "fit": "contain",
+        "stripe_sampling": "area",
+        "crosstalk": 0,
+        "compensation": 0,
+        "regularization": 0.02,
+        "crosstalk_matrix": null,
+        "icc_path": null,
+        "color_mode": "RGB",
+        "white_underbase": false,
+        "pitch_verified": false,
+        "viewing_distance_mm": 500,
+        "lens_view_angle_deg": 30,
+        "allow_unfilled": false,
+        "pitch_step": 0.01,
+        "pitch_candidates": 3,
+        "gamut_guard": true,
+        "lens_angle_verified": false,
+        "raster_ppi_verified": false
+      },
+      "panel_origin_px": 12756,
+      "zero_reference": 0.4317834973335269,
+      "endpoint_parallax_percent": {
+        "front": 1.988893696385571,
+        "back": 2.841276388901931
+      },
+      "filename": "C-ARKA-PLAN-AGIRLIKLI-50.20LPI-1200PPI.tif"
+    }
+  ],
+  "protected_hashes": {
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\contour-correction-20261010\\coupled\\source.png": "5b33c735c5001fb320920b33279f2ab20fb9543a6cdb01dae21344b83e931f40",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\contour-correction-20261010\\coupled\\depth_proximity.npy": "1a54a0763965cdf7a9f15db7608718c1136ee72312a300379bece94ed3b2e9b6",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\contour-correction-20261010\\coupled\\job.json": "1f53b6a1ee49614b111aacbb40943066282eb0e70cb9e4ef4dea03f133f4512f",
+    "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\contour-correction-20261010\\coupled\\scene.blend": "1fa031e101e36bb612d6750667873249e3443fc33943b17b7ce37733b9b97006"
+  },
+  "common_settings": {
+    "width_mm": 130,
+    "height_mm": 215.139,
+    "bleed_mm": 0,
+    "ppi": 1200,
+    "printer_dpi": 1200,
+    "nominal_lpi": 50,
+    "effective_lpi": 50.2,
+    "ne": 10,
+    "axis": "vertical",
+    "phase": 0,
+    "tilt_deg": 0,
+    "reverse_views": false,
+    "mirror": false,
+    "fit": "contain",
+    "stripe_sampling": "area",
+    "crosstalk": 0,
+    "compensation": 0,
+    "regularization": 0.02,
+    "crosstalk_matrix": null,
+    "icc_path": null,
+    "color_mode": "RGB",
+    "white_underbase": false,
+    "pitch_verified": false,
+    "viewing_distance_mm": 500,
+    "lens_view_angle_deg": 30,
+    "allow_unfilled": false,
+    "pitch_step": 0.01,
+    "pitch_candidates": 3,
+    "gamut_guard": true,
+    "lens_angle_verified": false,
+    "raster_ppi_verified": false
+  },
+  "panel_origins_px": [
+    0,
+    6378,
+    12756
+  ],
+  "source_size": [
+    1872,
+    3098
+  ],
+  "test_only": true,
+  "software_visual_perfection_verified": false,
+  "phase_basis": "Panel phase equals global sheet origin * 50.20 / 1200 modulo one; no stripe resampling.",
+  "status": "complete",
+  "validation": {
+    "files": {
+      "A-HAFIF-DERINLIK-50.20LPI-1200PPI.tif": {
+        "sha256": "fec94d84923f29c0085bd4f79647e3cd19dba0fddf15bb9827a46c6006a164b6",
+        "shape": [
+          10164,
+          6142,
+          3
+        ],
+        "size_bytes": 187286376
+      },
+      "B-DENGELI-GUCLU-50.20LPI-1200PPI.tif": {
+        "sha256": "67deaaabadac7979af155e50e108f2fd3418caa74e3434447032ca1d22b6c3f3",
+        "shape": [
+          10164,
+          6142,
+          3
+        ],
+        "size_bytes": 187286376
+      },
+      "C-ARKA-PLAN-AGIRLIKLI-50.20LPI-1200PPI.tif": {
+        "sha256": "008268cb2e9cb161bde1e9e18bbf83208dc5493e1afaed404088c72ca50dbc94",
+        "shape": [
+          10164,
+          6142,
+          3
+        ],
+        "size_bytes": 187286376
+      },
+      "TEK-BASKI-A-HAFIF-B-DENGELI-C-ARKA-DERINLIK.tif": {
+        "sha256": "e6f6c9840c10fbb7f2dc5188fb928c673617f2a3286460b74f0bfef9aa25b1dd",
+        "shape": [
+          10864,
+          18898,
+          3
+        ],
+        "size_bytes": 615925120
+      },
+      "ISTEGE-BAGLI-BEYAZ-MASKE.tif": {
+        "sha256": "aa251df7f31627c6f1b0135141585e56192aa15384d44fb4f0d82d85b823d7c4",
+        "shape": [
+          10864,
+          18898
+        ],
+        "size_bytes": 205308752
+      }
+    },
+    "combined": "C:\\Users\\USER\\Downloads\\Lenticular-Portre-50-75-100LPI-20261009-35bdac\\50.20-Uc-Derinlik-20261010\\TEK-BASKI-A-HAFIF-B-DENGELI-C-ARKA-DERINLIK.tif",
+    "combined_size_mm": [
+      400.00766666666664,
+      229.95466666666664
+    ],
+    "individual_size_mm": [
+      130.00566666666666,
+      215.13799999999998
+    ],
+    "panels_pixel_identical": true,
+    "global_lens_phase_continuous": true,
+    "all_tiff_metadata_verified": true,
+    "source_files_unchanged": true,
+    "status": "comparison_trials_generated_and_raster_verified",
+    "physical_depth_verified": false,
+    "physical_sharpness_verified": false,
+    "software_visual_perfection_verified": false,
+    "known_limitation": "Narrow shorts fold can retain side-view deformation; these are comparison trials."
+  }
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lenticular-blender"
+version = "0.1.0"
+description = "Photo + local AI or supplied depth to Blender 2.5D multiview preview"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<2", "Pillow>=10,<13", "opencv-python-headless==4.11.0.86", "tifffile==2025.5.10"]
+
+[project.scripts]
+lenticular = "lenticular.cli:main"
+lenticular-studio = "lenticular.studio:main"
+
+[project.optional-dependencies]
+quality = ["pymatting==1.1.16", "numba==0.68.0", "llvmlite==0.50.0"]
+
+[tool.setuptools.packages.find]
+include = ["lenticular*"]
+
+[tool.setuptools.package-data]
+lenticular = ["blender_scene.py", "web/*"]

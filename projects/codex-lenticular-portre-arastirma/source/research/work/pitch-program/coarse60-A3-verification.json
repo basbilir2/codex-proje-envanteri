@@ -1,0 +1,511 @@
+{
+  "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\60LPI-GENIS-TEST-59-63\\A3-60LPI-59.00-63.00-ADIM0.10-22CM-UZUN-BANT-1200PPI.tif",
+  "size_mm": [
+    296.9895,
+    420.01016666666663
+  ],
+  "ppi": 1200,
+  "range": [
+    "59.00",
+    "63.00"
+  ],
+  "step": "0.10",
+  "count": 41,
+  "pattern_width_mm": 220.00633333333334,
+  "band_height_mm": 8.001,
+  "engine": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular\\printing.py",
+  "engine_sha256": "5dcfe47446d65cf7d769462d9e9d429ec1ef46b96d87dcf774f67e09480cd8e0",
+  "native": [
+    {
+      "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-60-coarse-59-63\\center-60\\pitch-test.tif",
+      "sha256": "e483441ad3cdf0c114fb939ba7d5d6ae966d0f96ae6fec5bccd282069b1505ec",
+      "settings": {
+        "width_mm": 220,
+        "height_mm": 215.139,
+        "bleed_mm": 0,
+        "ppi": 1200,
+        "printer_dpi": 1200,
+        "nominal_lpi": 60,
+        "effective_lpi": 60,
+        "ne": 2,
+        "axis": "vertical",
+        "phase": 0,
+        "tilt_deg": 0,
+        "reverse_views": false,
+        "mirror": false,
+        "fit": "contain",
+        "stripe_sampling": "center",
+        "crosstalk": 0,
+        "compensation": 0,
+        "regularization": 0.02,
+        "crosstalk_matrix": null,
+        "icc_path": null,
+        "color_mode": "RGB",
+        "white_underbase": true,
+        "pitch_verified": false,
+        "viewing_distance_mm": 500,
+        "lens_view_angle_deg": 30,
+        "allow_unfilled": false,
+        "pitch_step": 0.1,
+        "pitch_candidates": 21,
+        "gamut_guard": true,
+        "lens_angle_verified": false,
+        "raster_ppi_verified": false
+      }
+    },
+    {
+      "path": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-60-coarse-59-63\\center-62\\pitch-test.tif",
+      "sha256": "66c141792ef260dde7b947714d1b56616e21ad3837d02d151a294f487145f61b",
+      "settings": {
+        "width_mm": 220,
+        "height_mm": 215.139,
+        "bleed_mm": 0,
+        "ppi": 1200,
+        "printer_dpi": 1200,
+        "nominal_lpi": 60,
+        "effective_lpi": 62,
+        "ne": 2,
+        "axis": "vertical",
+        "phase": 0,
+        "tilt_deg": 0,
+        "reverse_views": false,
+        "mirror": false,
+        "fit": "contain",
+        "stripe_sampling": "center",
+        "crosstalk": 0,
+        "compensation": 0,
+        "regularization": 0.02,
+        "crosstalk_matrix": null,
+        "icc_path": null,
+        "color_mode": "RGB",
+        "white_underbase": true,
+        "pitch_verified": false,
+        "viewing_distance_mm": 500,
+        "lens_view_angle_deg": 30,
+        "allow_unfilled": false,
+        "pitch_step": 0.1,
+        "pitch_candidates": 21,
+        "gamut_guard": true,
+        "lens_angle_verified": false,
+        "raster_ppi_verified": false
+      }
+    }
+  ],
+  "all_41_bands_pixel_equal": true,
+  "top_and_side_guides_verified": true,
+  "protected_files_unchanged": true,
+  "physical_pitch_selected": false,
+  "sha256": "63dec0a2272bff3f85e35606b99e4f3e217adc9811c1fc1e8d8538c33c88dbe4",
+  "rows": [
+    {
+      "lpi": "59.00",
+      "box_px": [
+        1890,
+        2031,
+        12284,
+        2409
+      ],
+      "native_sha256": "340d43b190a4a58405c11cd423959d271f3cdf7763b2f51b05a205028da9625c"
+    },
+    {
+      "lpi": "59.10",
+      "box_px": [
+        1890,
+        2428,
+        12284,
+        2806
+      ],
+      "native_sha256": "826da10140113f5b16f82d6b3ba0de1b61bd94acef63d58fc962015c45284400"
+    },
+    {
+      "lpi": "59.20",
+      "box_px": [
+        1890,
+        2825,
+        12284,
+        3203
+      ],
+      "native_sha256": "d4a1d95f45bb5832c49959132c2946ab446630ec1b34622b3ecaa083ca53aea2"
+    },
+    {
+      "lpi": "59.30",
+      "box_px": [
+        1890,
+        3222,
+        12284,
+        3600
+      ],
+      "native_sha256": "7333d96cc0ed906824b8c4c5f3750fa799c7956949322f6fb05b9a63c91b43e3"
+    },
+    {
+      "lpi": "59.40",
+      "box_px": [
+        1890,
+        3619,
+        12284,
+        3997
+      ],
+      "native_sha256": "d93b92d357826746beb174ba1c06565915ad4f482d3d8d591070025cb88035ad"
+    },
+    {
+      "lpi": "59.50",
+      "box_px": [
+        1890,
+        4016,
+        12284,
+        4394
+      ],
+      "native_sha256": "9f3a1030a53e93fb103e4469929c87202a68aa88e7cde47dff8f9eaddaf8d687"
+    },
+    {
+      "lpi": "59.60",
+      "box_px": [
+        1890,
+        4413,
+        12284,
+        4791
+      ],
+      "native_sha256": "c12baaf3f5ae8e9929606547aa46813d9c4db3d009dee21f12906bd053b88bf2"
+    },
+    {
+      "lpi": "59.70",
+      "box_px": [
+        1890,
+        4809,
+        12284,
+        5187
+      ],
+      "native_sha256": "cce3cbf89d4dfe865428f3f5eb15bf28ca24807d935e6e42c137721657786cd5"
+    },
+    {
+      "lpi": "59.80",
+      "box_px": [
+        1890,
+        5206,
+        12284,
+        5584
+      ],
+      "native_sha256": "aa0517bbb8b8ef715e0f9e394b9a5a9ef75ce5037ca106f2cf3ce6e17cdb3827"
+    },
+    {
+      "lpi": "59.90",
+      "box_px": [
+        1890,
+        5603,
+        12284,
+        5981
+      ],
+      "native_sha256": "63a53891f3e909b7e04b9c9343ae3c8b11f302bafb07f6fa246f74dc23387c11"
+    },
+    {
+      "lpi": "60.00",
+      "box_px": [
+        1890,
+        6000,
+        12284,
+        6378
+      ],
+      "native_sha256": "b1beb6a3156bd862ecbe59c430d51d5543cb4882dccbc00a38939ff45d0b5b81"
+    },
+    {
+      "lpi": "60.10",
+      "box_px": [
+        1890,
+        6397,
+        12284,
+        6775
+      ],
+      "native_sha256": "ceb61b82536bdbe530dc88369ddf44aaabe259051d8a66c0c95ed9e1ff43c9b9"
+    },
+    {
+      "lpi": "60.20",
+      "box_px": [
+        1890,
+        6794,
+        12284,
+        7172
+      ],
+      "native_sha256": "226c75f01d4e5231810563e1f6af4ea248df337a2bba29e19422906373625601"
+    },
+    {
+      "lpi": "60.30",
+      "box_px": [
+        1890,
+        7191,
+        12284,
+        7569
+      ],
+      "native_sha256": "47872d8074a5ecdf958938d24eb7bf3241842844a33c2f7a41347172172b9fdd"
+    },
+    {
+      "lpi": "60.40",
+      "box_px": [
+        1890,
+        7587,
+        12284,
+        7965
+      ],
+      "native_sha256": "3c9c57f4031fb60e2ac0081aa4e550c9c9f39fc70b4cdd0af8032c795a773b49"
+    },
+    {
+      "lpi": "60.50",
+      "box_px": [
+        1890,
+        7984,
+        12284,
+        8362
+      ],
+      "native_sha256": "733d453c820a804b525dc1cc1941d35b26ea4a660b45b71805ca7d821c7c617f"
+    },
+    {
+      "lpi": "60.60",
+      "box_px": [
+        1890,
+        8381,
+        12284,
+        8759
+      ],
+      "native_sha256": "d25f21691f76e2d1d4a7bac21f8a8f63d9ea2d70e1fc74fec2ce8d84a0823c13"
+    },
+    {
+      "lpi": "60.70",
+      "box_px": [
+        1890,
+        8778,
+        12284,
+        9156
+      ],
+      "native_sha256": "9eff6911fad838c504e69aa1515091f379119bd2b8c989925c1a242d3c21275e"
+    },
+    {
+      "lpi": "60.80",
+      "box_px": [
+        1890,
+        9175,
+        12284,
+        9553
+      ],
+      "native_sha256": "dc4234da50c0b5b6ab8d3bdc780bc328d39255aa0c385910fb493ae3706f73c4"
+    },
+    {
+      "lpi": "60.90",
+      "box_px": [
+        1890,
+        9572,
+        12284,
+        9950
+      ],
+      "native_sha256": "1fd5fa20fdb469779c300df97d25b1b1310eed51c1e008cbb5ebf1c22a25cf37"
+    },
+    {
+      "lpi": "61.00",
+      "box_px": [
+        1890,
+        9969,
+        12284,
+        10347
+      ],
+      "native_sha256": "57469846f02ac4a55e0a93f806ef34d4757cd2d15d153c50e7c21674da23c4f0"
+    },
+    {
+      "lpi": "61.10",
+      "box_px": [
+        1890,
+        10365,
+        12284,
+        10743
+      ],
+      "native_sha256": "813e2bae05ace892c98c824a4d0af96ced9998852fbc38ba213f55f3fe7d4112"
+    },
+    {
+      "lpi": "61.20",
+      "box_px": [
+        1890,
+        10762,
+        12284,
+        11140
+      ],
+      "native_sha256": "e95dedc992249bf9b9ec5e11fd0bcc213d5c5657b59581643859e6fe504b5c02"
+    },
+    {
+      "lpi": "61.30",
+      "box_px": [
+        1890,
+        11159,
+        12284,
+        11537
+      ],
+      "native_sha256": "2effb196a4244f0c64b6e6e4ca4f6704dca8480898d49986d450894a88fb6e33"
+    },
+    {
+      "lpi": "61.40",
+      "box_px": [
+        1890,
+        11556,
+        12284,
+        11934
+      ],
+      "native_sha256": "9c210ea42f95c329024e283c7d4a84008218aad0f7e90278ce1898209cf18f58"
+    },
+    {
+      "lpi": "61.50",
+      "box_px": [
+        1890,
+        11953,
+        12284,
+        12331
+      ],
+      "native_sha256": "fc0e606989bcd9287b86ff0607c240864b7c74270ebb6ebdb204c26c6f0d1341"
+    },
+    {
+      "lpi": "61.60",
+      "box_px": [
+        1890,
+        12350,
+        12284,
+        12728
+      ],
+      "native_sha256": "96174ea1de3fa24923cbeda6f2b2d5808091695f9f84d80e69a143aabc41ef1a"
+    },
+    {
+      "lpi": "61.70",
+      "box_px": [
+        1890,
+        12746,
+        12284,
+        13124
+      ],
+      "native_sha256": "c644044766a666b4abffa1a04dc8bfb3693df1905de2611af0b6ddbee0723ad7"
+    },
+    {
+      "lpi": "61.80",
+      "box_px": [
+        1890,
+        13143,
+        12284,
+        13521
+      ],
+      "native_sha256": "fc1448a77aeda4c9d39a0ec6a462a6e68055d2f49785c0ee268b52a3a692efe9"
+    },
+    {
+      "lpi": "61.90",
+      "box_px": [
+        1890,
+        13540,
+        12284,
+        13918
+      ],
+      "native_sha256": "b3252d7f676e774d17ad7a5ab338e01b9461fe7aa4efba805d9cc787ef98485d"
+    },
+    {
+      "lpi": "62.00",
+      "box_px": [
+        1890,
+        13937,
+        12284,
+        14315
+      ],
+      "native_sha256": "5bc4a79d069e85c7547cdbaa1b56035f2e89340b89dc646d77c358b018258207"
+    },
+    {
+      "lpi": "62.10",
+      "box_px": [
+        1890,
+        14334,
+        12284,
+        14712
+      ],
+      "native_sha256": "d23820d6d58ca8aa6669f7ca36ee3b723ad6e4a017ed7f2ee5f9e26854a3613e"
+    },
+    {
+      "lpi": "62.20",
+      "box_px": [
+        1890,
+        14731,
+        12284,
+        15109
+      ],
+      "native_sha256": "d698a04f41de5734b122ca4d02b3f9d550811eb88bd14dfe7ee829d0581a5fca"
+    },
+    {
+      "lpi": "62.30",
+      "box_px": [
+        1890,
+        15128,
+        12284,
+        15506
+      ],
+      "native_sha256": "155c15b78f4cdcf422a092c54b78a15eceb907eba743571e30ae16f3202390a9"
+    },
+    {
+      "lpi": "62.40",
+      "box_px": [
+        1890,
+        15524,
+        12284,
+        15902
+      ],
+      "native_sha256": "3081f4d3811da38aace8be62fd0488f3a12d39549c369b81294248de1aac49a0"
+    },
+    {
+      "lpi": "62.50",
+      "box_px": [
+        1890,
+        15921,
+        12284,
+        16299
+      ],
+      "native_sha256": "1c60b5a2d69937ec7f21181ba434a0b9ea8a088c979b54738d52a3f95a0d82e5"
+    },
+    {
+      "lpi": "62.60",
+      "box_px": [
+        1890,
+        16318,
+        12284,
+        16696
+      ],
+      "native_sha256": "c087c9ab145c314f90e8d804d8fe8d7841e17db18edadcbd8939b4a75c5ec2b8"
+    },
+    {
+      "lpi": "62.70",
+      "box_px": [
+        1890,
+        16715,
+        12284,
+        17093
+      ],
+      "native_sha256": "2bcbeb479347ddffb710863e9aabd88a0e63c640c274fec6083100b4456e34be"
+    },
+    {
+      "lpi": "62.80",
+      "box_px": [
+        1890,
+        17112,
+        12284,
+        17490
+      ],
+      "native_sha256": "4cb7bae4fbf7d3c286cb4d7d0cabf56b3a81d454119ff001425e666e48346d07"
+    },
+    {
+      "lpi": "62.90",
+      "box_px": [
+        1890,
+        17509,
+        12284,
+        17887
+      ],
+      "native_sha256": "789c2dcff06295db1b42b4bb9b8a1d67d543f4d878ffb307a655f8c950866731"
+    },
+    {
+      "lpi": "63.00",
+      "box_px": [
+        1890,
+        17906,
+        12284,
+        18284
+      ],
+      "native_sha256": "4f07f4bb98a81266da37f9ba899a90bdd3a747a4b2e943aa6b36ba98ea9d3cdf"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+
+> netlestirme@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ browser modules parse before serving the editor (169.8531ms)
+✔ EXIF orientation and source bytes are preserved independently (13.6261ms)
+✔ four-point homography samples the correct original coordinates (9.1727ms)
+✔ crossed, reversed, degenerate and out-of-bounds quads fail (0.5469ms)
+✔ thin aspect ratios use padding rather than stretching (0.2482ms)
+✔ recovery routes flat artwork to its adapter and never accepts semantic quality (57.81ms)
+✔ crop and perspective are mutually exclusive and failed records stay explicit (11.4217ms)
+✔ source region is cropped before generation (48.3465ms)
+✔ blank and wrong-sized outputs cannot become successful recovery (54.5544ms)
+✔ engine failure has no sharpening/upscale fallback (19.2312ms)
+✔ pre-cancelled recovery never starts the engine (11.7335ms)
+✔ PNG export preserves soft alpha and records enlargement separately (177.3288ms)
+✔ adapter cancellation reaps both worker and its subprocess (no model) (219.1603ms)
+✔ HTTP service rejects filter fallback and saves/exports persisted PNG without inference (434.1312ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1344.7778

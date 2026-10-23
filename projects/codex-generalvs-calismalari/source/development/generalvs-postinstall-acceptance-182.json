@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "operation": "run_command",
+      "target": "generalvs-bundle-acceptance-182",
+      "inputs": {"argv": ["node", "test.js"]}
+    },
+    {
+      "operation": "run_command",
+      "target": "generalvs-bundle-acceptance-182",
+      "inputs": {"argv": ["node", "--check", "app.js"]}
+    },
+    {
+      "operation": "list_dir",
+      "target": "generalvs-bundle-acceptance-182",
+      "inputs": {"recursive": false}
+    }
+  ]
+}

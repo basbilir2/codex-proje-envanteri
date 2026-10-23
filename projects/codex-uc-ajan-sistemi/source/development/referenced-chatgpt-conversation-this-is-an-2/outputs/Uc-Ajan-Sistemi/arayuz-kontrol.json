@@ -1,0 +1,10 @@
+{
+  "local_checks": "passed",
+  "checks": [
+    "Yerel API yetkilendirmesi",
+    "Projesiz sohbet, yeniden acilista gecmis, adlandirma ve arsivden geri alma",
+    "Otomatik calisma klasoru, dosya siniri ve yalitilmis onizleme",
+    "Gorsel yukleme ve dosya turu dogrulamasi"
+  ],
+  "model_inference": "Bu kontrol model istegi yapmaz; gercek model sonucu ayri kaydedilir."
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 1085,
+    "sha256": "f41660aee33bf3adebc87a0053a29ed64fc93640983c37f464545dc5721d949b"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 2225,
+    "sha256": "ca3bfaed72942c2a39f386efef0e03ed045d12a09b45e6ec71b1b9f8523974fb"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1135,
+    "sha256": "1663ae7d3f9929ba5eea2cf1c171a94255c1d52ace33cae97b53b818eac42122"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 461,
+    "sha256": "587e58a340524e24cfe2ae69d85110462a09b38280934bd1b4968c8a72720bc9"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "3a7f06782365d34c233fa6f4c5b89bc35e2d409618d65985c81ce1f3a09e873b"
+  },
+  {
+    "path": "source/development/outputs/adres-kampanya-v7-talimatlari.txt",
+    "bytes": 2160,
+    "sha256": "7df0853260ca00ccd4515a7c2ff2488468bdaa642c2655369c480d50ddd91729"
+  },
+  {
+    "path": "source/development/outputs/citir-tavuk-v5-talimatlari.txt",
+    "bytes": 929,
+    "sha256": "d4adb5d5620767a3e15f3d131edc3dba39131c8ae2ba30591d5f775cbad88283"
+  },
+  {
+    "path": "source/development/outputs/doku-duzeltme-v3-talimatlari.txt",
+    "bytes": 4668,
+    "sha256": "ebf585684d13aa30167f37559e1a3b8046e0a59fa4c0a7acb47c7a4f67618b74"
+  },
+  {
+    "path": "source/development/outputs/duzenleme-talimatlari.txt",
+    "bytes": 6143,
+    "sha256": "630c46b68d43afa7485b72cf90ff551458ddc579bcfaa40936e101710be94b51"
+  },
+  {
+    "path": "source/development/outputs/gosterilen-urunler-v9-kontrol.json",
+    "bytes": 346,
+    "sha256": "954401d850bff41243d714a7a3d3dd95109411c4de498c0694f2b627910b1d98"
+  },
+  {
+    "path": "source/development/outputs/gosterilen-urunler-v9-kontrol.ps1",
+    "bytes": 2179,
+    "sha256": "1a8e26e3887168d6b722603e9ecf7a5369aea95f4d0644f079bea76cc9640b66"
+  },
+  {
+    "path": "source/development/outputs/gosterilen-urunleri-yerlestir-v9.ps1",
+    "bytes": 2864,
+    "sha256": "0fa0ca12140d4696b79e659e70dae5423ce32decd22e2ac690b9bddb6dd4d521"
+  },
+  {
+    "path": "source/development/outputs/hamburger-v10-kontrol.json",
+    "bytes": 222,
+    "sha256": "600c47c14713f1205b24c8325a7d87b5a7bbb37d639a39b48c1af11b7374058b"
+  },
+  {
+    "path": "source/development/outputs/hamburger-v10-talimatlari.txt",
+    "bytes": 2178,
+    "sha256": "b8e2b0c49eaab4c382379312098f1798d74ac2222c0bbf559411b2fbad2c518d"
+  },
+  {
+    "path": "source/development/outputs/hamburger-v10-uygula.ps1",
+    "bytes": 4067,
+    "sha256": "26a08c339ff03e83ba3ab15cf4c1c702421d644a04b01ab1004e223229a1fb15"
+  },
+  {
+    "path": "source/development/outputs/kola-v11-kontrol.json",
+    "bytes": 195,
+    "sha256": "68bc6ad39c693f4013bc742a35e2147d12cfa44504d129274914449caec878ca"
+  },
+  {
+    "path": "source/development/outputs/kola-v11-talimatlari.txt",
+    "bytes": 1704,
+    "sha256": "67b9b3672db264aebd2874db6f7e6c33e17bca1b59aaf10a6e90f86d141d9c6c"
+  },
+  {
+    "path": "source/development/outputs/kola-v11-uygula.ps1",
+    "bytes": 4038,
+    "sha256": "64b4adc9e2467484a2072aab893c8a75359fa98719c54411383ec179c4e71312"
+  },
+  {
+    "path": "source/development/outputs/pizza-makarna-v4-talimatlari.txt",
+    "bytes": 3064,
+    "sha256": "b6fc6df129e1beb2a9190899b22775c0c1b062a82a34aef6357fc64a1f8926a3"
+  },
+  {
+    "path": "source/development/outputs/referansli-duzenleme-talimatlari.txt",
+    "bytes": 3485,
+    "sha256": "093e2a1c3f2b2b0851699dcae4b5f78d81602b02750cc88537beb0db55d2f55d"
+  },
+  {
+    "path": "source/development/outputs/tum-urunler-v8-kontrol.json",
+    "bytes": 214,
+    "sha256": "4f2c0e0db4c1be97c1af4a46c587f4d2afbd1872a0813306e6f1c829383fbfca"
+  },
+  {
+    "path": "source/development/outputs/tum-urunler-v8-talimatlari.txt",
+    "bytes": 3868,
+    "sha256": "338bf05b566d8b92c2cdf08c202b6dc8d94528820efa32628956535356fa3462"
+  },
+  {
+    "path": "source/development/outputs/urun-v8-hazirla.ps1",
+    "bytes": 1631,
+    "sha256": "586fc465a9a8ab99e6653c7daa974bce71882223170abc24f6747922fb5b7ca7"
+  },
+  {
+    "path": "source/development/outputs/urun-v8-kontrol.ps1",
+    "bytes": 1734,
+    "sha256": "71bebf733eb5a475032d567e5c411c085579f1b7fb66ebd4054fc14c193535e4"
+  },
+  {
+    "path": "source/development/outputs/urun-v8-son.ps1",
+    "bytes": 6885,
+    "sha256": "28acb2a6de77757b1dd419649feab36446214dd1fb8408e49d73a3b2d7bf7f0c"
+  },
+  {
+    "path": "source/development/outputs/urun-v8-yerlestir.ps1",
+    "bytes": 3915,
+    "sha256": "b2963a4fa5e694e20e4019ef7392ec62738181c3c552dfd5bf0344ef2f51699f"
+  },
+  {
+    "path": "source/development/outputs/urunler-v8-konumlar.json",
+    "bytes": 1441,
+    "sha256": "c6f517e75d23ec91045df6175f9cf4c374d775b43bdefe0e6a21d19bf76c958c"
+  }
+]

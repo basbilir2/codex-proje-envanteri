@@ -1,0 +1,13 @@
+{
+  "recent_files_checked": 1689,
+  "missing_recent": [],
+  "changed_recent": [],
+  "remaining_selected_files": [],
+  "critical_active_files_preserved": true,
+  "six_camera_views_and_center_hashes_unchanged": true,
+  "unrelated_target_count": 0,
+  "basis": "Exact deletion allowlist, checked path boundaries and protected paths; post-delete presence/metadata of recent files and existing camera hashes.",
+  "access_denied_count": 137,
+  "scanned_filenames": 951176,
+  "scanned_directories": 211144
+}

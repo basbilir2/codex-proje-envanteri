@@ -1,0 +1,15 @@
+import {createRequire} from 'node:module';
+import {detectPrint,isolatePrint} from '../outputs/dtf-studio/src/photo-extract.mjs';
+import {writeFile} from 'node:fs/promises';
+const require=createRequire(new URL('../outputs/dtf-studio/package.json',import.meta.url)),sharp=require('sharp');
+const file='C:/Users/USER/Downloads/WhatsApp Image 2026-10-05 at 09.47.53 (2).jpeg';
+const small=await sharp(file).resize({width:400,height:800,fit:'inside'}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+const detected=detectPrint({data:small.data,width:small.info.width,height:small.info.height});
+const full=await sharp(file).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+const sx=full.info.width/small.info.width,sy=full.info.height/small.info.height;
+const report={image:{width:full.info.width,height:full.info.height},detected,automaticRegion:detected.region&&{x:detected.region.x*sx,y:detected.region.y*sy,width:detected.region.width*sx,height:detected.region.height*sy}};
+const manual={x:373,y:679,width:164,height:110};
+const out=isolatePrint({data:full.data,width:full.info.width,height:full.info.height},manual);
+await sharp(Buffer.from(out.data),{raw:{width:out.width,height:out.height,channels:4}}).png().toFile('outputs/Mavi-2-Elle-Secim-Deneme.png');
+report.manual={region:manual,coverage:out.coverage,bounds:out.bounds};
+await writeFile('work/photo-2-test.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));

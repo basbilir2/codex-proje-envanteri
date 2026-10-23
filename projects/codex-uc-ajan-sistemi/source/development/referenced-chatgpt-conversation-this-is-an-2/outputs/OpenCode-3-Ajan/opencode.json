@@ -1,0 +1,152 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "nvidia-nim/deepseek-ai/deepseek-v4.1-flash",
+  "default_agent": "deepseek",
+  "share": "disabled",
+  "provider": {
+    "nvidia-nim": {
+      "name": "NVIDIA NIM - Geliştirici erişimi",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "{env:NVIDIA_API_KEY}",
+        "timeout": 180000
+      },
+      "models": {
+        "deepseek-ai/deepseek-v4.1-flash": {
+          "name": "DeepSeek V4.1 Flash",
+          "limit": {
+            "context": 131072,
+            "output": 16384
+          },
+          "tool_call": true,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "reasoning": true,
+          "interleaved": {
+            "field": "reasoning_content"
+          }
+        },
+        "z-ai/glm-5.3": {
+          "name": "GLM 5.3",
+          "limit": {
+            "context": 131072,
+            "output": 16384
+          },
+          "tool_call": true,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "reasoning": true,
+          "interleaved": {
+            "field": "reasoning_content"
+          }
+        },
+        "nvidia/nemotron-3.5-super-vl-120b-a12b": {
+          "name": "NVIDIA Nemotron 3.5 Super",
+          "limit": {
+            "context": 131072,
+            "output": 16384
+          },
+          "tool_call": true,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "reasoning": true,
+          "interleaved": {
+            "field": "reasoning_content"
+          }
+        }
+      }
+    }
+  },
+  "enabled_providers": [
+    "nvidia-nim"
+  ],
+  "autoupdate": false,
+  "permission": {
+    "read": {
+      "*": "allow",
+      "*.env*": "deny",
+      "*.env.example": "allow",
+      "*nvidia-key.dpapi": "deny",
+      "*auth.json": "deny"
+    },
+    "glob": {
+      "*": "allow"
+    },
+    "grep": {
+      "*": "allow"
+    },
+    "edit": {
+      "*": "allow"
+    },
+    "webfetch": "allow",
+    "bash": {
+      "*": "ask",
+      "git status *": "allow",
+      "git diff *": "allow",
+      "git log *": "allow",
+      "rg *": "allow",
+      "npm test *": "allow",
+      "npm run test *": "allow",
+      "npm run build *": "allow",
+      "python -m pytest *": "allow",
+      "dotnet build *": "allow",
+      "dotnet test *": "allow"
+    },
+    "external_directory": {
+      "*": "ask"
+    },
+    "task": {
+      "*": "deny"
+    }
+  },
+  "agent": {
+    "deepseek": {
+      "description": "Ana geliştirici, mimari ve paralel görev orkestrasyonu",
+      "mode": "primary",
+      "model": "nvidia-nim/deepseek-ai/deepseek-v4.1-flash",
+      "prompt": "{file:./prompts/deepseek.md}",
+      "permission": {
+        "task": {
+          "glm": "allow",
+          "nemotron": "allow"
+        }
+      }
+    },
+    "glm": {
+      "description": "İkinci geliştirici; verilen dosyalarda bağımsız uygulama veya alternatif çözüm",
+      "mode": "subagent",
+      "model": "nvidia-nim/z-ai/glm-5.3",
+      "prompt": "{file:./prompts/glm.md}"
+    },
+    "nemotron": {
+      "description": "Reviewer ve test denetçisi; doğruluk, veri bütünlüğü ve regresyon incelemesi",
+      "mode": "subagent",
+      "model": "nvidia-nim/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "prompt": "{file:./prompts/nemotron.md}",
+      "permission": {
+        "edit": {
+          "*": "deny"
+        }
+      }
+    }
+  }
+}

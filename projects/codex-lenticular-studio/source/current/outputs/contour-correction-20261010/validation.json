@@ -1,0 +1,33 @@
+{
+  "source_photo_unchanged": true,
+  "source_depth_unchanged": true,
+  "camera_configuration_unchanged": true,
+  "views": 12,
+  "render_size": [
+    1872,
+    3098
+  ],
+  "raster_size": [
+    6142,
+    10164
+  ],
+  "raster_integrity": {
+    "metadata_passed": true,
+    "sampled_pixels_verified": true,
+    "physical_3d_verified": false,
+    "sample_rows": [
+      0,
+      2541,
+      5082,
+      7623,
+      10163
+    ],
+    "checked_pixels": 30710,
+    "basis": "saved TIFF metadata and sampled encoded pixels; not a physical lens test"
+  },
+  "seconds": 229.73557459993754,
+  "physical_print_verified": false,
+  "visual_acceptance": false,
+  "candidate": "scene",
+  "superseded": true
+}

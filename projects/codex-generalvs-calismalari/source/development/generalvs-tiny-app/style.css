@@ -1,0 +1,16 @@
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif;color:#18231d;background:#edf4ef;font-synthesis:none}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at top,#fff 0,#edf4ef 60%)}
+.app{width:min(100%,660px);background:#fff;border:1px solid #d8e3da;border-radius:24px;padding:clamp(24px,5vw,44px);box-shadow:0 20px 55px rgba(30,67,43,.12)}
+header{margin-bottom:28px}.eyebrow{margin:0 0 8px;color:#34704b;font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+h1,h2,p{margin-top:0}h1{margin-bottom:10px;font-size:clamp(2rem,7vw,3.25rem);line-height:1.02;letter-spacing:-.04em}.intro{margin-bottom:0;color:#607067}
+label{display:block;margin-bottom:8px;font-weight:750}.input-row{display:flex;gap:10px}
+input,button{font:inherit;border-radius:12px}input{min-width:0;flex:1;border:1px solid #b8c9bd;padding:13px 14px;background:#fbfdfb;color:inherit}
+button{border:0;padding:12px 18px;background:#27643f;color:#fff;font-weight:800;cursor:pointer}button:hover{background:#1e5032}:focus-visible{outline:3px solid #f1ae3c;outline-offset:3px}
+section{margin-top:32px}.summary{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid #e1e9e3;padding-bottom:12px}
+.summary h2,.summary p{margin-bottom:0}.summary h2{font-size:1.15rem}.summary p{color:#4f6256;font-size:.92rem}.empty{padding:24px 0 6px;color:#728078;text-align:center}
+ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:10px}.task{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:12px;border:1px solid #dde6df;border-radius:14px;background:#fbfdfb}
+.task input{width:20px;height:20px;margin:0;accent-color:#27643f}.task span{overflow-wrap:anywhere}.task.done span{text-decoration:line-through;color:#718078}
+.delete{background:transparent;color:#8b3030;padding:8px 10px}.delete:hover{background:#f8e8e8;color:#702424}
+@media(max-width:480px){.input-row{align-items:stretch;flex-direction:column}.summary{align-items:flex-start;flex-direction:column;gap:6px}}
+@media(prefers-reduced-motion:no-preference){button,.task{transition:.16s ease}}

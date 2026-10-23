@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "kind": "small synthetic paired-data pilot; not a general training corpus",
+  "training_count": 6,
+  "validation_count": 2,
+  "approved_mavi_reference_excluded": true,
+  "all_training_pixels_from": "built-in image_gen",
+  "pixel_modifications_by_packager": false,
+  "instruction": "Recover only the complete existing artwork from the photographed surface as clean flat print artwork on a light neutral gray display background. Remove fabric, folds, shadows, glare, perspective and photographic damage. Preserve every visible word, numeral, letter shape, thin line, solid colored fill, internal opening and artwork composition. Retain dark artwork interiors even when the supporting surface has a similar color. Center the complete recovered design with a clear margin. Do not omit small text, invent content or add decorations.",
+  "records": [
+    {
+      "id": "01",
+      "split": "train",
+      "text": [
+        "NORTH",
+        "EST.1987"
+      ],
+      "features": "navy fills, white outlines, small serif date, cotton folds",
+      "clean": "exec-c5e350f2-b70c-4de6-b5b7-8a6ae5d83d7d.png",
+      "surface": "exec-04cb30ee-1a9c-4890-82fd-61a4c08970d9.png",
+      "provenance": "built-in image_gen",
+      "visual_review": "screened for matching text, fill identity and main contours; not pixel-aligned ground truth",
+      "files": {
+        "surface": {
+          "path": "images/01-surface.png",
+          "sha256": "5be8b31d4cff1b99af0bb3c51c1e1711c0a5100bd9967fc8a31a6b713dc001d8",
+          "width": 1536,
+          "height": 1024
+        },
+        "clean": {
+          "path": "images/01-clean.png",
+          "sha256": "dd6a5a05dd874c84affb09e26059c949de3530ab1971db46fa5bedfc080a8d7e",
+          "width": 1536,
+          "height": 1024
+        }
+      }
+    },
+    {
+      "id": "02",
+      "split": "train",
+      "text": [
+        "SUMMIT",
+        "TRAIL 2046"
+      ],
+      "features": "green shield fill, mountain linework, canvas texture",
+      "clean": "exec-8b995cf5-d247-4ef5-9893-7f8b10f62577.png",
+      "surface": "exec-62a2b78d-a631-4ddd-aad9-0964a4804604.png",
+      "provenance": "built-in image_gen",
+      "visual_review": "screened for matching text, fill identity and main contours; not pixel-aligned ground truth",
+      "files": {
+        "surface": {
+          "path": "images/02-surface.png",
+          "sha256": "943cb7d1393d6202d5bfcf1ac6255d300f8e9551b00f728c0989657d72edc73e",
+          "width": 1536,
+          "height": 1024
+        },
+        "clean": {
+          "path": "images/02-clean.png",
+          "sha256": "2c75cbc24b2987f53cf475fa662af8c801399a6a1f4595b816a5f59580c12d88",
+          "width": 1536,
+          "height": 1024
+        }
+      }
+    },
+    {
+      "id": "03",
+      "split": "train",
+      "text": [
+        "ORBIT",
+        "SECTOR 058"
+      ],
+      "features": "orange fill, open ring gaps, navy small type, light cotton",
+      "clean": "exec-ecc6d1f0-ef90-4c35-a28c-a48c161e6516.png",
+      "surface": "exec-ac4b2f60-02f8-4716-96b6-25c9a8565c66.png",
+      "provenance": "built-in image_gen",
+      "visual_review": "screened for matching text, fill identity and main contours; not pixel-aligned ground truth",
+      "files": {
+        "surface": {
+          "path": "images/03-surface.png",
+          "sha256": "686b50ab75f09cee0dba6e19de890838d059685fc30ba884961c5948a7eca61c",
+          "width": 1536,
+          "height": 1024
+        },
+        "clean": {
+          "path": "images/03-clean.png",
+          "sha256": "110abfbcac5d96db46e9bbc83205f6f5597ac522170985496ab695e7b2e19266",
+          "width": 1536,
+          "height": 1024
+        }
+      }
+    },
+    {
+      "id": "04",
+      "split": "train",
+      "text": [
+        "Atelier",
+        "SERIES 042"
+      ],
+      "features": "burgundy script fills, thin white contours, diamond, same-color garment",
+      "clean": "exec-dfd7343f-97da-4cbd-a8ec-b79d8727ded9.png",
+      "surface": "exec-390f8745-565a-4564-a99b-d02d624ff17f.png",
+      "provenance": "built-in image_gen",
+      "visual_review": "screened for matching text, fill identity and main contours; not pixel-aligned ground truth",
+      "files": {
+        "surface": {
+          "path": "images/04-surface.png",
+          "sha256": "c46c292cb0ab476ffbe1a8d74e325f3796da4f0ca74136f59885470ad339ac7f",
+          "width": 1536,
+          "height": 1024
+        },
+        "clean": {
+          "path": "images/04-clean.png",
+          "sha256": "d251ab9b75c536f0d4d61ab794fc3c28cd24864d98e41cf3e8552a8b2fefdc1e",
+          "width": 1536,
+          "height": 1024
+        }
+      }
+    },
+    {
+      "id": "05",
+      "split": "train",
+      "text": [
+        "WAVEFORM",
+        "EDITION 07"
+      ],
+      "features": "teal solid panel, thin wave and ticks, worn metal perspective",
+      "clean": "exec-12fabb7d-0b2c-4332-9a84-02878535adf2.png",
+      "surface": "exec-b996ebb9-3d24-4c3d-a2e0-b0af1743a2fc.png",
+      "provenance": "built-in image_gen",
+      "visual_review": "screened for matching text, fill identity and main contours; not pixel-aligned ground truth",
+      "files": {
+        "surface": {
+          "path": "images/05-surface.png",
+          "sha256": "45e07ca0535cce435a2a4e2386d89e4bfa515775633f516c05ae69b4b8a072c9",
+          "width": 1536,
+          "height": 1024
+        },
+        "clean": {
+          "path": "images/05-clean.png",
+          "sha256": "d5035a28be003a457e1a726d1b7742161e6bb4d8f35e6ddd120d592cfda8eff7",
+          "width": 1536,
+          "height": 1024
+        }
+      }
+    },
+    {
+      "id": "06",
+      "split": "train",
+      "text": [
+        "FIELD",
+        "319 / 026"
+      ],
+      "features": "multicolor bird, open separator, small digits, torso context",
+      "clean": "exec-31e185f7-4abc-43a1-bd2c-544dfe0f800a.png",
+      "surface": "exec-f897cd35-4491-4e20-a3f1-25297da96e4f.png",
+      "provenance": "built-in image_gen",
+      "visual_review": "screened for matching text, fill identity and main contours; not pixel-aligned ground truth",
+      "files": {
+        "surface": {
+          "path": "images/06-surface.png",
+          "sha256": "97b5ee3b24b44ecb90315d63820665022d0cf112b8d1135d5ebb37f1f225cdc8",
+          "width": 1536,
+          "height": 1024
+        },
+        "clean": {
+          "path": "images/06-clean.png",
+          "sha256": "cf3fb1c0a52d030056ce82e4887a1148a1bc307ec0bb4a615748f7a71c2fb5c6",
+          "width": 1536,
+          "height": 1024
+        }
+      }
+    },
+    {
+      "id": "07",
+      "split": "validation",
+      "text": [
+        "SOLAR",
+        "ARCHIVE 2034"
+      ],
+      "features": "held-out gold/navy medallion, rays, charcoal shirt",
+      "clean": "exec-574c1ca1-ec69-4631-8398-48fa02e88f06.png",
+      "surface": "exec-9e14c5dd-f242-445d-8bc0-95cefe50a1f1.png",
+      "provenance": "built-in image_gen",
+      "visual_review": "screened for matching text, fill identity and main contours; not pixel-aligned ground truth",
+      "files": {
+        "surface": {
+          "path": "images/07-surface.png",
+          "sha256": "60ed3f7f7b8b0230a82f891b9aba462fef09f64e7cf20e14c242ca415961a900",
+          "width": 1536,
+          "height": 1024
+        },
+        "clean": {
+          "path": "images/07-clean.png",
+          "sha256": "91b5e548c8c97dccdc045c060911372bf4bfcecc6f6b57b5840e59480213a8e7",
+          "width": 1536,
+          "height": 1024
+        }
+      }
+    },
+    {
+      "id": "08",
+      "split": "validation",
+      "text": [
+        "River",
+        "SINCE 1976"
+      ],
+      "features": "held-out blue script fills, white border, blue garment",
+      "clean": "exec-a92e5a24-99fe-48f1-a23a-53e4b9d4b60c.png",
+      "surface": "exec-7f89faa7-29e3-4d3c-bf94-73b636dab33c.png",
+      "provenance": "built-in image_gen",
+      "visual_review": "screened for matching text, fill identity and main contours; not pixel-aligned ground truth",
+      "files": {
+        "surface": {
+          "path": "images/08-surface.png",
+          "sha256": "393f6a350a1fe7b6f7ff58756d17a80f941bbf3eac4e2e085b2935047a41d51d",
+          "width": 1536,
+          "height": 1024
+        },
+        "clean": {
+          "path": "images/08-clean.png",
+          "sha256": "811a3399a88b3d7062241085b1605c5b7fac4db76154c000674005e6c67f22ee",
+          "width": 1536,
+          "height": 1024
+        }
+      }
+    }
+  ]
+}

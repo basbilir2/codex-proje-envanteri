@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hesap Makinesi</title>
+  <style>
+    :root{font-family:Segoe UI,system-ui,sans-serif;color:#f4f7fb;background:#10151f;color-scheme:dark}
+    *{box-sizing:border-box}body{margin:0;min-height:100dvh;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at 30% 15%,#263650,#10151f 65%)}
+    main{width:min(100%,360px)}header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}h1{font-size:18px;font-weight:600;margin:0}header span{font-size:11px;color:#95a5ba;letter-spacing:1.5px}
+    .calculator{padding:20px;border:1px solid #364154;border-radius:28px;background:#192230;box-shadow:0 24px 70px #0005}.screen{min-height:130px;padding:12px 6px 20px;text-align:right;overflow-wrap:anywhere}.history{height:24px;font-size:15px;color:#9cacbf}output{display:block;min-height:58px;font-size:42px;line-height:1.4;font-weight:400;font-variant-numeric:tabular-nums}output.error{font-size:23px;color:#ffb7a7}
+    .keys{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}button{min-height:60px;border:0;border-radius:17px;background:#283547;color:#f4f7fb;font:500 23px Segoe UI,system-ui;cursor:pointer;transition:background .12s,transform .12s}button:hover{background:#3a4b63}button:active{transform:scale(.95)}button:focus-visible{outline:3px solid #8cb7ff;outline-offset:2px}.utility{background:#354458;color:#d6e5f9;font-size:19px}.operator{background:#233f65;color:#9dcbff}.equals{background:#78b3ff;color:#0e2440}.equals:hover{background:#a4ccff}.zero{grid-column:span 2}footer{text-align:center;font-size:12px;color:#90a0b5;margin-top:20px;line-height:1.7}
+  </style>
+</head>
+<body>
+  <main>
+    <header><h1>Hesap Makinesi</h1><span>GÜNLÜK HESAPLAR</span></header>
+    <section class="calculator" aria-label="Hesap makinesi">
+      <div class="screen"><div class="history" id="history"></div><output id="display" aria-label="Sonuç" aria-live="polite">0</output></div>
+      <div class="keys">
+        <button class="utility" data-key="clear" aria-label="Temizle">AC</button><button class="utility" data-key="sign" aria-label="İşareti değiştir">±</button><button class="utility" data-key="percent" aria-label="Yüzde">%</button><button class="operator" data-key="/" aria-label="Böl">÷</button>
+        <button data-key="7">7</button><button data-key="8">8</button><button data-key="9">9</button><button class="operator" data-key="*" aria-label="Çarp">×</button>
+        <button data-key="4">4</button><button data-key="5">5</button><button data-key="6">6</button><button class="operator" data-key="-" aria-label="Çıkar">−</button>
+        <button data-key="1">1</button><button data-key="2">2</button><button data-key="3">3</button><button class="operator" data-key="+" aria-label="Topla">+</button>
+        <button class="zero" data-key="0">0</button><button data-key="." aria-label="Ondalık ayırıcı">,</button><button class="equals" data-key="=" aria-label="Eşittir">=</button>
+      </div>
+    </section>
+    <footer>Klavye ile de kullanabilirsin.<br>Enter: hesapla · Esc: temizle · ⌫: son haneyi sil</footer>
+  </main>
+  <script src="calculator.js"></script>
+  <script>
+    const calculator = new Calculator();
+    const display = document.getElementById('display');
+    const history = document.getElementById('history');
+    function input(key){calculator.input(key);display.textContent=calculator.error||calculator.value.replace('.',',');display.classList.toggle('error',!!calculator.error);history.textContent=calculator.history;}
+    document.querySelector('.keys').addEventListener('click',event=>{const button=event.target.closest('button');if(button)input(button.dataset.key);});
+    document.addEventListener('keydown',event=>{if(event.ctrlKey||event.metaKey||event.altKey)return;let key=event.key;if(key==='Enter'){event.preventDefault();key='=';}else if(key==='Escape')key='clear';else if(key==='Backspace')key='backspace';else if(key===',')key='.';if(/^[0-9.+*/%=\-]$/.test(key)||['clear','backspace'].includes(key)){event.preventDefault();input(key);}});
+  </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "config": {
+    "nr": 6,
+    "ne": 6,
+    "near": 1.5,
+    "far": 3.0,
+    "zero": 2.0,
+    "focal_mm": 50.0,
+    "sensor_width_mm": 36.0,
+    "camera_span": 0.13968307796699092,
+    "positions": [
+      -0.06984153898349546,
+      -0.04190492339009728,
+      -0.013968307796699095,
+      0.013968307796699081,
+      0.04190492339009727,
+      0.06984153898349546
+    ],
+    "grid_size": 1024,
+    "edge_threshold": 0.1,
+    "depth_convention": "white-near",
+    "sweep_seconds": 2.0,
+    "camera_axis": "x",
+    "edge_mode": "split"
+  },
+  "source_sha256": "d7d3c1c669483c99540c1f82ad71e34d3aa9b027facf6ce1c5785e400f694ec5",
+  "input_depth_sha256": "931371a06d7434291818da22b7598206f5460a1810f7c777b3d350deb3cb879b",
+  "depth_sha256": "a7b2a5452cc8487c3e099444c5b2f580ecd119ca02e56d128c096c77a265f03c",
+  "angle_deg": 4.0,
+  "zero_reference": 0.5,
+  "reference_point": null,
+  "nose_endpoint_motion_px": -4.0,
+  "endpoint_values": {
+    "nose": -4.0,
+    "left_cheek": 5.764654159545898,
+    "right_cheek": 4.481504440307617,
+    "forehead": 3.201280117034912,
+    "chin": 5.51738977432251,
+    "thumb": -8.933343887329102,
+    "shirt_center": -3.9657673835754395,
+    "shirt_side": -7.4659104347229,
+    "rear_hand": 2.2060024738311768,
+    "wall_left": 34.71601104736328,
+    "wall_right": 30.69049835205078
+  },
+  "range_px": [
+    -13.284164428710938,
+    40.53531265258789
+  ],
+  "hand_range_px": [
+    -13.284164428710938,
+    2.3370933532714844
+  ],
+  "inference_note": "Anatomical relief is inferred/artistic, not measured 3D. Source RGB is unchanged; separate semantic surfaces replace depth-quantile cuts.",
+  "physical_3d_verified": false
+}

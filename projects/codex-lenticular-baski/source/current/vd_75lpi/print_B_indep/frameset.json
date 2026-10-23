@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "kind": "multiview_3d",
+  "ns": 1,
+  "engine": "Blender",
+  "config": {
+    "nr": 8,
+    "ne": 8,
+    "near": 1.5,
+    "far": 3.0,
+    "zero": 2.16150625555846,
+    "focal_mm": 50.0,
+    "sensor_width_mm": 36.0,
+    "camera_span": 0.08842349737610021,
+    "positions": [
+      -0.044211748688050105,
+      -0.031579820491464364,
+      -0.018947892294878615,
+      -0.006315964098292874,
+      0.006315964098292874,
+      0.018947892294878622,
+      0.03157982049146436,
+      0.044211748688050105
+    ],
+    "grid_size": 1024,
+    "edge_threshold": 0.1,
+    "depth_convention": "white-near",
+    "sweep_seconds": 2.0,
+    "camera_axis": "x",
+    "edge_mode": "split"
+  },
+  "legacy_job": {
+    "schema_version": 1,
+    "stage": "supplied_depth_blender_preview",
+    "config": {
+      "nr": 8,
+      "ne": 8,
+      "near": 1.5,
+      "far": 3.0,
+      "zero": 2.16150625555846,
+      "focal_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "camera_span": 0.08842349737610021,
+      "positions": [
+        -0.044211748688050105,
+        -0.031579820491464364,
+        -0.018947892294878615,
+        -0.006315964098292874,
+        0.006315964098292874,
+        0.018947892294878622,
+        0.03157982049146436,
+        0.044211748688050105
+      ],
+      "grid_size": 1024,
+      "edge_threshold": 0.1,
+      "depth_convention": "white-near",
+      "sweep_seconds": 2.0,
+      "camera_axis": "x",
+      "edge_mode": "split"
+    },
+    "size": [
+      1872,
+      3098
+    ],
+    "blender_version": "Blender 5.1.2",
+    "mesh": {
+      "vertices": 13907200,
+      "triangles": 27770880,
+      "cut_triangles": 0,
+      "split_triangles": 0,
+      "focal_px": 2600.0,
+      "layer_count": 8
+    },
+    "source_inputs": {
+      "photo": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_75lpi\\prepared_B\\photo.png",
+      "depth": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_75lpi\\prepared_B\\depth.npy",
+      "photo_sha256": "f839e0c6e4c0748d97e3f1f5446f9cad4e93230937206fc19e0583d868253f9c",
+      "depth_sha256": "005b3ea179b849900b947c8a2946426809fd2a6e1ba499a5bf253b836229c225"
+    },
+    "coordinate_convention": "X right, Y up, camera looks -Z; positive endpoint disparity is behind",
+    "limitations": [
+      "Separate alpha/depth layers; hidden background is inferred, not recovered",
+      "No lens calibration or interlacing",
+      "Ne is metadata only; Nr controls rendering",
+      "Scene lengths are virtual units"
+    ],
+    "surfaces": [
+      {
+        "name": "Depth layer 1",
+        "mesh": "layer_00.npz",
+        "texture": "layer_00.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 2",
+        "mesh": "layer_01.npz",
+        "texture": "layer_01.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 3",
+        "mesh": "layer_02.npz",
+        "texture": "layer_02.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 4",
+        "mesh": "layer_03.npz",
+        "texture": "layer_03.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 5",
+        "mesh": "layer_04.npz",
+        "texture": "layer_04.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 6",
+        "mesh": "layer_05.npz",
+        "texture": "layer_05.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 7",
+        "mesh": "layer_06.npz",
+        "texture": "layer_06.png",
+        "extend": false
+      },
+      {
+        "name": "Depth layer 8",
+        "mesh": "layer_07.npz",
+        "texture": "layer_07.png",
+        "extend": false
+      }
+    ]
+  },
+  "frames": [
+    {
+      "path": "views/view_0000.png",
+      "view_coordinate": -0.0204512869079928,
+      "generated": true
+    },
+    {
+      "path": "views/view_0001.png",
+      "view_coordinate": -0.014609059650505544,
+      "generated": true
+    },
+    {
+      "path": "views/view_0002.png",
+      "view_coordinate": -0.00876583490140788,
+      "generated": true
+    },
+    {
+      "path": "views/view_0003.png",
+      "view_coordinate": -0.002922011493831523,
+      "generated": true
+    },
+    {
+      "path": "views/view_0004.png",
+      "view_coordinate": 0.002922011493831523,
+      "generated": true
+    },
+    {
+      "path": "views/view_0005.png",
+      "view_coordinate": 0.008765834901407884,
+      "generated": true
+    },
+    {
+      "path": "views/view_0006.png",
+      "view_coordinate": 0.01460905965050554,
+      "generated": true
+    },
+    {
+      "path": "views/view_0007.png",
+      "view_coordinate": 0.0204512869079928,
+      "generated": true
+    }
+  ]
+}

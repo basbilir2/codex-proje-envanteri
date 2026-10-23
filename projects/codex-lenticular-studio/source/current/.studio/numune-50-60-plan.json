@@ -1,0 +1,103 @@
+{
+  "render_job": "20261005-195044-b9a09c32",
+  "asset_id": "b25d6ef851eb408d",
+  "render": {
+    "nr": 12,
+    "angle_deg": 2.5,
+    "effect_strength": 1.25,
+    "zero_reference": 0.27,
+    "depth_smoothing": 0.15,
+    "depth_strokes": [],
+    "grid_size": 512,
+    "repair": true,
+    "layers": 6,
+    "inpaint_radius": 5,
+    "process_res": 700,
+    "render_long_edge": 1600,
+    "depth_curve": "soft",
+    "front_strength": 1.05,
+    "back_strength": 1.0,
+    "edge_refinement": 0.35,
+    "parallax_guard": true,
+    "max_parallax_percent": 2.8,
+    "edge_guard": true,
+    "camera_axis": "x",
+    "depth_black": 0,
+    "depth_white": 1,
+    "depth_gamma": 1.4,
+    "detail_enabled": true,
+    "detail_strength": 1.0,
+    "surface_strength": 0.08
+  },
+  "print": {
+    "width_mm": 200,
+    "height_mm": 233.4194659776055,
+    "bleed_mm": 0,
+    "ppi": 1200,
+    "printer_dpi": 1200,
+    "nominal_lpi": 50,
+    "effective_lpi": 50,
+    "ne": 12,
+    "axis": "vertical",
+    "phase": 0,
+    "tilt_deg": 0,
+    "reverse_views": true,
+    "mirror": false,
+    "fit": "contain",
+    "stripe_sampling": "center",
+    "crosstalk": 0,
+    "compensation": 0,
+    "regularization": 0.02,
+    "crosstalk_matrix": null,
+    "icc_path": null,
+    "color_mode": "RGB",
+    "white_underbase": false,
+    "pitch_verified": false,
+    "viewing_distance_mm": 500,
+    "lens_view_angle_deg": 41,
+    "allow_unfilled": false,
+    "pitch_step": 0.01,
+    "pitch_candidates": 11,
+    "gamut_guard": true
+  },
+  "geometry": {
+    "near": 1.5,
+    "far": 3.0,
+    "zero": 2.3622047244094486,
+    "camera_span": 0.08286425087673903
+  },
+  "parallax": {
+    "requested_angle_deg": 2.5,
+    "effective_angle_deg": 2.0096840143558947,
+    "angle_limited": true,
+    "parallax_limit_percent": 2.8,
+    "endpoint_disparity_px_range": [
+      -65.01599884033203,
+      24.035261154174805
+    ],
+    "max_parallax_percent": 2.799999950057366,
+    "adjacent_view_step_px": 5.910545349121094,
+    "edge_limited": false,
+    "edge_jump_p995_px_at_512": 0.36364710372127534,
+    "requested_edge_jump_p995_px_at_512": 0.452393904924393,
+    "requested_parallax_percent": 3.483330186947372,
+    "note": "Endpoint motion relative to the zero plane; a configurable geometric budget, not a measured optical limit."
+  },
+  "print_method": "Unmirrored surface print with lens placed over image",
+  "lens_pitch_status": "Nominal; physical pitch unmeasured",
+  "previous_candidate": "20261005-192804-869f419b",
+  "decisions": {
+    "50": {
+      "ppi": 1200,
+      "ne": 12
+    },
+    "60": {
+      "ppi": 1200,
+      "ne": 10
+    },
+    "reason": "Integer two-dot print channels; latest user delegated settings. Affine detail headroom; bounded 2.8% parallax; four occlusion layers."
+  },
+  "mesh_candidate": "20261005-193838-51163411",
+  "cut_candidate": "20261005-194343-b3c08c9f",
+  "preview_job": "20261005-194905-88814455"
+}

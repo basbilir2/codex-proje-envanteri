@@ -1,0 +1,59 @@
+{
+  "name": "Mini Uzay Oyunu - Duraklat/Devam akışı",
+  "workspace": "C:/Users/USER/Documents/Codex/2026-10-17/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Projeler/Mini Uzay Oyunu-271e4b",
+  "url": "file:///C:/Users/USER/Documents/Codex/2026-10-17/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/Projeler/Mini%20Uzay%20Oyunu-271e4b/index.html",
+  "steps": [
+    {
+      "action": "wait",
+      "ms": 1500
+    },
+    {
+      "action": "expect_text",
+      "role": "button",
+      "name": "Duraklat",
+      "label": "Duraklat düğmesi görünür",
+      "selector": "#duraklat-devam",
+      "exact": true
+    },
+    {
+      "action": "click",
+      "role": "button",
+      "name": "Duraklat",
+      "label": "Oyunu duraklat",
+      "selector": "#duraklat-devam"
+    },
+    {
+      "action": "expect_stable",
+      "selector": "#cvs",
+      "ms": 650
+    },
+    {
+      "action": "expect_text",
+      "role": "button",
+      "name": "Devam Et",
+      "label": "Düğme 'Devam Et' oldu",
+      "selector": "#duraklat-devam",
+      "exact": true
+    },
+    {
+      "action": "click",
+      "role": "button",
+      "name": "Devam Et",
+      "label": "Oyuna devam et",
+      "selector": "#duraklat-devam"
+    },
+    {
+      "action": "expect_motion",
+      "selector": "#cvs",
+      "ms": 650
+    },
+    {
+      "action": "expect_text",
+      "role": "button",
+      "name": "Duraklat",
+      "label": "Düğme tekrar 'Duraklat' oldu",
+      "selector": "#duraklat-devam",
+      "exact": true
+    }
+  ]
+}

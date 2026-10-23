@@ -1,0 +1,41 @@
+{
+  "render_job": "20261005-195044-b9a09c32",
+  "results": [
+    {
+      "lpi": 50,
+      "ppi": 1200,
+      "job": "20261005-195311-55f2af53",
+      "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\NUMUNELER_50_60_LPI_20261005\\Ataturk_3D_50LPI_12kanal_1200PPI_200mm.tif",
+      "sha256": "46132c2f99f40a0fa4da45186f7e024b0741f7b5029d382a6d5a1fc9996e6f1b",
+      "size": [
+        9449,
+        11028
+      ],
+      "physical_size_mm": [
+        200.00383333333332,
+        233.42600000000002
+      ],
+      "max_sample_rgb_error": 0,
+      "ne": 12,
+      "channel_width_pixels": 2.0
+    },
+    {
+      "lpi": 60,
+      "ppi": 1200,
+      "job": "20261005-195332-91454ed7",
+      "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\outputs\\NUMUNELER_50_60_LPI_20261005\\Ataturk_3D_60LPI_10kanal_1200PPI_200mm.tif",
+      "sha256": "8366baf58693c3fda4e4cbd5aaf513373050153ff745c00aef71322261d2fa46",
+      "size": [
+        9449,
+        11028
+      ],
+      "physical_size_mm": [
+        200.00383333333332,
+        233.42600000000002
+      ],
+      "max_sample_rgb_error": 0,
+      "ne": 10,
+      "channel_width_pixels": 2.0
+    }
+  ]
+}

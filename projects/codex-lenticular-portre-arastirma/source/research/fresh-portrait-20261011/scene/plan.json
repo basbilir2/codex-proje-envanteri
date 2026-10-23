@@ -1,0 +1,43 @@
+{
+  "config": {
+    "nr": 2,
+    "ne": 10,
+    "near": 1.5,
+    "far": 3.0,
+    "zero": 2.0,
+    "focal_mm": 50.0,
+    "sensor_width_mm": 36.0,
+    "camera_span": 0.13968307796699092,
+    "positions": [
+      -0.06984153898349546,
+      0.06984153898349546
+    ],
+    "grid_size": 512,
+    "edge_threshold": 1.0,
+    "depth_convention": "white-near",
+    "sweep_seconds": 2.0,
+    "camera_axis": "x",
+    "edge_mode": "cut"
+  },
+  "size": [
+    1872,
+    3098
+  ],
+  "source_inputs": {
+    "photo": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\inference\\photo.png",
+    "photo_sha256": "f839e0c6e4c0748d97e3f1f5446f9cad4e93230937206fc19e0583d868253f9c",
+    "depth": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\inference\\relative_depth.npy",
+    "depth_sha256": "5f7ff564061fb674cc0ed1b747f2b6b18ec9f3e0229b0de729457845b2e5b1c3"
+  },
+  "method": "Fresh DA3 at 1008; source-image semantic occlusion masks; continuous torso/shorts geometry; no depth quantile partitions.",
+  "model_source": "https://github.com/ByteDance-Seed/Depth-Anything-3",
+  "nose_pixel": [
+    958,
+    432
+  ],
+  "zero_reference": 0.5,
+  "max_endpoint_parallax_percent": 2.4,
+  "no_old_depth_or_layers": true,
+  "no_detail_crops": true,
+  "no_luminance_relief": true
+}

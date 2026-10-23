@@ -1,0 +1,6 @@
+[
+  "https://github.com/hzwer/ECCV2022-RIFE",
+  "https://huggingface.co/Qwen/Qwen3-14B-GGUF",
+  "https://huggingface.co/docs/peft/main/en/developer_guides/quantization",
+  "https://huggingface.co/docs/transformers//quantization/gguf"
+]

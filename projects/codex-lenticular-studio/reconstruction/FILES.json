@@ -1,0 +1,2337 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 1973,
+    "sha256": "7ca0c94bf716ed084348cb0605c18c0dd3a15a91bf4015bef003c96b4e970632"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 4129,
+    "sha256": "d820822e42d12a87c716d2189f1b8f0ba8af30cc15c50cc672ef362d19d8e390"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 3327,
+    "sha256": "549e8b5f05d0b147979621e00b069317e2d6b5b682f55a9570ad5d1341728766"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 23007,
+    "sha256": "66d484b701c88fb23a71f00e75e7065a4d1fb4759b97a5ee6b826afda39b91a3"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2644,
+    "sha256": "f0bc478d0b6b7cabe7fb4ec0323e3ead1865b43597d5971fed3a72d515ecd3a8"
+  },
+  {
+    "path": "ROADMAP.md",
+    "bytes": 918,
+    "sha256": "e8639e00062c657a996076475d519a4bc8e6d360296b5a5f1b843c2fa1064823"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 548,
+    "sha256": "9161c87fcb7357aa69355e0f7ec7f9f09c94e7840556f8c835b54c1e8f5c24a8"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 9214,
+    "sha256": "eb711f53b9eb0d79b9f9f5d5082d55010de6f9bdf97efe6b61bd3c59a3fcd1f0"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 15493,
+    "sha256": "486fce0e9cc2a7905fa23f75c3f5472a61d6638eeb0e6b5b1caf391c1ba57e8c"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 252,
+    "sha256": "10d6c834b255b77c46a7c902bdf9133ea39b8d7963b7eafe312090603c4bbb69"
+  },
+  {
+    "path": "source/current/3D_ETKI_OGRENME_KILAVUZU.md",
+    "bytes": 15351,
+    "sha256": "2db14b43760c1963541c50b68d0fd13dea3573ff01ef4ef6d15fdc64ffe560ab"
+  },
+  {
+    "path": "source/current/AGENTS.md",
+    "bytes": 401,
+    "sha256": "e2adf7e56ae8dbcf07133d4d7496343c89f03890a0bd9aef7cd727e593adbeb5"
+  },
+  {
+    "path": "source/current/KULLANIM_KILAVUZU.md",
+    "bytes": 6902,
+    "sha256": "2cb18ee273cd41cc7780b2f1fb83b387006820b5f65450c954547d9ca1a6bc9e"
+  },
+  {
+    "path": "source/current/Lenticular Studio.cmd",
+    "bytes": 83,
+    "sha256": "fa922a1e0c5698414a2c5286927048a4b7d861bd795d58451503c782b5f40368"
+  },
+  {
+    "path": "source/current/pyproject.toml",
+    "bytes": 701,
+    "sha256": "dd7c35dde3c2431d1c646e9a2ea2590719548587a7b8793dff24956c6c00b31b"
+  },
+  {
+    "path": "source/current/README.md",
+    "bytes": 16254,
+    "sha256": "7fa4b9a50a052bdc5a628a1f4486aebdb45281383633908ab9b33b9ef7759e8e"
+  },
+  {
+    "path": "source/current/requirements-depth.txt",
+    "bytes": 228,
+    "sha256": "fadb967b9f5f6c071db2e5b6ebe12c1f61e109b009dc94b721a7dbe1cd098c3a"
+  },
+  {
+    "path": "source/current/requirements-quality.txt",
+    "bytes": 133,
+    "sha256": "d60a3cc405c5130d7723ecf07f28e340103e25167dbebe8158c0c2359af7cf59"
+  },
+  {
+    "path": "source/current/run.ps1",
+    "bytes": 420,
+    "sha256": "a7d1fce48e221dc32cc3277caff471a75351f688eefd579a4bc3e2e58a0903b4"
+  },
+  {
+    "path": "source/current/setup-animation.ps1",
+    "bytes": 1569,
+    "sha256": "ae1f350cff4b490d876ece995b94a8e13bdd5a9466e14d8a1514055f328869dd"
+  },
+  {
+    "path": "source/current/setup-depth.ps1",
+    "bytes": 914,
+    "sha256": "a4b84a9b65bde34e170dfc4ff80d5f9f4a07c10f8bdc0cddd8226025f40d0e46"
+  },
+  {
+    "path": "source/current/setup-quality.ps1",
+    "bytes": 2193,
+    "sha256": "d34769adeb82bba2aba6deb11f49654515b3dc804a38e2de14af843759b3da3b"
+  },
+  {
+    "path": "source/current/setup.ps1",
+    "bytes": 677,
+    "sha256": "616cdde96091ec736e553085423179b7e258c2b821c84e7137453683d5915b55"
+  },
+  {
+    "path": "source/current/start.ps1",
+    "bytes": 1448,
+    "sha256": "f3a15fbf967cab9960328d37ea6ae6ba2aef303e883dc6c0bf59207c42fbf782"
+  },
+  {
+    "path": "source/current/.studio/build_numuneler.py",
+    "bytes": 3594,
+    "sha256": "901f50db02c4f03e2918ebb57137be65d0ebb438977f265d866bbc86aee56a04"
+  },
+  {
+    "path": "source/current/.studio/deliver-relief.py",
+    "bytes": 3800,
+    "sha256": "65a8fc6e707b7b210d4b431e5abd4611ff8a95210baf87e2336cb0dfcaf1ead6"
+  },
+  {
+    "path": "source/current/.studio/latest-upgrade-job.json",
+    "bytes": 34,
+    "sha256": "d765ba2784ac57594865b87c3734057c9b4227559cc745380c2d3ae319a164a0"
+  },
+  {
+    "path": "source/current/.studio/numune-50-60-plan.json",
+    "bytes": 2990,
+    "sha256": "2cb96ef246f22fc8aa015b221476db16a0c13f8d053b8017fba8ff112e73635a"
+  },
+  {
+    "path": "source/current/.studio/numune-50-60-result.json",
+    "bytes": 1271,
+    "sha256": "8b924a3d42651726925f3eff745cb4c8d51b314dfdb8d172dc5654761d81bb35"
+  },
+  {
+    "path": "source/current/.studio/package_alternative.py",
+    "bytes": 3120,
+    "sha256": "c23073b5e1a580f8867b26b715d35a60a8819bf7c189c36a8d3a5792a4e33113"
+  },
+  {
+    "path": "source/current/.studio/package_nine.py",
+    "bytes": 5820,
+    "sha256": "6c0e85f28f130944feafef5959f3a9985e08721e79e5de28234fce8590b24a41"
+  },
+  {
+    "path": "source/current/.studio/recover_nine.py",
+    "bytes": 2435,
+    "sha256": "e5eb5ab9830464bc0e0f1fadfceb2b6addef4a04ad881f52d8bb7cbffdd47935"
+  },
+  {
+    "path": "source/current/.studio/relief-print-request.json",
+    "bytes": 1557,
+    "sha256": "5e511dd657474f0cfc4407b4ffcd0dff7509f7443fbdc57c48ed65fc5b69cdfa"
+  },
+  {
+    "path": "source/current/.studio/relief-render-settings.json",
+    "bytes": 483,
+    "sha256": "24d0effaa3280f8e9c43b9d5241ea1596651cc6b74f5be84e3582967594a8efd"
+  },
+  {
+    "path": "source/current/.studio/review-print.json",
+    "bytes": 34,
+    "sha256": "d4ab17d023e3da9cd86bcb913e15bc856b4c028d413a4fb6071f433e34f524c3"
+  },
+  {
+    "path": "source/current/.studio/surface-upgrade-evidence.txt",
+    "bytes": 115,
+    "sha256": "8206bfc53d2b1751c4a586ab42df8f433162f7fcd9cb6184caaa1204a5e2a2b2"
+  },
+  {
+    "path": "source/current/docs/ARCHITECTURE.md",
+    "bytes": 8067,
+    "sha256": "26fecde32e4b12161c0ec5a79263507285b6e194e6088cd7a564f342e1bd7294"
+  },
+  {
+    "path": "source/current/docs/CONTOUR_CORRECTION_2026-10-10.md",
+    "bytes": 6710,
+    "sha256": "cfaea82007681aaa3b3744d8247191c0414124edd218e476e30748fec5957d88"
+  },
+  {
+    "path": "source/current/docs/QUALITY_REVIEW_2026-10-09.md",
+    "bytes": 14089,
+    "sha256": "febe082b326b7de6861e1ec339a82a892912123dc21396acb10f5587676f8bb4"
+  },
+  {
+    "path": "source/current/docs/ROADMAP.md",
+    "bytes": 4102,
+    "sha256": "6e5a8073b44d3991efae11e3943132c50917a730b481312ac20714fd132277ef"
+  },
+  {
+    "path": "source/current/docs/SURFACE_QUALITY_2026-10-10.md",
+    "bytes": 7965,
+    "sha256": "7d5853e9a3ffea96cabe4008849334b1870b124174582823968a8ef0e6f4345e"
+  },
+  {
+    "path": "source/current/lenticular/analyzer.py",
+    "bytes": 6874,
+    "sha256": "0721e334688a407af5413a6d5f08ada30c26f3b22b45b9d4110951e25b0b3905"
+  },
+  {
+    "path": "source/current/lenticular/animation.py",
+    "bytes": 12340,
+    "sha256": "821c1aca2d20921c2b6f875a9f195818ae4f992868212f939186c06a2cbce15a"
+  },
+  {
+    "path": "source/current/lenticular/blender_scene.py",
+    "bytes": 6250,
+    "sha256": "831b52a1a09cdfebdc001b2e23c2893b29f54dd340cbe1c901f2e049a7d99e7d"
+  },
+  {
+    "path": "source/current/lenticular/cli.py",
+    "bytes": 6061,
+    "sha256": "815f001f30c36897f628d66cc40e19e11681065ab70e853d5d1cadafebf32724"
+  },
+  {
+    "path": "source/current/lenticular/depth.py",
+    "bytes": 9202,
+    "sha256": "fc01daa21b29bc9309c4f3a3544b835ebd5767aa4a7f97c965f4da328118ab93"
+  },
+  {
+    "path": "source/current/lenticular/detail_depth.py",
+    "bytes": 6564,
+    "sha256": "fbfb11c299de1ea3955482bdcb750c3db28169b583fdb369feb22b76ebf6c2e8"
+  },
+  {
+    "path": "source/current/lenticular/frames.py",
+    "bytes": 6635,
+    "sha256": "59f3dd191421407b2ef48230b2ece41f8b83472b2c234ab6d2f38975ae20062e"
+  },
+  {
+    "path": "source/current/lenticular/geometry.py",
+    "bytes": 7413,
+    "sha256": "8c3f6e18c3553f3f9c341b3cabc9345a2e328bc1a0c00d1e2df0c5bcc67eaaab"
+  },
+  {
+    "path": "source/current/lenticular/interpolation.py",
+    "bytes": 8096,
+    "sha256": "2889efdf1b9e92505d69882045d5d0ef765eac6ca491298cf812a86686fa9d9f"
+  },
+  {
+    "path": "source/current/lenticular/layers.py",
+    "bytes": 13772,
+    "sha256": "f65f6074d337ef37c8e7d93d956a9737ab2cabb6bf6d1b07eccf1f03fd4cec78"
+  },
+  {
+    "path": "source/current/lenticular/objects.py",
+    "bytes": 2606,
+    "sha256": "e1488d988afd3276b9c7c46174e446a860243741ca5aceaeb0147a70c85a181f"
+  },
+  {
+    "path": "source/current/lenticular/optics.py",
+    "bytes": 5085,
+    "sha256": "7e02d88a75ada712da005c357062710b93b20f7dcccd2c856abfd0233c13be74"
+  },
+  {
+    "path": "source/current/lenticular/pipeline.py",
+    "bytes": 43892,
+    "sha256": "b7fcaab99eb7ad7c39527b37e28f0520555aac4a53c43c98507d9e8543a7e516"
+  },
+  {
+    "path": "source/current/lenticular/printing.py",
+    "bytes": 43275,
+    "sha256": "5dcfe47446d65cf7d769462d9e9d429ec1ef46b96d87dcf774f67e09480cd8e0"
+  },
+  {
+    "path": "source/current/lenticular/repair.py",
+    "bytes": 12444,
+    "sha256": "da2b4a72dd2abd6f76638033c4c751407ab962c2256104ad80b9b8041377fc51"
+  },
+  {
+    "path": "source/current/lenticular/restoration.py",
+    "bytes": 8630,
+    "sha256": "32cb33ae5bda65391240ef2ba65679c7167a33ccb2f2dacecb115e34dbddac65"
+  },
+  {
+    "path": "source/current/lenticular/runner.py",
+    "bytes": 7897,
+    "sha256": "2b08448a7a28f671dd85c137d1e3de76c613151856e84bef4f20f0b9af58a2b2"
+  },
+  {
+    "path": "source/current/lenticular/studio.py",
+    "bytes": 8545,
+    "sha256": "b52caf6ba42a538048888e05cb0a2f2b6b06d2306523bcc7fe9fff44acadfb1a"
+  },
+  {
+    "path": "source/current/lenticular/__init__.py",
+    "bytes": 59,
+    "sha256": "c48bd74f7e635c14377bd1d0ca3d5b5b1de69207e7aae7f7414e09cd05847183"
+  },
+  {
+    "path": "source/current/lenticular/__main__.py",
+    "bytes": 48,
+    "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+  },
+  {
+    "path": "source/current/lenticular_blender.egg-info/dependency_links.txt",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "source/current/lenticular_blender.egg-info/entry_points.txt",
+    "bytes": 94,
+    "sha256": "0b74b643e13c259aa8bd18a1b22ce0bbf5c770ce9793cbae7a3107f19e1dd947"
+  },
+  {
+    "path": "source/current/lenticular_blender.egg-info/requires.txt",
+    "bytes": 84,
+    "sha256": "2735b55d36f824bd07c3aff0122a74d6ec7aa8a28dca9371a61f4ea3363786a8"
+  },
+  {
+    "path": "source/current/lenticular_blender.egg-info/SOURCES.txt",
+    "bytes": 636,
+    "sha256": "ae3f6ead3a7001526c0c89550bfc5dbf32c25acca882ebae9c953b30685e3e20"
+  },
+  {
+    "path": "source/current/lenticular_blender.egg-info/top_level.txt",
+    "bytes": 11,
+    "sha256": "b27a2358908fabfc4e8dbac1a69155bb6376e6702a7609ad358f5ef72574e053"
+  },
+  {
+    "path": "source/current/tests/animation_ui_server.py",
+    "bytes": 844,
+    "sha256": "4e80e5bef1c4ecbe99ab0dc786c751ea0e87788281cae17a9d6d8a13f09be3e5"
+  },
+  {
+    "path": "source/current/tests/test_animation.py",
+    "bytes": 9600,
+    "sha256": "ecd3c77917f435a23a53e7fc6805d95e001bf99b7ea86c388818bb8a7f044c8f"
+  },
+  {
+    "path": "source/current/tests/test_depth.py",
+    "bytes": 2534,
+    "sha256": "0f2fcf3d32f53eb48f4246a0c52b56144eb38a83678535d040eba6d8a2d1d3da"
+  },
+  {
+    "path": "source/current/tests/test_inputs.py",
+    "bytes": 2172,
+    "sha256": "2a46eaad4f1553989af9185ffb6e3af2e296edb5f8639cf7a0291c3d58887e66"
+  },
+  {
+    "path": "source/current/tests/test_optical_quality.py",
+    "bytes": 8584,
+    "sha256": "03caf67c22b26c7d2099fe050de3b466448b532a7b90a53403eae9b43d79d673"
+  },
+  {
+    "path": "source/current/tests/test_scene_analyzer.py",
+    "bytes": 5980,
+    "sha256": "ff7d2961b306a8e3b9adb592b41ebc914822e90c51cf0129d40d65d973c3b31c"
+  },
+  {
+    "path": "source/current/tests/test_stereo_print.py",
+    "bytes": 7226,
+    "sha256": "524d65b5c16a6bd6b22dbc1ae4942b57138272e8a2416274c88bbea1fe8aea5d"
+  },
+  {
+    "path": "source/current/tests/test_surface_quality.py",
+    "bytes": 10783,
+    "sha256": "a7af47bbb90264d06db183a238458dc351e3667ceb78818f62754612f660e0c7"
+  },
+  {
+    "path": "source/current/tools/check_demo.py",
+    "bytes": 2563,
+    "sha256": "360c16dc769c1f4458879a860d9a493b073e7c88183d774d69ac4cc2b4baac6a"
+  },
+  {
+    "path": "source/current/tools/recover_50lpi.py",
+    "bytes": 13385,
+    "sha256": "7070fd418057e69c4a588ffe7a30e0ad03b0327ec20b9e0ca48074a1ea15c177"
+  },
+  {
+    "path": "source/current/tools/refine_portrait_regions.py",
+    "bytes": 12615,
+    "sha256": "05e81c8b657c6091e3e025ad6cc99efabf4194aa71b24ec72ea0e0369cb4da2b"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_60LPI_20cm_20261004_1707/UV_Baski_Notlari.txt",
+    "bytes": 1740,
+    "sha256": "c8507cc11ece93025ed34631aa1a8c2793dbff000425324d3cfd85f9daf1b8f8"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/KULLANIM_KILAVUZU.html",
+    "bytes": 1166964,
+    "sha256": "48357ec59b3a51a9db70d63b720218454d06832f834aa8914d0ab52ef2ba9491"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/ONCE_OKU_BASKI_NOTLARI.txt",
+    "bytes": 2766,
+    "sha256": "4f0070465a4219eeaab1e4af3c2e780cc4c3a5e6b5a27396043e7f5de9b7052a"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/teslim-manifestosu.json",
+    "bytes": 8709,
+    "sha256": "c88933d1f7b2bb7c0e33f58b7b7088afc2001f05cecd0e0e96a14a0f7d963fc8"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/uretim-plani.json",
+    "bytes": 17351,
+    "sha256": "6726e6076b3e61c5c8f5c3ef967bb8748ca79e4facb6ec50c030adb4cd7cd4aa"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/compare.py",
+    "bytes": 1585,
+    "sha256": "d77b72865f7a08606205ede86966a29e1ba7f836047d1afa49ee27f525cd67c8"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/complete_views.py",
+    "bytes": 2418,
+    "sha256": "cf9516e05a3c701300148580e5722afc8be65bee920f20ede48dbbf860b9d980"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/diagnose.py",
+    "bytes": 1977,
+    "sha256": "1a9c6660adefbee0a7bf55c2994f85e6a38e539b77d9f7360765fc09a01c8cc8"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/final-checks.json",
+    "bytes": 1790,
+    "sha256": "a9ab822eded88c82f518873c9c384bea46d50d91a4c0479af78734efd6e5447a"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/finalize.py",
+    "bytes": 1223,
+    "sha256": "26187ca3dba17eb5be131e60fb490f5224d98f39d0e7e74da0aea9a6e959811f"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/fix_visible_pixels.py",
+    "bytes": 2559,
+    "sha256": "18504051a9db1e7c087a24ac62ac29ef3ee146a92cf8bc6eb13ada42fb4b48ca"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/inspect_edges.py",
+    "bytes": 1095,
+    "sha256": "a9c3626024977e2eb8e338eb233e159c198b25b21e8533484fbb4f92c8fd1c50"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/probe_separation.py",
+    "bytes": 2232,
+    "sha256": "76b934a191f9d6e33927bf46ad628ad1ba28270c3acb761c59a6db3cb44d8d11"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/render_probe.py",
+    "bytes": 1154,
+    "sha256": "eb3d46f7ecf65967b4de43ade3407d627f18af3c64cb3b4a89d24c7c445b27a0"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/render_remaining.py",
+    "bytes": 1780,
+    "sha256": "9bb6eaba66b45bbeaab523e2659b8d3c97673761ab4cf5898d83f41ffb06aeb3"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/render_strict.py",
+    "bytes": 1012,
+    "sha256": "18c8741515e4b0010630986138317da7d55a372520b1c25a67695c5735f393c5"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/restart_verified.py",
+    "bytes": 2073,
+    "sha256": "36bbabc46545c896ba4cd7b657c9e5756b97402f78649b040440b0b41f3d46e2"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/review_regions.py",
+    "bytes": 924,
+    "sha256": "5f3c2dc8db825aba668d7d264a3458b6bb9ec78fa4630aa67655d68154c8cfdc"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/state-verification.json",
+    "bytes": 260,
+    "sha256": "cee534cb6af71296f575bd7e6d0245696480b363593d824620655b4616e5bed5"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/strict-order-verification.json",
+    "bytes": 577,
+    "sha256": "b41d15f06f514791cc8971fa84c05956adcdbd80df1659d4918f3dbc8b9b2d7e"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/strict_order.py",
+    "bytes": 1976,
+    "sha256": "29ce01882064c32ab39c11ab3e00d077729173d1cee8e609caef36162bde2858"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/validate_coupled.py",
+    "bytes": 1503,
+    "sha256": "23884ca2abf95258b03eb5e7ef56c8d8e1181e8f5fa8af62b1457c48f7401291"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/validate_scene.py",
+    "bytes": 731,
+    "sha256": "31391e776012780ecf7205c546c127e9bc6ad315ded13a966badcaf9d4178bde"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/validation.json",
+    "bytes": 723,
+    "sha256": "a441ab814ea6eeba37837467aaa2dcc0329ff80b2bc3191a78e65cbabf8b5731"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/verify_result.py",
+    "bytes": 1508,
+    "sha256": "8d5059da9b052f13693cd4aa41f77275d904f3e45b9708f404fb30acaa940c94"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/visual-acceptance.json",
+    "bytes": 593,
+    "sha256": "ab692ce1a7400f863370c02efede25c582da58ed2aba01f19b75009cd6be03c6"
+  },
+  {
+    "path": "source/current/outputs/control18/preview.html",
+    "bytes": 1850,
+    "sha256": "5840ced5d3c3e627d70269f98b60c523ab0d61be0a8498cba8e2155657478a74"
+  },
+  {
+    "path": "source/current/outputs/control18/render_result.json",
+    "bytes": 10429,
+    "sha256": "1efe2ef556a6dea6d4fcf6901dedb0e128f7955a12b9f37d56a4804fd0b4fedd"
+  },
+  {
+    "path": "source/current/outputs/control18/verification.json",
+    "bytes": 314,
+    "sha256": "7c61aacb98ea3570e5ad61ad9c77b8272bf332e91cec48f7cc70165a42aec9b1"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/archive_research.py",
+    "bytes": 2845,
+    "sha256": "97f4084083b33768767928c8833e10364a476fc45c2b005628d1e24d5b4b19fa"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/backup-manifest.json",
+    "bytes": 801,
+    "sha256": "fcf8077ef8614024ff2a04e64bf999902a99a272336ac2648cdb6fea380bb644"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/final-restart-verification.json",
+    "bytes": 447,
+    "sha256": "84f3c30172e2ef3a7173bd2b89b55eed416812bdc61cc13a2ea299a4e7b288a1"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/startup-verification.json",
+    "bytes": 209,
+    "sha256": "a2d3ba44f08aa7883384b7ca5101f26a641059249b547ca7ea4825fd4dc7651c"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/test_animation.py",
+    "bytes": 9445,
+    "sha256": "135d12efc97928cc786b6059156efdb58d72b8495d0fa4562b9fcc4f5c590e2b"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/validate_portrait.py",
+    "bytes": 3390,
+    "sha256": "cf1affcd721e82316440818b63b4ba31718343075fe643ee824fe0f4e1f5986c"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup-manifest.json",
+    "bytes": 862,
+    "sha256": "ee05d5cb91b31c88465a07474073591593abf6b3d37a7516d52a58def52306d1"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/packages-before.txt",
+    "bytes": 1155,
+    "sha256": "b1361b438f8102cacb26bcaee1366d165c95337298a7673e57895ffcfad2e1c6"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/packages-change.json",
+    "bytes": 113,
+    "sha256": "efadadec9cde9aec01014e8b8ab37fb73f350fc6b4db87227f87446309934838"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/restart-verification.json",
+    "bytes": 480,
+    "sha256": "5a6fa1c6583796fde830647b737863a93c2bf0a69f9015fdc887b5168a84e8d2"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/validate_corrected.py",
+    "bytes": 3011,
+    "sha256": "d819dc85162f12a739becd1a5d068d89420e6c52502701b3ca7c74007b06bdce"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/validate_final.py",
+    "bytes": 3054,
+    "sha256": "1a4f1876856ae0d5dd22b43d3ce4c495865aa7c80298785ae5b066122fc4479e"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/validate_native.py",
+    "bytes": 2915,
+    "sha256": "bf359d5a6a22714301e87cc7ac7271294bccd66e92c8ea31d5ae1bf9cf6e8de4"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/verification-summary.json",
+    "bytes": 528,
+    "sha256": "35e84fa89af14da7bd559395918db739bc38de1aa39623961c55eed639e6d92b"
+  },
+  {
+    "path": "source/current/outputs/wedding/verification.json",
+    "bytes": 632,
+    "sha256": "edea4925e5a5021f46da5e29e00526ff9c281a20d09f56f9f532271f80f75c7f"
+  },
+  {
+    "path": "source/current/outputs/wedding/depth/metadata.json",
+    "bytes": 1512,
+    "sha256": "e6b778fb7c1d4e7e18ac85be74d496c23e4428531b294f7e4368f12890d64765"
+  },
+  {
+    "path": "source/current/outputs/wedding/render/preview.html",
+    "bytes": 1714,
+    "sha256": "f6c11e6521dff256b9382873946635c592cce4a7265eba84ac06fd1fd2f7cf9d"
+  },
+  {
+    "path": "source/current/outputs/wedding/render/render_result.json",
+    "bytes": 6916,
+    "sha256": "556f4e5b089adf9d4774505612b89531a13a142a50e2c08738a9aa104b3293c4"
+  },
+  {
+    "path": "source/current/outputs/vertical-control-6e0dad/print/pitch-test.json",
+    "bytes": 378,
+    "sha256": "2599152b879b55e97aec460905cfd0043b57c3e6264e373835c7dd9f357a62bc"
+  },
+  {
+    "path": "source/current/outputs/vertical-control-6e0dad/print/print-report.json",
+    "bytes": 2678,
+    "sha256": "b1be9b79c267dda343dc0017449367ee28ea6bd079b44a87425ddb5e77cd1950"
+  },
+  {
+    "path": "source/current/outputs/vertical-control-6e0dad/render/preview.html",
+    "bytes": 1483,
+    "sha256": "2426925e7f58a6ecd9efd42622c3d1b861e404be100d6c5360b31f6b729e2f50"
+  },
+  {
+    "path": "source/current/outputs/vertical-control-6e0dad/render/render_result.json",
+    "bytes": 1462,
+    "sha256": "03c8190687050d79eac19cbc88a8796343b20842693689e762e2b0eb7a68e63f"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup/pyproject.toml",
+    "bytes": 599,
+    "sha256": "320dfe8312a500ae6a5f66aa3f86acfbb1bd6aced50d5c4cdff89983f5efd641"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait/validation.json",
+    "bytes": 5581,
+    "sha256": "363820c6e7908bdda842f0ea2cdc25719dc81ff63772550c2c039c0ad9c550c0"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-corrected/preview.html",
+    "bytes": 1712,
+    "sha256": "6b3956ec039dcc903274e932c637a70708146d56bf3cb9f3058e090a578fa2c0"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-corrected/render_result.json",
+    "bytes": 8892,
+    "sha256": "f1272e698de98e79a17a658f200d74c28f2f75f53d5e9b85437843650419150f"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-corrected/validation.json",
+    "bytes": 642,
+    "sha256": "94f47ec065602fa6246fb473b5f3110fd7c709309264a5920175cfa2b88b7e93"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-final/preview.html",
+    "bytes": 1712,
+    "sha256": "6b3956ec039dcc903274e932c637a70708146d56bf3cb9f3058e090a578fa2c0"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-final/render_result.json",
+    "bytes": 8892,
+    "sha256": "f1272e698de98e79a17a658f200d74c28f2f75f53d5e9b85437843650419150f"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-final/validation.json",
+    "bytes": 643,
+    "sha256": "ef383d46b99eb37ee773f16ab646859712e998c9f6e6ca8bf560be1d8ebe31dd"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-final/print/baski-notlari.txt",
+    "bytes": 1463,
+    "sha256": "aafcf06cca82b963e96589c96f91ac1d83b22741e202581c96f6e928e891723f"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-final/print/channel-plan.json",
+    "bytes": 1706,
+    "sha256": "9a6a7a226c0b1afc9a6d8df29c3d5b4bd093e2f63ec16811f35efaa976ac848c"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-final/print/frameset.json",
+    "bytes": 4944,
+    "sha256": "2f403733b8adf99fe5887f860a1c2c420aadf9cdb97423088a5b9a8c61d91665"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-final/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-final/print/print-report.json",
+    "bytes": 10456,
+    "sha256": "433db82247238b55642dfd1db674adeb5d943b984115fcc2a067f82e878e6403"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-corrected/print/baski-notlari.txt",
+    "bytes": 1396,
+    "sha256": "4de6d5d04abfc99b0267c1927a5279864c4cb5457f03fc8b9acf023610e3627e"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-corrected/print/channel-plan.json",
+    "bytes": 1706,
+    "sha256": "9a6a7a226c0b1afc9a6d8df29c3d5b4bd093e2f63ec16811f35efaa976ac848c"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-corrected/print/frameset.json",
+    "bytes": 4944,
+    "sha256": "2f403733b8adf99fe5887f860a1c2c420aadf9cdb97423088a5b9a8c61d91665"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-corrected/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait-corrected/print/print-report.json",
+    "bytes": 10364,
+    "sha256": "c1240ed03771bb302c879140695bb12769016e28129268ef27f83dee7857c303"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait/print/baski-notlari.txt",
+    "bytes": 1396,
+    "sha256": "4de6d5d04abfc99b0267c1927a5279864c4cb5457f03fc8b9acf023610e3627e"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait/print/channel-plan.json",
+    "bytes": 1706,
+    "sha256": "9a6a7a226c0b1afc9a6d8df29c3d5b4bd093e2f63ec16811f35efaa976ac848c"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait/print/frameset.json",
+    "bytes": 4944,
+    "sha256": "2f403733b8adf99fe5887f860a1c2c420aadf9cdb97423088a5b9a8c61d91665"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait/print/print-report.json",
+    "bytes": 10364,
+    "sha256": "d62c8e8c6fd7ef51f8c3403957d1feae945b145938225f72c0eec03e04e9b766"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait/render/preview.html",
+    "bytes": 1712,
+    "sha256": "6b3956ec039dcc903274e932c637a70708146d56bf3cb9f3058e090a578fa2c0"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/native-portrait/render/render_result.json",
+    "bytes": 8892,
+    "sha256": "f1272e698de98e79a17a658f200d74c28f2f75f53d5e9b85437843650419150f"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup/lenticular/geometry.py",
+    "bytes": 7211,
+    "sha256": "13063c6f5a8acdde9b408436c0007853b7dc77b4f117da3bf02fd1b20873a85e"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup/lenticular/layers.py",
+    "bytes": 5952,
+    "sha256": "f39f06750261c9050d12cce5aa35642e406105e74ca28a670708fd40bb9cba1c"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup/lenticular/pipeline.py",
+    "bytes": 39174,
+    "sha256": "fd20c1418f06aa4b90c4bfa900d75b917b74c41485514dcd893a1673479e45d9"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup/lenticular/repair.py",
+    "bytes": 12295,
+    "sha256": "59d736c8e41df31efa5d04b3e7e3f0bde76b32f9101fd13f8513b93776db3838"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup/lenticular/runner.py",
+    "bytes": 7803,
+    "sha256": "6a3d81bd7880b3e1545d31a31f32425e878e02f3089249caac1521e46f3d8d0b"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup/lenticular/web/app.js",
+    "bytes": 44240,
+    "sha256": "0ab44e17e7b9508d1603a28d870b3def75b66b4bc42be0e2d909dbaa4a728fe6"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup/lenticular/web/index.html",
+    "bytes": 21878,
+    "sha256": "b1f722e70ee99a3c5b39177ed32825c88d6a050cd462d688b813d231d5410f11"
+  },
+  {
+    "path": "source/current/outputs/surface-upgrade-20261009-220345/backup/lenticular/web/style.css",
+    "bytes": 7889,
+    "sha256": "59962cea6c767cac578e2f72257e2ab6d2a28ca5f622bd1df622931bbba6095a"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/lenticular/pipeline.py",
+    "bytes": 38926,
+    "sha256": "d300c132693a912bdb3b13af89aea392e5f45f2c0c894dd9fccd80250edbe2ac"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/lenticular/printing.py",
+    "bytes": 39090,
+    "sha256": "6086fa0482e21a3fc560278d59ad09e97f958fa1c05652922dd7653c687d728c"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/lenticular/repair.py",
+    "bytes": 10318,
+    "sha256": "a55263ed18efd21521a27cba64ea754671d36147d1ee475379926d92df7e1dda"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check-v2/print-qa/baski-notlari.txt",
+    "bytes": 1394,
+    "sha256": "75594d5af73022d64de683d2694f4b98b6e984591bf3fe66f46dc84c84508701"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check-v2/print-qa/channel-plan.json",
+    "bytes": 1706,
+    "sha256": "c8d99efce8d1b96b40a97a58af6bc3874105f16985dad7e71f0e8fbf95cc3552"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check-v2/print-qa/frameset.json",
+    "bytes": 5110,
+    "sha256": "86284981e7be1f1b2a66ca25468beb9a86c0aa9446b5e11d2083e2ddb50c82e0"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check-v2/print-qa/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check-v2/print-qa/print-report.json",
+    "bytes": 10259,
+    "sha256": "b91b60e760efdc2ad9a332f891efea5e9c7fc69e48b0ea7380e1621f0cbac932"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check-v2/render/preview.html",
+    "bytes": 1712,
+    "sha256": "6b3956ec039dcc903274e932c637a70708146d56bf3cb9f3058e090a578fa2c0"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check-v2/render/render_result.json",
+    "bytes": 8868,
+    "sha256": "891f4d005c7405df51072d66096bb704fbe6b1144b56bdbbe5855fd5e117ca9a"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check/print-qa/baski-notlari.txt",
+    "bytes": 1394,
+    "sha256": "75594d5af73022d64de683d2694f4b98b6e984591bf3fe66f46dc84c84508701"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check/print-qa/channel-plan.json",
+    "bytes": 1708,
+    "sha256": "3e71c7c9cd4178317c210275a2b1ba2e1c68b2dec842be343cd528581cd01cbf"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check/print-qa/frameset.json",
+    "bytes": 5112,
+    "sha256": "f134e04d773536b1615d77ccd0a92c90f67da384dc11e6a770a8e5b2c1eab24c"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check/print-qa/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check/print-qa/print-report.json",
+    "bytes": 10259,
+    "sha256": "44db78638fac4f133ef6476f7efd55612287976c8bbf125090844cb14061c90b"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check/render/preview.html",
+    "bytes": 1712,
+    "sha256": "6b3956ec039dcc903274e932c637a70708146d56bf3cb9f3058e090a578fa2c0"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/portrait-check/render/render_result.json",
+    "bytes": 8860,
+    "sha256": "dd597f361eff46ade0c69f3c4586acdc7951aef962cd0f7a49e555de9a67ffab"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/lenticular/web/app.js",
+    "bytes": 42276,
+    "sha256": "fbc6dc5c51c83919e1617b722aab6df615011c3ed3d2493bb0061682c8a4a515"
+  },
+  {
+    "path": "source/current/outputs/quality-upgrade-20261009-205235/lenticular/web/index.html",
+    "bytes": 21121,
+    "sha256": "a94dacb0102182a0537d098ca3ef2e72f054ffeec5e387571c7f4b129e81efdd"
+  },
+  {
+    "path": "source/current/outputs/initial-control/render/preview.html",
+    "bytes": 1714,
+    "sha256": "f6c11e6521dff256b9382873946635c592cce4a7265eba84ac06fd1fd2f7cf9d"
+  },
+  {
+    "path": "source/current/outputs/initial-control/render/render_result.json",
+    "bytes": 6940,
+    "sha256": "1fc826125e7939d6eec1df4cc370efe88e34d9f46030be8ffb955394b2fae212"
+  },
+  {
+    "path": "source/current/outputs/encoding-check-4646a9/print/pitch-test.json",
+    "bytes": 351,
+    "sha256": "8722d26a22bef9e8857e9e7dcaa85016f7d3eb32dade5ac0d55140f76fb0b93c"
+  },
+  {
+    "path": "source/current/outputs/encoding-check-4646a9/print/print-report.json",
+    "bytes": 2269,
+    "sha256": "c5a3e6f224a4ed8d70df60a88dabb7becf2ad3d58d6d3b583a563837921889ac"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/backup/geometry.py",
+    "bytes": 7413,
+    "sha256": "8c3f6e18c3553f3f9c341b3cabc9345a2e328bc1a0c00d1e2df0c5bcc67eaaab"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/backup/index.html",
+    "bytes": 23717,
+    "sha256": "118bff6fdb3bcd0ffd4331f0f3136572c83cb15a8986063c6835ae01bf28f712"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/backup/layers.py",
+    "bytes": 8054,
+    "sha256": "57f2534912d84447c85061d09642197d04c9e7040ebba7530194b9c95f4e7f3f"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/backup/pipeline.py",
+    "bytes": 40879,
+    "sha256": "089f243648fc8704f308f8d66839a462533b2f9cea6fbcf248558832656d29c6"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/backup/restoration.py",
+    "bytes": 6761,
+    "sha256": "0fb7622368192346763642eaa8113d2a0a62f7fe23568712c617540ab633dc55"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/backup/SURFACE_QUALITY_2026-10-10.md",
+    "bytes": 7639,
+    "sha256": "ed03733af848bf2f437ac09b4a0658fbc0deb783c2c0cc476275a3ae30548422"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/backup/test_surface_quality.py",
+    "bytes": 5824,
+    "sha256": "1b22234e311145c437f7666a42ec2752ca790f3c0ee70ab76f86dcd4f1db9c30"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/coupled/preview.html",
+    "bytes": 1604,
+    "sha256": "3111e65a144a8379668deae1964d23d708288cbdf0b1778daeb2493aebf7071a"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/coupled/render_result.json",
+    "bytes": 1491,
+    "sha256": "74e8c48c5165b9add2a42099784f86c254443e533c253f6720be9a57d663c6b3"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/ownership/preview.html",
+    "bytes": 1481,
+    "sha256": "8175f1591c711a10230448eeb2962effe99619b12234c0412d0cc755aef1f705"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/ownership/render_result.json",
+    "bytes": 1491,
+    "sha256": "74e8c48c5165b9add2a42099784f86c254443e533c253f6720be9a57d663c6b3"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/rejected-coincident-surfaces/preview.html",
+    "bytes": 1481,
+    "sha256": "8175f1591c711a10230448eeb2962effe99619b12234c0412d0cc755aef1f705"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/rejected-coincident-surfaces/render_result.json",
+    "bytes": 1491,
+    "sha256": "74e8c48c5165b9add2a42099784f86c254443e533c253f6720be9a57d663c6b3"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/rejected-foreground-only/preview.html",
+    "bytes": 1481,
+    "sha256": "8175f1591c711a10230448eeb2962effe99619b12234c0412d0cc755aef1f705"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/rejected-foreground-only/render_result.json",
+    "bytes": 1491,
+    "sha256": "74e8c48c5165b9add2a42099784f86c254443e533c253f6720be9a57d663c6b3"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/rejected-global-slices/preview.html",
+    "bytes": 1481,
+    "sha256": "8175f1591c711a10230448eeb2962effe99619b12234c0412d0cc755aef1f705"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/rejected-global-slices/render_result.json",
+    "bytes": 1491,
+    "sha256": "74e8c48c5165b9add2a42099784f86c254443e533c253f6720be9a57d663c6b3"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/rejected-minimum-coverage/preview.html",
+    "bytes": 1481,
+    "sha256": "8175f1591c711a10230448eeb2962effe99619b12234c0412d0cc755aef1f705"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/rejected-minimum-coverage/render_result.json",
+    "bytes": 1491,
+    "sha256": "74e8c48c5165b9add2a42099784f86c254443e533c253f6720be9a57d663c6b3"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/scene/preview.html",
+    "bytes": 1712,
+    "sha256": "6b3956ec039dcc903274e932c637a70708146d56bf3cb9f3058e090a578fa2c0"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/scene/render_result.json",
+    "bytes": 8892,
+    "sha256": "f1272e698de98e79a17a658f200d74c28f2f75f53d5e9b85437843650419150f"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/scene/print/baski-notlari.txt",
+    "bytes": 1463,
+    "sha256": "aafcf06cca82b963e96589c96f91ac1d83b22741e202581c96f6e928e891723f"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/scene/print/channel-plan.json",
+    "bytes": 1706,
+    "sha256": "9a6a7a226c0b1afc9a6d8df29c3d5b4bd093e2f63ec16811f35efaa976ac848c"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/scene/print/frameset.json",
+    "bytes": 5115,
+    "sha256": "7e7324a329c7a0a13cec7e6fb1a874fb439d58563c586a19d04f76be2b94c998"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/scene/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/current/outputs/contour-correction-20261010/scene/print/print-report.json",
+    "bytes": 10457,
+    "sha256": "4e69954af5d9c9ae6d450974c3c8a96ef5706cb7ebd8425112bdfa0e1c02607b"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/Kalibrasyon/100LPI_1200DPI/pitch-test.json",
+    "bytes": 391,
+    "sha256": "b44beb3f8d417aba2f23ea69c1225cf708b9e0aa1f7dfa532e35f96156ec8578"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/Kalibrasyon/100LPI_2400DPI/pitch-test.json",
+    "bytes": 310,
+    "sha256": "31473a44711a592ef8da05049316380ab725f6eb837fe6d581aa25c8a0c89732"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/Kalibrasyon/50LPI_1200DPI/pitch-test.json",
+    "bytes": 385,
+    "sha256": "a2a65dcb1aceccfeabb257447481ad6e387f43c8b57fe1aeee6cd585693a03e2"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/Kalibrasyon/50LPI_2400DPI/pitch-test.json",
+    "bytes": 304,
+    "sha256": "933b9cf254756be12108d2773ffb5a2f00740c299ab2baf6f07fbb0a800da848"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/Kalibrasyon/60LPI_1200DPI/pitch-test.json",
+    "bytes": 385,
+    "sha256": "2cf6d87cd36dd3d34242a96377202a66a72f0718fbc4e23111d8b2e0a6286321"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/Kalibrasyon/60LPI_2400DPI/pitch-test.json",
+    "bytes": 304,
+    "sha256": "ca90567655d899837b64b83fb305403843d583a303ccd804ed049834a431041b"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/Kalibrasyon/75LPI_1200DPI/pitch-test.json",
+    "bytes": 385,
+    "sha256": "cf200bb34cbeb4556136465b842b8dfe9011c8eb2cb93ccd3efd9be8859e64b3"
+  },
+  {
+    "path": "source/current/outputs/Ataturk_UV_9_Baski_20261004_1926/Kalibrasyon/75LPI_2400DPI/pitch-test.json",
+    "bytes": 304,
+    "sha256": "e2e2f02afcb40b84bfe719ff58a7f62abbf22dae04625d69825c18cbba20fcaf"
+  },
+  {
+    "path": "source/current/lenticular/web/app.js",
+    "bytes": 53666,
+    "sha256": "c04cb572dbaedc7dc9bba8bc6c241cfe8b9efc1956470c5dc521bf0b33e2b48a"
+  },
+  {
+    "path": "source/current/lenticular/web/index.html",
+    "bytes": 24506,
+    "sha256": "2286e8b600d0c409bde75701ff14c80ee10af71d213ef8f4835811ac44285e90"
+  },
+  {
+    "path": "source/current/lenticular/web/style.css",
+    "bytes": 7889,
+    "sha256": "59962cea6c767cac578e2f72257e2ab6d2a28ca5f622bd1df622931bbba6095a"
+  },
+  {
+    "path": "source/current/docs/research/2026-10-09/content-adaptive-lenticular.txt",
+    "bytes": 58593,
+    "sha256": "de4b585fb39e9409493ffa594b15cff8e046d6b878d370117eaf7a6ec6c8e7fc"
+  },
+  {
+    "path": "source/current/docs/research/2026-10-09/display-calibration.txt",
+    "bytes": 53430,
+    "sha256": "121b04fd331cf7e2f355312088deddb83724d287683055fefd589ec9c0eddb66"
+  },
+  {
+    "path": "source/current/docs/research/2026-10-09/layered-depth-inpainting.txt",
+    "bytes": 46601,
+    "sha256": "82c22ce9aa40a420aa0cf65bed29f1c3111a1d9f10645e9cd10764e473c8d7db"
+  },
+  {
+    "path": "source/current/docs/research/2026-10-09/triaxes-pitch-guide.txt",
+    "bytes": 1991,
+    "sha256": "f4e480cf1befe8a7d10057e8cec1b7b4425ca464fd34d310c9a68c8a60439884"
+  },
+  {
+    "path": "source/current/.studio/depth_detail/240bc165b63e65eda59ba4d7aa4a3631c9b616b62418e74c745ebe50fe96ffbf/metadata.json",
+    "bytes": 5030,
+    "sha256": "4c58283bae111c3ebbe583b5af64b36d68e5a514cb9287363b9f3c82fca11055"
+  },
+  {
+    "path": "source/current/.studio/depth_detail/35f108c05cacfab12b60778cf923cbdcc17a9941bc5ed9f2aaa1f4a7d6192fa3/metadata.json",
+    "bytes": 5024,
+    "sha256": "5fabf4d4696a2db638d559a481eb326d33a996517e396a44693a04f7f6c80382"
+  },
+  {
+    "path": "source/current/.studio/depth_detail/62e425624684bc158581d9524fb7913da532a3caaac7d994303f748121bbfd3e/metadata.json",
+    "bytes": 5010,
+    "sha256": "c6ddbc56eefa7399f47fca1a617c13c8c21eea469173b9bc7c0d9c8d513fec0a"
+  },
+  {
+    "path": "source/current/.studio/depth_detail/700f7512aabe8417ec05ec9067dd105283b01b49738504700eb2cecc1af8d85b/metadata.json",
+    "bytes": 5026,
+    "sha256": "c3c151a954ea4e57ac06047fc9ccdfc4d8e891459a2f85aa1ca541062afe67f3"
+  },
+  {
+    "path": "source/current/.studio/depth_detail/a715a5465a64cf066fbc112c6ada1f56b50c07bd1b827706e9fd0fec1d5308e8/metadata.json",
+    "bytes": 5025,
+    "sha256": "c7a1ae04c8ccbc4949edfb9a1a9837690556fa126885c3256d4c907b3346037e"
+  },
+  {
+    "path": "source/current/.studio/depth_detail/b463a9b2e05c2e934d4275f7af0fafced53c1d8184b4dcbb140ad69d7408a4d4/metadata.json",
+    "bytes": 1703,
+    "sha256": "f78e7323eb545ca2202dad62a602300e0e4a7067172e0b642198129774623f8e"
+  },
+  {
+    "path": "source/current/.studio/depth/1a89551766d16c26abe4a65a77a01af9ac9bca0edc5c2045a9fecabb6b2b5036/metadata.json",
+    "bytes": 1562,
+    "sha256": "7bb8cc90e5b4bc09d7ce71aaa2dad13235f45d85218f54150c330632f6a93f13"
+  },
+  {
+    "path": "source/current/.studio/depth/22b37c47442be74fc0db7768a1dd9a0fce63f1275318f148d3258ae175f8a57e/metadata.json",
+    "bytes": 1562,
+    "sha256": "5eee3d6c97b7d0f8ad01bf930233b87c3f309aff463a32f17bd8405a88b2d537"
+  },
+  {
+    "path": "source/current/.studio/depth/29219669ceffbd80d39af1132d3c25b76a6bfe7d05db988cc59631b2e9b3da32/metadata.json",
+    "bytes": 1562,
+    "sha256": "161056d7f3121abb29cf16013e3bb4bdbcc3800e6d9db0c4262b0562bd4adb9c"
+  },
+  {
+    "path": "source/current/.studio/depth/310acaa926e998669cd21d3b6dd673cadc75e06ff25ebd75734f855ba969d60a/metadata.json",
+    "bytes": 1560,
+    "sha256": "8d8d8f976c7397bb205bd8d55983c059d42ad2f282074494509116e735bb6b05"
+  },
+  {
+    "path": "source/current/.studio/depth/58724accf1d33025bef11daf347936697dd8702f8a3e1c0195db506c638280f6/metadata.json",
+    "bytes": 1561,
+    "sha256": "a0dc2108fe3f2f20a2e62d5c28106dcb4f48d0bcd71548c3833b82297f2636a0"
+  },
+  {
+    "path": "source/current/.studio/depth/b14881668c4e89c999e41f41f0a825cc4bbcbdc26ba1607c986209774884b90b/metadata.json",
+    "bytes": 1522,
+    "sha256": "b860c3003a165b8563598ebb1ffe39ca468a7a4b29a97df07932bbea7e64a67e"
+  },
+  {
+    "path": "source/current/.studio/depth/da3b04cdf6cae3ca227171161f4cb761d85c183af49a2ef1a05ee0e26cf72f07/metadata.json",
+    "bytes": 1558,
+    "sha256": "00b00843702d8bb33f7a00ad462b024c2b5cfe8bf25a6c3f80e4999044edc114"
+  },
+  {
+    "path": "source/current/.studio/depth/e6ab6534ef066c47f66b4117cdb70483ef1d6b91c08adaad90d7c22c656cdf16/metadata.json",
+    "bytes": 1560,
+    "sha256": "6b3aa1d396d97656b490f8d16a07c2365c573cc9ce118af8858894b305e7f693"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/pyproject.toml",
+    "bytes": 599,
+    "sha256": "320dfe8312a500ae6a5f66aa3f86acfbb1bd6aced50d5c4cdff89983f5efd641"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/README.md",
+    "bytes": 14972,
+    "sha256": "a8ad672c20eeddaa8d426f6a970d98329c9ce35a581d70878a3b392c743e2c95"
+  },
+  {
+    "path": "source/current/.studio/code-backups/stereo-correction-20261009/lenticular/frames.py",
+    "bytes": 5753,
+    "sha256": "d5a592de1319e13cc4f90ced47df3192d2d1f501b8ec68d97a041eef41a8048c"
+  },
+  {
+    "path": "source/current/.studio/code-backups/stereo-correction-20261009/lenticular/layers.py",
+    "bytes": 5468,
+    "sha256": "80505b34b74fc4f0f808cd1c410a1653e64882da81d8dd5fb7c7b9424f02be05"
+  },
+  {
+    "path": "source/current/.studio/code-backups/stereo-correction-20261009/lenticular/pipeline.py",
+    "bytes": 37191,
+    "sha256": "064b6368404b948b891b28f9cb4a3cf2fde941b7d0445ce22dd8b3e3a01c87bf"
+  },
+  {
+    "path": "source/current/.studio/code-backups/stereo-correction-20261009/lenticular/printing.py",
+    "bytes": 34047,
+    "sha256": "f695b14ac7789d1a24ab9ea7d84b2e0d6be377dfa191ce9dbd40450bd5357505"
+  },
+  {
+    "path": "source/current/.studio/code-backups/stereo-correction-20261009/lenticular/repair.py",
+    "bytes": 9803,
+    "sha256": "6d9a442aa78ea33c03b9796aca972355c27b20f39b31192dc29a67c2b4d8ac1b"
+  },
+  {
+    "path": "source/current/.studio/code-backups/stereo-correction-20261009/tests/test_animation.py",
+    "bytes": 9216,
+    "sha256": "335bf24fab169215649aff0e3290290d71f7de91b0832926a809313b7b8a8d31"
+  },
+  {
+    "path": "source/current/.studio/code-backups/stereo-correction-20261009/lenticular/web/app.js",
+    "bytes": 41246,
+    "sha256": "c891faa4506716f4ee28b75211477d0cf0ff7c9d60f53cb251fa3ef655a3595a"
+  },
+  {
+    "path": "source/current/.studio/code-backups/stereo-correction-20261009/lenticular/web/index.html",
+    "bytes": 20412,
+    "sha256": "ab6909b24fa1890d6848e06b9a22858cb9128277fda00fd481710ba76ae4f5a9"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/blender_scene.py",
+    "bytes": 6250,
+    "sha256": "831b52a1a09cdfebdc001b2e23c2893b29f54dd340cbe1c901f2e049a7d99e7d"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/cli.py",
+    "bytes": 6061,
+    "sha256": "815f001f30c36897f628d66cc40e19e11681065ab70e853d5d1cadafebf32724"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/depth.py",
+    "bytes": 8934,
+    "sha256": "42dd0213bda0c6c7e619905391ae5f22d0c2693dfbff44d6426f63e36b37c7a2"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/detail_depth.py",
+    "bytes": 6564,
+    "sha256": "fbfb11c299de1ea3955482bdcb750c3db28169b583fdb369feb22b76ebf6c2e8"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/geometry.py",
+    "bytes": 7089,
+    "sha256": "55f1703d7343423873dbac0113ed62cf3748feccbc187f53616266c4bf8c7c22"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/layers.py",
+    "bytes": 5468,
+    "sha256": "80505b34b74fc4f0f808cd1c410a1653e64882da81d8dd5fb7c7b9424f02be05"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/pipeline.py",
+    "bytes": 30622,
+    "sha256": "8ba2030c7f8017558211fa77cde45676a7ff213f316941700333a514fd18762e"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/printing.py",
+    "bytes": 32481,
+    "sha256": "7a3d5ae8d7aaeaecb242fa007a822b15d8a2a868d516fe414b9371252bd60d37"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/repair.py",
+    "bytes": 9803,
+    "sha256": "6d9a442aa78ea33c03b9796aca972355c27b20f39b31192dc29a67c2b4d8ac1b"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/runner.py",
+    "bytes": 7803,
+    "sha256": "6a3d81bd7880b3e1545d31a31f32425e878e02f3089249caac1521e46f3d8d0b"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/studio.py",
+    "bytes": 8378,
+    "sha256": "e90dec75da04ea20d4917dd004966238f03efaa40a56e78087f2f20e7aaadf8d"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/__init__.py",
+    "bytes": 59,
+    "sha256": "c48bd74f7e635c14377bd1d0ca3d5b5b1de69207e7aae7f7414e09cd05847183"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/__main__.py",
+    "bytes": 48,
+    "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/web/app.js",
+    "bytes": 31686,
+    "sha256": "589c9eb2488bba5658a0bc0a16f76e8d78ea9c80479b826c93828e198835c24e"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/web/index.html",
+    "bytes": 16866,
+    "sha256": "51e023185bb4f26d35d259f7a13817d025736f1105594eb767bd2dc97a2d4e9d"
+  },
+  {
+    "path": "source/current/.studio/code-backups/animation-e68e4e3296fe4ce085eeb4b2343ca944/lenticular/web/style.css",
+    "bytes": 7366,
+    "sha256": "ce29bf7f23897361b17b26be97e9f797cee1ca492244c43435c35cfe2bd183b4"
+  },
+  {
+    "path": "source/current/.models/lama/CONVERSION_LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "source/current/.models/lama/LAMA_LICENSE.txt",
+    "bytes": 11348,
+    "sha256": "4ceeeac5a802e86c413c22b16cce8e9a22027b0250c97e6f8ac97c14cf0542c0"
+  },
+  {
+    "path": "source/current/.models/lama/provenance.json",
+    "bytes": 406,
+    "sha256": "c5f42b9b09a5d66cb8c833881b745644bef3dc6f979569ca0428ba7a0882a2ca"
+  },
+  {
+    "path": "source/current/.models/models--facebook--sam2.1-hiera-small/snapshots/ee5bba1d82bb8749febdf90f45e84b687142ba03/config.json",
+    "bytes": 5698,
+    "sha256": "97ff9f65b76d107acda4247885f0a5555d0048850ae3c5f97183df289aaecde9"
+  },
+  {
+    "path": "source/current/.models/models--facebook--sam2.1-hiera-small/snapshots/ee5bba1d82bb8749febdf90f45e84b687142ba03/preprocessor_config.json",
+    "bytes": 683,
+    "sha256": "6ebf229ee259368ce4a8d4f2fe893a72b053023710853e257253939e601f583d"
+  },
+  {
+    "path": "source/current/.models/models--facebook--sam2.1-hiera-small/snapshots/ee5bba1d82bb8749febdf90f45e84b687142ba03/processor_config.json",
+    "bytes": 95,
+    "sha256": "f8a68e865cfad115c1c2763f3d93eca7b1c622da06da2a9273eb437fb2389b6d"
+  },
+  {
+    "path": "source/current/.models/models--facebook--sam2.1-hiera-small/.no_exist/ee5bba1d82bb8749febdf90f45e84b687142ba03/audio_tokenizer_config.json",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "source/current/.models/models--depth-anything--DA3MONO-LARGE/snapshots/f465978e618db8cc79c83b8bbf24964857db1875/config.json",
+    "bytes": 845,
+    "sha256": "649809acdfe99631293430bfb8bcd85620a1bba47bb4e27689bd204c645a4204"
+  },
+  {
+    "path": "source/current/.models/Depth-Anything-V2-Small/5426e4f0f36572d16453bbda7a8389317b1bef99/config.json",
+    "bytes": 950,
+    "sha256": "c56698d3643dde1f83ea2212759e6b31a22b8f827246a36dd007ee8a22b3ff75"
+  },
+  {
+    "path": "source/current/.models/Depth-Anything-V2-Small/5426e4f0f36572d16453bbda7a8389317b1bef99/preprocessor_config.json",
+    "bytes": 775,
+    "sha256": "d41175c0d889477ca8fc67191e540faef14baf6275157b3fdecf78469e6bbf84"
+  },
+  {
+    "path": "source/current/.models/DA3MONO-LARGE/f465978e618db8cc79c83b8bbf24964857db1875/config.json",
+    "bytes": 845,
+    "sha256": "649809acdfe99631293430bfb8bcd85620a1bba47bb4e27689bd204c645a4204"
+  },
+  {
+    "path": "source/current/.models/.locks/models--depth-anything--DA3MONO-LARGE/7a799a7f95eb8d4c404c2ca8be3dc3276b350a417ddc4420db72ba850cc0e960.lock",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/.pre-commit-config.yaml",
+    "bytes": 1622,
+    "sha256": "3e7b0777aca4d478b69a439b9ba5be0578ef3945a611eba16577e66cb7321e09"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/LICENSE",
+    "bytes": 11556,
+    "sha256": "479a242bb6d683cfe5668816e2697f547a981f77673089fbcd77acb53548ed08"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/pyproject.toml",
+    "bytes": 2133,
+    "sha256": "7d6cb96d8cfaea7026a1f537fa3349b49b3dd580d34cf48b9cb6cf68f4363c6e"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/README.md",
+    "bytes": 19087,
+    "sha256": "d875e9961333be1cf052bbd0ca83e0bc5b135fc38c66970d64e728109a807d87"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/requirements.txt",
+    "bytes": 237,
+    "sha256": "23ba6fb1c7aa2b530eadc450c27202a391ac2da9f27ecc0828e50552728f8cec"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/LICENSE",
+    "bytes": 1093,
+    "sha256": "de18cbedb0c3b0d1eeb9ccac3988cdf69c21fa89039cd97dd8846cb68f661f81"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/README.md",
+    "bytes": 6281,
+    "sha256": "3af96328be0858e6dd3798d3ea63adcdfd750faa6fec106a06434f513febfef8"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife/contextnet.param",
+    "bytes": 5506,
+    "sha256": "04d8a0478721feb6aca74cc5126fdba03ad0d21089cc3f681dc9f137952cd852"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife/flownet.param",
+    "bytes": 20297,
+    "sha256": "c4b3de01d78698839a51a957a9079ea74d1d11229b45f777219f477fcd44c4d7"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife/fusionnet.param",
+    "bytes": 8147,
+    "sha256": "491c992879625e74af4704c4227ead7572a4b60c0a01ed0451a905edbeb8575b"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-anime/contextnet.param",
+    "bytes": 5831,
+    "sha256": "27949d32886fb08732be00e5e4a3935dafddf622074aa6d30c6885cd2983f2cf"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-anime/flownet.param",
+    "bytes": 27469,
+    "sha256": "4156e10152cc51c50f9f41dec0eeb394492f89e70bf6f5a831667703004a78a3"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-anime/fusionnet.param",
+    "bytes": 8462,
+    "sha256": "18e4914ba7194158be6acb4c9b89c6d5a326e6293387cc046b974e76ad698d2e"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-HD/contextnet.param",
+    "bytes": 5831,
+    "sha256": "27949d32886fb08732be00e5e4a3935dafddf622074aa6d30c6885cd2983f2cf"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-HD/flownet.param",
+    "bytes": 27469,
+    "sha256": "4156e10152cc51c50f9f41dec0eeb394492f89e70bf6f5a831667703004a78a3"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-HD/fusionnet.param",
+    "bytes": 8462,
+    "sha256": "18e4914ba7194158be6acb4c9b89c6d5a326e6293387cc046b974e76ad698d2e"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-UHD/contextnet.param",
+    "bytes": 5831,
+    "sha256": "27949d32886fb08732be00e5e4a3935dafddf622074aa6d30c6885cd2983f2cf"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-UHD/flownet.param",
+    "bytes": 27469,
+    "sha256": "4156e10152cc51c50f9f41dec0eeb394492f89e70bf6f5a831667703004a78a3"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-UHD/fusionnet.param",
+    "bytes": 8462,
+    "sha256": "18e4914ba7194158be6acb4c9b89c6d5a326e6293387cc046b974e76ad698d2e"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v2/contextnet.param",
+    "bytes": 3360,
+    "sha256": "82c04da2d9a894986a78073803546ec75eeaf2e8e5a7d3bef312094aa49db4b1"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v2/flownet.param",
+    "bytes": 10178,
+    "sha256": "d6217636d4f71871c721bfea379e99c0df4e4d1446d282427a3939b38aa7fb92"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v2/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v2.3/contextnet.param",
+    "bytes": 3360,
+    "sha256": "82c04da2d9a894986a78073803546ec75eeaf2e8e5a7d3bef312094aa49db4b1"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v2.3/flownet.param",
+    "bytes": 10178,
+    "sha256": "d6217636d4f71871c721bfea379e99c0df4e4d1446d282427a3939b38aa7fb92"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v2.3/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v2.4/contextnet.param",
+    "bytes": 3360,
+    "sha256": "82c04da2d9a894986a78073803546ec75eeaf2e8e5a7d3bef312094aa49db4b1"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v2.4/flownet.param",
+    "bytes": 10178,
+    "sha256": "d6217636d4f71871c721bfea379e99c0df4e4d1446d282427a3939b38aa7fb92"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v2.4/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v3.0/contextnet.param",
+    "bytes": 3360,
+    "sha256": "7826edf4fba7aebcb51c4c6ccb8a10b45f6b8e60e5975ba887220eebffdaa131"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v3.0/flownet.param",
+    "bytes": 9609,
+    "sha256": "c115e7a89f7b243da0142e9c77df445c6629cc3883347da23bb8fa74c665ebcb"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v3.0/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v3.1/contextnet.param",
+    "bytes": 3360,
+    "sha256": "7826edf4fba7aebcb51c4c6ccb8a10b45f6b8e60e5975ba887220eebffdaa131"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v3.1/flownet.param",
+    "bytes": 9609,
+    "sha256": "c115e7a89f7b243da0142e9c77df445c6629cc3883347da23bb8fa74c665ebcb"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v3.1/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v4/flownet.param",
+    "bytes": 12999,
+    "sha256": "8698b5a482922817ff2be3cd1dbe77dbe39eb7a8ddb2c6d7c0f27b9373bc870a"
+  },
+  {
+    "path": "source/current/.deps/rife-ncnn-vulkan-20221029/rife-ncnn-vulkan-20221029-windows/rife-v4.6/flownet.param",
+    "bytes": 16749,
+    "sha256": "28df14d57a225725ee5386f52eba422488450d37c9f40800ed4f62e8ba846692"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/da3_streaming.py",
+    "bytes": 36164,
+    "sha256": "cf6c1aa46a416688346dc0c7fd3852fd110cdbce6bb7345e8d566f5e284f6d6d"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/npz_output_process.py",
+    "bytes": 4722,
+    "sha256": "d65865acc6e87ff195acd5b036f4d1a0be4f67fdde968812d3384d302d0d743f"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/README.md",
+    "bytes": 8180,
+    "sha256": "dc45829ff1e3ae836432e73c307900cd191c9af233187cfb42efb49321b8927a"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/requirements.txt",
+    "bytes": 68,
+    "sha256": "e541b2dd23361d9fc41ae224733fd7fc41304556ac455b08ba8f1566ec840a2c"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/docs/API.md",
+    "bytes": 20177,
+    "sha256": "9d473b9cdd6327c5410732c31664bdb8f411a5a6201908d84bdcf40bccfe5759"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/docs/BENCHMARK.md",
+    "bytes": 16105,
+    "sha256": "e328c76dcee79e599f8747904f83a585b97de9cf8b8d426451e76ef9c662eb59"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/docs/CLI.md",
+    "bytes": 24693,
+    "sha256": "0781907b9250d979e3adf657c6e3257933bfea4dde726ff514400b90fd776f3d"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/api.py",
+    "bytes": 18432,
+    "sha256": "f2cede7f9343cdcf3eebd95b05113fda4e95fe90c2ba7ff328b15ce86c663c7d"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/cfg.py",
+    "bytes": 5181,
+    "sha256": "216a24ed873e843ce4e0af6d49bde9b14451a3bc0817c33d78b1485f951a6215"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/cli.py",
+    "bytes": 32299,
+    "sha256": "a273d6d35baa5d34b061dfeeb0054a6e4917e4c35768650b9d9677e7be31d188"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/registry.py",
+    "bytes": 2097,
+    "sha256": "dbaa6d7f8a48fd51a3ab7e5d92686672b10a0c77b35b785a61e2a0737b8b8723"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/specs.py",
+    "bytes": 1731,
+    "sha256": "fa615c858e3dfaa8104b779015b4c50ae5334f5646c1aee71f59b96e85bbb872"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/app/css_and_html.py",
+    "bytes": 19430,
+    "sha256": "f0844b3d3dad74442388b6a5241d60d00df7fc78ce362afc29a6ecb182638828"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/app/gradio_app.py",
+    "bytes": 27479,
+    "sha256": "843815ed7665152bdf529980c9da1d8cb4866cb861827299562716b3ce748efc"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/dataset.py",
+    "bytes": 4498,
+    "sha256": "c98e1f6eee61dad10261d22cf98ff610f4174a04e4dc1b774ac0dd960cd59df4"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/evaluator.py",
+    "bytes": 29459,
+    "sha256": "4855940a099adc2f71c50dbc62cc05fb3ff944d2949a13a18b5793c9f6a57b11"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/print_metrics.py",
+    "bytes": 23435,
+    "sha256": "bbe3468c8d5d5c5ea7743b547a01c1e5a8dd763d8f8f462155773e2cbade00af"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/registries.py",
+    "bytes": 2834,
+    "sha256": "9094ca02288f3eb916483e2826e53c60248eb405da4efe2a5b44026d43b179f1"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/utils.py",
+    "bytes": 17488,
+    "sha256": "eae8b405ea91fd51648190290db755c5bd8b2bc3bcd1698c452eea4e07f3ac00"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/__init__.py",
+    "bytes": 1610,
+    "sha256": "f052258c96b094e7a0315d2769339ed647a00be927cb49ce03cd0e11d7b756d0"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/configs/da3-base.yaml",
+    "bytes": 823,
+    "sha256": "1c25ace89735fe2ca9311e5a370c6637d53676ce71588ae01df2495388de24af"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/configs/da3-giant.yaml",
+    "bytes": 1411,
+    "sha256": "8570b1e7c04662daff584e1a8e92e8357aa59dc1816f71cd45ca7ad7a5ff93c6"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/configs/da3-large.yaml",
+    "bytes": 830,
+    "sha256": "0dd7a8cc424664b925308498b4269936924f364c491a536081cffd457db8a2a6"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/configs/da3-small.yaml",
+    "bytes": 819,
+    "sha256": "45967251dba4a49278c79d8d0be9c1fdf98c4b3acf8d54e37e6a5d3f13a4073b"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/configs/da3metric-large.yaml",
+    "bytes": 536,
+    "sha256": "78e0743ac0f5c301b52916b40487f558894c53d636fe655881fd0ed55e29a811"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/configs/da3mono-large.yaml",
+    "bytes": 536,
+    "sha256": "78e0743ac0f5c301b52916b40487f558894c53d636fe655881fd0ed55e29a811"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/configs/da3nested-giant-large.yaml",
+    "bytes": 232,
+    "sha256": "d7857b08328e146f167e641886c5631c55522e84789c7218256b042c9c4f6f2a"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/cam_dec.py",
+    "bytes": 1758,
+    "sha256": "0f1acd8b35bf3355dad0af3915ca87ab71559452b663bcf2d2697e637f5df5b0"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/cam_enc.py",
+    "bytes": 2618,
+    "sha256": "64bf24c751a698e4bc447f3ea68a76866324dc2fa804a41487b1362a799b6413"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/da3.py",
+    "bytes": 18083,
+    "sha256": "49c942508ca85cb07fcae84b0b2d35607f3eb293861dc5102e3bbf8ca174c1ec"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dpt.py",
+    "bytes": 17896,
+    "sha256": "6ec69279982f15f4869267ac746e7edb7b9751daddfd1a2bd55d890f528f2b6b"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dualdpt.py",
+    "bytes": 20064,
+    "sha256": "4dad9e0777df02057b026a2885a8cda86d07d2f50e55ec688905815bb4797ed7"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/gsdpt.py",
+    "bytes": 5045,
+    "sha256": "558e7e4a578d4dc8fac6b05682dee7e17f46732a62ed5295a356421ee9d760dd"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/gs_adapter.py",
+    "bytes": 8314,
+    "sha256": "990e8433457497a9af0bc27284b5f807cbfec3c6ebe383ddd4e16485928beaa6"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/reference_view_selector.py",
+    "bytes": 8081,
+    "sha256": "2b1d6b71f3162948cccd99895cb5dfd98b0b189898632bf4035fb3e934c18317"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/__init__.py",
+    "bytes": 775,
+    "sha256": "9ad8a8ace52d842ac2ddf09960bdf7ecce85047bbeace0eb3354057adb140c0a"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/services/backend.py",
+    "bytes": 56205,
+    "sha256": "e949edccbe8a50f2455d6a602f75426094b898cc1c0a4033c12716d9dfb3587a"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/services/gallery.py",
+    "bytes": 37322,
+    "sha256": "6ce45abbd1ab84124f8e149003aedaf8a5b697fe934cd8615d6fa0b6b27a5655"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/services/inference_service.py",
+    "bytes": 9423,
+    "sha256": "1f52f912e669c6406eac0ea01a3f311d0a1103a9d9acd5627654c0614e63cec2"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/services/input_handlers.py",
+    "bytes": 9545,
+    "sha256": "331d11ea8d15d8e5dfdb63f0463cbc51a625f4897495bb5711de80d220c266f9"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/services/__init__.py",
+    "bytes": 794,
+    "sha256": "f7d8f18f4ea56368c9f497380a72550a365da5f109925bf1e19e5cd8a7acd66f"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/alignment.py",
+    "bytes": 5070,
+    "sha256": "34d7ab6d04f8b0c5634f3a1fd98674eb66e847a7c6a93c92fcf5834ba902ff25"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/api_helpers.py",
+    "bytes": 1691,
+    "sha256": "258be1236752544252f9a08a42ac39c2737448a6b83fd883037b563ba00e92ad"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/camera_trj_helpers.py",
+    "bytes": 18064,
+    "sha256": "1e557fa7164a9fc7105337df2705ec32c83cc2318900a32273bbf6906d64fe13"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/constants.py",
+    "bytes": 9756,
+    "sha256": "ee7b61704fb3575091c9a2dce6b07701e7871e5eb42706c7368bb7347cb534fe"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/geometry.py",
+    "bytes": 17495,
+    "sha256": "8530bc3e045eeb51ddf97e70611496d3b526bf91dbc722d23e44b5ab8bfad74b"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/gsply_helpers.py",
+    "bytes": 6426,
+    "sha256": "65ce3db6f69874d8d5870ad4c877107bc3c46ca2358b4d374f8151ab7165e10f"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/layout_helpers.py",
+    "bytes": 6783,
+    "sha256": "fecd4a0167ca32df367d9e8e891d0dd4ca11b675367b805589394e35292bac39"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/logger.py",
+    "bytes": 2595,
+    "sha256": "b6660afdee08144b7bfc5ca29a056c99993dc9b95a94e2f9daf4272b69023fae"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/memory.py",
+    "bytes": 4630,
+    "sha256": "7e876d686852dfcb3043b3240623a62a19ca57801c7b791aa6b2ec2c45a109aa"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/model_loading.py",
+    "bytes": 5214,
+    "sha256": "73923b25585136fa928eb1db1c31afe14d3ddb7bd217af2aa7440de0b10749e1"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/parallel_utils.py",
+    "bytes": 4421,
+    "sha256": "17e1fe6b9551b048cae91f90712a896207e725e34cd4da489f067d6a0fb2be23"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/pca_utils.py",
+    "bytes": 10915,
+    "sha256": "41c995858a142361e9429af4b062d67b011b1b7b116ce66d1c7028f75aab5712"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/pose_align.py",
+    "bytes": 12488,
+    "sha256": "0882e10e16019b3b92cf0d114825a23e10c431a12e8bd89dcd81ea53cae0f312"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/ray_utils.py",
+    "bytes": 20637,
+    "sha256": "c12a32c8d912080ef6cbbb388651d424166aea9825176c19e5ff8897a91c3c3f"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/read_write_model.py",
+    "bytes": 23038,
+    "sha256": "ff8b5b5ebe0febf4367f28266f47439c82b57b111c78612852eb8fe178318ea5"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/registry.py",
+    "bytes": 1087,
+    "sha256": "0f34a7592cf98775ddc36636624cf1a17b5085c7de7b843eaf7e6c1a133064e1"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/sh_helpers.py",
+    "bytes": 3325,
+    "sha256": "93793dd1f3f8925a1ee070d2fb2823415ad674515aa5222b4d16ea17ff8480b6"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/visualize.py",
+    "bytes": 4243,
+    "sha256": "50f8676be2714e4b93e97baddac2d26bc9404bd41cf625b86657170f42d4d99f"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/export/colmap.py",
+    "bytes": 5430,
+    "sha256": "4283510bbd8a01453054227edf30ab7fd6e90eb57e62215f957457d28765084a"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/export/depth_vis.py",
+    "bytes": 1652,
+    "sha256": "720b507eb3a0d034615199172e61bbfb0781c326f93c70a051bd445b14b039a1"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/export/feat_vis.py",
+    "bytes": 2748,
+    "sha256": "1ca51fe450459657183c6222bb18294b9368a2b45ca6e3f88c7137e1aca8e5c7"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/export/glb.py",
+    "bytes": 15777,
+    "sha256": "c83e46dd071533a00bf8c251dd060b59239b155cad336695fb2dab2881875695"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/export/gs.py",
+    "bytes": 5682,
+    "sha256": "535889f0f0bc8be98a877c0ed39512b99cf7460aadf752bbeeec73bf3ab8aeff"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/export/npz.py",
+    "bytes": 2550,
+    "sha256": "6ee21a155f27a67cde3ea9e6d9db95fcd1ddd3b4abcdde4d5f9a01572022c59d"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/export/utils.py",
+    "bytes": 1282,
+    "sha256": "cbbdf61a0549ecfbf0170ece05f1969b28878fa02e101d2adb9da2d39fabf616"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/export/__init__.py",
+    "bytes": 2787,
+    "sha256": "e633e25ea4a774bb57bc209d40e815847774c5190c785ed7b137357b0f08b09d"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/io/input_processor.py",
+    "bytes": 19425,
+    "sha256": "492467e762f92bbc292806a848618b42fe61807e5d4b9f092efb091090a7cf42"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/utils/io/output_processor.py",
+    "bytes": 6035,
+    "sha256": "4be9b6e2057bd061cd619d4ee4f3b78c49fe7467740c241328ebfdaf268b732f"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/dinov2.py",
+    "bytes": 1888,
+    "sha256": "f04d4381d5f32efdd0cbf7d8473b044e64bc0cc6cc4e08305a29ee257c9393d2"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/vision_transformer.py",
+    "bytes": 18030,
+    "sha256": "bd50b4b2c021ce9f52102a7698d216c4e115a6ebbc9932e0d3bc7c46fb7ea706"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/utils/attention.py",
+    "bytes": 3920,
+    "sha256": "800d7fa8cdade8f8c1189ff58fe21b53fcde745ad85db50811ffcc986bb189bf"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/utils/block.py",
+    "bytes": 2837,
+    "sha256": "551ca381d8f60f75d0dc27189713ca0966e5e3f8e3c579d4d8a14af1fed9200e"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/utils/gs_renderer.py",
+    "bytes": 12589,
+    "sha256": "a465c037ec634de2783a1be91f5316fa4ce7ca23460f3b9c0141d238b7c99ed5"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/utils/head_utils.py",
+    "bytes": 8337,
+    "sha256": "9149fe7af3f7289ed92d4202a800d5c7e9c24c0d30e274fb81ff45945ecc756e"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/utils/transform.py",
+    "bytes": 6757,
+    "sha256": "9e51922678c7627cc4c5abe6ed78c4a448bbd2a66fe3b2fe88b6994701aeb0d4"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/layers/attention.py",
+    "bytes": 3364,
+    "sha256": "3980521db0fe7c6a706aa74ab28651f9d6f65dbcdb2f6b0870f22115b055aa22"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/layers/block.py",
+    "bytes": 5153,
+    "sha256": "a56141e758c6ee316f961ba3242d02db76e8b7030d4e5692290e8c589e27e4d5"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/layers/drop_path.py",
+    "bytes": 1181,
+    "sha256": "9dae853b075710427b45401ef8e055e83546fa97f49af84f0aed8e20cc1e2681"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/layers/layer_scale.py",
+    "bytes": 1031,
+    "sha256": "8e6ffd764da8e8d128fbf80510d664d0f5d88bd5ccf9a2becb88d8077573f0ce"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/layers/mlp.py",
+    "bytes": 1311,
+    "sha256": "778fc64aede50603febf845dd8f80c3ce07afbea54874a80a2c453f8bad65a63"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/layers/patch_embed.py",
+    "bytes": 2997,
+    "sha256": "55587dd8d112100b40cfb33f687a49d97a4f9f9aabd1521353825e37b3c2c483"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/layers/rope.py",
+    "bytes": 7993,
+    "sha256": "33711063409eebe33bfe5e35d5045fcdb99a5a1c4d4868d9d5bfb51c62278855"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/layers/swiglu_ffn.py",
+    "bytes": 1920,
+    "sha256": "9659cb198a2af79e00f8b5f398029288f988bb6add169d076dcf7cc1549cfa4a"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/model/dinov2/layers/__init__.py",
+    "bytes": 669,
+    "sha256": "9dd62934041619c82cc8b4d1e5955601318d69f8c26c52697848cc9578dc2cb7"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/configs/eval_bench.yaml",
+    "bytes": 3204,
+    "sha256": "95884cffb5a449c81aace2813fb4ef59dc3ae43b8918b69c5bff48e82e0fa89b"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/datasets/dtu.py",
+    "bytes": 26456,
+    "sha256": "f4e13c49b9f5d2b499fadb82b6271b9487c6cb713d2d95a8d5f39ef655234636"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/datasets/dtu64.py",
+    "bytes": 6287,
+    "sha256": "39b3ba4cd0e393217c519ac0760be3e1a4be20ea0833d7bee7f0462ee450a45f"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/datasets/eth3d.py",
+    "bytes": 21391,
+    "sha256": "1738783c98efd9aec3521b444bc6c2bebef6dd15a5790eb2b31792e0e7705a32"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/datasets/hiroom.py",
+    "bytes": 15400,
+    "sha256": "b3cb6405e36c786e8f9641c5cad7fa481dcd7d1cba3f1db75fca73052394c306"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/datasets/scannetpp.py",
+    "bytes": 21540,
+    "sha256": "937d2b362f26d6ea71d7ab9971efd107261e1f609fa6ddce5f80c2ab11005d47"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/datasets/sevenscenes.py",
+    "bytes": 15550,
+    "sha256": "bb5cc41a990e456405a53ae0deef78ac9b19bfa839a05a29de83e8a4a630ac83"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/bench/datasets/__init__.py",
+    "bytes": 798,
+    "sha256": "f3b491805b8349efb3041fdbd66d6c06b6da5e735e9730654a0acfcaf067ceff"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/app/modules/event_handlers.py",
+    "bytes": 23700,
+    "sha256": "1156ba3c4adf4377fd5d9d9e5d4acdcc1f30960b74bd98cf20363cc79978e6e6"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/app/modules/file_handlers.py",
+    "bytes": 13137,
+    "sha256": "7a138a3efb168383706468df9728db49f9d46a56d87d83c7119367850029004a"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/app/modules/model_inference.py",
+    "bytes": 9898,
+    "sha256": "e3a385159a9dfe740a4aad6c5fc663675ea6d51822edfc0ae1098ca370f85f8e"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/app/modules/ui_components.py",
+    "bytes": 17441,
+    "sha256": "96517ff397eab26234b30f7a4cc351961b257db5d05c5c14b409c636a5c78a13"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/app/modules/utils.py",
+    "bytes": 7031,
+    "sha256": "c9287a90d37ee2615247eb25987f7c754f7097421795d10ce0706e941bc67ba4"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/app/modules/visualization.py",
+    "bytes": 17559,
+    "sha256": "b70ecbfb344bfbf9439753c875dd95d7145038806bc178420a3119169f247a6b"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/src/depth_anything_3/app/modules/__init__.py",
+    "bytes": 1517,
+    "sha256": "9be5d5d59d7843ed58d3fb12e46f43a0a8a4bc49a7fe4b1030ed45cdb51b39e2"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/docs/funcs/ref_view_strategy.md",
+    "bytes": 6822,
+    "sha256": "53d7dd8cc549e21123a1cffe55ac3a82e8993a20c7a2bd4ae6518ff471ceed96"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/configs/base_config.yaml",
+    "bytes": 1646,
+    "sha256": "8d3a94c6327e05e4f9d29f28a0663270f172b398f17e56856aa6df48120f83ee"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/configs/kitti.yaml",
+    "bytes": 1637,
+    "sha256": "3ae7b661d1eac29803228be82c51fa07734870a79803e5bef0f81dd72ebf690c"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/configs/tum.yaml",
+    "bytes": 1646,
+    "sha256": "8d3a94c6327e05e4f9d29f28a0663270f172b398f17e56856aa6df48120f83ee"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/fastloop/solve.cpp",
+    "bytes": 3612,
+    "sha256": "613692f1a05d7cecd2f4ba6e599cc1cf6d255fb9d78ca4baa321b632786faee9"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/fastloop/solve_python.py",
+    "bytes": 3047,
+    "sha256": "66c752e2057ab3b37e8e594c2fc0722566b0bdb12eb11a5b9e8997715553c77d"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/fastloop/__init__.py",
+    "bytes": 686,
+    "sha256": "4fd9bc02b192b9d9ad12ea5e406a032c6250668378a95d9d359fad8037775011"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/loop_utils/alignment_torch.py",
+    "bytes": 13525,
+    "sha256": "200ac6e97af645644c0db5931362243ba27575021d85d5841413090119a0e196"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/loop_utils/alignment_triton.py",
+    "bytes": 17491,
+    "sha256": "2849a5e2475af37594115af928e65a0b0699d906a6e88115b52fa423dfe1505c"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/loop_utils/config_utils.py",
+    "bytes": 2002,
+    "sha256": "26498f5f2b142488bc844cec02980f82c296898d27cfe5b34f2048ea7f7134c1"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/loop_utils/logging_utils.py",
+    "bytes": 999,
+    "sha256": "405ca4fa58bc8c6aba88bec430725f350081a72c5412cc4cdc239254e9b765a7"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/loop_utils/loop_detector.py",
+    "bytes": 13732,
+    "sha256": "3f020ed2f590b973edb0778d9f9e708375fad89017c8b09a6d173e7644e478a6"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/loop_utils/loop_refinement.py",
+    "bytes": 8264,
+    "sha256": "7960c0aa5b4a447049bdd657f6e421f95e44f48504d077d8d3c2bb3f861e3a1c"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/loop_utils/sim3loop.py",
+    "bytes": 14729,
+    "sha256": "20d4d0b1a44ff2cfe0b6c55e3ded27d6f5a72a93f19a785cd81f60f6862a806b"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/loop_utils/sim3utils.py",
+    "bytes": 42168,
+    "sha256": "9108512931d85c09e78dec5ce647f7b74dcee16a6583ec1f21aace153a1e4971"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/loop_utils/__init__.py",
+    "bytes": 686,
+    "sha256": "4fd9bc02b192b9d9ad12ea5e406a032c6250668378a95d9d359fad8037775011"
+  },
+  {
+    "path": "source/current/.deps/depth-anything-3/da3_streaming/scripts/download_weights.sh",
+    "bytes": 651,
+    "sha256": "74cf01c772b4ee3e8e6d2c4689f89e167bc2c6c5d7c60fee556a5238ff334339"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/LICENSE",
+    "bytes": 1093,
+    "sha256": "de18cbedb0c3b0d1eeb9ccac3988cdf69c21fa89039cd97dd8846cb68f661f81"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/README.md",
+    "bytes": 6281,
+    "sha256": "3af96328be0858e6dd3798d3ea63adcdfd750faa6fec106a06434f513febfef8"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife/contextnet.param",
+    "bytes": 5506,
+    "sha256": "04d8a0478721feb6aca74cc5126fdba03ad0d21089cc3f681dc9f137952cd852"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife/flownet.param",
+    "bytes": 20297,
+    "sha256": "c4b3de01d78698839a51a957a9079ea74d1d11229b45f777219f477fcd44c4d7"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife/fusionnet.param",
+    "bytes": 8147,
+    "sha256": "491c992879625e74af4704c4227ead7572a4b60c0a01ed0451a905edbeb8575b"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-anime/contextnet.param",
+    "bytes": 5831,
+    "sha256": "27949d32886fb08732be00e5e4a3935dafddf622074aa6d30c6885cd2983f2cf"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-anime/flownet.param",
+    "bytes": 27469,
+    "sha256": "4156e10152cc51c50f9f41dec0eeb394492f89e70bf6f5a831667703004a78a3"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-anime/fusionnet.param",
+    "bytes": 8462,
+    "sha256": "18e4914ba7194158be6acb4c9b89c6d5a326e6293387cc046b974e76ad698d2e"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-HD/contextnet.param",
+    "bytes": 5831,
+    "sha256": "27949d32886fb08732be00e5e4a3935dafddf622074aa6d30c6885cd2983f2cf"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-HD/flownet.param",
+    "bytes": 27469,
+    "sha256": "4156e10152cc51c50f9f41dec0eeb394492f89e70bf6f5a831667703004a78a3"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-HD/fusionnet.param",
+    "bytes": 8462,
+    "sha256": "18e4914ba7194158be6acb4c9b89c6d5a326e6293387cc046b974e76ad698d2e"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-UHD/contextnet.param",
+    "bytes": 5831,
+    "sha256": "27949d32886fb08732be00e5e4a3935dafddf622074aa6d30c6885cd2983f2cf"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-UHD/flownet.param",
+    "bytes": 27469,
+    "sha256": "4156e10152cc51c50f9f41dec0eeb394492f89e70bf6f5a831667703004a78a3"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-UHD/fusionnet.param",
+    "bytes": 8462,
+    "sha256": "18e4914ba7194158be6acb4c9b89c6d5a326e6293387cc046b974e76ad698d2e"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v2/contextnet.param",
+    "bytes": 3360,
+    "sha256": "82c04da2d9a894986a78073803546ec75eeaf2e8e5a7d3bef312094aa49db4b1"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v2/flownet.param",
+    "bytes": 10178,
+    "sha256": "d6217636d4f71871c721bfea379e99c0df4e4d1446d282427a3939b38aa7fb92"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v2/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v2.3/contextnet.param",
+    "bytes": 3360,
+    "sha256": "82c04da2d9a894986a78073803546ec75eeaf2e8e5a7d3bef312094aa49db4b1"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v2.3/flownet.param",
+    "bytes": 10178,
+    "sha256": "d6217636d4f71871c721bfea379e99c0df4e4d1446d282427a3939b38aa7fb92"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v2.3/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v2.4/contextnet.param",
+    "bytes": 3360,
+    "sha256": "82c04da2d9a894986a78073803546ec75eeaf2e8e5a7d3bef312094aa49db4b1"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v2.4/flownet.param",
+    "bytes": 10178,
+    "sha256": "d6217636d4f71871c721bfea379e99c0df4e4d1446d282427a3939b38aa7fb92"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v2.4/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v3.0/contextnet.param",
+    "bytes": 3360,
+    "sha256": "7826edf4fba7aebcb51c4c6ccb8a10b45f6b8e60e5975ba887220eebffdaa131"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v3.0/flownet.param",
+    "bytes": 9609,
+    "sha256": "c115e7a89f7b243da0142e9c77df445c6629cc3883347da23bb8fa74c665ebcb"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v3.0/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v3.1/contextnet.param",
+    "bytes": 3360,
+    "sha256": "7826edf4fba7aebcb51c4c6ccb8a10b45f6b8e60e5975ba887220eebffdaa131"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v3.1/flownet.param",
+    "bytes": 9609,
+    "sha256": "c115e7a89f7b243da0142e9c77df445c6629cc3883347da23bb8fa74c665ebcb"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v3.1/fusionnet.param",
+    "bytes": 5775,
+    "sha256": "6a33fa5befe657061af4c12390917c51028e609ea3c0e7c1d390fea6a8c4f870"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v4/flownet.param",
+    "bytes": 12999,
+    "sha256": "8698b5a482922817ff2be3cd1dbe77dbe39eb7a8ddb2c6d7c0f27b9373bc870a"
+  },
+  {
+    "path": "source/archive-snapshots/current/.deps/rife-ncnn-vulkan-20221029/release.zip-source/rife-ncnn-vulkan-20221029-windows/rife-v4.6/flownet.param",
+    "bytes": 16749,
+    "sha256": "28df14d57a225725ee5386f52eba422488450d37c9f40800ed4f62e8ba846692"
+  }
+]

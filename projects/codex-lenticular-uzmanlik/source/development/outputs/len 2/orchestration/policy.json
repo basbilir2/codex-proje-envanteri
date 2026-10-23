@@ -1,0 +1,39 @@
+{
+  "name": "len 2",
+  "primary_objective": "Kaliteyi koruyarak ücretli model token kullanımını azaltmak.",
+  "supervisor": "Bu Codex/ChatGPT oturumundaki Astra veya kullanıcı tarafından seçilen ücretli model",
+  "paid_api_allowed": false,
+  "api_keys_required": false,
+  "local_transport": "llama.cpp CLI + yerel dosyalar; HTTP sunucusu yok",
+  "work_owner": "local_worker",
+  "planning_and_final_review_owner": "paid_supervisor",
+  "local_continue_when": [
+    "Astra iş emri geçerli",
+    "Gerekli girdiler tam",
+    "İş, verilmiş sınırların içinde",
+    "Kontroller geçiyor",
+    "Yeni teşhis veya yöntem kararı gerekmiyor"
+  ],
+  "escalate_when": [
+    "Eksik/çelişkili zorunlu girdi",
+    "Araç hatası veya başarısız kontrol",
+    "Kapsam dışı işlem",
+    "Yeni teşhis veya yöntem kararı",
+    "Kabul kontrol noktası",
+    "Yerel çalıştırma bütçesi aşımı"
+  ],
+  "routing_rule": "Yerel model Astra’ya devir gereğini bildirebilir. Sabit kuralların zorunlu tuttuğu devri veya son denetimi iptal edemez. Yalnız kendi güven puanı yeterlilik kanıtı değildir.",
+  "paid_reentry": "Yalnız iş özeti, uygulanan adımların farkı, hata/kontrol özeti ve kanıt yolları aktarılır. Uzun loglar yerelde kalır; gerekirse ilgili bölümü okunur.",
+  "paid_to_local_return": "Astra sorunu değerlendirip dar yeni iş emri verir; işçi aynı iş kimliğiyle sürer.",
+  "batching": "Astra tarafından açıkça onaylanmış ardışık rutin adımlar tek yerel partide yürütülür; her adımda ücretli modele dönülmez.",
+  "no_retry_loops": "Hata imzası aynıysa kendiliğinden yeniden deneme yok. Yeni hata düzeltmesini Astra seçer.",
+  "routing_implementation": "Thin CLI prototype; supervisor reads returned packet in this active chat. Background wake-up and autonomous Studio action adapter are not implemented.",
+  "measurement": {
+    "paid_tokens": null,
+    "paid_calls": 0,
+    "local_calls": 0,
+    "task_success_rate": null,
+    "savings_percent": null,
+    "rule": "Gerçek kullanım sayacı ve eşdeğer başarı karşılaştırması olmadan tasarruf yüzdesi söylenmez."
+  }
+}

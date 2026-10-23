@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>VD Üç Derinlik Eşzamanlı Görüş Karşılaştırması</title>
+<style>
+body { font-family: system-ui, sans-serif; background: #181a1f; color: #eee; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+h1 { font-size: 20px; margin-bottom: 8px; color: #fff; }
+p { margin: 0 0 16px 0; color: #aaa; font-size: 14px; }
+.viewport { max-width: 100%; border: 1px solid #333; border-radius: 6px; overflow: hidden; background: #000; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+img { display: block; max-width: 100%; height: auto; }
+.controls { margin-top: 16px; display: flex; align-items: center; gap: 12px; width: 100%; max-width: 900px; }
+button { background: #2f68b4; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; font-weight: bold; cursor: pointer; }
+button:hover { background: #3b7ed8; }
+input[type=range] { flex: 1; accent-color: #3b7ed8; cursor: pointer; }
+.label { font-size: 15px; font-weight: bold; min-width: 90px; text-align: right; }
+</style>
+</head>
+<body>
+<h1>VD — Normal / Artırılmış / Güçlü Eşzamanlı Kamera Görünüşleri</h1>
+<p>Kamera kareleri doğrudan 3D Blender sahnesinden alınmıştır (interlaced baskı TIFF'i değildir). Üç varyantın paralaks ve derinlik farkı aynı açı adımlarıyla yan yana izlenebilir.</p>
+<div class="viewport">
+  <img id="viewImg" src="frame_04.jpg" alt="Görünüş Karşılaştırması">
+</div>
+<div class="controls">
+  <button id="playBtn">Durdur</button>
+  <input type="range" id="slider" min="0" max="9" value="4" step="1">
+  <span class="label" id="posLabel">Görüş 5 / 10</span>
+</div>
+<script>
+const frames = ["frame_00.jpg", "frame_01.jpg", "frame_02.jpg", "frame_03.jpg", "frame_04.jpg", "frame_05.jpg", "frame_06.jpg", "frame_07.jpg", "frame_08.jpg", "frame_09.jpg"];
+const img = document.getElementById('viewImg');
+const slider = document.getElementById('slider');
+const label = document.getElementById('posLabel');
+const btn = document.getElementById('playBtn');
+let idx = 4, dir = 1, timer = null;
+
+frames.forEach(src => { const pre = new Image(); pre.src = src; });
+
+function show(n) {
+  idx = n;
+  slider.value = n;
+  img.src = frames[n];
+  label.textContent = `Görüş ${n + 1} / ${frames.length}`;
+}
+
+slider.oninput = () => {
+  stop();
+  show(Number(slider.value));
+};
+
+function tick() {
+  if (idx === frames.length - 1) dir = -1;
+  if (idx === 0) dir = 1;
+  show(idx + dir);
+}
+
+function play() {
+  btn.textContent = 'Durdur';
+  timer = setInterval(tick, 180);
+}
+
+function stop() {
+  clearInterval(timer);
+  timer = null;
+  btn.textContent = 'Oynat';
+}
+
+btn.onclick = () => {
+  if (timer) stop(); else play();
+};
+
+play();
+</script>
+</body>
+</html>

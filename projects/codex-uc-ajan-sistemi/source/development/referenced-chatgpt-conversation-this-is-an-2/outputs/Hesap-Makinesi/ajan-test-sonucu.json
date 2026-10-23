@@ -1,0 +1,7 @@
+{
+  "test": "real_OpenCode_calculator_review",
+  "models_changed": false,
+  "status": "timeout",
+  "reason": "No completed three-agent result within the single 80-second attempt",
+  "seconds": 80.1
+}

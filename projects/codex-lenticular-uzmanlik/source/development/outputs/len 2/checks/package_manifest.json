@@ -1,0 +1,262 @@
+[
+  {
+    "path": "CALISMA_DUZENI.md",
+    "bytes": 3188,
+    "sha256": "96b662c72bf858e50f6f104817d7127a656250b7706f1ce3ba76c4d5462c379c"
+  },
+  {
+    "path": "checks/expertise_validation.json",
+    "bytes": 331,
+    "sha256": "bf043e926db95ba2d37ab2f318e415684cbb7b2eb5694dfdde380e8677c34154"
+  },
+  {
+    "path": "checks/local_progress.json",
+    "bytes": 198,
+    "sha256": "8c1bee1f142fdcf47883b502e85ed752be9574a3cf4124f9af4aa30ae99a40e9"
+  },
+  {
+    "path": "checks/source_integrity.json",
+    "bytes": 3296,
+    "sha256": "56434f1ef0c0c72ed3bc2f48a889f7373edc5adc3d33bd7389e9e4c631411ce9"
+  },
+  {
+    "path": "checks/validation.json",
+    "bytes": 1113,
+    "sha256": "e89af6c26c3fabb5d3b659ca8d28d123001c64e047bfc65fbd49b140cf8d0702"
+  },
+  {
+    "path": "egitim_icerigi/cevrimici_bilgi_kartlari.jsonl",
+    "bytes": 6347,
+    "sha256": "db500068f12e2280a52d3119c0d8fe5eccc70f2bc501eb5f72992f0601b644a1"
+  },
+  {
+    "path": "egitim_icerigi/dogrulama.json",
+    "bytes": 245,
+    "sha256": "39f9f9b05e4926930e77fbfb00647fcf99440ef6eac3ab40c1f9ca197466910f"
+  },
+  {
+    "path": "egitim_icerigi/dosya_haritasi.json",
+    "bytes": 9585,
+    "sha256": "ba9190c40b25077c6b9d3c854fc00079fd65164c36dc9d6c1ecd4183971a6afa"
+  },
+  {
+    "path": "egitim_icerigi/kaynak_kayitlari.json",
+    "bytes": 28526,
+    "sha256": "8408b6e2297e3ebbbb085770ef6e5460817350006fcd8b7bad40ed96f28fff8a"
+  },
+  {
+    "path": "egitim_icerigi/OKU.md",
+    "bytes": 7161,
+    "sha256": "a36b6d57fdccd6c4a302af5eefc9645c9420bc1004a22b963d50f52a36dda783"
+  },
+  {
+    "path": "egitim_icerigi/yerel_bilgi_kartlari.jsonl",
+    "bytes": 19622,
+    "sha256": "d91561fe53c7e652db120eaf7604c69ce1ce7dd0c1bbe6cd79f4ae9c57ccc27b"
+  },
+  {
+    "path": "eval/DEGERLENDIRME_DURUMU.json",
+    "bytes": 782,
+    "sha256": "f46032623f4f451b527ee3baf8abc448e1c822d40cfa35cedeea5730aff9396b"
+  },
+  {
+    "path": "eval/heldout.jsonl",
+    "bytes": 7533,
+    "sha256": "0261cd060a60c936b5aa9a585dfaa1a7a723efa4c902b517690293b1ba73f59b"
+  },
+  {
+    "path": "eval/private_fixtures/selected_job.json",
+    "bytes": 4463,
+    "sha256": "05a7a2ad7a4729a1bec11e708d3122201f85ece0ec7501bad4446242eb7d1ed0"
+  },
+  {
+    "path": "eval/uzmanlik_sinavi.jsonl",
+    "bytes": 15577,
+    "sha256": "726d8435b716743bbd8930f25b6393299b680ba896f46c54c3cf4438c7b8430f"
+  },
+  {
+    "path": "GOREV_TANIMI.md",
+    "bytes": 3704,
+    "sha256": "cfccb12bb1e6ca6d31588b791ec31ac9ef52ddec4af76d16f800c3be6bc007e4"
+  },
+  {
+    "path": "inventory/content_scan.json",
+    "bytes": 199,
+    "sha256": "3b8593cc2b2a8f72ecd4a808a7ecaffab8806d08f449f74bdcc48ee2a5c24a90"
+  },
+  {
+    "path": "inventory/files.jsonl",
+    "bytes": 1027410,
+    "sha256": "d99233e9edd2edb3ae00329d1a9592b042352b1211ca5d169b9a6d0b2180a626"
+  },
+  {
+    "path": "inventory/summary.json",
+    "bytes": 2089,
+    "sha256": "60da01f16b5c070e10ad574c9c0e8544e420005e99ad1c207e23b31abb50fbb7"
+  },
+  {
+    "path": "len 2.md",
+    "bytes": 16045,
+    "sha256": "29f5156f61daf8b26b9fa4d394532b6c61080a58baf6a7177f52fd8a0319ecbc"
+  },
+  {
+    "path": "orchestration/compact_handoff.example.json",
+    "bytes": 302,
+    "sha256": "3cf7efd06f5a3dc39cece23fa4f51e5006011b545124f2593bd37e9b02f3dbfd"
+  },
+  {
+    "path": "orchestration/policy.json",
+    "bytes": 2194,
+    "sha256": "864890d45eb2163fba75245c6978e635d4c07d8b6f11b3feae74e86add83d9fc"
+  },
+  {
+    "path": "prompts/local_engineer.txt",
+    "bytes": 1163,
+    "sha256": "1fde2f83cd37b83ef7342a3edd45b59fd908771bf4e489d8c9d9edbaf8b7ca44"
+  },
+  {
+    "path": "prompts/worker_system.txt",
+    "bytes": 583,
+    "sha256": "92c0b1c61332a52d6277123a399f80f67c3a2bfcbc587abc083978d6f44a1091"
+  },
+  {
+    "path": "rag/chunks.jsonl",
+    "bytes": 510687,
+    "sha256": "3aea9bf11c84e3765e0fce7fd613697590adc84ae29182170b652fbf5c5dc677"
+  },
+  {
+    "path": "rag/knowledge.sqlite",
+    "bytes": 1568768,
+    "sha256": "98a46431bb0d98ac6ed2298bf0803c2352bf0f928dea4676ec5caf9cc72adcef"
+  },
+  {
+    "path": "runtime/config.json",
+    "bytes": 484,
+    "sha256": "d3bdd1ae3d2240bc3c6f02822b9047dcecfaf39aceca466687a32ebdf0ebe73e"
+  },
+  {
+    "path": "runtime/discovery.json",
+    "bytes": 525,
+    "sha256": "e44e33d49b99cc35dc8b3084af39eb260cd6f2d932010ea157a453575742e6d6"
+  },
+  {
+    "path": "runtime/requests/pilot_knowledge.json",
+    "bytes": 339,
+    "sha256": "5add622efbb49ef1e82ad260759ebb166c18d28caee636d310c1e6af523d02bc"
+  },
+  {
+    "path": "runtime/requests/pilot_routing.json",
+    "bytes": 332,
+    "sha256": "1eaad1023bdf1b916c8fb4a9bc77f656a551d242756c58c43e2f38e1bd7d4159"
+  },
+  {
+    "path": "runtime/runs/20261010-231810-146093/request.json",
+    "bytes": 330,
+    "sha256": "7cf2855dd009ebbad9ba93313cb39fae9e0850b38e6fdc301bc0bba228b09326"
+  },
+  {
+    "path": "runtime/runs/20261010-231810-146093/result.json",
+    "bytes": 495,
+    "sha256": "678ff3ae98d476b6c0c5e2c1cbd99ece6e1013f39435ac7505c15f66746ebbdd"
+  },
+  {
+    "path": "schemas/local_reply.schema.json",
+    "bytes": 583,
+    "sha256": "08e190e806c290e6b3703e3d451e23622f8dd2534d17803149b459bc75a9b4bf"
+  },
+  {
+    "path": "schemas/physical_case.example.json",
+    "bytes": 1103,
+    "sha256": "a013f4e062f74ec6f9e4b75f2f5dab7e2c35ab037214eb0644cfcf92deae550c"
+  },
+  {
+    "path": "schemas/sft.schema.json",
+    "bytes": 1568,
+    "sha256": "9bb33275f44ac909b22b6f659e0f2351d8f83a0b576b5cbbebf396a9f6aa2c57"
+  },
+  {
+    "path": "sft/candidates/train.jsonl",
+    "bytes": 46174,
+    "sha256": "b55e7997b1f4d3a0d4f54eafb01327fbe7346c56c632775a4e441d9ac4c78964"
+  },
+  {
+    "path": "sft/candidates/validation.jsonl",
+    "bytes": 7506,
+    "sha256": "719be0a57d829ca539d117e114d3aef8e0ba92762cab739a9db6c65c329ef1cb"
+  },
+  {
+    "path": "sources/archived_reference_register.json",
+    "bytes": 6604,
+    "sha256": "fdbd1e5e4882e3ac081f373230a60c5ac046b07df9dd27c7a7102916dba3bd36"
+  },
+  {
+    "path": "sources/manifest.jsonl",
+    "bytes": 33731,
+    "sha256": "859367ab933c0b14e00f994382873c591a82015f584df34ff92dd96be0246bd1"
+  },
+  {
+    "path": "tools/local_worker.py",
+    "bytes": 5395,
+    "sha256": "3ecab4ffe0b629ad179790bf9549bc3e35f4c22bb1b42315b307b95eb6d9b50f"
+  },
+  {
+    "path": "tools/retrieve.py",
+    "bytes": 1953,
+    "sha256": "3f6193f5f10564443fdef6e88c0f697b8b9009b75dc161381ec07ae1df37c236"
+  },
+  {
+    "path": "tools/validate.py",
+    "bytes": 6493,
+    "sha256": "aa881f9b64c99f3e8d0a766be7e4dabb99821518d8ac2c5b3da80b8a39f0603e"
+  },
+  {
+    "path": "training/job_spec.json",
+    "bytes": 3307,
+    "sha256": "a9ded8578896cb47da1b3a1411770ab8c7c408034e6c71b9d60a01d3d8f33d4e"
+  },
+  {
+    "path": "uzmanlik_programi/eksikler.json",
+    "bytes": 2619,
+    "sha256": "256011542733dffe9413c7e10e867a3c29d3032dd4044cf5584dd3d2a526dd1a"
+  },
+  {
+    "path": "uzmanlik_programi/gercek_islem_kaydi.sablon.json",
+    "bytes": 722,
+    "sha256": "479a5c18dcda338c6e83f5d7e26e8a5aaf9bcd765c841c2e09120a3adf296ac8"
+  },
+  {
+    "path": "uzmanlik_programi/is_emri.schema.json",
+    "bytes": 1945,
+    "sha256": "dce44a86baee4220ab676167d0e9e920df5f9b1caadee21437cd81c651b522df"
+  },
+  {
+    "path": "uzmanlik_programi/kaynak_notlari.jsonl",
+    "bytes": 14602,
+    "sha256": "0f88425112597d280281cbf5c08e076e17a98f35e4792f9421eeda30af0a0447"
+  },
+  {
+    "path": "uzmanlik_programi/konu_haritasi.json",
+    "bytes": 12167,
+    "sha256": "f91ea92e52a66f7e09f3efeebd3b6a15010bcc826e98adcb5f74ee86d7af3072"
+  },
+  {
+    "path": "uzmanlik_programi/uretim_vakasi.sablon.json",
+    "bytes": 1124,
+    "sha256": "3a797b015eaddb433d6f65c29e9daa3ee75fba70e87767684a0775da9faf2725"
+  },
+  {
+    "path": "uzmanlik_programi/UZMANLIK_PLANI.md",
+    "bytes": 10003,
+    "sha256": "d6f5dd60709a0823e1cf159b02a207dd16de61ca1afd3a1935f2e72432268c6c"
+  },
+  {
+    "path": "uzmanlik_programi/yazilim_karsilastirmasi.json",
+    "bytes": 2444,
+    "sha256": "b4247d86f58cf7d020cc0794d23fb8d99ec4607a8ead98f1e91c3f507a162318"
+  },
+  {
+    "path": "uzmanlik_programi/YAZILIMLAR.md",
+    "bytes": 1948,
+    "sha256": "8382cb4e3e8bf5966fa475c14f077ca437181432442c346d5afa164a557725d0"
+  }
+]

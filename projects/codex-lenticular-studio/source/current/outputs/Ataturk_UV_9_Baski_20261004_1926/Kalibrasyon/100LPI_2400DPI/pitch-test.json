@@ -1,0 +1,18 @@
+{
+  "candidate_lpi": [
+    99.95,
+    99.96,
+    99.97,
+    99.98,
+    99.99,
+    100.0,
+    100.01,
+    100.02,
+    100.03,
+    100.04,
+    100.05
+  ],
+  "ppi": 2400,
+  "pages": true,
+  "instruction": "Her sayfa bir LPI adayıdır. %100 ölçekte basın; sayfaları yeniden ölçeklemeyin."
+}

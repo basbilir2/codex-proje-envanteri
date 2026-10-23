@@ -1,0 +1,8 @@
+{
+  "python": "C:\\Users\\USER\\scoop\\apps\\python\\current\\python.exe",
+  "enhancementReady": false,
+  "runtime": "runtime-vulkan/sd-cli.exe",
+  "backend": "auto",
+  "lightning": true,
+  "trialEnabled": true
+}

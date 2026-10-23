@@ -1,0 +1,97 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 230,
+    "sha256": "108b6828c24bda0b76cfd5787d05daa5a2d5e6a67cdf2a31fa8b784077aa64dd"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 825,
+    "sha256": "3974a3c153d9b770c91461eefe9b6ca2059854427add42b04c1d523ca66f8711"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1108,
+    "sha256": "7804c1cf3aa481dcb7dc3b33b8e6dc1863d992c28e312a0d4f221f91dab4c75d"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 93,
+    "sha256": "8156f58951f93adfab2d3efd2cfa24b7a157788d89624fa9bbbb478defab7136"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "073e81715609ad867ae86c30892f8e9a6dc164a77eab6e56ef81890d9aa8671c"
+  },
+  {
+    "path": "source/workspace/layout-racer-yeni-renk.ps1",
+    "bytes": 4508,
+    "sha256": "0988a659b1ef961f631e07eb8b1a261c2bb6de216006ec61115bc740dd63a9c1"
+  },
+  {
+    "path": "source/workspace/layout-racer.ps1",
+    "bytes": 8072,
+    "sha256": "5617410954622a4937423f09c72dfb41e4684f2a9013c0dbdfe8777eec16fbdf"
+  },
+  {
+    "path": "source/workspace/Racer_YeniRenk_001-150_59cm-sonuc.json",
+    "bytes": 765,
+    "sha256": "f1c32ce6e1271c2eede7df2a9e104d52a5fc91bd97a829e8a348c3a4271cf34d"
+  },
+  {
+    "path": "source/workspace/sonuc.json",
+    "bytes": 702,
+    "sha256": "c3aaf4a765db482399dc46e81a93c888036785a1954a7060a2b907d560b2f9e5"
+  }
+]

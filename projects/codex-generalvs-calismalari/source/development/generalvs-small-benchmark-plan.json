@@ -1,0 +1,24 @@
+{
+  "summary": "Bağımlılıksız küçük bahşiş hesaplayıcı oluşturuldu ve doğrulandı.",
+  "tasks": [
+    {
+      "operation": "project_bundle",
+      "target": "generalvs-small-benchmark",
+      "inputs": {
+        "files": {
+          "index.html": "<!doctype html>\n<html lang=\"tr\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n  <title>Bahşiş Hesaplayıcı</title>\n  <style>body{font-family:system-ui,sans-serif;max-width:34rem;margin:3rem auto;padding:1rem;color:#17202a}main{display:grid;gap:1rem}label{display:grid;gap:.35rem}input,button{font:inherit;padding:.7rem;border:1px solid #89939d;border-radius:.5rem}button{background:#145a32;color:#fff;cursor:pointer}output{padding:1rem;background:#f1f8f4;border-radius:.5rem;font-weight:700}</style>\n  <script src=\"app.js\" defer></script>\n</head>\n<body>\n<main>\n  <h1>Bahşiş Hesaplayıcı</h1>\n  <label>Tutar <input id=\"amount\" type=\"number\" min=\"0\" step=\"0.01\" inputmode=\"decimal\"></label>\n  <label>Bahşiş oranı (%) <input id=\"rate\" type=\"number\" min=\"0\" step=\"0.1\" value=\"10\"></label>\n  <button id=\"calculate\" type=\"button\">Hesapla</button>\n  <output id=\"result\" aria-live=\"polite\">Sonuç burada görünecek.</output>\n</main>\n</body>\n</html>\n",
+          "app.js": "function calculateTip(amount, rate) {\n  const value = Number(amount);\n  const percent = Number(rate);\n  if (!Number.isFinite(value) || !Number.isFinite(percent) || value < 0 || percent < 0) return null;\n  const tip = Math.round(value * percent) / 100;\n  const total = Math.round((value + tip) * 100) / 100;\n  return { tip, total };\n}\n\nif (typeof document !== 'undefined') {\n  const amount = document.querySelector('#amount');\n  const rate = document.querySelector('#rate');\n  const result = document.querySelector('#result');\n  document.querySelector('#calculate').addEventListener('click', () => {\n    const calculated = calculateTip(amount.value, rate.value);\n    result.textContent = calculated\n      ? `Bahşiş: ${calculated.tip.toFixed(2)} TL · Toplam: ${calculated.total.toFixed(2)} TL`\n      : 'Lütfen geçerli, sıfır veya daha büyük değerler girin.';\n  });\n}\n\nif (typeof module !== 'undefined') module.exports = { calculateTip };\n",
+          "test.js": "const fs = require('fs');\nconst { calculateTip } = require('./app.js');\nlet passed = 0;\nfunction check(name, condition) {\n  if (!condition) throw new Error(`Başarısız: ${name}`);\n  passed += 1;\n  console.log(`✓ ${name}`);\n}\ncheck('yüzde 10', JSON.stringify(calculateTip(100, 10)) === JSON.stringify({ tip: 10, total: 110 }));\ncheck('ondalıklı oran', JSON.stringify(calculateTip(80, 12.5)) === JSON.stringify({ tip: 10, total: 90 }));\ncheck('kuruş yuvarlama', JSON.stringify(calculateTip(19.99, 15)) === JSON.stringify({ tip: 3, total: 22.99 }));\ncheck('sıfır tutar', JSON.stringify(calculateTip(0, 10)) === JSON.stringify({ tip: 0, total: 0 }));\ncheck('sıfır oran', JSON.stringify(calculateTip(50, 0)) === JSON.stringify({ tip: 0, total: 50 }));\ncheck('geçersiz tutar', calculateTip('x', 10) === null);\ncheck('negatif tutar', calculateTip(-1, 10) === null);\ncheck('negatif oran', calculateTip(10, -1) === null);\nconst html = fs.readFileSync('index.html', 'utf8');\ncheck('erişilebilir canlı sonuç', html.includes('aria-live=\"polite\"'));\ncheck('harici bağımlılık yok', !/https?:\\/\\//.test(html));\nconsole.log(`${passed}/10 doğrulama geçti.`);\n"
+        },
+        "checks": [
+          ["node", "test.js"],
+          ["node", "--check", "app.js"]
+        ]
+      },
+      "verification": {
+        "tests": "10/10",
+        "syntax": "app.js valid"
+      }
+    }
+  ]
+}

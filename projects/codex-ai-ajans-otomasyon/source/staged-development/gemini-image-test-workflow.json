@@ -1,0 +1,110 @@
+{
+  "id": "GeminiImageTest20A",
+  "name": "TEST - YAYIN YAPMAZ - 20 Gemini Gorsel Uretimi",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "20000000-0000-4000-8000-000000000001",
+      "name": "Manual Trigger - TEST ONLY",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [-600, 0]
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "fileSelector": "/home/node/.n8n-files/data/logs/ucretsiz-yerel-test-sonucu.json",
+        "options": {}
+      },
+      "id": "20000000-0000-4000-8000-000000000002",
+      "name": "Guvenli Final Paketi Oku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [-380, 0]
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "destinationKey": "result_json",
+        "options": {}
+      },
+      "id": "20000000-0000-4000-8000-000000000003",
+      "name": "Final Paketi Metne Cikar",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [-160, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "const raw=String($json.result_json||'').trim();let r;try{r=JSON.parse(raw)}catch{throw new Error('Guvenli final paket JSON gecersiz');}if(r.test_label!=='TEST - YAYIN YAPMAZ'||r.publish_authorized!==false||r.external_publish_executed!==false)throw new Error('Yayin kilidi dogrulanamadi');if(r.status!=='Operator_onayi_bekliyor')throw new Error('Final paket onay asamasinda degil');const brief=String(r.agent_trace?.ordinaryus?.final_visual_brief||r.content_payload?.visual_brief||'').trim();if(!brief)throw new Error('Final gorsel brief eksik');const prompt=['Create exactly one square 1:1 social media campaign visual for TrendyBrander.',brief,'Use clean commercial product photography, a simple single-focus composition, realistic materials and natural lighting.','Show an ordinary household iron and a custom textile application context only when consistent with the brief. Do not show an industrial heat press.','Do not include logos, trademarks, prices, numbers, claims, interface screenshots or any readable words in the image. Leave clean negative space for a later text overlay.','Do not invent product performance, speed, durability or safety results.'].join(' ');return[{json:{task_id:r.task_id,image_prompt:prompt,publish_authorized:false,external_publish:false}}];"
+      },
+      "id": "20000000-0000-4000-8000-000000000004",
+      "name": "Gemini Gorsel Promptunu Hazirla",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [60, 0]
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "operation": "generate",
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-3.1-flash-lite-image",
+          "mode": "list",
+          "cachedResultName": "Gemini 3.1 Flash Lite Image"
+        },
+        "prompt": "={{ $json.image_prompt }}",
+        "options": {
+          "binaryPropertyOutput": "data"
+        }
+      },
+      "id": "20000000-0000-4000-8000-000000000005",
+      "name": "Gemini ile Gercek Gorsel Uret",
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1.2,
+      "position": [300, 0],
+      "credentials": {
+        "googlePalmApi": {
+          "id": "bPYdP4376xznoj2H",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ '/home/node/.n8n-files/data/outputs/images/' + $('Gemini Gorsel Promptunu Hazirla').first().json.task_id + '-gemini.png' }}",
+        "options": {}
+      },
+      "id": "20000000-0000-4000-8000-000000000006",
+      "name": "Gemini Gorselini Yerel Dosyaya Yaz",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [540, 0]
+    }
+  ],
+  "connections": {
+    "Manual Trigger - TEST ONLY": {
+      "main": [[{"node": "Guvenli Final Paketi Oku", "type": "main", "index": 0}]]
+    },
+    "Guvenli Final Paketi Oku": {
+      "main": [[{"node": "Final Paketi Metne Cikar", "type": "main", "index": 0}]]
+    },
+    "Final Paketi Metne Cikar": {
+      "main": [[{"node": "Gemini Gorsel Promptunu Hazirla", "type": "main", "index": 0}]]
+    },
+    "Gemini Gorsel Promptunu Hazirla": {
+      "main": [[{"node": "Gemini ile Gercek Gorsel Uret", "type": "main", "index": 0}]]
+    },
+    "Gemini ile Gercek Gorsel Uret": {
+      "main": [[{"node": "Gemini Gorselini Yerel Dosyaya Yaz", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": []
+}

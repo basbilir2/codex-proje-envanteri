@@ -1,0 +1,2712 @@
+{
+  "engine": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular\\printing.py",
+  "engine_sha256": "5dcfe47446d65cf7d769462d9e9d429ec1ef46b96d87dcf774f67e09480cd8e0",
+  "runtime": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\.venv\\Scripts\\python.exe",
+  "method": "Studio printing.pitch_test called with validated 21-candidate settings for each half; 41 unique native bands copied without resizing or resampling into each single-sheet target.",
+  "ppi": 1200,
+  "page_pixels": [
+    12283,
+    9213
+  ],
+  "page_mm": [
+    259.99016666666665,
+    195.0085
+  ],
+  "pattern_width_mm": 220.00633333333334,
+  "step": "0.05",
+  "count_per_lens": 41,
+  "tests": [
+    {
+      "nominal_lpi": 50,
+      "range": [
+        "49.00",
+        "51.00"
+      ],
+      "tiff": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\PROGRAM-PITCH-22CM\\PITCH-50LPI-49.00-51.00-22CM-1200PPI.tif",
+      "native": [
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\50LPI-ALT\\pitch-test.tif",
+          "sha256": "e2422afa19ea1e650f4f34b4c9d4febc552d406e9853b8036c095062b6539c07",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 50,
+            "effective_lpi": 49.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        },
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\50LPI-UST\\pitch-test.tif",
+          "sha256": "17925e39b340d2cfc5bc39a4c41be756e43bfefcb9c89fa389553c02a0161e40",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 50,
+            "effective_lpi": 50.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        }
+      ],
+      "rows": [
+        {
+          "lpi": "49.00",
+          "native_band_sha256": "30068989ac5ec5b7eb836fdff7af36df851b00d8cf2f5923287497e0c8e3b292",
+          "box_px": [
+            945,
+            1701,
+            11339,
+            1829
+          ],
+          "measured_lpi": 48.99997
+        },
+        {
+          "lpi": "49.05",
+          "native_band_sha256": "dd6da9a713a4310217b32da8fdaa17a1285b2807ed131066f7c211eb1561a73b",
+          "box_px": [
+            945,
+            1852,
+            11339,
+            1980
+          ],
+          "measured_lpi": 49.049999
+        },
+        {
+          "lpi": "49.10",
+          "native_band_sha256": "f2cd8b530c628c89f5538c49bb0e401fc1e6f5695fbe1c7eddd713a33065e137",
+          "box_px": [
+            945,
+            2003,
+            11339,
+            2131
+          ],
+          "measured_lpi": 49.099963
+        },
+        {
+          "lpi": "49.15",
+          "native_band_sha256": "ec8cc7b0eef0b65941f2574c4f2f7b1bfe6cdb4dcd8991c7d066f9d11888122b",
+          "box_px": [
+            945,
+            2154,
+            11339,
+            2282
+          ],
+          "measured_lpi": 49.150032
+        },
+        {
+          "lpi": "49.20",
+          "native_band_sha256": "13edcac53510f32ec53263e56ed10392bcd00357d05edafc0a7e72b17d180f1d",
+          "box_px": [
+            945,
+            2306,
+            11339,
+            2434
+          ],
+          "measured_lpi": 49.200011
+        },
+        {
+          "lpi": "49.25",
+          "native_band_sha256": "fab872d01a2599e0e9ef53ba403b1625972b832dda8f6b785725b8f1a8a04f1e",
+          "box_px": [
+            945,
+            2457,
+            11339,
+            2585
+          ],
+          "measured_lpi": 49.249976
+        },
+        {
+          "lpi": "49.30",
+          "native_band_sha256": "ee01b97e5790e832db1a05d9940812f0f86327b202049e7dac1183fe82cca2e7",
+          "box_px": [
+            945,
+            2608,
+            11339,
+            2736
+          ],
+          "measured_lpi": 49.300029
+        },
+        {
+          "lpi": "49.35",
+          "native_band_sha256": "e410e8f36ae2efa7bdfd6adc3d5efe342bb39a861e11dc3548906b38227963ac",
+          "box_px": [
+            945,
+            2759,
+            11339,
+            2887
+          ],
+          "measured_lpi": 49.349964
+        },
+        {
+          "lpi": "49.40",
+          "native_band_sha256": "b2b9f067c59245515580dc9a6640d80fa5b721e1d3cdab871a9120d22fc48e4b",
+          "box_px": [
+            945,
+            2910,
+            11339,
+            3038
+          ],
+          "measured_lpi": 49.399981
+        },
+        {
+          "lpi": "49.45",
+          "native_band_sha256": "0d0e8b06b6a330bf52a1a8bc65d58eb3e0b404727b8e96d3f145c4c74f580f85",
+          "box_px": [
+            945,
+            3061,
+            11339,
+            3189
+          ],
+          "measured_lpi": 49.449949
+        },
+        {
+          "lpi": "49.50",
+          "native_band_sha256": "9c0589a56fe9bd73e0bccb7942490400a124faa5807aa0ac00bd0697f8a2c7c9",
+          "box_px": [
+            945,
+            3213,
+            11339,
+            3341
+          ],
+          "measured_lpi": 49.499957
+        },
+        {
+          "lpi": "49.55",
+          "native_band_sha256": "db57cdae8b03ae1b992f0c4fad8bcd5053f5bae898e5c1b86f76ac24bdbe1ee3",
+          "box_px": [
+            945,
+            3364,
+            11339,
+            3492
+          ],
+          "measured_lpi": 49.550024
+        },
+        {
+          "lpi": "49.60",
+          "native_band_sha256": "0e7627dd0de1166c5e11b5cda09df435f2a8d1de9a6f53ced7a558e503129a26",
+          "box_px": [
+            945,
+            3515,
+            11339,
+            3643
+          ],
+          "measured_lpi": 49.599973
+        },
+        {
+          "lpi": "49.65",
+          "native_band_sha256": "46505bafb91881e5a665fdb6605664f015e5f9dab7f97a9ab6e723b293bafa80",
+          "box_px": [
+            945,
+            3666,
+            11339,
+            3794
+          ],
+          "measured_lpi": 49.650003
+        },
+        {
+          "lpi": "49.70",
+          "native_band_sha256": "997c071c6dd53c348fc2088a1ee8af1d4a0197e13b37c3394f48384969099c2b",
+          "box_px": [
+            945,
+            3817,
+            11339,
+            3945
+          ],
+          "measured_lpi": 49.700027
+        },
+        {
+          "lpi": "49.75",
+          "native_band_sha256": "22dcb273b3b3344e39b6720c6858f2cbd3e9d3686d863398404539e0d4d104a7",
+          "box_px": [
+            945,
+            3969,
+            11339,
+            4097
+          ],
+          "measured_lpi": 49.749958
+        },
+        {
+          "lpi": "49.80",
+          "native_band_sha256": "9ee718639b5e4c8552e58440ea3c2e32e76cbd31d18dbf687324f13325ad09d7",
+          "box_px": [
+            945,
+            4120,
+            11339,
+            4248
+          ],
+          "measured_lpi": 49.800012
+        },
+        {
+          "lpi": "49.85",
+          "native_band_sha256": "0b6ebc0689f2cfa4c16e433f7bd04a525f2d74e3c30547637eb7e512b1e5903d",
+          "box_px": [
+            945,
+            4271,
+            11339,
+            4399
+          ],
+          "measured_lpi": 49.849925
+        },
+        {
+          "lpi": "49.90",
+          "native_band_sha256": "228a7ce026751cac9a3423125fa35e600b9944611bcc25ca81845ce365b95102",
+          "box_px": [
+            945,
+            4422,
+            11339,
+            4550
+          ],
+          "measured_lpi": 49.89992
+        },
+        {
+          "lpi": "49.95",
+          "native_band_sha256": "9caa8479ea61ccdbceebc30a825bcf348ebae160e2d4658ead85fc41200ae4d6",
+          "box_px": [
+            945,
+            4573,
+            11339,
+            4701
+          ],
+          "measured_lpi": 49.949987
+        },
+        {
+          "lpi": "50.00",
+          "native_band_sha256": "adfeb46d26c735ae6ee578385cc610361c4f7eac4526f3a494a1bdccde50e1e1",
+          "box_px": [
+            945,
+            4724,
+            11339,
+            4852
+          ],
+          "measured_lpi": 50.0
+        },
+        {
+          "lpi": "50.05",
+          "native_band_sha256": "7e289fc24b3539d96dcef161bf20504f06329b7350578c2bcfc6020e90dd5541",
+          "box_px": [
+            945,
+            4876,
+            11339,
+            5004
+          ],
+          "measured_lpi": 50.050006
+        },
+        {
+          "lpi": "50.10",
+          "native_band_sha256": "3c637fb5c31fe26196e5f9be4ff4e5de1b6580f049e0d96931e8f64c41cdf1cd",
+          "box_px": [
+            945,
+            5027,
+            11339,
+            5155
+          ],
+          "measured_lpi": 50.100075
+        },
+        {
+          "lpi": "50.15",
+          "native_band_sha256": "7ddd8d4eb498c2cf33c42b954ef92f08e87086e2f1e65a1d84ca8d1d4cba5112",
+          "box_px": [
+            945,
+            5178,
+            11339,
+            5306
+          ],
+          "measured_lpi": 50.150034
+        },
+        {
+          "lpi": "50.20",
+          "native_band_sha256": "45cd89517d500227709762317a04eebc2c9ee5dd7db1d4f8a494f50a680854ca",
+          "box_px": [
+            945,
+            5329,
+            11339,
+            5457
+          ],
+          "measured_lpi": 50.199977
+        },
+        {
+          "lpi": "50.25",
+          "native_band_sha256": "f02b237d34fd284c7a428075d2a75dfce7567773ae7b47255059d9f1b7f063ee",
+          "box_px": [
+            945,
+            5480,
+            11339,
+            5608
+          ],
+          "measured_lpi": 50.250059
+        },
+        {
+          "lpi": "50.30",
+          "native_band_sha256": "0a5144f4998a0528d7f643624c644a310ed5c58d829c7b44d5cebfcfddae65e8",
+          "box_px": [
+            945,
+            5631,
+            11339,
+            5759
+          ],
+          "measured_lpi": 50.299916
+        },
+        {
+          "lpi": "50.35",
+          "native_band_sha256": "e78ed7ca578063798cb93176a0af654e9216e5960dcdf2ef35c53abbcbb8161b",
+          "box_px": [
+            945,
+            5783,
+            11339,
+            5911
+          ],
+          "measured_lpi": 50.34967
+        },
+        {
+          "lpi": "50.40",
+          "native_band_sha256": "e57a687bfb46f6df2f0161358f4e053c652821c75266a0773fae34b7c58a51c5",
+          "box_px": [
+            945,
+            5934,
+            11339,
+            6062
+          ],
+          "measured_lpi": 50.400023
+        },
+        {
+          "lpi": "50.45",
+          "native_band_sha256": "5bd3411d2842a3ab16a6f5acdaebeead23684827c4975fdaa071dce6eba8bdb2",
+          "box_px": [
+            945,
+            6085,
+            11339,
+            6213
+          ],
+          "measured_lpi": 50.450008
+        },
+        {
+          "lpi": "50.50",
+          "native_band_sha256": "2a98cf2ccbe99495bbbbbc2d90b717f356e8a6bff7e1640dd89494d554b80a37",
+          "box_px": [
+            945,
+            6236,
+            11339,
+            6364
+          ],
+          "measured_lpi": 50.500025
+        },
+        {
+          "lpi": "50.55",
+          "native_band_sha256": "6c7d6a9984fb9255011ec87cfd63cc385389e17a7bfc6d66a0be0a22594e8764",
+          "box_px": [
+            945,
+            6387,
+            11339,
+            6515
+          ],
+          "measured_lpi": 50.549996
+        },
+        {
+          "lpi": "50.60",
+          "native_band_sha256": "24db39ed5c4734049c868ac06e80686521395654cae43b056c00c73988e45aa2",
+          "box_px": [
+            945,
+            6539,
+            11339,
+            6667
+          ],
+          "measured_lpi": 50.600046
+        },
+        {
+          "lpi": "50.65",
+          "native_band_sha256": "f8ac768377febccf93389de42b94ca8d4c29deffba965d3cf66e40d8816eaae0",
+          "box_px": [
+            945,
+            6690,
+            11339,
+            6818
+          ],
+          "measured_lpi": 50.650099
+        },
+        {
+          "lpi": "50.70",
+          "native_band_sha256": "af1b8c0679d4475cb4f3e230488723c6ae50e6ba77ebdc83d09df7d23465a4ef",
+          "box_px": [
+            945,
+            6841,
+            11339,
+            6969
+          ],
+          "measured_lpi": 50.70007
+        },
+        {
+          "lpi": "50.75",
+          "native_band_sha256": "5d53fe193d1c2cff7a47cc1778341aa2c6081029c67ad56f2ec04d085b8909e3",
+          "box_px": [
+            945,
+            6992,
+            11339,
+            7120
+          ],
+          "measured_lpi": 50.750026
+        },
+        {
+          "lpi": "50.80",
+          "native_band_sha256": "f8beb071a3a2caaff8f671a5f02815129d35e48e0db9cf77f89a40f2556aae91",
+          "box_px": [
+            945,
+            7143,
+            11339,
+            7271
+          ],
+          "measured_lpi": 50.800001
+        },
+        {
+          "lpi": "50.85",
+          "native_band_sha256": "6bab8441ff4eceec6973f09aeba2322eabbbed24067ced2fddebe60755af5c17",
+          "box_px": [
+            945,
+            7294,
+            11339,
+            7422
+          ],
+          "measured_lpi": 50.850022
+        },
+        {
+          "lpi": "50.90",
+          "native_band_sha256": "ee9cd3cee297cd5c7fc6a6a81d7e4cee41ee47faa959e3d2ed3fc3bae9b7f405",
+          "box_px": [
+            945,
+            7446,
+            11339,
+            7574
+          ],
+          "measured_lpi": 50.900056
+        },
+        {
+          "lpi": "50.95",
+          "native_band_sha256": "4591185fcd465bff464dc361b50829f47bfa1516836ca1a5afbd65e67c6e4f6f",
+          "box_px": [
+            945,
+            7597,
+            11339,
+            7725
+          ],
+          "measured_lpi": 50.950028
+        },
+        {
+          "lpi": "51.00",
+          "native_band_sha256": "8a35e233fa4ffbdfa505877d207b5200c2b524169f85f97bd09b1af5aded8cb7",
+          "box_px": [
+            945,
+            7748,
+            11339,
+            7876
+          ],
+          "measured_lpi": 51.000031
+        }
+      ],
+      "tiff_sha256": "c6b03e1f12f7c08bd7d624e5cb00d3beb37887a780329d520724fb22641a7908"
+    },
+    {
+      "nominal_lpi": 60,
+      "range": [
+        "59.00",
+        "61.00"
+      ],
+      "tiff": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\PROGRAM-PITCH-22CM\\PITCH-60LPI-59.00-61.00-22CM-1200PPI.tif",
+      "native": [
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\60LPI-ALT\\pitch-test.tif",
+          "sha256": "fe1f09cba677ff76f8fb0386ec6061ea07a6dc68a08e7916b0b964b91f3f9f12",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 60,
+            "effective_lpi": 59.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        },
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\60LPI-UST\\pitch-test.tif",
+          "sha256": "698ce1977315a385463b7e5036d63896ac9e8f9fbe6b04be96ad730fbf8f6114",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 60,
+            "effective_lpi": 60.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        }
+      ],
+      "rows": [
+        {
+          "lpi": "59.00",
+          "native_band_sha256": "a1f71a4fa0f61c56a3248722351f72dae8ddc98cad66b6d1d7bcd64f191ad77d",
+          "box_px": [
+            945,
+            1701,
+            11339,
+            1829
+          ],
+          "measured_lpi": 59.000013
+        },
+        {
+          "lpi": "59.05",
+          "native_band_sha256": "217b1ebc4a4bba2ebbee12fe1d2008d35924b758bed68e0455dcf6749111a7d4",
+          "box_px": [
+            945,
+            1852,
+            11339,
+            1980
+          ],
+          "measured_lpi": 59.050017
+        },
+        {
+          "lpi": "59.10",
+          "native_band_sha256": "e7c01fe5f0092093d7aca5185d805631356b4d547c777aaa6eaf3bf77c2a27c8",
+          "box_px": [
+            945,
+            2003,
+            11339,
+            2131
+          ],
+          "measured_lpi": 59.1
+        },
+        {
+          "lpi": "59.15",
+          "native_band_sha256": "96c2146c2b819e8b61134f961bb78d75daa9e6713d3dc82cd4aa590a2b21b86a",
+          "box_px": [
+            945,
+            2154,
+            11339,
+            2282
+          ],
+          "measured_lpi": 59.149937
+        },
+        {
+          "lpi": "59.20",
+          "native_band_sha256": "65ef57d3d333a29707177a54cbde913197d04ff16a0dcaccbddcd8108a82d01d",
+          "box_px": [
+            945,
+            2306,
+            11339,
+            2434
+          ],
+          "measured_lpi": 59.199994
+        },
+        {
+          "lpi": "59.25",
+          "native_band_sha256": "327c704ddc5b4d953d4d7c2e83420f7d7ca051f4227fd3feea725dbebe396608",
+          "box_px": [
+            945,
+            2457,
+            11339,
+            2585
+          ],
+          "measured_lpi": 59.250034
+        },
+        {
+          "lpi": "59.30",
+          "native_band_sha256": "d7006c1fee66c9abc0c285b58b11cf8d278b9c52cd8c486dfa0f84db8645c84e",
+          "box_px": [
+            945,
+            2608,
+            11339,
+            2736
+          ],
+          "measured_lpi": 59.299947
+        },
+        {
+          "lpi": "59.35",
+          "native_band_sha256": "0d659014fe087f2999de4859070d152d2113bf99dfc26ccbfb06c529812eadb6",
+          "box_px": [
+            945,
+            2759,
+            11339,
+            2887
+          ],
+          "measured_lpi": 59.349993
+        },
+        {
+          "lpi": "59.40",
+          "native_band_sha256": "5a1d48d19c069f3d408e6b772bb988b2b38da5c136d2a5c0628a7bbaf9c7b09a",
+          "box_px": [
+            945,
+            2910,
+            11339,
+            3038
+          ],
+          "measured_lpi": 59.399989
+        },
+        {
+          "lpi": "59.45",
+          "native_band_sha256": "3889c093c65c7fe05510c81a7d75f77f0386d8db099fb95d76efdc5eb5f493a5",
+          "box_px": [
+            945,
+            3061,
+            11339,
+            3189
+          ],
+          "measured_lpi": 59.449944
+        },
+        {
+          "lpi": "59.50",
+          "native_band_sha256": "e6ab17cd22ab2aac0ff30fd280e274d8aaa133f96f6cf43569ecfe634f19760a",
+          "box_px": [
+            945,
+            3213,
+            11339,
+            3341
+          ],
+          "measured_lpi": 59.50002
+        },
+        {
+          "lpi": "59.55",
+          "native_band_sha256": "03bc4c1342bd0dc2809cc9fab372caee9caa590b6c8e260e5696fc4872ee5017",
+          "box_px": [
+            945,
+            3364,
+            11339,
+            3492
+          ],
+          "measured_lpi": 59.549964
+        },
+        {
+          "lpi": "59.60",
+          "native_band_sha256": "004f7889c0b79de8e6440bf8951cc257bbc655b59238c8a405a0298c57338fcc",
+          "box_px": [
+            945,
+            3515,
+            11339,
+            3643
+          ],
+          "measured_lpi": 59.599953
+        },
+        {
+          "lpi": "59.65",
+          "native_band_sha256": "8a64ce03795caedd2242332bd51ad163665076bab96d4c54150c77d7bbe1dbc5",
+          "box_px": [
+            945,
+            3666,
+            11339,
+            3794
+          ],
+          "measured_lpi": 59.650017
+        },
+        {
+          "lpi": "59.70",
+          "native_band_sha256": "199ad3074ecc610014095f4ac6e32854821a5ecdfa2c053a6abdebda4c93679c",
+          "box_px": [
+            945,
+            3817,
+            11339,
+            3945
+          ],
+          "measured_lpi": 59.699972
+        },
+        {
+          "lpi": "59.75",
+          "native_band_sha256": "1c475561c0094fe4e829a8a8fae8dc2ca1227a0ae0b39180c8095b453cc7cfc1",
+          "box_px": [
+            945,
+            3969,
+            11339,
+            4097
+          ],
+          "measured_lpi": 59.749995
+        },
+        {
+          "lpi": "59.80",
+          "native_band_sha256": "32164a79ad77327a92b57eb5ac548ad8a76b87a4a5fd62db4aca94decdb243f0",
+          "box_px": [
+            945,
+            4120,
+            11339,
+            4248
+          ],
+          "measured_lpi": 59.799997
+        },
+        {
+          "lpi": "59.85",
+          "native_band_sha256": "a88962d88ed167d25ecc7db3e22db02dbc7e5e5bdaa4d1a2f62c41447e7f22e7",
+          "box_px": [
+            945,
+            4271,
+            11339,
+            4399
+          ],
+          "measured_lpi": 59.849905
+        },
+        {
+          "lpi": "59.90",
+          "native_band_sha256": "a983750212602f1561bd743e518440aea5d70d4aa3edbc1b1abff3f64e9a4aaf",
+          "box_px": [
+            945,
+            4422,
+            11339,
+            4550
+          ],
+          "measured_lpi": 59.899961
+        },
+        {
+          "lpi": "59.95",
+          "native_band_sha256": "ae827b7072203f9dcd4eb978e493ba6cd6826779f908f3f54c83d55d8ad654e4",
+          "box_px": [
+            945,
+            4573,
+            11339,
+            4701
+          ],
+          "measured_lpi": 59.949934
+        },
+        {
+          "lpi": "60.00",
+          "native_band_sha256": "6022cc6ae7b0a68a79a07d0b002db9117c4b0c1d850b642693290eaa1e9c493f",
+          "box_px": [
+            945,
+            4724,
+            11339,
+            4852
+          ],
+          "measured_lpi": 60.0
+        },
+        {
+          "lpi": "60.05",
+          "native_band_sha256": "551fbd675183cf60e5bc0fff4bae4f26a4aa5aaee12acad8dfcd333be95ea7cc",
+          "box_px": [
+            945,
+            4876,
+            11339,
+            5004
+          ],
+          "measured_lpi": 60.05016
+        },
+        {
+          "lpi": "60.10",
+          "native_band_sha256": "73f47ba76a0fcd87745e4d3fa1c20277f8462c25290ac5fecd2ccf8fae0d3f81",
+          "box_px": [
+            945,
+            5027,
+            11339,
+            5155
+          ],
+          "measured_lpi": 60.100079
+        },
+        {
+          "lpi": "60.15",
+          "native_band_sha256": "a74b47c09fb8c6d13f23d51af80f0ac5ca6a0fc22b4feb2ac906629aefdf859b",
+          "box_px": [
+            945,
+            5178,
+            11339,
+            5306
+          ],
+          "measured_lpi": 60.150127
+        },
+        {
+          "lpi": "60.20",
+          "native_band_sha256": "639bfe6bce5ed94036fdde54690aaff4cbfe8fde235cd246b51e45df21769664",
+          "box_px": [
+            945,
+            5329,
+            11339,
+            5457
+          ],
+          "measured_lpi": 60.20003
+        },
+        {
+          "lpi": "60.25",
+          "native_band_sha256": "6b1545a048f2f57e3146d177615b455253ca1d0b7bcd8537402ccd308b51daa7",
+          "box_px": [
+            945,
+            5480,
+            11339,
+            5608
+          ],
+          "measured_lpi": 60.25005
+        },
+        {
+          "lpi": "60.30",
+          "native_band_sha256": "433395d155592c842c5586aed5b7eab81c6568dfa5b9bc1b0d0d30cdbcc385b9",
+          "box_px": [
+            945,
+            5631,
+            11339,
+            5759
+          ],
+          "measured_lpi": 60.300083
+        },
+        {
+          "lpi": "60.35",
+          "native_band_sha256": "8898e42e27ac535004817eff3aaa4c92de8fc24ce6272d5fe6aa5d2d70afbf16",
+          "box_px": [
+            945,
+            5783,
+            11339,
+            5911
+          ],
+          "measured_lpi": 60.350009
+        },
+        {
+          "lpi": "60.40",
+          "native_band_sha256": "d9cbb10a4b314a16f8fbc95e0732735bca69a21c0fded95261549fe4669b3ee8",
+          "box_px": [
+            945,
+            5934,
+            11339,
+            6062
+          ],
+          "measured_lpi": 60.399991
+        },
+        {
+          "lpi": "60.45",
+          "native_band_sha256": "169ff78344a754a41feda5ac4f601f99c15a09dbecea1d408f45d40d97fa553e",
+          "box_px": [
+            945,
+            6085,
+            11339,
+            6213
+          ],
+          "measured_lpi": 60.450034
+        },
+        {
+          "lpi": "60.50",
+          "native_band_sha256": "4ada57f7f0182acb9f2ef9498b08e622a518e37ba2d1a8630d0f01f9988d3f12",
+          "box_px": [
+            945,
+            6236,
+            11339,
+            6364
+          ],
+          "measured_lpi": 60.50003
+        },
+        {
+          "lpi": "60.55",
+          "native_band_sha256": "00fd81d639c8749a59e73b8aedbc112c4497c900be499fb7be401f4bc9e9548c",
+          "box_px": [
+            945,
+            6387,
+            11339,
+            6515
+          ],
+          "measured_lpi": 60.549704
+        },
+        {
+          "lpi": "60.60",
+          "native_band_sha256": "c7489b88c9b21aeaf5b0b09e36204f98d3a53a7b0e35844c2be8ce40361b0c9c",
+          "box_px": [
+            945,
+            6539,
+            11339,
+            6667
+          ],
+          "measured_lpi": 60.600041
+        },
+        {
+          "lpi": "60.65",
+          "native_band_sha256": "2425ea3cffed3bfe42b5320cda043e739a9c5508a4c9d8f5760bc81ca377458f",
+          "box_px": [
+            945,
+            6690,
+            11339,
+            6818
+          ],
+          "measured_lpi": 60.64982
+        },
+        {
+          "lpi": "60.70",
+          "native_band_sha256": "772d2149997ea3ffa89b67225243e8e2e0c3cda860b64f252bd47dd337df0bc9",
+          "box_px": [
+            945,
+            6841,
+            11339,
+            6969
+          ],
+          "measured_lpi": 60.700081
+        },
+        {
+          "lpi": "60.75",
+          "native_band_sha256": "ef552ffbebbb520b37960d119a7ba76ff70472e8d0c758d5fca7c29848e0e11a",
+          "box_px": [
+            945,
+            6992,
+            11339,
+            7120
+          ],
+          "measured_lpi": 60.750077
+        },
+        {
+          "lpi": "60.80",
+          "native_band_sha256": "bd300ee20bf8785bcb29c7bf2a668a2bf1c4ef246c41718e38f1fff60ff5c66f",
+          "box_px": [
+            945,
+            7143,
+            11339,
+            7271
+          ],
+          "measured_lpi": 60.800004
+        },
+        {
+          "lpi": "60.85",
+          "native_band_sha256": "8b6ca6f2dd00320253e77f8a408b63d49956c9d6f77e31f03a7348cef64f81fd",
+          "box_px": [
+            945,
+            7294,
+            11339,
+            7422
+          ],
+          "measured_lpi": 60.850007
+        },
+        {
+          "lpi": "60.90",
+          "native_band_sha256": "1951c1f03c825dacebbaad4395570064e8899a2310005b633cab08417050eb9a",
+          "box_px": [
+            945,
+            7446,
+            11339,
+            7574
+          ],
+          "measured_lpi": 60.900003
+        },
+        {
+          "lpi": "60.95",
+          "native_band_sha256": "c12f970250523ecfbf1c1cd6277f2393d24cd384eaa05b04f8ffe025f0e56c34",
+          "box_px": [
+            945,
+            7597,
+            11339,
+            7725
+          ],
+          "measured_lpi": 60.950014
+        },
+        {
+          "lpi": "61.00",
+          "native_band_sha256": "f41b7f72969127a300880461b26a94fcbacd9f1054706a4de0c6f7135077919f",
+          "box_px": [
+            945,
+            7748,
+            11339,
+            7876
+          ],
+          "measured_lpi": 61.000033
+        }
+      ],
+      "tiff_sha256": "d2cd3fd4bf77a55af434d69f0372719106938a7f2fa4871ccd228d0c8f0c94b2"
+    },
+    {
+      "nominal_lpi": 75,
+      "range": [
+        "74.00",
+        "76.00"
+      ],
+      "tiff": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\PROGRAM-PITCH-22CM\\PITCH-75LPI-74.00-76.00-22CM-1200PPI.tif",
+      "native": [
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\75LPI-ALT\\pitch-test.tif",
+          "sha256": "e0e28cf7b8bf48efe390150fb3c9e64d17dc7cd8d29821d0d61e92909a2a9205",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 75,
+            "effective_lpi": 74.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        },
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\75LPI-UST\\pitch-test.tif",
+          "sha256": "2515c0d83f3bfd50642376673a79d0088c9037f5ef581f73352e235c6f8a08ee",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 75,
+            "effective_lpi": 75.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        }
+      ],
+      "rows": [
+        {
+          "lpi": "74.00",
+          "native_band_sha256": "30db14363d02a7948a53234231b9cc49c657f4760a1ea6f450eae608d2b5520e",
+          "box_px": [
+            945,
+            1701,
+            11339,
+            1829
+          ],
+          "measured_lpi": 74.000015
+        },
+        {
+          "lpi": "74.05",
+          "native_band_sha256": "41df7ced307c3ce23026f678034b836647e2d3eb38559ecc88320aa274c4b949",
+          "box_px": [
+            945,
+            1852,
+            11339,
+            1980
+          ],
+          "measured_lpi": 74.050025
+        },
+        {
+          "lpi": "74.10",
+          "native_band_sha256": "18b4eacb3faaef7bacf591e0d549d7c97326273f9b57f9f2a714f74c4dc117d9",
+          "box_px": [
+            945,
+            2003,
+            11339,
+            2131
+          ],
+          "measured_lpi": 74.099977
+        },
+        {
+          "lpi": "74.15",
+          "native_band_sha256": "0484041d9c53b29072a12fe7e41ef56f21f9a8d81085bfee8f7127dc6d3286d5",
+          "box_px": [
+            945,
+            2154,
+            11339,
+            2282
+          ],
+          "measured_lpi": 74.149952
+        },
+        {
+          "lpi": "74.20",
+          "native_band_sha256": "3e792a9a1c8fed77ad2ab113415fcc22696d21cc2486352256bac63ed6721864",
+          "box_px": [
+            945,
+            2306,
+            11339,
+            2434
+          ],
+          "measured_lpi": 74.199992
+        },
+        {
+          "lpi": "74.25",
+          "native_band_sha256": "c7040e712ff1ae15ad391fd5349deb60c912f4257a46193f2423b25d82a818ef",
+          "box_px": [
+            945,
+            2457,
+            11339,
+            2585
+          ],
+          "measured_lpi": 74.24996
+        },
+        {
+          "lpi": "74.30",
+          "native_band_sha256": "888b36ddd43cb0c254b7f409857ebb890372650878eb85369882fd612f9b5ce2",
+          "box_px": [
+            945,
+            2608,
+            11339,
+            2736
+          ],
+          "measured_lpi": 74.299995
+        },
+        {
+          "lpi": "74.35",
+          "native_band_sha256": "3d731f959885444e80e317053636a49e47bcaa9dc2987784dd800cf0556f021c",
+          "box_px": [
+            945,
+            2759,
+            11339,
+            2887
+          ],
+          "measured_lpi": 74.349936
+        },
+        {
+          "lpi": "74.40",
+          "native_band_sha256": "36b0f0d8d7aee8b0477f423c08b0f1eed887fa97f2053560e466de77d83c593b",
+          "box_px": [
+            945,
+            2910,
+            11339,
+            3038
+          ],
+          "measured_lpi": 74.399961
+        },
+        {
+          "lpi": "74.45",
+          "native_band_sha256": "bd473a880dcf4ade46911afc2ccfe6ca02484355b976a0876c84646f44df0daf",
+          "box_px": [
+            945,
+            3061,
+            11339,
+            3189
+          ],
+          "measured_lpi": 74.449942
+        },
+        {
+          "lpi": "74.50",
+          "native_band_sha256": "7d33f64ec8dd2beb5590eb5b3f4ed57f48221af642f3960ca3e49714df8a4dcb",
+          "box_px": [
+            945,
+            3213,
+            11339,
+            3341
+          ],
+          "measured_lpi": 74.49997
+        },
+        {
+          "lpi": "74.55",
+          "native_band_sha256": "bdfd824e2ceca3a239b9f143fd7891e16e78537fbcf1573904e4ebefea676942",
+          "box_px": [
+            945,
+            3364,
+            11339,
+            3492
+          ],
+          "measured_lpi": 74.549978
+        },
+        {
+          "lpi": "74.60",
+          "native_band_sha256": "472cfc471255ff3630bce1cdbfc379905c0de2b68508199568efaca1d13de9a4",
+          "box_px": [
+            945,
+            3515,
+            11339,
+            3643
+          ],
+          "measured_lpi": 74.600026
+        },
+        {
+          "lpi": "74.65",
+          "native_band_sha256": "5e60d528bcb719a1ffb7c643aa77055f360a2c0e8a8570d72157d22b5630fa6a",
+          "box_px": [
+            945,
+            3666,
+            11339,
+            3794
+          ],
+          "measured_lpi": 74.650113
+        },
+        {
+          "lpi": "74.70",
+          "native_band_sha256": "dc3489f845e6dc5986203d66236d3ff9f947a9c49b0e304aa5f82e56cea4c7ef",
+          "box_px": [
+            945,
+            3817,
+            11339,
+            3945
+          ],
+          "measured_lpi": 74.700028
+        },
+        {
+          "lpi": "74.75",
+          "native_band_sha256": "8e3226030bb8ae138d06b694af2823f082dd99b5229e412c38ffe45af23fbfef",
+          "box_px": [
+            945,
+            3969,
+            11339,
+            4097
+          ],
+          "measured_lpi": 74.749983
+        },
+        {
+          "lpi": "74.80",
+          "native_band_sha256": "6755a51c1dbc8096893f1501769a9f0942329de04239c39137c32eb4fcf09b2e",
+          "box_px": [
+            945,
+            4120,
+            11339,
+            4248
+          ],
+          "measured_lpi": 74.799921
+        },
+        {
+          "lpi": "74.85",
+          "native_band_sha256": "62e5a08b4dea6f0c40c6c7f8fe579a825a965a57f13593bdf99a9ea4377119a0",
+          "box_px": [
+            945,
+            4271,
+            11339,
+            4399
+          ],
+          "measured_lpi": 74.849861
+        },
+        {
+          "lpi": "74.90",
+          "native_band_sha256": "5ce32210fef7184c431c5388ff307885b6f917d6aedc2986117c8f8626b5f429",
+          "box_px": [
+            945,
+            4422,
+            11339,
+            4550
+          ],
+          "measured_lpi": 74.899765
+        },
+        {
+          "lpi": "74.95",
+          "native_band_sha256": "a50d311d8d88d76222126e0d17ffbcc5fa7358ac949e808649e54abb536294d9",
+          "box_px": [
+            945,
+            4573,
+            11339,
+            4701
+          ],
+          "measured_lpi": 74.949475
+        },
+        {
+          "lpi": "75.00",
+          "native_band_sha256": "d994e90406bb50d154a5450fe1c3e351aea44a3556d301341e71bbd90cff0f0f",
+          "box_px": [
+            945,
+            4724,
+            11339,
+            4852
+          ],
+          "measured_lpi": 75.0
+        },
+        {
+          "lpi": "75.05",
+          "native_band_sha256": "bf5ab8c6af060bda36a6ba7b0e827d0eee7f5f4b7f8669b0315e38b4042a6301",
+          "box_px": [
+            945,
+            4876,
+            11339,
+            5004
+          ],
+          "measured_lpi": 75.050517
+        },
+        {
+          "lpi": "75.10",
+          "native_band_sha256": "7eb215af910ab84c2916535a0082c28ee558f3be752a42389081772bfc54886b",
+          "box_px": [
+            945,
+            5027,
+            11339,
+            5155
+          ],
+          "measured_lpi": 75.100209
+        },
+        {
+          "lpi": "75.15",
+          "native_band_sha256": "9f21992cdbfbf6395746c0eaa2fedee72f80fc8257bbd2d3ce8c218bedc41a2f",
+          "box_px": [
+            945,
+            5178,
+            11339,
+            5306
+          ],
+          "measured_lpi": 75.15013
+        },
+        {
+          "lpi": "75.20",
+          "native_band_sha256": "9be59b6941daccfacb40bdfc60321e6474c6ca12f69e46d37c9baeb9a09b285d",
+          "box_px": [
+            945,
+            5329,
+            11339,
+            5457
+          ],
+          "measured_lpi": 75.200067
+        },
+        {
+          "lpi": "75.25",
+          "native_band_sha256": "0cd885dec8a7ac9cb1551136f21e7e742519dad52944ac7b18e2c9e1580c3ada",
+          "box_px": [
+            945,
+            5480,
+            11339,
+            5608
+          ],
+          "measured_lpi": 75.250013
+        },
+        {
+          "lpi": "75.30",
+          "native_band_sha256": "fe8ead6243057aca6981d28bd9368e16bcfd7a16ed818163cb96cde57ef089e2",
+          "box_px": [
+            945,
+            5631,
+            11339,
+            5759
+          ],
+          "measured_lpi": 75.299992
+        },
+        {
+          "lpi": "75.35",
+          "native_band_sha256": "beb5e0f4428502f89ade5c823bab232b21b1017b7c3362c81d0e1992c0d4dec2",
+          "box_px": [
+            945,
+            5783,
+            11339,
+            5911
+          ],
+          "measured_lpi": 75.349988
+        },
+        {
+          "lpi": "75.40",
+          "native_band_sha256": "8d6beac3c41bddd6422cc0af4250804b0d41335bb798c5e97843cdd7537e4d4f",
+          "box_px": [
+            945,
+            5934,
+            11339,
+            6062
+          ],
+          "measured_lpi": 75.399968
+        },
+        {
+          "lpi": "75.45",
+          "native_band_sha256": "3f83691a02fe66bdbbbf2fe95cb8754db803e1a6d7f1a01ca260e562b2423d85",
+          "box_px": [
+            945,
+            6085,
+            11339,
+            6213
+          ],
+          "measured_lpi": 75.450019
+        },
+        {
+          "lpi": "75.50",
+          "native_band_sha256": "c8c6e168265970d91b42401201b86e893afa5f4be171b155de4a510b0f2d90ae",
+          "box_px": [
+            945,
+            6236,
+            11339,
+            6364
+          ],
+          "measured_lpi": 75.500034
+        },
+        {
+          "lpi": "75.55",
+          "native_band_sha256": "aabdcd259bfd83d6336612b2288390e318c756e20d8395f1fc0ab9a585a3b306",
+          "box_px": [
+            945,
+            6387,
+            11339,
+            6515
+          ],
+          "measured_lpi": 75.549994
+        },
+        {
+          "lpi": "75.60",
+          "native_band_sha256": "862acc390b085adf702ad0f363d5e8795ea170eb5363f1ceab379f82127bd853",
+          "box_px": [
+            945,
+            6539,
+            11339,
+            6667
+          ],
+          "measured_lpi": 75.60003
+        },
+        {
+          "lpi": "75.65",
+          "native_band_sha256": "f0e82e7f1d28b996022c617d05488df305bf0a53943989d0b0eb33d79eae90fe",
+          "box_px": [
+            945,
+            6690,
+            11339,
+            6818
+          ],
+          "measured_lpi": 75.650049
+        },
+        {
+          "lpi": "75.70",
+          "native_band_sha256": "3a4b48298113ad1521d63a33d1bd2f390abb32ea5970b21033911646ad379557",
+          "box_px": [
+            945,
+            6841,
+            11339,
+            6969
+          ],
+          "measured_lpi": 75.700042
+        },
+        {
+          "lpi": "75.75",
+          "native_band_sha256": "7ddfe4fa2eb9c66dd3e6d84df7083192295e38cdd4fcefb29359bc86ef479d17",
+          "box_px": [
+            945,
+            6992,
+            11339,
+            7120
+          ],
+          "measured_lpi": 75.750028
+        },
+        {
+          "lpi": "75.80",
+          "native_band_sha256": "a7292b72f630d180aebfc81787cdb2d01140c9e7769faf0ab4e5871b9f57083b",
+          "box_px": [
+            945,
+            7143,
+            11339,
+            7271
+          ],
+          "measured_lpi": 75.800013
+        },
+        {
+          "lpi": "75.85",
+          "native_band_sha256": "1b61472d41d1b0ec9f13ec7ba894d2d556aada4cce442cca753dda82221afff5",
+          "box_px": [
+            945,
+            7294,
+            11339,
+            7422
+          ],
+          "measured_lpi": 75.849977
+        },
+        {
+          "lpi": "75.90",
+          "native_band_sha256": "adc7ebcd7bcf13690b0476ab40ddf957580fb2711450f5556105849de12fee96",
+          "box_px": [
+            945,
+            7446,
+            11339,
+            7574
+          ],
+          "measured_lpi": 75.900006
+        },
+        {
+          "lpi": "75.95",
+          "native_band_sha256": "a9e8bdea3b46c9ad5a93cb12e317aa7c7676db01ac2c722f74ea7f7bc1277b35",
+          "box_px": [
+            945,
+            7597,
+            11339,
+            7725
+          ],
+          "measured_lpi": 75.949367
+        },
+        {
+          "lpi": "76.00",
+          "native_band_sha256": "181761bf46f4b46197b49dfb4b85c048b202f4aa49d1e36e3b0939d19dff9ff5",
+          "box_px": [
+            945,
+            7748,
+            11339,
+            7876
+          ],
+          "measured_lpi": 75.999998
+        }
+      ],
+      "tiff_sha256": "d96e93d1e2d6cd85dbc60f4b4570c5c877e817c445ea3505977075e855d98062"
+    },
+    {
+      "nominal_lpi": 85,
+      "range": [
+        "84.00",
+        "86.00"
+      ],
+      "tiff": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\PROGRAM-PITCH-22CM\\PITCH-85LPI-84.00-86.00-22CM-1200PPI.tif",
+      "native": [
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\85LPI-ALT\\pitch-test.tif",
+          "sha256": "ac86949777b3cc707842427e14c512371130f1ad31b88eb021d520a8bc59592c",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 85,
+            "effective_lpi": 84.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        },
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\85LPI-UST\\pitch-test.tif",
+          "sha256": "b528a73c69e9f9c3d32f5ca00648c469bb21366b3fecf94a1560546bc468fc8e",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 85,
+            "effective_lpi": 85.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        }
+      ],
+      "rows": [
+        {
+          "lpi": "84.00",
+          "native_band_sha256": "081bbea9e593f5c0f92106a319e9e8869287442405eaad298ace030e555f2666",
+          "box_px": [
+            945,
+            1701,
+            11339,
+            1829
+          ],
+          "measured_lpi": 83.999981
+        },
+        {
+          "lpi": "84.05",
+          "native_band_sha256": "bc3c3fd4ab493101472ef8a6c56fdd953c724e29d662c3e3849d3caedcdf9d4f",
+          "box_px": [
+            945,
+            1852,
+            11339,
+            1980
+          ],
+          "measured_lpi": 84.050036
+        },
+        {
+          "lpi": "84.10",
+          "native_band_sha256": "aad512cc3a5c305a89d3e57ece9764746f374c7fb46025ff4f5c7430c76e48f2",
+          "box_px": [
+            945,
+            2003,
+            11339,
+            2131
+          ],
+          "measured_lpi": 84.100007
+        },
+        {
+          "lpi": "84.15",
+          "native_band_sha256": "6bab7818d9dca190f36e34b074168d558f5ee77db5cca19ee1c8bb9e57d0c8d0",
+          "box_px": [
+            945,
+            2154,
+            11339,
+            2282
+          ],
+          "measured_lpi": 84.150004
+        },
+        {
+          "lpi": "84.20",
+          "native_band_sha256": "b62de81f30a24369461d906ec0901b1e007a5233c4e8b53e86a1c6453972ab23",
+          "box_px": [
+            945,
+            2306,
+            11339,
+            2434
+          ],
+          "measured_lpi": 84.200028
+        },
+        {
+          "lpi": "84.25",
+          "native_band_sha256": "36d1c729d7c6320d49bc8b3359b91cafb23053fae16789dccdb2141674eecee5",
+          "box_px": [
+            945,
+            2457,
+            11339,
+            2585
+          ],
+          "measured_lpi": 84.249986
+        },
+        {
+          "lpi": "84.30",
+          "native_band_sha256": "8cd943fbc26935ece864540986f99aa350957c5f7cfa54dd4f24e8c2909635fd",
+          "box_px": [
+            945,
+            2608,
+            11339,
+            2736
+          ],
+          "measured_lpi": 84.300042
+        },
+        {
+          "lpi": "84.35",
+          "native_band_sha256": "c9275f291107184bfb21a8924dc451012102d8a954070d2296b22cb1f19df454",
+          "box_px": [
+            945,
+            2759,
+            11339,
+            2887
+          ],
+          "measured_lpi": 84.34991
+        },
+        {
+          "lpi": "84.40",
+          "native_band_sha256": "3d6f12a9119d8addb3f6e51e43b5fa8d69254a9b5335f0d36770ea68856df40c",
+          "box_px": [
+            945,
+            2910,
+            11339,
+            3038
+          ],
+          "measured_lpi": 84.400019
+        },
+        {
+          "lpi": "84.45",
+          "native_band_sha256": "b244c8453e6d8354e6c06547abfe13950b346098db02e052650f617daf91b9ea",
+          "box_px": [
+            945,
+            3061,
+            11339,
+            3189
+          ],
+          "measured_lpi": 84.450003
+        },
+        {
+          "lpi": "84.50",
+          "native_band_sha256": "48ce85e05960b1b217c27402593a6268f3d9ab7d683ae08e1e84c38c3770735a",
+          "box_px": [
+            945,
+            3213,
+            11339,
+            3341
+          ],
+          "measured_lpi": 84.500011
+        },
+        {
+          "lpi": "84.55",
+          "native_band_sha256": "b574f3fd1459416c17414a8c70c7d6ab5da43a33d30a071c82967e3f6fc47538",
+          "box_px": [
+            945,
+            3364,
+            11339,
+            3492
+          ],
+          "measured_lpi": 84.549919
+        },
+        {
+          "lpi": "84.60",
+          "native_band_sha256": "478cb1d101f13df075dc2fddb5b21e00506b13988f06459013ae9b815460b47c",
+          "box_px": [
+            945,
+            3515,
+            11339,
+            3643
+          ],
+          "measured_lpi": 84.599959
+        },
+        {
+          "lpi": "84.65",
+          "native_band_sha256": "3c63d3d3804e48084e0f330d38ccf53dd57533da8bffe7a5cf19d0dfe1e7bd2b",
+          "box_px": [
+            945,
+            3666,
+            11339,
+            3794
+          ],
+          "measured_lpi": 84.649944
+        },
+        {
+          "lpi": "84.70",
+          "native_band_sha256": "2f68e418689532f38d243646dccac04148debfb418b24255b8b1950b12dbd025",
+          "box_px": [
+            945,
+            3817,
+            11339,
+            3945
+          ],
+          "measured_lpi": 84.700002
+        },
+        {
+          "lpi": "84.75",
+          "native_band_sha256": "2c6fc3fadcf2e63f314bc978ca9357f46a61f1d45706d564ea864f1b4f7386b3",
+          "box_px": [
+            945,
+            3969,
+            11339,
+            4097
+          ],
+          "measured_lpi": 84.74997
+        },
+        {
+          "lpi": "84.80",
+          "native_band_sha256": "381d1c16a8a2b5336f76dd937acb323d222412ceaf8df6457780e233887d51ad",
+          "box_px": [
+            945,
+            4120,
+            11339,
+            4248
+          ],
+          "measured_lpi": 84.799978
+        },
+        {
+          "lpi": "84.85",
+          "native_band_sha256": "8c72dd086d10be8e020312de943f2b005b9f5ae942d950f0acc23a47f36d7d05",
+          "box_px": [
+            945,
+            4271,
+            11339,
+            4399
+          ],
+          "measured_lpi": 84.849897
+        },
+        {
+          "lpi": "84.90",
+          "native_band_sha256": "c6db7df75717b0daa950b21ac5ea930be76945bd18ca0a7ecc2569bb80ffda5d",
+          "box_px": [
+            945,
+            4422,
+            11339,
+            4550
+          ],
+          "measured_lpi": 84.899971
+        },
+        {
+          "lpi": "84.95",
+          "native_band_sha256": "1213c62033e04f8dd525e0ae13ceb8bc6a22103b53d2cb52216966b12aaca196",
+          "box_px": [
+            945,
+            4573,
+            11339,
+            4701
+          ],
+          "measured_lpi": 84.950021
+        },
+        {
+          "lpi": "85.00",
+          "native_band_sha256": "92f49ccfa2992961f60a57fc4f489eb6502ee4966d893f18ce0797a4044ee4c5",
+          "box_px": [
+            945,
+            4724,
+            11339,
+            4852
+          ],
+          "measured_lpi": 84.999994
+        },
+        {
+          "lpi": "85.05",
+          "native_band_sha256": "55773dea4a2723c500e67d6b0cbd645a861e324665040e8e85703026d71f317d",
+          "box_px": [
+            945,
+            4876,
+            11339,
+            5004
+          ],
+          "measured_lpi": 85.050001
+        },
+        {
+          "lpi": "85.10",
+          "native_band_sha256": "12fc8219cf38d867e6144a46675457b8a272e734039d4bdea81858b0a7fd765d",
+          "box_px": [
+            945,
+            5027,
+            11339,
+            5155
+          ],
+          "measured_lpi": 85.100037
+        },
+        {
+          "lpi": "85.15",
+          "native_band_sha256": "880830b7f57db9a14f148ac8ecab00c4ea34240ce7fabfb1fa482dd642379003",
+          "box_px": [
+            945,
+            5178,
+            11339,
+            5306
+          ],
+          "measured_lpi": 85.149989
+        },
+        {
+          "lpi": "85.20",
+          "native_band_sha256": "c87154d5ff67a1f8285e73e9eb5bde901d252501a99e63a6905f0e1a0f334689",
+          "box_px": [
+            945,
+            5329,
+            11339,
+            5457
+          ],
+          "measured_lpi": 85.199985
+        },
+        {
+          "lpi": "85.25",
+          "native_band_sha256": "909fc3c7843288a1056d7fb3b8e1f87ce4dfe22942744a71a99ccb2c71c3463b",
+          "box_px": [
+            945,
+            5480,
+            11339,
+            5608
+          ],
+          "measured_lpi": 85.249939
+        },
+        {
+          "lpi": "85.30",
+          "native_band_sha256": "9ee546ba377e70e2b27059d8ebddf84080151d518ed636369eeb1afe028f2411",
+          "box_px": [
+            945,
+            5631,
+            11339,
+            5759
+          ],
+          "measured_lpi": 85.299935
+        },
+        {
+          "lpi": "85.35",
+          "native_band_sha256": "f8e26fbbc977b29c27f135dfc5e31b84ddbdf771b9a6aef02fafc0c9e01d9094",
+          "box_px": [
+            945,
+            5783,
+            11339,
+            5911
+          ],
+          "measured_lpi": 85.349923
+        },
+        {
+          "lpi": "85.40",
+          "native_band_sha256": "42285270aa4177b85f678e9ab51abaf59637be1dfc54dc12a09703a611307332",
+          "box_px": [
+            945,
+            5934,
+            11339,
+            6062
+          ],
+          "measured_lpi": 85.399886
+        },
+        {
+          "lpi": "85.45",
+          "native_band_sha256": "ae72582dce73e1959624ee4b16c6d0a40671b10463bd05ed439b7ff460b725c6",
+          "box_px": [
+            945,
+            6085,
+            11339,
+            6213
+          ],
+          "measured_lpi": 85.44985
+        },
+        {
+          "lpi": "85.50",
+          "native_band_sha256": "5110f1facaa158613ce08d29b56fb04cd165d0a067c40a1e215b420411c00f92",
+          "box_px": [
+            945,
+            6236,
+            11339,
+            6364
+          ],
+          "measured_lpi": 85.499842
+        },
+        {
+          "lpi": "85.55",
+          "native_band_sha256": "098eb764d91c6fd4030c672110bfafa7a68a6d464449b66b526a22f441495eef",
+          "box_px": [
+            945,
+            6387,
+            11339,
+            6515
+          ],
+          "measured_lpi": 85.549807
+        },
+        {
+          "lpi": "85.60",
+          "native_band_sha256": "fd3e5167e6d16a195b8fd8ea9ef9edf382f39d1aa41aec7ecf28977c284fffe1",
+          "box_px": [
+            945,
+            6539,
+            11339,
+            6667
+          ],
+          "measured_lpi": 85.599737
+        },
+        {
+          "lpi": "85.65",
+          "native_band_sha256": "2c4bcdb17cb810f4f8fcbe9a64e1b16d2ef85bb495008ad170aeedf22a40ee0b",
+          "box_px": [
+            945,
+            6690,
+            11339,
+            6818
+          ],
+          "measured_lpi": 85.64959
+        },
+        {
+          "lpi": "85.70",
+          "native_band_sha256": "fda090d6fdafc97c30ce5d368c18058ae9a8147e736cc6207cbc780e4ebbdcf7",
+          "box_px": [
+            945,
+            6841,
+            11339,
+            6969
+          ],
+          "measured_lpi": 85.69838
+        },
+        {
+          "lpi": "85.75",
+          "native_band_sha256": "6b725692ba3dd37bea79ca0444b6d313e85d6a3ba131c5b8f73dce75017126b8",
+          "box_px": [
+            945,
+            6992,
+            11339,
+            7120
+          ],
+          "measured_lpi": 85.750286
+        },
+        {
+          "lpi": "85.80",
+          "native_band_sha256": "46a033a85d2d0d0deef2e617bb84e2686a533f73fe6d9c83adb945a8b975d668",
+          "box_px": [
+            945,
+            7143,
+            11339,
+            7271
+          ],
+          "measured_lpi": 85.80002
+        },
+        {
+          "lpi": "85.85",
+          "native_band_sha256": "80591231fa4183475bd588c3ccdc13863035aed1e643f78d0f2504ff157cd1ce",
+          "box_px": [
+            945,
+            7294,
+            11339,
+            7422
+          ],
+          "measured_lpi": 85.84995
+        },
+        {
+          "lpi": "85.90",
+          "native_band_sha256": "e239397949e2d632efeff5e75e23de250f40bcc0eb626ce856ac95c8920584c8",
+          "box_px": [
+            945,
+            7446,
+            11339,
+            7574
+          ],
+          "measured_lpi": 85.899975
+        },
+        {
+          "lpi": "85.95",
+          "native_band_sha256": "85a096e13a6b4146426425ee0001c0186021e936538387c445c257819d860b59",
+          "box_px": [
+            945,
+            7597,
+            11339,
+            7725
+          ],
+          "measured_lpi": 85.950008
+        },
+        {
+          "lpi": "86.00",
+          "native_band_sha256": "545a010f510555afcca1bd08b2f06f3b022ab6aa0633705ba3b753abb4583d07",
+          "box_px": [
+            945,
+            7748,
+            11339,
+            7876
+          ],
+          "measured_lpi": 86.000027
+        }
+      ],
+      "tiff_sha256": "5927cdc5a6131a4fcd0fb11273de16969f9c5acfa36e92cec60df198c8a2c263"
+    },
+    {
+      "nominal_lpi": 100,
+      "range": [
+        "99.00",
+        "101.00"
+      ],
+      "tiff": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\PROGRAM-PITCH-22CM\\PITCH-100LPI-99.00-101.00-22CM-1200PPI.tif",
+      "native": [
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\100LPI-ALT\\pitch-test.tif",
+          "sha256": "e008ca15076a8113dbb80cc3a0a97668f8f655f51cd1dec024ac17eebc962130",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 100,
+            "effective_lpi": 99.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        },
+        {
+          "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-22cm\\100LPI-UST\\pitch-test.tif",
+          "sha256": "6799cd7e52ca18da210abb34faf8245dc3a539f6c741645140ca1f40543fcaa2",
+          "settings": {
+            "width_mm": 220,
+            "height_mm": 215.139,
+            "bleed_mm": 0,
+            "ppi": 1200,
+            "printer_dpi": 1200,
+            "nominal_lpi": 100,
+            "effective_lpi": 100.5,
+            "ne": 2,
+            "axis": "vertical",
+            "phase": 0,
+            "tilt_deg": 0,
+            "reverse_views": false,
+            "mirror": false,
+            "fit": "contain",
+            "stripe_sampling": "center",
+            "crosstalk": 0,
+            "compensation": 0,
+            "regularization": 0.02,
+            "crosstalk_matrix": null,
+            "icc_path": null,
+            "color_mode": "RGB",
+            "white_underbase": true,
+            "pitch_verified": false,
+            "viewing_distance_mm": 500,
+            "lens_view_angle_deg": 30,
+            "allow_unfilled": false,
+            "pitch_step": 0.05,
+            "pitch_candidates": 21,
+            "gamut_guard": true,
+            "lens_angle_verified": false,
+            "raster_ppi_verified": false
+          }
+        }
+      ],
+      "rows": [
+        {
+          "lpi": "99.00",
+          "native_band_sha256": "e97ee68277b7f5f3370df075d8ae3040bc6d4608ce62228755521e01cd3b96b1",
+          "box_px": [
+            945,
+            1701,
+            11339,
+            1829
+          ],
+          "measured_lpi": 98.999948
+        },
+        {
+          "lpi": "99.05",
+          "native_band_sha256": "a81282a41c98e3dc66267d282abe9efec1e59da5f9b1cee2561d9f08f4a49e92",
+          "box_px": [
+            945,
+            1852,
+            11339,
+            1980
+          ],
+          "measured_lpi": 99.049966
+        },
+        {
+          "lpi": "99.10",
+          "native_band_sha256": "9a66cb81701524048e087bf368ce30f9e20e73a9016a5e500755eace92329e25",
+          "box_px": [
+            945,
+            2003,
+            11339,
+            2131
+          ],
+          "measured_lpi": 99.100017
+        },
+        {
+          "lpi": "99.15",
+          "native_band_sha256": "3904e9409ae363b881e822124d68a4d2f1ddef0409e636161d995025eb8da6e3",
+          "box_px": [
+            945,
+            2154,
+            11339,
+            2282
+          ],
+          "measured_lpi": 99.149993
+        },
+        {
+          "lpi": "99.20",
+          "native_band_sha256": "3b269f46728eb34156471e418c6db8829b90a0e2f2db93e262a214e4e234d715",
+          "box_px": [
+            945,
+            2306,
+            11339,
+            2434
+          ],
+          "measured_lpi": 99.199954
+        },
+        {
+          "lpi": "99.25",
+          "native_band_sha256": "09066d3ffad1c110112b4d32adbb0410fba39df39b067ca264d5892ba0eaaee0",
+          "box_px": [
+            945,
+            2457,
+            11339,
+            2585
+          ],
+          "measured_lpi": 99.249908
+        },
+        {
+          "lpi": "99.30",
+          "native_band_sha256": "0d07db8b0fc3eca85c257953fe0aa80831282ad84bda78aba7942cae4f9d1919",
+          "box_px": [
+            945,
+            2608,
+            11339,
+            2736
+          ],
+          "measured_lpi": 99.29996
+        },
+        {
+          "lpi": "99.35",
+          "native_band_sha256": "6cf4e3506d9f42bcce20f543a7c4f2a8ec6c943f6c4d94707528ae398fecd7ba",
+          "box_px": [
+            945,
+            2759,
+            11339,
+            2887
+          ],
+          "measured_lpi": 99.35002
+        },
+        {
+          "lpi": "99.40",
+          "native_band_sha256": "59375a99f36d47d1c5dba2b3bad66488f5183a8caa0adb83f49819d741f8559d",
+          "box_px": [
+            945,
+            2910,
+            11339,
+            3038
+          ],
+          "measured_lpi": 99.399988
+        },
+        {
+          "lpi": "99.45",
+          "native_band_sha256": "b6072f5f9c090e5e6deefceb69f8641215f91e6571e5e46e809cdc062d9c5bab",
+          "box_px": [
+            945,
+            3061,
+            11339,
+            3189
+          ],
+          "measured_lpi": 99.449913
+        },
+        {
+          "lpi": "99.50",
+          "native_band_sha256": "6836575dfdd745bf4f441069a5b8bc581f68601c3bf703b8b33fc6f5dd08d65f",
+          "box_px": [
+            945,
+            3213,
+            11339,
+            3341
+          ],
+          "measured_lpi": 99.499915
+        },
+        {
+          "lpi": "99.55",
+          "native_band_sha256": "e21e610ee7998d7a402840c1b46ac7bbe1d36bae9cad168d4de2e263bfad5cc5",
+          "box_px": [
+            945,
+            3364,
+            11339,
+            3492
+          ],
+          "measured_lpi": 99.549892
+        },
+        {
+          "lpi": "99.60",
+          "native_band_sha256": "a114c5cad18be7fd77e293e6c7bcfbd6c8684e4979b16e83ab63357333ed4fc5",
+          "box_px": [
+            945,
+            3515,
+            11339,
+            3643
+          ],
+          "measured_lpi": 99.600016
+        },
+        {
+          "lpi": "99.65",
+          "native_band_sha256": "bf94631668c038c050188f64eff5068dfaf2a349f30a681a0299aa0800ed2811",
+          "box_px": [
+            945,
+            3666,
+            11339,
+            3794
+          ],
+          "measured_lpi": 99.649998
+        },
+        {
+          "lpi": "99.70",
+          "native_band_sha256": "3685acfb5efcf739a14d7b7c79f150715234082d7d9e16ee76ed4ffbe5475e47",
+          "box_px": [
+            945,
+            3817,
+            11339,
+            3945
+          ],
+          "measured_lpi": 99.699872
+        },
+        {
+          "lpi": "99.75",
+          "native_band_sha256": "5a91bf49d7d0de2f77d6569ed62c9cd559be681d094995a97e043e1fe64fdace",
+          "box_px": [
+            945,
+            3969,
+            11339,
+            4097
+          ],
+          "measured_lpi": 99.749807
+        },
+        {
+          "lpi": "99.80",
+          "native_band_sha256": "0856efc50fde89e92afe3fb3eea496fb16be09800a732bce42e2b57bce1b2536",
+          "box_px": [
+            945,
+            4120,
+            11339,
+            4248
+          ],
+          "measured_lpi": 99.799824
+        },
+        {
+          "lpi": "99.85",
+          "native_band_sha256": "092a0fe54fbd4536f30937bc7602210bb61da24a59b134373adc371c95e4b390",
+          "box_px": [
+            945,
+            4271,
+            11339,
+            4399
+          ],
+          "measured_lpi": 99.849948
+        },
+        {
+          "lpi": "99.90",
+          "native_band_sha256": "4326f3a887a6cf607409c67eed137c80e5e594f0860256b6de7c10be8e6235fa",
+          "box_px": [
+            945,
+            4422,
+            11339,
+            4550
+          ],
+          "measured_lpi": 99.899965
+        },
+        {
+          "lpi": "99.95",
+          "native_band_sha256": "d3e7cbdd2f7c64c14830e3645bd69b5e30ab4199170bcd4bb9c1712046e467a0",
+          "box_px": [
+            945,
+            4573,
+            11339,
+            4701
+          ],
+          "measured_lpi": 99.949337
+        },
+        {
+          "lpi": "100.00",
+          "native_band_sha256": "ffe682f3a686a95e94351bd4f7bf2adb8e74a8cc834d8ec14cb7267599578b1d",
+          "box_px": [
+            945,
+            4724,
+            11339,
+            4852
+          ],
+          "measured_lpi": 100.0
+        },
+        {
+          "lpi": "100.05",
+          "native_band_sha256": "54b3fdbcd3305023fd3f94f65dc7b96c7ae58da6bee24d1f48258749c4cc6dba",
+          "box_px": [
+            945,
+            4876,
+            11339,
+            5004
+          ],
+          "measured_lpi": 100.050679
+        },
+        {
+          "lpi": "100.10",
+          "native_band_sha256": "f061c153009a711a87512b7bdc632cba97a38b01005b1ae28d9b48ec3cd2f41f",
+          "box_px": [
+            945,
+            5027,
+            11339,
+            5155
+          ],
+          "measured_lpi": 100.100041
+        },
+        {
+          "lpi": "100.15",
+          "native_band_sha256": "dbb86c23921376ad1b536a72d7ce383e81355d2ca44dc2ed4c30a2e4c6bc02d0",
+          "box_px": [
+            945,
+            5178,
+            11339,
+            5306
+          ],
+          "measured_lpi": 100.150004
+        },
+        {
+          "lpi": "100.20",
+          "native_band_sha256": "c93e5b70a1438bebb38588716ecabf16f0ac73a0833e80f6307c78359ddfcf06",
+          "box_px": [
+            945,
+            5329,
+            11339,
+            5457
+          ],
+          "measured_lpi": 100.200169
+        },
+        {
+          "lpi": "100.25",
+          "native_band_sha256": "e34298f63cade41a6801f44bb0e4cb7065ede7aa7a179e067b83a6a6cc8aaf68",
+          "box_px": [
+            945,
+            5480,
+            11339,
+            5608
+          ],
+          "measured_lpi": 100.250191
+        },
+        {
+          "lpi": "100.30",
+          "native_band_sha256": "84bb7ea4f7aaa4698123c275be2868152854081720d7ef5cdb71fad285f5960a",
+          "box_px": [
+            945,
+            5631,
+            11339,
+            5759
+          ],
+          "measured_lpi": 100.300119
+        },
+        {
+          "lpi": "100.35",
+          "native_band_sha256": "0171e6f04126a8e1af67eaac033911bf38afb19e583401eb98db385147d6c241",
+          "box_px": [
+            945,
+            5783,
+            11339,
+            5911
+          ],
+          "measured_lpi": 100.350004
+        },
+        {
+          "lpi": "100.40",
+          "native_band_sha256": "239ff3de10f2d9527baeb076032fc71dcb24b41821cb2a1047ca2cd2b2bde1e2",
+          "box_px": [
+            945,
+            5934,
+            11339,
+            6062
+          ],
+          "measured_lpi": 100.399962
+        },
+        {
+          "lpi": "100.45",
+          "native_band_sha256": "c5669f1285539334038c34491b7a561e24ee9059f0550a6a42d1743c46711332",
+          "box_px": [
+            945,
+            6085,
+            11339,
+            6213
+          ],
+          "measured_lpi": 100.450127
+        },
+        {
+          "lpi": "100.50",
+          "native_band_sha256": "d976cd039486e1b45b11fff8232cb1cf077a792821f8f48bf863766fade6b4f4",
+          "box_px": [
+            945,
+            6236,
+            11339,
+            6364
+          ],
+          "measured_lpi": 100.500084
+        },
+        {
+          "lpi": "100.55",
+          "native_band_sha256": "5d3a44079097d291e6cbfce4f8aa896eb396f4b8fbf4375549b3dbabce718803",
+          "box_px": [
+            945,
+            6387,
+            11339,
+            6515
+          ],
+          "measured_lpi": 100.550064
+        },
+        {
+          "lpi": "100.60",
+          "native_band_sha256": "9ff2feb51a4c22f53c16ea9e85bd4787b8670d3b99712697ce427c4c0edc3c4f",
+          "box_px": [
+            945,
+            6539,
+            11339,
+            6667
+          ],
+          "measured_lpi": 100.599993
+        },
+        {
+          "lpi": "100.65",
+          "native_band_sha256": "9cc31ee7dcdaa20d5dd50ed6c678c0cb7a0b1a0a5fa8b54cd78addd783a83bcb",
+          "box_px": [
+            945,
+            6690,
+            11339,
+            6818
+          ],
+          "measured_lpi": 100.649958
+        },
+        {
+          "lpi": "100.70",
+          "native_band_sha256": "449b328e292bafdb1d78cce5f28cdf3e032e099d85ccd5383d206d3933c6b253",
+          "box_px": [
+            945,
+            6841,
+            11339,
+            6969
+          ],
+          "measured_lpi": 100.699933
+        },
+        {
+          "lpi": "100.75",
+          "native_band_sha256": "79c4d80ef14db62bcd22ef821d90e04c833429137a750f4e2679eb50b766703f",
+          "box_px": [
+            945,
+            6992,
+            11339,
+            7120
+          ],
+          "measured_lpi": 100.750056
+        },
+        {
+          "lpi": "100.80",
+          "native_band_sha256": "8bac22c92863661839286ebf15bc1e86b28b13ded72bfbc63d82369ebf83961a",
+          "box_px": [
+            945,
+            7143,
+            11339,
+            7271
+          ],
+          "measured_lpi": 100.800049
+        },
+        {
+          "lpi": "100.85",
+          "native_band_sha256": "7d45e4d17c50e3139ebfeeabbdd6008c2c2246ce2b8bbbb2334ef3a0ac6c25bb",
+          "box_px": [
+            945,
+            7294,
+            11339,
+            7422
+          ],
+          "measured_lpi": 100.849996
+        },
+        {
+          "lpi": "100.90",
+          "native_band_sha256": "f4bd2c894c9694f52fb4c6c3b02c62871e61e147588cbc4829eff276ed1d2ecd",
+          "box_px": [
+            945,
+            7446,
+            11339,
+            7574
+          ],
+          "measured_lpi": 100.899984
+        },
+        {
+          "lpi": "100.95",
+          "native_band_sha256": "706f2392cbf8ef746e384e34ec2b76df46ffd3c52cb5827b6684afbbe5d3e133",
+          "box_px": [
+            945,
+            7597,
+            11339,
+            7725
+          ],
+          "measured_lpi": 100.950009
+        },
+        {
+          "lpi": "101.00",
+          "native_band_sha256": "8b8080d7c13d763f8e7eba372f5dac48210679f31a1a9e19822040343af21a7c",
+          "box_px": [
+            945,
+            7748,
+            11339,
+            7876
+          ],
+          "measured_lpi": 101.000052
+        }
+      ],
+      "tiff_sha256": "f2f0110004a9bbd28d7b98ea961b3aaf8dd0b67fb7312f5ac3874dbffd56086e"
+    }
+  ],
+  "protected_files_unchanged": true,
+  "physical_pitch_selected": false
+}

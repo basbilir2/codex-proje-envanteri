@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "repair_flow": {
+    "repairs": 1,
+    "real_browser_passed": true,
+    "real_zip_created": true,
+    "repair_received_screenshot": true
+  },
+  "failure_stops_after": 2,
+  "model": "deterministic local fixture; no real inference",
+  "model_requests": 0
+}

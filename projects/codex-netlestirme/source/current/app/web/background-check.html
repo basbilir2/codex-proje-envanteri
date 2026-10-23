@@ -1,0 +1,15 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Arka plan kontrolü</title>
+<button id="start">Arka plan kontrolünü çalıştır</button><p id="state">Hazır</p><div id="images" style="display:flex;gap:16px;background:#bbb"></div>
+<script type="module">
+import {removeBackground} from './background.mjs';
+const state=document.querySelector('#state');
+document.querySelector('#start').onclick=async function(){this.disabled=true;const start=performance.now();try{
+const source=new Image();source.src='/web/portrait-fixture.png';await source.decode();document.querySelector('#images').append(source);
+const canvas=document.createElement('canvas');canvas.width=source.naturalWidth;canvas.height=source.naturalHeight;canvas.getContext('2d').drawImage(source,0,0);
+const output=await removeBackground(canvas,text=>state.textContent=text,{contract:false});
+const data=output.getContext('2d').getImageData(0,0,output.width,output.height).data;let transparent=0,opaque=0,soft=0;
+for(let i=3;i<data.length;i+=4){if(data[i]===0)transparent++;else if(data[i]===255)opaque++;else soft++;}
+const result=new Image();result.id='result';result.src=output.toDataURL('image/png');document.querySelector('#images').append(result);
+state.textContent=JSON.stringify({width:output.width,height:output.height,seconds:(performance.now()-start)/1000,transparent,opaque,soft});
+}catch(error){state.textContent='HATA: '+error.message;}}
+</script></html>

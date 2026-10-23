@@ -1,0 +1,369 @@
+{
+  "id": "FreeLocalE2E19A",
+  "name": "TEST - YAYIN YAPMAZ - 19 Ucretsiz Yerel Uctan Uca Test",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "19000000-0000-4000-8000-000000000001",
+      "name": "Manual Trigger - TEST ONLY",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [-2500, 0]
+    },
+    {
+      "parameters": {"operation":"read","fileSelector":"/home/node/.n8n-files/projects/marka-kimligi.txt","options":{}},
+      "id": "19000000-0000-4000-8000-000000000002",
+      "name": "Marka Kimligini Oku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [-2300, 0]
+    },
+    {
+      "parameters": {"operation":"text","destinationKey":"brand_text","options":{}},
+      "id": "19000000-0000-4000-8000-000000000003",
+      "name": "Marka Kimligini Metne Cikar",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [-2100, 0]
+    },
+    {
+      "parameters": {"operation":"read","fileSelector":"/home/node/.n8n-files/projects/urunler.txt","options":{}},
+      "id": "19000000-0000-4000-8000-000000000004",
+      "name": "Urun Gerceklerini Oku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [-1900, 0]
+    },
+    {
+      "parameters": {"operation":"text","destinationKey":"product_text","options":{}},
+      "id": "19000000-0000-4000-8000-000000000005",
+      "name": "Urun Gerceklerini Metne Cikar",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [-1700, 0]
+    },
+    {
+      "parameters": {"operation":"read","fileSelector":"/home/node/.n8n-files/projects/hedef-kitle.txt","options":{}},
+      "id": "19000000-0000-4000-8000-000000000006",
+      "name": "Hedef Kitleyi Oku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [-1500, 0]
+    },
+    {
+      "parameters": {"operation":"text","destinationKey":"audience_text","options":{}},
+      "id": "19000000-0000-4000-8000-000000000007",
+      "name": "Hedef Kitleyi Metne Cikar",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [-1300, 0]
+    },
+    {
+      "parameters": {"operation":"read","fileSelector":"/home/node/.n8n-files/projects/yasakli-ifadeler.txt","options":{}},
+      "id": "19000000-0000-4000-8000-000000000008",
+      "name": "Iddia Korumasini Oku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [-1100, 0]
+    },
+    {
+      "parameters": {"operation":"text","destinationKey":"guard_text","options":{}},
+      "id": "19000000-0000-4000-8000-000000000009",
+      "name": "Iddia Korumasini Metne Cikar",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [-900, 0]
+    },
+    {
+      "parameters": {"operation":"read","fileSelector":"/home/node/.n8n-files/projects/icerik-ornekleri.txt","options":{}},
+      "id": "19000000-0000-4000-8000-000000000010",
+      "name": "Icerik Oruntulerini Oku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [-700, 0]
+    },
+    {
+      "parameters": {"operation":"text","destinationKey":"patterns_text","options":{}},
+      "id": "19000000-0000-4000-8000-000000000011",
+      "name": "Icerik Oruntulerini Metne Cikar",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [-500, 0]
+    },
+    {
+      "parameters": {"operation":"read","fileSelector":"/home/node/.n8n-files/data/memory/rol-kartlari.json","options":{}},
+      "id": "19000000-0000-4000-8000-000000000012",
+      "name": "Kisa Rol Kartlarini Oku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [-300, 0]
+    },
+    {
+      "parameters": {"operation":"text","destinationKey":"roles_json","options":{}},
+      "id": "19000000-0000-4000-8000-000000000013",
+      "name": "Kisa Rol Kartlarini Metne Cikar",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [-100, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "const read=(node,key)=>String($(node).first().json[key]||'').replace(/\\r/g,'').trim();const clip=(value,max)=>value.length>max?value.slice(0,max):value;const section=(value,start,end)=>{const a=value.indexOf(start);if(a<0)return'';const b=end?value.indexOf(end,a+start.length):-1;return value.slice(a,b>0?b:undefined).trim();};const roles=JSON.parse(read('Kisa Rol Kartlarini Metne Cikar','roles_json'));const card=(id)=>{const c=roles.cards.find(x=>x.agent_id===id);if(!c)throw new Error('Rol karti eksik: '+id);return{role:c.role,must:c.must,must_not:c.must_not,output:c.output};};const brand=read('Marka Kimligini Metne Cikar','brand_text');const product=read('Urun Gerceklerini Metne Cikar','product_text');const audienceAll=read('Hedef Kitleyi Metne Cikar','audience_text');const guardAll=read('Iddia Korumasini Metne Cikar','guard_text');const patternsAll=read('Icerik Oruntulerini Metne Cikar','patterns_text');const stamp=new Date().toISOString();return[{json:{test_label:'TEST - YAYIN YAPMAZ',task_id:'free-local-e2e-'+stamp.replace(/[^0-9]/g,'').slice(0,14),brand_id:'trendybrander',content_version:'v1',provider:'google',model:'models/gemini-3.1-flash-lite',billing_mode:'free_tier_test',publish_authorized:false,brand_core:clip(brand,2200),product_core:clip(product,1200),selected_audience:clip(section(audienceAll,'## S1','## S2'),650),claim_guard:clip(section(guardAll,'## Kesin Yasaklar','## Yayın Öncesi'),1100),selected_patterns:clip(section(patternsAll,'## E1','## E2')+'\\n'+section(patternsAll,'## E3','## E4'),900),role_cards:{analizci:card('analizci'),content:card('sosyal_medya_icerik_stratejisti'),visual:card('gorsel_stratejist'),debate:card('kontrol_muhalefet_kurulu'),ordinaryus:card('ana_ordinaryus'),interface:card('yayin_arayuz_ajani')},guards:{full_prompt_sent:false,raw_history_sent:false,max_debate_rounds:3,actual_debate_rounds:1,external_publish:false,image_generation:false,local_reference_only:true},created_at:stamp}}];"
+      },
+      "id": "19000000-0000-4000-8000-000000000014",
+      "name": "Orkestrator - Kompakt Test Paketi",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [120, 0]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=ROL:\n{{ JSON.stringify($json.role_cards.analizci) }}\n\nMARKA:\n{{ $json.brand_core }}\n\nURUN:\n{{ $json.product_core }}\n\nSECILI SEGMENT:\n{{ $json.selected_audience }}\n\nGOREV: Gercek performans verisi olmadan stratejik on analiz yap. Yalniz minified JSON dondur. SEMA: {\"data_status\":\"\",\"main_finding\":\"\",\"target_segment\":\"\",\"strategic_direction\":\"\",\"priority_actions\":[\"\",\"\",\"\"],\"missing_data\":[\"\"],\"risk\":\"\",\"confidence\":0.0}",
+        "messages": {"messageValues":[{"message":"Gercek ve hipotezi ayir. Veri uydurma. Kisa gecerli JSON disinda hicbir sey yazma."}]},
+        "batching": {}
+      },
+      "id": "19000000-0000-4000-8000-000000000015",
+      "name": "Analizci - Gemini Ucretsiz Test",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [360, 0]
+    },
+    {
+      "parameters": {"modelName":"models/gemini-3.1-flash-lite","options":{}},
+      "id": "19000000-0000-4000-8000-000000000016",
+      "name": "Gemini Ucretsiz - Analizci",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [360, 220],
+      "credentials": {"googlePalmApi":{"id":"bPYdP4376xznoj2H","name":"Google Gemini(PaLM) Api account"}}
+    },
+    {
+      "parameters": {
+        "jsCode": "const clean=String($input.first().json.text||'').replace(/^```(?:json)?\\s*/i,'').replace(/\\s*```$/,'').trim();let value;try{value=JSON.parse(clean)}catch{throw new Error('Analizci gecersiz JSON uretti');}for(const k of ['data_status','main_finding','target_segment','strategic_direction','priority_actions','missing_data','risk','confidence'])if(value[k]===undefined)throw new Error('Analizci alani eksik: '+k);return[{json:{...$('Orkestrator - Kompakt Test Paketi').first().json,analysis:value}}];"
+      },
+      "id": "19000000-0000-4000-8000-000000000017",
+      "name": "Analizci Ciktisini Dogrula",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [600, 0]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=ROL:\n{{ JSON.stringify($json.role_cards.content) }}\n\nANALIZ:\n{{ JSON.stringify($json.analysis) }}\n\nMARKA OZU:\n{{ $json.brand_core.slice(0,900) }}\n\nSEGMENT:\n{{ $json.selected_audience }}\n\nIKI YAPI ORNEGI (CUMLELERI KOPYALAMA):\n{{ $json.selected_patterns }}\n\nGOREV: Tam 3 farkli sosyal medya fikri uret ve en guclusunu sec. Yalniz minified JSON. SEMA: {\"data_disclaimer\":\"\",\"segment\":\"\",\"ideas\":[{\"id\":\"A\",\"format\":\"reels|post|story|carousel\",\"hook\":\"\",\"message\":\"\",\"cta\":\"\",\"visual_direction\":\"\"}],\"recommended_candidate\":\"A\",\"selection_reason\":\"\"}",
+        "messages": {"messageValues":[{"message":"Tek segment, tek ana fikir ve tek CTA kullan. Kanitsiz iddia veya kopya cumle yazma. Yalniz gecerli kisa JSON."}]},
+        "batching": {}
+      },
+      "id": "19000000-0000-4000-8000-000000000018",
+      "name": "Icerik Stratejisti - Gemini Ucretsiz Test",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [840, 0]
+    },
+    {
+      "parameters": {"modelName":"models/gemini-3.1-flash-lite","options":{}},
+      "id": "19000000-0000-4000-8000-000000000019",
+      "name": "Gemini Ucretsiz - Icerik",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [840, 220],
+      "credentials": {"googlePalmApi":{"id":"bPYdP4376xznoj2H","name":"Google Gemini(PaLM) Api account"}}
+    },
+    {
+      "parameters": {
+        "jsCode": "const clean=String($input.first().json.text||'').replace(/^```(?:json)?\\s*/i,'').replace(/\\s*```$/,'').trim();let value;try{value=JSON.parse(clean)}catch{throw new Error('Icerik Stratejisti gecersiz JSON uretti');}if(!Array.isArray(value.ideas)||value.ideas.length!==3)throw new Error('Tam 3 fikir uretilmedi');for(const idea of value.ideas)for(const k of ['id','format','hook','message','cta','visual_direction'])if(!String(idea[k]||'').trim())throw new Error('Icerik alani eksik: '+k);if(!value.ideas.some(x=>x.id===value.recommended_candidate))throw new Error('Onerilen aday bulunamadi');return[{json:{...$('Analizci Ciktisini Dogrula').first().json,content:value}}];"
+      },
+      "id": "19000000-0000-4000-8000-000000000020",
+      "name": "Icerik Ciktisini Dogrula",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1080, 0]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=ROL:\n{{ JSON.stringify($json.role_cards.visual) }}\n\nSECILI ICERIK:\n{{ JSON.stringify($json.content.ideas.find(x => x.id === $json.content.recommended_candidate)) }}\n\nGORSEL KURALI:\n{{ $json.brand_core.slice($json.brand_core.indexOf('## Görsel Yön'), $json.brand_core.indexOf('## Değişmez Kurallar')) }}\n\nGOREV: Gercek gorsel uretmeden tek bir uygulanabilir 1080x1080 gorsel brief hazirla. Referans gorsel daha sonra TEST yer tutucusu olacak. Yalniz minified JSON. SEMA: {\"composition\":\"\",\"scene\":\"\",\"on_image_text\":\"\",\"dimensions\":\"1080x1080\",\"generation_prompt\":\"\",\"risk\":\"\",\"generation_status\":\"not_generated_local_test\"}",
+        "messages": {"messageValues":[{"message":"Tek gorsel fikir, az metin ve hizli anlasilir sahne. Gorsel uretildi deme. Yalniz gecerli kisa JSON."}]},
+        "batching": {}
+      },
+      "id": "19000000-0000-4000-8000-000000000021",
+      "name": "Gorsel Stratejist - Gemini Ucretsiz Test",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [1320, 0]
+    },
+    {
+      "parameters": {"modelName":"models/gemini-3.1-flash-lite","options":{}},
+      "id": "19000000-0000-4000-8000-000000000022",
+      "name": "Gemini Ucretsiz - Gorsel Brief",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [1320, 220],
+      "credentials": {"googlePalmApi":{"id":"bPYdP4376xznoj2H","name":"Google Gemini(PaLM) Api account"}}
+    },
+    {
+      "parameters": {
+        "jsCode": "const clean=String($input.first().json.text||'').replace(/^```(?:json)?\\s*/i,'').replace(/\\s*```$/,'').trim();let value;try{value=JSON.parse(clean)}catch{throw new Error('Gorsel Stratejist gecersiz JSON uretti');}for(const k of ['composition','scene','on_image_text','dimensions','generation_prompt','risk','generation_status'])if(!String(value[k]||'').trim())throw new Error('Gorsel brief alani eksik: '+k);if(value.generation_status!=='not_generated_local_test')throw new Error('Testte gorsel uretilmis gibi davranildi');return[{json:{...$('Icerik Ciktisini Dogrula').first().json,visual:value}}];"
+      },
+      "id": "19000000-0000-4000-8000-000000000023",
+      "name": "Gorsel Briefi Dogrula",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1560, 0]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=ROL:\n{{ JSON.stringify($json.role_cards.debate) }}\n\nSECILI ICERIK:\n{{ JSON.stringify($json.content.ideas.find(x => x.id === $json.content.recommended_candidate)) }}\n\nGORSEL BRIEF:\n{{ JSON.stringify($json.visual) }}\n\nIDDIA KORUMASI:\n{{ $json.claim_guard }}\n\nGOREV: Bir Cesur/Yaratici Muhalif ve bir Temkinli/Risk Muhalifi olarak tek tur tartis. Tekrar etme. Yalniz minified JSON. SEMA: {\"bold_view\":{\"problem\":\"\",\"impact\":\"\",\"solution\":\"\"},\"cautious_view\":{\"problem\":\"\",\"impact\":\"\",\"solution\":\"\"},\"common_points\":[\"\"],\"required_changes\":[\"\"],\"another_round_required\":false,\"confidence\":0.0}",
+        "messages": {"messageValues":[{"message":"Iki bakisi ayir. Sorun-etki-cozum yaz. Yeni kanit yoksa ikinci tur isteme. Final karar veya yayin verme. Yalniz JSON."}]},
+        "batching": {}
+      },
+      "id": "19000000-0000-4000-8000-000000000024",
+      "name": "Muhalefet Kurulu - Gemini Ucretsiz Test",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [1800, 0]
+    },
+    {
+      "parameters": {"modelName":"models/gemini-3.1-flash-lite","options":{}},
+      "id": "19000000-0000-4000-8000-000000000025",
+      "name": "Gemini Ucretsiz - Muhalefet",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [1800, 220],
+      "credentials": {"googlePalmApi":{"id":"bPYdP4376xznoj2H","name":"Google Gemini(PaLM) Api account"}}
+    },
+    {
+      "parameters": {
+        "jsCode": "const clean=String($input.first().json.text||'').replace(/^```(?:json)?\\s*/i,'').replace(/\\s*```$/,'').trim();let value;try{value=JSON.parse(clean)}catch{throw new Error('Muhalefet Kurulu gecersiz JSON uretti');}for(const k of ['bold_view','cautious_view','common_points','required_changes','another_round_required','confidence'])if(value[k]===undefined)throw new Error('Muhalefet alani eksik: '+k);return[{json:{...$('Gorsel Briefi Dogrula').first().json,debate:value}}];"
+      },
+      "id": "19000000-0000-4000-8000-000000000026",
+      "name": "Muhalefet Ciktisini Dogrula",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2040, 0]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=ROL:\n{{ JSON.stringify($json.role_cards.ordinaryus) }}\n\nANALIZ:\n{{ JSON.stringify($json.analysis) }}\n\nSECILI ICERIK:\n{{ JSON.stringify($json.content.ideas.find(x => x.id === $json.content.recommended_candidate)) }}\n\nGORSEL BRIEF:\n{{ JSON.stringify($json.visual) }}\n\nMUHALIF GORUSLER:\n{{ JSON.stringify($json.debate) }}\n\nGOREV: Marka uyumu ve riski kontrol et. Guvenliyse gerekli kucuk revizeleri final metne isle ve karari Operator_ONAYI yap. Guvenli degilse REVIZE veya RED. Yalniz minified JSON. SEMA: {\"decision\":\"Operator_ONAYI|REVIZE|RED\",\"reason\":\"\",\"final_caption\":\"\",\"final_format\":\"\",\"final_visual_brief\":\"\",\"required_revisions\":[\"\"],\"remaining_risks\":[\"\"],\"confidence\":0.0,\"Operator_summary\":\"\"}",
+        "messages": {"messageValues":[{"message":"Yayin onayi verme; yalniz Operator onayina sunulup sunulamayacagini belirle. Kanitsiz iddiayi final metinden cikar. Yalniz JSON."}]},
+        "batching": {}
+      },
+      "id": "19000000-0000-4000-8000-000000000027",
+      "name": "Ana Ordinaryus - Gemini Ucretsiz Test",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [2280, 0]
+    },
+    {
+      "parameters": {"modelName":"models/gemini-3.1-flash-lite","options":{}},
+      "id": "19000000-0000-4000-8000-000000000028",
+      "name": "Gemini Ucretsiz - Ordinaryus",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [2280, 220],
+      "credentials": {"googlePalmApi":{"id":"bPYdP4376xznoj2H","name":"Google Gemini(PaLM) Api account"}}
+    },
+    {
+      "parameters": {
+        "jsCode": "const clean=String($input.first().json.text||'').replace(/^```(?:json)?\\s*/i,'').replace(/\\s*```$/,'').trim();let value;try{value=JSON.parse(clean)}catch{throw new Error('Ordinaryus gecersiz JSON uretti');}for(const k of ['decision','reason','final_caption','final_format','final_visual_brief','required_revisions','remaining_risks','confidence','Operator_summary'])if(value[k]===undefined)throw new Error('Ordinaryus alani eksik: '+k);if(!['Operator_ONAYI','REVIZE','RED'].includes(value.decision))throw new Error('Ordinaryus karari gecersiz');if(value.decision!=='Operator_ONAYI')throw new Error('Test paketi onaya uygun bulunmadi: '+value.decision);return[{json:{...$('Muhalefet Ciktisini Dogrula').first().json,ordinaryus:value}}];"
+      },
+      "id": "19000000-0000-4000-8000-000000000029",
+      "name": "Ordinaryus Kararini Dogrula",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2520, 0]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=ROL:\n{{ JSON.stringify($json.role_cards.interface) }}\n\nORDINARYUS KARARI:\n{{ JSON.stringify($json.ordinaryus) }}\n\nDOGRULANMIS URUN KAYNAGI:\n{{ $json.product_core }}\n\nIDDIA KORUMASI:\n{{ $json.claim_guard }}\n\nGOREV: Operator icin cok kisa onay paketi hazirla. Kaynakta acikca bulunmayan sayi, sure, fiyat, hiz, dayaniklilik veya sonuc iddiasini captiondan sil. Metni yeniden uzatma veya strateji ekleme. Yalniz minified JSON. SEMA: {\"summary\":\"\",\"caption\":\"\",\"format\":\"\",\"visual_brief\":\"\",\"attention_points\":[\"\"],\"recommended_action\":\"ONAYLA|REVIZE_ISTE|REDDET\"}",
+        "messages": {"messageValues":[{"message":"Yayin yapma. Yalniz onay ekranina gidecek sade ve gecerli JSON dondur."}]},
+        "batching": {}
+      },
+      "id": "19000000-0000-4000-8000-000000000030",
+      "name": "Yayin Arayuz Ajani - Gemini Ucretsiz Test",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [2760, 0]
+    },
+    {
+      "parameters": {"modelName":"models/gemini-3.1-flash-lite","options":{}},
+      "id": "19000000-0000-4000-8000-000000000031",
+      "name": "Gemini Ucretsiz - Arayuz",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [2760, 220],
+      "credentials": {"googlePalmApi":{"id":"bPYdP4376xznoj2H","name":"Google Gemini(PaLM) Api account"}}
+    },
+    {
+      "parameters": {
+        "jsCode": "const clean=String($input.first().json.text||'').replace(/^```(?:json)?\\s*/i,'').replace(/\\s*```$/,'').trim();let ui;try{ui=JSON.parse(clean)}catch{throw new Error('Arayuz Ajani gecersiz JSON uretti');}for(const k of ['summary','caption','format','visual_brief','attention_points','recommended_action'])if(ui[k]===undefined)throw new Error('Arayuz alani eksik: '+k);if(!String(ui.caption).trim()||String(ui.caption).length>2200)throw new Error('Caption uzunlugu gecersiz');const base=$('Ordinaryus Kararini Dogrula').first().json;const verified=String(base.brand_core+' '+base.product_core).toLocaleLowerCase('tr-TR');const caption=String(ui.caption);const numericClaims=caption.match(/\\d+(?:[.,]\\d+)?/g)||[];const unsupportedNumbers=[...new Set(numericClaims.filter(n=>!verified.includes(n.toLocaleLowerCase('tr-TR'))))];if(unsupportedNumbers.length)throw new Error('Kaynaksiz sayisal iddia engellendi: '+unsupportedNumbers.join(','));const normalized=caption.toLocaleLowerCase('tr-TR');const forbidden=['garantili kazanc','garantili satış','sifir risk','sıfır risk','kusursuz','asla cikmaz','asla çıkmaz','sonsuz dayanir','sonsuz dayanır','en iyi','en ucuz','en hizli','en hızlı'];const matched=forbidden.filter(x=>normalized.includes(x));if(matched.length)throw new Error('Yasakli iddia engellendi: '+matched.join(','));const result={schema_version:'1.0',test_label:'TEST - YAYIN YAPMAZ',status:'Operator_onayi_bekliyor',brand_id:base.brand_id,task_id:base.task_id,content_id:base.task_id+'-content',content_version:base.content_version,idempotency_key:base.task_id+'-'+base.content_version,summary:ui.summary,content_payload:{caption:ui.caption,format:ui.format,visual_brief:ui.visual_brief,attention_points:ui.attention_points,recommended_action:ui.recommended_action,visual_source:'local_reference_test_not_ai_generated'},preview_source:'referanslar (1).png',preview_ref:'/media/generated/free-local-e2e-test-reference.png',model_test:{provider:base.provider,model:base.model,billing_mode:base.billing_mode,model_calls:6,actual_cost_usd:null,cost_note:'Free-tier test; exact billing is not invented.'},token_guards:{...base.guards,unsupported_numeric_claims_blocked:true,forbidden_claims_blocked:true},publish_authorized:false,external_publish_executed:false,agent_trace:{analysis:base.analysis,content:base.content,visual:base.visual,debate:base.debate,ordinaryus:base.ordinaryus,interface:ui},created_at:base.created_at,completed_at:new Date().toISOString()};return[{json:{...result,text:JSON.stringify(result)}}];"
+      },
+      "id": "19000000-0000-4000-8000-000000000032",
+      "name": "Final Yerel Test Paketini Dogrula",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [3000, 0]
+    },
+    {
+      "parameters": {"operation":"toText","sourceProperty":"text","options":{}},
+      "id": "19000000-0000-4000-8000-000000000033",
+      "name": "Test Sonucunu Dosyaya Cevir",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [3240, 0]
+    },
+    {
+      "parameters": {"operation":"write","fileName":"/home/node/.n8n-files/data/logs/ucretsiz-yerel-test-sonucu.json","options":{}},
+      "id": "19000000-0000-4000-8000-000000000034",
+      "name": "Yerel Test Sonucunu Kaydet",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [3480, 0]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Manual Trigger - TEST ONLY": {"main":[[{"node":"Marka Kimligini Oku","type":"main","index":0}]]},
+    "Marka Kimligini Oku": {"main":[[{"node":"Marka Kimligini Metne Cikar","type":"main","index":0}]]},
+    "Marka Kimligini Metne Cikar": {"main":[[{"node":"Urun Gerceklerini Oku","type":"main","index":0}]]},
+    "Urun Gerceklerini Oku": {"main":[[{"node":"Urun Gerceklerini Metne Cikar","type":"main","index":0}]]},
+    "Urun Gerceklerini Metne Cikar": {"main":[[{"node":"Hedef Kitleyi Oku","type":"main","index":0}]]},
+    "Hedef Kitleyi Oku": {"main":[[{"node":"Hedef Kitleyi Metne Cikar","type":"main","index":0}]]},
+    "Hedef Kitleyi Metne Cikar": {"main":[[{"node":"Iddia Korumasini Oku","type":"main","index":0}]]},
+    "Iddia Korumasini Oku": {"main":[[{"node":"Iddia Korumasini Metne Cikar","type":"main","index":0}]]},
+    "Iddia Korumasini Metne Cikar": {"main":[[{"node":"Icerik Oruntulerini Oku","type":"main","index":0}]]},
+    "Icerik Oruntulerini Oku": {"main":[[{"node":"Icerik Oruntulerini Metne Cikar","type":"main","index":0}]]},
+    "Icerik Oruntulerini Metne Cikar": {"main":[[{"node":"Kisa Rol Kartlarini Oku","type":"main","index":0}]]},
+    "Kisa Rol Kartlarini Oku": {"main":[[{"node":"Kisa Rol Kartlarini Metne Cikar","type":"main","index":0}]]},
+    "Kisa Rol Kartlarini Metne Cikar": {"main":[[{"node":"Orkestrator - Kompakt Test Paketi","type":"main","index":0}]]},
+    "Orkestrator - Kompakt Test Paketi": {"main":[[{"node":"Analizci - Gemini Ucretsiz Test","type":"main","index":0}]]},
+    "Gemini Ucretsiz - Analizci": {"ai_languageModel":[[{"node":"Analizci - Gemini Ucretsiz Test","type":"ai_languageModel","index":0}]]},
+    "Analizci - Gemini Ucretsiz Test": {"main":[[{"node":"Analizci Ciktisini Dogrula","type":"main","index":0}]]},
+    "Analizci Ciktisini Dogrula": {"main":[[{"node":"Icerik Stratejisti - Gemini Ucretsiz Test","type":"main","index":0}]]},
+    "Gemini Ucretsiz - Icerik": {"ai_languageModel":[[{"node":"Icerik Stratejisti - Gemini Ucretsiz Test","type":"ai_languageModel","index":0}]]},
+    "Icerik Stratejisti - Gemini Ucretsiz Test": {"main":[[{"node":"Icerik Ciktisini Dogrula","type":"main","index":0}]]},
+    "Icerik Ciktisini Dogrula": {"main":[[{"node":"Gorsel Stratejist - Gemini Ucretsiz Test","type":"main","index":0}]]},
+    "Gemini Ucretsiz - Gorsel Brief": {"ai_languageModel":[[{"node":"Gorsel Stratejist - Gemini Ucretsiz Test","type":"ai_languageModel","index":0}]]},
+    "Gorsel Stratejist - Gemini Ucretsiz Test": {"main":[[{"node":"Gorsel Briefi Dogrula","type":"main","index":0}]]},
+    "Gorsel Briefi Dogrula": {"main":[[{"node":"Muhalefet Kurulu - Gemini Ucretsiz Test","type":"main","index":0}]]},
+    "Gemini Ucretsiz - Muhalefet": {"ai_languageModel":[[{"node":"Muhalefet Kurulu - Gemini Ucretsiz Test","type":"ai_languageModel","index":0}]]},
+    "Muhalefet Kurulu - Gemini Ucretsiz Test": {"main":[[{"node":"Muhalefet Ciktisini Dogrula","type":"main","index":0}]]},
+    "Muhalefet Ciktisini Dogrula": {"main":[[{"node":"Ana Ordinaryus - Gemini Ucretsiz Test","type":"main","index":0}]]},
+    "Gemini Ucretsiz - Ordinaryus": {"ai_languageModel":[[{"node":"Ana Ordinaryus - Gemini Ucretsiz Test","type":"ai_languageModel","index":0}]]},
+    "Ana Ordinaryus - Gemini Ucretsiz Test": {"main":[[{"node":"Ordinaryus Kararini Dogrula","type":"main","index":0}]]},
+    "Ordinaryus Kararini Dogrula": {"main":[[{"node":"Yayin Arayuz Ajani - Gemini Ucretsiz Test","type":"main","index":0}]]},
+    "Gemini Ucretsiz - Arayuz": {"ai_languageModel":[[{"node":"Yayin Arayuz Ajani - Gemini Ucretsiz Test","type":"ai_languageModel","index":0}]]},
+    "Yayin Arayuz Ajani - Gemini Ucretsiz Test": {"main":[[{"node":"Final Yerel Test Paketini Dogrula","type":"main","index":0}]]},
+    "Final Yerel Test Paketini Dogrula": {"main":[[{"node":"Test Sonucunu Dosyaya Cevir","type":"main","index":0}]]},
+    "Test Sonucunu Dosyaya Cevir": {"main":[[{"node":"Yerel Test Sonucunu Kaydet","type":"main","index":0}]]}
+  },
+  "active": false,
+  "settings": {"executionOrder":"v1","saveExecutionProgress":true,"saveManualExecutions":true},
+  "versionId": "19000000-0000-4000-8000-000000000099",
+  "meta": {"templateCredsSetupCompleted":true},
+  "tags": []
+}

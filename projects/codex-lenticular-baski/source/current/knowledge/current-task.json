@@ -1,0 +1,26 @@
+{
+  "plan": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_75_50_20_codex_20261012\\execution.json",
+  "status": "new 75 and 50.20 LPI interlaces digitally verified; physical acceptance pending",
+  "physical_3d_verified": false,
+  "execution_instructions": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_75_50_20_codex_20261012\\baski-notu.md",
+  "completed_run": "C:\\Users\\USER\\Documents\\lenticular baskı\\knowledge\\runs\\vd-75-50-20-reinterlace-20261012.json",
+  "previous_completed_plan": "C:\\Users\\USER\\Documents\\lenticular baskı\\plans\\vd-75-100-1200ppi-8af22b6a\\plan.json",
+  "previous_completed_run": "C:\\Users\\USER\\Documents\\lenticular baskı\\knowledge\\runs\\vd-75-100-execution-20261011.json",
+  "output_folder": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_75_50_20_codex_20261012",
+  "scope": "75 and 50.20 LPI prints using unchanged verified 100 LPI camera frames and geometry",
+  "reference_policy": "User override for this job: zero plane behind nose, no nose pin",
+  "geometry_reference_run": "C:\\Users\\USER\\Documents\\lenticular baskı\\knowledge\\runs\\vd-100lpi-codex-20261012.json",
+  "last_cleanup": {
+    "run": "C:\\Users\\USER\\Documents\\lenticular baskı\\knowledge\\runs\\lenticular-cleanup-20261012.json",
+    "removed_bytes": 44097387416,
+    "verified": true
+  },
+  "latest_review": "C:\\Users\\USER\\Documents\\lenticular baskı\\knowledge\\reviews\\gif-tiff-identity-20261013.json",
+  "resolved_print_files": {
+    "100": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_100lpi_codex_20261012\\print\\interlaced 100.tif",
+    "75.0": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_75_50_20_codex_20261012\\75lpi\\interlaced 75 .tif",
+    "50.2": "C:\\Users\\USER\\Documents\\lenticular baskı\\vd_75_50_20_codex_20261012\\50_2lpi\\interlaced 50.tif"
+  },
+  "visual_quality_acceptance": "rejected by user; insufficient face/clothing volume",
+  "latest_visual_review": "C:\\Users\\USER\\Documents\\lenticular baskı\\knowledge\\reviews\\75lpi-download-20261013\\review.json"
+}

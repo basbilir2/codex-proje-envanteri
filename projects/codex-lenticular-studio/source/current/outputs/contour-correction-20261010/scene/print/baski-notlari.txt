@@ -1,0 +1,20 @@
+﻿LENTICULAR BASKI TESLİM NOTLARI
+Görünüş: Nr=12 · Baskı kanalı: Ne=12
+Ölçü: 130.006 × 215.138 mm · 1200 PPI
+Etkin lens: 50.2 LPI · Faz: 0 · Eğim: 0°
+Aynalı çıktı: Hayır · Lens çizgileri: vertical
+
+Dosyayı %100 gerçek ölçekte basın; sayfaya sığdırmayın, yeniden örneklemeyin.
+Dosya sRGB kaynak profili içerir; RIP'te gerçek yazıcı/mürekkep/malzeme çıktı profilini kullanın. Yazıcı profili bu dosyaya uygulanmamıştır.
+Pitch testinde kullanılan lens partisi, malzeme, RIP ve baskı yönünü koruyun.
+Beyaz alt baskı dosyası varsa RIP'teki White kanalına atayın.
+Kalibrasyon onayı operatör beyanıdır; fiziksel baskı kalite kontrolünü tamamlayın.
+
+DEĞERLENDİRME
+Hareketli önizleme fiziksel 3D doğrulaması değildir; iki göze farklı kanal geldiği baskı testiyle kontrol edilmelidir.
+Lens bakış açısı 30° varsayılmıştır; LPI bilgisi bakış açısını belirlemez.
+Dosya PPI değeri RIP/yazıcının yatay ayrıştırma testiyle doğrulanmadı; yazıcının DPI etiketi bu doğrulama değildir.
+Kanal başına iki raster pikselden az var; UV baskıda kanal karışması riski fiziksel test gerektirir.
+Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.
+Kaynak görünüşlerdeki şeffaf alanlar beyazla birleştirildi.
+Kaynak ayrıntısı yaklaşık 366 PPI; 1200 PPI raster çıktı ayrıntıyı yeniden örnekler.

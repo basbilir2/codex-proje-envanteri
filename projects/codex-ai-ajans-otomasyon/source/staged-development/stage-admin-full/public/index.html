@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ajans Kurucu — Yönetim Merkezi</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="loginScreen" class="login-screen">
+    <form id="loginForm" class="login-card">
+      <div class="logo large">AK</div>
+      <p class="kicker">YÖNETİM MERKEZİ</p>
+      <h1>Ajans Kurucu</h1>
+      <p class="muted">Rollerini, modellerini, akışını ve müşteri uygulamalarını tek yerden yönet.</p>
+      <label>Yönetici parolası<input id="password" type="password" autocomplete="current-password" required></label>
+      <button class="primary full" type="submit">Giriş yap</button>
+      <p id="loginMessage" class="form-message"></p>
+    </form>
+  </div>
+
+  <div id="app" class="app hidden">
+    <aside class="sidebar">
+      <div class="product"><div class="logo">AK</div><div><strong>Ajans Kurucu</strong><span>Yönetim Merkezi</span></div></div>
+      <nav id="nav">
+        <button class="nav active" data-view="overview">Genel Bakış</button>
+        <button class="nav" data-view="agents">Rol Stüdyosu</button>
+        <button class="nav" data-view="models">Model Merkezi</button>
+        <button class="nav" data-view="flow">Akış Tasarımcısı</button>
+        <button class="nav" data-view="policies">Politikalar</button>
+        <button class="nav" data-view="factory">Uygulama Fabrikası</button>
+        <button class="nav" data-view="portfolio">Önceki Uygulamalarım</button>
+        <button class="nav" data-view="portable">Taşıma ve Kurulum</button>
+        <button class="nav" data-view="history">Sürüm Geçmişi</button>
+        <button class="nav" data-view="system">Sistem</button>
+        <button class="nav" data-view="guide">Kısa Kılavuz</button>
+      </nav>
+      <div class="sidebar-note"><span class="status-dot"></span><div><strong>Yapay zekâ kapalı</strong><small>Yalnız manuel yönetim</small></div></div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div><p class="kicker">AJANS ALTYAPI STÜDYOSU</p><h1 id="pageTitle">Genel Bakış</h1></div>
+        <div class="top-actions"><span class="safe-pill">AI çağrısı yapmaz</span><button id="refresh" class="secondary">Yenile</button><button id="logout" class="secondary">Çıkış</button></div>
+      </header>
+      <div id="error" class="notice error hidden"></div>
+      <div id="success" class="notice success hidden"></div>
+
+      <section id="view-overview" class="view active">
+        <div class="hero">
+          <div><p class="kicker">KONTROL SENDE</p><h2>Yaşayan ajans uygulamalarını çevrimdışı tasarla.</h2><p>Rolleri, çalışma düzenini, planları ve token sınırlarını belirle. API ve müşteri hesapları yalnız oluşturulan ajans uygulamasında kurulur.</p></div>
+          <div class="hero-badge"><strong>0</strong><span>harici AI çağrısı</span></div>
+        </div>
+        <div id="metrics" class="metrics"></div>
+        <div class="grid two">
+          <article class="panel"><div class="panel-title"><div><p class="kicker">HIZLI BAŞLANGIÇ</p><h3>Yönetim sırası</h3></div></div><div class="steps">
+            <button data-go="agents"><b>1</b><span><strong>Rolleri düzenle</strong><small>Karakter, görev ve sınırları sürümle.</small></span></button>
+            <button data-go="models"><b>2</b><span><strong>Model planını seç</strong><small>Otomatik veya manuel yönlendirme ayarla.</small></span></button>
+            <button data-go="flow"><b>3</b><span><strong>Akışı kontrol et</strong><small>Aşamaları, tartışmayı ve onayı belirle.</small></span></button>
+            <button data-go="factory"><b>4</b><span><strong>Uygulama oluştur</strong><small>Aktif şablondan müşteri uygulaması üret.</small></span></button>
+          </div></article>
+          <article class="panel"><div class="panel-title"><div><p class="kicker">SON İŞLEMLER</p><h3>Değişiklik kaydı</h3></div></div><div id="auditList" class="activity"></div></article>
+        </div>
+      </section>
+
+      <section id="view-agents" class="view">
+        <div class="section-head"><div><p class="kicker">KARAKTER VE UZMANLIK</p><h2>Rol Stüdyosu</h2><p>İstediğin kadar rol oluştur, kopyala, adlandır, aç veya kapat. “Analizci”, “Muhalif” gibi bütün isimler değiştirilebilir.</p></div><button id="newAgent" class="primary" type="button">Yeni rol oluştur</button></div>
+        <div id="agentLibrary" class="agent-library"></div>
+        <div class="subheading"><p class="kicker">TEMEL KARAKTER DOSYALARI</p><h3>TrendyBrander çekirdeği</h3><p class="muted small">Orijinal mimari dosyaları korunur; aşağıdaki gelişmiş düzenlemeler sürümlü çalışır.</p></div>
+        <div id="agentGrid" class="resource-grid"></div>
+      </section>
+
+      <section id="view-models" class="view">
+        <div class="section-head"><div><p class="kicker">MALİYET VE KALİTE</p><h2>Model Merkezi</h2><p>Model havuzunu ve göreve göre seçim algoritmasını manuel yönet.</p></div></div>
+        <form id="modelAssignmentForm" class="panel settings-panel">
+          <div class="panel-title"><div><p class="kicker">KOLAY AYAR</p><h3>Göreve göre model seçimi</h3></div><button class="primary" type="submit">Model planını kaydet</button></div>
+          <p class="muted small">Otomatik seçimde sistem kalite/maliyet kurallarını kullanır. Manuel seçimde sağlayıcı ve modeli sen sabitlersin.</p>
+          <div id="modelAssignmentRows" class="settings-rows"></div>
+        </form>
+        <form id="tokenPolicyForm" class="panel settings-panel">
+          <div class="panel-title"><div><p class="kicker">TOKEN BÜTÇESİ</p><h3>Genel kullanım sınırları</h3></div><button class="primary" type="submit">Token planını kaydet</button></div>
+          <div class="token-settings">
+            <label>Varsayılan kullanım<select id="defaultTokenProfile"><option value="low">Az — 800</option><option value="medium">Orta — 1.800</option><option value="high">Yüksek — 4.000</option></select></label>
+            <label>Görev başına üst sınır<input id="perTaskTokenLimit" type="number" min="1000" step="100"></label>
+            <label>Günlük üst sınır<input id="dailyTokenLimit" type="number" min="1000" step="1000"></label>
+            <label>Aylık üst sınır<input id="monthlyTokenLimit" type="number" min="10000" step="10000"></label>
+            <label>Görev başına çağrı<input id="maxCallsPerTask" type="number" min="1" max="100"></label>
+            <label>Yeniden deneme<input id="maximumRetries" type="number" min="0" max="5"></label>
+          </div>
+          <p class="muted small">Bu değerler yalnız uygulama şablonudur; gerçek token kullanımı oluşturulan ajans uygulamasında ölçülür.</p>
+        </form>
+        <div class="subheading"><p class="kicker">GELİŞMİŞ AYARLAR</p><h3>Model dosyaları</h3></div>
+        <div id="modelGrid" class="resource-grid"></div>
+      </section>
+
+      <section id="view-flow" class="view">
+        <div class="section-head"><div><p class="kicker">AJANSIN ÇALIŞMA DÜZENİ</p><h2>Akış Tasarımcısı</h2><p>Görev durumları, tartışma turları ve onay sınırlarını buradan sürümle.</p></div></div>
+        <form id="flowBlueprintForm" class="panel settings-panel">
+          <div class="panel-title"><div><p class="kicker">ÖZGÜR AKIŞ TASARIMI</p><h3>Rol sırası ve algoritma</h3></div><div class="inline-actions"><button id="newFlow" class="secondary" type="button">Yeni düzen</button><button class="primary" type="submit">Düzeni kaydet</button></div></div>
+          <div class="flow-editor-head"><label>Düzen<select id="flowBlueprintSelect"></select></label><label>Düzen adı<input id="flowBlueprintName" maxlength="120"></label><label>Algoritma<select id="flowAlgorithm"><option value="sequential_debate">Sıralı + tartışma</option><option value="sequential">Sıralı</option><option value="parallel_panel">Paralel kurul</option><option value="custom">Özel</option></select></label></div>
+          <div id="flowAgentOrder" class="flow-agent-order"></div>
+          <div class="round-settings"><label>Normal görev turu<input id="blueprintNormalRounds" type="number" min="1" max="6"></label><label>Kritik görev turu<input id="blueprintCriticalRounds" type="number" min="1" max="8"></label><div class="locked-rule"><strong>Son yayın onayı</strong><span>Her zaman zorunlu ve kilitli</span></div></div>
+        </form>
+        <form id="flowDesignForm" class="panel settings-panel">
+          <div class="panel-title"><div><p class="kicker">KOLAY AYAR</p><h3>Aşamalar ve tartışma sınırı</h3></div><button class="primary" type="submit">Akışı kaydet</button></div>
+          <div id="flowStageRows" class="stage-settings"></div>
+          <div class="round-settings"><label>Normal görev turu<input id="normalRounds" type="number" min="1" max="6"></label><label>Kritik görev turu<input id="criticalRounds" type="number" min="1" max="8"></label><div class="locked-rule"><strong>Son yayın onayı</strong><span>Her zaman zorunlu ve kilitli</span></div><div class="locked-rule"><strong>Dış yayın</strong><span>Şimdilik kapalı</span></div></div>
+        </form>
+        <div class="subheading"><p class="kicker">GELİŞMİŞ AYARLAR</p><h3>Akış dosyaları</h3></div>
+        <div id="flowGrid" class="resource-grid"></div>
+      </section>
+
+      <section id="view-policies" class="view">
+        <div class="section-head"><div><p class="kicker">MERKEZİ KURALLAR</p><h2>Politikalar</h2><p>Token, güvenlik, hafıza, kalite, gizlilik ve geri alma kurallarını yönet.</p></div></div>
+        <div id="policyGrid" class="resource-grid"></div>
+      </section>
+
+      <section id="view-factory" class="view">
+        <div class="section-head"><div><p class="kicker">KURULABİLİR YAŞAYAN AJANS</p><h2>Uygulama Fabrikası</h2><p>TrendyBrander çekirdeğinden yeni bir ajans uygulaması tasarla. API ve müşteri hesapları bu uygulama kurulduktan sonra girilir.</p></div><span class="safe-pill">Ana program çevrimdışı</span></div>
+        <div class="grid factory-grid">
+          <form id="factoryForm" class="panel form-panel">
+            <input id="editingAppId" type="hidden">
+            <div class="panel-title"><div><p class="kicker">UYGULAMA KİMLİĞİ</p><h3 id="factoryFormTitle">Yeni uygulama</h3></div><button id="resetFactory" class="secondary hidden" type="button">Yeniye dön</button></div>
+            <label>Ajans uygulamasının adı<input name="name" placeholder="Örn. TrendyBrander Studio" required></label>
+            <label>Uygulama kısa adı<input name="slug" placeholder="ornek-marka-ajansi" pattern="[a-z0-9-]{2,63}" required><small>Küçük harf, rakam ve tire.</small></label>
+            <label>Marka adı<input name="brand_name" placeholder="Müşterinin markası" required></label>
+            <label>Kısa açıklama<textarea name="description" rows="3" placeholder="Bu uygulamanın amacı"></textarea></label>
+            <label>Tema rengi<input name="accent" type="color" value="#8b5cf6"></label>
+            <fieldset><legend>Plan ve sınırlar</legend><div class="plan-fields">
+              <label>Plan<select id="planId" name="plan_id"><option value="basic">Basic</option><option value="plus">Plus</option><option value="pro">Pro</option></select></label>
+              <label>Toplam rol sınırı<input id="planAgentLimit" name="max_enabled_agents" type="number" min="1" max="1000"><small>Çekirdek roller her planda korunur; sınır ek rolleri belirler.</small></label>
+              <label>Aylık token sınırı<input id="planTokenLimit" name="monthly_token_limit" type="number" min="10000" max="100000000" step="10000"></label>
+              <label>Tartışma turu<input id="planDebateRounds" name="debate_rounds" type="number" min="0" max="8"></label>
+            </div><p id="planDescription" class="muted small"></p></fieldset>
+            <fieldset><legend>Çalışma modları</legend>
+              <div class="mode-settings">
+                <div><label><input id="modeAutonomous" type="checkbox" name="mode_autonomous" checked> Oto görünsün</label><label>En düşük plan<select id="modeAutonomousMinPlan"><option value="basic">Basic</option><option value="plus">Plus</option><option value="pro" selected>Pro</option></select></label></div>
+                <div><label><input id="modeGuidedAuto" type="checkbox" name="mode_guided_auto" checked> Kontrollü Oto görünsün</label><label>En düşük plan<select id="modeGuidedAutoMinPlan"><option value="basic" selected>Basic</option><option value="plus">Plus</option><option value="pro">Pro</option></select></label></div>
+                <div><label><input id="modeManual" type="checkbox" name="mode_manual" checked> Manuel görünsün</label><label>En düşük plan<select id="modeManualMinPlan"><option value="basic" selected>Basic</option><option value="plus">Plus</option><option value="pro">Pro</option></select></label></div>
+              </div>
+              <label>İlk açılıştaki varsayılan mod<select id="defaultOperatingMode" name="default_operating_mode"><option value="guided_auto">Kontrollü Oto</option><option value="autonomous">Oto</option><option value="manual">Manuel</option></select></label>
+              <p class="muted small"><b>Oto:</b> kullanıcı sürümlü sorumluluk metnini onayladıktan sonra son Meta yayını dahil ayrıca onay istemez. <b>Kontrollü Oto:</b> son yayında onay alır. Bir modun minimum planı mevcut plandan yüksekse kullanıcıya görünür fakat yükseltme yapılana kadar kilitli kalır.</p>
+            </fieldset>
+            <fieldset><legend>API, model ve hesap yetkileri</legend>
+              <div class="permission-fields">
+                <label>Kullanıcının model/API yetkisi<select id="apiControlMode" name="api_control_mode"><option value="locked">Kilitli — yalnız tanımlananları kullanır</option><option value="guided">İzinli liste — yalnız seçtiklerin arasında değiştirir</option><option value="open">Açık — sağlayıcı/model ekleyebilir</option></select></label>
+                <label>İzinli sağlayıcılar<input id="allowedProviders" name="allowed_providers" value="google_gemini, openai" placeholder="google_gemini, openai"><small>Virgülle ayır. Kilitli modda yalnız varsayılan sağlayıcılar kullanılır.</small></label>
+                <label>Varsayılan metin sağlayıcısı<input id="textProvider" name="text_provider" value="google_gemini" required></label>
+                <label>Varsayılan metin modeli<input id="textModel" name="text_model" value="auto" required></label>
+                <label>Varsayılan görsel sağlayıcısı<input id="visualProvider" name="visual_provider" value="openai" required></label>
+                <label>Varsayılan görsel modeli<input id="visualModel" name="visual_model" value="auto" required></label>
+              </div>
+              <div class="checks permission-checks">
+                <label><input id="credentialReentryAllowed" type="checkbox" name="credential_reentry_allowed"> Kullanıcı sonradan API anahtarını değiştirebilir</label>
+                <label><input id="metaReconnectAllowed" type="checkbox" name="meta_reconnect_allowed"> Kullanıcı sonradan Meta hesabını değiştirebilir</label>
+              </div>
+              <p class="muted small">İlk kurulumda kullanıcı yalnız gereken anahtarları ve Meta iznini kendi uygulamasında girer. n8n hesabı açmaz ve iş akışlarını görmez.</p>
+            </fieldset>
+            <fieldset><legend>Uygulama içi sohbet</legend>
+              <label class="switch-line"><input id="chatEnabled" type="checkbox" name="chat_enabled" checked> Ajansla konuşma çubuğunu kullanıcıya göster</label>
+              <div id="chatSettings" class="permission-fields">
+                <label>Sohbet modeli<select id="chatModelMode" name="chat_model_mode"><option value="inherit">Metin yönlendirmesini kullan</option><option value="auto">Göreve göre otomatik seç</option><option value="fixed">Sabit model kullan</option></select></label>
+                <label>Mesaj başına en fazla token<input id="chatTokenLimit" name="chat_token_limit" type="number" min="128" max="16000" value="1200"></label>
+                <label>Sabit sağlayıcı<input id="chatProvider" name="chat_provider" placeholder="Sabit seçilirse zorunlu" disabled></label>
+                <label>Sabit model<input id="chatModel" name="chat_model" placeholder="Sabit seçilirse zorunlu" disabled></label>
+              </div>
+              <div class="checks permission-checks">
+                <label><input id="chatContentRevision" type="checkbox" name="chat_content_revision" checked> İçerik değişikliği isteyebilir</label>
+                <label><input id="chatVisualRevision" type="checkbox" name="chat_visual_revision" checked> Görsel değişikliği isteyebilir</label>
+              </div>
+              <p class="muted small">Sohbet sorun bildirebilir ve revize talebi açabilir. Yüksek token, tekrar, marka riski veya yetki dışı işlemde kullanıcıyı uyarır; yayın yapamaz.</p>
+            </fieldset>
+            <fieldset><legend>Bu uygulamada görünen rol isimleri</legend><div id="appAgentNames" class="app-agent-names"></div><p class="muted small">Buradaki isim değişikliği yalnız bu uygulamaya uygulanır.</p></fieldset>
+            <fieldset><legend>Kullanıcıda görünecek bölümler</legend><div class="checks">
+              <label><input type="checkbox" name="features" value="brand" checked> Marka</label>
+              <label><input type="checkbox" name="features" value="content" checked> İçerik</label>
+              <label><input type="checkbox" name="features" value="visuals" checked> Görseller</label>
+              <label><input type="checkbox" name="features" value="workflow" checked> Akış</label>
+              <label><input type="checkbox" name="features" value="approvals" checked> Onaylar</label>
+              <label><input type="checkbox" name="features" value="calendar"> Takvim</label>
+              <label><input type="checkbox" name="features" value="connections" checked> API ve hesap bağlantıları</label>
+              <label><input type="checkbox" name="features" value="models"> Model seçimi</label>
+            </div></fieldset>
+            <button id="factorySubmit" class="primary" type="submit">Uygulamayı oluştur</button>
+            <p class="muted small">Rol talimatları ve özel algoritma kullanıcı ekranında gösterilmez. Marka dosyaları ve hesaplar kurulan uygulamanın kendi yerel alanında saklanır.</p>
+          </form>
+          <div class="panel factory-summary"><p class="kicker">OLUŞACAK PAKET</p><h3>Kurulum özellikleri</h3><div class="summary-list"><span><b>1</b> Kullanıcı dosya ve klasörlerle uğraşmaz.</span><span><b>2</b> n8n motoru uygulamanın içinde gizli ve yönetilen şekilde çalışır; kullanıcı hesabı gerekmez.</span><span><b>3</b> İlk açılışta marka, API ve Meta bağlantı sihirbazı gelir.</span><span><b>4</b> API/model değiştirme yetkisi burada kilitli, izinli veya açık belirlenir.</span><span><b>5</b> İstenirse güvenlik kontrollü ajans sohbeti görünür.</span><span><b>6</b> Her uygulamanın verisi ve şifreli kasası ayrıdır.</span><span><b>7</b> Son yayın açık kullanıcı onayı ister.</span></div></div>
+        </div>
+      </section>
+
+      <section id="view-portfolio" class="view">
+        <div class="section-head"><div><p class="kicker">SÜRÜMLÜ UYGULAMA ARŞİVİ</p><h2>Önceki Uygulamalarım</h2><p>Daha önce oluşturduğun ajans uygulamalarını aç, güncelle, önizle veya yeni kurulum sürümü hazırla.</p></div></div>
+        <div id="appList" class="app-list portfolio-list"></div>
+      </section>
+
+      <section id="view-portable" class="view">
+        <div class="section-head"><div><p class="kicker">BAŞKA BİLGİSAYARA TAŞI</p><h2>Taşıma ve Kurulum</h2><p>Rolleri, akışları, token planlarını ve önceki uygulamaları tek paketle taşı. Paket hiçbir API anahtarı veya hesap şifresi içermez.</p></div><span class="safe-pill">Şifre içermez</span></div>
+        <div class="grid two">
+          <article class="panel"><p class="kicker">DIŞA AKTAR</p><h3>Ajans Kurucu paketi</h3><p class="muted">Bu bilgisayardaki tasarımların taşınabilir kopyasını indir.</p><button id="exportProject" class="primary" type="button">Taşıma paketini indir</button></article>
+          <article class="panel"><p class="kicker">İÇE AKTAR</p><h3>Başka bilgisayardaki paketi aç</h3><p class="muted">Daha önce dışa aktardığın <b>.ajanskurucu</b> dosyasını seç.</p><input id="importProjectFile" type="file" accept=".ajanskurucu,application/json"><button id="importProject" class="secondary" type="button">Paketi içe aktar</button></article>
+        </div>
+        <div class="panel portable-guide"><h3>Yeni bilgisayarda çalışma</h3><ol><li>Ajans Kurucu kurulum dosyasını çalıştır.</li><li>Masaüstündeki Ajans Kurucu simgesini aç.</li><li>Bu bölümden taşıma paketini içe aktar.</li><li>Rollerin, akışların ve önceki uygulamaların geri gelir.</li></ol><p class="muted small">Kurulum ilk kez gerekli program bileşenlerini hazırlayabilir; sonrasında ajans tasarımı çevrimdışı çalışır.</p></div>
+      </section>
+
+      <section id="view-history" class="view">
+        <div class="section-head"><div><p class="kicker">GERİ ALINABİLİR DEĞİŞİKLİK</p><h2>Sürüm Geçmişi</h2><p>Taslakları ve aktif sürümleri kaynak türüne göre gör.</p></div></div>
+        <div id="historyList" class="history-list"></div>
+      </section>
+
+      <section id="view-system" class="view">
+        <div class="section-head"><div><p class="kicker">YEREL ALTYAPI</p><h2>Sistem</h2><p>Yönetim paneli, otomasyon motoru ve çalışma servislerinin durumunu gör.</p></div></div>
+        <div id="systemGrid" class="metrics system-grid"></div>
+        <div class="notice neutral"><strong>Güvenli sınır:</strong> Bu yönetici uygulaması yapay zekâ çağırmaz, içerik üretmez ve yayın yapmaz. Yalnızca rolleri, akışları, planları, sürümleri ve kullanıcı uygulaması paketlerini yönetir.</div>
+      </section>
+
+      <section id="view-guide" class="view">
+        <div class="section-head"><div><p class="kicker">SİSTEMİ ANA HATLARIYLA ANLA</p><h2>Kısa Kullanım Kılavuzu</h2><p>Ajans Kurucu, TrendyBrander çekirdeğinden kurulabilir yaşayan ajans uygulamaları tasarladığın çevrimdışı programdır.</p></div><span class="safe-pill">İnternetsiz tasarım</span></div>
+        <div class="guide-sections">
+          <article class="guide-wide"><h3>1. Rol mantığı</h3><p><strong>Rol, modelden bağımsız bir çalışma kimliğidir.</strong> Karakteri, görevi, okuyacağı bilgi, üreteceği sonuç ve yetki sınırı Rol Stüdyosu’nda tanımlanır. Model değişse bile rol aynı görevde kalır.</p><div class="agent-map"><span><b>Orkestratör</b> görevi ve sırayı seçer</span><span><b>Analizci</b> markayı ve veriyi yorumlar</span><span><b>İçerikçi</b> fikir, metin ve CTA hazırlar</span><span><b>Görselci</b> görsel brief üretir</span><span><b>Muhalifler</b> fikre itiraz edip risk bulur</span><span><b>Ordinaryüs</b> son iç kararı verir</span><span><b>Arayüz</b> sonucu kullanıcıya sunar</span><span><b>Hafıza</b> işe yarayan dersleri saklar</span></div><p>Güncellik yeni trend ve modelleri izler; Sağlık sistemi güvenli başlatır; Bağımsız Denetçi kritik kararı ayrıca kontrol eder.</p></article>
+          <article class="guide-wide"><h3>2. Model mantığı</h3><p>Model, rolün işini yaparken kullandığı yapay zekâ motorudur. Model Merkezi’nde her görev için <strong>Otomatik</strong> veya <strong>Manuel</strong> seçim yapabilirsin.</p><ul><li>Otomatik seçim önce modelsiz çözümü, sonra yeterli olan en ucuz ve hızlı modeli dener.</li><li>Kalite yetersiz veya risk yüksekse daha güçlü modele geçer.</li><li>Manuel seçimde belirlediğin sağlayıcı ve model o görev için sabitlenir.</li><li>Görsel, analiz, içerik, kontrol ve son karar için farklı modeller kullanılabilir.</li></ul><p>Ajans Kurucu bu modelleri çalıştırmaz; yalnız seçim planını kullanıcı uygulamasına aktarır.</p></article>
+          <article><b>3</b><div><h3>Akış ve kurallar</h3><p>Akış Tasarımcısı rollerin hangi sırayla çalışacağını ve tartışma sınırlarını belirler. Politikalar; token, hafıza, kalite, güvenlik ve geri alma kurallarını yönetir. Son yayın onayı kilitlidir.</p></div></article>
+          <article><b>4</b><div><h3>Plan, mod ve token sınırları</h3><p>Basic, Plus veya Pro planını seç; rol sayısı, model özgürlüğü, görev/gün/ay token sınırı ve tartışma turlarını belirle. Oto, Kontrollü Oto ve Manuel modların görünürlük ve minimum planını ayrı ayarla.</p></div></article>
+          <article><b>5</b><div><h3>Uygulama oluşturma</h3><p>Uygulamanın adını, marka adını, görünen rol isimlerini ve özelliklerini seç. API/Meta değiştirme yetkisini kilitli, izinli liste veya açık olarak belirle. Bağlantılar yalnız kurulan müşteri uygulamasında yapılır; gizli n8n hesabı gerekmez.</p></div></article>
+          <article><b>6</b><div><h3>Sürüm ve geri dönüş</h3><p>Her değişiklik yeni sürüm olur. Önce taslak kaydedebilir, sonra aktif yapabilir veya Sürüm Geçmişi’nden eski sağlam sürüme dönebilirsin.</p></div></article>
+          <article><b>7</b><div><h3>Uygulama içi sohbet</h3><p>Sohbet çubuğunu açabilir, modelini ve mesaj token sınırını belirleyebilirsin. Kullanıcı buradan içerik/görsel revizesi veya sorun bildirimi yapar; ajans gereksiz maliyet, tekrar ve marka riski gördüğünde uyarır.</p></div></article>
+          <article><b>8</b><div><h3>Gizli çalışma motoru</h3><p>Yaşayan ajansın n8n akışları uygulama paketine kapalı çalışma katmanı olarak eklenir. Son kullanıcı n8n ekranı, hesabı veya iş akışı görmez.</p></div></article>
+        </div>
+        <div class="guide-rule"><strong>Özet akış:</strong><span>Sen çevrimdışı Ajans Kurucu’da rolleri, planı ve algoritmayı tasarlarsın → kurulabilir ajans uygulaması üretirsin → kullanıcı kendi uygulamasında markasını ve hesaplarını tanıtır → yaşayan ajans çalışır → açık onay olmadan paylaşım yapılmaz.</span></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="agentDialog" class="agent-dialog">
+    <form id="agentForm" class="dialog-card agent-form">
+      <header><div><p class="kicker">ROL TANIMI</p><h2 id="agentDialogTitle">Yeni rol</h2></div><button type="button" id="closeAgent" class="icon-button">×</button></header>
+      <input id="agentId" type="hidden">
+      <div class="agent-form-grid">
+        <label>Görünen isim<input id="agentName" maxlength="120" placeholder="Örn. Analizci" required></label>
+        <label>Kısa ad<input id="agentSlug" pattern="[a-z0-9-]{2,63}" placeholder="analizci" required></label>
+        <label>Sıra<input id="agentOrder" type="number" min="0" max="999"></label>
+        <label>Kullanım<select id="agentTokenProfile"><option value="low">Az — 800</option><option value="medium">Orta — 1.800</option><option value="high">Yüksek — 4.000</option><option value="custom">Özel</option></select></label>
+        <label>Token sınırı<input id="agentTokenLimit" type="number" min="128" max="32000"></label>
+        <label>Model davranışı<select id="agentModelMode"><option value="auto">Otomatik</option><option value="manual">Sabit model</option></select></label>
+        <label>Sağlayıcı<input id="agentProvider" placeholder="Örn. Google" disabled></label>
+        <label>Model<input id="agentModel" placeholder="Model adı" disabled></label>
+      </div>
+      <label>Görevi<textarea id="agentRole" rows="3" maxlength="1000" required></textarea></label>
+      <label>Karakteri ve çalışma talimatı<textarea id="agentInstructions" rows="10" maxlength="120000" required></textarea></label>
+      <label class="switch-line"><input id="agentEnabled" type="checkbox" checked><span>Bu rol aktif</span></label>
+      <button class="primary" type="submit">Rolü kaydet</button>
+    </form>
+  </dialog>
+
+  <dialog id="editorDialog" class="editor-dialog">
+    <form method="dialog" class="editor-shell">
+      <header><div><p id="editorCategory" class="kicker"></p><h2 id="editorTitle"></h2><p id="editorDescription" class="muted"></p></div><button class="icon-button" value="cancel" aria-label="Kapat">×</button></header>
+      <div class="editor-meta"><span id="editorVersion" class="badge"></span><span id="editorHash" class="hash"></span></div>
+      <textarea id="editorContent" spellcheck="false"></textarea>
+      <label class="note-label">Değişiklik notu<input id="editorNote" placeholder="Bu sürümde ne değişti?"></label>
+      <div class="editor-footer"><button id="saveDraft" type="button" class="secondary">Taslak kaydet</button><button id="activateVersion" type="button" class="primary">Aktif şablon yap</button></div>
+      <div><h3>Eski sürümler</h3><div id="versionList" class="versions"></div></div>
+    </form>
+  </dialog>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

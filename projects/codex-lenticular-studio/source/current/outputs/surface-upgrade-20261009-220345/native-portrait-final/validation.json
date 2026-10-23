@@ -1,0 +1,28 @@
+{
+  "render_size": [
+    1872,
+    3098
+  ],
+  "raster_size": [
+    6142,
+    10164
+  ],
+  "views": 12,
+  "raster_integrity": {
+    "metadata_passed": true,
+    "sampled_pixels_verified": true,
+    "physical_3d_verified": false,
+    "sample_rows": [
+      0,
+      2541,
+      5082,
+      7623,
+      10163
+    ],
+    "checked_pixels": 30710,
+    "basis": "saved TIFF metadata and sampled encoded pixels; not a physical lens test"
+  },
+  "seconds": 232.12104809994344,
+  "texture_reuse": "Shared textures from native-portrait; depth geometry recomputed with reliable_depth_core",
+  "physical_print_verified": false
+}

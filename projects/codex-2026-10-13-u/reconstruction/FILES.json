@@ -1,0 +1,207 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 230,
+    "sha256": "108b6828c24bda0b76cfd5787d05daa5a2d5e6a67cdf2a31fa8b784077aa64dd"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 1874,
+    "sha256": "17b204babd31d4ee1aa3d3b45b125f332761180a48017f650a6dcea011a67ca5"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1089,
+    "sha256": "24fa6f609807e2e860bd7487421af3623e42570c12aa60c72b40bac1255e0361"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 828,
+    "sha256": "4a9a82aed9eaa2d47c753114321944e4b62dc6477b482afef3e7ba351803ceac"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 251,
+    "sha256": "abd0fe69b218d30a920deb50c808c76375f5967b9ea8b3dda52b326853baee46"
+  },
+  {
+    "path": "source/workspace/work/diagnose-artwork.ps1",
+    "bytes": 2585,
+    "sha256": "6d87576618096398e0b22d5e7f9e49e0bc175d1c2768b9df02508d1783bf09d6"
+  },
+  {
+    "path": "source/workspace/work/gorevli150-result.json",
+    "bytes": 890,
+    "sha256": "2f8a733935bb62d871df4e1c812c852b1d6a0647a1dddb310fa09ec26bb4b99a"
+  },
+  {
+    "path": "source/workspace/work/gorevli150.ps1",
+    "bytes": 5972,
+    "sha256": "4d96b78a22cd471bf3d62bf2114365a1454bb8ef5f358e51ec9e1d5da05907d3"
+  },
+  {
+    "path": "source/workspace/work/layout-bracelets.ps1",
+    "bytes": 5855,
+    "sha256": "d0515b8da6a5c27b9c9a2691e064b5355bf48cf8ede66275f5a8532b38c8700e"
+  },
+  {
+    "path": "source/workspace/work/layout-mekaniker350.ps1",
+    "bytes": 7910,
+    "sha256": "475311bfc6916a2a8150730ffe8f73956bd44c29bf0ef3436fbd5a44e86a49a2"
+  },
+  {
+    "path": "source/workspace/work/layout-misafir350.ps1",
+    "bytes": 7893,
+    "sha256": "f2bd6183627ba4e6eb80cffaa08a2caebe1a6bb5b881396f24cbd70f941c73ff"
+  },
+  {
+    "path": "source/workspace/work/layout-result.json",
+    "bytes": 926,
+    "sha256": "0bf5304e0ca17d19719fb2d7be1493139381a6e76bc11ef1573c866fa0b948c6"
+  },
+  {
+    "path": "source/workspace/work/match-font.ps1",
+    "bytes": 1724,
+    "sha256": "21397a4f1cc180e61223454e962ded75ca48dfebc7e9f9047b93f0347d381e59"
+  },
+  {
+    "path": "source/workspace/work/mekanik-yan-gorevli-result.json",
+    "bytes": 814,
+    "sha256": "aabcb91b007a89782f79060ca7a156f13194fdafc36978d9f6b0a5879fb839d1"
+  },
+  {
+    "path": "source/workspace/work/mekanik-yan-gorevli.ps1",
+    "bytes": 5736,
+    "sha256": "9ed0037078fee093746daaa24a3787aeef46bab5edb315cf5d3d62c13a9fb8e9"
+  },
+  {
+    "path": "source/workspace/work/mekaniker-horizontal-result.json",
+    "bytes": 1080,
+    "sha256": "97a038c1a109c4a892337e329de5ca38c38d4ab3a9c7deb37be62a5ec2a4e15f"
+  },
+  {
+    "path": "source/workspace/work/mekaniker-pairs-pages-result.json",
+    "bytes": 3092,
+    "sha256": "083d0a895fc0cafbb52c7b60a8ec2641bd12a54081db0ce929a5f4e8a5e2bc91"
+  },
+  {
+    "path": "source/workspace/work/mekaniker-pairs-pages.ps1",
+    "bytes": 7161,
+    "sha256": "46c019c9c4734c120d6775ebe5cc2fbf46afb2edeb2922f201e64d1f636e1ed9"
+  },
+  {
+    "path": "source/workspace/work/mekaniker-pairs350.ps1",
+    "bytes": 7678,
+    "sha256": "a34689c9038e0629294b58b86d6baa73db4160eca4fed2476371e161acd95d35"
+  },
+  {
+    "path": "source/workspace/work/mekaniker350-result.json",
+    "bytes": 896,
+    "sha256": "70cd2716eb98c8fe58eb74b9352983965a354fa37bc39050b190f2ece1dcae1c"
+  },
+  {
+    "path": "source/workspace/work/misa-misafir-result.json",
+    "bytes": 842,
+    "sha256": "fc217c805073fef5ecdbb559a6911cb3d8ebe94f530ba5d5615900685f6fd037"
+  },
+  {
+    "path": "source/workspace/work/misa-misafir.ps1",
+    "bytes": 5716,
+    "sha256": "06125ada1b2a47bc5aaa1a5138ce6b776b2fe4c9fe42960842a4398f2d18de62"
+  },
+  {
+    "path": "source/workspace/work/misafir350-result.json",
+    "bytes": 892,
+    "sha256": "0936719461e63a2e40c7158a992b037703cff7dc33e19087fcb38968d9ab6f1f"
+  },
+  {
+    "path": "source/workspace/work/repair-mekaniker-pairs-pages.ps1",
+    "bytes": 6634,
+    "sha256": "56cd4475c9b775dec314747deb823c29662aeb749ec659d1e0f167f2b1016244"
+  },
+  {
+    "path": "source/workspace/work/rotate-mekaniker-horizontal.ps1",
+    "bytes": 6251,
+    "sha256": "a9310b8f1cdd328a7d55a8e3be8096f6b247ffcd605164d0b254157b612c42ff"
+  },
+  {
+    "path": "source/workspace/work/verify-bracelets.ps1",
+    "bytes": 4443,
+    "sha256": "e1292a1944e091c7fdad62b8d041aa9b17799a37c8a4a51c5de277f2aadf8608"
+  },
+  {
+    "path": "source/workspace/work/verify-gorevli150.ps1",
+    "bytes": 3989,
+    "sha256": "4f5c349a3498a6dca088782343cbc1df49d7050c4e49d258c8ba34724c63935d"
+  },
+  {
+    "path": "source/workspace/work/yarisci150-pages-20261015-result.json",
+    "bytes": 2032,
+    "sha256": "46c93f5f3b114735df1069e78028100482bf6e4128dc12d5f075ab72fb479b45"
+  },
+  {
+    "path": "source/workspace/work/yarisci150-pages-20261015.ps1",
+    "bytes": 7959,
+    "sha256": "fc6591810080c2642201e4d0d0131dd99c0b5eedb34a4ac1de5f5be898a9c30d"
+  },
+  {
+    "path": "source/workspace/work/yarisci250-extend-20261015-result.json",
+    "bytes": 2640,
+    "sha256": "b7799360e0ac673833e9fcaf345cf2eb75df33716acec8b310282b9f803ee935"
+  },
+  {
+    "path": "source/workspace/work/yarisci250-extend-20261015.ps1",
+    "bytes": 7687,
+    "sha256": "7f720f83e0108464968fe5a54e4bbf474467857d1a4465501330ecfacdc48aa0"
+  }
+]

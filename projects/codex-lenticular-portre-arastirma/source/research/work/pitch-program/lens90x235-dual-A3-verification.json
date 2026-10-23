@@ -1,0 +1,559 @@
+{
+  "file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\output\\A3-60-50LPI-LENS-9x23.5\\A3-60LPI-59-61-50LPI-49-51-LENS9x23.5-1200PPI.tif",
+  "page_mm": [
+    420.01016666666663,
+    296.9895
+  ],
+  "ppi": 1200,
+  "lens_width_mm": 90,
+  "lens_vertical_height_mm": 235,
+  "pattern_width_mm": 90.00066666666666,
+  "band_height_mm": 10.498666666666667,
+  "step": "0.10",
+  "candidates_per_test": 21,
+  "all_42_native_horizontal_patterns_identical": true,
+  "vertical_extension_only": true,
+  "lens_frames_verified": true,
+  "protected_files_unchanged": true,
+  "engine": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac08f7c2fe88191a25ea989c11950e1\\lenticular\\printing.py",
+  "engine_sha256": "5dcfe47446d65cf7d769462d9e9d429ec1ef46b96d87dcf774f67e09480cd8e0",
+  "panels": [
+    {
+      "nominal_lpi": 60,
+      "lens_box_px": [
+        4252,
+        1606,
+        8504,
+        12708
+      ],
+      "range": [
+        59,
+        61
+      ],
+      "native_file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-lens90x235\\60LPI\\pitch-test.tif",
+      "native_sha256": "1f332b003c5b83420758da7fc3e7fd287e623beeeb4d629069c3aa3fe5abeedb"
+    },
+    {
+      "nominal_lpi": 50,
+      "lens_box_px": [
+        11339,
+        1606,
+        15591,
+        12708
+      ],
+      "range": [
+        49,
+        51
+      ],
+      "native_file": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\work\\pitch-program\\native-lens90x235\\50LPI\\pitch-test.tif",
+      "native_sha256": "f6390ddd3ff25be0c1986db5ea3f3a4c2464f56c1c78b3f3039496e217aeadb2"
+    }
+  ],
+  "rows": [
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.00",
+      "box_px": [
+        4252,
+        1709,
+        8504,
+        2205
+      ],
+      "native_rgb_sha256": "e629195fe3da2cd45de62a4efca5a0a41e3622c1fe1ea92cd4d65594c07ad3b1",
+      "printed_rgb_sha256": "7ed8a78c2426a67f6e877eab50c303519f5eeddcc16ad37b559349f6c7e3a7fa"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.10",
+      "box_px": [
+        4252,
+        2229,
+        8504,
+        2725
+      ],
+      "native_rgb_sha256": "e634f2e43306b5c592822a8b7bce0d5f0d96429908309ef01e6637c17ab43d71",
+      "printed_rgb_sha256": "41e28d3724dca312a719faabca7bbee457786e1c83b19765c4711ba72a40bb0b"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.20",
+      "box_px": [
+        4252,
+        2749,
+        8504,
+        3245
+      ],
+      "native_rgb_sha256": "e55e04c74c853cbb2131514cd99937ed765f311bce085de1900e1f0497c93915",
+      "printed_rgb_sha256": "4df60a997c6d713176f534040e3d316305d46f0230393ebc4674d2b203f2c3b2"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.30",
+      "box_px": [
+        4252,
+        3269,
+        8504,
+        3765
+      ],
+      "native_rgb_sha256": "aca7f31e2f08ebe0a368b46c3279c835bf5628abf01c430c5cc2d18246f320e3",
+      "printed_rgb_sha256": "6e8b1dbd06f8bed0ef3b812fe3b52f30f80b9244ac1a3ab3bbac78d527c058dd"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.40",
+      "box_px": [
+        4252,
+        3789,
+        8504,
+        4285
+      ],
+      "native_rgb_sha256": "4ca215206605a7ccb3c9f2c4e31f374b65c133a87649952445d16f933846e831",
+      "printed_rgb_sha256": "663a64f768aeb877ade6f446b67bea24547e0cb6025fae7a25d7471e3a673e5e"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.50",
+      "box_px": [
+        4252,
+        4309,
+        8504,
+        4805
+      ],
+      "native_rgb_sha256": "042f9806d8ff040dc95a34520ff839b7c064c1f3f3f981139f254502895573a8",
+      "printed_rgb_sha256": "184925a8f4b45ec01ef61480048fc11e7b997edcb5249e671a1792c4853544dc"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.60",
+      "box_px": [
+        4252,
+        4829,
+        8504,
+        5325
+      ],
+      "native_rgb_sha256": "3125931b20c05dd5fea22baa0556afb752df551935c65f7558180b3be8b744b3",
+      "printed_rgb_sha256": "16282311675eea55cabb609fb41b85873cd2c0cc9c520ae28c8200d105a66504"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.70",
+      "box_px": [
+        4252,
+        5349,
+        8504,
+        5845
+      ],
+      "native_rgb_sha256": "2996121d6ee3e0e5a944d45d86b74c30c9de056f25fc0547881ba845c9552bd4",
+      "printed_rgb_sha256": "40a1c3fd5a7595ede5072d1fc74fe9d405f08dce176f83688d813138724ca27c"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.80",
+      "box_px": [
+        4252,
+        5869,
+        8504,
+        6365
+      ],
+      "native_rgb_sha256": "f03ba0337dd2fe5a715be5c448ec44a6ac35dd5f39102b339e69270ca53c6ef3",
+      "printed_rgb_sha256": "aa2ba7e8d53e26a70aa721f32079dea11ab7de7f5b4d01691410841e87ba0d3f"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "59.90",
+      "box_px": [
+        4252,
+        6389,
+        8504,
+        6885
+      ],
+      "native_rgb_sha256": "717df4d97a8121c0c58b2b90bc275745a8f64392d2fb2bf2a01076ab84185415",
+      "printed_rgb_sha256": "c987d208003977a3aff6318ce51bbc84a48d471350fde1ed86f30dcbc13395fe"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.00",
+      "box_px": [
+        4252,
+        6909,
+        8504,
+        7405
+      ],
+      "native_rgb_sha256": "5dde93c10b9449ca7ca6fc0af2f04afbe8ec4acf41b81cc309f846772f5d1193",
+      "printed_rgb_sha256": "b8d5c3cf05c8a942a057828587d93708ef8210b0c2cea4062a7fe42d57b0a548"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.10",
+      "box_px": [
+        4252,
+        7429,
+        8504,
+        7925
+      ],
+      "native_rgb_sha256": "48806c7202de5126fceb991a4270033d889a12f790f92a262beac1ad39889d8e",
+      "printed_rgb_sha256": "f3a39ab112f54305cebc6acbc57a9cb23c2daa42c9b4eb7752da51698b576d0e"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.20",
+      "box_px": [
+        4252,
+        7949,
+        8504,
+        8445
+      ],
+      "native_rgb_sha256": "2e0da10ca327271519e5ae66fc7adbd7b9c0d366bc22284d7ce8d2137e164f4e",
+      "printed_rgb_sha256": "32c109184ce3c8dd042c411e3f11be16947934958c208fcc788ff90206673f1a"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.30",
+      "box_px": [
+        4252,
+        8469,
+        8504,
+        8965
+      ],
+      "native_rgb_sha256": "de0434405956cbae501943703fd0300b46ee6e48837ad053a4561dadf1f1dae7",
+      "printed_rgb_sha256": "c694e285be70f69dcfb964c10312bd13f73d0712f8b238da80dc4aa98fe8e170"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.40",
+      "box_px": [
+        4252,
+        8989,
+        8504,
+        9485
+      ],
+      "native_rgb_sha256": "d072b1cd69ee4ff695082863d0101ed6e5de4b0aadc8984c0cf40c2f4cf55f69",
+      "printed_rgb_sha256": "dd16aa5f2e132158b0eae45759c92aee4e015f40e95e3ac933a82f131e7f17ba"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.50",
+      "box_px": [
+        4252,
+        9509,
+        8504,
+        10005
+      ],
+      "native_rgb_sha256": "37eb8bc7f66cae1aed1d9580d847c5b948642c16c78c9b1dca63b6105a40e1e6",
+      "printed_rgb_sha256": "70e86470b64e07ff0ee438c1e1ea0a406a3137ea653bde1930dd0641897b473b"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.60",
+      "box_px": [
+        4252,
+        10029,
+        8504,
+        10525
+      ],
+      "native_rgb_sha256": "773de20cf1d5aff5abf5efe2b45662245bc2dcc116c967cbc87dec7280b1534d",
+      "printed_rgb_sha256": "f1b5b7fbec11e32f154fddd6e5a13977a05c1b21ef8cfe23f9e6b848fc21993f"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.70",
+      "box_px": [
+        4252,
+        10549,
+        8504,
+        11045
+      ],
+      "native_rgb_sha256": "e5062807c8091b75dcfa0289cfbc7b34a00857c16c3809ad4cabf8ec9ca62bcc",
+      "printed_rgb_sha256": "c1b67fae39564b9221e5fcfe885f71d73d541b3c7e1a7d2d4a0e0cad60e07701"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.80",
+      "box_px": [
+        4252,
+        11069,
+        8504,
+        11565
+      ],
+      "native_rgb_sha256": "9b40567c2b4e33512fc08bb4c964c7101808505195874d3e30877d2321ff1155",
+      "printed_rgb_sha256": "e2d6f62aea42bf294540d50b764428e1c1809d7e71b2c5dce32f071465dcbc6f"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "60.90",
+      "box_px": [
+        4252,
+        11589,
+        8504,
+        12085
+      ],
+      "native_rgb_sha256": "f99c3274108581ee291c78d5ece08b6075f39dbc1d71a7207e5dacffc729ff17",
+      "printed_rgb_sha256": "ec557ff10d8332e0c21b1bcd5eb800ef3b529b158185c261fe3b435489846070"
+    },
+    {
+      "nominal_lpi": 60,
+      "lpi": "61.00",
+      "box_px": [
+        4252,
+        12109,
+        8504,
+        12605
+      ],
+      "native_rgb_sha256": "82605705d55bf4829f29f152c4fd9b6bb7ddd38ead369b0dd696d354d422f19b",
+      "printed_rgb_sha256": "8fe0e8721741f60c62d11dd612f84ec8d6d0212992b26ddb760716d19f52c639"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.00",
+      "box_px": [
+        11339,
+        1709,
+        15591,
+        2205
+      ],
+      "native_rgb_sha256": "e4575baa754fe8914c6f282bbad70afe5e6da97f839e8d141418f038019f1c3d",
+      "printed_rgb_sha256": "9ae4b9bd7d5cae69bcf3a91378dd2014ea686b3b95456805a477aca8d56d3123"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.10",
+      "box_px": [
+        11339,
+        2229,
+        15591,
+        2725
+      ],
+      "native_rgb_sha256": "99e46b4f95b5c1e5d9a7b8a1e812502d9802bea906825453f410a27e4611d3f4",
+      "printed_rgb_sha256": "2fc6a9fb29d8aaee25e15ba5ba6b2d08260b2eb8e24954b4f1d3ea695fe07897"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.20",
+      "box_px": [
+        11339,
+        2749,
+        15591,
+        3245
+      ],
+      "native_rgb_sha256": "6e1a4cba97e026a7bd717149e8c8a0fe9d59f479157d6f5d6812279bcb634c59",
+      "printed_rgb_sha256": "b625249594920c99b1a114ea107adc5e6d46cba3e3b4eb6fbc15492e27437cb0"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.30",
+      "box_px": [
+        11339,
+        3269,
+        15591,
+        3765
+      ],
+      "native_rgb_sha256": "d408d49f0fbc372300634d76b70ee4a69280c9866083d206e39d1ad0737e6cc0",
+      "printed_rgb_sha256": "85c6bfed7a3e1e26e1fb0b433def379f614a0f3ebf7b6680208ad7183ef5d055"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.40",
+      "box_px": [
+        11339,
+        3789,
+        15591,
+        4285
+      ],
+      "native_rgb_sha256": "d2493cd59ed42e5b652c3f177dfda00893f42bea15ce6e09b2a033817b54967d",
+      "printed_rgb_sha256": "b783610530b33ed3f90eaf076f4e1949012f97092d5be295bf9eb2ad19b5056e"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.50",
+      "box_px": [
+        11339,
+        4309,
+        15591,
+        4805
+      ],
+      "native_rgb_sha256": "3c4d48b2cfbffdd0d4e5b162eef7562738cd8f421cd2c5aa607a8b25726da01c",
+      "printed_rgb_sha256": "0e56897bfeb98e55353825ab29dd8dad3bc9810b6d85f380226adf5b13f8ead5"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.60",
+      "box_px": [
+        11339,
+        4829,
+        15591,
+        5325
+      ],
+      "native_rgb_sha256": "818c57f4878b1c926b6ff8fe73fcf4597f7633815271ee08489f25f4b54469be",
+      "printed_rgb_sha256": "5ca867a9103f18c9fcef1a7e98bf30dd60ff86abd5cdb80ba3560abdd0cd8008"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.70",
+      "box_px": [
+        11339,
+        5349,
+        15591,
+        5845
+      ],
+      "native_rgb_sha256": "7f27caf86bb4e6b439ab7a61b655967931f874384ea1bf36518adf1811527812",
+      "printed_rgb_sha256": "ce7159629effa378147e113a947efbee3fb4beb8837ea62bcef5b24da6b5b7b0"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.80",
+      "box_px": [
+        11339,
+        5869,
+        15591,
+        6365
+      ],
+      "native_rgb_sha256": "6a4129838ead48610970ef53aa32a82137d1bdd5fcc43170825b201624bd4bb2",
+      "printed_rgb_sha256": "53af2794588655f7f3ad0446acdbed9f6eff83e6f15f26cbe19f07ec3dd661ec"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "49.90",
+      "box_px": [
+        11339,
+        6389,
+        15591,
+        6885
+      ],
+      "native_rgb_sha256": "f4493099b4177a3646f9a685d84953af81e6604b8169058177015bb1b284049c",
+      "printed_rgb_sha256": "2b3d60c4760b40af73c187432aebc28af50dd5621122e3c5433f16b6b091054a"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.00",
+      "box_px": [
+        11339,
+        6909,
+        15591,
+        7405
+      ],
+      "native_rgb_sha256": "e35bacbfd7b235e125529dacbb402795c0992570ad8a1e38587afe44f18d5143",
+      "printed_rgb_sha256": "3248b86cdd1a4bdca57fc7c0e5603b5b93bc0cc4182495ce4643db6b0aed416d"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.10",
+      "box_px": [
+        11339,
+        7429,
+        15591,
+        7925
+      ],
+      "native_rgb_sha256": "54ac8ed8ff5e3583328a8234351c5fa66a35471e49bdeb1519fa1e93e63df5a2",
+      "printed_rgb_sha256": "f1a64c04802dd60805d24f6ac00ae5d389442364a7ae96432404ea958212b4f8"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.20",
+      "box_px": [
+        11339,
+        7949,
+        15591,
+        8445
+      ],
+      "native_rgb_sha256": "88096c865bcb4845acdb234553555e52f727f2960602e1cc697001c8558972e5",
+      "printed_rgb_sha256": "507a00f71c8ee74066dafd538bd37a1700ab08cd194d6687934958ac2d7d05e8"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.30",
+      "box_px": [
+        11339,
+        8469,
+        15591,
+        8965
+      ],
+      "native_rgb_sha256": "f90cb04003af32bf5fa268ce12ee9d83542e9ce4557698e772864754d5e38bed",
+      "printed_rgb_sha256": "f2953e7abb714ad1de9d33d75f3726fac43255d88634b8c35ff6a62dd19e4c8d"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.40",
+      "box_px": [
+        11339,
+        8989,
+        15591,
+        9485
+      ],
+      "native_rgb_sha256": "21490ac12a77be48d3dd85e3b0e987ba860b8be4ec77d1831d94ec05cb410d18",
+      "printed_rgb_sha256": "c15a8dde3b150fd50c053dd0bd6aa5ffb29a8a2fb37b35e251d858292b8a2418"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.50",
+      "box_px": [
+        11339,
+        9509,
+        15591,
+        10005
+      ],
+      "native_rgb_sha256": "f51b0642ce7b31406631245a8ace78c8c02a2336f05b741eb136d6f58b3843b1",
+      "printed_rgb_sha256": "5a2993430b59a69a2a98847cffb78d24e52715ff725ad26f1878ad31a9eaccbd"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.60",
+      "box_px": [
+        11339,
+        10029,
+        15591,
+        10525
+      ],
+      "native_rgb_sha256": "f3a1f4b5265c9516f9f1ccd2f82bf18e5a064688c5541c6a0d6d549bec392d3e",
+      "printed_rgb_sha256": "cf8d27f23e06e72dc8ef3ccdbd3d1a8d7deb2f531ea992723e1d1c341fc9c2e5"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.70",
+      "box_px": [
+        11339,
+        10549,
+        15591,
+        11045
+      ],
+      "native_rgb_sha256": "b7305f09923e19c127e18edc85d5f79c414eaac49666f664d67bc10a1bbdc179",
+      "printed_rgb_sha256": "efac799d6192f887a4297035d9a3c55d27ab1208b1543aa7d582031786aa7adf"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.80",
+      "box_px": [
+        11339,
+        11069,
+        15591,
+        11565
+      ],
+      "native_rgb_sha256": "c82fc35a6e9becb8666d2969ab705ce5574c94698787e1276e1a680c26fa86f3",
+      "printed_rgb_sha256": "c1ef6fa207ad75241a94d5eccbf2351b86d214759463a1ce0d698600b9a652e1"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "50.90",
+      "box_px": [
+        11339,
+        11589,
+        15591,
+        12085
+      ],
+      "native_rgb_sha256": "b6debfb6725faebf87d679909fe2e571cb2ccbac5e8153879332892a9ca9f84e",
+      "printed_rgb_sha256": "958d31b39ecf4e0b31491f5273439d492b9c1c70e92042522080ce1b834085a6"
+    },
+    {
+      "nominal_lpi": 50,
+      "lpi": "51.00",
+      "box_px": [
+        11339,
+        12109,
+        15591,
+        12605
+      ],
+      "native_rgb_sha256": "7c60a081118a6e8a1c2f12d405d7d33260f3158e6239ee00360856e90498692f",
+      "printed_rgb_sha256": "60e9d1b70d072b6b427ad50b1f9f928b29cc9e1d50941aa257fe63490e3c79bd"
+    }
+  ],
+  "sha256": "73f4e8472a3b41ca5916083025b101a4dd47e64c345cd1c95ef061192d352333"
+}

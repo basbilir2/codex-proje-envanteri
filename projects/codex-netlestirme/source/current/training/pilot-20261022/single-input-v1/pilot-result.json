@@ -1,0 +1,70 @@
+{
+  "kind": "LoRA adaptation pilot",
+  "status": "completed",
+  "configuration": {
+    "schema": 1,
+    "upstream_repository": "https://github.com/modelscope/DiffSynth-Studio.git",
+    "upstream_revision": "d188f01d09013688dea27cc28f2e8dc0953c2543",
+    "model": "Qwen-Image-Edit-2511",
+    "training_cases": 6,
+    "validation_cases": 2,
+    "lora_rank": 16,
+    "learning_rate": 0.0001,
+    "dataset_repeat": 8,
+    "epochs": 1,
+    "planned_optimizer_steps": 48,
+    "checkpoint_file": "step-48.safetensors",
+    "width": 768,
+    "height": 512,
+    "seed": 42,
+    "evaluation_steps": 40,
+    "minimum_gpu_gib": 40,
+    "minimum_free_disk_gib": 65,
+    "session_wall_limit_seconds": 3600,
+    "training_timeout_seconds": 1500,
+    "cache_timeout_seconds": 420,
+    "evaluation_timeout_seconds": 900,
+    "session_spend_limit_usd": 1.0,
+    "overall_authorized_budget_usd": 15,
+    "last_seen_balance_usd": 10.26,
+    "max_quoted_total_usd_hour": 1.0,
+    "mavi_in_training": false,
+    "single_pilot_no_parameter_sweep": true,
+    "cached_preprocessing": true,
+    "status": "corrected_validation_cloud_starting",
+    "pod_id": "c5p7p5u451kqpy",
+    "observed_start_balance_usd": 10.09,
+    "observed_total_usd_hour": 0.604,
+    "container_disk_gb": 100,
+    "session_started_at_utc": "2026-10-22T14:17:24.799440+00:00",
+    "optimizer_steps_verified": 0,
+    "checkpoint_created": false,
+    "pod_running": true,
+    "observed_current_usd_hour": 0.604,
+    "checkpoint_flags_fixed_in_source": true,
+    "checkpoint_flags_fix_cloud_verified": false,
+    "correction_validation_run": true,
+    "new_session_spend_usd": 0,
+    "training_started_this_session": false
+  },
+  "phases": [
+    {
+      "phase": "CACHE",
+      "seconds": 20.16,
+      "exit_code": 0
+    },
+    {
+      "phase": "TRAIN",
+      "seconds": 404.94,
+      "exit_code": 0
+    },
+    {
+      "phase": "EVALUATE",
+      "seconds": 873.93,
+      "exit_code": 0
+    }
+  ],
+  "seconds": 1299.23,
+  "checkpoint": "/workspace/recovery-training/pilot-20261022/checkpoints/step-48.safetensors",
+  "quality_accepted": false
+}

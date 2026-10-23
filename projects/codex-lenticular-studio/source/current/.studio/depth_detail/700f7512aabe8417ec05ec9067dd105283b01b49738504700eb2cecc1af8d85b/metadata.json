@@ -1,0 +1,235 @@
+{
+  "version": 2,
+  "model_revision": "f465978e618db8cc79c83b8bbf24964857db1875",
+  "tiles": [
+    {
+      "tile": 0,
+      "accepted": true,
+      "correlation": 0.9023824820096342,
+      "scale": 0.6740539387033377,
+      "focused": false,
+      "box": [
+        0.0,
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "tile": 1,
+      "accepted": true,
+      "correlation": 0.9605278737238823,
+      "scale": 0.9196139877226753,
+      "focused": false,
+      "box": [
+        0.25,
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "tile": 2,
+      "accepted": true,
+      "correlation": 0.9024482556242345,
+      "scale": 0.497029430588712,
+      "focused": false,
+      "box": [
+        0.5,
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "tile": 3,
+      "accepted": true,
+      "correlation": 0.9369548564671021,
+      "scale": 1.203354205288411,
+      "focused": false,
+      "box": [
+        0.0,
+        0.25,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "tile": 4,
+      "accepted": true,
+      "correlation": 0.971470238510684,
+      "scale": 1.1221962943662196,
+      "focused": false,
+      "box": [
+        0.25,
+        0.25,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "tile": 5,
+      "accepted": true,
+      "correlation": 0.9537790180051183,
+      "scale": 0.9623625220798375,
+      "focused": false,
+      "box": [
+        0.5,
+        0.25,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "tile": 6,
+      "accepted": true,
+      "correlation": 0.9396052328118896,
+      "scale": 0.9776195139984554,
+      "focused": false,
+      "box": [
+        0.0,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "tile": 7,
+      "accepted": true,
+      "correlation": 0.9576933294600213,
+      "scale": 1.1789851528173878,
+      "focused": false,
+      "box": [
+        0.25,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "tile": 8,
+      "accepted": true,
+      "correlation": 0.987851234277434,
+      "scale": 0.8815973369822263,
+      "focused": false,
+      "box": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "tile": 9,
+      "accepted": true,
+      "correlation": 0.9413966807008135,
+      "scale": 0.15,
+      "focused": true,
+      "box": [
+        0.3601823708206687,
+        0.7200520833333334,
+        0.2796352583586626,
+        0.2799479166666667
+      ]
+    },
+    {
+      "tile": 10,
+      "accepted": true,
+      "correlation": 0.9641897775497686,
+      "scale": 0.7923569110276167,
+      "focused": true,
+      "box": [
+        0.3601823708206687,
+        0.1796875,
+        0.2796352583586626,
+        0.2799479166666667
+      ]
+    },
+    {
+      "tile": 11,
+      "accepted": true,
+      "correlation": 0.8732591768778479,
+      "scale": 0.3115776948576348,
+      "focused": true,
+      "box": [
+        0.540273556231003,
+        0.1796875,
+        0.2796352583586626,
+        0.2799479166666667
+      ]
+    },
+    {
+      "tile": 12,
+      "accepted": true,
+      "correlation": 0.6573753395589571,
+      "scale": 0.15,
+      "focused": true,
+      "box": [
+        0.540273556231003,
+        0.0,
+        0.2796352583586626,
+        0.2799479166666667
+      ]
+    },
+    {
+      "tile": 13,
+      "accepted": true,
+      "correlation": 0.9596207759543477,
+      "scale": 0.5260043657225371,
+      "focused": true,
+      "box": [
+        0.18009118541033434,
+        0.7200520833333334,
+        0.2796352583586626,
+        0.2799479166666667
+      ]
+    },
+    {
+      "tile": 14,
+      "accepted": true,
+      "correlation": 0.9461000366134654,
+      "scale": 0.6510226722428001,
+      "focused": true,
+      "box": [
+        0.540273556231003,
+        0.3600260416666667,
+        0.2796352583586626,
+        0.2799479166666667
+      ]
+    },
+    {
+      "tile": 15,
+      "accepted": true,
+      "correlation": 0.9092241122085315,
+      "scale": 0.6359448827747307,
+      "focused": true,
+      "box": [
+        0.18009118541033434,
+        0.1796875,
+        0.2796352583586626,
+        0.2799479166666667
+      ]
+    },
+    {
+      "tile": 16,
+      "accepted": true,
+      "correlation": 0.9716613312155638,
+      "scale": 0.6403125333757586,
+      "focused": true,
+      "box": [
+        0.540273556231003,
+        0.7200520833333334,
+        0.2796352583586626,
+        0.2799479166666667
+      ]
+    }
+  ],
+  "delta_limit": 0.06,
+  "delta_range": [
+    -0.05999999865889549,
+    0.05999999865889549
+  ],
+  "delta_rms": 0.019085604697465897,
+  "method": "9 overlapping AI regions plus 8 finer crops selected by texture/depth detail mismatch; positive affine scale; bounded residual; edge suppression",
+  "limitation": "Estimated local relief, not recovered ground-truth geometry. No luminance-to-depth conversion."
+}

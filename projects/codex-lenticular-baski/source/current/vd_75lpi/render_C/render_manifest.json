@@ -1,0 +1,52 @@
+{
+  "source_sha256": "d7d3c1c669483c99540c1f82ad71e34d3aa9b027facf6ce1c5785e400f694ec5",
+  "depth_sha256": "931371a06d7434291818da22b7598206f5460a1810f7c777b3d350deb3cb879b",
+  "render": {
+    "nr": 8,
+    "angle_deg": 3.1256377702916764,
+    "effect_strength": 1.0,
+    "zero_reference": 0.5,
+    "depth_smoothing": 0.15,
+    "depth_strokes": [],
+    "grid_size": 1024,
+    "repair": true,
+    "layers": 4,
+    "inpaint_radius": 5,
+    "process_res": 1008,
+    "render_long_edge": 0,
+    "depth_curve": "balanced",
+    "front_strength": 1.0,
+    "back_strength": 1.0,
+    "edge_refinement": 0.5,
+    "parallax_guard": true,
+    "max_parallax_percent": 1.561777777777778,
+    "edge_guard": true,
+    "camera_axis": "x",
+    "depth_black": 0.0,
+    "depth_white": 1.0,
+    "depth_gamma": 1.0,
+    "detail_enabled": true,
+    "detail_strength": 0.8,
+    "surface_strength": 0,
+    "reference_point": {
+      "x": 0.5120256547300909,
+      "y": 0.13948982886664513
+    },
+    "front_parallax_percent": 1.0411851851851852,
+    "back_parallax_percent": 1.561777777777778,
+    "object_regions": [],
+    "repair_quality": "advanced",
+    "depth_normalization": "preserve"
+  },
+  "engine_hashes": {
+    "pipeline.py": "b7fcaab99eb7ad7c39527b37e28f0520555aac4a53c43c98507d9e8543a7e516",
+    "analyzer.py": "0721e334688a407af5413a6d5f08ada30c26f3b22b45b9d4110951e25b0b3905",
+    "repair.py": "da2b4a72dd2abd6f76638033c4c751407ab962c2256104ad80b9b8041377fc51",
+    "optics.py": "7e02d88a75ada712da005c357062710b93b20f7dcccd2c856abfd0233c13be74",
+    "printing.py": "5dcfe47446d65cf7d769462d9e9d429ec1ef46b96d87dcf774f67e09480cd8e0",
+    "geometry.py": "8c3f6e18c3553f3f9c341b3cabc9345a2e328bc1a0c00d1e2df0c5bcc67eaaab",
+    "depth.py": "fc01daa21b29bc9309c4f3a3544b835ebd5767aa4a7f97c965f4da328118ab93",
+    "detail_depth.py": "fbfb11c299de1ea3955482bdcb750c3db28169b583fdb369feb22b76ebf6c2e8",
+    "runner.py": "2b08448a7a28f671dd85c137d1e3de76c613151856e84bef4f20f0b9af58a2b2"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "portrait": {
+    "size_px": [
+      6142,
+      10164
+    ],
+    "ppi": [
+      1200.0,
+      1200.0
+    ],
+    "size_mm": [
+      130.00566666666666,
+      215.138
+    ],
+    "dtype": "uint8"
+  },
+  "ataturk": {
+    "size_px": [
+      9449,
+      11028
+    ],
+    "ppi": [
+      1200.0,
+      1200.0
+    ],
+    "size_mm": [
+      200.00383333333332,
+      233.426
+    ],
+    "dtype": "uint8"
+  },
+  "regions": {
+    "face": {
+      "center_source_mae": 2.59724383524827,
+      "fine_horizontal_residual_rms": 10.22457218170166,
+      "width_lenticules": 56.047681539807535
+    },
+    "cloth": {
+      "center_source_mae": 3.3625288501452886,
+      "fine_horizontal_residual_rms": 9.281759262084961,
+      "width_lenticules": 75.18591426071742
+    },
+    "thumb": {
+      "center_source_mae": 1.5600466480074637,
+      "fine_horizontal_residual_rms": 7.66447639465332,
+      "width_lenticules": 56.047681539807535
+    }
+  },
+  "source_pixels_per_lenticule": 7.315199999999999,
+  "lenticular_sampling": {
+    "portrait_lenticules_across_width": 255.90551181102364,
+    "ataturk_lenticules_across_width": 393.7083333333333,
+    "output_pixels_per_lenticule": 24.0,
+    "output_pixels_per_channel": 4.0
+  }
+}

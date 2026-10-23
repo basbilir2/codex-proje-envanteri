@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "kind": "multiview_3d",
+  "ns": 1,
+  "engine": "Blender",
+  "config": {
+    "nr": 10,
+    "ne": 10,
+    "near": 1.5,
+    "far": 3.0,
+    "zero": 2.0,
+    "focal_mm": 50.0,
+    "sensor_width_mm": 36.0,
+    "camera_span": 0.13968307796699092,
+    "positions": [
+      -0.06984153898349546,
+      -0.05431247749662604,
+      -0.03878995720190407,
+      -0.02327210693816933,
+      -0.007757057793839821,
+      0.007757057793839814,
+      0.02327210693816933,
+      0.038789957201904056,
+      0.05431247749662603,
+      0.06984153898349546
+    ],
+    "grid_size": 512,
+    "edge_threshold": 1.0,
+    "depth_convention": "white-near",
+    "sweep_seconds": 2.0,
+    "camera_axis": "x",
+    "edge_mode": "cut"
+  },
+  "legacy_job": {
+    "schema_version": 1,
+    "stage": "fresh_semantic_portrait",
+    "config": {
+      "nr": 10,
+      "ne": 10,
+      "near": 1.5,
+      "far": 3.0,
+      "zero": 2.0,
+      "focal_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "camera_span": 0.13968307796699092,
+      "positions": [
+        -0.06984153898349546,
+        -0.05431247749662604,
+        -0.03878995720190407,
+        -0.02327210693816933,
+        -0.007757057793839821,
+        0.007757057793839814,
+        0.02327210693816933,
+        0.038789957201904056,
+        0.05431247749662603,
+        0.06984153898349546
+      ],
+      "grid_size": 512,
+      "edge_threshold": 1.0,
+      "depth_convention": "white-near",
+      "sweep_seconds": 2.0,
+      "camera_axis": "x",
+      "edge_mode": "cut"
+    },
+    "size": [
+      1872,
+      3098
+    ],
+    "mesh": {
+      "vertices": 1740096,
+      "triangles": 3469312,
+      "focal_px": 2600.0,
+      "layer_count": 4
+    },
+    "source_inputs": {
+      "photo": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\inference\\photo.png",
+      "photo_sha256": "f839e0c6e4c0748d97e3f1f5446f9cad4e93230937206fc19e0583d868253f9c",
+      "depth": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\inference\\relative_depth.npy",
+      "depth_sha256": "5f7ff564061fb674cc0ed1b747f2b6b18ec9f3e0229b0de729457845b2e5b1c3"
+    },
+    "fresh_plan": {
+      "config": {
+        "nr": 2,
+        "ne": 10,
+        "near": 1.5,
+        "far": 3.0,
+        "zero": 2.0,
+        "focal_mm": 50.0,
+        "sensor_width_mm": 36.0,
+        "camera_span": 0.13968307796699092,
+        "positions": [
+          -0.06984153898349546,
+          0.06984153898349546
+        ],
+        "grid_size": 512,
+        "edge_threshold": 1.0,
+        "depth_convention": "white-near",
+        "sweep_seconds": 2.0,
+        "camera_axis": "x",
+        "edge_mode": "cut"
+      },
+      "size": [
+        1872,
+        3098
+      ],
+      "source_inputs": {
+        "photo": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\inference\\photo.png",
+        "photo_sha256": "f839e0c6e4c0748d97e3f1f5446f9cad4e93230937206fc19e0583d868253f9c",
+        "depth": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\inference\\relative_depth.npy",
+        "depth_sha256": "5f7ff564061fb674cc0ed1b747f2b6b18ec9f3e0229b0de729457845b2e5b1c3"
+      },
+      "method": "Fresh DA3 at 1008; source-image semantic occlusion masks; continuous torso/shorts geometry; no depth quantile partitions.",
+      "model_source": "https://github.com/ByteDance-Seed/Depth-Anything-3",
+      "nose_pixel": [
+        958,
+        432
+      ],
+      "zero_reference": 0.5,
+      "max_endpoint_parallax_percent": 2.4,
+      "no_old_depth_or_layers": true,
+      "no_detail_crops": true,
+      "no_luminance_relief": true
+    },
+    "coordinate_convention": "X right, Y up; positive endpoint disparity is behind",
+    "limitations": [
+      "Single-photo geometry and hidden surfaces are estimated; physical print verification required."
+    ],
+    "cached_scene": "C:\\Users\\USER\\.codex\\.chatgpt-projects\\g-p-6ac173361d8c8191a1449be5154f589f\\fresh-portrait-20261011\\scene\\scene.blend",
+    "surface_transform": {
+      "reference": 0.5,
+      "front_gain": 0.7,
+      "back_gain": 1.0
+    },
+    "source_is_fresh": true
+  },
+  "frames": [
+    {
+      "path": "views/view_0000.png",
+      "view_coordinate": -0.03490658503988659,
+      "generated": true
+    },
+    {
+      "path": "views/view_0001.png",
+      "view_coordinate": -0.027149566142134016,
+      "generated": true
+    },
+    {
+      "path": "views/view_0002.png",
+      "view_coordinate": -0.01939254724438144,
+      "generated": true
+    },
+    {
+      "path": "views/view_0003.png",
+      "view_coordinate": -0.011635528346628864,
+      "generated": true
+    },
+    {
+      "path": "views/view_0004.png",
+      "view_coordinate": -0.003878509448876289,
+      "generated": true
+    },
+    {
+      "path": "views/view_0005.png",
+      "view_coordinate": 0.0038785094488762856,
+      "generated": true
+    },
+    {
+      "path": "views/view_0006.png",
+      "view_coordinate": 0.011635528346628864,
+      "generated": true
+    },
+    {
+      "path": "views/view_0007.png",
+      "view_coordinate": 0.019392547244381435,
+      "generated": true
+    },
+    {
+      "path": "views/view_0008.png",
+      "view_coordinate": 0.027149566142134013,
+      "generated": true
+    },
+    {
+      "path": "views/view_0009.png",
+      "view_coordinate": 0.03490658503988659,
+      "generated": true
+    }
+  ]
+}

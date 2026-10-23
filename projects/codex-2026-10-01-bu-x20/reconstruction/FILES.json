@@ -1,0 +1,147 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 312,
+    "sha256": "325f0802afb0fe53f08044185019aece3bc58e99534c767f58a70c95456442a8"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 1493,
+    "sha256": "cbf7bdf193053bdfdbc0dcd859126d1b974230dae5c4831e81bd090a67cc264b"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1094,
+    "sha256": "7c2dedbf68b2e5bb816d15fe9b03bb030cd419d7cec3e2802082d8070ae3c940"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 598,
+    "sha256": "9d7bd1582e61078b5c143e96082deb27d8b442adc9ce37b9f492e7a6a34fe84a"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "26f399cea04979beb0f662712b4f9b9528497f1f1c66b66293be9f8e82c3bf6e"
+  },
+  {
+    "path": "source/workspace/work/analyze_kasa.py",
+    "bytes": 2102,
+    "sha256": "f11b6395e7ece09173eab6450744aa04ad9f99f7308ad44ba0714eba9b0301a0"
+  },
+  {
+    "path": "source/workspace/work/inspect_kasa.py",
+    "bytes": 980,
+    "sha256": "9a71d83bcf195d2ce751bcac7866cdf4cc49723db431eb5d5e6f1f4a8e6416be"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/biffh.py",
+    "bytes": 16651,
+    "sha256": "1a3b41a08f4f34811d6d99864ef7c343c1ee85988b25dda87dda36aa6ba7ce60"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/book.py",
+    "bytes": 57527,
+    "sha256": "d4b1f1c9631be74641230525642e14b4815e9b9cbca3c337cc00dc74f085ffce"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/compdoc.py",
+    "bytes": 21091,
+    "sha256": "df191fb896cb44644c74f899541b160201a4b70ec99dafb0de9fe5713093e984"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/formatting.py",
+    "bytes": 45573,
+    "sha256": "e8c87a18e33b1594e3d1c2781474a5d02568fbc227603bf6288653332704c3a4"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/formula.py",
+    "bytes": 94460,
+    "sha256": "72011735609a6152b3219c1aec85b4b43702d485f352f86a25750e2fbe57a1ac"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/info.py",
+    "bytes": 36,
+    "sha256": "030b2f2f9ed9fa598a0c368205f515a24c0cc0fbc92e7f638c6b6a3fd81ebcec"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/sheet.py",
+    "bytes": 106806,
+    "sha256": "9a1c04a84b5e508418f632b90b25fceecb6e9363265d444e35ff3a91940c858d"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/timemachine.py",
+    "bytes": 1757,
+    "sha256": "ec2b54ec563a9905bb1d23f91633352bda487cd7b1542b7f3c95c6d8cdc51007"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/xldate.py",
+    "bytes": 7934,
+    "sha256": "4beb9468b5fc91ab86cb64a45ff33e4be141aaa43a1fd11f4c0569bf914c5f42"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd/__init__.py",
+    "bytes": 7320,
+    "sha256": "926b88133f1cbad6ad1a38d6dc499a0294c481c1e672c628d027161ffb61d8fd"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd-2.0.2.dist-info/LICENSE",
+    "bytes": 3789,
+    "sha256": "54f270040646fb78a3f59959f9da5d300ba8531ce579a1e3a10301e16c6bbc6b"
+  },
+  {
+    "path": "source/workspace/work/pydeps/xlrd-2.0.2.dist-info/top_level.txt",
+    "bytes": 5,
+    "sha256": "9d9faddd273f0aa36c72d4b72fe577eaa5f00b90ee005be40758a7240a45fef3"
+  }
+]

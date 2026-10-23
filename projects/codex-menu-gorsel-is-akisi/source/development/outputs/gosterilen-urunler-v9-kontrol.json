@@ -1,0 +1,13 @@
+{
+  "changed_pixels_outside_five_photos": 0,
+  "inserted_source_pixels": 131830,
+  "pixels_different_from_shown_source_after_resize": 0,
+  "products": [
+    "chicken salad",
+    "tuna salad",
+    "spaghetti bolognese",
+    "pesto penne",
+    "napolitan penne"
+  ],
+  "source_image": "exec-b1426021-7479-45af-9d19-3ff95edcbb40.png"
+}

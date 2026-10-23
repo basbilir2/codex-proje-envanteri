@@ -1,0 +1,1212 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 781,
+    "sha256": "4eaca855b047ecda7c1ddb5810af6308845fe1b51c5358ac1ee948acc21b2b6a"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 2423,
+    "sha256": "8a63971da1841358478e1a292c87f59b524cc47073f0de3c7e995289b0913ee5"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 2223,
+    "sha256": "ed08822c903841d9157d23f61690daaeadfb420559cc2796a81e7aefff5d6710"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 12326,
+    "sha256": "7e4144fe69bea272d86197eb2c81b95d93029ef17cb649ff26f4bb0363face20"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1112,
+    "sha256": "044dfc8012768884c941afe941a913bff4610b728bec100a4cec6e3dcb14f3b7"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 542,
+    "sha256": "a19b60925d23f7f0a7af2ab304f3d0b9e691884b7811b0d445baadbd8a08d75d"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 609,
+    "sha256": "e8d61cdcd362f3ee6a9afd64de53c0b06edfd39bb5ab7682f97221d7177991fa"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 8161,
+    "sha256": "37f78b971f897098e16a4b15f97c63c59fcd006b06634621e1e5d383936d386a"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 251,
+    "sha256": "671f541779d9d37eb3b36d5056633a02709cb1ce0dd4a2f7495787e79dfc8c80"
+  },
+  {
+    "path": "source/research/AGENTS.md",
+    "bytes": 401,
+    "sha256": "5d56df4fbee43d8068161119ea846d5ed961509778d1861d0f648e9eae3b4a6f"
+  },
+  {
+    "path": "source/research/audit_portrait_sampling.py",
+    "bytes": 2285,
+    "sha256": "1aba456dda8086ea9ca2328442dd4ee89514cd3c6be59fbc946be9e784238894"
+  },
+  {
+    "path": "source/research/fullscene_blender_driver.py",
+    "bytes": 3231,
+    "sha256": "ace417d574f6ddf9cfd15f13f92eb620ba63182218f5b8935c859c41faa4336a"
+  },
+  {
+    "path": "source/research/fullscene_portrait.py",
+    "bytes": 25681,
+    "sha256": "a96c3cda88e277f98692895d18357002b1550a41bec3e658f2eef435f3759ffb"
+  },
+  {
+    "path": "source/research/inspect_lens_video.py",
+    "bytes": 2120,
+    "sha256": "9a4a9dc2c813374c990dd333f29094fc24e242b4aebcbb1cb694619fe4abdc1f"
+  },
+  {
+    "path": "source/research/LENTICULAR_ANA_MIMARI.md",
+    "bytes": 26561,
+    "sha256": "c4585482e91c8540cc3afbddc442cf3e6c47cffe4634ed97a09a07f5d9921f59"
+  },
+  {
+    "path": "source/research/LENTICULAR_GOREV_PLANI.md",
+    "bytes": 15972,
+    "sha256": "acdaa2122d29bb56d4423c78fada1391f07231a4038bdf4e0aa5919d1b771273"
+  },
+  {
+    "path": "source/research/make_easy_pitch_test.py",
+    "bytes": 13914,
+    "sha256": "bef895b39551341ac2f3d008373b86300edf0923c685dd86ef7a99d9164047da"
+  },
+  {
+    "path": "source/research/pitch-test-current.json",
+    "bytes": 15335,
+    "sha256": "e22b5ffa211f8939f42e183ff193f52512886794138d122594f7e12147fea520"
+  },
+  {
+    "path": "source/research/portrait_lens_variants.py",
+    "bytes": 19479,
+    "sha256": "bceb9955d65f6834c96609f1e541f4644f8fd68f4678cc07a903d97726f12e6b"
+  },
+  {
+    "path": "source/research/prepare_portrait_design_test.py",
+    "bytes": 7145,
+    "sha256": "29892bcd0eca1a6002568e5677236a420f86caf5524e573468e8ba671cfafd8a"
+  },
+  {
+    "path": "source/research/UYGULAYICI_MODELE_DEVIR.md",
+    "bytes": 4073,
+    "sha256": "2a5e47d858f053e0615a3ee4af246cfa4a3ec4acbedda04dc346ae9e9f36db89"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/build_scene.py",
+    "bytes": 11310,
+    "sha256": "67f5205f77fb0eba9ba355c5642c852f1c937bea6c8e7d716de22b35171b4fd5"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/deliver_fresh.py",
+    "bytes": 8136,
+    "sha256": "1cf2dbbbf4b0c44b37298abbc04f885cba86b26e092c4b08eaa8be84d0d6e53d"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/estimate_fresh.py",
+    "bytes": 1134,
+    "sha256": "1fd8614140c47f7ccf1d5d6e8e37f8d5cab5faf438de868acc2b6a58afca532b"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/render_fresh.py",
+    "bytes": 5022,
+    "sha256": "13df8b854b862576349657427d58cc98993814772f2db38927164f13dd0e65e5"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/run_render.py",
+    "bytes": 871,
+    "sha256": "e46d1b17c6e098f22fb2755ddac0dea7299e3bfdb855f92cc1db44fc414546e2"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/segment_photo.py",
+    "bytes": 3648,
+    "sha256": "a9110b0fe80917a7172e0f5d8292fdaf04f032357feefec347946e1bd2a5cfab"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/make_trials.py",
+    "bytes": 18018,
+    "sha256": "430a2f2a91b6b24dcb3f9fe0f006bad9263190be06cdde8a433d049fc57f9ed0"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/manifest.json",
+    "bytes": 9030,
+    "sha256": "b6ecdb82772290f7d707b1056691b2deb7ebd1a88b3a6944d8edb2b79837e220"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/render_variants.py",
+    "bytes": 4165,
+    "sha256": "1c34cd9d9e7799beca2c14efabb60244476bad46589ef0f05bf891d0ffce5917"
+  },
+  {
+    "path": "source/research/portrait-sampling-audit/audit.json",
+    "bytes": 1265,
+    "sha256": "c1e2894f0ee098db7a0ca859cd3a32a5d058388aad0aa1437204c7c43a768b68"
+  },
+  {
+    "path": "source/research/work/build_worker_pack.py",
+    "bytes": 23373,
+    "sha256": "ffee6347a42026b5ca46ab47c42b972dc8e1f565c35cfa2ec969fb58a7def64b"
+  },
+  {
+    "path": "source/research/work/configure_len2_worker.py",
+    "bytes": 10099,
+    "sha256": "86c0e790e9f32b8d964a90b8a8de954b71013f3273216df99f81d8ab97f211e9"
+  },
+  {
+    "path": "source/research/work/download_len2_model.py",
+    "bytes": 1750,
+    "sha256": "9eb45edd39654738086e7d8e3301614bb8d83cc1218ce0d2bca6dcd9a0dc4e7b"
+  },
+  {
+    "path": "source/research/work/expand_len2.py",
+    "bytes": 42894,
+    "sha256": "65f1e8e20e5561e4a4de6b638d2b7d4c4643004982820a267102d6d2c052f9c3"
+  },
+  {
+    "path": "source/research/work/extract_general_lenticular_content.py",
+    "bytes": 14360,
+    "sha256": "275281e529ca304030df05b82097f23a463a0b749171612739134181c84a65eb"
+  },
+  {
+    "path": "source/research/work/finalize_len2.py",
+    "bytes": 5421,
+    "sha256": "b076a84cbd380a1e85403a09396b0c7fefcdd5dda5968a22a4541ecc706ed31a"
+  },
+  {
+    "path": "source/research/work/len2_local_worker.py",
+    "bytes": 5395,
+    "sha256": "3ecab4ffe0b629ad179790bf9549bc3e35f4c22bb1b42315b307b95eb6d9b50f"
+  },
+  {
+    "path": "source/research/work/prepare_lenticular_training.py",
+    "bytes": 8512,
+    "sha256": "18c233cf8ef8c95c5fad8cbe28d9e763e45870d04cc187e1a73d3e9324c8d7a5"
+  },
+  {
+    "path": "source/research/work/retrieve_len2.py",
+    "bytes": 1953,
+    "sha256": "3f6193f5f10564443fdef6e88c0f697b8b9009b75dc161381ec07ae1df37c236"
+  },
+  {
+    "path": "source/research/work/validate_len2.py",
+    "bytes": 6274,
+    "sha256": "3708cbc30c93a3d6bb02efdbac180bb17de876a6a3827abb572793ce64cdd0e7"
+  },
+  {
+    "path": "source/research/work/pitch-program/A3-verification-22cm.json",
+    "bytes": 1665,
+    "sha256": "f1d28ed172d61ba4e5df420a36092f95bf790cbf32dbf95967a7ce74ba2cc1d3"
+  },
+  {
+    "path": "source/research/work/pitch-program/coarse60-A3-verification.json",
+    "bytes": 12337,
+    "sha256": "a3cf1cbd9656a7b5545fc1f32ad377574ed65f3c4ba1201a0882e19b13a6396a"
+  },
+  {
+    "path": "source/research/work/pitch-program/coarse60_a3.py",
+    "bytes": 7379,
+    "sha256": "e32d753ba29ef9e9b16ca404f39c80479228ce232f5adaf5107c4e5ccd3fcfb6"
+  },
+  {
+    "path": "source/research/work/pitch-program/impose_a3.py",
+    "bytes": 5165,
+    "sha256": "f5d885910360aea733fda6dc061850c87c4dfc3e9d7450479b270e6fff93b0a9"
+  },
+  {
+    "path": "source/research/work/pitch-program/lens190x235-dual-A3-verification.json",
+    "bytes": 16325,
+    "sha256": "c905e8867c481325c67417d9632994496be053f7c48903ee977341f291d2ab9e"
+  },
+  {
+    "path": "source/research/work/pitch-program/lens235x190-A3-50LPI-verification.json",
+    "bytes": 10981,
+    "sha256": "c860599e057464a4bc31b1ab4c2a9d3f3a32ffd568644d9669acfcd425a1cac8"
+  },
+  {
+    "path": "source/research/work/pitch-program/lens235x190-A3-verification.json",
+    "bytes": 10981,
+    "sha256": "da846b6a423af94edbc263df4796b27be40c322a6b017522fde0b14e0756a3e3"
+  },
+  {
+    "path": "source/research/work/pitch-program/lens235x190_a3.py",
+    "bytes": 6874,
+    "sha256": "ed7b79d33f27291b82d4426b1c9b251607ae6646de5626f1629f0d64e4128d0a"
+  },
+  {
+    "path": "source/research/work/pitch-program/lens90x235-dual-A3-verification.json",
+    "bytes": 16352,
+    "sha256": "f16fa77650fa5635a82d3bad98536840b9f5afe91c2ed3097d9122bb250fc2bb"
+  },
+  {
+    "path": "source/research/work/pitch-program/lens90x235_dual_a3.py",
+    "bytes": 8976,
+    "sha256": "3230cd625b6bb8216c32ca88a7a6ffe63fd8f4891c12d5d45f753f79ca4ddaea"
+  },
+  {
+    "path": "source/research/work/pitch-program/package_pdf.py",
+    "bytes": 5001,
+    "sha256": "2664f4eabb622d27569fde6b3e234d5fc43c176c84d2f59c73b4cf5bd50306e0"
+  },
+  {
+    "path": "source/research/work/pitch-program/produce.py",
+    "bytes": 8786,
+    "sha256": "b12ad62d8bca83ef7d7991ce2068bd4dbb25ffbfd3bcc78c764438385e46465c"
+  },
+  {
+    "path": "source/research/work/pitch-program/verification-22cm.json",
+    "bytes": 78112,
+    "sha256": "bc842d0d1ee910d4626226e0d194bdb9760a927521e553762ec1b31e473a20c6"
+  },
+  {
+    "path": "source/research/work/pitch-program/verification.json",
+    "bytes": 77906,
+    "sha256": "d4d1b8a2437436ccee0723bcb7494dcbb9386d04deb9b9eddff6d4a33d19d125"
+  },
+  {
+    "path": "source/research/work/pitch60/create_pitch.py",
+    "bytes": 8069,
+    "sha256": "00ab04c98ad1269f8de53fe21fde1f169d75cdfe396ad473255dc38375f156e5"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/cleanup-manifest.json",
+    "bytes": 18502220,
+    "sha256": "1b8cd21bc7a07ccbff08a59db4ec61cd5743e4815cabe055f82d4cbf35ed1296"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/cleanup-result.json",
+    "bytes": 661,
+    "sha256": "389dfd01054bbbfb7f1f638ceb9706433b3fcfba9d43567210ffd612e4e2a995"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/final-verification.json",
+    "bytes": 153,
+    "sha256": "221a13b86e89fa2f1a1046e61fdf443ea7b3f5ebcb5cc88ed4bec1f77123e76c"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/finalize_cleanup.py",
+    "bytes": 2479,
+    "sha256": "38ce174c674ec58acb014884ce7ff2074efafe24b91de01bd0b5ce5878ecba65"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/ui_smoke.py",
+    "bytes": 1020,
+    "sha256": "6561059d55e7a92e7364e343664e57ef0b5c84360ec8cc77e6f8405d610ce84a"
+  },
+  {
+    "path": "source/research/work/vd-three-variant-plan/vd-three-variant-settings.json",
+    "bytes": 8074,
+    "sha256": "1a091b00e84d54addca771da8789d5452853edc49f2244cf33a57cd19ff15278"
+  },
+  {
+    "path": "source/research/work/vd-three-variant-plan/vd-uygulama-talimati.md",
+    "bytes": 9861,
+    "sha256": "8b6319c6b31125028d5bfd8c702690a48627e6dacca7e8d4ed9e995f6e2c12d0"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/before/test_depth.py",
+    "bytes": 2484,
+    "sha256": "3b9d103957d5bc9d198f19e5ccee4922254aff10ce9ea15cf41f3611808b63a2"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/ui-test-state/outputs/studio/20261011-141732-5a7bdb0a/scene-analysis.txt",
+    "bytes": 746,
+    "sha256": "ee027d40de2a5e752b91b4bc60cce933bc8bc45a18717b4241d842a5a7cde18a"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/before/lenticular/depth.py",
+    "bytes": 8934,
+    "sha256": "42dd0213bda0c6c7e619905391ae5f22d0c2693dfbff44d6426f63e36b37c7a2"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/before/lenticular/pipeline.py",
+    "bytes": 40878,
+    "sha256": "9d2ad2ecd5d0f2b289345ef7c7fc1ab5a79e51dfc21e283eccecc1b65987a4ad"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/before/lenticular/printing.py",
+    "bytes": 42085,
+    "sha256": "52a4f0ee9ad0447215c0d48f57d1633b21d2a0692f23a4490f22d4e9689eeb00"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/before/lenticular/studio.py",
+    "bytes": 8545,
+    "sha256": "b52caf6ba42a538048888e05cb0a2f2b6b06d2306523bcc7fe9fff44acadfb1a"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/before/lenticular/web/app.js",
+    "bytes": 50912,
+    "sha256": "74c4b4e404fe6114ea034b0cc315943c4481907f04a7b100e435b7acf654d740"
+  },
+  {
+    "path": "source/research/work/studio-fixes-20261011/before/lenticular/web/index.html",
+    "bytes": 23806,
+    "sha256": "2ca23b93bd00de5f58ec800789d3fe8a1e45e4e3ccf68505fa283a56cbd91ebe"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-lens90x235/50LPI/pitch-test.json",
+    "bytes": 485,
+    "sha256": "3e7aa46c5853c9f43ea85294d24d7eae363202a11f976969d5dd8e4f90722c32"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-lens90x235/60LPI/pitch-test.json",
+    "bytes": 485,
+    "sha256": "0dfa849802338f8337e493b809e966ab9acb05a155da9c3b8046b56d823d4510"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-lens190x235/50LPI/pitch-test.json",
+    "bytes": 485,
+    "sha256": "3e7aa46c5853c9f43ea85294d24d7eae363202a11f976969d5dd8e4f90722c32"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-lens190x235/60LPI/pitch-test.json",
+    "bytes": 485,
+    "sha256": "0dfa849802338f8337e493b809e966ab9acb05a155da9c3b8046b56d823d4510"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-60-coarse-59-63/center-60/pitch-test.json",
+    "bytes": 485,
+    "sha256": "0dfa849802338f8337e493b809e966ab9acb05a155da9c3b8046b56d823d4510"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-60-coarse-59-63/center-62/pitch-test.json",
+    "bytes": 485,
+    "sha256": "e99b321bd3d5b1dfea43965e31d4251888b97cca23d47579c3ad6a23cb0f21b8"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/100LPI-ALT/pitch-test.json",
+    "bytes": 496,
+    "sha256": "ac9003dec12902eea8ca20c9881008ff4ca00bf89fe3a78f78f9fa449f76cab5"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/100LPI-UST/pitch-test.json",
+    "bytes": 516,
+    "sha256": "f70d3cdef64279c41e95819ba7e9c0db76acf86d1a8b98920f9d54b23b0c917e"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/50LPI-ALT/pitch-test.json",
+    "bytes": 495,
+    "sha256": "b00186c42bcf75b327353843e303fe6ceeeb3e545affa7274ab64cb97ef4ee3e"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/50LPI-UST/pitch-test.json",
+    "bytes": 495,
+    "sha256": "5c450cf729704de76dd7b8a2903512eedd39e47581cd97fa766027527145a069"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/60LPI-ALT/pitch-test.json",
+    "bytes": 495,
+    "sha256": "934e264e3f095cdbf0fb5aa2608d1a00ea8672d19ea44a163c70a4c882d1ba51"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/60LPI-UST/pitch-test.json",
+    "bytes": 495,
+    "sha256": "a4b6d2c7dca4832aaaa47c295e86df2d3a8703705bcf52ee72c6dc6a61b49719"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/75LPI-ALT/pitch-test.json",
+    "bytes": 495,
+    "sha256": "e5b58907503c295258bece2ef6846709fe0c3bfe1add51c5cbf891a6b9922bf1"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/75LPI-UST/pitch-test.json",
+    "bytes": 495,
+    "sha256": "36867c6615ce2f738afc1f95928b695bc1ef29e4ba3bee0e04337d6eaacba23c"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/85LPI-ALT/pitch-test.json",
+    "bytes": 495,
+    "sha256": "4e0b81a157e7059cac2ce82434355feae98703eb420e63199c779104cbfeb3ec"
+  },
+  {
+    "path": "source/research/work/pitch-program/native-22cm/85LPI-UST/pitch-test.json",
+    "bytes": 495,
+    "sha256": "9629f82db63e5b102dd44805e88a536aee4db849678b10fcd1f37bc46831ef86"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/100LPI-ALT/pitch-test.json",
+    "bytes": 496,
+    "sha256": "ac9003dec12902eea8ca20c9881008ff4ca00bf89fe3a78f78f9fa449f76cab5"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/100LPI-UST/pitch-test.json",
+    "bytes": 516,
+    "sha256": "f70d3cdef64279c41e95819ba7e9c0db76acf86d1a8b98920f9d54b23b0c917e"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/50LPI-ALT/pitch-test.json",
+    "bytes": 495,
+    "sha256": "b00186c42bcf75b327353843e303fe6ceeeb3e545affa7274ab64cb97ef4ee3e"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/50LPI-UST/pitch-test.json",
+    "bytes": 495,
+    "sha256": "5c450cf729704de76dd7b8a2903512eedd39e47581cd97fa766027527145a069"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/60LPI-ALT/pitch-test.json",
+    "bytes": 495,
+    "sha256": "934e264e3f095cdbf0fb5aa2608d1a00ea8672d19ea44a163c70a4c882d1ba51"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/60LPI-UST/pitch-test.json",
+    "bytes": 495,
+    "sha256": "a4b6d2c7dca4832aaaa47c295e86df2d3a8703705bcf52ee72c6dc6a61b49719"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/75LPI-ALT/pitch-test.json",
+    "bytes": 495,
+    "sha256": "e5b58907503c295258bece2ef6846709fe0c3bfe1add51c5cbf891a6b9922bf1"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/75LPI-UST/pitch-test.json",
+    "bytes": 495,
+    "sha256": "36867c6615ce2f738afc1f95928b695bc1ef29e4ba3bee0e04337d6eaacba23c"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/85LPI-ALT/pitch-test.json",
+    "bytes": 495,
+    "sha256": "4e0b81a157e7059cac2ce82434355feae98703eb420e63199c779104cbfeb3ec"
+  },
+  {
+    "path": "source/research/work/pitch-program/native/85LPI-UST/pitch-test.json",
+    "bytes": 495,
+    "sha256": "9629f82db63e5b102dd44805e88a536aee4db849678b10fcd1f37bc46831ef86"
+  },
+  {
+    "path": "source/research/tmp/pdfs/pitch60/verification.json",
+    "bytes": 4028,
+    "sha256": "ef84d7b4bec8eb35cceb901aa27b0014275c561f7d63be06a082341e0498ef69"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/control-50/baski-notlari.txt",
+    "bytes": 1183,
+    "sha256": "213ea25e81d2923b7b473e840bd04757051a6f20b0fb688990f72a1800a46f35"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/control-50/channel-plan.json",
+    "bytes": 1601,
+    "sha256": "96e44b8664b75fbb391d112c610681ab7ab59097adcba864980d61f7cfe1b0b0"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/control-50/frameset.json",
+    "bytes": 7549,
+    "sha256": "df6a1287ef9a4584abc8ea83f5c3f4db6860017788e9e11d047b6d404903d844"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/control-50/pitch-test.json",
+    "bytes": 621,
+    "sha256": "173a85b33545b53354cb8e4d102856feab9b421906206b3b965cdc10e6906f0e"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/control-50/print-report.json",
+    "bytes": 7454,
+    "sha256": "b614c4c9612785a7ae567358700b0de06535fc6ce08432305dde25c4ea7c306f"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-100/baski-notlari.txt",
+    "bytes": 1285,
+    "sha256": "eee8c043dbe9c1cafb8351fa12f07658a29333d96d3b1dfa96c354dd2fd79d9d"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-100/channel-plan.json",
+    "bytes": 1003,
+    "sha256": "254ba02bf5a0ec232af49f865aa2e455a600f4178e34d78c23244966b97ccc01"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-100/frameset.json",
+    "bytes": 4250,
+    "sha256": "4e2336d3c22bb5e388b73049fa30cc3916dfc22a584046a763a94a656e15a5d1"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-100/pitch-test.json",
+    "bytes": 514,
+    "sha256": "bdae0d85bf7b460c1f5a48f717379e7ba4a429f9ef517b79c05b964ddf544485"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-100/print-report.json",
+    "bytes": 5887,
+    "sha256": "7baa510b27912d1582aef7318a2bf5430e17ed725ad511cc82546c43b36d8015"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-75/baski-notlari.txt",
+    "bytes": 1284,
+    "sha256": "44b0821f217269b1b52258e6b86dffd1219c4a3c5548a59d22c87515fbbe23e9"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-75/channel-plan.json",
+    "bytes": 1232,
+    "sha256": "5c958488f5395427f1e68d1652ab9ca29d756131d868951ed233c67ab35b6f30"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-75/frameset.json",
+    "bytes": 4609,
+    "sha256": "0d6a3074f3ab5c2ad62b6450491e1c2c52b627f145979ce94e6dc856f63ebc67"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-75/pitch-test.json",
+    "bytes": 503,
+    "sha256": "a4769dabaadc750ce762630e621ac49b7f0a9ed000539df0cedcc973380a7f38"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/print-75/print-report.json",
+    "bytes": 6570,
+    "sha256": "e63446e57eb3c55ddd99bf23c3fba5274a02bc06a70b7ca61a73fdadf8ae4be3"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/views-100/preview.html",
+    "bytes": 1571,
+    "sha256": "c0c360bd7ae1a9ffc5aec2050796652163176fee99da1c744be365483f20ef2d"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/views-75/preview.html",
+    "bytes": 1617,
+    "sha256": "cc447d1691f645d4570852390c0276854e01e764bd6dacd32b7157f63c88902d"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/batch-1/render/preview.html",
+    "bytes": 1594,
+    "sha256": "7a8e754fb9ab2847373f83614a3cd7e876a11a4c7b5d6053e05842305ddc5ec8"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/batch-1/render/render_result.json",
+    "bytes": 3381,
+    "sha256": "a5c71783738d7cbc0b3b5ed26230dfcfe7d966375503869de39eb89879119c0f"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/batch-0/render/preview.html",
+    "bytes": 1594,
+    "sha256": "7a8e754fb9ab2847373f83614a3cd7e876a11a4c7b5d6053e05842305ddc5ec8"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/batch-0/render/render_result.json",
+    "bytes": 3389,
+    "sha256": "cad1f659333682b0c664dd6224f7013597a7517b33099c8f5a32caa5db8a1a7b"
+  },
+  {
+    "path": "source/research/portrait-75-100-20261009-35bdac/A/render/preview.html",
+    "bytes": 1757,
+    "sha256": "a0caffc9a32d37d4a6f4ed85da0de7a3bb8d41dbdcf96aa0c9f2e320ba554381"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/A/geometry-checks.json",
+    "bytes": 625,
+    "sha256": "ab7540cc144597c14aa99cedba2f1626dd7f44296f2aa3b877ec20a37783de06"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/A/preview.html",
+    "bytes": 1665,
+    "sha256": "38aacbdea6f4224e1e6a8d9644b96100e55fb98e3b45bc284c87492cbf336351"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/A/render_result.json",
+    "bytes": 5831,
+    "sha256": "ea9b46a1dfeaf1e3c4aedf7aa285fb4ceff3dfa4c25697f17c99afcd62b40584"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/B/geometry-checks.json",
+    "bytes": 622,
+    "sha256": "5860730759b78f5530779e0d50d198a8cfe385fe2469c07b20c47badf153559a"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/B/preview.html",
+    "bytes": 1665,
+    "sha256": "38aacbdea6f4224e1e6a8d9644b96100e55fb98e3b45bc284c87492cbf336351"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/B/render_result.json",
+    "bytes": 5829,
+    "sha256": "46377a0ba9abaadf55ca30d00c4a55241e2c2524af6ba77b30d58e6ef402e5be"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/C/geometry-checks.json",
+    "bytes": 624,
+    "sha256": "2cf903de9798c7318033fc49f2d8d811aa9ebace268ce577c2630a6fc637579b"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/C/preview.html",
+    "bytes": 1665,
+    "sha256": "38aacbdea6f4224e1e6a8d9644b96100e55fb98e3b45bc284c87492cbf336351"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/C/render_result.json",
+    "bytes": 5825,
+    "sha256": "04b4c8709f418094af350703a345fcbf8e836512639782c8bbed47dd285c5a09"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/C/print/baski-notlari.txt",
+    "bytes": 1292,
+    "sha256": "4c81b7ca2b5376448f63366c5f39000cab181697ae7c6bd4bd8b897a65a17147"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/C/print/channel-plan.json",
+    "bytes": 1464,
+    "sha256": "b9870c0844744ba0589b4c70a1a3fcfe67481f78fd7798bb39017c0c2c898159"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/C/print/frameset.json",
+    "bytes": 4501,
+    "sha256": "0b6c02cd285504fa082f441b844faa8891c393306251b564d8d66c4a5f5cc03e"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/C/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/C/print/print-report.json",
+    "bytes": 9363,
+    "sha256": "3f669fc001659975a85f250b8c01938da8a6e4193604837e4323aeda90530fbe"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/B/print/baski-notlari.txt",
+    "bytes": 1292,
+    "sha256": "f6cab64ffcf1355b1d4825daf1a5b56548aa0be8d54b04ee875ea557c2bc9ff3"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/B/print/channel-plan.json",
+    "bytes": 1464,
+    "sha256": "b9870c0844744ba0589b4c70a1a3fcfe67481f78fd7798bb39017c0c2c898159"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/B/print/frameset.json",
+    "bytes": 4501,
+    "sha256": "db9753feeab81607f3da51693798f20d5eaa6f6bb170532a47b4b9818beeab2c"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/B/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/B/print/print-report.json",
+    "bytes": 9364,
+    "sha256": "9a54512b2dc8f61acaf605ec4f53d792cc54fb976f1d5877d6e981041b9a368e"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/A/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/A/print-complete/baski-notlari.txt",
+    "bytes": 1288,
+    "sha256": "a20118c30b28cbc70da9865b5c9038983a10f266bef3327a4e1c1936111f5281"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/A/print-complete/channel-plan.json",
+    "bytes": 1464,
+    "sha256": "b9870c0844744ba0589b4c70a1a3fcfe67481f78fd7798bb39017c0c2c898159"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/A/print-complete/frameset.json",
+    "bytes": 4501,
+    "sha256": "6bb7bbbe7b2c07dbcef2cdcb537d74c848405a14a3bb8e1c03a0f0058622737c"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/A/print-complete/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/research/pitch5020-depth-20261010/A/print-complete/print-report.json",
+    "bytes": 9363,
+    "sha256": "650b776e2f1b72a8b3b8c3fdbed63f0dfdeab64fed5784cd496d774a06200e75"
+  },
+  {
+    "path": "source/research/output/pdf/60LPI-pitch-59-61/BASKI-VE-OKUMA.txt",
+    "bytes": 1780,
+    "sha256": "b06b75f2fe7fbbfc30af0ba538808189ffc136e451d1e312516ae52972e93e6e"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-10/baski-notlari.txt",
+    "bytes": 1380,
+    "sha256": "44954cd7a64525d93f93698aa1a381e030a84446c36d773139147cfe4c0fb05e"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-10/channel-plan.json",
+    "bytes": 1601,
+    "sha256": "96e44b8664b75fbb391d112c610681ab7ab59097adcba864980d61f7cfe1b0b0"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-10/frameset.json",
+    "bytes": 7549,
+    "sha256": "df6a1287ef9a4584abc8ea83f5c3f4db6860017788e9e11d047b6d404903d844"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-10/pitch-test.json",
+    "bytes": 503,
+    "sha256": "dca61c2e9273078d140bf6c5c3484db6bf247c928558890972b9542f7d73697d"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-10/print-report.json",
+    "bytes": 7632,
+    "sha256": "07236339edb5e507075dfc52d6a44fdf71c3a0b467fd79422b3428d7d82ee4f9"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-12/baski-notlari.txt",
+    "bytes": 1286,
+    "sha256": "9b0cf4c659e6b99987030415e704fa5cfd8cae5eb336ba4b0beffa68690c5995"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-12/channel-plan.json",
+    "bytes": 1815,
+    "sha256": "1c463e3bc77f57a6b07f6f03400e7371db441368341212c44091681219b94fbf"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-12/frameset.json",
+    "bytes": 7549,
+    "sha256": "df6a1287ef9a4584abc8ea83f5c3f4db6860017788e9e11d047b6d404903d844"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-12/pitch-test.json",
+    "bytes": 503,
+    "sha256": "dca61c2e9273078d140bf6c5c3484db6bf247c928558890972b9542f7d73697d"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-12/print-report.json",
+    "bytes": 8390,
+    "sha256": "0f5810296504d5a2898d3496592dcc5e3cf0e13f0f3a710de395bbdd3f7bb91c"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-6/baski-notlari.txt",
+    "bytes": 1285,
+    "sha256": "e6a6e5ac5a056515a1d5000491d7e230370e67565451a25da1ebbbe45be1b6e0"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-6/channel-plan.json",
+    "bytes": 1165,
+    "sha256": "a2c1edf3df8c20a9ac2a9d3fc98f203ce33ff9a3f6bfde7e254c311580411f58"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-6/frameset.json",
+    "bytes": 7549,
+    "sha256": "df6a1287ef9a4584abc8ea83f5c3f4db6860017788e9e11d047b6d404903d844"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-6/pitch-test.json",
+    "bytes": 503,
+    "sha256": "dca61c2e9273078d140bf6c5c3484db6bf247c928558890972b9542f7d73697d"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/print-6/print-report.json",
+    "bytes": 6089,
+    "sha256": "9a1994c9faec3048be754e6fe49e3f6489d305ef6ed991c1906130b82a86b816"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/batch-1/render/preview.html",
+    "bytes": 1712,
+    "sha256": "6b3956ec039dcc903274e932c637a70708146d56bf3cb9f3058e090a578fa2c0"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/batch-1/render/render_result.json",
+    "bytes": 5774,
+    "sha256": "f3e1d75a3f0f91e911f4c6032b3627b335ffadc9ca0ac382aec1bc53d5473726"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/batch-0/render/preview.html",
+    "bytes": 1712,
+    "sha256": "6b3956ec039dcc903274e932c637a70708146d56bf3cb9f3058e090a578fa2c0"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/batch-0/render/render_result.json",
+    "bytes": 5800,
+    "sha256": "225113f628759ed1746342efc6c990dc06d23e313ffbcc6569d8eda1af1dd4de"
+  },
+  {
+    "path": "source/research/fullscene-20261009-141927/A/render/preview.html",
+    "bytes": 1987,
+    "sha256": "1e83f2ef0ed04281abe98a7d8b9a306c473522dfb3b4906a9ba22f588d3f4c2d"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/inference/metadata.json",
+    "bytes": 1507,
+    "sha256": "8c8c269a1e12059d5a6092195ee9d12e83631b161cfcf03ceb36d0e6d9e36546"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/scene/center-check.json",
+    "bytes": 95,
+    "sha256": "68eada0fa7fa490cb9b2100b8f42d2d544a46b396950163785ff111d260c567f"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/scene/plan.json",
+    "bytes": 1411,
+    "sha256": "c6789004a80535d09cb49db9de08a56bb66e6163177707b8dd196fd9ff1288ff"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/scene/render_result.json",
+    "bytes": 944,
+    "sha256": "c3c57e0a3254a14881133e32e4737ea62c238bdb913b50aaad0a3ed40cbbcea2"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/scene/surface-report.json",
+    "bytes": 2111,
+    "sha256": "7f5f8c98b90f2047691f635e4ef3f3652174934d61c7057a05b30068a4b1a674"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/manifest.json",
+    "bytes": 13740,
+    "sha256": "f47213ddcc338d5ef3ea0e06fff1d42e31671b5b249631fd2463e67ad8907176"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/A/preview.html",
+    "bytes": 1665,
+    "sha256": "38aacbdea6f4224e1e6a8d9644b96100e55fb98e3b45bc284c87492cbf336351"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/A/render_result.json",
+    "bytes": 4687,
+    "sha256": "6cae660eae5c0003f5f7f5b4946bdc59183d1881c2ab054bbb3a450156eaf2d3"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/B/preview.html",
+    "bytes": 1665,
+    "sha256": "38aacbdea6f4224e1e6a8d9644b96100e55fb98e3b45bc284c87492cbf336351"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/B/render_result.json",
+    "bytes": 4687,
+    "sha256": "6cae660eae5c0003f5f7f5b4946bdc59183d1881c2ab054bbb3a450156eaf2d3"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/C/preview.html",
+    "bytes": 1665,
+    "sha256": "38aacbdea6f4224e1e6a8d9644b96100e55fb98e3b45bc284c87492cbf336351"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/C/render_result.json",
+    "bytes": 4687,
+    "sha256": "6cae660eae5c0003f5f7f5b4946bdc59183d1881c2ab054bbb3a450156eaf2d3"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/C/print/baski-notlari.txt",
+    "bytes": 1359,
+    "sha256": "69d9a37baa2c19daa830fc8228f27398d2e4afb5928af4443359084f8bae177b"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/C/print/channel-plan.json",
+    "bytes": 1466,
+    "sha256": "2b334199f501c86eb0492dc02a7baf067fcbe78b206883ea3d552be55082bc12"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/C/print/frameset.json",
+    "bytes": 5684,
+    "sha256": "0ed4e0770b1a13ba7a975ffe9132f9043107a0c85f944303e57198c0937792d1"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/C/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/C/print/print-report.json",
+    "bytes": 9454,
+    "sha256": "7bf27cc5261ce19fff8ee8a50355f87fdb91122e14d40274729f3913c8b8d3c1"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/B/print/baski-notlari.txt",
+    "bytes": 1359,
+    "sha256": "c89fb04579e58f1e8ad8a0ef6c54dcf5a348138f57a68aea5eef6b02aeecfb37"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/B/print/channel-plan.json",
+    "bytes": 1466,
+    "sha256": "2b334199f501c86eb0492dc02a7baf067fcbe78b206883ea3d552be55082bc12"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/B/print/frameset.json",
+    "bytes": 5684,
+    "sha256": "fb175fcce7ac824196e14ef6d3baef32756490e0a0d3a4e05e4cd6b6c696d31a"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/B/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/B/print/print-report.json",
+    "bytes": 9458,
+    "sha256": "db4a629e918722622ed9b6847d69fa9cf7facf81b50167f99357fdd5c6ecfac1"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/A/print/baski-notlari.txt",
+    "bytes": 1355,
+    "sha256": "4139d68052982e608342ceed025e06dc317462c94df451c93757a572cf6f7d11"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/A/print/channel-plan.json",
+    "bytes": 1466,
+    "sha256": "2b334199f501c86eb0492dc02a7baf067fcbe78b206883ea3d552be55082bc12"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/A/print/frameset.json",
+    "bytes": 5684,
+    "sha256": "4fbaf248d660a8d6f822fb38f0eb1635956a2c838c7689be62cd345a09bd7fc8"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/A/print/pitch-test.json",
+    "bytes": 302,
+    "sha256": "5ce0597852609200ffc7e8e5d3707da4667770aa7f0334ac81ed3e12c8f80f73"
+  },
+  {
+    "path": "source/research/fresh-portrait-20261011/trials/A/print/print-report.json",
+    "bytes": 9459,
+    "sha256": "be40278f57d198b93332bd191de2ba0a8a9f99e40a632c54e1b8a561c066474c"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/requirements.txt",
+    "bytes": 179,
+    "sha256": "960729e54d1dcd4c92aef8b8e50b5f440ee87a5764be3b335353c72627b07eec"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/pyproject.toml",
+    "bytes": 604,
+    "sha256": "7fc8b88bc54664e8cc18dccb4ee2800308f4ce5ef25f2f9ec70a4a5e1058bc99"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/README.md",
+    "bytes": 2973,
+    "sha256": "b225653bfd1c28e946f30addd72b51e760f088c881d66d019bdbc1ef29548eb5"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/requirements.txt",
+    "bytes": 70,
+    "sha256": "a6e91184eb4db191736b608b7958ab73a4725d0d85c0988566de99ec02e5e552"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/cli.py",
+    "bytes": 6916,
+    "sha256": "a48e4e412835eed85c4c9fdc056e2a1e8b8e743d4c0efa199c7d6bf73a9b2ed2"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/pipeline.py",
+    "bytes": 9489,
+    "sha256": "3d132f84abe739a6fb118ed2a468f8d66c9dd661b563244639e1050fd594a181"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/__init__.py",
+    "bytes": 1430,
+    "sha256": "e0dd00feda2a8de5794d96c837f11dd882d9b40bbe391ba35284670214cb8fc9"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/tests/test_lenticular2_fixes.py",
+    "bytes": 10827,
+    "sha256": "eea85a222e2a5f5e24d933bdb711ef6bfa84df2cde9ecd8ec0166105416f81c3"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/tests/__init__.py",
+    "bytes": 29,
+    "sha256": "0e46dab55bc6c2a15b80f03faae7b639ae6abc3cc22fbd88b7f4441f04bd5d7e"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/analysis/scene_analyzer.py",
+    "bytes": 8693,
+    "sha256": "cbca1bf0ac2782e2926d849c46f468cf25ca5df1440b5df762ce9fdb92df33ec"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/analysis/__init__.py",
+    "bytes": 179,
+    "sha256": "c4ccf3016403bd3a9aad0754eebe7c010113593faef65248905966b0556cceb3"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/calibration/pitch_test.py",
+    "bytes": 8907,
+    "sha256": "3045a6104586edb6d9c9a1b0fa9270452535abd2e82b76274c703c7aa7959a4d"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/calibration/__init__.py",
+    "bytes": 241,
+    "sha256": "688e84082d036265d62a1bfe08d355ee4896f755b3f3de5cc7366c326094539c"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/core/depth_optimizer.py",
+    "bytes": 6331,
+    "sha256": "8e8afdf341386f534871230dfd1be52005bbfccc1c7ac66eb1f72b479dc5b9ee"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/core/interlacing.py",
+    "bytes": 9285,
+    "sha256": "a3e643675ea8494a3cd00458d27acaf06bde2799298120f1bc5664d10e454fae"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/core/parallax_calculator.py",
+    "bytes": 12384,
+    "sha256": "e6de80dcfe57bf24dd39033529b3068226f209910df7c5ec811d0bedcee9818c"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/core/view_generator_dibr.py",
+    "bytes": 4948,
+    "sha256": "16b39585112041c19735fa239786a9eeeb93cf0cf4fd22b36071887a504fc0ec"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/core/__init__.py",
+    "bytes": 728,
+    "sha256": "eb86b8c409e8da30be0c8b605a6b3816b5d4db7bf0382a76b0dd927dcab6a587"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/utils/image_utils.py",
+    "bytes": 7895,
+    "sha256": "4e4092dd0d7c9ea8b696d77fbe677a2f6aa201c28c1b5b5a15464a3e48e81f26"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/utils/math_utils.py",
+    "bytes": 22057,
+    "sha256": "03e6a0c420e6635c5f77590f0c15b1c426b21fe652bcd49ce2539d5e14d64a7b"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/lenticular2/utils/__init__.py",
+    "bytes": 1575,
+    "sha256": "7e7faa72c729c6f54dc924ead291c6efa4ca0be263cde879b65323d55b0dc69b"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/lenticular/analyzer.py",
+    "bytes": 17271,
+    "sha256": "94c37e1290bbaf781726bc567c46a6be4b03ec11acefee472b0397b9e5bbcd84"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/lenticular/cli.py",
+    "bytes": 8014,
+    "sha256": "3ed3da32a3f85daba75375728147d130df7fb834e3e51622aab9b2747cedc9e3"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/lenticular/depth.py",
+    "bytes": 8934,
+    "sha256": "42dd0213bda0c6c7e619905391ae5f22d0c2693dfbff44d6426f63e36b37c7a2"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/lenticular/optics.py",
+    "bytes": 6179,
+    "sha256": "b1be03791061673bd9431921a00ad8fac786cc70793de49956c793df1f6cf677"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/lenticular/pipeline.py",
+    "bytes": 41236,
+    "sha256": "931eb903e15e3a1ca3b67f15090fb23885a24e7911da28872863cde244e733d5"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/lenticular/printing.py",
+    "bytes": 42085,
+    "sha256": "52a4f0ee9ad0447215c0d48f57d1633b21d2a0692f23a4490f22d4e9689eeb00"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/lenticular/studio.py",
+    "bytes": 8528,
+    "sha256": "c4fe64b5c0fc1f006515d3b5f37d97bc4839151c0fba00e428e70fb8bd0ea544"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/tools/analyze_scene.py",
+    "bytes": 5751,
+    "sha256": "dc8b885c48f505b7457e330cd751f57ddfb27d9fe64f125e26c23beb83df42e6"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/lenticular/web/app.js",
+    "bytes": 51760,
+    "sha256": "e097274dbd25feeb11ff6bae29d7df251f3f9468ee8feed6558cf353b4fd4b05"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/g-p-6ac08f7c2fe88191a25ea989c11950e1/lenticular/web/index.html",
+    "bytes": 23954,
+    "sha256": "78a5f984856508ecfcbfa98595a3dfd0b529f7c6958e5ec18eb4b700012c2dd2"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/blender/__init__.py",
+    "bytes": 69,
+    "sha256": "442ea632eb48aaf671c1ef14623d119c6776b5b567ea02c85b84eab50c25f678"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/calibration/pitch_test.py",
+    "bytes": 7132,
+    "sha256": "d0b107657f53e50558451442d8bc9007fd5e3bfee6fd38f845e4887c3b15fcf0"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/calibration/__init__.py",
+    "bytes": 225,
+    "sha256": "0c584a43cfe4c3c9e5028dca571ae17618a3a0ddccfb6f67705e5287a1332011"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/core/depth_optimizer.py",
+    "bytes": 8692,
+    "sha256": "1ea0436d659cfcfaa392da274a90312d08e53b8f70e41d2a95178c2f5cbd11cc"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/core/interlacing.py",
+    "bytes": 10244,
+    "sha256": "9bb44abd3691b2abceab9e6eec2b738c069b66cdfbf0a32fd65f1c7aa3e972dc"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/core/parallax_calculator.py",
+    "bytes": 14092,
+    "sha256": "18f8b0f93f105cc36386c097b987938f4c69ca5106c7ab8196147420b79e50a8"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/core/view_generator_dibr.py",
+    "bytes": 10910,
+    "sha256": "fa0f6ebdc5fc8aae599c55e8b46f5a027354113a59836529db676b1d6bfae2b2"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/core/__init__.py",
+    "bytes": 65,
+    "sha256": "ec5c3fe726b1e7f3123848170492265e801d039a540bb72cadbdcf1720b69194"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/ui/__init__.py",
+    "bytes": 50,
+    "sha256": "ce1fa3d05559cd8ed192b8465b8dcff95b26dc8ecd5efe7bf0c97c674a689d9e"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/utils/image_utils.py",
+    "bytes": 8753,
+    "sha256": "8e77bfebbc9f86b476cd35c31e760db6e9f03231e12828fedb2aae127b5ca121"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/utils/math_utils.py",
+    "bytes": 22080,
+    "sha256": "4dcb45dffda94941c145db0bddd78c2e95d4471a3079f86e581e783039f23e08"
+  },
+  {
+    "path": "source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/utils/__init__.py",
+    "bytes": 414,
+    "sha256": "3105627ae7be7a76ab1eb2e081b90b0ed1942174c46087cd8b09bc51a620740b"
+  }
+]

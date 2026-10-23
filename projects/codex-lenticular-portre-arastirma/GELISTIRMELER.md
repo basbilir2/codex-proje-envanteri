@@ -1,0 +1,26 @@
+# Yazılım geliştirme kayıtları
+
+Kaynak sürümleri ve teknik geliştirme notları korunur. Müşteri aktarım sonuçları, özel hesap bilgileri, borç/ödeme raporları ve kullanıcı profil kayıtları yayımlanmaz.
+
+- [requirements.txt](source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular/requirements.txt)
+- [README.md](source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/README.md)
+- [requirements.txt](source/archive-snapshots/research/work/studio-fixes-20261011/retired-projects-unique.zip-source/lenticular2/lenticular2/requirements.txt)
+- [AGENTS.md](source/research/AGENTS.md)
+- [LENTICULAR_ANA_MIMARI.md](source/research/LENTICULAR_ANA_MIMARI.md)
+- [LENTICULAR_GOREV_PLANI.md](source/research/LENTICULAR_GOREV_PLANI.md)
+- [UYGULAYICI_MODELE_DEVIR.md](source/research/UYGULAYICI_MODELE_DEVIR.md)
+- [baski-notlari.txt](source/research/fresh-portrait-20261011/trials/A/print/baski-notlari.txt)
+- [baski-notlari.txt](source/research/fresh-portrait-20261011/trials/B/print/baski-notlari.txt)
+- [baski-notlari.txt](source/research/fresh-portrait-20261011/trials/C/print/baski-notlari.txt)
+- [baski-notlari.txt](source/research/fullscene-20261009-141927/print-10/baski-notlari.txt)
+- [baski-notlari.txt](source/research/fullscene-20261009-141927/print-12/baski-notlari.txt)
+- [baski-notlari.txt](source/research/fullscene-20261009-141927/print-6/baski-notlari.txt)
+- [BASKI-VE-OKUMA.txt](source/research/output/pdf/60LPI-pitch-59-61/BASKI-VE-OKUMA.txt)
+- [baski-notlari.txt](source/research/pitch5020-depth-20261010/A/print-complete/baski-notlari.txt)
+- [baski-notlari.txt](source/research/pitch5020-depth-20261010/B/print/baski-notlari.txt)
+- [baski-notlari.txt](source/research/pitch5020-depth-20261010/C/print/baski-notlari.txt)
+- [baski-notlari.txt](source/research/portrait-75-100-20261009-35bdac/control-50/baski-notlari.txt)
+- [baski-notlari.txt](source/research/portrait-75-100-20261009-35bdac/print-100/baski-notlari.txt)
+- [baski-notlari.txt](source/research/portrait-75-100-20261009-35bdac/print-75/baski-notlari.txt)
+- [scene-analysis.txt](source/research/work/studio-fixes-20261011/ui-test-state/outputs/studio/20261011-141732-5a7bdb0a/scene-analysis.txt)
+- [vd-uygulama-talimati.md](source/research/work/vd-three-variant-plan/vd-uygulama-talimati.md)

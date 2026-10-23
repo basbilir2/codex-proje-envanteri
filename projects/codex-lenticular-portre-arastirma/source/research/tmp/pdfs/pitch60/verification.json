@@ -1,0 +1,222 @@
+{
+  "status": "digital_geometry_verified_physical_pitch_not_selected",
+  "page_mm": [
+    170,
+    215.139
+  ],
+  "pattern_width_mm": 130,
+  "png_ppi": 1200,
+  "png_pixels": [
+    8032,
+    10165
+  ],
+  "count": 41,
+  "step": "0.05",
+  "rows": [
+    {
+      "lpi": "59.00",
+      "measured_lpi": 58.999899,
+      "edges": 603
+    },
+    {
+      "lpi": "59.05",
+      "measured_lpi": 59.050005,
+      "edges": 604
+    },
+    {
+      "lpi": "59.10",
+      "measured_lpi": 59.099897,
+      "edges": 604
+    },
+    {
+      "lpi": "59.15",
+      "measured_lpi": 59.149843,
+      "edges": 605
+    },
+    {
+      "lpi": "59.20",
+      "measured_lpi": 59.199968,
+      "edges": 605
+    },
+    {
+      "lpi": "59.25",
+      "measured_lpi": 59.250023,
+      "edges": 606
+    },
+    {
+      "lpi": "59.30",
+      "measured_lpi": 59.299899,
+      "edges": 606
+    },
+    {
+      "lpi": "59.35",
+      "measured_lpi": 59.350075,
+      "edges": 607
+    },
+    {
+      "lpi": "59.40",
+      "measured_lpi": 59.399988,
+      "edges": 607
+    },
+    {
+      "lpi": "59.45",
+      "measured_lpi": 59.449932,
+      "edges": 608
+    },
+    {
+      "lpi": "59.50",
+      "measured_lpi": 59.499852,
+      "edges": 608
+    },
+    {
+      "lpi": "59.55",
+      "measured_lpi": 59.549862,
+      "edges": 609
+    },
+    {
+      "lpi": "59.60",
+      "measured_lpi": 59.5999,
+      "edges": 609
+    },
+    {
+      "lpi": "59.65",
+      "measured_lpi": 59.649878,
+      "edges": 610
+    },
+    {
+      "lpi": "59.70",
+      "measured_lpi": 59.69998,
+      "edges": 610
+    },
+    {
+      "lpi": "59.75",
+      "measured_lpi": 59.750065,
+      "edges": 611
+    },
+    {
+      "lpi": "59.80",
+      "measured_lpi": 59.799859,
+      "edges": 611
+    },
+    {
+      "lpi": "59.85",
+      "measured_lpi": 59.849812,
+      "edges": 612
+    },
+    {
+      "lpi": "59.90",
+      "measured_lpi": 59.899669,
+      "edges": 612
+    },
+    {
+      "lpi": "59.95",
+      "measured_lpi": 59.949064,
+      "edges": 613
+    },
+    {
+      "lpi": "60.00",
+      "measured_lpi": 60.0,
+      "edges": 613
+    },
+    {
+      "lpi": "60.05",
+      "measured_lpi": 60.050469,
+      "edges": 614
+    },
+    {
+      "lpi": "60.10",
+      "measured_lpi": 60.100163,
+      "edges": 614
+    },
+    {
+      "lpi": "60.15",
+      "measured_lpi": 60.149871,
+      "edges": 615
+    },
+    {
+      "lpi": "60.20",
+      "measured_lpi": 60.199873,
+      "edges": 615
+    },
+    {
+      "lpi": "60.25",
+      "measured_lpi": 60.250084,
+      "edges": 616
+    },
+    {
+      "lpi": "60.30",
+      "measured_lpi": 60.300044,
+      "edges": 616
+    },
+    {
+      "lpi": "60.35",
+      "measured_lpi": 60.350141,
+      "edges": 617
+    },
+    {
+      "lpi": "60.40",
+      "measured_lpi": 60.400086,
+      "edges": 617
+    },
+    {
+      "lpi": "60.45",
+      "measured_lpi": 60.450083,
+      "edges": 618
+    },
+    {
+      "lpi": "60.50",
+      "measured_lpi": 60.499995,
+      "edges": 618
+    },
+    {
+      "lpi": "60.55",
+      "measured_lpi": 60.55045,
+      "edges": 619
+    },
+    {
+      "lpi": "60.60",
+      "measured_lpi": 60.600052,
+      "edges": 620
+    },
+    {
+      "lpi": "60.65",
+      "measured_lpi": 60.649791,
+      "edges": 620
+    },
+    {
+      "lpi": "60.70",
+      "measured_lpi": 60.70028,
+      "edges": 621
+    },
+    {
+      "lpi": "60.75",
+      "measured_lpi": 60.750104,
+      "edges": 621
+    },
+    {
+      "lpi": "60.80",
+      "measured_lpi": 60.800049,
+      "edges": 622
+    },
+    {
+      "lpi": "60.85",
+      "measured_lpi": 60.850043,
+      "edges": 622
+    },
+    {
+      "lpi": "60.90",
+      "measured_lpi": 60.900034,
+      "edges": 623
+    },
+    {
+      "lpi": "60.95",
+      "measured_lpi": 60.950058,
+      "edges": 623
+    },
+    {
+      "lpi": "61.00",
+      "measured_lpi": 60.999908,
+      "edges": 624
+    }
+  ]
+}

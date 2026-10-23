@@ -1,0 +1,13 @@
+[
+  "https://github.com/ByteDance-Seed/Depth-Anything-3",
+  "https://github.com/advimman/lama",
+  "https://github.com/facebookresearch/sam2",
+  "https://github.com/hustvl/ViTMatte",
+  "https://github.com/hzwer/ECCV2022-RIFE",
+  "https://github.com/microsoft/MoGe",
+  "https://huggingface.co/Qwen/Qwen3-14B-GGUF",
+  "https://huggingface.co/Qwen/Qwen3-14B-GGUF/resolve/{revision}/{filename}",
+  "https://huggingface.co/Qwen/Qwen3-14B-GGUF/resolve/{revision}/{name}",
+  "https://huggingface.co/docs/transformers/model_doc/sam2",
+  "https://huggingface.co/{MODEL_ID}/resolve/{MODEL_REVISION}/{name}"
+]

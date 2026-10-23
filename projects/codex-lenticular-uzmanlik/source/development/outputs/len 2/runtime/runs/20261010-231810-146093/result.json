@@ -1,0 +1,13 @@
+{
+  "route": "ASTRA_REQUIRED",
+  "summary": "Araç hatası; yeni talimat gerekir: RIFE failed: invalid timestep argument",
+  "source_ids": [],
+  "missing": [],
+  "run_directory": "C:\\Users\\USER\\Documents\\Codex\\2026-10-10\\referenced-chatgpt-conversation-this-is-an\\outputs\\len 2\\runtime\\runs\\20261010-231810-146093",
+  "metadata": {
+    "inference_run": false,
+    "studio_actions_executed": false,
+    "external_inference_api": false,
+    "weights_trained": false
+  }
+}

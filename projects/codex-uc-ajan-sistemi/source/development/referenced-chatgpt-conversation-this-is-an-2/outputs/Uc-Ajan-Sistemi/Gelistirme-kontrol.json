@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "Tarayici gercek JavaScript hatasini buldu",
+    "Gercek tiklama, sonuc dogrulama ve ekran goruntusu gecti",
+    "Surum geri alindi; yeni dosya kurtarilabilir alana tasindi; canli veri korunuyor",
+    "Gercek ZIP paketi olustu; gizli ve canli veri dahil edilmedi",
+    "Kayitli proje siniri dogrulandi"
+  ],
+  "model_requests": 0
+}

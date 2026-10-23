@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-17T17:51:47Z",
+  "production_project_modified": false,
+  "configuration": {
+    "status": "passed",
+    "version": "1.19.3",
+    "models": {
+      "deepseek": "deepseek-ai/deepseek-v4.1-flash",
+      "glm": "z-ai/glm-5.3",
+      "nemotron": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+    },
+    "prompts_resolved": true
+  },
+  "offline_parallel_dispatch": {
+    "status": "passed",
+    "simulated_provider": true,
+    "real_opencode_dispatch": true,
+    "child_requests_overlap": true,
+    "request_count": 5
+  },
+  "nvidia_live": {
+    "status": "failed",
+    "probes": [
+      {
+        "agent": "nemotron",
+        "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+        "status": "passed",
+        "seconds": 16.59,
+        "first_byte_seconds": 6.1
+      },
+      {
+        "agent": "deepseek",
+        "status": "failed",
+        "reason": "connection_or_timeout"
+      },
+      {
+        "agent": "glm",
+        "status": "failed",
+        "reason": "connection_or_timeout"
+      }
+    ]
+  },
+  "nvidia_live_parallel_agents": {
+    "status": "not_run"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "optimizer_steps": 48,
+  "finite_losses": true,
+  "checkpoint_bytes": 236116888,
+  "sha256": "3727642c84e169791cea093623e82c3fd1ac5415d2b5875761bd5349e4e85f37",
+  "cloud_local_hash_match": true,
+  "conditioning_contract": "one-element image list, official Qwen 2511 multi-image path",
+  "quality_accepted": false
+}

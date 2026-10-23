@@ -1,0 +1,15 @@
+{
+  "model": "Qwen-Image-Edit-2511",
+  "runtime": "845646b034a12ed844966c84bd7585c8fcb37b7f",
+  "parameters": {
+    "steps": 40,
+    "cfg": 2.5,
+    "seed": 42,
+    "width": 512,
+    "height": 1104
+  },
+  "prompt": "Enhance the quality of this exact image. Restore clarity and natural fine details, reduce blur, noise and compression artifacts. Preserve the entire original scene, subject identity, facial structure, expression, all existing text and letter shapes, objects, illustration style, colors, geometry, composition and background. Keep every existing element in its original position. Do not invent text, objects or decorations. Do not crop, change the viewpoint or replace the background. Produce a clean, sharp and faithful high-quality version of the same image.",
+  "status": "failed",
+  "error": "Command '['app\\\\runtime\\\\sd-cli.exe', '--diffusion-model', 'C:\\\\Users\\\\USER\\\\Documents\\\\ChatGPT\\\\netleştirme\\\\app\\\\models\\\\qwen-image-edit-2511-Q4_K_M.gguf', '--llm', 'C:\\\\Users\\\\USER\\\\Documents\\\\ChatGPT\\\\netleştirme\\\\app\\\\models\\\\Qwen2.5-VL-7B-Instruct.Q4_K_M.gguf', '--llm_vision', 'C:\\\\Users\\\\USER\\\\Documents\\\\ChatGPT\\\\netleştirme\\\\app\\\\models\\\\Qwen2.5-VL-7B-Instruct.mmproj-Q8_0.gguf', '--vae', 'C:\\\\Users\\\\USER\\\\Documents\\\\ChatGPT\\\\netleştirme\\\\app\\\\models\\\\qwen_image_vae.safetensors', '-r', 'app\\\\inputs\\\\mavi.jpeg', '-p', 'Enhance the quality of this exact image. Restore clarity and natural fine details, reduce blur, noise and compression artifacts. Preserve the entire original scene, subject identity, facial structure, expression, all existing text and letter shapes, objects, illustration style, colors, geometry, composition and background. Keep every existing element in its original position. Do not invent text, objects or decorations. Do not crop, change the viewpoint or replace the background. Produce a clean, sharp and faithful high-quality version of the same image.', '--model-args', 'qwen_image_zero_cond_t=true', '--cfg-scale', '2.5', '--sampling-method', 'euler', '--flow-shift', '3', '--steps', '40', '--seed', '42', '--width', '512', '--height', '1104', '--threads', '8', '--diffusion-fa', '--vae-tiling', '-o', 'app\\\\jobs\\\\local-first\\\\result.pending.png', '--backend', 'cpu']' returned non-zero exit status 4294967295.",
+  "seconds": 537.35
+}

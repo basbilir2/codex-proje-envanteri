@@ -1,0 +1,392 @@
+{
+  "edits": {
+    "clipped_fraction": 0.0,
+    "linear_would_clip_fraction": 0.0,
+    "depth_curve": "balanced",
+    "balanced_budget": {
+      "front": {
+        "input_depth_span": 0.6120409965515137,
+        "gain": 0.3116698504138482,
+        "requested_percent": 0.780888888888889,
+        "attainable_percent": 0.780888888888889
+      },
+      "back": {
+        "input_depth_span": 0.38765814900398254,
+        "gain": 0.7217018360659905,
+        "requested_percent": 1.145303703703704,
+        "attainable_percent": 1.145303703703704
+      }
+    },
+    "stroke_count": 0,
+    "object_edits": [],
+    "zero_reference": 0.3879210352897644,
+    "input_range": [
+      0.00026287982473149896,
+      0.9999620318412781
+    ],
+    "output_range": [
+      0.10814744234085083,
+      0.5786757469177246
+    ]
+  },
+  "parallax": {
+    "requested_angle_deg": 2.3435448508782852,
+    "effective_angle_deg": 2.3435448508782852,
+    "angle_limited": false,
+    "parallax_limit_percent": 1.561777777777778,
+    "endpoint_disparity_px_range": [
+      -14.618229866027832,
+      21.440086364746094
+    ],
+    "max_parallax_percent": 1.1453037588005393,
+    "adjacent_view_step_px": 3.0628694806780135,
+    "edge_limited": false,
+    "edge_jump_p995_px_at_512": 0.4802101111412042,
+    "requested_edge_jump_p995_px_at_512": 0.4802101111412042,
+    "requested_parallax_percent": 1.1453037588005393,
+    "note": "Endpoint motion relative to the zero plane; a configurable geometric budget, not a measured optical limit.",
+    "reference_point": {
+      "x": 0.5120256547300909,
+      "y": 0.13948982886664513
+    },
+    "reference_endpoint_disparity_px": 0.0,
+    "reference_region_relief_px": 1.9359945058822632,
+    "reference_region_relief_percent": 0.10341850992960806
+  },
+  "repair_engine": "advanced",
+  "render_size": [
+    1872,
+    3098
+  ],
+  "source_size": [
+    1872,
+    3098
+  ],
+  "source_resolution_render": true,
+  "max_nonopaque_fraction": 0.0,
+  "mesh": {
+    "vertices": 13907200,
+    "triangles": 27770880,
+    "cut_triangles": 0,
+    "split_triangles": 0,
+    "focal_px": 2600.0,
+    "layer_count": 8
+  },
+  "restoration": {
+    "engine": "Depth layers / PyMatting / bounded hidden depth / shared LaMa color",
+    "layers": [
+      {
+        "depth_interval": [
+          0.0,
+          0.1787266880273819
+        ],
+        "alpha_fraction": 1.0,
+        "estimated_fraction": 0.949280760126467,
+        "matting": null,
+        "completion": {
+          "engine": "LaMa TorchScript v0.1.0 / CPU",
+          "model_size": [
+            631,
+            1024
+          ],
+          "estimated_fraction": 0.9653565500730463,
+          "visible_pixels_unchanged": true,
+          "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+        },
+        "texture_padding_px": 47,
+        "geometry_interval": [
+          0.0,
+          0.1786266880273819
+        ],
+        "mesh": {
+          "vertices": 1738400,
+          "triangles": 3471360,
+          "split_triangles": 0,
+          "cut_triangles": 0,
+          "focal_px": 2600.0
+        }
+      },
+      {
+        "depth_interval": [
+          0.1787266880273819,
+          0.2177163795817132
+        ],
+        "alpha_fraction": 0.949280760126467,
+        "estimated_fraction": 0.6350274922337543,
+        "matting": {
+          "engine": "PyMatting closed-form alpha + multilevel foreground",
+          "tiles": 18,
+          "uncertain_fraction": 0.022047930012746023,
+          "unresolved_fraction": 0.0,
+          "fractional_alpha_fraction": 0.01724385873433646,
+          "coverage_corrected_fraction": 0.012520139820010705,
+          "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+        },
+        "completion": {
+          "engine": "LaMa TorchScript v0.1.0 / CPU",
+          "model_size": [
+            619,
+            1024
+          ],
+          "estimated_fraction": 0.6517918232330756,
+          "visible_pixels_unchanged": true,
+          "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+        },
+        "texture_padding_px": 0,
+        "geometry_interval": [
+          0.17882668802738189,
+          0.2176163795817132
+        ],
+        "mesh": {
+          "vertices": 1738400,
+          "triangles": 3471360,
+          "split_triangles": 0,
+          "cut_triangles": 0,
+          "focal_px": 2600.0
+        }
+      },
+      {
+        "depth_interval": [
+          0.2177163795817132,
+          0.25474675757277243
+        ],
+        "alpha_fraction": 0.6350274922337543,
+        "estimated_fraction": 0.5018151702504511,
+        "matting": {
+          "engine": "PyMatting closed-form alpha + multilevel foreground",
+          "tiles": 27,
+          "uncertain_fraction": 0.02748102580655841,
+          "unresolved_fraction": 0.0,
+          "fractional_alpha_fraction": 0.021051974530024886,
+          "coverage_corrected_fraction": 0.015217116915793482,
+          "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+        },
+        "completion": {
+          "engine": "LaMa TorchScript v0.1.0 / CPU",
+          "model_size": [
+            619,
+            1024
+          ],
+          "estimated_fraction": 0.5193861286299957,
+          "visible_pixels_unchanged": true,
+          "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+        },
+        "texture_padding_px": 0,
+        "geometry_interval": [
+          0.21781637958171318,
+          0.25464675757277244
+        ],
+        "mesh": {
+          "vertices": 1738400,
+          "triangles": 3471360,
+          "split_triangles": 0,
+          "cut_triangles": 0,
+          "focal_px": 2600.0
+        }
+      },
+      {
+        "depth_interval": [
+          0.25474675757277243,
+          0.29706718956255446
+        ],
+        "alpha_fraction": 0.5018151702504511,
+        "estimated_fraction": 0.35199284208725784,
+        "matting": {
+          "engine": "PyMatting closed-form alpha + multilevel foreground",
+          "tiles": 31,
+          "uncertain_fraction": 0.028634409848096096,
+          "unresolved_fraction": 0.0,
+          "fractional_alpha_fraction": 0.02160961303956785,
+          "coverage_corrected_fraction": 0.0160247788758118,
+          "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+        },
+        "completion": {
+          "engine": "LaMa TorchScript v0.1.0 / CPU",
+          "model_size": [
+            619,
+            1024
+          ],
+          "estimated_fraction": 0.3712141276699056,
+          "visible_pixels_unchanged": true,
+          "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+        },
+        "texture_padding_px": 0,
+        "geometry_interval": [
+          0.2548467575727724,
+          0.29696718956255447
+        ],
+        "mesh": {
+          "vertices": 1738400,
+          "triangles": 3471360,
+          "split_triangles": 0,
+          "cut_triangles": 0,
+          "focal_px": 2600.0
+        }
+      },
+      {
+        "depth_interval": [
+          0.29706718956255446,
+          0.35517480224370956
+        ],
+        "alpha_fraction": 0.35199284208725784,
+        "estimated_fraction": 0.0864208643017552,
+        "matting": {
+          "engine": "PyMatting closed-form alpha + multilevel foreground",
+          "tiles": 28,
+          "uncertain_fraction": 0.03163796742315141,
+          "unresolved_fraction": 0.0,
+          "fractional_alpha_fraction": 0.02422451347160837,
+          "coverage_corrected_fraction": 0.017000904912460753,
+          "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+        },
+        "completion": {
+          "engine": "LaMa TorchScript v0.1.0 / CPU",
+          "model_size": [
+            619,
+            1024
+          ],
+          "estimated_fraction": 0.09673338326905144,
+          "visible_pixels_unchanged": true,
+          "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+        },
+        "texture_padding_px": 0,
+        "geometry_interval": [
+          0.29716718956255445,
+          0.3550748022437096
+        ],
+        "mesh": {
+          "vertices": 1738400,
+          "triangles": 3471360,
+          "split_triangles": 0,
+          "cut_triangles": 0,
+          "focal_px": 2600.0
+        }
+      },
+      {
+        "depth_interval": [
+          0.35517480224370956,
+          0.4363719448622535
+        ],
+        "alpha_fraction": 0.0864208643017552,
+        "estimated_fraction": 0.016093750862149828,
+        "matting": {
+          "engine": "PyMatting closed-form alpha + multilevel foreground",
+          "tiles": 16,
+          "uncertain_fraction": 0.016984006775807938,
+          "unresolved_fraction": 7.017899609894445e-05,
+          "fractional_alpha_fraction": 0.013157613403739938,
+          "coverage_corrected_fraction": 0.010192162851136383,
+          "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+        },
+        "completion": {
+          "engine": "LaMa TorchScript v0.1.0 / CPU",
+          "model_size": [
+            619,
+            1024
+          ],
+          "estimated_fraction": 0.01831620069192697,
+          "visible_pixels_unchanged": true,
+          "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+        },
+        "texture_padding_px": 0,
+        "geometry_interval": [
+          0.35527480224370955,
+          0.4362719448622535
+        ],
+        "mesh": {
+          "vertices": 1738400,
+          "triangles": 3471360,
+          "split_triangles": 0,
+          "cut_triangles": 0,
+          "focal_px": 2600.0
+        }
+      },
+      {
+        "depth_interval": [
+          0.4363719448622535,
+          0.5316229164600372
+        ],
+        "alpha_fraction": 0.016093750862149828,
+        "estimated_fraction": 0.010726523315290261,
+        "matting": {
+          "engine": "PyMatting closed-form alpha + multilevel foreground",
+          "tiles": 5,
+          "uncertain_fraction": 0.003627236761516942,
+          "unresolved_fraction": 0.0,
+          "fractional_alpha_fraction": 0.002642144366644044,
+          "coverage_corrected_fraction": 0.0022983190147489695,
+          "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+        },
+        "completion": {
+          "engine": "LaMa TorchScript v0.1.0 / CPU",
+          "model_size": [
+            619,
+            1024
+          ],
+          "estimated_fraction": 0.012692742215821623,
+          "visible_pixels_unchanged": true,
+          "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+        },
+        "texture_padding_px": 0,
+        "geometry_interval": [
+          0.4364719448622535,
+          0.5315229164600372
+        ],
+        "mesh": {
+          "vertices": 1738400,
+          "triangles": 3471360,
+          "split_triangles": 0,
+          "cut_triangles": 0,
+          "focal_px": 2600.0
+        }
+      },
+      {
+        "depth_interval": [
+          0.5316229164600372,
+          1.0
+        ],
+        "alpha_fraction": 0.010726523315290261,
+        "estimated_fraction": 0.0,
+        "matting": {
+          "engine": "PyMatting closed-form alpha + multilevel foreground",
+          "tiles": 3,
+          "uncertain_fraction": 0.00331203478395215,
+          "unresolved_fraction": 0.0,
+          "fractional_alpha_fraction": 0.0026555939039799594,
+          "coverage_corrected_fraction": 0.002489198986939465,
+          "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+        },
+        "completion": null,
+        "texture_padding_px": 0,
+        "geometry_interval": [
+          0.5317229164600372,
+          1.0
+        ],
+        "mesh": {
+          "vertices": 1738400,
+          "triangles": 3471360,
+          "split_triangles": 0,
+          "cut_triangles": 0,
+          "focal_px": 2600.0
+        }
+      }
+    ],
+    "padding_px": 47,
+    "partition": {
+      "method": "depth discontinuities at bounded working resolution",
+      "added_thresholds": [
+        0.25474675757277243,
+        0.4363719448622535,
+        0.29706718956255446,
+        0.2177163795817132
+      ],
+      "detected_edge_pairs": 4139,
+      "separated_edge_pairs": 3861,
+      "remaining_edge_pairs": 278,
+      "maximum_layers": 8
+    },
+    "border_method": "shared LaMa completion",
+    "alpha_feather_sigma_px": null,
+    "note": "Hidden color and geometry are inferred. Matting depends on correct initial silhouettes; ambiguous hair/veil still needs review."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "source_reprojection_errors": {
+    "whole_source": {
+      "before": {
+        "mean_absolute_rgb_error": 2.300095319747925,
+        "pixels_over_32_fraction": 0.003519640462829617
+      },
+      "after": {
+        "mean_absolute_rgb_error": 2.0207865238189697,
+        "pixels_over_32_fraction": 0.0003007178604338062
+      }
+    },
+    "hand": {
+      "before": {
+        "mean_absolute_rgb_error": 1.7600865364074707,
+        "pixels_over_32_fraction": 0.004067307692307692
+      },
+      "after": {
+        "mean_absolute_rgb_error": 1.4168188571929932,
+        "pixels_over_32_fraction": 0.00028365384615384613
+      }
+    },
+    "cloth_edge": {
+      "before": {
+        "mean_absolute_rgb_error": 2.1758196353912354,
+        "pixels_over_32_fraction": 0.012146381578947369
+      },
+      "after": {
+        "mean_absolute_rgb_error": 1.266729712486267,
+        "pixels_over_32_fraction": 0.00041940789473684213
+      }
+    }
+  },
+  "source_photo_sha256": "5b33c735c5001fb320920b33279f2ab20fb9543a6cdb01dae21344b83e931f40",
+  "source_depth_sha256": "1a54a0763965cdf7a9f15db7608718c1136ee72312a300379bece94ed3b2e9b6",
+  "modified_files": {
+    "lenticular/layers.py": "f65f6074d337ef37c8e7d93d956a9737ab2cabb6bf6d1b07eccf1f03fd4cec78",
+    "lenticular/restoration.py": "32cb33ae5bda65391240ef2ba65679c7167a33ccb2f2dacecb115e34dbddac65",
+    "lenticular/pipeline.py": "9d2ad2ecd5d0f2b289345ef7c7fc1ab5a79e51dfc21e283eccecc1b65987a4ad",
+    "lenticular/web/index.html": "2ca23b93bd00de5f58ec800789d3fe8a1e45e4e3ccf68505fa283a56cbd91ebe",
+    "tests/test_surface_quality.py": "a7af47bbb90264d06db183a238458dc351e3667ceb78818f62754612f660e0c7"
+  },
+  "note": "Source-camera color fidelity is not a side-view shape or physical-print score."
+}

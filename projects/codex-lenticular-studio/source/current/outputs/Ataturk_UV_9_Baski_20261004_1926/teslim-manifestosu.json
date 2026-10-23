@@ -1,0 +1,253 @@
+[
+  {
+    "file": "Ataturk_60LPI_1200DPI_12Gorsel_20x23.34cm_UV.tif",
+    "sha256": "4e7cae84921973e0d017f0d87b97b911ac234f8c3986edcb25da0ae8e108a1e6",
+    "bytes": 312618892,
+    "raster_size": [
+      9449,
+      11028
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.42600000000002
+    ],
+    "lpi": 60,
+    "dpi": 1200,
+    "views": 12,
+    "actual_angle_deg": 0.8353576777090304,
+    "max_parallax_percent": 1.3500000052571193,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 1.80° yerine 0.84° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 1200 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261004-192628-dfab554e"
+  },
+  {
+    "file": "Ataturk_60LPI_1200DPI_20Gorsel_20x23.34cm_UV.tif",
+    "sha256": "747174068e2221e86d84bb55e7df058f94563708dc89c0b1d9f86d2c30b87ccf",
+    "bytes": 312612236,
+    "raster_size": [
+      9449,
+      11028
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.42600000000002
+    ],
+    "lpi": 60,
+    "dpi": 1200,
+    "views": 20,
+    "actual_angle_deg": 0.8353576777090304,
+    "max_parallax_percent": 1.3500000052571193,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 1.80° yerine 0.84° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 1200 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261004-192628-0d14c387"
+  },
+  {
+    "file": "Ataturk_50LPI_1200DPI_24Gorsel_20x23.34cm_UV.tif",
+    "sha256": "a79be7fa6a70f25257c1bf855a4179d7e4125b8ec306720501500c16baf409af",
+    "bytes": 312612236,
+    "raster_size": [
+      9449,
+      11028
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.42600000000002
+    ],
+    "lpi": 50,
+    "dpi": 1200,
+    "views": 24,
+    "actual_angle_deg": 0.9281713408144601,
+    "max_parallax_percent": 1.500000078856791,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 1.80° yerine 0.93° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 1200 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261004-192628-d2ab5061"
+  },
+  {
+    "file": "Ataturk_75LPI_1200DPI_16Gorsel_20x23.34cm_UV.tif",
+    "sha256": "c4f21893a5304a6f6dfd6f724c527fea3e50847f0162dec4ebe08746e28ad7d6",
+    "bytes": 312612236,
+    "raster_size": [
+      9449,
+      11028
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.42600000000002
+    ],
+    "lpi": 75,
+    "dpi": 1200,
+    "views": 16,
+    "actual_angle_deg": 0.7425429185450312,
+    "max_parallax_percent": 1.2000000137999385,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 1.80° yerine 0.74° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 1200 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261004-192628-89264a96"
+  },
+  {
+    "file": "Ataturk_100LPI_1200DPI_12Gorsel_20x23.34cm_UV.tif",
+    "sha256": "34fbeb8b713088d3c625ecbdc7f7e320cc5288afcf1b81b708212af7861b1f9a",
+    "bytes": 312612236,
+    "raster_size": [
+      9449,
+      11028
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.42600000000002
+    ],
+    "lpi": 100,
+    "dpi": 1200,
+    "views": 12,
+    "actual_angle_deg": 0.618788411801287,
+    "max_parallax_percent": 0.9999999704287034,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 1.80° yerine 0.62° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 1200 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261004-192628-f52837c4"
+  },
+  {
+    "file": "Ataturk_60LPI_2400DPI_40Gorsel_20x23.34cm_UV.tif",
+    "sha256": "cbb14da0be0baaeac7b22684eed80f2e1c16d73ebe9d43a77ed284b97c589b1f",
+    "bytes": 1250388378,
+    "raster_size": [
+      18898,
+      22055
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.41541666666666
+    ],
+    "lpi": 60,
+    "dpi": 2400,
+    "views": 40,
+    "actual_angle_deg": 0.8353576777090304,
+    "max_parallax_percent": 1.3500000052571193,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 1.80° yerine 0.84° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 2400 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261004-201159-760a7b62"
+  },
+  {
+    "file": "Ataturk_50LPI_2400DPI_48Gorsel_20x23.34cm_UV.tif",
+    "sha256": "6594eccdefc74759044f6867edcd8b7e979ae096f46417b9165a83f7a5b2d68d",
+    "bytes": 1250388378,
+    "raster_size": [
+      18898,
+      22055
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.41541666666666
+    ],
+    "lpi": 50,
+    "dpi": 2400,
+    "views": 48,
+    "actual_angle_deg": 0.9281713408144601,
+    "max_parallax_percent": 1.500000078856791,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 1.80° yerine 0.93° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 2400 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261004-201159-903717e4"
+  },
+  {
+    "file": "Ataturk_75LPI_2400DPI_32Gorsel_20x23.34cm_UV.tif",
+    "sha256": "301aef40867d186076f725ac9bfdbc2b74ae7a187974cc1647d27ac7b2ae326b",
+    "bytes": 1250388378,
+    "raster_size": [
+      18898,
+      22055
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.41541666666666
+    ],
+    "lpi": 75,
+    "dpi": 2400,
+    "views": 32,
+    "actual_angle_deg": 0.7425429185450312,
+    "max_parallax_percent": 1.2000000137999385,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 1.80° yerine 0.74° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 2400 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261004-201159-c40f83b9"
+  },
+  {
+    "file": "Ataturk_100LPI_2400DPI_24Gorsel_20x23.34cm_UV.tif",
+    "sha256": "b54320b62da5f9d7eb27b68dce367f2a21332b70e127a662f20d779b3adb0b8f",
+    "bytes": 1250388378,
+    "raster_size": [
+      18898,
+      22055
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.41541666666666
+    ],
+    "lpi": 100,
+    "dpi": 2400,
+    "views": 24,
+    "actual_angle_deg": 0.618788411801287,
+    "max_parallax_percent": 0.9999999704287034,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 1.80° yerine 0.62° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 2400 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261004-201159-f0286002"
+  },
+  {
+    "file": "100 lpi alternatif 1200 dpi.tif",
+    "sha256": "d7d9546ce468691b770b6fa87139f638018ef104377c7fb3541f44ed362db0f1",
+    "bytes": 312612236,
+    "raster_size": [
+      9449,
+      11028
+    ],
+    "physical_size_mm": [
+      200.00383333333332,
+      233.42600000000002
+    ],
+    "lpi": 100,
+    "dpi": 1200,
+    "views": 12,
+    "actual_angle_deg": 1.113794792577818,
+    "max_parallax_percent": 1.800000061771153,
+    "empty_fraction": 0.0,
+    "warnings": [
+      "Paralaks sınırı nedeniyle açı 2.20° yerine 1.11° uygulandı.",
+      "Etkin LPI gerçek lens/yazıcı pitch baskısı ile doğrulanmadı; çıktı kalibrasyon taslağıdır.",
+      "Kaynak ayrıntısı yaklaşık 295 PPI; 1200 PPI raster çıktı ayrıntıyı yeniden örnekler."
+    ],
+    "job_id": "20261005-060241-f44e0b0a",
+    "alternative": true
+  }
+]

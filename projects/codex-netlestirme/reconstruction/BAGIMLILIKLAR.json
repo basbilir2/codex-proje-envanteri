@@ -1,0 +1,9 @@
+{
+  "manifests": [
+    "source/current/app/package-lock.json",
+    "source/current/app/package.json",
+    "source/current/on-kontrol/recovery-before-20261022/app/package.json",
+    "source/current/training/pilot-20261022/upstream/pyproject.toml"
+  ],
+  "policy": "Use preserved manifest and lock files; no personal account values are included."
+}

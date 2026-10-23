@@ -1,0 +1,1 @@
+İşlem, başka bir işlem tarafından kullanıldığından 'C:\Users\USER\Documents\Codex\2026-10-17\referenced-chatgpt-conversation-this-is-an-2\outputs\Uc-Ajan-Sistemi\.system\studio-startup.log' dosyasına erişemiyor.

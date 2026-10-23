@@ -1,0 +1,152 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 998,
+    "sha256": "5e9c4439c4c8a3a23fa315461845358a9f7ca885e2ad9cfdca29f8323b890b78"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 281,
+    "sha256": "cadce5f9274f087d36b5c5a89c5b7ad370cc8b6696a31e5d04a5d8c274750053"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1914,
+    "sha256": "5de9ae302b889f9c0215dcc035997bb327420d8177a2f8a157d4c850b54429c3"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 1414,
+    "sha256": "44bae6e8c8f719ce6fd947a61d4417555c4daddc8ca34fc8c93771f5865f15d7"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1089,
+    "sha256": "b88ffbf9cb35e82f526119fb93b9b4a2480f079a0f1ba78821080931e84f03ef"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 239,
+    "sha256": "0e4cc15303d0bf23f070cbe5bb7b1b765414cbb97bf0ddc81103362ecdb30e44"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 483,
+    "sha256": "43bcf141e2835cee1cb45047a664b31136d74aced9b3824f3601b585a27c5a32"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 250,
+    "sha256": "68f95c56b30dcb91ae3c72dcb173e2d8ef58842ffff1950c6dfb5a720f147162"
+  },
+  {
+    "path": "source/current/work/THesap/app.manifest",
+    "bytes": 318,
+    "sha256": "b440a6308cc929ffef708f82cf431c41a63ffd4d2f9a55414d1bb1fdbe0b3a5f"
+  },
+  {
+    "path": "source/current/work/THesap/CatalogSnapshot.json",
+    "bytes": 43,
+    "sha256": "0b6e69f5f86023a92e0cec69ff4a115fd3060da69c6374f57495a1cca395f811"
+  },
+  {
+    "path": "source/current/work/THesap/CatalogStore.cs",
+    "bytes": 1415,
+    "sha256": "9eb3c2bfae791d7ee8ac47b3582cf73cb9c1280ab56512cffe0a88187ae829bd"
+  },
+  {
+    "path": "source/current/work/THesap/MainForm.cs",
+    "bytes": 22894,
+    "sha256": "2b21914770d68906ed7de2e1bdd89d21b0225567dfafc4d622076c310e23ccc1"
+  },
+  {
+    "path": "source/current/work/THesap/Models.cs",
+    "bytes": 2984,
+    "sha256": "651dbdacbfcc25e563758de20cd9f15454945bd08364c2ba1cdaeb2d8a4a795d"
+  },
+  {
+    "path": "source/current/work/THesap/PriceManagementForm.cs",
+    "bytes": 11178,
+    "sha256": "edd1551d5c5a9b389379b45759c47f1f2446a72dfe61487e57b8718e5f175442"
+  },
+  {
+    "path": "source/current/work/THesap/PricingEngine.cs",
+    "bytes": 6320,
+    "sha256": "952cf90e84883761af7556534f6610d0f24d618348d6b03c1c3ece91f1e622ea"
+  },
+  {
+    "path": "source/current/work/THesap/Program.cs",
+    "bytes": 515,
+    "sha256": "c5f9678a6e186135345a439de93365d05633b013e3e1b92e1b23ac5b95ba2937"
+  },
+  {
+    "path": "source/current/work/THesap/README.md",
+    "bytes": 799,
+    "sha256": "b2ea351c53db98fc1880936b94629d68d65fefe94534044a651c9de2460f9aea"
+  },
+  {
+    "path": "source/current/work/THesap/SeedData.cs",
+    "bytes": 933,
+    "sha256": "a43a7c7e49571ae88b5ab161b8b2055f0ac76aa872ea9f5c9122dbd3269116f5"
+  },
+  {
+    "path": "source/current/work/THesap/SmokeTests.cs",
+    "bytes": 1277,
+    "sha256": "d9a16ec5e0cc64ae5bc2607eed3d44e48bb43a34f9ae1337daa2524d9b56f565"
+  },
+  {
+    "path": "source/current/work/THesap/THesap.csproj",
+    "bytes": 924,
+    "sha256": "0d70ca72735d6cd442f1ca76896df957431eb7e0b7a9762a7509b0ac68ac7f02"
+  },
+  {
+    "path": "source/current/work/THesap/UiTheme.cs",
+    "bytes": 2485,
+    "sha256": "ada96713971359764a84e8b5472f3d622c4cb62b21f459759b353921c33bf799"
+  },
+  {
+    "path": "source/current/work/THesap/THesap.Setup/Program.cs",
+    "bytes": 4410,
+    "sha256": "a77a768c0bc698c51f6ef37bf61c6e6c5febed384d672ccc24347bcf66e7aef0"
+  },
+  {
+    "path": "source/current/work/THesap/THesap.Setup/THesap.Setup.csproj",
+    "bytes": 773,
+    "sha256": "9652a90295a447780f30235bfc781b79e56aedf0bbb5cdc6e416343aa71e54cf"
+  }
+]

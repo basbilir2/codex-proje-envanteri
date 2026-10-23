@@ -1,0 +1,60 @@
+{
+  "source_recomposition": {
+    "mean_rgb": 0.0,
+    "large_error_fraction": 0.0
+  },
+  "surface_names": [
+    "Background",
+    "Continuous torso and shorts",
+    "left_arm",
+    "right_arm"
+  ],
+  "depth_partitioning": false,
+  "old_assets_used": false,
+  "completion": [
+    {
+      "engine": "LaMa TorchScript v0.1.0 / CPU",
+      "model_size": [
+        635,
+        1024
+      ],
+      "estimated_fraction": 0.5012854928704278,
+      "visible_pixels_unchanged": true,
+      "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth."
+    },
+    {
+      "engine": "PyMatting closed-form alpha + multilevel foreground",
+      "model_size": [
+        619,
+        1024
+      ],
+      "estimated_fraction": 0.04934376603598682,
+      "visible_pixels_unchanged": true,
+      "note": "One shared layer for all views. Hidden content is inferred; not recovered ground truth.",
+      "tiles": 31,
+      "uncertain_fraction": 0.03290325851252256,
+      "unresolved_fraction": 1.982944607218332e-05,
+      "fractional_alpha_fraction": 0.023979490490142523,
+      "coverage_corrected_fraction": 0.016875893187223077,
+      "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+    },
+    {
+      "engine": "PyMatting closed-form alpha + multilevel foreground",
+      "tiles": 5,
+      "uncertain_fraction": 0.004100729447727511,
+      "unresolved_fraction": 0.0,
+      "fractional_alpha_fraction": 0.0029666575623644702,
+      "coverage_corrected_fraction": 0.0025862770577102403,
+      "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+    },
+    {
+      "engine": "PyMatting closed-form alpha + multilevel foreground",
+      "tiles": 6,
+      "uncertain_fraction": 0.005027195654213085,
+      "unresolved_fraction": 0.0,
+      "fractional_alpha_fraction": 0.0034994661568257435,
+      "coverage_corrected_fraction": 0.0026128312724503816,
+      "source_consistency": "linear-light foreground conditioned on completed lower surfaces"
+    }
+  ]
+}

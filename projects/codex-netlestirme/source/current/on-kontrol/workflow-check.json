@@ -1,0 +1,18 @@
+{
+  "region": {
+    "left": 128,
+    "top": 100,
+    "width": 160,
+    "height": 180
+  },
+  "output": [
+    160,
+    180
+  ],
+  "seconds": 0.186,
+  "png_received": true,
+  "edited_saved": true,
+  "invalid_region_rejected": true,
+  "source_unchanged": true,
+  "job_id": "30e6c93a-de4e-469a-8dac-748f541b3934"
+}

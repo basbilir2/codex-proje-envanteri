@@ -1,0 +1,43 @@
+{
+  "name": "izmirde-reklam-siparis-takip-vs",
+  "version": "1.1.12",
+  "description": "İzmirde Reklam için güvenli sipariş takip uygulaması",
+  "author": "İzmirde Reklam",
+  "private": true,
+  "main": "main.cjs",
+  "scripts": {
+    "dist": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^38.1.2",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.izmirde.reklam.siparistakip.vs",
+    "productName": "İzmirde Reklam Sipariş Takip VS",
+    "asar": true,
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "desktop-oauth.cjs",
+      "whatsapp-extractor.cjs",
+      "whatsapp-preload.cjs",
+      "hosted/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "output": "release-vs"
+    },
+    "win": {
+      "target": "nsis",
+      "artifactName": "IzmirdeReklam-SiparisTakip-VS-Kurulum.exe"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "İzmirde Reklam Sipariş Takip VS"
+    }
+  }
+}

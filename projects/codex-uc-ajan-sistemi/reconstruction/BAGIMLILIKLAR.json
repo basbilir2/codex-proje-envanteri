@@ -1,0 +1,16 @@
+{
+  "manifests": [
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/automation/package-lock.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/automation/package.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/automation/requirements.txt",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/engine/config/opencode/package-lock.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/studio-data/engine/config/opencode/package.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/user/config/opencode/package-lock.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/outputs/Uc-Ajan-Sistemi/.system/user/config/opencode/package.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/work/runtime/package-lock.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/work/runtime/package.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/work/smoke/config/opencode/package-lock.json",
+    "source/development/referenced-chatgpt-conversation-this-is-an-2/work/smoke/config/opencode/package.json"
+  ],
+  "policy": "Use preserved manifest and lock files; no personal account values are included."
+}

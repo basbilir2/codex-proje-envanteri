@@ -1,0 +1,13 @@
+import sharp from 'sharp';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {detectPrint,isolatePrint} from './src/photo-extract.mjs';
+const file='C:/Users/USER/Downloads/WhatsApp Image 2026-10-19 at 13.34.07.jpeg';
+const full=await sharp(file).ensureAlpha().raw().toBuffer({resolveWithObject:true}),small=await sharp(file).resize({width:400,height:800,fit:'inside'}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+const detected=detectPrint({data:small.data,width:small.info.width,height:small.info.height}),sx=full.info.width/small.info.width,sy=full.info.height/small.info.height;
+const region=detected.region&&{x:Math.floor(detected.region.x*sx),y:Math.floor(detected.region.y*sy),width:Math.ceil(detected.region.width*sx),height:Math.ceil(detected.region.height*sy)};
+if(!region)throw Error('No region');
+await mkdir('../../work/latest-photo',{recursive:true});
+await sharp(file).extract({left:region.x,top:region.y,width:region.width,height:region.height}).png().toFile('../../work/latest-photo/crop.png');
+const baseline=isolatePrint({data:full.data,width:full.info.width,height:full.info.height},region,28);
+await sharp(Buffer.from(baseline.data),{raw:{width:baseline.width,height:baseline.height,channels:4}}).png().toFile('../../work/latest-photo/baseline.png');
+const report={size:[full.info.width,full.info.height],region,confidence:detected.confidence,bounds:baseline.bounds};await writeFile('../../work/latest-photo/detection.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));

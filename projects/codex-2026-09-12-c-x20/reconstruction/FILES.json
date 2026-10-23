@@ -1,0 +1,97 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 47,
+    "sha256": "cf2c08569512eff33d297f411ece9f4f86ac94304359f44eb0799616c8f906b7"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "98d5cf63bc44a8fbb7963e61428b3dd524bade0b8f216d1c5bb8c4f5bea9bf75"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 452,
+    "sha256": "f740a95adf35bfd69f367495160ee5878d0c9ddaa8aae5eef6ca9b123593396a"
+  },
+  {
+    "path": "EKSIKLER.md",
+    "bytes": 1731,
+    "sha256": "67e0351317690515ce7ec7609788ba1372fb2618d87ab2e46e03ea15312c3e78"
+  },
+  {
+    "path": "GELISTIRMELER.md",
+    "bytes": 230,
+    "sha256": "108b6828c24bda0b76cfd5787d05daa5a2d5e6a67cdf2a31fa8b784077aa64dd"
+  },
+  {
+    "path": "KURULUM.md",
+    "bytes": 1597,
+    "sha256": "9342be6211d18dbbf4854381ee216dc2edf2b7c4a96c22847f612ba04d0d242b"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1087,
+    "sha256": "34e81cd463386256f6f6b2e5e743a151c229314b5e1e8874cba6af1d360e3bc8"
+  },
+  {
+    "path": "MIMARI.md",
+    "bytes": 1004,
+    "sha256": "4a1e88b80c56be61e1db200532f201b7465bc1cf78eba76b6167e6649f8c0241"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1093,
+    "sha256": "88c1fb1237cbf0b468a38bcfa8cf97a6f57ef0df4ab412e16528ecb271316d79"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 401,
+    "sha256": "b2cfbffdb60eb1d2adb5badf0dd4be925816557299725175dc8573cad0808456"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 469,
+    "sha256": "69924cba035469094782a0f664182b2a1aab0b3c3dab893d21023625a2f2bf82"
+  },
+  {
+    "path": "reconstruction/BAGIMLILIKLAR.json",
+    "bytes": 119,
+    "sha256": "e64d7cfadc85264965c012c0105415a896cae23de1c960710ed67e3cf7fe7afd"
+  },
+  {
+    "path": "reconstruction/EXTERNAL_SOURCES.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "reconstruction/MODULES.json",
+    "bytes": 223,
+    "sha256": "344ec52f1b646269ceb6dffb533e4ac09af41a6ddb1951194123f03c6497e866"
+  },
+  {
+    "path": "reconstruction/PRIVACY.json",
+    "bytes": 251,
+    "sha256": "f9c75f8cd736eb667a4cb5b158e466bd9e8ba8057ed857cf2374186ef81e786b"
+  },
+  {
+    "path": "source/workspace/work/cleanup-approved-caches.ps1",
+    "bytes": 3716,
+    "sha256": "be4c0ac8384cdd2ded56b453601ca0f7aa0fd3a7dac6e88fa51899104e08dd8c"
+  },
+  {
+    "path": "source/workspace/work/delete-approved-chrome-model.ps1",
+    "bytes": 1316,
+    "sha256": "373037764e6743942645a72a66755a60c670e42810657cfe7061d6515d3b5f9c"
+  },
+  {
+    "path": "source/workspace/work/delete-approved-docker-data.ps1",
+    "bytes": 1570,
+    "sha256": "1e5c22d3b2770a077d5622e1e8cc2d4c0317df95489709d72cdeb02850a8e96f"
+  },
+  {
+    "path": "source/workspace/work/disk-audit.ps1",
+    "bytes": 4791,
+    "sha256": "0e7e5113b295186a3b9a5d4f8948a971a0a24e7f53130ddfd1bd937f2d0e616c"
+  }
+]

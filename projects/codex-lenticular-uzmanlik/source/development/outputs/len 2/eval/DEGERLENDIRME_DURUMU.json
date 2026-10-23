@@ -1,0 +1,13 @@
+{
+  "old_pilot_eligible": 15,
+  "teaching_job_retired_cases": [
+    "heldout_001"
+  ],
+  "new_expertise_pilot": 28,
+  "model_runs": 0,
+  "scores_are_null": true,
+  "physical_tests": 0,
+  "contamination_policy": "Sorular, beklenen yanıtlar ve özel test girdileri SFT/RAG kapsamı dışındadır. Aynı kaynak işin tüm türevleri tek bölüme atanır. 20261006-105350-02b4bafc öğretimde kullanılır; kör test değildir.",
+  "new_test_requirement": "Son sürümden sonra farklı fotoğraf, yeni iş kimliği ve tercihen yeni lens partileriyle insan tarafından saklı en az 100 görevlik kabul seti hazırlanmalıdır.",
+  "pilot_limit": "28 taslak senaryo uzmanlık başarısı değildir; aynı yazarın ölçütleri bağımsız değerlendirme yerine geçmez."
+}

@@ -1,0 +1,8 @@
+{
+  "tasks": [
+    {
+      "operation": "read_file",
+      "target": "generalvs-tiny-app/this-file-intentionally-does-not-exist.txt"
+    }
+  ]
+}

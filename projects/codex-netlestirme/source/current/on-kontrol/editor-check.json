@@ -1,0 +1,58 @@
+[
+  {
+    "stage": "before-brush",
+    "job": "0ee578ad-97b0-4185-8398-88851b8ac3d7",
+    "width": 194,
+    "height": 194,
+    "centreAlpha": 255,
+    "transparent": 0
+  },
+  {
+    "stage": "erased",
+    "job": "0ee578ad-97b0-4185-8398-88851b8ac3d7",
+    "width": 194,
+    "height": 194,
+    "centreAlpha": 0,
+    "transparent": 1539
+  },
+  {
+    "stage": "restored",
+    "job": "0ee578ad-97b0-4185-8398-88851b8ac3d7",
+    "width": 194,
+    "height": 194,
+    "centreAlpha": 180,
+    "transparent": 0
+  },
+  {
+    "stage": "v2-erased",
+    "job": "f1a412f0-18f9-4f20-a9c7-8ed9f8b1e12f",
+    "width": 97,
+    "height": 97,
+    "centreAlpha": 0,
+    "transparent": 892
+  },
+  {
+    "stage": "v2-restored",
+    "job": "f1a412f0-18f9-4f20-a9c7-8ed9f8b1e12f",
+    "width": 97,
+    "height": 97,
+    "centreAlpha": 255,
+    "transparent": 0
+  },
+  {
+    "stage": "v2-undo",
+    "job": "f1a412f0-18f9-4f20-a9c7-8ed9f8b1e12f",
+    "width": 97,
+    "height": 97,
+    "centreAlpha": 0,
+    "transparent": 892
+  },
+  {
+    "stage": "final-background-and-tones",
+    "job": "f1a412f0-18f9-4f20-a9c7-8ed9f8b1e12f",
+    "width": 97,
+    "height": 97,
+    "centreAlpha": 255,
+    "transparent": 2344
+  }
+]

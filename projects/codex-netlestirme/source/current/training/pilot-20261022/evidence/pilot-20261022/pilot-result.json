@@ -1,0 +1,51 @@
+{
+  "kind": "LoRA adaptation pilot",
+  "status": "failed",
+  "configuration": {
+    "schema": 1,
+    "upstream_repository": "https://github.com/modelscope/DiffSynth-Studio.git",
+    "upstream_revision": "d188f01d09013688dea27cc28f2e8dc0953c2543",
+    "model": "Qwen-Image-Edit-2511",
+    "training_cases": 6,
+    "validation_cases": 2,
+    "lora_rank": 16,
+    "learning_rate": 0.0001,
+    "dataset_repeat": 8,
+    "epochs": 1,
+    "planned_optimizer_steps": 48,
+    "checkpoint_file": "step-48.safetensors",
+    "width": 768,
+    "height": 512,
+    "seed": 42,
+    "evaluation_steps": 40,
+    "minimum_gpu_gib": 40,
+    "minimum_free_disk_gib": 65,
+    "session_wall_limit_seconds": 3600,
+    "training_timeout_seconds": 1500,
+    "cache_timeout_seconds": 420,
+    "evaluation_timeout_seconds": 900,
+    "session_spend_limit_usd": 1.0,
+    "overall_authorized_budget_usd": 15,
+    "last_seen_balance_usd": 10.26,
+    "max_quoted_total_usd_hour": 1.0,
+    "mavi_in_training": false,
+    "single_pilot_no_parameter_sweep": true,
+    "cached_preprocessing": true,
+    "status": "cloud_starting",
+    "pod_id": "fd6liiq3s5uged",
+    "observed_start_balance_usd": 10.24,
+    "observed_total_usd_hour": 0.6,
+    "container_disk_gb": 100,
+    "session_started_at_utc": "2026-10-22T12:38:39.822221+00:00"
+  },
+  "phases": [
+    {
+      "phase": "TRAIN",
+      "seconds": 29.16,
+      "exit_code": 1
+    }
+  ],
+  "reused_cache_examples": 6,
+  "seconds": 29.38,
+  "error": "TRAIN failed; no automatic retry"
+}

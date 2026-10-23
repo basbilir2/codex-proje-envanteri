@@ -1,0 +1,10 @@
+{
+  "model": "Qwen-Image-Edit-2511",
+  "runtime": {"repository":"https://github.com/leejet/stable-diffusion.cpp","revision":"845646b034a12ed844966c84bd7585c8fcb37b7f","windows_cpu":"https://github.com/leejet/stable-diffusion.cpp/releases/download/master-983-845646b/sd-master-845646b-bin-win-cpu-x64.zip"},
+  "files": [
+    {"role":"diffusion","name":"qwen-image-edit-2511-Q4_K_M.gguf","repo":"unsloth/Qwen-Image-Edit-2511-GGUF","revision":"0d33d9692b4b26212297240d87b0d4719aa4fd06","path":"qwen-image-edit-2511-Q4_K_M.gguf","size":13244758624,"sha256":"8677bac90627adbbc11efab87b1870e701c4eb3689ee865a3de8ab81b705a723","license":"Apache-2.0"},
+    {"role":"text","name":"Qwen2.5-VL-7B-Instruct.Q4_K_M.gguf","repo":"mradermacher/Qwen2.5-VL-7B-Instruct-GGUF","revision":"cfa2baa09946b211c107e6e104948987a64dd2c1","path":"Qwen2.5-VL-7B-Instruct.Q4_K_M.gguf","size":4683072512,"sha256":"0f00a930ba3108b6861ddadf74d8ebbd82e257c63eba728e62c3e8970f5eed94","license":"Apache-2.0 (Qwen/Qwen2.5-VL-7B-Instruct)"},
+    {"role":"vision","name":"Qwen2.5-VL-7B-Instruct.mmproj-Q8_0.gguf","repo":"mradermacher/Qwen2.5-VL-7B-Instruct-GGUF","revision":"cfa2baa09946b211c107e6e104948987a64dd2c1","path":"Qwen2.5-VL-7B-Instruct.mmproj-Q8_0.gguf","size":853119712,"sha256":"2185ca0adf339f96845318c7b666f5d242f86bbace5657a89cb834785d0cea57","license":"Apache-2.0 (Qwen/Qwen2.5-VL-7B-Instruct)"},
+    {"role":"vae","name":"qwen_image_vae.safetensors","repo":"Comfy-Org/Qwen-Image_ComfyUI","revision":"1f12b17be14c89b026c51a91d67c32f84bb047bc","path":"split_files/vae/qwen_image_vae.safetensors","size":253806246,"sha256":"a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f","license":"Apache-2.0"}
+  ]
+}
