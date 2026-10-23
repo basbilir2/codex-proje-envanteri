@@ -10,11 +10,11 @@ Maintained by [basbilir2](https://github.com/basbilir2). This portfolio collects
 | [Design Recovery / Netleştirme](https://github.com/basbilir2/codex-netlestirme) | Image understanding and artwork reconstruction experiments |
 | [DTF Studio](https://github.com/basbilir2/codex-dtf-studio) | DTF artwork and print-layout workflows |
 | [Sipariş Takip](https://github.com/basbilir2/codex-siparis-takip) | Order-tracking software |
-| [Sipariş Takip VS](https://github.com/basbilir2/codex-siparis-takip-vs) | Independent order-tracking project |
+| [Sipariş Takip VS](projects/codex-siparis-takip-vs/) | Independent order-tracking project |
 | [BTakip](https://github.com/basbilir2/codex-btakip) | Stock and business tracking |
-| [THesap](https://github.com/basbilir2/codex-thesap) | Cost and pricing calculations |
-| [GeneralVS / agent work](https://github.com/basbilir2/codex-generalvs-calismalari) | Local development-worker experiments |
-| [Local AI OS](https://github.com/basbilir2/codex-local-ai-os) | Local AI workflow experiments |
+| [THesap](projects/codex-thesap/) | Cost and pricing calculations |
+| [GeneralVS / agent work](projects/codex-generalvs-calismalari/) | Local development-worker experiments |
+| [Local AI OS](projects/codex-local-ai-os/) | Local AI workflow experiments |
 
 ## Planned development agent
 
